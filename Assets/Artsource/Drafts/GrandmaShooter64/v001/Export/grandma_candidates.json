@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "work_id": "HG-BASE64",
+  "version": "v001",
+  "date": "2026-10-21",
+  "state": "base candidates; design selection pending",
+  "method": "Original pixel artwork drawn with Aseprite Lua pixel API",
+  "aseprite_version": "1.3.18.6",
+  "candidates": [
+    {
+      "candidate": 1,
+      "asset_name": "grandma_01_rose",
+      "source": "grandma_01_rose.aseprite",
+      "export": "Export/grandma_01_rose.png",
+      "export_no_fx": "Export/grandma_01_rose_no_fx.png",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "cell_px": [
+        64,
+        64
+      ],
+      "color_mode": "RGB",
+      "frames": 1,
+      "tag": "shoot_base",
+      "frame_duration_ms": [
+        100
+      ],
+      "coordinate_system": "PNG top-left (0,0), x right, y down, pixel units",
+      "ground_last_pixel_y": 59,
+      "ground_boundary_y": 60,
+      "body_ground_anchor": [
+        29,
+        60
+      ],
+      "primary_grip": [
+        37,
+        39
+      ],
+      "support_grip": [
+        44,
+        37
+      ],
+      "muzzle": [
+        54,
+        35
+      ],
+      "pivot_proposal_unity_normalized": [
+        0.453125,
+        0.0625
+      ],
+      "pivot_applied_to_importer": false,
+      "bounds_xywh": [
+        13,
+        8,
+        49,
+        52
+      ],
+      "palette_slots": 28,
+      "transparent_slots": 1,
+      "used_opaque_colors": 20,
+      "layers_bottom_to_top": [
+        {
+          "blend_mode": "3",
+          "index": 1,
+          "isVisible": true,
+          "name": "01_Legs_Shoes",
+          "opacity": 255
+        },
+        {
+          "blend_mode": "3",
+          "index": 2,
+          "isVisible": true,
+          "name": "02_Cardigan_Apron",
+          "opacity": 255
+        },
+        {
+          "blend_mode": "3",
+          "index": 3,
+          "isVisible": true,
+          "name": "03_Silver_Bun_Face",
+          "opacity": 255
+        },
+        {
+          "blend_mode": "3",
+          "index": 4,
+          "isVisible": true,
+          "name": "04_Sleeves_Arms",
+          "opacity": 255
+        },
+        {
+          "blend_mode": "3",
+          "index": 5,
+          "isVisible": true,
+          "name": "05_Wooden_Shotgun",
+          "opacity": 255
+        },
+        {
+          "blend_mode": "3",
+          "index": 6,
+          "isVisible": true,
+          "name": "06_Grip_Hands",
+          "opacity": 255
+        },
+        {
+          "blend_mode": "3",
+          "index": 7,
+          "isVisible": true,
+          "name": "07_Muzzle_FX",
+          "opacity": 255
+        }
+      ],
+      "default_visibility": "all 7 layers visible",
+      "no_fx_visibility": "layers 1-6 visible; layer 7 hidden",
+      "runtime_connected": false
+    },
+    {
+      "candidate": 2,
+      "asset_name": "grandma_02_ranger",
+      "source": "grandma_02_ranger.aseprite",
+      "export": "Export/grandma_02_ranger.png",
+      "export_no_fx": "Export/grandma_02_ranger_no_fx.png",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "cell_px": [
+        64,
+        64
+      ],
+      "color_mode": "RGB",
+      "frames": 1,
+      "tag": "shoot_base",
+      "frame_duration_ms": [
+        100
+      ],
+      "coordinate_system": "PNG top-left (0,0), x right, y down, pixel units",
+      "ground_last_pixel_y": 59,
+      "ground_boundary_y": 60,
+      "body_ground_anchor": [
+        29,
+        60
+      ],
+      "primary_grip": [
+        37,
+        38
+      ],
+      "support_grip": [
+        45,
+        37
+      ],
+      "muzzle": [
+        54,
+        34
+      ],
+      "pivot_proposal_unity_normalized": [
+        0.453125,
+        0.0625
+      ],
+      "pivot_applied_to_importer": false,
+      "bounds_xywh": [
+        15,
+        9,
+        48,
+        51
+      ],
+      "palette_slots": 28,
+      "transparent_slots": 1,
+      "used_opaque_colors": 19,
+      "layers_bottom_to_top": [
+        {
+          "blend_mode": "3",
+          "index": 1,
+          "isVisible": true,
+          "name": "01_Legs_Boots",
+          "opacity": 255
+        },
+        {
+          "blend_mode": "3",
+          "index": 2,
+          "isVisible": true,
+          "name": "02_Hunter_Coat",
+          "opacity": 255
+        },
+        {
+          "blend_mode": "3",
+          "index": 3,
+          "isVisible": true,
+          "name": "03_Ranger_Hat_Face",
+          "opacity": 255
+        },
+        {
+          "blend_mode": "3",
+          "index": 4,
+          "isVisible": true,
+          "name": "04_Coat_Arms",
+          "opacity": 255
+        },
+        {
+          "blend_mode": "3",
+          "index": 5,
+          "isVisible": true,
+          "name": "05_Brass_Rifle",
+          "opacity": 255
+        },
+        {
+          "blend_mode": "3",
+          "index": 6,
+          "isVisible": true,
+          "name": "06_Grip_Hands",
+          "opacity": 255
+        },
+        {
+          "blend_mode": "3",
+          "index": 7,
+          "isVisible": true,
+          "name": "07_Muzzle_FX",
+          "opacity": 255
+        }
+      ],
+      "default_visibility": "all 7 layers visible",
+      "no_fx_visibility": "layers 1-6 visible; layer 7 hidden",
+      "runtime_connected": false
+    },
+    {
+      "candidate": 3,
+      "asset_name": "grandma_03_lavender",
+      "source": "grandma_03_lavender.aseprite",
+      "export": "Export/grandma_03_lavender.png",
+      "export_no_fx": "Export/grandma_03_lavender_no_fx.png",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "cell_px": [
+        64,
+        64
+      ],
+      "color_mode": "RGB",
+      "frames": 1,
+      "tag": "shoot_base",
+      "frame_duration_ms": [
+        100
+      ],
+      "coordinate_system": "PNG top-left (0,0), x right, y down, pixel units",
+      "ground_last_pixel_y": 59,
+      "ground_boundary_y": 60,
+      "body_ground_anchor": [
+        29,
+        60
+      ],
+      "primary_grip": [
+        43,
+        40
+      ],
+      "support_grip": [
+        39,
+        40
+      ],
+      "muzzle": [
+        54,
+        35
+      ],
+      "pivot_proposal_unity_normalized": [
+        0.453125,
+        0.0625
+      ],
+      "pivot_applied_to_importer": false,
+      "bounds_xywh": [
+        15,
+        9,
+        48,
+        51
+      ],
+      "palette_slots": 28,
+      "transparent_slots": 1,
+      "used_opaque_colors": 23,
+      "layers_bottom_to_top": [
+        {
+          "blend_mode": "3",
+          "index": 1,
+          "isVisible": true,
+          "name": "01_Tights_Slippers",
+          "opacity": 255
+        },
+        {
+          "blend_mode": "3",
+          "index": 2,
+          "isVisible": true,
+          "name": "02_Lavender_Dress_Apron",
+          "opacity": 255
+        },
+        {
+          "blend_mode": "3",
+          "index": 3,
+          "isVisible": true,
+          "name": "03_Curly_Hair_Face",
+          "opacity": 255
+        },
+        {
+          "blend_mode": "3",
+          "index": 4,
+          "isVisible": true,
+          "name": "04_Sweater_Arms",
+          "opacity": 255
+        },
+        {
+          "blend_mode": "3",
+          "index": 5,
+          "isVisible": true,
+          "name": "05_Compact_Pistol",
+          "opacity": 255
+        },
+        {
+          "blend_mode": "3",
+          "index": 6,
+          "isVisible": true,
+          "name": "06_Grip_Hands",
+          "opacity": 255
+        },
+        {
+          "blend_mode": "3",
+          "index": 7,
+          "isVisible": true,
+          "name": "07_Muzzle_FX",
+          "opacity": 255
+        }
+      ],
+      "default_visibility": "all 7 layers visible",
+      "no_fx_visibility": "layers 1-6 visible; layer 7 hidden",
+      "runtime_connected": false
+    }
+  ]
+}

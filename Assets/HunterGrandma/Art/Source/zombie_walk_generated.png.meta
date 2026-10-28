@@ -1,0 +1,2028 @@
+fileFormatVersion: 2
+guid: 2d473dc1d082a6f4ca80571627516555
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6441776004839575958
+    second: zombie_walk_generated_0
+  - first:
+      213: -6380771300849694777
+    second: zombie_walk_generated_1
+  - first:
+      213: -5933853447998657666
+    second: zombie_walk_generated_2
+  - first:
+      213: -8849353716425481731
+    second: zombie_walk_generated_3
+  - first:
+      213: 3954395494597942917
+    second: zombie_walk_generated_4
+  - first:
+      213: -1240796518560531103
+    second: zombie_walk_generated_5
+  - first:
+      213: -2344357543523027408
+    second: zombie_walk_generated_6
+  - first:
+      213: 5945402277312729434
+    second: zombie_walk_generated_7
+  - first:
+      213: 5682557514313710810
+    second: zombie_walk_generated_8
+  - first:
+      213: 1401053702890584557
+    second: zombie_walk_generated_9
+  - first:
+      213: -5585088938447630670
+    second: zombie_walk_generated_10
+  - first:
+      213: 357876166730266970
+    second: zombie_walk_generated_11
+  - first:
+      213: -5991402109811837847
+    second: zombie_walk_generated_12
+  - first:
+      213: -1670418750450715557
+    second: zombie_walk_generated_13
+  - first:
+      213: 7980078337796348226
+    second: zombie_walk_generated_14
+  - first:
+      213: -5506285134265036305
+    second: zombie_walk_generated_15
+  - first:
+      213: 8097711340931849317
+    second: zombie_walk_generated_16
+  - first:
+      213: -3269274704910311216
+    second: zombie_walk_generated_17
+  - first:
+      213: 8488626935175070075
+    second: zombie_walk_generated_18
+  - first:
+      213: -6224719073927774045
+    second: zombie_walk_generated_19
+  - first:
+      213: 5000626623840478490
+    second: zombie_walk_generated_20
+  - first:
+      213: 1040320214475890174
+    second: zombie_walk_generated_21
+  - first:
+      213: -8110992744089795085
+    second: zombie_walk_generated_22
+  - first:
+      213: -1261991310814217664
+    second: zombie_walk_generated_23
+  - first:
+      213: -7003558942732429726
+    second: zombie_walk_generated_24
+  - first:
+      213: -3572141121441287501
+    second: zombie_walk_generated_25
+  - first:
+      213: -4401203703335486138
+    second: zombie_walk_generated_26
+  - first:
+      213: 8210493081409940216
+    second: zombie_walk_generated_27
+  - first:
+      213: 1724731204376986159
+    second: zombie_walk_generated_28
+  - first:
+      213: -7941329753415691900
+    second: zombie_walk_generated_29
+  - first:
+      213: 7393939987023396794
+    second: zombie_walk_generated_30
+  - first:
+      213: 4965133080166251829
+    second: zombie_walk_generated_31
+  - first:
+      213: 3539151609924503986
+    second: zombie_walk_generated_32
+  - first:
+      213: 1645544129336104263
+    second: zombie_walk_generated_33
+  - first:
+      213: -2940427556975226612
+    second: zombie_walk_generated_34
+  - first:
+      213: -307154190677629374
+    second: zombie_walk_generated_35
+  - first:
+      213: -667455164888316874
+    second: zombie_walk_generated_36
+  - first:
+      213: -1648828620923080888
+    second: zombie_walk_generated_37
+  - first:
+      213: 2320673588529097602
+    second: zombie_walk_generated_38
+  - first:
+      213: -7446052652665303585
+    second: zombie_walk_generated_39
+  - first:
+      213: 4148997413668416871
+    second: zombie_walk_generated_40
+  - first:
+      213: -2322843519559198312
+    second: zombie_walk_generated_41
+  - first:
+      213: -4472979683155359961
+    second: zombie_walk_generated_42
+  - first:
+      213: 7532309424177615024
+    second: zombie_walk_generated_43
+  - first:
+      213: -1819864630485941833
+    second: zombie_walk_generated_44
+  - first:
+      213: 534200625976487105
+    second: zombie_walk_generated_45
+  - first:
+      213: -6807769461620979436
+    second: zombie_walk_generated_46
+  - first:
+      213: -9202925279430510783
+    second: zombie_walk_generated_47
+  - first:
+      213: -5034913368675259911
+    second: zombie_walk_generated_48
+  - first:
+      213: 2200566040618943811
+    second: zombie_walk_generated_49
+  - first:
+      213: -2592681496671678912
+    second: zombie_walk_generated_50
+  - first:
+      213: -2446975836512772027
+    second: zombie_walk_generated_51
+  - first:
+      213: 1712051998661576685
+    second: zombie_walk_generated_52
+  - first:
+      213: 2369406855206637220
+    second: zombie_walk_generated_53
+  - first:
+      213: -7007625166436504189
+    second: zombie_walk_generated_54
+  - first:
+      213: -884763780961252798
+    second: zombie_walk_generated_55
+  - first:
+      213: 4056461547466911499
+    second: zombie_walk_generated_56
+  - first:
+      213: 8533930742790154465
+    second: zombie_walk_generated_57
+  - first:
+      213: -5889044155534187141
+    second: zombie_walk_generated_58
+  - first:
+      213: -8825934499170881694
+    second: zombie_walk_generated_59
+  - first:
+      213: -7673329135591913414
+    second: zombie_walk_generated_60
+  - first:
+      213: 6131757061240891557
+    second: zombie_walk_generated_61
+  - first:
+      213: -3969186491913256939
+    second: zombie_walk_generated_62
+  - first:
+      213: 7498880868865049584
+    second: zombie_walk_generated_63
+  - first:
+      213: -6275230619359000220
+    second: zombie_walk_generated_64
+  - first:
+      213: -2085699080542381567
+    second: zombie_walk_generated_65
+  - first:
+      213: -1000470319522831895
+    second: zombie_walk_generated_66
+  - first:
+      213: 2647055838904103555
+    second: zombie_walk_generated_67
+  - first:
+      213: 1474628086438813195
+    second: zombie_walk_generated_68
+  - first:
+      213: -5342208112260933617
+    second: zombie_walk_generated_69
+  - first:
+      213: 5520419543166717625
+    second: zombie_walk_generated_70
+  - first:
+      213: 926894288047769811
+    second: zombie_walk_generated_71
+  - first:
+      213: 8239585076209752247
+    second: zombie_walk_generated_72
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zombie_walk_generated_0
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 789
+        width: 155
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ee6e48ad63a96a0800000000000000
+      internalID: -6441776004839575958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_1
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 848
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7c8d30f42f277a0800000000000000
+      internalID: -6380771300849694777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_2
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 860
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b20da5ab7b6ada0800000000000000
+      internalID: -5933853447998657666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_3
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 862
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df12da84ea7c03580800000000000000
+      internalID: -8849353716425481731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_4
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 765
+        width: 225
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e5ae440c5d0e630800000000000000
+      internalID: 3954395494597942917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_5
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 749
+        width: 209
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d78a0f32ec7cee0800000000000000
+      internalID: -1240796518560531103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_6
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 840
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0367dcf2c3b277fd0800000000000000
+      internalID: -2344357543523027408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_7
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 809
+        width: 59
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5116020fdf428250800000000000000
+      internalID: 5945402277312729434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_8
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 813
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc3568a3ff7cde40800000000000000
+      internalID: 5682557514313710810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_9
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 811
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9f9007bea817310800000000000000
+      internalID: 1401053702890584557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_10
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 805
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be8dd89337cd72b0800000000000000
+      internalID: -5585088938447630670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_11
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 811
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59398f3a7e67f400800000000000000
+      internalID: 357876166730266970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_12
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 757
+        width: 76
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964b32266834adca0800000000000000
+      internalID: -5991402109811837847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_13
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 773
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54bb392ffa71d8e0800000000000000
+      internalID: -1670418750450715557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_14
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 709
+        width: 67
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249142cc7feeebe60800000000000000
+      internalID: 7980078337796348226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_15
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 780
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe15e1c08deb593b0800000000000000
+      internalID: -5506285134265036305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_16
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 755
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c15e1af89d06070800000000000000
+      internalID: 8097711340931849317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_17
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 781
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0a6ac2af331a2d0800000000000000
+      internalID: -3269274704910311216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_18
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 765
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b714ced0939adc570800000000000000
+      internalID: 8488626935175070075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_19
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 741
+        width: 67
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0cfe37bfa5d99a0800000000000000
+      internalID: -6224719073927774045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_20
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 733
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a156f508b6bc56540800000000000000
+      internalID: 5000626623840478490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_21
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 698
+        width: 110
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd5e7429b5ff6e00800000000000000
+      internalID: 1040320214475890174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_22
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 769
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5c1c8b217ff6f80800000000000000
+      internalID: -8110992744089795085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 559
+        height: 755
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04af941d6918c7ee0800000000000000
+      internalID: -1261991310814217664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_24
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 750
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2665cee7f3c5ece90800000000000000
+      internalID: -7003558942732429726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_25
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 0
+        width: 518
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b23de873943d6ec0800000000000000
+      internalID: -3572141121441287501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_26
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 668
+        width: 39
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64dfd86ec88cbe2c0800000000000000
+      internalID: -4401203703335486138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_27
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 0
+        width: 653
+        height: 758
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8faed3cd4f781f170800000000000000
+      internalID: 8210493081409940216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_28
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 741
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f220ce174e97fe710800000000000000
+      internalID: 1724731204376986159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_29
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 706
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481da6b0aaabac190800000000000000
+      internalID: -7941329753415691900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_30
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 746
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abff5115e3d8c9660800000000000000
+      internalID: 7393939987023396794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_31
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 716
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53db9d1ea32b7e440800000000000000
+      internalID: 4965133080166251829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_32
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 743
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b94dc353a79d1130800000000000000
+      internalID: 3539151609924503986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_33
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 725
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745de4bcaa526d610800000000000000
+      internalID: 1645544129336104263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_34
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 723
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01d8ba47b08137d0800000000000000
+      internalID: -2940427556975226612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_35
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 682
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246236514e4ccbbf0800000000000000
+      internalID: -307154190677629374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_36
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 703
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63405595019bcb6f0800000000000000
+      internalID: -667455164888316874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_37
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 704
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84fe16aea1f2e19e0800000000000000
+      internalID: -1648828620923080888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_38
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 709
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b68e35550b43020800000000000000
+      internalID: 2320673588529097602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_39
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 706
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd8703309e4aa890800000000000000
+      internalID: -7446052652665303585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_40
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 694
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d68b75a23349930800000000000000
+      internalID: 4148997413668416871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_41
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 666
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8991bdb302a93cfd0800000000000000
+      internalID: -2322843519559198312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_42
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 646
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7274cf15da8cce1c0800000000000000
+      internalID: -4472979683155359961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_43
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 636
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b01f6e6383288860800000000000000
+      internalID: 7532309424177615024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_44
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 618
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b18698b2ca8eb6e0800000000000000
+      internalID: -1819864630485941833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_45
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 491
+        width: 74
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ccae1693acd96700800000000000000
+      internalID: 534200625976487105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_46
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 604
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41944576eb1f581a0800000000000000
+      internalID: -6807769461620979436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_47
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 588
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147f411b734a84080800000000000000
+      internalID: -9202925279430510783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_48
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 586
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9ee31a7f4602ab0800000000000000
+      internalID: -5034913368675259911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_49
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 588
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34541e3a72bf98e10800000000000000
+      internalID: 2200566040618943811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_50
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 566
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e08275ae1f40cd0800000000000000
+      internalID: -2592681496671678912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_51
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 448
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54021baf0789a0ed0800000000000000
+      internalID: -2446975836512772027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_52
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 436
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de78831d83e62c710800000000000000
+      internalID: 1712051998661576685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_53
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 436
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae87fc2bf2d1e020800000000000000
+      internalID: 2369406855206637220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_54
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 426
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38de6730a0aefbe90800000000000000
+      internalID: -7007625166436504189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_55
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 325
+        width: 52
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a4ca56700b8b3f0800000000000000
+      internalID: -884763780961252798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_56
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 409
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0febcd09427b4830800000000000000
+      internalID: 4056461547466911499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_57
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 369
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8eacdbbcc9e6670800000000000000
+      internalID: 8533930742790154465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_58
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 356
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b756bc2ca89e54ea0800000000000000
+      internalID: -5889044155534187141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_59
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 338
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fed06b55bf38580800000000000000
+      internalID: -8825934499170881694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_60
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 327
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3883646ecbd28590800000000000000
+      internalID: -7673329135591913414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_61
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 321
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8a14c4f80681550800000000000000
+      internalID: 6131757061240891557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_62
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 283
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5104b3e4aed9ae8c0800000000000000
+      internalID: -3969186491913256939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_63
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 190
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f38ca16b60611860800000000000000
+      internalID: 7498880868865049584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_64
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 135
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469c371dff6e9e8a0800000000000000
+      internalID: -6275230619359000220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_65
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 67
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a99eb9cbb1e03e0800000000000000
+      internalID: -2085699080542381567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_66
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 63
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1258c8b8d9d12f0800000000000000
+      internalID: -1000470319522831895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_67
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 83
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382b082c24b3cb420800000000000000
+      internalID: 2647055838904103555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_68
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 23
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0edff38e6ee67410800000000000000
+      internalID: 1474628086438813195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_69
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 33
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f081a70b60aacd5b0800000000000000
+      internalID: -5342208112260933617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_70
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 15
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be839973587c9c40800000000000000
+      internalID: 5520419543166717625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_71
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 23
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d80d6fa17dfcdc00800000000000000
+      internalID: 926894288047769811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_walk_generated_72
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 0
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8971cb8f2e85270800000000000000
+      internalID: 8239585076209752247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      zombie_walk_generated_0: -6441776004839575958
+      zombie_walk_generated_1: -6380771300849694777
+      zombie_walk_generated_10: -5585088938447630670
+      zombie_walk_generated_11: 357876166730266970
+      zombie_walk_generated_12: -5991402109811837847
+      zombie_walk_generated_13: -1670418750450715557
+      zombie_walk_generated_14: 7980078337796348226
+      zombie_walk_generated_15: -5506285134265036305
+      zombie_walk_generated_16: 8097711340931849317
+      zombie_walk_generated_17: -3269274704910311216
+      zombie_walk_generated_18: 8488626935175070075
+      zombie_walk_generated_19: -6224719073927774045
+      zombie_walk_generated_2: -5933853447998657666
+      zombie_walk_generated_20: 5000626623840478490
+      zombie_walk_generated_21: 1040320214475890174
+      zombie_walk_generated_22: -8110992744089795085
+      zombie_walk_generated_23: -1261991310814217664
+      zombie_walk_generated_24: -7003558942732429726
+      zombie_walk_generated_25: -3572141121441287501
+      zombie_walk_generated_26: -4401203703335486138
+      zombie_walk_generated_27: 8210493081409940216
+      zombie_walk_generated_28: 1724731204376986159
+      zombie_walk_generated_29: -7941329753415691900
+      zombie_walk_generated_3: -8849353716425481731
+      zombie_walk_generated_30: 7393939987023396794
+      zombie_walk_generated_31: 4965133080166251829
+      zombie_walk_generated_32: 3539151609924503986
+      zombie_walk_generated_33: 1645544129336104263
+      zombie_walk_generated_34: -2940427556975226612
+      zombie_walk_generated_35: -307154190677629374
+      zombie_walk_generated_36: -667455164888316874
+      zombie_walk_generated_37: -1648828620923080888
+      zombie_walk_generated_38: 2320673588529097602
+      zombie_walk_generated_39: -7446052652665303585
+      zombie_walk_generated_4: 3954395494597942917
+      zombie_walk_generated_40: 4148997413668416871
+      zombie_walk_generated_41: -2322843519559198312
+      zombie_walk_generated_42: -4472979683155359961
+      zombie_walk_generated_43: 7532309424177615024
+      zombie_walk_generated_44: -1819864630485941833
+      zombie_walk_generated_45: 534200625976487105
+      zombie_walk_generated_46: -6807769461620979436
+      zombie_walk_generated_47: -9202925279430510783
+      zombie_walk_generated_48: -5034913368675259911
+      zombie_walk_generated_49: 2200566040618943811
+      zombie_walk_generated_5: -1240796518560531103
+      zombie_walk_generated_50: -2592681496671678912
+      zombie_walk_generated_51: -2446975836512772027
+      zombie_walk_generated_52: 1712051998661576685
+      zombie_walk_generated_53: 2369406855206637220
+      zombie_walk_generated_54: -7007625166436504189
+      zombie_walk_generated_55: -884763780961252798
+      zombie_walk_generated_56: 4056461547466911499
+      zombie_walk_generated_57: 8533930742790154465
+      zombie_walk_generated_58: -5889044155534187141
+      zombie_walk_generated_59: -8825934499170881694
+      zombie_walk_generated_6: -2344357543523027408
+      zombie_walk_generated_60: -7673329135591913414
+      zombie_walk_generated_61: 6131757061240891557
+      zombie_walk_generated_62: -3969186491913256939
+      zombie_walk_generated_63: 7498880868865049584
+      zombie_walk_generated_64: -6275230619359000220
+      zombie_walk_generated_65: -2085699080542381567
+      zombie_walk_generated_66: -1000470319522831895
+      zombie_walk_generated_67: 2647055838904103555
+      zombie_walk_generated_68: 1474628086438813195
+      zombie_walk_generated_69: -5342208112260933617
+      zombie_walk_generated_7: 5945402277312729434
+      zombie_walk_generated_70: 5520419543166717625
+      zombie_walk_generated_71: 926894288047769811
+      zombie_walk_generated_72: 8239585076209752247
+      zombie_walk_generated_8: 5682557514313710810
+      zombie_walk_generated_9: 1401053702890584557
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

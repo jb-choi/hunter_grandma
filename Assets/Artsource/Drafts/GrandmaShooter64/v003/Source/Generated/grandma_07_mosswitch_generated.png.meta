@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: ce64c9d4d158f294eb44b23429381bfb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3805268994944755879
+    second: grandma_07_mosswitch_generated_0
+  - first:
+      213: -7824944373624042818
+    second: grandma_07_mosswitch_generated_1
+  - first:
+      213: -1661885567269199344
+    second: grandma_07_mosswitch_generated_2
+  - first:
+      213: -2609505147566965316
+    second: grandma_07_mosswitch_generated_3
+  - first:
+      213: -7081231069659736893
+    second: grandma_07_mosswitch_generated_4
+  - first:
+      213: -8132585161840767963
+    second: grandma_07_mosswitch_generated_5
+  - first:
+      213: 3500340509475551600
+    second: grandma_07_mosswitch_generated_6
+  - first:
+      213: -3242162175807401807
+    second: grandma_07_mosswitch_generated_7
+  - first:
+      213: -5798766261825957103
+    second: grandma_07_mosswitch_generated_8
+  - first:
+      213: -7223036785882063536
+    second: grandma_07_mosswitch_generated_9
+  - first:
+      213: 5520049899784922670
+    second: grandma_07_mosswitch_generated_10
+  - first:
+      213: 8626525166645428442
+    second: grandma_07_mosswitch_generated_11
+  - first:
+      213: 3399041660928914537
+    second: grandma_07_mosswitch_generated_12
+  - first:
+      213: -449091399692422439
+    second: grandma_07_mosswitch_generated_13
+  - first:
+      213: -5239803333663010219
+    second: grandma_07_mosswitch_generated_14
+  - first:
+      213: 2428341368902753699
+    second: grandma_07_mosswitch_generated_15
+  - first:
+      213: 5260951694461500006
+    second: grandma_07_mosswitch_generated_16
+  - first:
+      213: 2567672371874905960
+    second: grandma_07_mosswitch_generated_17
+  - first:
+      213: 7861915276833634766
+    second: grandma_07_mosswitch_generated_18
+  - first:
+      213: -7261387970273116736
+    second: grandma_07_mosswitch_generated_19
+  - first:
+      213: -2321949785243845648
+    second: grandma_07_mosswitch_generated_20
+  - first:
+      213: 3654882582566567955
+    second: grandma_07_mosswitch_generated_21
+  - first:
+      213: -2112785523403076097
+    second: grandma_07_mosswitch_generated_22
+  - first:
+      213: -2208289355281662152
+    second: grandma_07_mosswitch_generated_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1254
+        height: 1232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9579281a208f03bc0800000000000000
+      internalID: -3805268994944755879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1221
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba82feec86386390800000000000000
+      internalID: -7824944373624042818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_2
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1231
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0122291b1ebcfe8e0800000000000000
+      internalID: -1661885567269199344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_3
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1231
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbdb7bfd4ec29cbd0800000000000000
+      internalID: -2609505147566965316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_4
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1211
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4d8703cd96abd90800000000000000
+      internalID: -7081231069659736893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_5
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1211
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c4ed232e0432f80800000000000000
+      internalID: -8132585161840767963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_6
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1205
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0793334d525b39030800000000000000
+      internalID: 3500340509475551600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_7
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1189
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0dac6cda68103d0800000000000000
+      internalID: -3242162175807401807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_8
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1183
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113185cdec4a68fa0800000000000000
+      internalID: -5798766261825957103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_9
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1187
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d9be1005e92cb90800000000000000
+      internalID: -7223036785882063536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_10
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1191
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e266c1b23282b9c40800000000000000
+      internalID: 5520049899784922670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_11
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 1195
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad04edb0fe297b770800000000000000
+      internalID: 8626525166645428442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 929
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964fb68b162db2f20800000000000000
+      internalID: 3399041660928914537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 899
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d276a950c184c9f0800000000000000
+      internalID: -449091399692422439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 819
+        width: 5
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552db1431aa7847b0800000000000000
+      internalID: -5239803333663010219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_15
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 829
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad95deeb9333b120800000000000000
+      internalID: 2428341368902753699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 214
+        width: 6
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66afdd041b7a20940800000000000000
+      internalID: 5260951694461500006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_17
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 222
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f30390b6432a320800000000000000
+      internalID: 2567672371874905960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_18
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 204
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9b2e14a422b1d60800000000000000
+      internalID: 7861915276833634766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_19
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 178
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd739f0d1e5a3b90800000000000000
+      internalID: -7261387970273116736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 15
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fbfe38f8f6c6cfd0800000000000000
+      internalID: -2321949785243845648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_21
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 11
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31084ad2850c8b230800000000000000
+      internalID: 3654882582566567955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_22
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 13
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffdc8fea2c0eda2e0800000000000000
+      internalID: -2112785523403076097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_07_mosswitch_generated_23
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 13
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ff82908849a51e0800000000000000
+      internalID: -2208289355281662152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      grandma_07_mosswitch_generated_0: -3805268994944755879
+      grandma_07_mosswitch_generated_1: -7824944373624042818
+      grandma_07_mosswitch_generated_10: 5520049899784922670
+      grandma_07_mosswitch_generated_11: 8626525166645428442
+      grandma_07_mosswitch_generated_12: 3399041660928914537
+      grandma_07_mosswitch_generated_13: -449091399692422439
+      grandma_07_mosswitch_generated_14: -5239803333663010219
+      grandma_07_mosswitch_generated_15: 2428341368902753699
+      grandma_07_mosswitch_generated_16: 5260951694461500006
+      grandma_07_mosswitch_generated_17: 2567672371874905960
+      grandma_07_mosswitch_generated_18: 7861915276833634766
+      grandma_07_mosswitch_generated_19: -7261387970273116736
+      grandma_07_mosswitch_generated_2: -1661885567269199344
+      grandma_07_mosswitch_generated_20: -2321949785243845648
+      grandma_07_mosswitch_generated_21: 3654882582566567955
+      grandma_07_mosswitch_generated_22: -2112785523403076097
+      grandma_07_mosswitch_generated_23: -2208289355281662152
+      grandma_07_mosswitch_generated_3: -2609505147566965316
+      grandma_07_mosswitch_generated_4: -7081231069659736893
+      grandma_07_mosswitch_generated_5: -8132585161840767963
+      grandma_07_mosswitch_generated_6: 3500340509475551600
+      grandma_07_mosswitch_generated_7: -3242162175807401807
+      grandma_07_mosswitch_generated_8: -5798766261825957103
+      grandma_07_mosswitch_generated_9: -7223036785882063536
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

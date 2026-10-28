@@ -1,0 +1,827 @@
+[
+  {
+    "relative_path": "grandma_04_sundeok.aseprite",
+    "sha256": "2F65F1CF2E176B79BAE85E238E4490277A712E92CC90524648590342CB767F47",
+    "bytes": 2599
+  },
+  {
+    "relative_path": "grandma_05_redhood.aseprite",
+    "sha256": "F623DA171B5D695C7E8BF0027DE720BF28793C4558ACDB4CEBA282062E515375",
+    "bytes": 2636
+  },
+  {
+    "relative_path": "grandma_06_teatime.aseprite",
+    "sha256": "9A70886821D8D2BBAB20AE7DF2A7DD4A08F5631D3E22A29C1879B7B2B7469D63",
+    "bytes": 2672
+  },
+  {
+    "relative_path": "grandma_07_mosswitch.aseprite",
+    "sha256": "C4A591CDF39508BA30710DBAF2584CC7CC9B8B48604DA33E8E3B539BB551538F",
+    "bytes": 2744
+  },
+  {
+    "relative_path": "grandma_08_wildrose.aseprite",
+    "sha256": "9B6F2C449EE969DEC041A09276A7CF7AF8099CD4D97D1F4A5E22E5F612D85F72",
+    "bytes": 2835
+  },
+  {
+    "relative_path": "README.md",
+    "sha256": "97010CD513A8886C70E7DE66467CF6EE8FAC24ECC093E6DB5CD775AA55304175",
+    "bytes": 6632
+  },
+  {
+    "relative_path": "Export/grandma_04_sundeok_no_fx.png",
+    "sha256": "846235C275350A7CB0B7503FE7E7016E00EA58EC8711EE53D5344FEE55D4941C",
+    "bytes": 2872
+  },
+  {
+    "relative_path": "Export/grandma_04_sundeok.png",
+    "sha256": "24E484FF4BC42EF717E8526D1DC7F29B39447798293D0E9CFF673C70B67EEE82",
+    "bytes": 2919
+  },
+  {
+    "relative_path": "Export/grandma_05_redhood_no_fx.png",
+    "sha256": "F52AF9BB3EFAC43A4CFFCCA27C04D2E494794F7B6A6D7783C4C1C720F24A028F",
+    "bytes": 3067
+  },
+  {
+    "relative_path": "Export/grandma_05_redhood.png",
+    "sha256": "0A3A7290DED5D94A9C7447238591150B1F4FE8AF27BA79D285FFF0444E9B1712",
+    "bytes": 3118
+  },
+  {
+    "relative_path": "Export/grandma_06_teatime_no_fx.png",
+    "sha256": "AF7F29DF36DBBA1A3D2B434A5B5E78E804E2EDEE21782D747695D37B6F3A5836",
+    "bytes": 3307
+  },
+  {
+    "relative_path": "Export/grandma_06_teatime.png",
+    "sha256": "FABFB924BD650EBA8A6769D7084A0BE5DC2A496373E3382F36406A9856891791",
+    "bytes": 3371
+  },
+  {
+    "relative_path": "Export/grandma_07_mosswitch_no_fx.png",
+    "sha256": "66DD076DD26B33AEC73493E435E344D610758DA82296614243F9AC4D22F808D1",
+    "bytes": 3171
+  },
+  {
+    "relative_path": "Export/grandma_07_mosswitch.png",
+    "sha256": "BD4BFF34BF12461225AEB614E60FECAD3FC0694343D961992ADA1038F846DC49",
+    "bytes": 3208
+  },
+  {
+    "relative_path": "Export/grandma_08_wildrose_no_fx.png",
+    "sha256": "CA2A56B25351A5F2EFA09A191281802744D9AEDEDF3781A4CCCDF6112BD028C7",
+    "bytes": 3242
+  },
+  {
+    "relative_path": "Export/grandma_08_wildrose.png",
+    "sha256": "303260627AD7A3A0E4E5BB297522F2D89A743EC8AB6ADBF7DED8C6ECBF176D2E",
+    "bytes": 3281
+  },
+  {
+    "relative_path": "Export/grandma_candidates.json",
+    "sha256": "842ADF1D5C70A9FDE638DF39564A57DA38DC234F07904BB37B5E4879F8BB18A3",
+    "bytes": 9428
+  },
+  {
+    "relative_path": "Export/grandma_v002_palette.gpl",
+    "sha256": "AF443164018F766202564A034AE56A921B44C7079E39953574AF4543518A2287",
+    "bytes": 870
+  },
+  {
+    "relative_path": "Previews/candidates_04-08_64px_5x.png",
+    "sha256": "733645E347A5279D320F3E36ADF882412DB4AF4FF420361C0D5A9945D588A976",
+    "bytes": 30840
+  },
+  {
+    "relative_path": "Previews/candidates_04-08_native.png",
+    "sha256": "4696716D6EA5E6150D8E7EBB167D21EC35514DEAB7CA78FC207DDD1C832266C3",
+    "bytes": 12952
+  },
+  {
+    "relative_path": "Previews/candidates_04-08_no_fx_native.png",
+    "sha256": "163749787CCEE8CEFDCFC3B3C3F417B71AFF5ECB6B9332D282722CC512BFF75A",
+    "bytes": 12908
+  },
+  {
+    "relative_path": "Previews/concept_directions.png",
+    "sha256": "03712DD44E5F18D102E1653CDADD8B5BAB6A5444B4ACB7886CE11E16EFF098D8",
+    "bytes": 399500
+  },
+  {
+    "relative_path": "Previews/grandma_04_sundeok_8x.png",
+    "sha256": "240DB0CC628B3EE18B181372DCA5B5A655ED63846B2B636B8396E3DAAE04F028",
+    "bytes": 6545
+  },
+  {
+    "relative_path": "Previews/grandma_04_sundeok_dark_8x.png",
+    "sha256": "53CE86E35F5DFCDB1D46A7C6B723A62D50A252C967C25443130FE30972FB6487",
+    "bytes": 6546
+  },
+  {
+    "relative_path": "Previews/grandma_05_redhood_8x.png",
+    "sha256": "EB1482EF301BC1F711F8747D295878C78B68C7FE24E9F19ECA8BB095066EB969",
+    "bytes": 6899
+  },
+  {
+    "relative_path": "Previews/grandma_05_redhood_dark_8x.png",
+    "sha256": "D577421687E1E8D50B3378C15E953CDD506180646217D2C3AC7CCB187C3759BE",
+    "bytes": 6940
+  },
+  {
+    "relative_path": "Previews/grandma_06_teatime_8x.png",
+    "sha256": "4527614353B6FF4845D98A8533BBB51C7CE3D0F2CD663EA1A2F882C32CEA8887",
+    "bytes": 7146
+  },
+  {
+    "relative_path": "Previews/grandma_06_teatime_dark_8x.png",
+    "sha256": "A51F8A367868133B72F2C4E92C3D70E0D352D18ECD18AAAA43DA1818389DC971",
+    "bytes": 7138
+  },
+  {
+    "relative_path": "Previews/grandma_07_mosswitch_8x.png",
+    "sha256": "F26497FFA87AAC953A647F055FD710D7DFEC4598C733791E138ABB6EBBD6196D",
+    "bytes": 7158
+  },
+  {
+    "relative_path": "Previews/grandma_07_mosswitch_dark_8x.png",
+    "sha256": "BA37DDA68B75CD648F26BE42368F73135AA1D61D4948126D4E0E16C6C1BC9EF8",
+    "bytes": 7155
+  },
+  {
+    "relative_path": "Previews/grandma_08_wildrose_8x.png",
+    "sha256": "F783FA9AF4F7420870162291090732E92CCB63AC27061E675824D0B48E215233",
+    "bytes": 7365
+  },
+  {
+    "relative_path": "Previews/grandma_08_wildrose_dark_8x.png",
+    "sha256": "89364C7309B4DCD792A2346008472A5E846FED6DD9537231A54E6EB9B1A50FD8",
+    "bytes": 7356
+  },
+  {
+    "relative_path": "QA/native_validation.json",
+    "sha256": "9A7D516956953DFDEDA48ACD3AB48ECAD440F3B43642B6A0429567752331E81A",
+    "bytes": 27807
+  },
+  {
+    "relative_path": "QA/refinement.json",
+    "sha256": "0C9DE6F34315DE34AC7F29BAEAA0D1EEFD57638357D3FDE250ADBFC6A831CE6D",
+    "bytes": 1301
+  },
+  {
+    "relative_path": "QA/sampling.json",
+    "sha256": "D79B97D0E3A8D4E801102BEC6838AED5CAD8707F81DA8C1C7040C63F7472BA1F",
+    "bytes": 965
+  },
+  {
+    "relative_path": "QA/v001_preservation.json",
+    "sha256": "4784B9AA4CEFF3E87A4C718253A63F46F834C35ADFBCB4D170988B3B9A7E630B",
+    "bytes": 980
+  },
+  {
+    "relative_path": "QA/visual_review.md",
+    "sha256": "E12BE3F683E4D26DAB684DCA4046B0F41741961C8CD700F978CA5065ED81980E",
+    "bytes": 5446
+  },
+  {
+    "relative_path": "QA/LayerReview/grandma_04_sundeok_hidden_4x.png",
+    "sha256": "8282909BDBD8A99155E2BD60DE2CFEAA1A75A9A1ED16919DE07A8DFD8C94BCBD",
+    "bytes": 11350
+  },
+  {
+    "relative_path": "QA/LayerReview/grandma_04_sundeok_solo_4x.png",
+    "sha256": "CD551F5839081D1B2C58B85A4315285D37DEE63075909A990A32D9531FEB2CE3",
+    "bytes": 7092
+  },
+  {
+    "relative_path": "QA/LayerReview/grandma_05_redhood_hidden_4x.png",
+    "sha256": "07BBB8766EE6E4C5078F6392BBC66FC0AAE8CD372268FACC0287C4D41B4AF226",
+    "bytes": 12189
+  },
+  {
+    "relative_path": "QA/LayerReview/grandma_05_redhood_solo_4x.png",
+    "sha256": "C2E743853C0C85AF7E48248B966479E00098ECD8A126C129A77449763B954B25",
+    "bytes": 7481
+  },
+  {
+    "relative_path": "QA/LayerReview/grandma_06_teatime_hidden_4x.png",
+    "sha256": "25218915DFB26C549CF897FC583011EFDA4B2C3799783052AA24A870A694B47B",
+    "bytes": 12398
+  },
+  {
+    "relative_path": "QA/LayerReview/grandma_06_teatime_solo_4x.png",
+    "sha256": "0789CFA4055AD7D9888BDCCDAFE8B29D50AB44C0C0502EDA13E4CAADF3FBAC34",
+    "bytes": 7590
+  },
+  {
+    "relative_path": "QA/LayerReview/grandma_07_mosswitch_hidden_4x.png",
+    "sha256": "5EC5857D2A169C15A87603C1BB5BB7BBE21155A3D37095ED4F15AC9A54AAEAF9",
+    "bytes": 12677
+  },
+  {
+    "relative_path": "QA/LayerReview/grandma_07_mosswitch_solo_4x.png",
+    "sha256": "D83C1A615288DBBAE5233DEED618A3E3137907146C0229B4C6EC41803E3B8DB1",
+    "bytes": 7828
+  },
+  {
+    "relative_path": "QA/LayerReview/grandma_08_wildrose_hidden_4x.png",
+    "sha256": "9A86FA009DFF592D3CA843B4D304250FB6E5E995F49B7BC9ED40C0AA167503FA",
+    "bytes": 13037
+  },
+  {
+    "relative_path": "QA/LayerReview/grandma_08_wildrose_solo_4x.png",
+    "sha256": "96CA12B480DC7342B738D409255E57E904F9380C2E7A15B8EAF21DEBD44FECA6",
+    "bytes": 7902
+  },
+  {
+    "relative_path": "QA/LayerReview/Hidden/grandma_04_sundeok_1.png",
+    "sha256": "DF3D13305138342855ED0C846304C5558D6280EF8497C8AA889D7EFC7BD16C61",
+    "bytes": 2969
+  },
+  {
+    "relative_path": "QA/LayerReview/Hidden/grandma_04_sundeok_2.png",
+    "sha256": "03479959089C7327AB06294B5FF2094DCEEE754443F8A6A972EA8372FD0B5D15",
+    "bytes": 784
+  },
+  {
+    "relative_path": "QA/LayerReview/Hidden/grandma_04_sundeok_3.png",
+    "sha256": "37CE498D3EB38ABCB0872BE95D6C1130DD36432FD6C6DB98C04AD253703ADC4D",
+    "bytes": 2918
+  },
+  {
+    "relative_path": "QA/LayerReview/Hidden/grandma_04_sundeok_4.png",
+    "sha256": "846235C275350A7CB0B7503FE7E7016E00EA58EC8711EE53D5344FEE55D4941C",
+    "bytes": 2872
+  },
+  {
+    "relative_path": "QA/LayerReview/Hidden/grandma_05_redhood_1.png",
+    "sha256": "389FECE9C1D46F7FA95617126138346066BEA89834B4290BEBFD2256A97DFFD8",
+    "bytes": 3171
+  },
+  {
+    "relative_path": "QA/LayerReview/Hidden/grandma_05_redhood_2.png",
+    "sha256": "B33512EDF1FD517754217FE4DF78680BF24B5A79C30B13EF310C080D5AC8F026",
+    "bytes": 700
+  },
+  {
+    "relative_path": "QA/LayerReview/Hidden/grandma_05_redhood_3.png",
+    "sha256": "7239E1E777472B71FA048FE1992B971D80C00CD4C57074BC983D380EE49EF572",
+    "bytes": 3165
+  },
+  {
+    "relative_path": "QA/LayerReview/Hidden/grandma_05_redhood_4.png",
+    "sha256": "F52AF9BB3EFAC43A4CFFCCA27C04D2E494794F7B6A6D7783C4C1C720F24A028F",
+    "bytes": 3067
+  },
+  {
+    "relative_path": "QA/LayerReview/Hidden/grandma_06_teatime_1.png",
+    "sha256": "757990BABCA8559E2863B317DB274B6629574E9ED1EEA6D1D977B135065B25AB",
+    "bytes": 3240
+  },
+  {
+    "relative_path": "QA/LayerReview/Hidden/grandma_06_teatime_2.png",
+    "sha256": "5A88A01B3FFC6E01C9176D28D5D7DD9872D693061294DE743E6FB815C1A996DD",
+    "bytes": 773
+  },
+  {
+    "relative_path": "QA/LayerReview/Hidden/grandma_06_teatime_3.png",
+    "sha256": "421DD6158082B07C103D086D95BAADE318BE516C1D03BA42F72EC8F60BDEB45A",
+    "bytes": 3366
+  },
+  {
+    "relative_path": "QA/LayerReview/Hidden/grandma_06_teatime_4.png",
+    "sha256": "AF7F29DF36DBBA1A3D2B434A5B5E78E804E2EDEE21782D747695D37B6F3A5836",
+    "bytes": 3307
+  },
+  {
+    "relative_path": "QA/LayerReview/Hidden/grandma_07_mosswitch_1.png",
+    "sha256": "A3DC51B571C2850A61B570E5E8BEB5A404E4236BD825EC22049542B0D51DA2E8",
+    "bytes": 3264
+  },
+  {
+    "relative_path": "QA/LayerReview/Hidden/grandma_07_mosswitch_2.png",
+    "sha256": "E72DC83B047CDF225C753C715164CFFE2425473C10F08E1F68995CE66792AB79",
+    "bytes": 745
+  },
+  {
+    "relative_path": "QA/LayerReview/Hidden/grandma_07_mosswitch_3.png",
+    "sha256": "7C6DA313D1FDFFFE56875F4E0F7604F4F76779E8F7FB566981BA0602209C3E63",
+    "bytes": 3206
+  },
+  {
+    "relative_path": "QA/LayerReview/Hidden/grandma_07_mosswitch_4.png",
+    "sha256": "66DD076DD26B33AEC73493E435E344D610758DA82296614243F9AC4D22F808D1",
+    "bytes": 3171
+  },
+  {
+    "relative_path": "QA/LayerReview/Hidden/grandma_08_wildrose_1.png",
+    "sha256": "B11F2E6493571D649135F0C7388AB7F628EA3E4721E70DC4106336DE6283B6C5",
+    "bytes": 3424
+  },
+  {
+    "relative_path": "QA/LayerReview/Hidden/grandma_08_wildrose_2.png",
+    "sha256": "626AE79A42AB487DFB26C99534953B5C8A6AE5BFB820DAD6F1AED5DF2B2EEE78",
+    "bytes": 818
+  },
+  {
+    "relative_path": "QA/LayerReview/Hidden/grandma_08_wildrose_3.png",
+    "sha256": "5BDEEA70910E74A124F471D4A288CC548DE1F7A44D8C0E1B8C1510C70239EBFD",
+    "bytes": 3317
+  },
+  {
+    "relative_path": "QA/LayerReview/Hidden/grandma_08_wildrose_4.png",
+    "sha256": "CA2A56B25351A5F2EFA09A191281802744D9AEDEDF3781A4CCCDF6112BD028C7",
+    "bytes": 3242
+  },
+  {
+    "relative_path": "QA/LayerReview/Solo/grandma_04_sundeok_1.png",
+    "sha256": "9229871ECCBC76CC02C0B4601D410265AE13F5F56AC89210717EE6BF49AA6F7F",
+    "bytes": 502
+  },
+  {
+    "relative_path": "QA/LayerReview/Solo/grandma_04_sundeok_2.png",
+    "sha256": "68A10F64E9BF2FBC301A6212F760F60F93A82AA88C35E1BB0FB3E672D9A749FD",
+    "bytes": 2947
+  },
+  {
+    "relative_path": "QA/LayerReview/Solo/grandma_04_sundeok_3.png",
+    "sha256": "A4E47A7EDA267205C315F6CC4E290F029AE8404940BD83465B917EADC7FBF101",
+    "bytes": 337
+  },
+  {
+    "relative_path": "QA/LayerReview/Solo/grandma_04_sundeok_4.png",
+    "sha256": "E9892AB4A9E653442EBAD99187A88A4698E776A65BE3B6CD07CFE3B08BA9E767",
+    "bytes": 185
+  },
+  {
+    "relative_path": "QA/LayerReview/Solo/grandma_05_redhood_1.png",
+    "sha256": "B835DE766B912C51F56C25D72B8C10FC332E6CE882C99F43D4FEB0DC3B6A36F5",
+    "bytes": 515
+  },
+  {
+    "relative_path": "QA/LayerReview/Solo/grandma_05_redhood_2.png",
+    "sha256": "0AF9DE198174C6221EE42CCD7FD2E934D1B9FF74C068C4288A072C81AEEE0CE3",
+    "bytes": 3169
+  },
+  {
+    "relative_path": "QA/LayerReview/Solo/grandma_05_redhood_3.png",
+    "sha256": "AA00F39C5E8BE13E48F8D9247B05680E7F6F805F1308F0FF0A8565CD35C7AE5E",
+    "bytes": 265
+  },
+  {
+    "relative_path": "QA/LayerReview/Solo/grandma_05_redhood_4.png",
+    "sha256": "B21E27C092FEA755ACF375C72CBCCAD118948B62E976971487965DB9DEC9923A",
+    "bytes": 182
+  },
+  {
+    "relative_path": "QA/LayerReview/Solo/grandma_06_teatime_1.png",
+    "sha256": "D02E133F974E875E5989087774301BD0CBE67B8BE2AD80E1353F24F1A5EFCD38",
+    "bytes": 505
+  },
+  {
+    "relative_path": "QA/LayerReview/Solo/grandma_06_teatime_2.png",
+    "sha256": "CF8C4C16558691A69935B08CFB1E9CF76EF456E9917DC24E4464D3D94AACCAB2",
+    "bytes": 3191
+  },
+  {
+    "relative_path": "QA/LayerReview/Solo/grandma_06_teatime_3.png",
+    "sha256": "51B6F9109FCF87535DBD696683EC130361829ECBAA6DC0F208F4EBC6926799D4",
+    "bytes": 295
+  },
+  {
+    "relative_path": "QA/LayerReview/Solo/grandma_06_teatime_4.png",
+    "sha256": "B4777064D7B40B7C8064A4E419B50CD4A1DDF6953A96155227F9168E9314B915",
+    "bytes": 186
+  },
+  {
+    "relative_path": "QA/LayerReview/Solo/grandma_07_mosswitch_1.png",
+    "sha256": "C28A803EE064B5F5FB3A147706D1EA233DE48BD7AB1D1FAF9C133CBD0F9BCDA9",
+    "bytes": 545
+  },
+  {
+    "relative_path": "QA/LayerReview/Solo/grandma_07_mosswitch_2.png",
+    "sha256": "24B4C96F99B96B8D53D36985F7DE9739FFC341E306B37F6407166CC39AA003B2",
+    "bytes": 3179
+  },
+  {
+    "relative_path": "QA/LayerReview/Solo/grandma_07_mosswitch_3.png",
+    "sha256": "2F9A07D506A3BE388DA4A8DE2C32B3A3760AC8690320DEEC25AADAF1B365013A",
+    "bytes": 307
+  },
+  {
+    "relative_path": "QA/LayerReview/Solo/grandma_07_mosswitch_4.png",
+    "sha256": "E50B2B9C80F96954FDCD6029A014E708261BC958E160AB4F19F9AA536B0BEBD3",
+    "bytes": 185
+  },
+  {
+    "relative_path": "QA/LayerReview/Solo/grandma_08_wildrose_1.png",
+    "sha256": "3D377F70DBDDA9D984608C967B7FD9316E319561EDA9F07BEBBC240225452C91",
+    "bytes": 587
+  },
+  {
+    "relative_path": "QA/LayerReview/Solo/grandma_08_wildrose_2.png",
+    "sha256": "BC54F3B23250646F3FB618744E2BC838C3B7C3130507CAE6998F42476A9D0E94",
+    "bytes": 3394
+  },
+  {
+    "relative_path": "QA/LayerReview/Solo/grandma_08_wildrose_3.png",
+    "sha256": "B1071EA1961A70112AAD732D4289F0F88DE048AE63D39F78107F79E1CF7D81DA",
+    "bytes": 258
+  },
+  {
+    "relative_path": "QA/LayerReview/Solo/grandma_08_wildrose_4.png",
+    "sha256": "B9ABC1B8BA9EEBEA2EF4C2DF7BBB785A1AD644BB97368B9406C235D1F2C0C87A",
+    "bytes": 185
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_04_sundeok_hidden_1.aseprite",
+    "sha256": "B59477E34BD7A996C0B8BB481CC961A86C064212045174289B9ACB49B222A544",
+    "bytes": 2599
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_04_sundeok_hidden_2.aseprite",
+    "sha256": "65E66943C845A87321237BF618B94DD58A186274F973A2ECB2838B8C0322152A",
+    "bytes": 2599
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_04_sundeok_hidden_3.aseprite",
+    "sha256": "FAAE747E30FBF3D02B502171C72B719F1C50F6B110D91A11C0414E718F7909BD",
+    "bytes": 2599
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_04_sundeok_hidden_4.aseprite",
+    "sha256": "7B701B1ECF5F090A6DEED0365AF31B28990A7794F2AABD461F15E0A23FE896F2",
+    "bytes": 2599
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_04_sundeok_solo_1.aseprite",
+    "sha256": "925EF675FC7E69CE8DA455D8ED488222F4FCDD626D1E348C9B1300821B72ED9F",
+    "bytes": 2599
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_04_sundeok_solo_2.aseprite",
+    "sha256": "F8C3F68EB1C205294B32C1C22253ED70820C2E424E9DFBB0D683A12642F98D45",
+    "bytes": 2599
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_04_sundeok_solo_3.aseprite",
+    "sha256": "619B8A6F2D37F0B775B71E2F62205E185094A7805454B9B80960AE800620B81E",
+    "bytes": 2599
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_04_sundeok_solo_4.aseprite",
+    "sha256": "4DF6B18CB260B8E8301496B6F0D38E389963E3B31048628C1EC37C517E6224B6",
+    "bytes": 2599
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_05_redhood_hidden_1.aseprite",
+    "sha256": "1531E4E451666E71CF8F8430C03E348C0CBB9F084050510A6148B14DE5976268",
+    "bytes": 2636
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_05_redhood_hidden_2.aseprite",
+    "sha256": "39C00B5B27EA9E83FE98EE713E6D2E21AA2C70222DF18F97CACBAB2CFD57CBC7",
+    "bytes": 2636
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_05_redhood_hidden_3.aseprite",
+    "sha256": "C7014E21047877FA33D479B10028E063273C6EDE7DC27A2276AEBB51ACFB6505",
+    "bytes": 2636
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_05_redhood_hidden_4.aseprite",
+    "sha256": "D1B66299425016137F1B16DFF9334B28A79559DA676652BEE86415F72347E29B",
+    "bytes": 2636
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_05_redhood_solo_1.aseprite",
+    "sha256": "B5C377B08D3B33413646ACB7FEA44FF7A0C833B7092DEFB532FC71071136E004",
+    "bytes": 2636
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_05_redhood_solo_2.aseprite",
+    "sha256": "C097FD91B527EC156AE633A33EDA7C929958BCED8911F1958ADBEDF0A22B620A",
+    "bytes": 2636
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_05_redhood_solo_3.aseprite",
+    "sha256": "9BC9D14DE695A320CAED704FFD69ACAA84DDEE32A0FA88C063BCE81978E74ABB",
+    "bytes": 2636
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_05_redhood_solo_4.aseprite",
+    "sha256": "FEBE7142F14AF6A9A38FD28D42F722DA955EC72359645FB578030CCD985FED29",
+    "bytes": 2636
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_06_teatime_hidden_1.aseprite",
+    "sha256": "6121C31591C7F4C60A1F9686E245DDF9482E178E0ABB6BB924ADF262C060FAB1",
+    "bytes": 2672
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_06_teatime_hidden_2.aseprite",
+    "sha256": "A6CDC4FA431FD558C29AC6E0F64B37F9C3C85C5C2FA15CBCE600388652328AB8",
+    "bytes": 2672
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_06_teatime_hidden_3.aseprite",
+    "sha256": "8C5440BA3B6C29AE026C5391662E1F1998B4F537B9BF4B406C6F904EB0520671",
+    "bytes": 2672
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_06_teatime_hidden_4.aseprite",
+    "sha256": "FB4D16DB62073A93D4A4B5F47CFE35F5CE6920E7005B5C909E655DE4205F6D45",
+    "bytes": 2672
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_06_teatime_solo_1.aseprite",
+    "sha256": "BC6AD318C12622435C0E2E48412DCEF3866FF1E40BA31C6B6AF9D3D3F1AC2D9D",
+    "bytes": 2672
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_06_teatime_solo_2.aseprite",
+    "sha256": "EE2407007FF8D0CDC9CBA92EA14BB2E9D7A86D06DD35B066A41306EA598FEB50",
+    "bytes": 2672
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_06_teatime_solo_3.aseprite",
+    "sha256": "F9A047DCE954A2DC56701E2DDBFB7AD50FE3C1FE8B016ABEA63FFB6D0E895A42",
+    "bytes": 2672
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_06_teatime_solo_4.aseprite",
+    "sha256": "C0AAF775389EAD2DEF0093AD93893DC2BAF359A43F3F319A84EB237A181A3473",
+    "bytes": 2672
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_07_mosswitch_hidden_1.aseprite",
+    "sha256": "9341DEFB34139A2305BC69DFD1029678D201405498D8D4CCF9DA766B0D981488",
+    "bytes": 2744
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_07_mosswitch_hidden_2.aseprite",
+    "sha256": "32D75F065AE0FBF152A513FAEABA2CDDB254DA4C6F6AF7A7E10FB4E8B7CCE588",
+    "bytes": 2744
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_07_mosswitch_hidden_3.aseprite",
+    "sha256": "ADDA3A0946B532D74245244CD7DC89408F1951BD4F9E7BDADFB221D350176299",
+    "bytes": 2744
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_07_mosswitch_hidden_4.aseprite",
+    "sha256": "C28E4A98B643365762C6D370666FC9EBEF62E88F02A9DDDD82F7CFCC535FA151",
+    "bytes": 2744
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_07_mosswitch_solo_1.aseprite",
+    "sha256": "8EED80E4B03D7D75F90682F0D7876E32E358572B668280D0484D4E9A5829092E",
+    "bytes": 2744
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_07_mosswitch_solo_2.aseprite",
+    "sha256": "D7CD320C6C0C7FC8A11FF0A1D258737AA076C34BF126B4848C82307366EE14D2",
+    "bytes": 2744
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_07_mosswitch_solo_3.aseprite",
+    "sha256": "E052319BA088FDCECB5CFFDA65DE089FF09A85734A07670C87D6401225170F5F",
+    "bytes": 2744
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_07_mosswitch_solo_4.aseprite",
+    "sha256": "78C9195B9FE9206B0C7B598DC836425EB31C8DA16866049E2DD5436CB19C556A",
+    "bytes": 2744
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_08_wildrose_hidden_1.aseprite",
+    "sha256": "8219F7D2CE10C7EFDC2288F27D86C55D5D5702EE0BA640DEABAC5C135439B1E1",
+    "bytes": 2835
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_08_wildrose_hidden_2.aseprite",
+    "sha256": "B8F72376019C90C860DD3F873FABBE94C2F441B9EF0D1C32833DEAE269E3C579",
+    "bytes": 2835
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_08_wildrose_hidden_3.aseprite",
+    "sha256": "DB2B42A4652037885C650F583692375BDFD6812AF75DF5C8AC427DFC59E1C819",
+    "bytes": 2835
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_08_wildrose_hidden_4.aseprite",
+    "sha256": "9A948F02F130C436AB0A4EEC242253E755D9E2D85F8C9776AA0DA3E9CCBB995C",
+    "bytes": 2835
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_08_wildrose_solo_1.aseprite",
+    "sha256": "A90E887F8176D4D653F21C0A97F757F8EF6CDC2B8D7F200125085BDE82C859FC",
+    "bytes": 2835
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_08_wildrose_solo_2.aseprite",
+    "sha256": "748A2973461807A9C5B38C9475CD2A549B7878770E531441C3D33B1019D2E2B7",
+    "bytes": 2835
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_08_wildrose_solo_3.aseprite",
+    "sha256": "16B64FCE64277EF4FB9D1499B39C0B9677EB890C09D10BE18E0803F3F0E53914",
+    "bytes": 2835
+  },
+  {
+    "relative_path": "QA/LayerReview/States/grandma_08_wildrose_solo_4.aseprite",
+    "sha256": "CA8C90BF4A43A80741F91B495658B3BFE0372A791B372C37AA1A255F0AB2F812",
+    "bytes": 2835
+  },
+  {
+    "relative_path": "Reference/Research.md",
+    "sha256": "B7F1C0217E1B167A052F477A9EC4E92ACCF7667E2757CEA3318033B5942AD0FC",
+    "bytes": 4548
+  },
+  {
+    "relative_path": "Scripts/curate_palette.lua",
+    "sha256": "D05A7FCCAD38D367280A81CB73FD118771BB07BF04B1A79843FE22421612AAF5",
+    "bytes": 2377
+  },
+  {
+    "relative_path": "Scripts/refine_candidates.lua",
+    "sha256": "541324328DFA1CB617B575F9ECF3ED103F372DA614A6369D3FC2E7F73E21B25F",
+    "bytes": 6722
+  },
+  {
+    "relative_path": "Scripts/sample_to_64.lua",
+    "sha256": "E7E6AC6D7A893E7881771D38FA99E1A13391424181F87B8343E6BC5BC4D32811",
+    "bytes": 1707
+  },
+  {
+    "relative_path": "Scripts/validate_and_preview.lua",
+    "sha256": "1743B59CDED42DE79BDFA3C4E4FB1C4CC76FE086B0E816F86ACC1E09BB248DF1",
+    "bytes": 8508
+  },
+  {
+    "relative_path": "Source/curated_palette.json",
+    "sha256": "03D69F450F28F0AE109FC71AE72F628CBC66774833130427FC398AC42AD542B2",
+    "bytes": 320
+  },
+  {
+    "relative_path": "Source/generation_prompts.json",
+    "sha256": "E403C78504724FBD20F090D60D621973F443967A15D42326E4A3A60ED705BCC9",
+    "bytes": 6802
+  },
+  {
+    "relative_path": "Source/grandma_04_sundeok_curated.aseprite",
+    "sha256": "355615B3C2F47998CF65F71BA8CC07C07FC10AC60FA1013FBA358AB013640D05",
+    "bytes": 1807
+  },
+  {
+    "relative_path": "Source/grandma_04_sundeok_sampled.aseprite",
+    "sha256": "48823021FCE41B422676DAD14979F87CFDFE7F0EEDE849BD34984CD28252D1FA",
+    "bytes": 5699
+  },
+  {
+    "relative_path": "Source/grandma_04_sundeok_sampled.png",
+    "sha256": "EAFC5BF3A2B00A7F2CEE57CF571D8A49F8EDE3A0A01E5972ED11A76518A3EC3E",
+    "bytes": 4926
+  },
+  {
+    "relative_path": "Source/grandma_05_redhood_curated.aseprite",
+    "sha256": "42123DF73EFA3E58D5862862FD3C94D0701E53E63AA652AEE243B173FB30B9E1",
+    "bytes": 1837
+  },
+  {
+    "relative_path": "Source/grandma_05_redhood_sampled.aseprite",
+    "sha256": "C56F1E79461332647DA3C3E470BABFA43A3E659C5DB603B73F387CAC73E59AAA",
+    "bytes": 5658
+  },
+  {
+    "relative_path": "Source/grandma_05_redhood_sampled.png",
+    "sha256": "FBEB6A5CF15F3369C2CF57655B1E769032C31D9F554097A9C5078C86840DA410",
+    "bytes": 4833
+  },
+  {
+    "relative_path": "Source/grandma_06_teatime_curated.aseprite",
+    "sha256": "DEF70522DFD5423B927454F89FA5FD5A5A5E3769273B4C566D43A14B90BBE2A1",
+    "bytes": 1939
+  },
+  {
+    "relative_path": "Source/grandma_06_teatime_sampled.aseprite",
+    "sha256": "4E3D541AAB163FED9191EFE62D52CF5118C75829AAD9278D408109E5A91758DC",
+    "bytes": 5709
+  },
+  {
+    "relative_path": "Source/grandma_06_teatime_sampled.png",
+    "sha256": "A549ABC00A3F1B6259B687AE2B00E471C869CD69A4F0E7EFF4289C265550C552",
+    "bytes": 4967
+  },
+  {
+    "relative_path": "Source/grandma_07_mosswitch_curated.aseprite",
+    "sha256": "9DE0A67CF00CD3D615E993EF7446095C23D34342E9718AF686D01A3E0EBB8611",
+    "bytes": 1925
+  },
+  {
+    "relative_path": "Source/grandma_07_mosswitch_sampled.aseprite",
+    "sha256": "61C903CED5C9A20838928689AC0A259802602B64A22889B4B72D2D149F5E76D3",
+    "bytes": 6084
+  },
+  {
+    "relative_path": "Source/grandma_07_mosswitch_sampled.png",
+    "sha256": "CFB789D41791BE5E65F34F4CA63E7D99AF0670116D07C44BDF725C9002497C91",
+    "bytes": 5367
+  },
+  {
+    "relative_path": "Source/grandma_08_wildrose_curated.aseprite",
+    "sha256": "93DE855E8E09AB111A107E45998677FE651A3E996C5EA0D428BB9F8193A32779",
+    "bytes": 1961
+  },
+  {
+    "relative_path": "Source/grandma_08_wildrose_sampled.aseprite",
+    "sha256": "1F17E171CAB3E974C17564ABEC36223F6875892CCE847A9D55D8EC8D8B54622D",
+    "bytes": 6020
+  },
+  {
+    "relative_path": "Source/grandma_08_wildrose_sampled.png",
+    "sha256": "BB5AD228334F8777C610AC737BF173F7EBF644E6F907205B4F153495E62D749F",
+    "bytes": 5303
+  },
+  {
+    "relative_path": "Source/README.md",
+    "sha256": "4492068F5244065CAECCDA5745009EFF7D4912C8E0A5E8101311947213679422",
+    "bytes": 1377
+  },
+  {
+    "relative_path": "Source/First64Pass/grandma_04_sundeok.aseprite",
+    "sha256": "FB041679EB73A9ED815609E507FD5ADBBE5B1070890A26AF5C9638A879C52893",
+    "bytes": 2613
+  },
+  {
+    "relative_path": "Source/First64Pass/grandma_05_redhood.aseprite",
+    "sha256": "872591CA145333E7CA482C34AD3A9F06912D9FB26412B21B2E2364DD6D44C4B4",
+    "bytes": 2647
+  },
+  {
+    "relative_path": "Source/First64Pass/grandma_06_teatime.aseprite",
+    "sha256": "F34CF391CAB24BE8E8B6F6B02271BD7E39BFB116E5883B27A52B9CEECD9FC35D",
+    "bytes": 2700
+  },
+  {
+    "relative_path": "Source/First64Pass/grandma_07_mosswitch.aseprite",
+    "sha256": "DE0CE4E62BAC72CC89ACC21E3BDC502F944F7ACD082059AB1EEA99331DAB6F04",
+    "bytes": 2749
+  },
+  {
+    "relative_path": "Source/First64Pass/grandma_08_wildrose.aseprite",
+    "sha256": "E5A7C4CEC39056A5EE5DFC0B9BD4DF6679C6FD2ABDAC7BAEBBD1DAF00AEC40A6",
+    "bytes": 2840
+  },
+  {
+    "relative_path": "Source/Generated/grandma_04_sundeok_generated.png",
+    "sha256": "DF5DAF4646AFD6EB8FCC7B921A13F4B046FD7ACA8877708114F3FBC3CA67CD66",
+    "bytes": 1010836
+  },
+  {
+    "relative_path": "Source/Generated/grandma_05_redhood_generated.png",
+    "sha256": "0623F57A77CA09CB289869ECEF5152F88C588655A1662F96610578E575BF007A",
+    "bytes": 985713
+  },
+  {
+    "relative_path": "Source/Generated/grandma_06_teatime_generated.png",
+    "sha256": "6C1E5D7459B5C7F833CA695986FD8534085A6A6D7E97AC72E7862D99C0687E54",
+    "bytes": 1057758
+  },
+  {
+    "relative_path": "Source/Generated/grandma_07_mosswitch_generated.png",
+    "sha256": "D2A7609784C82C9B7E2E713212EA16A781DD9C9B3FC396E77ACF9829DF6179C4",
+    "bytes": 1034495
+  },
+  {
+    "relative_path": "Source/Generated/grandma_08_wildrose_generated.png",
+    "sha256": "5E0C470A3CE013C4499654561BFC4DA33C99F0C372E9D23111758DF491C2B5F4",
+    "bytes": 1068926
+  },
+  {
+    "relative_path": "Source/Rejected/grandma_04_sundeok_palette32.aseprite",
+    "sha256": "C79933A2F7D93A97EE81BDDF9F9CEDEB5272455F6F4F1F15F690F0C496379F3F",
+    "bytes": 993
+  },
+  {
+    "relative_path": "Source/Rejected/grandma_05_redhood_palette32.aseprite",
+    "sha256": "DC95737912CFC6B7F23D8B3D3989F00CBB5E69FA169F9AA7698A91E8EF304AA1",
+    "bytes": 938
+  },
+  {
+    "relative_path": "Source/Rejected/grandma_06_teatime_palette32.aseprite",
+    "sha256": "3C33DB690ABD8A42A094833B593CC70C9B85551EC6D7D0D706057BDC67FDA516",
+    "bytes": 927
+  },
+  {
+    "relative_path": "Source/Rejected/grandma_07_mosswitch_palette32.aseprite",
+    "sha256": "617E7C6ECB0DF5A4B8794D0929386978B3854066A19549025401774A088CC2F1",
+    "bytes": 1432
+  },
+  {
+    "relative_path": "Source/Rejected/grandma_08_wildrose_palette32.aseprite",
+    "sha256": "11B946350C71E6642D6D6CA6CF6F4508AAED4F9C2A3CF8A9CE7E423D24893BC2",
+    "bytes": 1119
+  }
+]

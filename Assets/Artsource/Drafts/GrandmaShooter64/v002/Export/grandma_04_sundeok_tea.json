@@ -1,0 +1,53 @@
+{
+  "name": "grandma_04_sundeok_tea",
+  "native": "../grandma_04_sundeok_tea.aseprite",
+  "png": "grandma_04_sundeok_tea.png",
+  "source": "../QA/SundeokTea/BeforeSeated-20261028-000602/grandma_04_sundeok_tea.aseprite",
+  "canvas": [
+    64,
+    64
+  ],
+  "frames": 1,
+  "duration_ms": 100,
+  "tag": "tea_sip_seated",
+  "bounds_xywh": [
+    5,
+    5,
+    41,
+    56
+  ],
+  "last_opaque_y": 60,
+  "floor_boundary_y": 61,
+  "mouth_rim_xy": [
+    28,
+    23
+  ],
+  "support_hand_cup_xy": [
+    30,
+    30
+  ],
+  "handle_hand_xy": [
+    39,
+    27
+  ],
+  "muzzle_xy": null,
+  "palette_slots": 33,
+  "used_opaque_colors": 23,
+  "layers_bottom_to_top": [
+    "01_Chair",
+    "02_Seated_Legs_Shoes",
+    "03_Torso_Vest",
+    "04_Far_Arm_Sleeve",
+    "05_Head_Hair",
+    "06_Face_Glasses",
+    "07_Teacup",
+    "08_Near_Arm_Sleeve",
+    "09_Hands",
+    "10_Tea_Steam"
+  ],
+  "default_all_layers_visible": true,
+  "output_policy": "All visible layers, untrimmed 64x64 transparent RGBA PNG",
+  "method": "Preserved native upper-body layers shifted 2px down; seated legs and chair authored in Aseprite Lua",
+  "unity_connected": false,
+  "seat_top_y": 45
+}

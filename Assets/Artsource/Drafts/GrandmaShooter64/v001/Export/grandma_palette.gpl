@@ -1,0 +1,31 @@
+GIMP Palette
+Name: Grandma Shooter 64 v001 - 27 opaque colors
+Columns: 9
+# Transparency is native palette index 0 and is not represented in GPL.
+ 53  44  66  Color_01
+255 244 220  Color_02
+243 191 158  Color_03
+206 141 128  Color_04
+237 143 152  Color_05
+238 230 222  Color_06
+189 183 203  Color_07
+139 137 164  Color_08
+255 250 240  Color_09
+216 123 145  Color_10
+169  80 114  Color_11
+240 167 172  Color_12
+121 146 110  Color_13
+ 70  94  88  Color_14
+172 193 138  Color_15
+166 147 197  Color_16
+112  96 137  Color_17
+207 183 219  Color_18
+237 223 188  Color_19
+198 179 142  Color_20
+166 109  80  Color_21
+109  73  80  Color_22
+101 120 140  Color_23
+ 66  72  94  Color_24
+180 206 208  Color_25
+242 182  95  Color_26
+223 120  87  Color_27

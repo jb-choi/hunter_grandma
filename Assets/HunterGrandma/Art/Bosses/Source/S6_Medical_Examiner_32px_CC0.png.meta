@@ -1,0 +1,3068 @@
+fileFormatVersion: 2
+guid: f34e6934982eba24e9dede92f15feb27
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1283670623244519589
+    second: S6_Medical_Examiner_32px_CC0_0
+  - first:
+      213: -5191537373655506039
+    second: S6_Medical_Examiner_32px_CC0_1
+  - first:
+      213: -7903315213439949566
+    second: S6_Medical_Examiner_32px_CC0_2
+  - first:
+      213: -3315831358085638988
+    second: S6_Medical_Examiner_32px_CC0_3
+  - first:
+      213: -1542611643205357958
+    second: S6_Medical_Examiner_32px_CC0_4
+  - first:
+      213: -1597911353301489698
+    second: S6_Medical_Examiner_32px_CC0_5
+  - first:
+      213: 2062232024151022533
+    second: S6_Medical_Examiner_32px_CC0_6
+  - first:
+      213: 129042072999147291
+    second: S6_Medical_Examiner_32px_CC0_7
+  - first:
+      213: -1301171612021543569
+    second: S6_Medical_Examiner_32px_CC0_8
+  - first:
+      213: 710257202455469105
+    second: S6_Medical_Examiner_32px_CC0_9
+  - first:
+      213: -891679565792738858
+    second: S6_Medical_Examiner_32px_CC0_10
+  - first:
+      213: 8745688451755610073
+    second: S6_Medical_Examiner_32px_CC0_11
+  - first:
+      213: -6563352554400976836
+    second: S6_Medical_Examiner_32px_CC0_12
+  - first:
+      213: -2956394802191455572
+    second: S6_Medical_Examiner_32px_CC0_13
+  - first:
+      213: -2172684485284484716
+    second: S6_Medical_Examiner_32px_CC0_14
+  - first:
+      213: 8269386554338821838
+    second: S6_Medical_Examiner_32px_CC0_15
+  - first:
+      213: 8013005618311904985
+    second: S6_Medical_Examiner_32px_CC0_16
+  - first:
+      213: 6329886435063843907
+    second: S6_Medical_Examiner_32px_CC0_17
+  - first:
+      213: -2205975859034058719
+    second: S6_Medical_Examiner_32px_CC0_18
+  - first:
+      213: -4758945965277758604
+    second: S6_Medical_Examiner_32px_CC0_19
+  - first:
+      213: -1271215569048551296
+    second: S6_Medical_Examiner_32px_CC0_20
+  - first:
+      213: 4546628665540549668
+    second: S6_Medical_Examiner_32px_CC0_21
+  - first:
+      213: 7807824403142763780
+    second: S6_Medical_Examiner_32px_CC0_22
+  - first:
+      213: 1617213096132569801
+    second: S6_Medical_Examiner_32px_CC0_23
+  - first:
+      213: -5163320874663542617
+    second: S6_Medical_Examiner_32px_CC0_24
+  - first:
+      213: -4125910322339583922
+    second: S6_Medical_Examiner_32px_CC0_25
+  - first:
+      213: -3719547375276808066
+    second: S6_Medical_Examiner_32px_CC0_26
+  - first:
+      213: 5652970723130830246
+    second: S6_Medical_Examiner_32px_CC0_27
+  - first:
+      213: 4247143153019436830
+    second: S6_Medical_Examiner_32px_CC0_28
+  - first:
+      213: 3984060538188775003
+    second: S6_Medical_Examiner_32px_CC0_29
+  - first:
+      213: 9071136233540387631
+    second: S6_Medical_Examiner_32px_CC0_30
+  - first:
+      213: -1526831316986779602
+    second: S6_Medical_Examiner_32px_CC0_31
+  - first:
+      213: 7986499512620998128
+    second: S6_Medical_Examiner_32px_CC0_32
+  - first:
+      213: 4300643230264367912
+    second: S6_Medical_Examiner_32px_CC0_33
+  - first:
+      213: 4034190226506736246
+    second: S6_Medical_Examiner_32px_CC0_34
+  - first:
+      213: -8799747968951129810
+    second: S6_Medical_Examiner_32px_CC0_35
+  - first:
+      213: -3056029125869078704
+    second: S6_Medical_Examiner_32px_CC0_36
+  - first:
+      213: -2543050463928896155
+    second: S6_Medical_Examiner_32px_CC0_37
+  - first:
+      213: 1623634053854071130
+    second: S6_Medical_Examiner_32px_CC0_38
+  - first:
+      213: -7063974855545296543
+    second: S6_Medical_Examiner_32px_CC0_39
+  - first:
+      213: -3766184275763503875
+    second: S6_Medical_Examiner_32px_CC0_40
+  - first:
+      213: 6216432934886927695
+    second: S6_Medical_Examiner_32px_CC0_41
+  - first:
+      213: 2754739883199852036
+    second: S6_Medical_Examiner_32px_CC0_42
+  - first:
+      213: 9125343027758229000
+    second: S6_Medical_Examiner_32px_CC0_43
+  - first:
+      213: -5392648072326610877
+    second: S6_Medical_Examiner_32px_CC0_44
+  - first:
+      213: -4503766682680023475
+    second: S6_Medical_Examiner_32px_CC0_45
+  - first:
+      213: 7068818046876750640
+    second: S6_Medical_Examiner_32px_CC0_46
+  - first:
+      213: -6196980490363604035
+    second: S6_Medical_Examiner_32px_CC0_47
+  - first:
+      213: -5367442498317024423
+    second: S6_Medical_Examiner_32px_CC0_48
+  - first:
+      213: 9149996347503434154
+    second: S6_Medical_Examiner_32px_CC0_49
+  - first:
+      213: 4173646508842304468
+    second: S6_Medical_Examiner_32px_CC0_50
+  - first:
+      213: 4788520121202411761
+    second: S6_Medical_Examiner_32px_CC0_51
+  - first:
+      213: 8688853435534301045
+    second: S6_Medical_Examiner_32px_CC0_52
+  - first:
+      213: 5169536009184772622
+    second: S6_Medical_Examiner_32px_CC0_53
+  - first:
+      213: -8582794170243004778
+    second: S6_Medical_Examiner_32px_CC0_54
+  - first:
+      213: 272238725584735247
+    second: S6_Medical_Examiner_32px_CC0_55
+  - first:
+      213: 4134727814389241139
+    second: S6_Medical_Examiner_32px_CC0_56
+  - first:
+      213: 8856959219804660311
+    second: S6_Medical_Examiner_32px_CC0_57
+  - first:
+      213: -2502657662654435713
+    second: S6_Medical_Examiner_32px_CC0_58
+  - first:
+      213: 30532166883603961
+    second: S6_Medical_Examiner_32px_CC0_59
+  - first:
+      213: -6815670634042634053
+    second: S6_Medical_Examiner_32px_CC0_60
+  - first:
+      213: -4793238762458522597
+    second: S6_Medical_Examiner_32px_CC0_61
+  - first:
+      213: 6929243487111898290
+    second: S6_Medical_Examiner_32px_CC0_62
+  - first:
+      213: -819660896712605691
+    second: S6_Medical_Examiner_32px_CC0_63
+  - first:
+      213: 522800549512274320
+    second: S6_Medical_Examiner_32px_CC0_64
+  - first:
+      213: 8675487329278093681
+    second: S6_Medical_Examiner_32px_CC0_65
+  - first:
+      213: 7097816090096235627
+    second: S6_Medical_Examiner_32px_CC0_66
+  - first:
+      213: 5099597141096645918
+    second: S6_Medical_Examiner_32px_CC0_67
+  - first:
+      213: 3960884638309614768
+    second: S6_Medical_Examiner_32px_CC0_68
+  - first:
+      213: -4468797433451615434
+    second: S6_Medical_Examiner_32px_CC0_69
+  - first:
+      213: -90171441458751113
+    second: S6_Medical_Examiner_32px_CC0_70
+  - first:
+      213: 6480216277061620152
+    second: S6_Medical_Examiner_32px_CC0_71
+  - first:
+      213: -7095151424421159751
+    second: S6_Medical_Examiner_32px_CC0_72
+  - first:
+      213: 2032889737534414758
+    second: S6_Medical_Examiner_32px_CC0_73
+  - first:
+      213: -2971249168188316858
+    second: S6_Medical_Examiner_32px_CC0_74
+  - first:
+      213: 394936434680748285
+    second: S6_Medical_Examiner_32px_CC0_75
+  - first:
+      213: 1498075135840546279
+    second: S6_Medical_Examiner_32px_CC0_76
+  - first:
+      213: 5525171202410214357
+    second: S6_Medical_Examiner_32px_CC0_77
+  - first:
+      213: 435626800395654471
+    second: S6_Medical_Examiner_32px_CC0_78
+  - first:
+      213: 6783783803419771744
+    second: S6_Medical_Examiner_32px_CC0_79
+  - first:
+      213: 1364039337331874685
+    second: S6_Medical_Examiner_32px_CC0_80
+  - first:
+      213: 7803643693054515206
+    second: S6_Medical_Examiner_32px_CC0_81
+  - first:
+      213: -1108773513387115547
+    second: S6_Medical_Examiner_32px_CC0_82
+  - first:
+      213: 817286714614826428
+    second: S6_Medical_Examiner_32px_CC0_83
+  - first:
+      213: -1614938623523676893
+    second: S6_Medical_Examiner_32px_CC0_84
+  - first:
+      213: 715172246472898116
+    second: S6_Medical_Examiner_32px_CC0_85
+  - first:
+      213: -1762391946188501073
+    second: S6_Medical_Examiner_32px_CC0_86
+  - first:
+      213: 3343610299842885829
+    second: S6_Medical_Examiner_32px_CC0_87
+  - first:
+      213: 7828732703342839614
+    second: S6_Medical_Examiner_32px_CC0_88
+  - first:
+      213: -8822887485470014620
+    second: S6_Medical_Examiner_32px_CC0_89
+  - first:
+      213: 6155092302173517934
+    second: S6_Medical_Examiner_32px_CC0_90
+  - first:
+      213: 1930725213031873056
+    second: S6_Medical_Examiner_32px_CC0_91
+  - first:
+      213: -5638675832412824237
+    second: S6_Medical_Examiner_32px_CC0_92
+  - first:
+      213: -3217347778465860766
+    second: S6_Medical_Examiner_32px_CC0_93
+  - first:
+      213: -16874635722400435
+    second: S6_Medical_Examiner_32px_CC0_94
+  - first:
+      213: -2119769834933094106
+    second: S6_Medical_Examiner_32px_CC0_95
+  - first:
+      213: -5628098885310577349
+    second: S6_Medical_Examiner_32px_CC0_96
+  - first:
+      213: 7829756437537659936
+    second: S6_Medical_Examiner_32px_CC0_97
+  - first:
+      213: -2335044352454335788
+    second: S6_Medical_Examiner_32px_CC0_98
+  - first:
+      213: -1048826354372962193
+    second: S6_Medical_Examiner_32px_CC0_99
+  - first:
+      213: -5032441326295125517
+    second: S6_Medical_Examiner_32px_CC0_100
+  - first:
+      213: 2670804970404133040
+    second: S6_Medical_Examiner_32px_CC0_101
+  - first:
+      213: 3484033483020176890
+    second: S6_Medical_Examiner_32px_CC0_102
+  - first:
+      213: 6912040675295229914
+    second: S6_Medical_Examiner_32px_CC0_103
+  - first:
+      213: 1947244551833138838
+    second: S6_Medical_Examiner_32px_CC0_104
+  - first:
+      213: 7359906860822806430
+    second: S6_Medical_Examiner_32px_CC0_105
+  - first:
+      213: -4518632704374616585
+    second: S6_Medical_Examiner_32px_CC0_106
+  - first:
+      213: -8600704655963650045
+    second: S6_Medical_Examiner_32px_CC0_107
+  - first:
+      213: -5548348179269961907
+    second: S6_Medical_Examiner_32px_CC0_108
+  - first:
+      213: -7660243723738573527
+    second: S6_Medical_Examiner_32px_CC0_109
+  - first:
+      213: -5777860630884481770
+    second: S6_Medical_Examiner_32px_CC0_110
+  - first:
+      213: 7583610211227860419
+    second: S6_Medical_Examiner_32px_CC0_111
+  - first:
+      213: 5125753620228544725
+    second: S6_Medical_Examiner_32px_CC0_112
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 194
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57f7ec8e5c7f2ee0800000000000000
+      internalID: -1283670623244519589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 236
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983691db344f3f7b0800000000000000
+      internalID: -5191537373655506039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 235
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205a8fadfa8c15290800000000000000
+      internalID: -7903315213439949566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 235
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b45436a2fccbf1d0800000000000000
+      internalID: -3315831358085638988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_4
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 0
+        width: 195
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7eec5432ea879ae0800000000000000
+      internalID: -1542611643205357958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_5
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 236
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7a6eb171413d9e0800000000000000
+      internalID: -1597911353301489698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_6
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 236
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cbd4fb89158e9c10800000000000000
+      internalID: 2062232024151022533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_7
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 235
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17b13ae4137ac100800000000000000
+      internalID: 129042072999147291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_8
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 235
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d22a1105f41fde0800000000000000
+      internalID: -1301171612021543569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_9
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 235
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c558b99275bd900800000000000000
+      internalID: 710257202455469105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_10
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 32
+        width: 194
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d10373c82e10a3f0800000000000000
+      internalID: -891679565792738858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_11
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 236
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df012b6f4dee5970800000000000000
+      internalID: 8745688451755610073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_12
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 236
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30f64b30a94ae4a0800000000000000
+      internalID: -6563352554400976836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_13
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 235
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa219f4796c8f6d0800000000000000
+      internalID: -2956394802191455572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_14
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 235
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499ad95d8f219d1e0800000000000000
+      internalID: -2172684485284484716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_15
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 235
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6c1c11243c2c270800000000000000
+      internalID: 8269386554338821838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_16
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 32
+        width: 210
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9deb0b6b72ae33f60800000000000000
+      internalID: 8013005618311904985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_17
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 237
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c4b8eec2648d750800000000000000
+      internalID: 6329886435063843907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_18
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 237
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120103bd4acc261e0800000000000000
+      internalID: -2205975859034058719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_19
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 236
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b375acbd3d4fdb0800000000000000
+      internalID: -4758945965277758604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_20
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 236
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0804ae5dc2cbb5ee0800000000000000
+      internalID: -1271215569048551296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_21
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 236
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c1727aeaed81f30800000000000000
+      internalID: 4546628665540549668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_22
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 204
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40563f15de6fa5c60800000000000000
+      internalID: 7807824403142763780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_23
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 203
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca67191ebe717610800000000000000
+      internalID: 1617213096132569801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_24
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 203
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0025c55033858b0800000000000000
+      internalID: -5163320874663542617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_25
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 203
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48e4ddfb62ddb6c0800000000000000
+      internalID: -4125910322339583922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_26
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 205
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78a3638e53816cc0800000000000000
+      internalID: -3719547375276808066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_27
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 205
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad65e50ce2637e40800000000000000
+      internalID: 5652970723130830246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_28
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 204
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1fb4f10232e0fa30800000000000000
+      internalID: 4247143153019436830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_29
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 204
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5eb46673f93a4730800000000000000
+      internalID: 3984060538188775003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_30
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 204
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23895de75623ed70800000000000000
+      internalID: 9071136233540387631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_31
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 204
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28af07b10b9fcae0800000000000000
+      internalID: -1526831316986779602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_32
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 203
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fdda901efeb5de60800000000000000
+      internalID: 7986499512620998128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_33
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 203
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b989d6b34feab30800000000000000
+      internalID: 4300643230264367912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_34
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 205
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672694f03a25cf730800000000000000
+      internalID: 4034190226506736246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_35
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 205
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29e3b568d301e580800000000000000
+      internalID: -8799747968951129810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_36
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 204
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057735993bdc695d0800000000000000
+      internalID: -3056029125869078704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_37
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 204
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56530a3a31545bcd0800000000000000
+      internalID: -2543050463928896155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_38
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 172
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a590331d19e488610800000000000000
+      internalID: 1623634053854071130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_39
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 171
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1696ee0ab48b7fd90800000000000000
+      internalID: -7063974855545296543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_40
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 172
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc5474fa53dbbbc0800000000000000
+      internalID: -3766184275763503875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_41
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 171
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d69f571d4354650800000000000000
+      internalID: 6216432934886927695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_42
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 171
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e6aba145dca3620800000000000000
+      internalID: 2754739883199852036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_43
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 171
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806ed17b22bb3ae70800000000000000
+      internalID: 9125343027758229000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_44
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 170
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340074256277925b0800000000000000
+      internalID: -5392648072326610877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_45
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 171
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d462e9760186f71c0800000000000000
+      internalID: -4503766682680023475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_46
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 170
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03395f9bf8c791260800000000000000
+      internalID: 7068818046876750640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_47
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 173
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3f9d7b317eff9a0800000000000000
+      internalID: -6196980490363604035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_48
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 173
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9538a775c730385b0800000000000000
+      internalID: -5367442498317024423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_49
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 172
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9501503315bfe70800000000000000
+      internalID: 9149996347503434154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_50
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 172
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d348990365cbe930800000000000000
+      internalID: 4173646508842304468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_51
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 172
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f88418fdad347240800000000000000
+      internalID: 4788520121202411761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_52
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 172
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57754720a22059870800000000000000
+      internalID: 8688853435534301045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_53
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 172
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e028c096c91edb740800000000000000
+      internalID: 5169536009184772622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_54
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 171
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6964f5efc2ac3e880800000000000000
+      internalID: -8582794170243004778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_55
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 172
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c4594bdaf27c300800000000000000
+      internalID: 272238725584735247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_56
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 171
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335199b5a01816930800000000000000
+      internalID: 4134727814389241139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_57
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 140
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752e396fb7d3aea70800000000000000
+      internalID: 8856959219804660311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_58
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 139
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ea21f8d16c44dd0800000000000000
+      internalID: -2502657662654435713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_59
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 139
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5f15118d87c6000800000000000000
+      internalID: 30532166883603961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_60
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 139
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0d3d75bafd961a0800000000000000
+      internalID: -6815670634042634053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_61
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 139
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1cd600cdbefa7db0800000000000000
+      internalID: -4793238762458522597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_62
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 139
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b46e732d3e992060800000000000000
+      internalID: 6929243487111898290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_63
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 138
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500ca27d1caff94f0800000000000000
+      internalID: -819660896712605691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_64
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 138
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091ee02745c514700800000000000000
+      internalID: 522800549512274320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_65
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 138
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179e503e2c5856870800000000000000
+      internalID: 8675487329278093681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_66
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 139
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64fc3bc022808260800000000000000
+      internalID: 7097816090096235627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_67
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 139
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15c9acb49865c640800000000000000
+      internalID: 5099597141096645918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_68
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 138
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b40fb6c793e7f630800000000000000
+      internalID: 3960884638309614768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_69
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 139
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b60f53964abf1c0800000000000000
+      internalID: -4468797433451615434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_70
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 138
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77957fe3d85afbef0800000000000000
+      internalID: -90171441458751113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_71
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 142
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b156fdce5a5ee950800000000000000
+      internalID: 6480216277061620152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_72
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 142
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc15c70f55f88d90800000000000000
+      internalID: -7095151424421159751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_73
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 141
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af96411276463c10800000000000000
+      internalID: 2032889737534414758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_74
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 141
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643e5f6bf9004c6d0800000000000000
+      internalID: -2971249168188316858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_75
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 141
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8510a48981b7500800000000000000
+      internalID: 394936434680748285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_76
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 111
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7edee9e166b3ac410800000000000000
+      internalID: 1498075135840546279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_77
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 110
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3f0ea5fe95dac40800000000000000
+      internalID: 5525171202410214357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_78
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 110
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74519345448ab0600800000000000000
+      internalID: 435626800395654471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_79
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 110
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06342eb5d67d42e50800000000000000
+      internalID: 6783783803419771744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_80
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 112
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b5351ec8a0ee210800000000000000
+      internalID: 1364039337331874685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_81
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 111
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6085b36e79c1c4c60800000000000000
+      internalID: 7803643693054515206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_82
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 111
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebf2363d58dc90f0800000000000000
+      internalID: -1108773513387115547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_83
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 111
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb54340dfe5975b00800000000000000
+      internalID: 817286714614826428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_84
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 111
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d10d2d0e59699e0800000000000000
+      internalID: -1614938623523676893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_85
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 111
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4463c387e5dcce900800000000000000
+      internalID: 715172246472898116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_86
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 75
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafcc6cccd9ba87e0800000000000000
+      internalID: -1762391946188501073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_87
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 75
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8f87d3ad3e66e20800000000000000
+      internalID: 3343610299842885829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_88
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 77
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37cb305aee35ac60800000000000000
+      internalID: 7828732703342839614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_89
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 76
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463025fd39ece8580800000000000000
+      internalID: -8822887485470014620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_90
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 76
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e683bc676d74b6550800000000000000
+      internalID: 6155092302173517934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_91
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 89
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ab7a11a505bca10800000000000000
+      internalID: 1930725213031873056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_92
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 89
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d147594366fb1b0800000000000000
+      internalID: -5638675832412824237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_93
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 76
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26376a1ed3fa953d0800000000000000
+      internalID: -3217347778465860766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_94
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 63
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d5d04bb9c04cff0800000000000000
+      internalID: -16874635722400435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_95
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 46
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629793fe0901592e0800000000000000
+      internalID: -2119769834933094106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_96
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 45
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b358a4cf1e9f4e1b0800000000000000
+      internalID: -5628098885310577349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_97
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 46
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c92410ff1e8ac60800000000000000
+      internalID: 7829756437537659936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_98
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 45
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d26d257881489fd0800000000000000
+      internalID: -2335044352454335788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_99
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 47
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f681884dcf1d171f0800000000000000
+      internalID: -1048826354372962193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_100
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 46
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1fe29d64d292ab0800000000000000
+      internalID: -5032441326295125517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_101
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 47
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8394558fa901520800000000000000
+      internalID: 2670804970404133040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_102
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 46
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd0cfc5ef5c95030800000000000000
+      internalID: 3484033483020176890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_103
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 43
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7f5046f508cef50800000000000000
+      internalID: 6912040675295229914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_104
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 43
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69634da5a90060b10800000000000000
+      internalID: 1947244551833138838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_105
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 11
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9fbd43ab44a32660800000000000000
+      internalID: 7359906860822806430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_106
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 10
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fdc9410f779a41c0800000000000000
+      internalID: -4518632704374616585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_107
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 10
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3080d331fa824a880800000000000000
+      internalID: -8600704655963650045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_108
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 10
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47bd643abe4003b0800000000000000
+      internalID: -5548348179269961907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_109
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 14
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92595a14be851b590800000000000000
+      internalID: -7660243723738573527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_110
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 13
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6158a6e5e5ae0dfa0800000000000000
+      internalID: -5777860630884481770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_111
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 13
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cdf243be456e3960800000000000000
+      internalID: 7583610211227860419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S6_Medical_Examiner_32px_CC0_112
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 13
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d815eb92c5522740800000000000000
+      internalID: 5125753620228544725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      S6_Medical_Examiner_32px_CC0_0: -1283670623244519589
+      S6_Medical_Examiner_32px_CC0_1: -5191537373655506039
+      S6_Medical_Examiner_32px_CC0_10: -891679565792738858
+      S6_Medical_Examiner_32px_CC0_100: -5032441326295125517
+      S6_Medical_Examiner_32px_CC0_101: 2670804970404133040
+      S6_Medical_Examiner_32px_CC0_102: 3484033483020176890
+      S6_Medical_Examiner_32px_CC0_103: 6912040675295229914
+      S6_Medical_Examiner_32px_CC0_104: 1947244551833138838
+      S6_Medical_Examiner_32px_CC0_105: 7359906860822806430
+      S6_Medical_Examiner_32px_CC0_106: -4518632704374616585
+      S6_Medical_Examiner_32px_CC0_107: -8600704655963650045
+      S6_Medical_Examiner_32px_CC0_108: -5548348179269961907
+      S6_Medical_Examiner_32px_CC0_109: -7660243723738573527
+      S6_Medical_Examiner_32px_CC0_11: 8745688451755610073
+      S6_Medical_Examiner_32px_CC0_110: -5777860630884481770
+      S6_Medical_Examiner_32px_CC0_111: 7583610211227860419
+      S6_Medical_Examiner_32px_CC0_112: 5125753620228544725
+      S6_Medical_Examiner_32px_CC0_12: -6563352554400976836
+      S6_Medical_Examiner_32px_CC0_13: -2956394802191455572
+      S6_Medical_Examiner_32px_CC0_14: -2172684485284484716
+      S6_Medical_Examiner_32px_CC0_15: 8269386554338821838
+      S6_Medical_Examiner_32px_CC0_16: 8013005618311904985
+      S6_Medical_Examiner_32px_CC0_17: 6329886435063843907
+      S6_Medical_Examiner_32px_CC0_18: -2205975859034058719
+      S6_Medical_Examiner_32px_CC0_19: -4758945965277758604
+      S6_Medical_Examiner_32px_CC0_2: -7903315213439949566
+      S6_Medical_Examiner_32px_CC0_20: -1271215569048551296
+      S6_Medical_Examiner_32px_CC0_21: 4546628665540549668
+      S6_Medical_Examiner_32px_CC0_22: 7807824403142763780
+      S6_Medical_Examiner_32px_CC0_23: 1617213096132569801
+      S6_Medical_Examiner_32px_CC0_24: -5163320874663542617
+      S6_Medical_Examiner_32px_CC0_25: -4125910322339583922
+      S6_Medical_Examiner_32px_CC0_26: -3719547375276808066
+      S6_Medical_Examiner_32px_CC0_27: 5652970723130830246
+      S6_Medical_Examiner_32px_CC0_28: 4247143153019436830
+      S6_Medical_Examiner_32px_CC0_29: 3984060538188775003
+      S6_Medical_Examiner_32px_CC0_3: -3315831358085638988
+      S6_Medical_Examiner_32px_CC0_30: 9071136233540387631
+      S6_Medical_Examiner_32px_CC0_31: -1526831316986779602
+      S6_Medical_Examiner_32px_CC0_32: 7986499512620998128
+      S6_Medical_Examiner_32px_CC0_33: 4300643230264367912
+      S6_Medical_Examiner_32px_CC0_34: 4034190226506736246
+      S6_Medical_Examiner_32px_CC0_35: -8799747968951129810
+      S6_Medical_Examiner_32px_CC0_36: -3056029125869078704
+      S6_Medical_Examiner_32px_CC0_37: -2543050463928896155
+      S6_Medical_Examiner_32px_CC0_38: 1623634053854071130
+      S6_Medical_Examiner_32px_CC0_39: -7063974855545296543
+      S6_Medical_Examiner_32px_CC0_4: -1542611643205357958
+      S6_Medical_Examiner_32px_CC0_40: -3766184275763503875
+      S6_Medical_Examiner_32px_CC0_41: 6216432934886927695
+      S6_Medical_Examiner_32px_CC0_42: 2754739883199852036
+      S6_Medical_Examiner_32px_CC0_43: 9125343027758229000
+      S6_Medical_Examiner_32px_CC0_44: -5392648072326610877
+      S6_Medical_Examiner_32px_CC0_45: -4503766682680023475
+      S6_Medical_Examiner_32px_CC0_46: 7068818046876750640
+      S6_Medical_Examiner_32px_CC0_47: -6196980490363604035
+      S6_Medical_Examiner_32px_CC0_48: -5367442498317024423
+      S6_Medical_Examiner_32px_CC0_49: 9149996347503434154
+      S6_Medical_Examiner_32px_CC0_5: -1597911353301489698
+      S6_Medical_Examiner_32px_CC0_50: 4173646508842304468
+      S6_Medical_Examiner_32px_CC0_51: 4788520121202411761
+      S6_Medical_Examiner_32px_CC0_52: 8688853435534301045
+      S6_Medical_Examiner_32px_CC0_53: 5169536009184772622
+      S6_Medical_Examiner_32px_CC0_54: -8582794170243004778
+      S6_Medical_Examiner_32px_CC0_55: 272238725584735247
+      S6_Medical_Examiner_32px_CC0_56: 4134727814389241139
+      S6_Medical_Examiner_32px_CC0_57: 8856959219804660311
+      S6_Medical_Examiner_32px_CC0_58: -2502657662654435713
+      S6_Medical_Examiner_32px_CC0_59: 30532166883603961
+      S6_Medical_Examiner_32px_CC0_6: 2062232024151022533
+      S6_Medical_Examiner_32px_CC0_60: -6815670634042634053
+      S6_Medical_Examiner_32px_CC0_61: -4793238762458522597
+      S6_Medical_Examiner_32px_CC0_62: 6929243487111898290
+      S6_Medical_Examiner_32px_CC0_63: -819660896712605691
+      S6_Medical_Examiner_32px_CC0_64: 522800549512274320
+      S6_Medical_Examiner_32px_CC0_65: 8675487329278093681
+      S6_Medical_Examiner_32px_CC0_66: 7097816090096235627
+      S6_Medical_Examiner_32px_CC0_67: 5099597141096645918
+      S6_Medical_Examiner_32px_CC0_68: 3960884638309614768
+      S6_Medical_Examiner_32px_CC0_69: -4468797433451615434
+      S6_Medical_Examiner_32px_CC0_7: 129042072999147291
+      S6_Medical_Examiner_32px_CC0_70: -90171441458751113
+      S6_Medical_Examiner_32px_CC0_71: 6480216277061620152
+      S6_Medical_Examiner_32px_CC0_72: -7095151424421159751
+      S6_Medical_Examiner_32px_CC0_73: 2032889737534414758
+      S6_Medical_Examiner_32px_CC0_74: -2971249168188316858
+      S6_Medical_Examiner_32px_CC0_75: 394936434680748285
+      S6_Medical_Examiner_32px_CC0_76: 1498075135840546279
+      S6_Medical_Examiner_32px_CC0_77: 5525171202410214357
+      S6_Medical_Examiner_32px_CC0_78: 435626800395654471
+      S6_Medical_Examiner_32px_CC0_79: 6783783803419771744
+      S6_Medical_Examiner_32px_CC0_8: -1301171612021543569
+      S6_Medical_Examiner_32px_CC0_80: 1364039337331874685
+      S6_Medical_Examiner_32px_CC0_81: 7803643693054515206
+      S6_Medical_Examiner_32px_CC0_82: -1108773513387115547
+      S6_Medical_Examiner_32px_CC0_83: 817286714614826428
+      S6_Medical_Examiner_32px_CC0_84: -1614938623523676893
+      S6_Medical_Examiner_32px_CC0_85: 715172246472898116
+      S6_Medical_Examiner_32px_CC0_86: -1762391946188501073
+      S6_Medical_Examiner_32px_CC0_87: 3343610299842885829
+      S6_Medical_Examiner_32px_CC0_88: 7828732703342839614
+      S6_Medical_Examiner_32px_CC0_89: -8822887485470014620
+      S6_Medical_Examiner_32px_CC0_9: 710257202455469105
+      S6_Medical_Examiner_32px_CC0_90: 6155092302173517934
+      S6_Medical_Examiner_32px_CC0_91: 1930725213031873056
+      S6_Medical_Examiner_32px_CC0_92: -5638675832412824237
+      S6_Medical_Examiner_32px_CC0_93: -3217347778465860766
+      S6_Medical_Examiner_32px_CC0_94: -16874635722400435
+      S6_Medical_Examiner_32px_CC0_95: -2119769834933094106
+      S6_Medical_Examiner_32px_CC0_96: -5628098885310577349
+      S6_Medical_Examiner_32px_CC0_97: 7829756437537659936
+      S6_Medical_Examiner_32px_CC0_98: -2335044352454335788
+      S6_Medical_Examiner_32px_CC0_99: -1048826354372962193
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

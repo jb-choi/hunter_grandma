@@ -1,0 +1,23 @@
+GIMP Palette
+Name: Hunting Idle AD-01 reference and candidate shades
+Columns: 6
+# NOT a replacement for existing woodland_animals.gpl; 9 documented colors and 9 new proposed shades
+# Existing (4), Reference (5), Candidate (9)
+ 24  20  31	OUTLINE_existing
+247 234 202	IVORY_existing
+231 101  24	TIGER_existing
+ 17 105 116	MAGPIE_existing
+ 63  97  75	FOREST_reference
+120 145  91	LEAF_reference
+173 126  88	WOOD_reference
+239 229 200	PAPER_reference
+236 201 109	GOLD_reference
+ 43  68  56	forest_shadow_NEW
+170 191 122	leaf_highlight_NEW
+118  84  62	wood_shadow_NEW
+210 164 122	wood_light_NEW
+206 193 160	ivory_shadow_NEW
+172  66  26	tiger_shadow_NEW
+244 169  87	tiger_light_NEW
+ 12  69  83	magpie_shadow_NEW
+ 76 158 166	magpie_light_NEW

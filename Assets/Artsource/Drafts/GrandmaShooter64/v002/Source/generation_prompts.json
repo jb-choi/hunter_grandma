@@ -1,0 +1,40 @@
+{
+  "common_prompt": "Use case: stylized-concept. Asset type: ONE production-intent pixel-art game character base sprite. Create a genuinely appealing ORIGINAL cute elderly grandmother shooting a gun, full body, 3/4 side view facing RIGHT, natural expressive action stance. Hand-crafted premium 16-bit indie pixel art with coherent deliberate pixel clusters and selective dark plum 1-pixel contour, hue-shifted 3-tone shading, warm charming expressive aged face. IMPORTANT resolution: design on an exact 64 by 64 LOGICAL PIXEL canvas, then display at a clean integer enlargement, every logical pixel is a flat square, aligned uniform grid, no subpixel details. Entire character + weapon + small muzzle flash fit with 3-4 logical pixels transparent margin. Character head about 18 logical pixels wide, full figure about 51 logical pixels high; design must read at actual 64x64. 2.4-2.7 head adult chibi proportions, not a baby. Beautiful large readable clothing shapes, distinct silhouette, lively asymmetric pose, rich but restrained 20-28 opaque color palette, clean readable hands touching the gun. Transparent background with actual alpha, no ground shadow, no stage, no border, no text, no labels, no collage, ONE character only. Avoid photorealism, smooth illustration, high-resolution line art, huge black square eyeglasses, perfectly frontal rigid paper-doll stance, tiny noisy textures, blurry edges, gradient shading and dithering. ",
+  "candidates": [
+    {
+      "n": 4,
+      "name": "grandma_04_sundeok",
+      "title": "순덕 할매",
+      "direction": "A cheeky Korean country grandmother, age 75, short stout pear-shaped body, energetic forward lean. Distinctive soft fluffy charcoal-and-silver perm hair in large curled clusters, tiny round low-set spectacles that do not cover her expressive brows, one confident squint and a crooked warm grin, plump peach cheeks. Mustard quilted vest over dusty-rose sleeves, dark burgundy roomy trousers with just two tiny coral flower clusters, practical maroon shoes. She braces a chunky walnut-and-blue-steel pump-action shotgun firing to the RIGHT with BOTH hands, stock at shoulder and one hand underneath barrel. Tiny warm muzzle star. Her comedy is that she looks like a cozy neighborhood grandma but stands like an action hero. Strong diagonal gesture, good visible neck and waist, no rectangular bobblehead.",
+      "generated_path": "C:\\Users\\Junbeom_Choi\\.codex\\generated_images\\01a15c15-5109-7633-b8f0-db0d03cf28d8\\exec-055ce7e6-3be9-4d4a-9e99-89abcf6f1968.png"
+    },
+    {
+      "n": 5,
+      "name": "grandma_05_redhood",
+      "title": "빨간 두건 숲지기",
+      "direction": "A sprightly elderly forest-warden grandmother, age 78, small athletic pear-shaped figure with a flowing triangular RED hooded cape, long chunky SILVER braid emerging on the left and a little silver fringe, joyful determined eyes, small upturned nose and knowing smile. No eyeglasses. Warm cream blouse, deep teal tunic, brown utility belt and pouch, short navy skirt over stockings and large chestnut walking boots. Legs in an asymmetrical planted shooting stance, cloak lifting slightly behind the left hip. A handsome walnut-stock hunting rifle points horizontally to the RIGHT, both hands correctly gripping, tiny amber muzzle star. Strong red triangle silhouette and silver braid as visual identifiers. Original friendly storybook forest adventurer; not any existing named character.",
+      "generated_path": "C:\\Users\\Junbeom_Choi\\.codex\\generated_images\\01a15c15-5109-7633-b8f0-db0d03cf28d8\\exec-c4a7e057-b2f8-4547-aa7c-98565214ce39.png"
+    },
+    {
+      "n": 6,
+      "name": "grandma_06_teatime",
+      "title": "찻집 해결사",
+      "direction": "A lovable elderly tea-shop grandma age 80 with a LARGE elegant loose silver topknot held by one pink hair stick, fluffy silver side hair, a round softly sagging face, tiny gold pince-nez spectacles LOW on the nose, eyes visible above them, a mischievous winking smile and rosy cheeks. Cozy turquoise cardigan with large turned cuffs over coral long skirt and a cream scalloped apron, small heart-shaped apron pocket with just 2 pixels of red, aubergine mary-jane shoes. A ROUND generous lower-body silhouette and short sturdy legs; she rocks backward slightly from firing a small elegant double-barrel wooden shotgun to the RIGHT with BOTH hands. Short barrels, readable grip and stock, tiny amber muzzle flash. An charming feisty tearoom owner with personality, not a generic child in white hair.",
+      "generated_path": "C:\\Users\\Junbeom_Choi\\.codex\\generated_images\\01a15c15-5109-7633-b8f0-db0d03cf28d8\\exec-836f8af2-690e-4a40-97be-57f66603060f.png"
+    },
+    {
+      "n": 7,
+      "name": "grandma_07_mosswitch",
+      "title": "이끼숲 마녀 할매",
+      "direction": "A charming elderly woodland witch grandmother age 90, a floppy wide PURPLE pointed hat with a bent asymmetric tip, a small amber leaf on the hat band, two thick short silver braids, wide round weathered cheeks, a small hooked nose, warm laughing eyes and a cheeky grin. No glasses. Moss-green cloak over plum dress, tan leather belt satchel, short legs in russet laced boots. Distinctive crescent silhouette of bent hat and the cloak. She leans forward and fires a quirky hand-crafted brass-and-walnut blunderbuss shotgun toward the RIGHT with BOTH hands, small warm muzzle star. Weapon is clearly a gun with stock, trigger grip and flared barrel; NOT a wand or broom. Whimsical cute and capable, compact game-playable adventurer, original design.",
+      "generated_path": "C:\\Users\\Junbeom_Choi\\.codex\\generated_images\\01a15c15-5109-7633-b8f0-db0d03cf28d8\\exec-5410a733-f1a0-4845-b37a-542a6037ff8e.png"
+    },
+    {
+      "n": 8,
+      "name": "grandma_08_wildrose",
+      "title": "서부의 꽃할매",
+      "direction": "A charismatic elderly western gunslinger grandmother age 76, a wide asymmetric TAN COWBOY HAT with a small coral flower, one very thick flowing SILVER side braid, a wrinkled warm face with a confident wink and infectious crooked smile, short little button nose. No glasses. Dark teal cropped duster coat with fluttering hem, vivid brick-red neckerchief, ivory shirt, chestnut belt with a golden buckle, navy riding trousers and big burgundy cowboy boots. Stocky but agile adult body, 2.5 heads tall. She takes a dynamic low planted stance, extends a single handsome oversized brass-and-blue-steel REVOLVER aimed to the RIGHT, free hand on hip. Tiny compact amber muzzle flash. Iconic diagonal hat brim, braid and kerchief; friendly feisty grandmother, not a youthful cowgirl.",
+      "generated_path": "C:\\Users\\Junbeom_Choi\\.codex\\generated_images\\01a15c15-5109-7633-b8f0-db0d03cf28d8\\exec-21fa91e8-14d8-49a8-b191-bd520ed7bb32.png"
+    }
+  ]
+}

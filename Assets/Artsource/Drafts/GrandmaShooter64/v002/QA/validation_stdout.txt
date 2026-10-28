@@ -1,0 +1,1 @@
+PASS: 5 final 64px natives, 10 PNG comparisons, 40 reopened visibility states, 32-color membership, binary alpha.

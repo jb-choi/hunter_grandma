@@ -1,0 +1,47 @@
+# Unity-generated data and local editor state
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/MemoryCaptures/
+/Recordings/
+/Assets/_Recovery/
+/Assets/_Recovery.meta
+
+# IDE-generated files
+/.vs/
+/.vscode/
+/.idea/
+/*.csproj
+/*.sln
+/*.slnx
+/*.unityproj
+/*.pidb
+/*.suo
+/*.user
+/*.userprefs
+/*.booproj
+/*.opendb
+/*.VC.db
+
+# Local rollback copies and art editor autosaves
+/Docs/Backups/
+*~
+*~.meta
+*.bak
+*.bak.meta
+*.tmp
+*.tmp.meta
+
+# Local secrets, crash dumps and OS metadata
+.env
+.env.*
+!.env.example
+/sysinfo.txt
+/crash.dmp
+.DS_Store
+Thumbs.db
+Desktop.ini

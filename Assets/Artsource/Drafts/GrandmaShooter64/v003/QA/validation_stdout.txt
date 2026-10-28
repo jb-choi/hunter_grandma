@@ -1,0 +1,1 @@
+PASS: 2 age revisions, 4 native/PNG comparisons, 16 reopened layer states, palette membership and binary alpha.

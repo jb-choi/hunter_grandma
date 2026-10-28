@@ -1,0 +1,6 @@
+# HU-BASE v002 imagegen prompt
+
+Mode: built-in image_gen edit; transparent_background=true.
+Reference: ../v001/hunter_concept_imagegen.png
+
+Edit the attached hunter concept into true low-resolution production pixel art while preserving this concept's cozy character design. KEEP the rounded floppy wide-brim green hat and cream feather, golden brown hair/ear, bright warm cheek and friendly tiny dark eye, scarf/collar, diagonal leather strap and belt buckle, tunic hem, cuffed brown boots and wooden bow. Do not substitute a tall straight pointed elf cap or plain flat shirt. Make one right-facing standing idle hunter. The FINAL logical canvas is exactly 32 pixels wide and 32 pixels high, with character about 29 pixels tall and 20 pixels wide. Draw as real 32x32 pixel art and enlarge only by nearest-neighbor for display; every visible detail must obey one consistent square pixel grid. Limit to about 16 solid flat colors, clear 1-pixel dark outline, broad intentional clusters, 3 green tones, 3 warm skin tones, 3 leather tones. Keep the expressive silhouette and the outfit layers. Preserve true transparent background. No antialiasing, gradients, blur, dither, noise, shadow, background, text, UI, multiple characters or panels. Make it feel like a polished professional 32x32 game sprite rather than a simplified geometric placeholder.

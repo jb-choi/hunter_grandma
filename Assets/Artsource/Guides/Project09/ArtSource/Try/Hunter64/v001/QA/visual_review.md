@@ -1,0 +1,130 @@
+## 2026-10-14 · 별도 idle 다리 디자인 검수 · IdleBreathV2/p001
+
+대상은 [idle_breath_v2.aseprite](../Clips/HU-01_idle/idle_breath_v2.aseprite), 기존 호흡 전5프레임의 LowerBody y49~56만 바꾼 별도 시안이다. 단색 바지·기본 갈색과 세로 그림자의 부츠로 단순화했다. [최신 부위·레이어·프레임별 판정](IdleBreathV2/p001/visual_review.md) · [독립 작화 검수](IdleBreathV2/p001/Review/visual_review.md) · [수치검수](IdleBreathV2/p001/native_validation.json) · [실제 브라우저검수](IdleBreathV2/p001/browser_validation.json).
+
+원래4레이어 전20셀 raw 보존·수정 범위 밖 변경0, 자락 y43~48과5프레임 시간360/180/300/180/180ms 유지, 원본15 native 해시 보존을 확인했다. 검수 복사본에서만 실제 visible 값을 바꿔 전5레이어×5F 단독 및 하나씩 숨김을 다시 렌더했다. 현재 판정과 수행 범위는 위 최신 QA를 따른다. 다른 부위의 전체 경계 정리 완료나 Unity 적용 통과를 의미하지 않는다. 아래는 이전 작업의 검수 이력이다.
+
+## 별도 walk 재시도 검수 · WalkRetry/p001
+
+2026-10-13. [walk_retry.aseprite](../Clips/HU-02_walk/walk_retry.aseprite)는 기존 walk·walk_another를 보존한 **별도 재시도**이며 정본 교체가 아니다. [동결 walk_another F1](../Clips/HU-02_walk/Source/WalkRetry/p001/walk_another.aseprite)의 바짓단7점·부츠36점, 총 LowerBody43점 수정을 기준으로 썼다. source 6레이어 순서 `backgroud_temp`, `Bow&Quiver`, `Slingshot&bag`, `LowerBody`, `UpperBody_Arms_Equipment`, `Head_Hat_Hair_Face`를 유지하고 배경·옛 활만 숨긴다.
+
+8개 연속 작화 F1~8은 각120ms·960ms 반복, 별도 F9 `cycle_close`는 F1의 raw 셀·좌표와 동일한 닫힘 참고다. 굽힌 무릎·반대 팔 흔들림·몸 높낮이·자루 지연·자락 국소 변형을 전신에서 확인했다. 교차 F3/F7의 들린 밑창 y53과 지지 밑창 y56이 구분된다. 부분적인 발·자락 가림은 남아 있으나 source 부츠가 삭제된 상태가 아니다.
+
+**정적 작화검수 통과:** [독립 전9프레임 판정](WalkRetry/p001/Review/visual_review.md). native를 다시 열어 전체64px·밝은 배경8배·교차 발16배에서 머리/눈·상의·손잡이·골반/무릎/커프·발 접지를 확인했고 추가 필수 픽셀 보정은 발견하지 못했다. 기존 indexed 픽셀로 직접 작업했으며 재생성·블러·안티앨리어싱·디더링은 사용하지 않았다.
+
+**수치검수·재생 검수 통과:** [native 검사](WalkRetry/p001/native_validation.json), [브라우저 검사](WalkRetry/p001/browser_validation.json). 8F 반복2회·F9 반복 제외, 실제64px/8배 Point 표시, 7개 링크, 모바일390px 가로넘침0, 오류0을 확인했다. [기존 10파일 해시](WalkRetry/p001/source_hash.json)는 보존됐다. 정적 판정과 수치·재생 결과를 구분하며 아래 기존 기록은 유지한다.
+
+[동작 안내](../Clips/HU-02_walk/walk_retry.md) · [별도 재생기](../Previews/WalkRetry/index.html) · [이번 작업·검수](WalkRetry/p001/README.md).
+
+## 현재 focus·shoot·collect 작화검수 · SlingshotActions/p001
+
+2026-10-13. [동결 입력](../Source/SlingshotActions/p001/idle_breath.aseprite)의 F1을 기준으로 만든 세 클립의 전 12프레임을 native에서 다시 열어 전체 64px·8배로 독립 정적 검수했다. [focus·shoot 상세 판정](SlingshotActions/p001/SourceReview/focus_shoot_review.md) · [collect 상세 판정](SlingshotActions/p001/SourceReview/collect_review.md) · [정적 native 대응 확인](SlingshotActions/p001/SourceReview/native_static_review.json).
+
+| 현재 편집 파일 | 타이밍·행동 | 전체 64px / 전후 |
+|---|---|---|
+| [focus](../Clips/HU-03_focus/focus.aseprite) | 4F × 150ms, 600ms. 새총 올리기·당기기·볼 옆 조준 유지 | [64px](SlingshotActions/p001/SourceReview/focus_native_contact_1x.png) · [전후](SlingshotActions/p001/focus_before_after_8x.png) |
+| [shoot](../Clips/HU-04_shoot/shoot.aseprite) | 4F × 100ms, 400ms. F1 놓기·반동·내리기·기준 복귀 | [64px](SlingshotActions/p001/SourceReview/shoot_native_contact_1x.png) · [전후](SlingshotActions/p001/shoot_before_after_8x.png) |
+| [collect](../Clips/HU-05_collect/collect.aseprite) | 4F × 150ms, 600ms. 숙이기·F3 낮은 반대손 수집·자루 입구 회복 | [64px](SlingshotActions/p001/SourceReview/collect_native_contact_1x.png) · [전후](SlingshotActions/p001/collect_before_after_8x.png) |
+
+**정적 작화 판정: 세 클립 통과. 필수 픽셀 보정 없음.**
+
+| 부위 | 실제 확인과 판정 |
+|---|---|
+| 모자·깃털·머리카락·얼굴·눈 | 원형 유지. 머리 전체 정수 이동 비교 불일치 0. 조준 손이 볼 옆에 오지만 눈을 덮거나 얼굴 픽셀을 바꾸지 않음. |
+| 목·상의·어깨·허리 | 원래 팔에 가린 셔츠 면을 복원한 뒤 움직여 접점이 연속함. 12프레임에서 네모 투명 구멍 없음. |
+| 팔·손·새총·고무줄 | 조준의 양손과 손잡이 접점 유지. 단색 1px 고무줄 경계로 당김과 놓기를 구분함. collect에서는 앞손에 새총을 유지하고 반대손으로 수집함. |
+| 자루 | 몸 이동을 따르고 F3 최저점 y56으로 발바닥 아래를 침범하지 않음. collect F4 반대손이 입구 (25,39)에 닿음. |
+| 자락·무릎·신발 | focus·shoot는 하체 y51 이후 전체 동일. collect는 무릎을 굽혀도 기존 불투명 신발 픽셀 변경 0, 접지 y56 유지. F3에 기존 빈 하체 영역 y51~53의 관절·옷 연결 9픽셀을 추가했으므로 전체 하체 행 동일로 판정하지 않음. |
+
+세 native의 레이어는 아래→위 `Bow&Quiver`, `Slingshot&bag`, `LowerBody`, `UpperBody_Arms_Equipment`, `Head_Hat_Hair_Face` 5개이며, `Bow&Quiver`만 숨겼다. 기존 Indexed 픽셀·팔레트로 직접 작업했고 이미지 재생성·블러·안티앨리어싱·디더링은 사용하지 않았다.
+
+**통합 수치검수·브라우저 재생 검수: 통과.** [작업·검수 안내](SlingshotActions/p001/README.md)와 [통합 native 검사](SlingshotActions/p001/native_validation.json)를 별도로 확인한다. 정적 native 대응 확인의 불일치 0과 플레이어 재생 통과는 구분한다.
+
+[focus 이전 native](../Clips/HU-03_focus/Source/SlingshotActions/p001/focus_before.aseprite) · [shoot 이전 native](../Clips/HU-04_shoot/Source/SlingshotActions/p001/shoot_before.aseprite) · [collect 이전 native](../Clips/HU-05_collect/Source/SlingshotActions/p001/collect_before.aseprite) · [입력 해시](SlingshotActions/p001/input_hashes.json). idle·walk·carry_small·drag_large·load와 Unity Assets는 이번 작업에서 변경하지 않았다.
+
+## 이전 제작 이력
+
+아래의 장비 전파·활 기반 9레이어·초기 축소 검수는 해당 단계의 기록이며 이번 세 클립의 최신 판정으로 사용하지 않는다.
+
+## 현재 장비 전파 검수 · EquipmentPropagation/p001
+
+2026-10-12. 검수 대상은 [walk.aseprite](../Clips/HU-02_walk/walk.aseprite)의 점유7프레임과 [idle_breath.aseprite](../Clips/HU-01_idle/idle_breath.aseprite)의 전5프레임이다. 새 `Slingshot&bag` F1 사용자 셀을 보존하고 가방132px은 몸, 새총96px은 손을 따라 전파했다. walk의 빈 F2·4·6·8은 셀0개를 유지한다.
+
+**수치 검수:** [저장 native 검사](EquipmentPropagation/p001/native_validation.json)는 passed다. 기존 셀 이미지·좌표 변경0, 장비228px의 전파 모델·캐릭터 PNG·마스크·native 기본 표시 PNG·8배 GIF 불일치0, 부분 알파0이다. 입력 보존과 해시는 [input_hashes.json](EquipmentPropagation/p001/input_hashes.json)을 따른다. 평면 `idle.aseprite`와 HU-03~08은 변경하지 않았다.
+
+**작화 검수:** [walk 전11프레임](EquipmentPropagation/p001/walk_contact_8x.png), [idle 전5프레임](EquipmentPropagation/p001/idle_contact_8x.png) 및 실제64px [walk](EquipmentPropagation/p001/walk_contact_1x.png)·[idle](EquipmentPropagation/p001/idle_contact_1x.png)을 확인했다. 새총과 앞손의 접점·손의 앞쪽 가림이 유지되고 가방은 몸 높이를 따른다. 머리·상의·허리·자락·부츠를 함께 보았으며 새 옷 내부 구멍이나 접지 파손은 발견하지 않았다. 기존 무릎 비교 포즈의 다리 사이 공간은 유지한다. 이 판정은 장비 전파의 정적 전신 검수이며 빈 중간 프레임의 작화 완료 판정은 아니다.
+
+walk native는 사용자의 장비 격리 표시 상태(6레이어 중 `Slingshot&bag`만 표시)를 보존했다. 전체 캐릭터 출력은 새 장비+몸3레이어 표시, 옛 활·임시 배경 숨김 정책으로 별도 렌더한다. idle native는5레이어 중 옛 `Bow&Quiver`만 숨기며 출력도 같은 표시를 사용한다. [검수 안내](EquipmentPropagation/p001/README.md) · [전파 전 사용자 장비](EquipmentPropagation/p001/gear_before_8x.png) · [walk native 기본 표시](EquipmentPropagation/p001/walk_native_visibility.png) · [idle native 기본 표시](EquipmentPropagation/p001/idle_native_visibility.png).
+
+아래는 장비 전파 이전의 300→64 축소 검수 기록이다.
+
+# 이전 Hunter64 v001 · 300→64 idle 축소 시각 검수
+
+2026-10-11 · HU-01_idle · F1/F2 · 전신·표시 크기 검수 / 별도 브라우저 재생 검수 결과 반영
+
+**전체 캐릭터와 장비의 식별은 유지된다. 단순 축소 비교 시험본으로 확인할 수 있지만, 귀·버클·활 명암의 세부 손실과 프레임 사이 샘플 변화가 있다.** 이 기록은 추가 작화 0회의 최근접 축소 품질 평가다. 64px 재작화·경계 정리 완료나 최종 제작 해상도 채택을 판정하지 않는다.
+
+입력은 Hunter_300 v006의 300×300 전체 캔버스다. 출력 좌표가 입력의 `floor((destination + 0.5) × 300 / 64)`를 참조하며 F1/F2에 같은 변환을 적용했다. 프레임별 trim·재배치·색 평균·추가 픽셀 수정은 없다.
+
+## 확인한 이미지와 범위
+
+- [전후 비교](../Previews/idle_before_after.png): 왼쪽 300 원본 / 오른쪽 64 결과, 위 F1 / 아래 F2. 양쪽 캔버스를 각각 512×512로 표시한다.
+- [두 프레임 8배 비교](../Previews/idle_contact_8x.png), [F1 8배](../Previews/idle_zoom_01.png), [F2 8배](../Previews/idle_zoom_02.png).
+- 실제 64×64 PNG: [F1](../Clips/HU-01_idle/Frames/idle_01.png), [F2](../Clips/HU-01_idle/Frames/idle_02.png).
+- 부위 위치 참고: [F1 마스크](../Previews/material_regions_01.png), [F2 마스크](../Previews/material_regions_02.png), [원본 영역 정의](../Clips/HU-01_idle/Source/regions_300.json).
+
+위 PNG를 실제 이미지로 열어 모든 부위를 확인했다. 눈·버클·시위·부츠는 PNG 픽셀도 읽어 확인했다. Aseprite 메타에서 64×64 Indexed, 2프레임, 각 500ms, `idle` 태그와 원본 17칸 팔레트를 확인했다. [native 파일 검사](native_validation.json)의 44개 항목 통과도 확인했다. 이 수치 검사는 직접 최근접 샘플과 파일이 일치한다는 근거이며, 작은 디테일이 시각적으로 온전히 보존되었다는 판정은 아니다. 아래 좌표는 PNG 좌상단 원점, x 오른쪽·y 아래다.
+
+## 전신·전 프레임 검수
+
+각 행의 전후 이미지는 같은 [전후 비교](../Previews/idle_before_after.png)를 사용하며 F1/F2 확대를 함께 연결한다. `유지`는 해당 부위의 의미와 큰 형태가 남았다는 뜻이다.
+
+| 부위 | 전후·확대 | F1 확인 | F2 확인 | 판정·남은 손실 |
+|---|---|---|---|---|
+| 깃털 | [전후](../Previews/idle_before_after.png), [F1](../Previews/idle_zoom_01.png), [F2](../Previews/idle_zoom_02.png) | 밝은 사선 깃털과 주황색 아래 무늬가 구분됨. 끝과 아래 경계가 짧은 계단으로 바뀜. | 큰 깃털은 유지되지만 끝·밑동의 길이와 밝은 면이 F1과 다른 픽셀 덩어리로 남음. | 형태 유지 / 작은 끝·띠 손실. 원본에도 두 프레임의 깃털 모양 차이가 있으며 축소가 계단을 더 크게 드러냄. |
+| 모자 본체·챙 | [전후](../Previews/idle_before_after.png), [F1](../Previews/idle_zoom_01.png), [F2](../Previews/idle_zoom_02.png) | 녹색 본체, 밝은 윗면, 넓은 챙이 읽힘. 오른쪽 접힘·챙 끝의 곡선이 큰 직각 단계로 단순화됨. | 같은 모자 구조 유지. 밝은 윗면과 오른쪽 챙의 끝·높이가 원본 이동 및 샘플 위치에 따라 달라짐. | 큰 실루엣 유지 / 짧은 계단 변화. 세부 외곽이 원본과 같은 길이·두께로 보존된 것은 아님. |
+| 모자 띠·장식 | [전후](../Previews/idle_before_after.png), [F1](../Previews/idle_zoom_01.png), [F2](../Previews/idle_zoom_02.png) | 갈색 띠와 밝은 장식이 남음. 어두운 띠 안의 가는 명암은 합쳐짐. | 띠와 장식은 식별됨. 장식 폭·밝은 면이 F1보다 다른 덩어리로 샘플됨. | 기능 유지 / 얇은 명암·테두리 손실. |
+| 머리카락 | [전후](../Previews/idle_before_after.png), [F1](../Previews/idle_zoom_01.png), [F2](../Previews/idle_zoom_02.png) | 모자 아래 황금색 머리와 귀 뒤의 덩어리 유지. 짧은 머릿결과 아래쪽 돌출이 줄어듦. | 머리 덩어리 유지. 귀 주변·아래쪽 머리의 모양은 원본 포즈 차이와 함께 달라짐. | 재질·인상 유지 / 짧은 머릿결 손실. |
+| 얼굴·코·볼 | [전후](../Previews/idle_before_after.png), [F1](../Previews/idle_zoom_01.png), [F2](../Previews/idle_zoom_02.png) | 밝은 얼굴과 오른쪽 코, 주황색 볼이 구분됨. 턱·코 곡선은 직각 단계로 바뀜. | 얼굴 방향·볼 유지. 얼굴 폭, 코·턱 끝의 계단이 F1과 다름. | 얼굴 식별 유지. 원본에도 머리·얼굴 위치/형태 차이가 있으며 축소 후 1px 변화의 비중이 커짐. |
+| 눈 | [전후](../Previews/idle_before_after.png), [F1](../Previews/idle_zoom_01.png), [F2](../Previews/idle_zoom_02.png) | `(35,25)`–`(35,26)`의 어두운 1×2px 눈. | `(36,24)`–`(36,26)`의 어두운 1×3px 눈. | 두 프레임 모두 눈은 읽힘 / 높이 불균일. 원본 눈의 위치 변화가 샘플 경계에 걸리면서 F2가 1px 더 길어짐. 새로 그린 표정 변화로 해석하지 않음. |
+| 귀·귀 내부 | [전후](../Previews/idle_before_after.png), [F1](../Previews/idle_zoom_01.png), [F2](../Previews/idle_zoom_02.png) | 귀의 밝은 면과 머리카락 음영이 남음. 원본의 귀 안쪽 구멍·짧은 음영은 얼굴/머리 덩어리와 합쳐져 덜 읽힘. | 귀 위치는 남지만 안쪽 구멍과 경계가 F1과 다른 짧은 모양으로 압축됨. | 귀 위치 유지 / 내부 디테일 손실. 원본 프레임 차이가 있으므로 두 축소 귀의 불일치를 모두 축소 오류로 기록하지 않음. |
+| 목·스카프 | [전후](../Previews/idle_before_after.png), [F1](../Previews/idle_zoom_01.png), [F2](../Previews/idle_zoom_02.png) | 밝은 스카프와 목의 접점이 보임. 목 주위의 짧은 암부와 접힘이 좁아짐. | 스카프의 밝은 면 유지. 원본의 목/스카프 모양 차이가 큰 덩어리 변화로 남음. | 식별 유지 / 접힘·목 경계 단순화. |
+| 몸통·어깨끈 | [전후](../Previews/idle_before_after.png), [F1](../Previews/idle_zoom_01.png), [F2](../Previews/idle_zoom_02.png) | 초록 옷과 갈색 사선 끈이 분리됨. 작은 녹색 밝은 면과 소매/몸 경계는 일부 합쳐짐. | 사선 끈·옷 유지. 가슴 명암과 끈의 계단 위치가 F1과 다르게 샘플됨. | 핵심 복장 유지 / 짧은 명암·사선 두께 변화. 작은 표시에서 끈과 벨트의 연결은 읽힘. |
+| 뒤쪽 팔·손·장갑 | [전후](../Previews/idle_before_after.png), [F1](../Previews/idle_zoom_01.png), [F2](../Previews/idle_zoom_02.png) | 내려간 팔, 밝은 손, 갈색 장갑/가죽이 구분됨. 손끝과 소매의 작은 경계가 줄어듦. | 팔·손은 유지되나 손의 밝은 덩어리와 장갑의 면적이 F1과 다름. | 기능 유지 / 손끝·소매 세부 손실. 원본부터 있던 손 형태 차이와 축소 단계 변화가 함께 보임. |
+| 앞쪽 팔·손·활 접점 | [전후](../Previews/idle_before_after.png), [F1](../Previews/idle_zoom_01.png), [F2](../Previews/idle_zoom_02.png) | 녹색 소매·밝은 손이 활 손잡이에 연속해서 닿음. 손가락별 모양은 압축됨. | 접점 유지. 손과 전완의 색 면·높이가 원본 포즈 차이에 따라 이동하고 굵기가 달라짐. | 손–활 접점 유지 / 손가락·짧은 음영 손실. 장비가 손에서 떨어진 틈은 확인되지 않음. |
+| 벨트·버클 | [전후](../Previews/idle_before_after.png), [F1](../Previews/idle_zoom_01.png), [F2](../Previews/idle_zoom_02.png) | 금색 3×3px 테두리 `x33–35,y41–43`와 가운데 `(34,42)`의 어두운 1px 구멍이 남음. | 금색은 `x35–36,y41–43`의 2열로 남고 `(36,42)`는 어두움. 오른쪽 금색 테두리가 샘플에서 빠져 구멍이 벨트 암부로 열린 형태가 됨. | F1 내부 구멍 유지 / F2 오른쪽 테두리 손실. 금색 그림자 인덱스 15는 양 프레임에서 사라졌지만 원본 팔레트에는 보존됨. |
+| 양다리 | [전후](../Previews/idle_before_after.png), [F1](../Previews/idle_zoom_01.png), [F2](../Previews/idle_zoom_02.png) | 녹색 두 다리와 사이의 투명 틈이 남음. 무릎·바짓단 명암은 큰 면으로 압축됨. | 두 다리 분리 유지. 다리 폭·양쪽 위치는 원본 자세 변화와 샘플 계단에 따라 다름. | 다리 분리 유지 / 짧은 바짓단·암부 손실. |
+| 양부츠·발끝·밑창 | [전후](../Previews/idle_before_after.png), [F1](../Previews/idle_zoom_01.png), [F2](../Previews/idle_zoom_02.png) | 갈색 커프·발끝 밝은 면·검정 밑창 유지. 두 부츠 바닥이 `y56`에 맞음. | 같은 바닥 `y56` 유지. 원본의 발 위치 변화가 남고 발끝 하이라이트 폭·계단이 F1과 다름. | 접지·부츠 식별 유지 / 발끝 명암의 샘플 폭 차이. 캔버스를 따로 맞춰 발을 고정한 결과가 아님. |
+| 활 목재·곡선 | [전후](../Previews/idle_before_after.png), [F1](../Previews/idle_zoom_01.png), [F2](../Previews/idle_zoom_02.png) | 굽은 활과 갈색/주황색 목재는 읽힘. 좁은 밝은 면이 일부 단절되고 아래 곡선의 계단이 커짐. | 활은 유지. 상단·하단 목재와 밝은 면이 F1보다 다른 길이·폭으로 샘플됨. | 장비 식별 유지 / 가는 목재 명암·곡선 계단 손실. 곡선이 정리된 64px 작화라는 판정은 하지 않음. |
+| 활줄·활 안쪽 틈 | [전후](../Previews/idle_before_after.png), [F1](../Previews/idle_zoom_01.png), [F2](../Previews/idle_zoom_02.png) | 주로 `x42,y34–48`의 어두운 1px 시위가 유지됨. 목재 사이의 투명 틈은 가장 좁은 구간에서 1px. | 주로 `x43,y33–49`의 어두운 1px 시위 유지. 투명 틈은 대체로 1–2px로 보임. | 시위·내부 공간 유지. 원본의 가는 선을 같은 화면 두께로 재현한 것은 아니며 작은 표시에서 목재와 합쳐 읽힐 수 있음. |
+| 화살 장식·화살통 | [전후](../Previews/idle_before_after.png), [F1](../Previews/idle_zoom_01.png), [F2](../Previews/idle_zoom_02.png) | 등 뒤 밝은 화살 장식과 갈색 화살통 유지. 화살 축·여러 장식의 내부 간격은 줄어듦. | 큰 장식·화살통 유지. 장식이 F1보다 더 붙은 밝은 덩어리로 남으며 개별 화살 구분이 약함. | 화살통 식별 유지 / 가는 축·장식 분리 손실. |
+
+## 원본 포즈 변화와 축소 손실
+
+300 원본 F1/F2에는 이미 머리·귀·스카프·손·장비·발의 위치와 모양 차이가 있다. [원본 검수 기록](../../../Hunter_300/v006/QA/visual_review.md)과 이번 전후 이미지의 왼쪽 두 프레임에서 확인할 수 있다. 이 차이를 64 변환에서 새로 만든 움직임으로 기록하지 않는다.
+
+축소에 추가로 드러나는 변화는 다음과 같다. 이번 시험의 충실한 전체 캔버스 축소 범위로 남기며 임의로 재작화해 맞추지 않았다.
+
+- 작은 위치 이동이 샘플 경계를 넘으면 선/면의 두께가 1px 바뀐다. 눈의 1×2 / 1×3 차이가 대표적이다.
+- F2 버클의 얇은 오른쪽 금색 테두리와 양 프레임의 금색 그림자 인덱스 15가 선택되지 않는다. 인덱스 15의 원본 픽셀 수는 F1 10개 / F2 2개였고, 결과는 양쪽 0개다. 팔레트 17칸을 유지했지만 실제 불투명 사용색은 각각 15색이다.
+- 원본의 짧은 귀 내부 선, 화살 축, 활 목재의 가는 명암은 몇 픽셀로 압축되거나 사라진다. 크게 읽히는 실루엣과 의상 색 덩어리를 유지한 것과 작은 디테일의 완전 보존은 별개다.
+
+## 표시 크기·재생과 남은 범위
+
+이번 검수에서는 실제 64×64 PNG와 8배 정수 확대, 양쪽 캔버스 512×512 비교를 확인했다. 원래 PNG 크기에서도 모자·얼굴·초록 의상·부츠·활은 식별되지만 귀 안쪽과 버클 테두리 같은 작은 정보는 더 약하게 읽힌다.
+
+주 작업자가 실제 브라우저에서 재생·프레임 진행, 100%/800%/42px/68px 크기 전환과 390px 폭 모바일 레이아웃을 확인했다. 저장된 [브라우저 검사](browser_validation.json)는 통과 상태이며 2프레임·각 500ms·loop 설정, 실제 F1→F2 진행, 모바일 `scrollWidth=viewportWidth=390`, 링크 검사와 오류 없음이 기록되어 있다. 다음 캡처 5개를 이 문서 작성자가 실제 이미지로 추가 검토했다. 문서 작성자가 직접 재생기를 조작한 결과로 혼동하지 않는다.
+
+| 표시 | 캡처 | 추가 시각 확인 |
+|---|---|---|
+| 100% | [실제 크기](idle_actual_size.png) | 64px 캔버스 / 캐릭터 50px. 원본과 결과를 같은 캐릭터 높이로 표시하며 모자·얼굴·의상·활·발 분리가 유지됨. 작은 귀 내부와 버클 테두리는 확대와 달리 잘 읽히지 않음. |
+| 캐릭터 42px | [42px](display_42px.png) | 결과 캔버스 약 53.8px. 작은 표시에서 직업/복장 실루엣과 활은 유지되지만 눈의 길이·귀·버클 내부는 판독이 약해짐. 원본과 축소본 양쪽에서 작은 디테일의 한계가 보임. |
+| 캐릭터 68px | [68px](display_68px.png) | 결과 캔버스 약 87.0px. 눈·볼·끈·커프가 더 읽히며 64 축소본의 굵어진 계단·짧은 명암과 원본의 세부 차이가 드러남. |
+| 800% 데스크톱 | [8배 재생기](player_desktop_8x.png) | 결과 캔버스 512px / 캐릭터 400px. 300 원본도 같은 캐릭터 높이로 나란히 표시됨. F1 손–활 접점과 발 기준선, 축소 결과의 큰 계단을 확인함. |
+| 390px 폭 모바일 | [모바일](player_mobile.png) | 두 비교 이미지가 세로로 놓이고 표시 크기/배경/재생 제어 및 썸네일이 화면 안에 보임. 별도 실제 브라우저 검사에서 가로 overflow가 없음을 확인함. 모바일에서 공간에 맞게 표시된 이미지는 추가 정수배 검수 이미지로 간주하지 않음. |
+
+두 프레임의 비투명 바운딩 높이는 50px, 시작 y7, 마지막 바닥 y56이다. F1은 x17/폭32, F2는 x17/폭33이며 상·하단 여백은 각각 7px이다. 전체 캔버스를 변환했으므로 이 50px 높이가 이번 64px 시험의 실제 캐릭터 높이다.
+
+재생기는 동일한 500ms 프레임 진행으로 양쪽을 비교한다. 실제 프레임 진행은 별도 브라우저 검수에 근거하며 위 정적 캡처만으로 동적 깜빡임이 없다고 판정하지 않는다. 두 프레임의 원본 포즈 차이와 함께 눈 1×2/1×3, F2 버클 오른쪽 테두리 손실, 활 목재 명암의 샘플 변화를 반복 비교 대상으로 남긴다. 이 차이를 숨기기 위한 재작화는 하지 않았다. 42px/68px는 재생기에서 확인한 표시 크기이며 Unity 실화면 검수는 수행하지 않았다.
+
+결과는 `64×64 전체 캔버스 최근접 축소 시험 / 추가 작화 0회 / 전신·전 프레임·표시 크기 검수 완료 / 별도 브라우저 재생·레이아웃 검사 통과 반영`으로 기록한다. 작은 디테일을 보존하기 위한 별도 64px 작화나 제작 해상도 확정은 이번 시험에 포함하지 않는다. 출력과 원본은 수정하지 않았으며 이번 작업에서는 이 검수 문서만 작성했다.

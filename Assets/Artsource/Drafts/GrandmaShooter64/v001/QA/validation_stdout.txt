@@ -1,0 +1,1 @@
+Validated PNG/native equality, palette membership, alpha, and 42 reopened layer states.

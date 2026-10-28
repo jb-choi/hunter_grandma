@@ -1,0 +1,173 @@
+# 2D belt-scroll implementation validation
+
+Unity 6000.3.10f1 · 2026-10-28 01:38
+
+Status: PASS
+
+Isolated save: `Library/BeltScroll-validation.json`. The player profile is never reset or modified by this suite.
+
+- PASS: New profile unlocks only Stage 0; invalid stage IDs are rejected
+- PASS: Upgrades cannot spend unavailable gold
+- PASS: No capture before boss subdual
+- PASS: No capture before yard arrival
+- PASS: Yard arrival settles one captive
+- PASS: The same run cannot settle twice
+- PASS: Repeat clear creates a distinct captive and source run ID
+- PASS: Repeat clear preserves first-clear timestamp and sequential unlock
+- PASS: Abandoning a run prevents captive rewards
+- PASS: Attack upgrade spends gold and raises actual shot damage
+- PASS: Fire-rate upgrade spends gold and shortens the actual shot interval
+- PASS: Save JSON round-trip preserves gold, IDs, and stage records
+- PASS: Unsupported save versions are rejected
+- PASS: Atomic disk replacement produces a readable save and backup
+- PASS: A corrupt primary save recovers the last valid backup
+- PASS: Upgrade limits prevent overflow purchases
+- PASS: Shotgun hits an aligned target inside range
+- PASS: A target in a different depth lane is outside the shotgun cone
+- PASS: Shotgun rejects targets behind the shot or beyond its range
+- PASS: A left-facing shot has the same depth and range rules
+- PASS: Solid cover blocks shotgun hits behind it
+- PASS: Movement cannot tunnel through a cover footprint
+- PASS: Automatic navigation goes around cover and reaches the other side
+- PASS: Belt world boundaries clamp both movement axes
+- PASS: Lower feet render in front of upper feet independent of sprite height
+- PASS: Playable scene starts Stage 0 with live zombies and a bounded pool
+- PASS: Gameplay rejects locked district travel
+- PASS: M opens the map and pauses the encounter
+- PASS: Clickable UI: Region 0
+- PASS: Locked map district shows a disabled travel button
+- PASS: Map pin receives the actual pointer raycast above the modal backdrop
+- PASS: Stage 0 is separately selectable outside the six city pins
+- PASS: Escape closes the map and restores the prior game speed
+- PASS: Clickable UI: 지도  M
+- PASS: Clickable UI: Close map
+- PASS: Closing a map opened while already paused preserves pause
+- PASS: W+D moves grandma right and into the belt depth
+- PASS: S+A moves grandma left and toward the foreground
+- PASS: Held downward input stops at the near belt boundary
+- PASS: Held upward input stops at the far belt boundary
+- PASS: Camera scrolls horizontally with forward travel
+- PASS: Current encounter limits prevent skipping the active wave
+- PASS: Clickable UI: 지도  M
+- PASS: Movement input is blocked while the map owns pause
+- PASS: Clickable UI: Close map
+- PASS: Overlapping live actors use feet to determine their actual sorting groups
+- PASS: Every live alien has an independent grounded foot shadow
+- PASS: A real shotgun flight melts the aligned alien while the off-lane alien remains unharmed
+- PASS: Tab input turns automatic exploration back on
+- PASS: Automatic hunting approaches enemies on X/Y and fires without movement input
+- PASS: Movement keys leave the depth lane targeted by the boss telegraph
+- PASS: A boss charge misses after grandma moves out of its depth lane
+- PASS: Stage 0: subdual keeps the host body without granting an early capture
+- PASS: Stage 0: map travel is blocked during capture
+- PASS: Stage 0: signature boss attack executed
+- PASS: Subdued boss stays at its belt foot position until loading starts
+- PASS: Stage 0: intact host is loaded on the cart and shooting stays stopped
+- PASS: Cart loads at the actual subdual X/Y location
+- PASS: Stage 0: returning cart has not yet settled a reward
+- PASS: Stage 0: full subdual, loading, return, yard, CLEAR sequence
+- PASS: Stage 0: exactly one new captive is settled at home
+- PASS: First clear unlocks Stage 1
+- PASS: Later stages stay locked after Stage 0
+- PASS: Enter next unlocked stage 1
+- PASS: Stage 1: subdual keeps the host body without granting an early capture
+- PASS: Stage 1: map travel is blocked during capture
+- PASS: Stage 1: signature boss attack executed
+- PASS: Subdued boss stays at its belt foot position until loading starts
+- PASS: Stage 1: intact host is loaded on the cart and shooting stays stopped
+- PASS: Cart loads at the actual subdual X/Y location
+- PASS: Stage 1: returning cart has not yet settled a reward
+- PASS: Stage 1: full subdual, loading, return, yard, CLEAR sequence
+- PASS: Stage 1: exactly one new captive is settled at home
+- PASS: First clear unlocks Stage 2
+- PASS: Later stages stay locked after Stage 1
+- PASS: Enter next unlocked stage 2
+- PASS: Stage 2: subdual keeps the host body without granting an early capture
+- PASS: Stage 2: map travel is blocked during capture
+- PASS: Stage 2: signature boss attack executed
+- PASS: Subdued boss stays at its belt foot position until loading starts
+- PASS: Stage 2: intact host is loaded on the cart and shooting stays stopped
+- PASS: Cart loads at the actual subdual X/Y location
+- PASS: Stage 2: returning cart has not yet settled a reward
+- PASS: Stage 2: full subdual, loading, return, yard, CLEAR sequence
+- PASS: Stage 2: exactly one new captive is settled at home
+- PASS: First clear unlocks Stage 3
+- PASS: Later stages stay locked after Stage 2
+- PASS: Enter next unlocked stage 3
+- PASS: Stage 3: subdual keeps the host body without granting an early capture
+- PASS: Stage 3: map travel is blocked during capture
+- PASS: Stage 3: signature boss attack executed
+- PASS: Subdued boss stays at its belt foot position until loading starts
+- PASS: Stage 3: intact host is loaded on the cart and shooting stays stopped
+- PASS: Cart loads at the actual subdual X/Y location
+- PASS: Stage 3: returning cart has not yet settled a reward
+- PASS: Stage 3: full subdual, loading, return, yard, CLEAR sequence
+- PASS: Stage 3: exactly one new captive is settled at home
+- PASS: First clear unlocks Stage 4
+- PASS: Later stages stay locked after Stage 3
+- PASS: Enter next unlocked stage 4
+- PASS: Stage 4: subdual keeps the host body without granting an early capture
+- PASS: Stage 4: map travel is blocked during capture
+- PASS: Stage 4: signature boss attack executed
+- PASS: Subdued boss stays at its belt foot position until loading starts
+- PASS: Stage 4: intact host is loaded on the cart and shooting stays stopped
+- PASS: Cart loads at the actual subdual X/Y location
+- PASS: Stage 4: returning cart has not yet settled a reward
+- PASS: Stage 4: full subdual, loading, return, yard, CLEAR sequence
+- PASS: Stage 4: exactly one new captive is settled at home
+- PASS: First clear unlocks Stage 5
+- PASS: Later stages stay locked after Stage 4
+- PASS: Enter next unlocked stage 5
+- PASS: Stage 5: subdual keeps the host body without granting an early capture
+- PASS: Stage 5: map travel is blocked during capture
+- PASS: Stage 5: signature boss attack executed
+- PASS: Subdued boss stays at its belt foot position until loading starts
+- PASS: Stage 5: intact host is loaded on the cart and shooting stays stopped
+- PASS: Cart loads at the actual subdual X/Y location
+- PASS: Stage 5: returning cart has not yet settled a reward
+- PASS: Stage 5: full subdual, loading, return, yard, CLEAR sequence
+- PASS: Stage 5: exactly one new captive is settled at home
+- PASS: First clear unlocks Stage 6
+- PASS: Enter next unlocked stage 6
+- PASS: Stage 6: subdual keeps the host body without granting an early capture
+- PASS: Stage 6: map travel is blocked during capture
+- PASS: Stage 6: signature boss attack executed
+- PASS: Doctor uses bounded self-heal and summons
+- PASS: Subdued boss stays at its belt foot position until loading starts
+- PASS: Stage 6: intact host is loaded on the cart and shooting stays stopped
+- PASS: Cart loads at the actual subdual X/Y location
+- PASS: Stage 6: returning cart has not yet settled a reward
+- PASS: Stage 6: full subdual, loading, return, yard, CLEAR sequence
+- PASS: Stage 6: exactly one new captive is settled at home
+- PASS: All seven stages cleared; replay Stage 0
+- PASS: Stage 0: subdual keeps the host body without granting an early capture
+- PASS: Stage 0: map travel is blocked during capture
+- PASS: Subdued boss stays at its belt foot position until loading starts
+- PASS: Stage 0: intact host is loaded on the cart and shooting stays stopped
+- PASS: Cart loads at the actual subdual X/Y location
+- PASS: Stage 0: returning cart has not yet settled a reward
+- PASS: Stage 0: full subdual, loading, return, yard, CLEAR sequence
+- PASS: Stage 0: exactly one new captive is settled at home
+- PASS: Actual Stage 0 replay adds a different dog and preserves the first clear
+- PASS: Repeat dog is a new neighborhood animal rather than resurrected Kongi
+- PASS: Clickable UI: 지도  M
+- PASS: Clickable UI: Region 5
+- PASS: Cleared Stage 6 remains selectable for repeat capture
+- PASS: Clickable UI: Close map
+- PASS: Cleared district can be re-entered
+- PASS: Retreat preserves earned gold and historical clears/captures without a new captive
+- PASS: Defense failure grants no captive and keeps earned progress
+- PASS: Disk reload retains eight unique captives, all stage clears, upgrades, and gold
+- PASS: All actual capture and run IDs are unique
+- PASS: Normal zombies visibly melt; plaza waves approach from both sides
+- PASS: Retry resets the encounter while keeping permanent progress
+- PASS: No runtime errors, exceptions, or assertions during the complete stage suite
+
+- Stage 0: 45.6 simulated seconds, 14 kills, 23 shots, 0 breaches, 92 HP, boss attacks 2
+- Stage 1: 63.6 simulated seconds, 30 kills, 61 shots, 0 breaches, 90 HP, boss attacks 1
+- Stage 2: 60.2 simulated seconds, 30 kills, 60 shots, 0 breaches, 100 HP, boss attacks 1
+- Stage 3: 70.1 simulated seconds, 36 kills, 58 shots, 0 breaches, 100 HP, boss attacks 1
+- Stage 4: 76.5 simulated seconds, 36 kills, 48 shots, 0 breaches, 84 HP, boss attacks 1
+- Stage 5: 74.7 simulated seconds, 44 kills, 87 shots, 0 breaches, 82 HP, boss attacks 1
+- Stage 6: 79.6 simulated seconds, 49 kills, 74 shots, 0 breaches, 100 HP, boss attacks 1
+- Stage 0: 35.8 simulated seconds, 14 kills, 17 shots, 0 breaches, 100 HP, boss attacks 0

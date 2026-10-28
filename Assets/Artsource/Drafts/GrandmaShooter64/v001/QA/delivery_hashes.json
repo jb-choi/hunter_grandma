@@ -1,0 +1,87 @@
+[
+  {
+    "relative_path": "grandma_01_rose.aseprite",
+    "sha256": "04129C416D7515DC639A58137C60325DDDC35F1AA3527867CCACE46C53CF4DFD",
+    "bytes": 2353
+  },
+  {
+    "relative_path": "grandma_02_ranger.aseprite",
+    "sha256": "0BC55EA2269EE5A2A14EF99497EF50A6BCC5917DCC34C39CFAC76E05DDB3F4A2",
+    "bytes": 2368
+  },
+  {
+    "relative_path": "grandma_03_lavender.aseprite",
+    "sha256": "61F7F4A77F41B571FA689CD5B6C37FC3291926C9D6B875B545A9779A1FDFE5D4",
+    "bytes": 2430
+  },
+  {
+    "relative_path": "Export/grandma_01_rose_no_fx.png",
+    "sha256": "6DDE8EB621B8115BA1614733BCAC3198EB1FBD5DB489E684934376172448A6ED",
+    "bytes": 1549
+  },
+  {
+    "relative_path": "Export/grandma_01_rose.png",
+    "sha256": "41791C4C74060A1E0565B3E322571B6FA415B2B118103EC422B38A1B6626D26C",
+    "bytes": 1638
+  },
+  {
+    "relative_path": "Export/grandma_02_ranger_no_fx.png",
+    "sha256": "72E999B36DDF2DD22666F9CC043D8984FD32FD02A801620BE716A6FFFCCB783F",
+    "bytes": 1395
+  },
+  {
+    "relative_path": "Export/grandma_02_ranger.png",
+    "sha256": "4A42DD05781E83046CEF19D4DBFA17A8F8E8F166AAD9E22A603489583FEA3139",
+    "bytes": 1452
+  },
+  {
+    "relative_path": "Export/grandma_03_lavender_no_fx.png",
+    "sha256": "1B0F87074888549C1970F1962152324E76A7B5BBC82297BAC095ED850E6E96F1",
+    "bytes": 1660
+  },
+  {
+    "relative_path": "Export/grandma_03_lavender.png",
+    "sha256": "5A7E06AAFFD9F1E6242A51366EE44E48AA5813B4DABD2D95735F624365A6282A",
+    "bytes": 1735
+  },
+  {
+    "relative_path": "Export/grandma_candidates.json",
+    "sha256": "B309CD0969DCBF63E9386550CFA533C712B35C3CBE9EB212BC4F6FC8A838085C",
+    "bytes": 7962
+  },
+  {
+    "relative_path": "Export/grandma_palette.gpl",
+    "sha256": "08ABA34340BC0FEFBEFEF914F9EE7A8F0E994F9E8892B3B5E56960D58DD629E6",
+    "bytes": 770
+  },
+  {
+    "relative_path": "Scripts/build_candidates.lua",
+    "sha256": "771022534CC7A65EB4EA38AEA5347992AA5F7C2EB6E73D3FDB73DA6882FA4DA8",
+    "bytes": 12775
+  },
+  {
+    "relative_path": "Scripts/validate_and_preview.lua",
+    "sha256": "80F7DB5C3596854748B31B58B9A78BEB507CE3B5C8320C7CAB5364A9F6A7C1C6",
+    "bytes": 7609
+  },
+  {
+    "relative_path": "Source/InitialPass/build_candidates.lua",
+    "sha256": "1D6435E7DC6BB5B96261C07D3880A88325608C8720F8FE70ADC4636B354CCF90",
+    "bytes": 12618
+  },
+  {
+    "relative_path": "Source/InitialPass/grandma_01_rose.aseprite",
+    "sha256": "A263C4B6505CC941F6621340D476C80F100413216F2AD0A4D4D4F766A46A5F08",
+    "bytes": 2357
+  },
+  {
+    "relative_path": "Source/InitialPass/grandma_02_ranger.aseprite",
+    "sha256": "AADDCFB924D26D863D92B2255F15A08B4204F197EC8E6DC8DD543D80A6FE7A85",
+    "bytes": 2370
+  },
+  {
+    "relative_path": "Source/InitialPass/grandma_03_lavender.aseprite",
+    "sha256": "6EA782DC5D03A1985B05889A0397F05F76A4F61085EEBE5A365276132976B21E",
+    "bytes": 2422
+  }
+]

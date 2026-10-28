@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE DOC PUBLIC '-//KDE//DTD krita 2.0//EN' 'http://www.calligra.org/DTD/krita-2.0.dtd'>
+<DOC xmlns="http://www.calligra.org/DTD/krita" editor="Krita" kritaVersion="5.3.4.1" syntaxVersion="2.0">
+ <IMAGE width="2484" name="unnamed" y-res="96" description="" x-res="96" mime="application/x-kra" height="1040" colorspacename="RGBA" profile="sRGB built-in">
+  <layers>
+   <mask filename="mask2" name="선택 마스크" colorlabel="0" x="506" active="1" intimeline="0" y="-48" nodetype="selectionmask" visible="1" locked="0" uuid="{1c636f96-3f3a-4aeb-842e-2b38b7fdd123}"/>
+   <layer name="칠하기 레이어 3" visible="1" onionskin="0" locked="0" selected="true" uuid="{d6bb7053-ba8b-4ccd-8821-2d0ac06c210c}" nodetype="paintlayer" channelflags="" y="0" compositeop="normal" intimeline="1" filename="layer3" colorspacename="RGBA" colorlabel="0" collapsed="0" opacity="255" x="0" channellockflags=""/>
+   <layer channellockflags="1111" compositeop="normal" filename="layer4" onionskin="0" opacity="255" name="Layer 2" colorlabel="0" x="0" collapsed="0" intimeline="0" channelflags="" y="0" nodetype="paintlayer" colorspacename="RGBA" visible="1" locked="0" uuid="{e5d772c4-e5e1-41d8-a63c-711223853db9}"/>
+   <layer channellockflags="1111" compositeop="normal" filename="layer5" onionskin="0" opacity="255" name="Layer 1" colorlabel="0" x="0" collapsed="0" intimeline="0" channelflags="" y="0" nodetype="paintlayer" colorspacename="RGBA" visible="1" locked="0" uuid="{7823b1de-8bf6-44ea-be6c-59f52d44dbab}"/>
+  </layers>
+  <ProjectionBackgroundColor ColorData="AAAAAA=="/>
+  <GlobalAssistantsColor SimpleColorData="176,176,176,255"/>
+  <ColorHistory/>
+  <Palettes/>
+  <resources/>
+  <animation>
+   <framerate value="24" type="value"/>
+   <range type="timerange" to="100" from="0"/>
+   <currentTime value="0" type="value"/>
+  </animation>
+ </IMAGE>
+</DOC>
+

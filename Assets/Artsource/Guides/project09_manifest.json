@@ -1,0 +1,1437 @@
+[
+  {
+    "source_relative": "ArtSource/AGENTS.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\AGENTS.md",
+    "copy_relative": "Project09/ArtSource/AGENTS.project09.md",
+    "sha256": "3AF5C2574E578AB84B945FADEACC423C7E445434BFC17ACCFC304A55715102A6",
+    "bytes": 3727
+  },
+  {
+    "source_relative": "ArtSource/Backups/HU-BASE/2026-10-11_v001/README_original_v001.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Backups\\HU-BASE\\2026-10-11_v001\\README_original_v001.md",
+    "copy_relative": "Project09/ArtSource/Backups/HU-BASE/2026-10-11_v001/README_original_v001.md",
+    "sha256": "E17EF8C75580CDFEF73967E09C2574A9C13B2E22F83465B144353064D5475F4B",
+    "bytes": 3913
+  },
+  {
+    "source_relative": "ArtSource/Backups/HU-BASE/2026-10-11_v001/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Backups\\HU-BASE\\2026-10-11_v001\\README.md",
+    "copy_relative": "Project09/ArtSource/Backups/HU-BASE/2026-10-11_v001/README.md",
+    "sha256": "60CA8CD04A99A0A9D1D6F8B6595099AB4378A9E4B4B943D2DA61E65BCFCB97CE",
+    "bytes": 786
+  },
+  {
+    "source_relative": "ArtSource/Drafts/HU-BASE/v001/imagegen_prompt.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Drafts\\HU-BASE\\v001\\imagegen_prompt.md",
+    "copy_relative": "Project09/ArtSource/Drafts/HU-BASE/v001/imagegen_prompt.md",
+    "sha256": "8A0D4910EDAA830F8F5BD01212A1953F30ECAF52422377CE420B6CE7964822AA",
+    "bytes": 1934
+  },
+  {
+    "source_relative": "ArtSource/Drafts/HU-BASE/v001/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Drafts\\HU-BASE\\v001\\README.md",
+    "copy_relative": "Project09/ArtSource/Drafts/HU-BASE/v001/README.md",
+    "sha256": "B714FF0B787C4EC911A994E8AA2A8E109B7F543E6B4A78AA2173EAF815C271FE",
+    "bytes": 982
+  },
+  {
+    "source_relative": "ArtSource/Drafts/HU-BASE/v002/imagegen_prompt.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Drafts\\HU-BASE\\v002\\imagegen_prompt.md",
+    "copy_relative": "Project09/ArtSource/Drafts/HU-BASE/v002/imagegen_prompt.md",
+    "sha256": "BC741C68F1673DEBF06E93BEFE1061E774534DB194908AD403CD6C7BEFDF00F0",
+    "bytes": 1347
+  },
+  {
+    "source_relative": "ArtSource/Drafts/HU-BASE/v002/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Drafts\\HU-BASE\\v002\\README.md",
+    "copy_relative": "Project09/ArtSource/Drafts/HU-BASE/v002/README.md",
+    "sha256": "03B3F3AB5E0B460632542315CA66C8ABB3783C600479150A0BD7EA4601AE01F9",
+    "bytes": 1298
+  },
+  {
+    "source_relative": "ArtSource/Previews/HU-BASE/v002/QA.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Previews\\HU-BASE\\v002\\QA.md",
+    "copy_relative": "Project09/ArtSource/Previews/HU-BASE/v002/QA.md",
+    "sha256": "21E887EC429B0C6F0C5441C2830AF0A21CC16E06AE72DEC7366ECF19631B6625",
+    "bytes": 782
+  },
+  {
+    "source_relative": "ArtSource/Production/Hunters/HU-BASE/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Production\\Hunters\\HU-BASE\\README.md",
+    "copy_relative": "Project09/ArtSource/Production/Hunters/HU-BASE/README.md",
+    "sha256": "2E1B584D059CF07BC6FE2F73B0CEC34CAFD0BD350CC556798DCBFD933003C756",
+    "bytes": 2958
+  },
+  {
+    "source_relative": "ArtSource/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\README.md",
+    "copy_relative": "Project09/ArtSource/README.md",
+    "sha256": "570B0AAEBA9164E6ACDB9AA33E474FDD7FC891CEAFA496543820A441273491E9",
+    "bytes": 5779
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Clips/HU-01_idle/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Clips\\HU-01_idle\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Clips/HU-01_idle/README.md",
+    "sha256": "F62E896D49D193D7E8C5D1560C410B3E86B31A9322BB145A0252C347C4991B63",
+    "bytes": 558
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Clips/HU-02_walk/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Clips\\HU-02_walk\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Clips/HU-02_walk/README.md",
+    "sha256": "C01E57CE0EE804FAE88704962802AE231693D0BC9DF09AC9D933AC0647443438",
+    "bytes": 534
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Clips/HU-02_walk/Source/SOURCE_NOTES.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Clips\\HU-02_walk\\Source\\SOURCE_NOTES.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Clips/HU-02_walk/Source/SOURCE_NOTES.md",
+    "sha256": "534DCB146EC103A4421AF0D14CECEDC1C887D9A73983C5C80802D33A616890A1",
+    "bytes": 978
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Clips/HU-03_focus/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Clips\\HU-03_focus\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Clips/HU-03_focus/README.md",
+    "sha256": "EB36693A3567E1B04BCC0DB2FE3FE08CE81DC312F9E410E236A80DF683467ADE",
+    "bytes": 562
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Clips/HU-03_focus/Source/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Clips\\HU-03_focus\\Source\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Clips/HU-03_focus/Source/README.md",
+    "sha256": "087E0EF08E5282FE65B2C7AD8FFCEAE20AC9106FF0701A9C6FBE56A7A842047C",
+    "bytes": 946
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Clips/HU-04_shoot/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Clips\\HU-04_shoot\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Clips/HU-04_shoot/README.md",
+    "sha256": "78734B6FAD749384786210D77F1A5205E7216F59C6B7341479FAF5A5064442F1",
+    "bytes": 550
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Clips/HU-04_shoot/Source/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Clips\\HU-04_shoot\\Source\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Clips/HU-04_shoot/Source/README.md",
+    "sha256": "63D59987A007F783BC05652ECF6F307252007C1E073E4BAB1904993DFF5369EE",
+    "bytes": 1069
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Clips/HU-05_collect/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Clips\\HU-05_collect\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Clips/HU-05_collect/README.md",
+    "sha256": "C60AFE3799CA9DCCAAB8A38EA01659D02586A15706E3E7C7A5245E7F43418150",
+    "bytes": 574
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Clips/HU-05_collect/Source/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Clips\\HU-05_collect\\Source\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Clips/HU-05_collect/Source/README.md",
+    "sha256": "D310D7DB13D6A64AE5DF7FB43BE20F6376E443A17F32B9C91FAE7000AEE4FFC0",
+    "bytes": 1021
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Clips/HU-06_carry_small/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Clips\\HU-06_carry_small\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Clips/HU-06_carry_small/README.md",
+    "sha256": "23FE8D0845922B4518F1BAA1C00535AC0E3FD63463AC02775796D7E504046400",
+    "bytes": 604
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Clips/HU-06_carry_small/Source/SOURCE_NOTES.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Clips\\HU-06_carry_small\\Source\\SOURCE_NOTES.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Clips/HU-06_carry_small/Source/SOURCE_NOTES.md",
+    "sha256": "4A33C4158A07197D52C24D43AD74BE853A26790F74FCFCC85C03AC3C77C46E32",
+    "bytes": 1060
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Clips/HU-07_drag_large/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Clips\\HU-07_drag_large\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Clips/HU-07_drag_large/README.md",
+    "sha256": "D392A414391D300D6866924B8CB4B8D13A7F4647296A127222FF2ED25E401C2A",
+    "bytes": 592
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Clips/HU-07_drag_large/Source/SOURCE_NOTES.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Clips\\HU-07_drag_large\\Source\\SOURCE_NOTES.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Clips/HU-07_drag_large/Source/SOURCE_NOTES.md",
+    "sha256": "E2DEB40D3CED8BB19C46F6A7247D839940177D931600445D6A455182D3917A5F",
+    "bytes": 1581
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Clips/HU-08_load/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Clips\\HU-08_load\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Clips/HU-08_load/README.md",
+    "sha256": "08515417D5A3C89F7DF9B830BEE58C6F3FF5F4EA26E9878D91DEE370455A11A4",
+    "bytes": 561
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Prompts/HU-01_idle.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Prompts\\HU-01_idle.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Prompts/HU-01_idle.md",
+    "sha256": "37E77605F6012D61A898D8C2BAF9264DB628B5005939B94957B992F79217ED1E",
+    "bytes": 1466
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Prompts/HU-02_walk.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Prompts\\HU-02_walk.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Prompts/HU-02_walk.md",
+    "sha256": "D627CBE38F228F7F8C3998D0A693FA5F9AD85C9D7EFCC0425B86F81AC5C66791",
+    "bytes": 2603
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Prompts/HU-03_focus.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Prompts\\HU-03_focus.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Prompts/HU-03_focus.md",
+    "sha256": "770C426173063EE5D20CB48F62E2C48424F81349212202DE4C1FA533AE167137",
+    "bytes": 2424
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Prompts/HU-04_shoot.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Prompts\\HU-04_shoot.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Prompts/HU-04_shoot.md",
+    "sha256": "6F8ADCD727F82D38BAD17D6BE2F8269E9EF865876B8C28BF2D1FD072C1BCFAF8",
+    "bytes": 2501
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Prompts/HU-05_collect.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Prompts\\HU-05_collect.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Prompts/HU-05_collect.md",
+    "sha256": "06CAA8449E244485FA75FBA600D4CF962D2584724B23F99455B1EBA39F68D74B",
+    "bytes": 2666
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Prompts/HU-06_carry_small.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Prompts\\HU-06_carry_small.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Prompts/HU-06_carry_small.md",
+    "sha256": "05D5EB3FFDF2947CF5D5CF431DCDD89E17CF0AA3AB7A4A61630F73F01ECDF0AF",
+    "bytes": 2917
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Prompts/HU-07_drag_large.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Prompts\\HU-07_drag_large.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Prompts/HU-07_drag_large.md",
+    "sha256": "AD3D6B6F5CE3D048E5730C7D497DC9B6EEE6845BF68CE7BB899925F2E9249473",
+    "bytes": 4483
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Prompts/HU-08_load.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Prompts\\HU-08_load.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Prompts/HU-08_load.md",
+    "sha256": "8521522B57270B841538CB6B267E06C50024FAAA703C221677F60C567B07884F",
+    "bytes": 1651
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/Prompts/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\Prompts\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/Prompts/README.md",
+    "sha256": "DE2DABF23BE77A2CCE07042943E7CA9DB531F04BF9F5B30102BD205B62FADFBD",
+    "bytes": 435
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/QA/combat_visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\QA\\combat_visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/QA/combat_visual_review.md",
+    "sha256": "089B6AAD87373AD8EDB468CFB50C4ADDE6FB2F7D4BF4A3F46BF832C205F4A139",
+    "bytes": 2744
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/QA/player_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\QA\\player_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/QA/player_review.md",
+    "sha256": "35FDC4A7627D728C8506E71E0CF5A34C4241568BC5744714E8BAD15081D0275C",
+    "bytes": 3779
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_1254/v001/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_1254\\v001\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_1254/v001/README.md",
+    "sha256": "49EEBCA5F3CECE44EA23A2F798C027FB9E9B237E51FBA6E140457A1F1A4078D2",
+    "bytes": 6901
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v001/Clips/HU-01_idle/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v001\\Clips\\HU-01_idle\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v001/Clips/HU-01_idle/README.md",
+    "sha256": "7DD1A2FA636F7C24819252EA7DD45291C431C393EF7B0FC0C34D0C7413EA4B9C",
+    "bytes": 1259
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v001/Clips/HU-01_idle/Source/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v001\\Clips\\HU-01_idle\\Source\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v001/Clips/HU-01_idle/Source/README.md",
+    "sha256": "286ABE1B1A1F15FD46A7292B431F6DE51596F712DE428CF75F7D4E78F385FAE3",
+    "bytes": 942
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v001/Prompts/HU-01_idle.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v001\\Prompts\\HU-01_idle.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v001/Prompts/HU-01_idle.md",
+    "sha256": "37E77605F6012D61A898D8C2BAF9264DB628B5005939B94957B992F79217ED1E",
+    "bytes": 1466
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v001/Prompts/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v001\\Prompts\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v001/Prompts/README.md",
+    "sha256": "BB2681313BA921A0EECD41EC540FABA0814B7A6F60335D2D581C5C2AB9BA0361",
+    "bytes": 716
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v001/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v001\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v001/README.md",
+    "sha256": "E87774DCB6181332A10647A5DEC1011E927F83C0C2735F448A04965FD09BF813",
+    "bytes": 4020
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v002/Clips/HU-01_idle/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v002\\Clips\\HU-01_idle\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v002/Clips/HU-01_idle/README.md",
+    "sha256": "2CC90ECB528EB30BEC85569B8C6B0D2D1220581694C4DB51EC9E73FFE129E3CF",
+    "bytes": 1949
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v002/Clips/HU-01_idle/Source/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v002\\Clips\\HU-01_idle\\Source\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v002/Clips/HU-01_idle/Source/README.md",
+    "sha256": "0580C732DE60F0DF7476449669675A9B1CA59C76DBCADD91DB50C29CF3EFCD65",
+    "bytes": 1293
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v002/Prompts/HU-01_idle.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v002\\Prompts\\HU-01_idle.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v002/Prompts/HU-01_idle.md",
+    "sha256": "37E77605F6012D61A898D8C2BAF9264DB628B5005939B94957B992F79217ED1E",
+    "bytes": 1466
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v002/Prompts/pixel_cleanup_spec.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v002\\Prompts\\pixel_cleanup_spec.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v002/Prompts/pixel_cleanup_spec.md",
+    "sha256": "9D212E8F6EB5CAE50ECF79F345121E1B1A08A5A21DDBB56E9E2CDB8103ECC045",
+    "bytes": 1779
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v002/Prompts/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v002\\Prompts\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v002/Prompts/README.md",
+    "sha256": "E4AFB377C89EA5D8BCE4F4012839A4AFB9691FE3F724243861E10F651D6A35D1",
+    "bytes": 1123
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v002/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v002\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v002/README.md",
+    "sha256": "D1E1CF6E9A14DB841025EE454883725DBA54046D410DD6DC670A87FFC3729E67",
+    "bytes": 5474
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v003/Clips/HU-01_idle/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v003\\Clips\\HU-01_idle\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v003/Clips/HU-01_idle/README.md",
+    "sha256": "798D1494F9292886A2004CB5FFA4F8508F30761F80D64734AA38AC182F28E1B2",
+    "bytes": 1703
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v003/Clips/HU-01_idle/Source/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v003\\Clips\\HU-01_idle\\Source\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v003/Clips/HU-01_idle/Source/README.md",
+    "sha256": "854AF882C46E10BDF0D50C572DBE78F22DBEB2A50BF936E5600C577095BBA58E",
+    "bytes": 1032
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v003/Prompts/pixel_cleanup_spec.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v003\\Prompts\\pixel_cleanup_spec.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v003/Prompts/pixel_cleanup_spec.md",
+    "sha256": "F13705A33022D4479B06684D05B7825A461FC5E53E46B59B193B9CD979E545E2",
+    "bytes": 2977
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v003/Prompts/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v003\\Prompts\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v003/Prompts/README.md",
+    "sha256": "4243F2B1B5569BBC1CC2816FB141FE6D6768D5A0D5CC7140D0F2383C0E381022",
+    "bytes": 1018
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v003/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v003\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v003/README.md",
+    "sha256": "3EB24A3230D9F7EDCE43910696FDF7F168DBC80FA36A64A3FA1592A908BC6FFA",
+    "bytes": 3822
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v004/Clips/HU-01_idle/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v004\\Clips\\HU-01_idle\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v004/Clips/HU-01_idle/README.md",
+    "sha256": "74146B165A3F7D64D0E0658E20E401FB820977714780EB09178B567C795622F4",
+    "bytes": 2007
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v004/Clips/HU-01_idle/Source/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v004\\Clips\\HU-01_idle\\Source\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v004/Clips/HU-01_idle/Source/README.md",
+    "sha256": "BF67BE758FD72CF60F7AB258F27970231C6B4B2ED40EEA9BEF299EF4D85E5EE7",
+    "bytes": 905
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v004/Prompts/pixel_cleanup_spec.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v004\\Prompts\\pixel_cleanup_spec.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v004/Prompts/pixel_cleanup_spec.md",
+    "sha256": "4CE5B4FBAC74D5F0D4CD6C38270A54AFDFADE887D05BDEDB837D56862CB194F4",
+    "bytes": 4062
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v004/Prompts/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v004\\Prompts\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v004/Prompts/README.md",
+    "sha256": "AADE89DF2F0B55C91E018DF7ADECCDF56C4E626CD280773C7B60AD6617B734D9",
+    "bytes": 924
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v004/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v004\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v004/README.md",
+    "sha256": "44BC096EE0E63F1F742279BB8AFD122B2EF0EB4C96BB61B8DC0CF5A3A95EFDFD",
+    "bytes": 3977
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v005/Clips/HU-01_idle/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v005\\Clips\\HU-01_idle\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v005/Clips/HU-01_idle/README.md",
+    "sha256": "BF6DB52FD301F0D9E63BD23CA42BE267B32FAE1591F8835E88B4831CC65DDA79",
+    "bytes": 2355
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v005/Clips/HU-01_idle/Source/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v005\\Clips\\HU-01_idle\\Source\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v005/Clips/HU-01_idle/Source/README.md",
+    "sha256": "583C3C8739FA96A3408A639D51041AFD1403C967EA1F4BD923BB7A338E3E5EF4",
+    "bytes": 907
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v005/Prompts/contour_cleanup_spec.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v005\\Prompts\\contour_cleanup_spec.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v005/Prompts/contour_cleanup_spec.md",
+    "sha256": "EAF4D3D3F4E9E9C96D94C238243BCF91953272B2C269F72B295C6ECE62A36CCD",
+    "bytes": 4564
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v005/Prompts/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v005\\Prompts\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v005/Prompts/README.md",
+    "sha256": "D41388632DE6912988F13FDA352B54E422A5780B6EADBF9683C2B6D6A9BC59C9",
+    "bytes": 1188
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v005/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v005\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v005/README.md",
+    "sha256": "20F14D1446316EC987D31A914C8324AE97A96E13CE0B359C7649636F1E45DD9E",
+    "bytes": 4402
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v006/Clips/HU-01_idle/Masks/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v006\\Clips\\HU-01_idle\\Masks\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v006/Clips/HU-01_idle/Masks/README.md",
+    "sha256": "905ACCF1E34E4067FE1CF0C69F1E4C3346B5514677848FF2D9E065B354418537",
+    "bytes": 2391
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v006/Clips/HU-01_idle/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v006\\Clips\\HU-01_idle\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v006/Clips/HU-01_idle/README.md",
+    "sha256": "2C87C40D8714949B8C3BE9CDADDA7CD34987FD53D0DC292F7191904C3F277781",
+    "bytes": 3306
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v006/Clips/HU-01_idle/Source/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v006\\Clips\\HU-01_idle\\Source\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v006/Clips/HU-01_idle/Source/README.md",
+    "sha256": "C235FC80DE0E11B87B6BBD71AC860FC38D581F968B5FB56EB353B3EA41911492",
+    "bytes": 898
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v006/Prompts/cleanup_spec.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v006\\Prompts\\cleanup_spec.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v006/Prompts/cleanup_spec.md",
+    "sha256": "9427D754BCFD2EC2D2349414EE70933AFF3B7B297508EB50E264C5FBFB3A6A9E",
+    "bytes": 6511
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v006/Prompts/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v006\\Prompts\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v006/Prompts/README.md",
+    "sha256": "6E2779064E0D4A878E5C5C4F576493E827E5AC7D4F4449D78D1EDC11563BA1DE",
+    "bytes": 1069
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v006/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v006\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v006/QA/visual_review.md",
+    "sha256": "A9DC4C097BE89E8AAEA292D338AC35A3F68BC398E8321E864056D464B7900E2B",
+    "bytes": 4905
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter_300/v006/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter_300\\v006\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter_300/v006/README.md",
+    "sha256": "EDBD52675D06EC4508EC1218E35C19C251306129E567B5FF904DAAA148A95F0E",
+    "bytes": 7072
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-01_idle/idle_breath_v2.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-01_idle\\idle_breath_v2.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-01_idle/idle_breath_v2.md",
+    "sha256": "7D74FBC83CFF90E028A92C690B38D25AB8EDC387621211191C3EA0E5CE50D6BF",
+    "bytes": 3862
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-01_idle/idle_breath.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-01_idle\\idle_breath.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-01_idle/idle_breath.md",
+    "sha256": "92DA32E976F3FAB6660BC1F0A1EC0C37D8EA895552889C7C4404703F9E8CD468",
+    "bytes": 9013
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-01_idle/Masks/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-01_idle\\Masks\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-01_idle/Masks/README.md",
+    "sha256": "CE9DF82D908C2212494AC078B503DCF788C2289D04376DE8CF19D05326648E24",
+    "bytes": 2847
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-01_idle/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-01_idle\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-01_idle/README.md",
+    "sha256": "CC285B60546941B32621B8669CC871D7FE8EAF65DCB6255EFE2D396CC2949A20",
+    "bytes": 9710
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-01_idle/Source/IdleBreath/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-01_idle\\Source\\IdleBreath\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-01_idle/Source/IdleBreath/README.md",
+    "sha256": "C3254CAAC34EF41C27C818D692B3E72129C8278C8E7A829EB081858914D032BA",
+    "bytes": 1219
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-01_idle/Source/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-01_idle\\Source\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-01_idle/Source/README.md",
+    "sha256": "9B841AD615D6926C7AAE9E590BCC069A06DC9245BD114544C8DEBA573044AE20",
+    "bytes": 1614
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-02_walk/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-02_walk\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-02_walk/README.md",
+    "sha256": "169FE35AE6527A85B3280CA7475499B9E12D296186EC9974B373C2E9D20529DF",
+    "bytes": 8026
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-02_walk/Source/WalkKeyposes/p001/README_before.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-02_walk\\Source\\WalkKeyposes\\p001\\README_before.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-02_walk/Source/WalkKeyposes/p001/README_before.md",
+    "sha256": "440C3D41C3F9CCECFD0ED09EB1077116528B1ECF67EC316EA1E189FF237D3A42",
+    "bytes": 2533
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-02_walk/Source/WalkKeyposes/p002/README_before.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-02_walk\\Source\\WalkKeyposes\\p002\\README_before.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-02_walk/Source/WalkKeyposes/p002/README_before.md",
+    "sha256": "AEBBC6AA69D8AA4EEE9B934745FCFEDC4A235B2A312EC3A09447AB95B83C2568",
+    "bytes": 2854
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-02_walk/Source/WalkKneeDrape/p001/README_before.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-02_walk\\Source\\WalkKneeDrape\\p001\\README_before.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-02_walk/Source/WalkKneeDrape/p001/README_before.md",
+    "sha256": "1D569C10A522D2211E378F41DE4D4A49247E45E0E391D4F15214ABF82120F5C7",
+    "bytes": 3322
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-02_walk/walk_retry_key_factors.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-02_walk\\walk_retry_key_factors.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-02_walk/walk_retry_key_factors.md",
+    "sha256": "69322D0DD81C2E50A16F2AFD77167C9B1AC226EBEBAC40852A2397EFE829CD6F",
+    "bytes": 10395
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-02_walk/walk_retry.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-02_walk\\walk_retry.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-02_walk/walk_retry.md",
+    "sha256": "50568A2D6E3BA1AB61D182396D5EDDBEFFBB0C71BDE5B077CE6FF4B6C9FB63AB",
+    "bytes": 2515
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-03_focus/focus_rework2.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-03_focus\\focus_rework2.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-03_focus/focus_rework2.md",
+    "sha256": "E1891BBB40D676EA5596D5EB3709CBE0542CAF20701DDA3B43F3CD8C00E933BA",
+    "bytes": 4033
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-03_focus/QA/Rework2/Focus8/p001/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-03_focus\\QA\\Rework2\\Focus8\\p001\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-03_focus/QA/Rework2/Focus8/p001/README.md",
+    "sha256": "C2ED2C1222FA07E73813850C1B59BF688D4468098A7907648A87EF313CEEC208",
+    "bytes": 2601
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-03_focus/QA/Rework2/Focus8/p001/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-03_focus\\QA\\Rework2\\Focus8\\p001\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-03_focus/QA/Rework2/Focus8/p001/visual_review.md",
+    "sha256": "0FA102DAA76B418267C990C2C21B175F6F59D00D3080083694FE9E0D20FFF7CB",
+    "bytes": 6547
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-03_focus/QA/Rework2/p001/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-03_focus\\QA\\Rework2\\p001\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-03_focus/QA/Rework2/p001/visual_review.md",
+    "sha256": "A5F380499ABF3F0857D32F88F3ECE8D67A9B799D2588E9B74F6BB4E74FEA09BF",
+    "bytes": 3923
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-03_focus/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-03_focus\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-03_focus/README.md",
+    "sha256": "BB8C9F62CC9E405FBEB5ABBFE0C693A5FB3DAFCEF80C5A5A7D93F1F3258DCA43",
+    "bytes": 5256
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-04_shoot/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-04_shoot\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-04_shoot/README.md",
+    "sha256": "E6740D675328774F6503D3A23B7818D6543C35BC63ED007DC3F62A8CFF243507",
+    "bytes": 4215
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-05_collect/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-05_collect\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-05_collect/README.md",
+    "sha256": "E65A0694EFE90DA0F4FB40F3B1D37030AF90D5EAE8902B67D39C410EE868D569",
+    "bytes": 4301
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-06_carry_small/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-06_carry_small\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-06_carry_small/README.md",
+    "sha256": "FBE23B06281E44B54F48A3740372C5A849C9DB6594D52F3BFF4116B3D41C5BED",
+    "bytes": 2615
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-07_drag_large/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-07_drag_large\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-07_drag_large/README.md",
+    "sha256": "4264CD4D1FC7224776513FF5C6EC79575E56AEC0174D4EABE4402405EB63ED11",
+    "bytes": 2631
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Clips/HU-08_load/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Clips\\HU-08_load\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Clips/HU-08_load/README.md",
+    "sha256": "CE406A69F0CB86F62C81B84FF97D77AF6C7B4600E2608D15C562A5F8DE50A467",
+    "bytes": 2458
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Prompts/Animations/motion_spec.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Prompts\\Animations\\motion_spec.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Prompts/Animations/motion_spec.md",
+    "sha256": "417A1992EFFC2F3D9E138083C25A78BE6939E1EEE20D304236B404A76987827B",
+    "bytes": 9979
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Prompts/IdleBreath/motion_spec.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Prompts\\IdleBreath\\motion_spec.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Prompts/IdleBreath/motion_spec.md",
+    "sha256": "31A6300B229F4D6EA76E93FEB4349A9BBA4866FD8168F33C261D1E2A1FFEC055",
+    "bytes": 5495
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Prompts/resize_spec.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Prompts\\resize_spec.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Prompts/resize_spec.md",
+    "sha256": "96F3B3BB2297851EBFA079C4B9396639E02CA163B6344BBF3C9F313E7990BDCD",
+    "bytes": 2810
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/Animations/torso_pass02_visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\Animations\\torso_pass02_visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/Animations/torso_pass02_visual_review.md",
+    "sha256": "D8A3BE97A5A248DE5E741AE0BE0721CB57BC24022FC791EA9AE10473F74EA64A",
+    "bytes": 8291
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/Animations/torso_visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\Animations\\torso_visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/Animations/torso_visual_review.md",
+    "sha256": "A03FC4E88BEB04251B069D414CD438EE7B722A14C6706EE1337BC898871B34F7",
+    "bytes": 5883
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/Animations/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\Animations\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/Animations/visual_review.md",
+    "sha256": "6FF59967EA574D2D864CC1BE6714CD38F6EF4605FE16DCDFF3CC96B4D9B1EF59",
+    "bytes": 13902
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/EquipmentPropagation/p001/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\EquipmentPropagation\\p001\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/EquipmentPropagation/p001/README.md",
+    "sha256": "67152B21F9A916DEA158801244E52F09A8D1550B4BA3BAE144AF1DB93F5A527A",
+    "bytes": 2967
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/IdleBreath/Frame01Propagation/p001/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\IdleBreath\\Frame01Propagation\\p001\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/IdleBreath/Frame01Propagation/p001/README.md",
+    "sha256": "D17E8C4EDA65347696E5D1419F2AEFF9825507AEDBAC0643B458B335B2568687",
+    "bytes": 2200
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/IdleBreath/Frame05Propagation/p001/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\IdleBreath\\Frame05Propagation\\p001\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/IdleBreath/Frame05Propagation/p001/README.md",
+    "sha256": "2C8910AF1DB495B11C4634AEA9843DF3BE48DDC9BAEA75E80E4B5B68BFE7D1AE",
+    "bytes": 3200
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/IdleBreath/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\IdleBreath\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/IdleBreath/visual_review.md",
+    "sha256": "0ACEC61653561C1BEA480E9AD0DD2D406FA91836B12809CD88166F1CF3F32F91",
+    "bytes": 11263
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/IdleBreathV2/p001/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\IdleBreathV2\\p001\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/IdleBreathV2/p001/README.md",
+    "sha256": "5A21F041798FD3B334BF090EAA7F9BFB6311E2943CB3117B9B3C741066DA29DF",
+    "bytes": 2626
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/IdleBreathV2/p001/Review/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\IdleBreathV2\\p001\\Review\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/IdleBreathV2/p001/Review/visual_review.md",
+    "sha256": "957C173479A8B6BF78FF4C717B94197C099A4724492493E99CB68EE46456C300",
+    "bytes": 9034
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/IdleBreathV2/p001/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\IdleBreathV2\\p001\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/IdleBreathV2/p001/visual_review.md",
+    "sha256": "D9FF3733F5E59075B99108D0C2864A11013FD598A1835DF3CD2001ED88E1C553",
+    "bytes": 6470
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/ReworkActions/p001/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\ReworkActions\\p001\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/ReworkActions/p001/README.md",
+    "sha256": "A5FF4030266F1527D46F3340BD785BD9A6F7D89E0FC82B548F049079660C9FA9",
+    "bytes": 6141
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/ReworkActions/p001/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\ReworkActions\\p001\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/ReworkActions/p001/visual_review.md",
+    "sha256": "24EF6BAFFFCEEBA3B7DD9925DB4993CBA6337ADEE1F29614523594D807C2E337",
+    "bytes": 8744
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/SlingshotActions/p001/Previous/Clips/HU-03_focus/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\SlingshotActions\\p001\\Previous\\Clips\\HU-03_focus\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/SlingshotActions/p001/Previous/Clips/HU-03_focus/README.md",
+    "sha256": "F59FC2674AFD8B0B808BAD39AB0A29DB3C2287D195C9572BC42218C6871B70CA",
+    "bytes": 2448
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/SlingshotActions/p001/Previous/Clips/HU-04_shoot/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\SlingshotActions\\p001\\Previous\\Clips\\HU-04_shoot\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/SlingshotActions/p001/Previous/Clips/HU-04_shoot/README.md",
+    "sha256": "F05EAB0FB004FE53F99B0F742F28B172856410A8B8B199226F98DDD7DF76EC4B",
+    "bytes": 2467
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/SlingshotActions/p001/Previous/Clips/HU-05_collect/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\SlingshotActions\\p001\\Previous\\Clips\\HU-05_collect\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/SlingshotActions/p001/Previous/Clips/HU-05_collect/README.md",
+    "sha256": "33CD0190CD1D32D7FDCE16E0DD005D3FF0CCEC76299E15F13D5DF6A69F09E8B4",
+    "bytes": 2474
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/SlingshotActions/p001/Previous/QA/Animations/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\SlingshotActions\\p001\\Previous\\QA\\Animations\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/SlingshotActions/p001/Previous/QA/Animations/visual_review.md",
+    "sha256": "F20DA27B3D2A8466434C9D967834423DBC0F019E35E6AD5A1637DED989EE86CF",
+    "bytes": 10083
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/SlingshotActions/p001/Previous/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\SlingshotActions\\p001\\Previous\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/SlingshotActions/p001/Previous/QA/visual_review.md",
+    "sha256": "3BC5D3273308599E1039E29164157DFDDFF56379FF36E1E3D8F2DA1D5B72D52C",
+    "bytes": 17600
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/SlingshotActions/p001/Previous/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\SlingshotActions\\p001\\Previous\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/SlingshotActions/p001/Previous/README.md",
+    "sha256": "B681B2553AA83E0E256673324D5BB18888AA2AC708447103BCA74FE91791178C",
+    "bytes": 16602
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/SlingshotActions/p001/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\SlingshotActions\\p001\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/SlingshotActions/p001/README.md",
+    "sha256": "231EBE18C261CAD7F04276BCACB60526F5468A72880423795FE3C87938BCEEC8",
+    "bytes": 2757
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/SlingshotActions/p001/SourceReview/collect_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\SlingshotActions\\p001\\SourceReview\\collect_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/SlingshotActions/p001/SourceReview/collect_review.md",
+    "sha256": "6DC34754E5361D16933E505FAA56E0FEE16E1CA076AA5DA76CE017584F51A4A7",
+    "bytes": 2742
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/SlingshotActions/p001/SourceReview/focus_shoot_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\SlingshotActions\\p001\\SourceReview\\focus_shoot_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/SlingshotActions/p001/SourceReview/focus_shoot_review.md",
+    "sha256": "0D8BC1E8DF940A3E18894305E45A6303BEF60E2AB63BA65012359EED54F1E42B",
+    "bytes": 3156
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/SlingshotActions/p001/SourceReview/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\SlingshotActions\\p001\\SourceReview\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/SlingshotActions/p001/SourceReview/README.md",
+    "sha256": "81E3C187B3602CC2E5AE51C7E7352E37E155930456F1DA3D1831D95E4D33D318",
+    "bytes": 3468
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/visual_review.md",
+    "sha256": "6D102B8DAA1DD143BEAF40858ED7E5223DCDC3A6183E64A293856CFCCB1A3344",
+    "bytes": 24630
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/WalkKeyposes/p001/lower_keyposes_visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\WalkKeyposes\\p001\\lower_keyposes_visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/WalkKeyposes/p001/lower_keyposes_visual_review.md",
+    "sha256": "D2F0C34F4F9D13DB2BC97EC1817EE0C351046EFA03B1D20508533062D0975945",
+    "bytes": 2476
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/WalkKeyposes/p001/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\WalkKeyposes\\p001\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/WalkKeyposes/p001/README.md",
+    "sha256": "1A45164E6B257177F2DBED1FA2C8930B11151D1607B1A594D231143BC0A7A990",
+    "bytes": 4514
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/WalkKeyposes/p002/fullbody_keyposes_visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\WalkKeyposes\\p002\\fullbody_keyposes_visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/WalkKeyposes/p002/fullbody_keyposes_visual_review.md",
+    "sha256": "6CB786951FF94D9CBE86EB0CDF125A5E4B15BF13AC6C9A56B01E4E24783B2851",
+    "bytes": 3051
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/WalkKeyposes/p002/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\WalkKeyposes\\p002\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/WalkKeyposes/p002/README.md",
+    "sha256": "F4A431C80E425CFCBB777FF8F7F9736224E1A67DC0636DF7F5330475EC7388F9",
+    "bytes": 4245
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/WalkKneeDrape/p001/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\WalkKneeDrape\\p001\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/WalkKneeDrape/p001/README.md",
+    "sha256": "5C9DAA4C72578DDA7926FEB9218A8C54785356D6E04298811706BF0237EC59C6",
+    "bytes": 3886
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/WalkKneeDrape/p001/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\WalkKneeDrape\\p001\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/WalkKneeDrape/p001/visual_review.md",
+    "sha256": "DD35B4B00D3E6B95D8C069179D23A91BFFD021C5F576D702046515C73827B7E2",
+    "bytes": 2876
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/WalkRetry/p001/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\WalkRetry\\p001\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/WalkRetry/p001/README.md",
+    "sha256": "C3378AFC7A7623B924438352CB56EB6A2B174581574C75031B8003AA6EA5D4AF",
+    "bytes": 2390
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/WalkRetry/p001/Review/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\WalkRetry\\p001\\Review\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/WalkRetry/p001/Review/README.md",
+    "sha256": "DAEDF3F12DC2ECAB76732CF6E5946388E9D876953A6888F34120209BD9ACDE60",
+    "bytes": 1180
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/WalkRetry/p001/Review/source_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\WalkRetry\\p001\\Review\\source_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/WalkRetry/p001/Review/source_review.md",
+    "sha256": "1C45B75BE0EAAD17729BE1A2A2460DCD57420F8186ACFBF1BFDB9A01AC6D4B5B",
+    "bytes": 5789
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/QA/WalkRetry/p001/Review/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\QA\\WalkRetry\\p001\\Review\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/QA/WalkRetry/p001/Review/visual_review.md",
+    "sha256": "D1B335C6F60267B9E0B097E74DA8F8FDA5377D2B882EE0C2244BBF28952C8085",
+    "bytes": 5521
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/README.md",
+    "sha256": "FAFE843A673396D579366466436FFEE914B5476AA71821A3F007D12FF997579C",
+    "bytes": 23559
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Source/ReworkActions/p001/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Source\\ReworkActions\\p001\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Source/ReworkActions/p001/README.md",
+    "sha256": "BFFD193B614191DF5480138F9D99580B3EEBDDF6302CD08E75D91BCD7BB87D2B",
+    "bytes": 537
+  },
+  {
+    "source_relative": "ArtSource/Try/Hunter64/v001/Source/TorsoOcclusion/Pass02/Before/QA/Animations/torso_visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Hunter64\\v001\\Source\\TorsoOcclusion\\Pass02\\Before\\QA\\Animations\\torso_visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Hunter64/v001/Source/TorsoOcclusion/Pass02/Before/QA/Animations/torso_visual_review.md",
+    "sha256": "D4F7B101F605E25516C836333998F509C1F4A17B791AAD06A6B80DB99F62ACC0",
+    "bytes": 5624
+  },
+  {
+    "source_relative": "ArtSource/Try/HunterTurnaround2D/v001/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\HunterTurnaround2D\\v001\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/HunterTurnaround2D/v001/QA/visual_review.md",
+    "sha256": "639492FD60E7F3E5A394BA9B08A52EABC5030D6476D965D20C9D00241DF007FD",
+    "bytes": 1629
+  },
+  {
+    "source_relative": "ArtSource/Try/HunterTurnaround2D/v001/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\HunterTurnaround2D\\v001\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/HunterTurnaround2D/v001/README.md",
+    "sha256": "C541CF4C5B95F643E1855C0EC0E17AB259FDAD402C300808A013A2705752780C",
+    "bytes": 2329
+  },
+  {
+    "source_relative": "ArtSource/Try/HunterVoxel/v001/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\HunterVoxel\\v001\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/HunterVoxel/v001/QA/visual_review.md",
+    "sha256": "5A46A7169B814612266ABF354FA6A5AD8B4132A86EEEA0E554941FD607F3FEC3",
+    "bytes": 4334
+  },
+  {
+    "source_relative": "ArtSource/Try/HunterVoxel/v001/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\HunterVoxel\\v001\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/HunterVoxel/v001/README.md",
+    "sha256": "40BE341443CBD9FB4ED8FE05C1CB100442D58BF0338E67CE233DF86E14B1B6BB",
+    "bytes": 4014
+  },
+  {
+    "source_relative": "ArtSource/Try/HunterVoxel/v002/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\HunterVoxel\\v002\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/HunterVoxel/v002/QA/visual_review.md",
+    "sha256": "51368B834C860A278DD83A1E256684E06D9C952DD64A57C8B888D38A17D80878",
+    "bytes": 2739
+  },
+  {
+    "source_relative": "ArtSource/Try/HunterVoxel/v002/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\HunterVoxel\\v002\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/HunterVoxel/v002/README.md",
+    "sha256": "930D0C36991F1B812617EFD9F0757266A2DEA4194D5F5430A4DD021FEFA8CD92",
+    "bytes": 3486
+  },
+  {
+    "source_relative": "ArtSource/Try/HunterVoxel/v003/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\HunterVoxel\\v003\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/HunterVoxel/v003/QA/visual_review.md",
+    "sha256": "B21C5566AA4AC1F44D0728108BCA233D3F7DB857D804BACC33A38C35ABC98685",
+    "bytes": 3588
+  },
+  {
+    "source_relative": "ArtSource/Try/HunterVoxel/v003/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\HunterVoxel\\v003\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/HunterVoxel/v003/README.md",
+    "sha256": "6538C8542F4D7340DB194162D44687F746ECE90711097B1A8C0202F68932C902",
+    "bytes": 5523
+  },
+  {
+    "source_relative": "ArtSource/Try/HunterVoxel/v004/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\HunterVoxel\\v004\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/HunterVoxel/v004/QA/visual_review.md",
+    "sha256": "CA28A6462491B6EBDD21D28CCA4D328C6516800DEEB7A11EF7D09732FDC850E7",
+    "bytes": 3899
+  },
+  {
+    "source_relative": "ArtSource/Try/HunterVoxel/v004/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\HunterVoxel\\v004\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/HunterVoxel/v004/README.md",
+    "sha256": "5EAE379B64538F1245EF2940790EC1564990616C9ABD10A31BB335739023B3FF",
+    "bytes": 4633
+  },
+  {
+    "source_relative": "ArtSource/Try/HunterVoxel/v005/QA/projection_feasibility.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\HunterVoxel\\v005\\QA\\projection_feasibility.md",
+    "copy_relative": "Project09/ArtSource/Try/HunterVoxel/v005/QA/projection_feasibility.md",
+    "sha256": "B8457D16EC40051D2AB1903E5980B51C1F05ADCB3466EE1657A43B4E9300BFB3",
+    "bytes": 4970
+  },
+  {
+    "source_relative": "ArtSource/Try/HunterVoxel/v005/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\HunterVoxel\\v005\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/HunterVoxel/v005/QA/visual_review.md",
+    "sha256": "61ED2F1E284436F9274E7D819C1AAB71B6560E5DE34D2603A15977F88437B9D3",
+    "bytes": 4335
+  },
+  {
+    "source_relative": "ArtSource/Try/HunterVoxel/v005/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\HunterVoxel\\v005\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/HunterVoxel/v005/README.md",
+    "sha256": "9E209801C694144F17DECD65607E3EC3EA4B8712FF50D56A8A803D9FCBAF2691",
+    "bytes": 5844
+  },
+  {
+    "source_relative": "ArtSource/Try/HunterVoxel/v006/QA/right_reference_registration.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\HunterVoxel\\v006\\QA\\right_reference_registration.md",
+    "copy_relative": "Project09/ArtSource/Try/HunterVoxel/v006/QA/right_reference_registration.md",
+    "sha256": "6B65CC0E6F0C0AE0443670CF3B936443754F75423E16FECC346D4E7C2CC1B522",
+    "bytes": 2585
+  },
+  {
+    "source_relative": "ArtSource/Try/HunterVoxel/v006/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\HunterVoxel\\v006\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/HunterVoxel/v006/QA/visual_review.md",
+    "sha256": "9BE2E67A36AD0F2604CC56EDA044FE7B3BC0578EC7C76300CF9194AF44133038",
+    "bytes": 3770
+  },
+  {
+    "source_relative": "ArtSource/Try/HunterVoxel/v006/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\HunterVoxel\\v006\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/HunterVoxel/v006/README.md",
+    "sha256": "0E521BB750DDDB78EE48A6E11DEBD0A72C1E72FBB0EF2260876A01DF55FA9D55",
+    "bytes": 6408
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v001/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v001\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v001/QA/visual_review.md",
+    "sha256": "F275192780E082A1600EAF6C05CC325284378B3959C303A546965E188639764B",
+    "bytes": 2393
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v001/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v001\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v001/README.md",
+    "sha256": "522D763B35AF72F90473F97EAE669D7EC9A54FE3A0A98780E413F701E26B15DA",
+    "bytes": 2437
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v002/Delivery/loghouse_v002/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v002\\Delivery\\loghouse_v002\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v002/Delivery/loghouse_v002/QA/visual_review.md",
+    "sha256": "4547FA4263827F80AE9DB0DFA5480BCA5A46C7EFF909941C1DE20439697E601F",
+    "bytes": 3258
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v002/Delivery/loghouse_v002/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v002\\Delivery\\loghouse_v002\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v002/Delivery/loghouse_v002/README.md",
+    "sha256": "75B8C4E843B6F6343B9AF24962B342C65009F89477DFE7E9B226E748A6D40B76",
+    "bytes": 5224
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v002/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v002\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v002/QA/visual_review.md",
+    "sha256": "4547FA4263827F80AE9DB0DFA5480BCA5A46C7EFF909941C1DE20439697E601F",
+    "bytes": 3258
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v002/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v002\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v002/README.md",
+    "sha256": "75B8C4E843B6F6343B9AF24962B342C65009F89477DFE7E9B226E748A6D40B76",
+    "bytes": 5224
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v003/Delivery/loghouse_v003_workfiles/PACKAGE_NOTE.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v003\\Delivery\\loghouse_v003_workfiles\\PACKAGE_NOTE.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v003/Delivery/loghouse_v003_workfiles/PACKAGE_NOTE.md",
+    "sha256": "A4696B9F90CBA65DA37FA714F063F8713598B238E46A3B02F0A2BE6E09A68FE6",
+    "bytes": 248
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v003/Delivery/loghouse_v003_workfiles/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v003\\Delivery\\loghouse_v003_workfiles\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v003/Delivery/loghouse_v003_workfiles/QA/visual_review.md",
+    "sha256": "E49A5530BA95E259A459D4A2F51D634381D882E40BA39B909194AEAB9EACEE80",
+    "bytes": 2176
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v003/Delivery/loghouse_v003_workfiles/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v003\\Delivery\\loghouse_v003_workfiles\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v003/Delivery/loghouse_v003_workfiles/README.md",
+    "sha256": "0D3998880DF377EABA5CEC7324811A1DA002996EA9A522AEC8EE95BC554FC4DD",
+    "bytes": 3743
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v003/Delivery/loghouse_v003/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v003\\Delivery\\loghouse_v003\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v003/Delivery/loghouse_v003/QA/visual_review.md",
+    "sha256": "E49A5530BA95E259A459D4A2F51D634381D882E40BA39B909194AEAB9EACEE80",
+    "bytes": 2176
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v003/Delivery/loghouse_v003/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v003\\Delivery\\loghouse_v003\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v003/Delivery/loghouse_v003/README.md",
+    "sha256": "0D3998880DF377EABA5CEC7324811A1DA002996EA9A522AEC8EE95BC554FC4DD",
+    "bytes": 3743
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v003/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v003\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v003/QA/visual_review.md",
+    "sha256": "E49A5530BA95E259A459D4A2F51D634381D882E40BA39B909194AEAB9EACEE80",
+    "bytes": 2176
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v003/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v003\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v003/README.md",
+    "sha256": "0D3998880DF377EABA5CEC7324811A1DA002996EA9A522AEC8EE95BC554FC4DD",
+    "bytes": 3743
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v004/Backups/20261013_before_cabin_split/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v004\\Backups\\20261013_before_cabin_split\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v004/Backups/20261013_before_cabin_split/QA/visual_review.md",
+    "sha256": "760F9EFF178C27615F2697B273EE5F2674C84085225FAC3243B239D7871ADAC7",
+    "bytes": 5667
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v004/Backups/20261013_before_cabin_split/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v004\\Backups\\20261013_before_cabin_split\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v004/Backups/20261013_before_cabin_split/README.md",
+    "sha256": "B32A2C8EB7514C358CEA89A1863A5F8F0E40787EEBB8DF3738BBA186FEA4BC85",
+    "bytes": 4414
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v004/Delivery/loghouse_v004_cabin_split/PACKAGE_NOTE.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v004\\Delivery\\loghouse_v004_cabin_split\\PACKAGE_NOTE.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v004/Delivery/loghouse_v004_cabin_split/PACKAGE_NOTE.md",
+    "sha256": "59F1B84BE5D1DD3E490CF4C62DBD1013CF31B81764EEAEDC709406FBA7A137AD",
+    "bytes": 333
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v004/Delivery/loghouse_v004_cabin_split/QA/cabin_split_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v004\\Delivery\\loghouse_v004_cabin_split\\QA\\cabin_split_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v004/Delivery/loghouse_v004_cabin_split/QA/cabin_split_review.md",
+    "sha256": "C88A2B94F2B9C5AD34F3ED65C524216BFDD426600A0FC32F463734416845979E",
+    "bytes": 2205
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v004/Delivery/loghouse_v004_cabin_split/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v004\\Delivery\\loghouse_v004_cabin_split\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v004/Delivery/loghouse_v004_cabin_split/QA/visual_review.md",
+    "sha256": "5B6DB40D1B08FAAC18B96F55A040465F93C755638E00FBE743150E055F3A2FBE",
+    "bytes": 7090
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v004/Delivery/loghouse_v004_cabin_split/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v004\\Delivery\\loghouse_v004_cabin_split\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v004/Delivery/loghouse_v004_cabin_split/README.md",
+    "sha256": "4AF05078EAA44D3B68AEE6F9370CDD4D90D401DB343CC3037256964306553F6B",
+    "bytes": 6035
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v004/Delivery/loghouse_v004/PACKAGE_NOTE.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v004\\Delivery\\loghouse_v004\\PACKAGE_NOTE.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v004/Delivery/loghouse_v004/PACKAGE_NOTE.md",
+    "sha256": "7571C4C5B77B97AB6F5703A688FB8E514D4BE96C81D7014728DA6CC6748507F7",
+    "bytes": 421
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v004/Delivery/loghouse_v004/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v004\\Delivery\\loghouse_v004\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v004/Delivery/loghouse_v004/QA/visual_review.md",
+    "sha256": "760F9EFF178C27615F2697B273EE5F2674C84085225FAC3243B239D7871ADAC7",
+    "bytes": 5667
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v004/Delivery/loghouse_v004/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v004\\Delivery\\loghouse_v004\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v004/Delivery/loghouse_v004/README.md",
+    "sha256": "B32A2C8EB7514C358CEA89A1863A5F8F0E40787EEBB8DF3738BBA186FEA4BC85",
+    "bytes": 4414
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v004/QA/cabin_split_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v004\\QA\\cabin_split_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v004/QA/cabin_split_review.md",
+    "sha256": "C88A2B94F2B9C5AD34F3ED65C524216BFDD426600A0FC32F463734416845979E",
+    "bytes": 2205
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v004/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v004\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v004/QA/visual_review.md",
+    "sha256": "5B6DB40D1B08FAAC18B96F55A040465F93C755638E00FBE743150E055F3A2FBE",
+    "bytes": 7090
+  },
+  {
+    "source_relative": "ArtSource/Try/Loghouse/v004/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\Loghouse\\v004\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/Loghouse/v004/README.md",
+    "sha256": "4AF05078EAA44D3B68AEE6F9370CDD4D90D401DB343CC3037256964306553F6B",
+    "bytes": 6035
+  },
+  {
+    "source_relative": "ArtSource/Try/MountainSkyLoop/v001/QA/LayerReview/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\MountainSkyLoop\\v001\\QA\\LayerReview\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/MountainSkyLoop/v001/QA/LayerReview/README.md",
+    "sha256": "89B2FC6BE8191E781C299C97F0A2869566A992FE40F0885E17F2B67210498E66",
+    "bytes": 5200
+  },
+  {
+    "source_relative": "ArtSource/Try/MountainSkyLoop/v001/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\MountainSkyLoop\\v001\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/MountainSkyLoop/v001/QA/visual_review.md",
+    "sha256": "A8B4AFEA163AA9C50CBC93D2BC091D975D8A225C237F79EC23A512C5EB48F119",
+    "bytes": 3486
+  },
+  {
+    "source_relative": "ArtSource/Try/MountainSkyLoop/v001/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\MountainSkyLoop\\v001\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/MountainSkyLoop/v001/README.md",
+    "sha256": "B84EFA70E7AEDC96183DF82E23FE7A8AE8B99B5B60926B4C850CC9EB49E26E87",
+    "bytes": 5324
+  },
+  {
+    "source_relative": "ArtSource/Try/MountainSkyLoop/v001/Source/Rejected/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\MountainSkyLoop\\v001\\Source\\Rejected\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/MountainSkyLoop/v001/Source/Rejected/README.md",
+    "sha256": "E6EDF03577D4DE6276AEF1C0D9D6F03D1DB82341E6E9D8F62782A65AE5ABB53A",
+    "bytes": 287
+  },
+  {
+    "source_relative": "ArtSource/Try/MountainSkyLoop/v002/QA/LayerReview/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\MountainSkyLoop\\v002\\QA\\LayerReview\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/MountainSkyLoop/v002/QA/LayerReview/README.md",
+    "sha256": "1C77ADA961058F2E2D1A4066759AD62C5AADEA9901D411EFA71B45642FCA8DE6",
+    "bytes": 778
+  },
+  {
+    "source_relative": "ArtSource/Try/MountainSkyLoop/v002/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\MountainSkyLoop\\v002\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/MountainSkyLoop/v002/QA/visual_review.md",
+    "sha256": "CBCE64DF4BC12E814E598D04521C2E3D32FC56CE16E2B9BF1C05E7008FCD9A06",
+    "bytes": 4807
+  },
+  {
+    "source_relative": "ArtSource/Try/MountainSkyLoop/v002/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\MountainSkyLoop\\v002\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/MountainSkyLoop/v002/README.md",
+    "sha256": "09251E4B7AFE256E4757E4EA926E1A69C0A76C302AB5D54F84CEB04711B956F0",
+    "bytes": 4266
+  },
+  {
+    "source_relative": "ArtSource/Try/MountainSkyLoop/v003/QA/LayerReview/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\MountainSkyLoop\\v003\\QA\\LayerReview\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/MountainSkyLoop/v003/QA/LayerReview/README.md",
+    "sha256": "DBF34E6C332E6D59306DA6D697BB4529515FD9BD4E502BE0EF9B8238E589A9BC",
+    "bytes": 682
+  },
+  {
+    "source_relative": "ArtSource/Try/MountainSkyLoop/v003/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\MountainSkyLoop\\v003\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/MountainSkyLoop/v003/QA/visual_review.md",
+    "sha256": "C283D5601CAC29FB0BC032AB06BA5EA4995F9622900901908C13B98331EADD48",
+    "bytes": 4430
+  },
+  {
+    "source_relative": "ArtSource/Try/MountainSkyLoop/v003/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\MountainSkyLoop\\v003\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/MountainSkyLoop/v003/README.md",
+    "sha256": "F2010B7FE0AA394A15DFF7EE3478216A22EEA624470A74783DE7F09B1B7ED941",
+    "bytes": 4221
+  },
+  {
+    "source_relative": "ArtSource/Try/MountainSkyLoop/v004/QA/visual_review.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\MountainSkyLoop\\v004\\QA\\visual_review.md",
+    "copy_relative": "Project09/ArtSource/Try/MountainSkyLoop/v004/QA/visual_review.md",
+    "sha256": "A13E44CF3D33C1FB71890FEBFC943A87797BEC299BEA5E4944C9167EDD51703E",
+    "bytes": 5899
+  },
+  {
+    "source_relative": "ArtSource/Try/MountainSkyLoop/v004/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\ArtSource\\Try\\MountainSkyLoop\\v004\\README.md",
+    "copy_relative": "Project09/ArtSource/Try/MountainSkyLoop/v004/README.md",
+    "sha256": "0ECF369BCB96C7FDA5B50E168447C46C6E17927C5D8BDF4DB9BFE72B890EC743",
+    "bytes": 4358
+  },
+  {
+    "source_relative": "Assets/Art/Sprites/Animals/fox_source.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Assets\\Art\\Sprites\\Animals\\fox_source.md",
+    "copy_relative": "Project09/Assets/Art/Sprites/Animals/fox_source.md",
+    "sha256": "AEE2ABA5A904804BE891DCDB361343A61BA5D8FD3A57FAE03E63FE8A6B0602B2",
+    "bytes": 1756
+  },
+  {
+    "source_relative": "Assets/Art/Sprites/Animations/Hunters/Hunter64/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Assets\\Art\\Sprites\\Animations\\Hunters\\Hunter64\\README.md",
+    "copy_relative": "Project09/Assets/Art/Sprites/Animations/Hunters/Hunter64/README.md",
+    "sha256": "8401E04C6968F79BE22D21E9E9AB91C35D3895C47203A06E4E6470042FCF9404",
+    "bytes": 1595
+  },
+  {
+    "source_relative": "Docs/AI/Art/01_ArtDirection/AD-01_StyleRules/hunting_idle_AD-01_rules.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Docs\\AI\\Art\\01_ArtDirection\\AD-01_StyleRules\\hunting_idle_AD-01_rules.md",
+    "copy_relative": "Project09/Docs/AI/Art/01_ArtDirection/AD-01_StyleRules/hunting_idle_AD-01_rules.md",
+    "sha256": "2BC544A49BE74CC601A5E27C6B7F731558BEFE9645255C868FD1AE530AFB5C38",
+    "bytes": 2408
+  },
+  {
+    "source_relative": "Docs/AI/Art/01_ArtDirection/AD-01_StyleRules/PaletteAudit.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Docs\\AI\\Art\\01_ArtDirection\\AD-01_StyleRules\\PaletteAudit.md",
+    "copy_relative": "Project09/Docs/AI/Art/01_ArtDirection/AD-01_StyleRules/PaletteAudit.md",
+    "sha256": "E2BEEACE4F4BB4A4F68A54F956584AD1976F744A892E7A84C3B24343E58FAB17",
+    "bytes": 6929
+  },
+  {
+    "source_relative": "Docs/AI/Art/01_ArtDirection/AD-01_StyleRules/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Docs\\AI\\Art\\01_ArtDirection\\AD-01_StyleRules\\README.md",
+    "copy_relative": "Project09/Docs/AI/Art/01_ArtDirection/AD-01_StyleRules/README.md",
+    "sha256": "C0E31F0103C59D33755A3774A5E8289951F0B7218B64EBFE52F8C704F238D6C5",
+    "bytes": 2371
+  },
+  {
+    "source_relative": "Docs/AI/Art/01_ArtDirection/AD-02_SizeComparison/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Docs\\AI\\Art\\01_ArtDirection\\AD-02_SizeComparison\\README.md",
+    "copy_relative": "Project09/Docs/AI/Art/01_ArtDirection/AD-02_SizeComparison/README.md",
+    "sha256": "DCD5FBBBC0E10343F5AF85B3D3698E8EA42AA2B3E30130D7DD16A97B184E16E8",
+    "bytes": 2697
+  },
+  {
+    "source_relative": "Docs/AI/Art/01_ArtDirection/AD-03_ForestKeyArt/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Docs\\AI\\Art\\01_ArtDirection\\AD-03_ForestKeyArt\\README.md",
+    "copy_relative": "Project09/Docs/AI/Art/01_ArtDirection/AD-03_ForestKeyArt/README.md",
+    "sha256": "216675DC8F6F99BDDB6B87062C115909E5D38918B5517518893EA8F02B82AA87",
+    "bytes": 3405
+  },
+  {
+    "source_relative": "Docs/AI/Art/01_ArtDirection/AD-04_UIStates/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Docs\\AI\\Art\\01_ArtDirection\\AD-04_UIStates\\README.md",
+    "copy_relative": "Project09/Docs/AI/Art/01_ArtDirection/AD-04_UIStates/README.md",
+    "sha256": "DA03C8D97863B889139BBEB482C9250720929C9DF2A6394CC530C92A932D2AAB",
+    "bytes": 3002
+  },
+  {
+    "source_relative": "Docs/AI/Art/01_ArtDirection/AD-05_CommonPanels/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Docs\\AI\\Art\\01_ArtDirection\\AD-05_CommonPanels\\README.md",
+    "copy_relative": "Project09/Docs/AI/Art/01_ArtDirection/AD-05_CommonPanels/README.md",
+    "sha256": "32BD947239FA3F96B8A6EB7EA3F123651AE5E9631E8611911D37E0D147636FEF",
+    "bytes": 3617
+  },
+  {
+    "source_relative": "Docs/AI/Art/01_ArtDirection/ArtDirection.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Docs\\AI\\Art\\01_ArtDirection\\ArtDirection.md",
+    "copy_relative": "Project09/Docs/AI/Art/01_ArtDirection/ArtDirection.md",
+    "sha256": "E883F5248CA020F9AC72F4BB93C17AD916524ABF0E69044FE909509CD426159B",
+    "bytes": 19306
+  },
+  {
+    "source_relative": "Docs/AI/Art/02_Production/2DTo3DStudy.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Docs\\AI\\Art\\02_Production\\2DTo3DStudy.md",
+    "copy_relative": "Project09/Docs/AI/Art/02_Production/2DTo3DStudy.md",
+    "sha256": "CFD2448C981906D88BDE0A0281262DA9CBFAE2BE5AF45460B6924FDDBDA9DAF4",
+    "bytes": 19483
+  },
+  {
+    "source_relative": "Docs/AI/Art/02_Production/ArtworkGuide.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Docs\\AI\\Art\\02_Production\\ArtworkGuide.md",
+    "copy_relative": "Project09/Docs/AI/Art/02_Production/ArtworkGuide.md",
+    "sha256": "47DE3CB891E02DBB24BFC7668274BB36B9BC21972BEB694D116ED9DD95B1A8EC",
+    "bytes": 34839
+  },
+  {
+    "source_relative": "Docs/AI/Art/02_Production/HU-Animations1254/Specification.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Docs\\AI\\Art\\02_Production\\HU-Animations1254\\Specification.md",
+    "copy_relative": "Project09/Docs/AI/Art/02_Production/HU-Animations1254/Specification.md",
+    "sha256": "1C00AECECD5A9349874FF233AE1257EDCAA96D08CD46F627E1AB1869C49FA123",
+    "bytes": 14379
+  },
+  {
+    "source_relative": "Docs/AI/Art/02_Production/HU-BASE_HunterRedesign/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Docs\\AI\\Art\\02_Production\\HU-BASE_HunterRedesign\\README.md",
+    "copy_relative": "Project09/Docs/AI/Art/02_Production/HU-BASE_HunterRedesign/README.md",
+    "sha256": "D676072F89292A3D78DB80D8FA9BC7253A7A7F0C5499D25F59872A6CD6CBC23A",
+    "bytes": 2355
+  },
+  {
+    "source_relative": "Docs/AI/Art/02_Production/PixelCleanupGuide.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Docs\\AI\\Art\\02_Production\\PixelCleanupGuide.md",
+    "copy_relative": "Project09/Docs/AI/Art/02_Production/PixelCleanupGuide.md",
+    "sha256": "149FE03FDCB9B5EF866AA1D6A3B1DAD6432ECB6D53901FC2C30E2814D8EF89D3",
+    "bytes": 8112
+  },
+  {
+    "source_relative": "Docs/AI/Art/02_Production/ProductionGuide.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Docs\\AI\\Art\\02_Production\\ProductionGuide.md",
+    "copy_relative": "Project09/Docs/AI/Art/02_Production/ProductionGuide.md",
+    "sha256": "58E9F64CBFB0DE6A26B20C4F18A8E7841230A000A7B15D442F92D984D78A501F",
+    "bytes": 11242
+  },
+  {
+    "source_relative": "Docs/AI/Art/03_References/Conceptbook_2026-10-14/QA.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Docs\\AI\\Art\\03_References\\Conceptbook_2026-10-14\\QA.md",
+    "copy_relative": "Project09/Docs/AI/Art/03_References/Conceptbook_2026-10-14/QA.md",
+    "sha256": "51EECC289E8109F5DFABB09F2C44FA2BF78CEE5638597EAD446D82CD30F945A9",
+    "bytes": 2358
+  },
+  {
+    "source_relative": "Docs/AI/Art/03_References/Conceptbook_2026-10-14/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Docs\\AI\\Art\\03_References\\Conceptbook_2026-10-14\\README.md",
+    "copy_relative": "Project09/Docs/AI/Art/03_References/Conceptbook_2026-10-14/README.md",
+    "sha256": "D28DA5F566F40A6A36EEC783B9E88410414CBB62154E964CF1944728C1A8B50B",
+    "bytes": 1885
+  },
+  {
+    "source_relative": "Docs/AI/Art/03_References/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Docs\\AI\\Art\\03_References\\README.md",
+    "copy_relative": "Project09/Docs/AI/Art/03_References/README.md",
+    "sha256": "389066E2B347EEE91B4CAF97C34E4BEC96D9A5314EF480EC4BC9F82B939AC42D",
+    "bytes": 2739
+  },
+  {
+    "source_relative": "Docs/AI/Art/README.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Docs\\AI\\Art\\README.md",
+    "copy_relative": "Project09/Docs/AI/Art/README.md",
+    "sha256": "D6E676F9DB7BE6F139145F01D1F8CB81B5F3AF4063859A08217EBC65C078A8CD",
+    "bytes": 5330
+  },
+  {
+    "source_relative": "Docs/AI/Hunter64Integration-2026-10-15.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Docs\\AI\\Hunter64Integration-2026-10-15.md",
+    "copy_relative": "Project09/Docs/AI/Hunter64Integration-2026-10-15.md",
+    "sha256": "EBB1EE82CD1DCD4F49EB94A725CDDAB4A12A218ABAD828833DF75C07E0CDAC49",
+    "bytes": 5159
+  },
+  {
+    "source_relative": "Docs/AI/UnityProjectContext.md",
+    "source_absolute": "E:\\unity_project\\project09_hunting_idle\\Hunting_idle\\Docs\\AI\\UnityProjectContext.md",
+    "copy_relative": "Project09/Docs/AI/UnityProjectContext.md",
+    "sha256": "82ED4B84B7CAF62AFA0157ACA6E7E0E1F5FA6C66C0234CDB2D6D8B23F1DB82EE",
+    "bytes": 19844
+  }
+]

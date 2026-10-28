@@ -1,0 +1,36 @@
+GIMP Palette
+Name: Grandma Shooter v003 - 32 opaque colors
+Columns: 8
+# Native slot 0 is transparent.
+ 40  30  50  Color_01
+ 71  36  62  Color_02
+109  41  73  Color_03
+161  69  94  Color_04
+214 107 110  Color_05
+238  64  61  Color_06
+ 74  80  52  Color_07
+123 135  79  Color_08
+169 177 110  Color_09
+ 21  61  73  Color_10
+ 46 108 119  Color_11
+ 91 157 156  Color_12
+174  97  91  Color_13
+217 139 119  Color_14
+244 191 159  Color_15
+255 225 180  Color_16
+255 245 215  Color_17
+215 204 200  Color_18
+170 155 169  Color_19
+125 108 134  Color_20
+ 87  71  95  Color_21
+ 66  74  97  Color_22
+124 141 158  Color_23
+116  70  50  Color_24
+167 102  58  Color_25
+211 147  77  Color_26
+239 179  74  Color_27
+255 220 120  Color_28
+101  57 121  Color_29
+152  93 157  Color_30
+ 48  51  77  Color_31
+ 95  98 122  Color_32

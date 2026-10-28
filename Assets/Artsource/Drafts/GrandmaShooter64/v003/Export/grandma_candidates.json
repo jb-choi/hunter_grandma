@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "work_id": "HG-BASE64",
+  "version": "v003",
+  "date": "2026-10-21",
+  "state": "05 and 07 age revision; 04/06/08 unchanged in v002",
+  "candidates": [
+    {
+      "candidate": 5,
+      "asset_name": "grandma_05_redhood",
+      "native": "grandma_05_redhood.aseprite",
+      "png": "Export/grandma_05_redhood.png",
+      "png_no_fx": "Export/grandma_05_redhood_no_fx.png",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "tag": "shoot_base",
+      "frame_duration_ms": 100,
+      "palette_slots": 33,
+      "used_opaque_colors": 28,
+      "bounds_xywh": [
+        2,
+        6,
+        61,
+        55
+      ],
+      "ground_last_pixel_y": 60,
+      "ground_boundary_y": 61,
+      "coordinate_system": "PNG top-left (0,0), x right, y down, pixel units",
+      "muzzle": [
+        57,
+        21
+      ],
+      "layers": [
+        {
+          "blend": "3",
+          "index": 1,
+          "isVisible": true,
+          "name": "01_Contour",
+          "opacity": 255
+        },
+        {
+          "blend": "3",
+          "index": 2,
+          "isVisible": true,
+          "name": "02_Character_Combined",
+          "opacity": 255
+        },
+        {
+          "blend": "3",
+          "index": 3,
+          "isVisible": true,
+          "name": "03_Aged_Face_Details",
+          "opacity": 255
+        },
+        {
+          "blend": "3",
+          "index": 4,
+          "isVisible": true,
+          "name": "04_Muzzle_FX",
+          "opacity": 255
+        }
+      ],
+      "source": "Source/Generated/grandma_05_redhood_generated.png",
+      "source_size_px": [
+        1254,
+        1254
+      ],
+      "method": "built-in ImageGen edit of previous concept + Aseprite 64px palette/contour/age feature/FX refinement",
+      "runtime_connected": false
+    },
+    {
+      "candidate": 7,
+      "asset_name": "grandma_07_mosswitch",
+      "native": "grandma_07_mosswitch.aseprite",
+      "png": "Export/grandma_07_mosswitch.png",
+      "png_no_fx": "Export/grandma_07_mosswitch_no_fx.png",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "tag": "shoot_base",
+      "frame_duration_ms": 100,
+      "palette_slots": 33,
+      "used_opaque_colors": 26,
+      "bounds_xywh": [
+        2,
+        4,
+        60,
+        57
+      ],
+      "ground_last_pixel_y": 60,
+      "ground_boundary_y": 61,
+      "coordinate_system": "PNG top-left (0,0), x right, y down, pixel units",
+      "muzzle": [
+        56,
+        29
+      ],
+      "layers": [
+        {
+          "blend": "3",
+          "index": 1,
+          "isVisible": true,
+          "name": "01_Contour",
+          "opacity": 255
+        },
+        {
+          "blend": "3",
+          "index": 2,
+          "isVisible": true,
+          "name": "02_Character_Combined",
+          "opacity": 255
+        },
+        {
+          "blend": "3",
+          "index": 3,
+          "isVisible": true,
+          "name": "03_Aged_Face_Details",
+          "opacity": 255
+        },
+        {
+          "blend": "3",
+          "index": 4,
+          "isVisible": true,
+          "name": "04_Muzzle_FX",
+          "opacity": 255
+        }
+      ],
+      "source": "Source/Generated/grandma_07_mosswitch_generated.png",
+      "source_size_px": [
+        1254,
+        1254
+      ],
+      "method": "built-in ImageGen edit of previous concept + Aseprite 64px palette/contour/age feature/FX refinement",
+      "runtime_connected": false
+    }
+  ]
+}

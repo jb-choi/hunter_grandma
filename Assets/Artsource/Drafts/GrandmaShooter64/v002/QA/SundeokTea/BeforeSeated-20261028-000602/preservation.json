@@ -1,0 +1,38 @@
+[
+  {
+    "path": "grandma_04_sundeok_tea.aseprite",
+    "sha256": "582443B3F773582F101140054C37F196491A6C20D9290E74C7E9D922E5A214A6",
+    "matches_previous_delivery": true,
+    "backup": "grandma_04_sundeok_tea.aseprite"
+  },
+  {
+    "path": "Export\\grandma_04_sundeok_tea.png",
+    "sha256": "A2FB6C26B8FFE28EFC8E9CA3388498B36BE948EBAD5D854D3F8B39645226FCF2",
+    "matches_previous_delivery": true,
+    "backup": "Export__grandma_04_sundeok_tea.png"
+  },
+  {
+    "path": "Export\\grandma_04_sundeok_tea.json",
+    "sha256": "712773A6DFEF14170321751C7D106ADD9E58BD680B705DE23437F48AEAA66155",
+    "matches_previous_delivery": true,
+    "backup": "Export__grandma_04_sundeok_tea.json"
+  },
+  {
+    "path": "Previews\\grandma_04_sundeok_tea_8x.png",
+    "sha256": "CE42DEE0023CD5CC207E9948DEC099725414A2E6E5F191A61DC9DA6A6CDE2175",
+    "matches_previous_delivery": true,
+    "backup": "Previews__grandma_04_sundeok_tea_8x.png"
+  },
+  {
+    "path": "Previews\\grandma_04_sundeok_tea_dark_8x.png",
+    "sha256": "5FEBE8EAB80456F5EB67766B28F9BE44F2FCDB0E874D29648D169B2F0F22C996",
+    "matches_previous_delivery": true,
+    "backup": "Previews__grandma_04_sundeok_tea_dark_8x.png"
+  },
+  {
+    "path": "Scripts\\create_sundeok_tea.lua",
+    "sha256": "88CB8BCC4F4C9538F3BCCE77DC4BBD50B809A38EB44D0943F01ADB2BBDE8BF55",
+    "matches_previous_delivery": true,
+    "backup": "Scripts__create_sundeok_tea.lua"
+  }
+]

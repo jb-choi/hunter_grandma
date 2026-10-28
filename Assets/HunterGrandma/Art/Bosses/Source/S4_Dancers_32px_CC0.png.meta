@@ -1,0 +1,1378 @@
+fileFormatVersion: 2
+guid: 44602cd5a2e459547b7c3b99ad92e27f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1263259223570010841
+    second: S4_Dancers_32px_CC0_0
+  - first:
+      213: 8244892531614076779
+    second: S4_Dancers_32px_CC0_1
+  - first:
+      213: -9054826807217770136
+    second: S4_Dancers_32px_CC0_2
+  - first:
+      213: 1014194562148050480
+    second: S4_Dancers_32px_CC0_3
+  - first:
+      213: 8017667269479910252
+    second: S4_Dancers_32px_CC0_4
+  - first:
+      213: 1102413820931764360
+    second: S4_Dancers_32px_CC0_5
+  - first:
+      213: -4695997413649403750
+    second: S4_Dancers_32px_CC0_6
+  - first:
+      213: 7900218584822673314
+    second: S4_Dancers_32px_CC0_7
+  - first:
+      213: 6554578455553356722
+    second: S4_Dancers_32px_CC0_8
+  - first:
+      213: -1748143276216710135
+    second: S4_Dancers_32px_CC0_9
+  - first:
+      213: 2515269216352843559
+    second: S4_Dancers_32px_CC0_10
+  - first:
+      213: -4386744350925280208
+    second: S4_Dancers_32px_CC0_11
+  - first:
+      213: 511064500718605783
+    second: S4_Dancers_32px_CC0_12
+  - first:
+      213: 3315864591044744710
+    second: S4_Dancers_32px_CC0_13
+  - first:
+      213: -6167652677668392023
+    second: S4_Dancers_32px_CC0_14
+  - first:
+      213: -5775253329162395772
+    second: S4_Dancers_32px_CC0_15
+  - first:
+      213: 3600114269195945107
+    second: S4_Dancers_32px_CC0_16
+  - first:
+      213: 4597773170730570520
+    second: S4_Dancers_32px_CC0_17
+  - first:
+      213: -7085176877155302486
+    second: S4_Dancers_32px_CC0_18
+  - first:
+      213: 6627070937568736844
+    second: S4_Dancers_32px_CC0_19
+  - first:
+      213: -8515342108433020424
+    second: S4_Dancers_32px_CC0_20
+  - first:
+      213: 76914951343113641
+    second: S4_Dancers_32px_CC0_21
+  - first:
+      213: 6378688860273559318
+    second: S4_Dancers_32px_CC0_22
+  - first:
+      213: 802112651288234367
+    second: S4_Dancers_32px_CC0_23
+  - first:
+      213: 7513932001026377074
+    second: S4_Dancers_32px_CC0_24
+  - first:
+      213: -6900159143948550467
+    second: S4_Dancers_32px_CC0_25
+  - first:
+      213: -7034430507929657156
+    second: S4_Dancers_32px_CC0_26
+  - first:
+      213: 3418147612977570694
+    second: S4_Dancers_32px_CC0_27
+  - first:
+      213: -1152111432525047484
+    second: S4_Dancers_32px_CC0_28
+  - first:
+      213: -2599558694885658700
+    second: S4_Dancers_32px_CC0_29
+  - first:
+      213: 2007161288594167059
+    second: S4_Dancers_32px_CC0_30
+  - first:
+      213: 4594637752744888296
+    second: S4_Dancers_32px_CC0_31
+  - first:
+      213: 3023076449851399996
+    second: S4_Dancers_32px_CC0_32
+  - first:
+      213: -5554715039369094454
+    second: S4_Dancers_32px_CC0_33
+  - first:
+      213: 6396061592082311269
+    second: S4_Dancers_32px_CC0_34
+  - first:
+      213: 4021717062703354835
+    second: S4_Dancers_32px_CC0_35
+  - first:
+      213: -926401649415091731
+    second: S4_Dancers_32px_CC0_36
+  - first:
+      213: 8034400058778655433
+    second: S4_Dancers_32px_CC0_37
+  - first:
+      213: 7987737772133842692
+    second: S4_Dancers_32px_CC0_38
+  - first:
+      213: -3995854973862806340
+    second: S4_Dancers_32px_CC0_39
+  - first:
+      213: 3674025488171290181
+    second: S4_Dancers_32px_CC0_40
+  - first:
+      213: -4036007189084987119
+    second: S4_Dancers_32px_CC0_41
+  - first:
+      213: -7041815032983029437
+    second: S4_Dancers_32px_CC0_42
+  - first:
+      213: -203101741188215007
+    second: S4_Dancers_32px_CC0_43
+  - first:
+      213: 4671953496361388477
+    second: S4_Dancers_32px_CC0_44
+  - first:
+      213: 180234869568975873
+    second: S4_Dancers_32px_CC0_45
+  - first:
+      213: 7380994562063598224
+    second: S4_Dancers_32px_CC0_46
+  - first:
+      213: 4312572629289481594
+    second: S4_Dancers_32px_CC0_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 223
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d25020229ff78110800000000000000
+      internalID: 1263259223570010841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 191
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6fc02ef21ebb6270800000000000000
+      internalID: 8244892531614076779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 223
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861b91d4efac65280800000000000000
+      internalID: -9054826807217770136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 191
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036a7f1b494231e00800000000000000
+      internalID: 1014194562148050480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 223
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b40a4f6e9744f60800000000000000
+      internalID: 8017667269479910252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_5
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 191
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8807e10878f8c4f00800000000000000
+      internalID: 1102413820931764360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_6
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 191
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9036459b3774deb0800000000000000
+      internalID: -4695997413649403750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 223
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af6b4c12f633ad60800000000000000
+      internalID: 7900218584822673314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_8
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 191
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3bfafa06a86fa50800000000000000
+      internalID: 6554578455553356722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_9
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 223
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c8d9cc3f85db7e0800000000000000
+      internalID: -1748143276216710135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_10
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 191
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727bf2b960808e220800000000000000
+      internalID: 2515269216352843559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_11
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 223
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ca5aa31472f13c0800000000000000
+      internalID: -4386744350925280208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 159
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d515a6a47aa71700800000000000000
+      internalID: 511064500718605783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_13
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 127
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60694800741540e20800000000000000
+      internalID: 3315864591044744710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_14
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 159
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3b6993198186aa0800000000000000
+      internalID: -6167652677668392023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_15
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 127
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f126b12bd2adfa0800000000000000
+      internalID: -5775253329162395772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_16
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 159
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3944d368adc26f130800000000000000
+      internalID: 3600114269195945107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_17
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 127
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8139737b6529ecf30800000000000000
+      internalID: 4597773170730570520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_18
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 127
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa3c85a4b256cad90800000000000000
+      internalID: -7085176877155302486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_19
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 159
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46791fe7e518fb50800000000000000
+      internalID: 6627070937568736844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_20
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 127
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f98ce5f77d63d980800000000000000
+      internalID: -8515342108433020424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_21
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 159
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a509b0adb1411100800000000000000
+      internalID: 76914951343113641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_22
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 127
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617c85109b7a58850800000000000000
+      internalID: 6378688860273559318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_23
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 159
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79c1e1e43da12b00800000000000000
+      internalID: 802112651288234367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 95
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2750e9b2859d64860800000000000000
+      internalID: 7513932001026377074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_25
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 63
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe784331d5bd30a0800000000000000
+      internalID: -6900159143948550467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_26
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 95
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb0aea919bea06e90800000000000000
+      internalID: -7034430507929657156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_27
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 63
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683a065d423bf6f20800000000000000
+      internalID: 3418147612977570694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_28
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 95
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4499daa91c0e200f0800000000000000
+      internalID: -1152111432525047484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_29
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 63
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfef8ad3238cebd0800000000000000
+      internalID: -2599558694885658700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_30
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 63
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315129dbe8edadb10800000000000000
+      internalID: 2007161288594167059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_31
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 95
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e745f351be63cf30800000000000000
+      internalID: 4594637752744888296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_32
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 63
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3fdd32a30024f920800000000000000
+      internalID: 3023076449851399996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_33
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 95
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca92e11a10b9e2b0800000000000000
+      internalID: -5554715039369094454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_34
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 63
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568e595512063c850800000000000000
+      internalID: 6396061592082311269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_35
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 95
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d39f8d4c5200d730800000000000000
+      internalID: 4021717062703354835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_36
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 31
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9074fab92c423f0800000000000000
+      internalID: -926401649415091731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_37
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca11ee094cef7f60800000000000000
+      internalID: 8034400058778655433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_38
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 31
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ff103de252ade60800000000000000
+      internalID: 7987737772133842692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_39
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcfdec721fdb88c0800000000000000
+      internalID: -3995854973862806340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_40
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 31
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e4e2637b2ccf230800000000000000
+      internalID: 3674025488171290181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_41
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111aaaf58d83df7c0800000000000000
+      internalID: -4036007189084987119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_42
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3497a016982764e90800000000000000
+      internalID: -7041815032983029437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_43
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 31
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f863fda007e2df0800000000000000
+      internalID: -203101741188215007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_44
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9c3cda3fc16d040800000000000000
+      internalID: 4671953496361388477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_45
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 31
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1043cc0b8a2508200800000000000000
+      internalID: 180234869568975873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_46
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09204e0b27f8e6660800000000000000
+      internalID: 7380994562063598224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S4_Dancers_32px_CC0_47
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 31
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a753fd415f559db30800000000000000
+      internalID: 4312572629289481594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      S4_Dancers_32px_CC0_0: 1263259223570010841
+      S4_Dancers_32px_CC0_1: 8244892531614076779
+      S4_Dancers_32px_CC0_10: 2515269216352843559
+      S4_Dancers_32px_CC0_11: -4386744350925280208
+      S4_Dancers_32px_CC0_12: 511064500718605783
+      S4_Dancers_32px_CC0_13: 3315864591044744710
+      S4_Dancers_32px_CC0_14: -6167652677668392023
+      S4_Dancers_32px_CC0_15: -5775253329162395772
+      S4_Dancers_32px_CC0_16: 3600114269195945107
+      S4_Dancers_32px_CC0_17: 4597773170730570520
+      S4_Dancers_32px_CC0_18: -7085176877155302486
+      S4_Dancers_32px_CC0_19: 6627070937568736844
+      S4_Dancers_32px_CC0_2: -9054826807217770136
+      S4_Dancers_32px_CC0_20: -8515342108433020424
+      S4_Dancers_32px_CC0_21: 76914951343113641
+      S4_Dancers_32px_CC0_22: 6378688860273559318
+      S4_Dancers_32px_CC0_23: 802112651288234367
+      S4_Dancers_32px_CC0_24: 7513932001026377074
+      S4_Dancers_32px_CC0_25: -6900159143948550467
+      S4_Dancers_32px_CC0_26: -7034430507929657156
+      S4_Dancers_32px_CC0_27: 3418147612977570694
+      S4_Dancers_32px_CC0_28: -1152111432525047484
+      S4_Dancers_32px_CC0_29: -2599558694885658700
+      S4_Dancers_32px_CC0_3: 1014194562148050480
+      S4_Dancers_32px_CC0_30: 2007161288594167059
+      S4_Dancers_32px_CC0_31: 4594637752744888296
+      S4_Dancers_32px_CC0_32: 3023076449851399996
+      S4_Dancers_32px_CC0_33: -5554715039369094454
+      S4_Dancers_32px_CC0_34: 6396061592082311269
+      S4_Dancers_32px_CC0_35: 4021717062703354835
+      S4_Dancers_32px_CC0_36: -926401649415091731
+      S4_Dancers_32px_CC0_37: 8034400058778655433
+      S4_Dancers_32px_CC0_38: 7987737772133842692
+      S4_Dancers_32px_CC0_39: -3995854973862806340
+      S4_Dancers_32px_CC0_4: 8017667269479910252
+      S4_Dancers_32px_CC0_40: 3674025488171290181
+      S4_Dancers_32px_CC0_41: -4036007189084987119
+      S4_Dancers_32px_CC0_42: -7041815032983029437
+      S4_Dancers_32px_CC0_43: -203101741188215007
+      S4_Dancers_32px_CC0_44: 4671953496361388477
+      S4_Dancers_32px_CC0_45: 180234869568975873
+      S4_Dancers_32px_CC0_46: 7380994562063598224
+      S4_Dancers_32px_CC0_47: 4312572629289481594
+      S4_Dancers_32px_CC0_5: 1102413820931764360
+      S4_Dancers_32px_CC0_6: -4695997413649403750
+      S4_Dancers_32px_CC0_7: 7900218584822673314
+      S4_Dancers_32px_CC0_8: 6554578455553356722
+      S4_Dancers_32px_CC0_9: -1748143276216710135
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

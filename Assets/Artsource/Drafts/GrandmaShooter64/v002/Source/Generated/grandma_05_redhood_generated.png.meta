@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: 500792eaf76254142b3f0bd60243b50e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6319540303613197245
+    second: grandma_05_redhood_generated_0
+  - first:
+      213: 7760350423725775119
+    second: grandma_05_redhood_generated_1
+  - first:
+      213: -5046652267335160013
+    second: grandma_05_redhood_generated_2
+  - first:
+      213: -4468817136904715860
+    second: grandma_05_redhood_generated_3
+  - first:
+      213: -6705264151303300977
+    second: grandma_05_redhood_generated_4
+  - first:
+      213: -7587649472521423521
+    second: grandma_05_redhood_generated_5
+  - first:
+      213: -6894190708181738952
+    second: grandma_05_redhood_generated_6
+  - first:
+      213: -4238048787878489789
+    second: grandma_05_redhood_generated_7
+  - first:
+      213: 6056769691480676059
+    second: grandma_05_redhood_generated_8
+  - first:
+      213: 4718421951190803799
+    second: grandma_05_redhood_generated_9
+  - first:
+      213: 1037777933587978605
+    second: grandma_05_redhood_generated_10
+  - first:
+      213: -4069180131041866919
+    second: grandma_05_redhood_generated_11
+  - first:
+      213: -6754291404184033873
+    second: grandma_05_redhood_generated_12
+  - first:
+      213: 113458473281826815
+    second: grandma_05_redhood_generated_13
+  - first:
+      213: 8062939143331989777
+    second: grandma_05_redhood_generated_14
+  - first:
+      213: 7767942741767224487
+    second: grandma_05_redhood_generated_15
+  - first:
+      213: 1295690233216962749
+    second: grandma_05_redhood_generated_16
+  - first:
+      213: 26225164015834799
+    second: grandma_05_redhood_generated_17
+  - first:
+      213: -2165673380514080136
+    second: grandma_05_redhood_generated_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: grandma_05_redhood_generated_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1240
+        height: 1238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbbf0ac7c6483b750800000000000000
+      internalID: 6319540303613197245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_05_redhood_generated_1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1211
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f091ab2289d42bb60800000000000000
+      internalID: 7760350423725775119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_05_redhood_generated_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 277
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f619c4080b6f9b0800000000000000
+      internalID: -5046652267335160013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_05_redhood_generated_3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 49
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1cd94ad729bf1c0800000000000000
+      internalID: -4468817136904715860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_05_redhood_generated_4
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 57
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88d768c7cd12f2a0800000000000000
+      internalID: -6705264151303300977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_05_redhood_generated_5
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 47
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f553e2e710143b690800000000000000
+      internalID: -7587649472521423521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_05_redhood_generated_6
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 45
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a5701f31ae250a0800000000000000
+      internalID: -6894190708181738952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_05_redhood_generated_7
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 51
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3415ab1e41d6f25c0800000000000000
+      internalID: -4238048787878489789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_05_redhood_generated_8
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 55
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6de0bb1f7fd0450800000000000000
+      internalID: 6056769691480676059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_05_redhood_generated_9
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 33
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755222de3c33b7140800000000000000
+      internalID: 4718421951190803799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_05_redhood_generated_10
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 39
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69104f388de66e00800000000000000
+      internalID: 1037777933587978605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_05_redhood_generated_11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 41
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b0c22fa3e5787c0800000000000000
+      internalID: -4069180131041866919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_05_redhood_generated_12
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 39
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5e220f0cfe342a0800000000000000
+      internalID: -6754291404184033873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_05_redhood_generated_13
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 15
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffa8bc51e5139100800000000000000
+      internalID: 113458473281826815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_05_redhood_generated_14
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 23
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11945eb7e6055ef60800000000000000
+      internalID: 8062939143331989777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_05_redhood_generated_15
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 23
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7acfb9e64c64dcb60800000000000000
+      internalID: 7767942741767224487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_05_redhood_generated_16
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 29
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db017d9f6673bf110800000000000000
+      internalID: 1295690233216962749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_05_redhood_generated_17
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 21
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa61751d5ab2d5000800000000000000
+      internalID: 26225164015834799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grandma_05_redhood_generated_18
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 0
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a50fed88bf1f1e0800000000000000
+      internalID: -2165673380514080136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      grandma_05_redhood_generated_0: 6319540303613197245
+      grandma_05_redhood_generated_1: 7760350423725775119
+      grandma_05_redhood_generated_10: 1037777933587978605
+      grandma_05_redhood_generated_11: -4069180131041866919
+      grandma_05_redhood_generated_12: -6754291404184033873
+      grandma_05_redhood_generated_13: 113458473281826815
+      grandma_05_redhood_generated_14: 8062939143331989777
+      grandma_05_redhood_generated_15: 7767942741767224487
+      grandma_05_redhood_generated_16: 1295690233216962749
+      grandma_05_redhood_generated_17: 26225164015834799
+      grandma_05_redhood_generated_18: -2165673380514080136
+      grandma_05_redhood_generated_2: -5046652267335160013
+      grandma_05_redhood_generated_3: -4468817136904715860
+      grandma_05_redhood_generated_4: -6705264151303300977
+      grandma_05_redhood_generated_5: -7587649472521423521
+      grandma_05_redhood_generated_6: -6894190708181738952
+      grandma_05_redhood_generated_7: -4238048787878489789
+      grandma_05_redhood_generated_8: 6056769691480676059
+      grandma_05_redhood_generated_9: 4718421951190803799
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
