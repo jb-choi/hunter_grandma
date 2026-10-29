@@ -334,6 +334,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HunterGrandma.GrandmaShooter
   idleSprite: {fileID: 21300000, guid: af55772e8d410204093e06247e46df7c, type: 3}
   firingSprite: {fileID: 21300000, guid: 72408bb4e873bdb4f892629e59fce676, type: 3}
+  animationSet: {fileID: 11400000, guid: f2899606ca25a20419220de0647b0817, type: 2}
   muzzleOffset: {x: 1.1875, y: 2.5625}
   shotVolume: 0.16
 --- !u!82 &58138514
@@ -2997,11 +2998,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HunterGrandma.DefenseHud
   encounter: {fileID: 388014580}
   cityMap: {fileID: 21300000, guid: 7ef6a324c34baba4f94c31078ce1e7ea, type: 3}
+  font: {fileID: 12800000, guid: 1fc443bb49a618f4d936ab1fddd5ef9c, type: 3}
   resourcePlaceholder: {fileID: 21300000, guid: 25ac6be3e5708f54989e6da9a496e4b8, type: 3}
   attackPlaceholder: {fileID: 21300000, guid: c1514a4b2f525b148bace1381282da13, type: 3}
   ratePlaceholder: {fileID: 21300000, guid: 170c5703fa235504d81fdf76045fd96f, type: 3}
   upgradePlaceholder: {fileID: 21300000, guid: b13b019a8604768439470a77afa526fc, type: 3}
-  font: {fileID: 12800000, guid: 1fc443bb49a618f4d936ab1fddd5ef9c, type: 3}
+  upgradePortraits:
+  - {fileID: 21300000, guid: 6b1a7f838411bf44182c1632062cd145, type: 3}
+  - {fileID: 21300000, guid: a6e82e17033614a4097cc0ed15c38238, type: 3}
+  - {fileID: 21300000, guid: 82f12de4b40beca48acb8723b2710bbf, type: 3}
+  - {fileID: 21300000, guid: 7333e2c6470ad7040bab3cbcd1de726f, type: 3}
+  - {fileID: 21300000, guid: 56eb9764c80aa334093573b4bd4ebf6e, type: 3}
+  upgradeLockedPortraits:
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 3952457b9ed33bc48af7f3f1306720dc, type: 3}
+  - {fileID: 21300000, guid: cf68c391dd86d054b90a27d3555f525e, type: 3}
+  - {fileID: 21300000, guid: d2ab7b65230f18243bd9eb53e4fb9207, type: 3}
+  - {fileID: 21300000, guid: e9a47d4db7380f743a34643142a1892f, type: 3}
 --- !u!114 &388014580
 MonoBehaviour:
   m_ObjectHideFlags: 0

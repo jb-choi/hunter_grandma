@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5939117fc86ccbd4384d656d6fc1a9e9, type: 3}
+  m_Name: Sundeok120AnimationSet
+  m_EditorClassIdentifier: Assembly-CSharp::HunterGrandma.SundeokAnimationSet
+  clips:
+  - action: 0
+    frames:
+    - composite: {fileID: 21300000, guid: 0c28ab3e4835d8942a77478cff3b92c8, type: 3}
+      body: {fileID: 21300000, guid: a14aa6ee56694494f996967eff1a1ba7, type: 3}
+      upper: {fileID: 21300000, guid: c49a6cc9ed515a94bbe11280f68d75d5, type: 3}
+      duration: 0.22
+      muzzle: {x: 109, y: 48}
+      registration: {x: 43.5, y: 47}
+    - composite: {fileID: 21300000, guid: e8ba55514d1144746889f12de108fef6, type: 3}
+      body: {fileID: 21300000, guid: 6813b96a9cb007840b97989754f64193, type: 3}
+      upper: {fileID: 21300000, guid: 596ba54aa7e2a6445a42c8f01b9ba615, type: 3}
+      duration: 0.22
+      muzzle: {x: 109, y: 47}
+      registration: {x: 42.5, y: 47}
+    - composite: {fileID: 21300000, guid: f39d4819e2894a14eb7f79c498afa9f3, type: 3}
+      body: {fileID: 21300000, guid: 45d8d690ddec7ee4cb47a9dd4fff1794, type: 3}
+      upper: {fileID: 21300000, guid: 8741c5649eca02846bbca2eee3b47207, type: 3}
+      duration: 0.22
+      muzzle: {x: 109, y: 48}
+      registration: {x: 43.5, y: 47}
+    - composite: {fileID: 21300000, guid: bfb48a6c59cd2814890be8da78f11564, type: 3}
+      body: {fileID: 21300000, guid: d457b2f75d84fc149a18a8319365efce, type: 3}
+      upper: {fileID: 21300000, guid: 0f74aeb5a017b034caa47a0319eae743, type: 3}
+      duration: 0.22
+      muzzle: {x: 109, y: 48}
+      registration: {x: 43.5, y: 47}
+  - action: 1
+    frames:
+    - composite: {fileID: 21300000, guid: 762b97b8f14f7c54caced43fb7cc768b, type: 3}
+      body: {fileID: 21300000, guid: 3971557729602a742875f2901fc5ea4c, type: 3}
+      upper: {fileID: 21300000, guid: 064ef5df2d372f84cba96e05fdd125cd, type: 3}
+      duration: 0.11
+      muzzle: {x: 112, y: 47}
+      registration: {x: 46, y: 45}
+    - composite: {fileID: 21300000, guid: 447c2dabf1e3aba41857d209871a7651, type: 3}
+      body: {fileID: 21300000, guid: 82d1a13284419f649a5d68dccc8bc6cc, type: 3}
+      upper: {fileID: 21300000, guid: ca5c1700d45c50c4bab01f9ea7092657, type: 3}
+      duration: 0.11
+      muzzle: {x: 110, y: 47}
+      registration: {x: 44, y: 45}
+    - composite: {fileID: 21300000, guid: 60fb2743a7a9c3a4284c765497377895, type: 3}
+      body: {fileID: 21300000, guid: 25d221b90902eff4d9d769edfd92984a, type: 3}
+      upper: {fileID: 21300000, guid: 429af2b9b54873949ac73e946f963b77, type: 3}
+      duration: 0.11
+      muzzle: {x: 110, y: 47}
+      registration: {x: 44, y: 46}
+    - composite: {fileID: 21300000, guid: e1ed70630a6c4c24380f385fbb85b481, type: 3}
+      body: {fileID: 21300000, guid: 2c358146adaa8d146ba1f7c0d30a9034, type: 3}
+      upper: {fileID: 21300000, guid: 07c40e506e9014d4a9aaafa54c60d43b, type: 3}
+      duration: 0.11
+      muzzle: {x: 111, y: 49}
+      registration: {x: 45, y: 47}
+    - composite: {fileID: 21300000, guid: fc24e642910b43b469da6b7987acfed2, type: 3}
+      body: {fileID: 21300000, guid: b9db31dbb3c67174d881cc9afd8fa4f3, type: 3}
+      upper: {fileID: 21300000, guid: e75b994bf5cd5da4bb40df188b0c2e88, type: 3}
+      duration: 0.11
+      muzzle: {x: 109, y: 48}
+      registration: {x: 43.5, y: 46}
+    - composite: {fileID: 21300000, guid: d3f4339fbeb458e4bbc8e0851a01d895, type: 3}
+      body: {fileID: 21300000, guid: 45c55125e6bfe094eb7384ebdb6e155a, type: 3}
+      upper: {fileID: 21300000, guid: e803bac8808d15347b506b4c84c63ab0, type: 3}
+      duration: 0.11
+      muzzle: {x: 110, y: 48}
+      registration: {x: 44, y: 47}
+  - action: 2
+    frames:
+    - composite: {fileID: 21300000, guid: 8f8daccfb130aa3448c4a42a5f1530e3, type: 3}
+      body: {fileID: 21300000, guid: 3a05eadb66fe8e84e857098b147decd2, type: 3}
+      upper: {fileID: 21300000, guid: 9c02541ab080b784d952dbce8eebde89, type: 3}
+      duration: 0.15
+      muzzle: {x: 104, y: 47}
+      registration: {x: 40, y: 46}
+    - composite: {fileID: 21300000, guid: fde21280f2d9607448fa71fa0e941172, type: 3}
+      body: {fileID: 21300000, guid: 16ac29766d3e62a439a7a7a257a19f46, type: 3}
+      upper: {fileID: 21300000, guid: eb4202dbb4c62b641beb2c348af012fe, type: 3}
+      duration: 0.15
+      muzzle: {x: 104, y: 47}
+      registration: {x: 39.5, y: 46}
+    - composite: {fileID: 21300000, guid: 668e26487a8e62d4a9928414fbac2133, type: 3}
+      body: {fileID: 21300000, guid: e491aa0731e5fc648bd2fa9b1b3a1d18, type: 3}
+      upper: {fileID: 21300000, guid: 13d1dbd4af4e4b2459484b9b96200be8, type: 3}
+      duration: 0.15
+      muzzle: {x: 101, y: 47}
+      registration: {x: 39.5, y: 46}
+    - composite: {fileID: 21300000, guid: 073252b3a04c1e74c80c82d04b4fc9dd, type: 3}
+      body: {fileID: 21300000, guid: 04025ccafea9b354eac9bec1f091a2eb, type: 3}
+      upper: {fileID: 21300000, guid: d0d0256adc823914fa2a120b26b33c5c, type: 3}
+      duration: 0.15
+      muzzle: {x: 105, y: 47}
+      registration: {x: 39.5, y: 47}
+    - composite: {fileID: 21300000, guid: 10acc1e7d949b1f468f69783307dfc4b, type: 3}
+      body: {fileID: 21300000, guid: 10aeda1c1dc78ed418d83f35f8c7826d, type: 3}
+      upper: {fileID: 21300000, guid: 5d6b84fba93ef9d48a8117f4c13b5c5c, type: 3}
+      duration: 0.15
+      muzzle: {x: 101, y: 46}
+      registration: {x: 37.5, y: 47}
+    - composite: {fileID: 21300000, guid: e0c05c4e8edee684189fa257dce1f38e, type: 3}
+      body: {fileID: 21300000, guid: 56fe274c664ab5046927071b8cb90a4b, type: 3}
+      upper: {fileID: 21300000, guid: 0b0ba709e23f89144aa5d2240dd0e5bb, type: 3}
+      duration: 0.15
+      muzzle: {x: 102, y: 47}
+      registration: {x: 39.5, y: 45}
+  - action: 3
+    frames:
+    - composite: {fileID: 21300000, guid: e9571f1d06e93814781698f60b925c01, type: 3}
+      body: {fileID: 21300000, guid: b586f847937821c4b8ae47c9909384a0, type: 3}
+      upper: {fileID: 21300000, guid: 11b5a93d0e936484685bc3e244fcfac6, type: 3}
+      duration: 0.14
+      muzzle: {x: 99, y: 72}
+      registration: {x: 46.5, y: 47}
+    - composite: {fileID: 21300000, guid: 192b1592b95a34f4abad984960cb3d84, type: 3}
+      body: {fileID: 21300000, guid: 36f90996e6447d34f8d295edbef33f77, type: 3}
+      upper: {fileID: 21300000, guid: 59a3b0f4fdc9c9a428de03b587f8b409, type: 3}
+      duration: 0.14
+      muzzle: {x: 103, y: 41}
+      registration: {x: 47, y: 46}
+    - composite: {fileID: 21300000, guid: ed076012bff90af48bb85f4aceb25684, type: 3}
+      body: {fileID: 21300000, guid: c4606355f85e2d149b6dffe89c8dd23e, type: 3}
+      upper: {fileID: 21300000, guid: ea66de5f88b233f4b8463f44af7f2ca1, type: 3}
+      duration: 0.14
+      muzzle: {x: 106, y: 38}
+      registration: {x: 47, y: 49}
+  - action: 4
+    frames:
+    - composite: {fileID: 21300000, guid: 3213f3a87019fac4f915f522b32a2e23, type: 3}
+      body: {fileID: 21300000, guid: b7b52ae2aaf33ee47a456e0ff9248148, type: 3}
+      upper: {fileID: 21300000, guid: d5234f1364157624d9ae21cca676d88d, type: 3}
+      duration: 0.1
+      muzzle: {x: 106, y: 49}
+      registration: {x: 46, y: 50}
+    - composite: {fileID: 21300000, guid: 613e5b678b3aa5f47abe789655884581, type: 3}
+      body: {fileID: 21300000, guid: 846e8aaa3348d654d92b82968bcba742, type: 3}
+      upper: {fileID: 21300000, guid: be2866ee9ba9695448370908072f56c4, type: 3}
+      duration: 0.07
+      muzzle: {x: 92, y: 45}
+      registration: {x: 29, y: 59}
+    - composite: {fileID: 21300000, guid: 5d83097ff72cfea4db5e7653cfe4e9b3, type: 3}
+      body: {fileID: 21300000, guid: 7e33f2122b0f2d04e8a4236b6663ee97, type: 3}
+      upper: {fileID: 21300000, guid: d805b969072b77446b53bd22412245f9, type: 3}
+      duration: 0.11
+      muzzle: {x: 109, y: 70}
+      registration: {x: 59, y: 56}
+    - composite: {fileID: 21300000, guid: 28ad0356aa7decf41b7252ae3460984e, type: 3}
+      body: {fileID: 21300000, guid: 306caa2001ee761418fdf27b1d4f6686, type: 3}
+      upper: {fileID: 21300000, guid: ba630c296a264974e8a2381f2f09e692, type: 3}
+      duration: 0.15
+      muzzle: {x: 105, y: 47}
+      registration: {x: 41.5, y: 51}
+  - action: 5
+    frames:
+    - composite: {fileID: 21300000, guid: 7a2c05b33c3e7ca4fa794a68edd616eb, type: 3}
+      body: {fileID: 21300000, guid: a903af61bb1103e40bea0c9ddcf5add7, type: 3}
+      upper: {fileID: 21300000, guid: 5d9f433899ba3fc42b61129273fb2e0f, type: 3}
+      duration: 0.17
+      muzzle: {x: 95, y: 71}
+      registration: {x: 59.5, y: 43}
+    - composite: {fileID: 21300000, guid: 92f431d2d843384448ffe5e1e1be05bf, type: 3}
+      body: {fileID: 21300000, guid: 9fc4215b3dd92d74e87d759672e3a355, type: 3}
+      upper: {fileID: 21300000, guid: 1332148c0fa1b1c40923624f74504342, type: 3}
+      duration: 0.17
+      muzzle: {x: 93, y: 87}
+      registration: {x: 71.5, y: 69}
+    - composite: {fileID: 21300000, guid: 2f432770fa798ac48bdd46f18253c633, type: 3}
+      body: {fileID: 21300000, guid: ec51c0b1bcab2bf4fb814bbcfe0f0f33, type: 3}
+      upper: {fileID: 21300000, guid: b81edbea2e030db4286a69933caa7a6c, type: 3}
+      duration: 0.17
+      muzzle: {x: 91, y: 85}
+      registration: {x: 66, y: 66}
+    - composite: {fileID: 21300000, guid: cef68b15845b7194ea4e8e630c566a2b, type: 3}
+      body: {fileID: 21300000, guid: e5b43e526a08e1c49ba1cfb579d5a047, type: 3}
+      upper: {fileID: 21300000, guid: 7b6de57e0a4f8354dbf316839ca25033, type: 3}
+      duration: 0.17
+      muzzle: {x: 96, y: 68}
+      registration: {x: 52, y: 44}

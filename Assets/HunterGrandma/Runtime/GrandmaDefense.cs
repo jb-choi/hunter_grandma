@@ -35,6 +35,7 @@ namespace HunterGrandma
         private float spawnTimer, fireTimer, phaseTime, previousTimeScale = 1f, hitStopUntil, nextSave;
         private int waveSpawned;
         private bool initialized, dirty, cartLoaded;
+        private GrandmaShadowSkill shadowSkill;
         private Vector3 loadingBossStart;
 
         public DefenseProgress Progress { get; private set; }
@@ -53,6 +54,11 @@ namespace HunterGrandma
         public int DefenseHealth { get; private set; }
         public int WaveNumber { get; private set; }
         public bool IsPaused { get; private set; }
+        public bool IsSkillActive => shadowSkill != null && shadowSkill.IsActive;
+        public float SkillCooldownRemaining => shadowSkill != null ? shadowSkill.CooldownRemaining : GrandmaShadowSkill.Interval;
+        public int SkillShots => shadowSkill != null ? shadowSkill.Shots : 0;
+        public int SkillActivations => shadowSkill != null ? shadowSkill.Activations : 0;
+        public bool IsCombatPhase => Phase == DefensePhase.Waves || Phase == DefensePhase.BossFight;
         public bool SaveWarning { get; private set; }
         public bool IsCaptureSequence => Phase == DefensePhase.Subdued || Phase == DefensePhase.LoadingCart || Phase == DefensePhase.Returning;
         public bool IsOpening => Phase == DefensePhase.Opening;
@@ -66,6 +72,7 @@ namespace HunterGrandma
         public float DefenseLine => GrandmaX + 1.2f;
         public float GrandmaX => grandma.FootPosition.x;
         public Vector2 GrandmaFootPosition => grandma.FootPosition;
+        public Sprite GrandmaPortrait => grandma.IdleSprite;
         // Retained as the legacy default lane; active actors use their own foot depth.
         public float GroundY => groundY;
         public float WaveAnchor => (WaveNumber - 1) * 10f;
@@ -74,9 +81,9 @@ namespace HunterGrandma
         public Sprite ShadowSprite => beltView.ShadowSprite;
         public float ShootingRange => shootingRange;
         public bool AutoExplore { get; private set; } = true;
-        public bool CanMoveOnBelt => !IsPaused && (Phase == DefensePhase.Waves || Phase == DefensePhase.WaveBreak || Phase == DefensePhase.BossArrival || Phase == DefensePhase.BossFight);
+        public bool CanMoveOnBelt => !IsPaused && !IsSkillActive && (Phase == DefensePhase.Waves || Phase == DefensePhase.WaveBreak || Phase == DefensePhase.BossArrival || Phase == DefensePhase.BossFight);
         public float CameraFocusX => Phase == DefensePhase.LoadingCart || Phase == DefensePhase.Subdued ? Boss.transform.position.x - 2f : Phase == DefensePhase.Returning ? cart.position.x : GrandmaX;
-        public float CombatDeltaTime => IsPaused || IsOpening || Time.unscaledTime < hitStopUntil ? 0f : Time.deltaTime;
+        public float CombatDeltaTime => IsPaused || IsOpening || IsSkillActive || (shadowSkill != null && shadowSkill.OwnsFrame) || Time.unscaledTime < hitStopUntil ? 0f : Time.deltaTime;
         public float ReturnFade => Phase == DefensePhase.Returning ? Mathf.Clamp01(1f - Mathf.Abs(phaseTime - 3.5f) / 0.6f) : 0f;
         public int PoolSize => zombies.Count;
         public int ActiveZombieCount
@@ -88,6 +95,7 @@ namespace HunterGrandma
             get
             {
                 if (IsPaused) return "잠시 쉬는 중";
+                if (IsSkillActive) return "할매의 밤마실 · " + SkillShots + " / 5";
                 switch (Phase)
                 {
                     case DefensePhase.Opening: return OpeningCaption;
@@ -127,6 +135,7 @@ namespace HunterGrandma
             worldCamera=Camera.main;
             beltView.transform.SetParent(transform, false); beltView.Initialize(this, worldCamera, beltBackdrop, pixel.sprite, pixel.sharedMaterial);
             grandma.InitializeBelt(this, ShadowSprite);
+            shadowSkill = new GrandmaShadowSkill(this, grandma, worldCamera, pixel.sprite, ShadowSprite);
             if (houseTeaSprite != null && houseChairSprite != null)
                 houseOpening = StageZeroOpeningView.Create(transform, houseTeaSprite, houseChairSprite, grandma.IdleSprite, zombiePrefab.WalkFrames, pixel.sprite, pixel.sharedMaterial, true);
             scenery = new GameObject("Stage scenery", typeof(DefenseScenery)).GetComponent<DefenseScenery>();
@@ -154,6 +163,7 @@ namespace HunterGrandma
         { if (initialized && CurrentStageId == 0 && !IsCaptureSequence) { houseOpeningSeen = false; StartStage(0); } }
         private void StartStage(int id)
         {
+            shadowSkill?.Reset();
             if (Run != null && !Run.Settled) Run.Abandon();
             bool keepPaused = IsPaused;
             foreach (ShotTracer tracer in tracers) tracer.Cancel();
@@ -239,6 +249,9 @@ namespace HunterGrandma
                 if (houseOpening.Age >= StageZeroOpeningView.Duration) SkipStageOpening();
                 return;
             }
+            shadowSkill.Advance(IsPaused || Time.unscaledTime < hitStopUntil ? 0 : Time.deltaTime);
+            // Keep every actor frozen for the frame in which the last skill beat finishes.
+            if (shadowSkill.OwnsFrame) return;
             float dt = CombatDeltaTime; if (dt <= 0f) return;
             if (houseOpening != null && houseOpening.gameObject.activeSelf) houseOpening.AdvanceFence(dt);
             UpdateMovement(dt);
@@ -265,26 +278,34 @@ namespace HunterGrandma
             }
             else if (Phase == DefensePhase.LoadingCart) UpdateLoading();
             else if (Phase == DefensePhase.Returning) UpdateReturn();
-            if ((Phase == DefensePhase.Waves || Phase == DefensePhase.BossFight) && fireTimer <= 0f) TryFire();
+            bool fighting = Phase == DefensePhase.Waves || Phase == DefensePhase.BossFight;
+            grandma.SetCombatTarget(fighting ? FindShotTarget(true) : null, fireTimer);
+            if (fighting && fireTimer <= 0f) TryFire();
         }
-        private void TryFire()
+        private DefenseTarget FindShotTarget(bool includeReserved)
         {
             DefenseTarget target = null; float distance = float.MaxValue;
             foreach (ZombieActor zombie in zombies)
             {
                 float range = Mathf.Abs(zombie.transform.position.x - GrandmaX);
-                if (!zombie.IsAlive || zombie.HasIncomingShot || range >= distance || !CanShoot(zombie)) continue;
+                if (!zombie.IsAlive || (!includeReserved && zombie.HasIncomingShot) || range >= distance || !CanShoot(zombie)) continue;
                 target = zombie; distance = range;
             }
-            if (Boss.IsAlive && !Boss.HasIncomingShot && CanShoot(Boss))
+            if (Boss.IsAlive && (includeReserved || !Boss.HasIncomingShot) && CanShoot(Boss))
                 target = target ?? Boss;
+            return target;
+        }
+        private void TryFire()
+        {
+            DefenseTarget target = FindShotTarget(false);
             if (target == null) return;
             foreach (ShotTracer tracer in tracers)
             {
                 if (tracer.IsFlying || !target.ReserveShot()) continue;
                 grandma.FaceTarget(target.transform.position.x);
+                grandma.Fire();
                 tracer.Launch(grandma.MuzzlePosition, target, this, Progress.Damage);
-                grandma.Fire(); ShotsFired++; fireTimer = Progress.FireInterval; return;
+                ShotsFired++; fireTimer = Progress.FireInterval; return;
             }
         }
         private bool CanShoot(DefenseTarget target)
@@ -331,13 +352,14 @@ namespace HunterGrandma
                 input.y=(keyboard.wKey.isPressed||keyboard.upArrowKey.isPressed?1:0)-(keyboard.sKey.isPressed||keyboard.downArrowKey.isPressed?1:0);
             }
             Vector2 position=GrandmaFootPosition, next=position;
-            if(input.sqrMagnitude>.01f){manualOverride=1.1f;next=MoveActor(position,Vector2.ClampMagnitude(input,1f)*3.6f*dt);}
+            if(input.sqrMagnitude>.01f){grandma.InterruptCollect();manualOverride=1.1f;next=MoveActor(position,Vector2.ClampMagnitude(input,1f)*3.6f*dt);}
             else
             {
                 manualOverride=Mathf.Max(0,manualOverride-dt);
                 if(AutoExplore&&manualOverride<=0)
                 {
                     DefenseTarget target=NearestTarget();Vector2 goal=position;
+                    if (target == null && grandma.TryCollect()) { grandma.MoveOnBelt(position); return; }
                     if(target!=null)
                     {
                         Vector2 foot=target.transform.position;float sign=foot.x<position.x?-1f:1f;float range=Mathf.Abs(foot.x-position.x);
@@ -358,11 +380,13 @@ namespace HunterGrandma
             KillCount++; Progress.AddGold(gold); Run.AddGold(gold); dirty = true;
             hitStopUntil = Time.unscaledTime + 0.025f;
             hud?.ShowResourceGain(gold, position);
+            if (gold > 0) grandma.QueueCollect();
         }
         public void RegisterKill() { OnZombieKilled(CurrentStage.GoldPerKill, grandma.MuzzlePosition); }
         public void RegisterBreach() { BreachCount++; DamageDefense(4); }
         public void DamageDefense(int damage)
         {
+            if (IsSkillActive) return;
             if (IsOpening || IsCaptureSequence || Phase == DefensePhase.Clear || Phase == DefensePhase.Failed || Phase == DefensePhase.Retreated) return;
             DefenseHealth = Mathf.Max(0, DefenseHealth - damage);
             if (DefenseHealth > 0) return;
@@ -419,6 +443,8 @@ namespace HunterGrandma
         private void SetPhase(DefensePhase phase) { Phase = phase; phaseTime = 0f; }
         private void StopActors()
         {
+            shadowSkill?.Cancel();
+            grandma.StopCombatPresentation();
             foreach (ShotTracer tracer in tracers) tracer.Cancel();
             foreach (ZombieActor zombie in zombies) zombie.Despawn();
             Boss.Despawn();
@@ -432,8 +458,36 @@ namespace HunterGrandma
         private void OnApplicationQuit() { SaveNow(); }
         private void OnDisable()
         {
+            shadowSkill?.Cancel();
             if (initialized) SaveNow();
             if (IsPaused) { Time.timeScale = previousTimeScale; IsPaused = false; }
+        }
+        private void OnDestroy() { shadowSkill?.Dispose(); }
+
+        public void SetShadowSkillEnabled(bool enabled)
+        {
+            if (Progress == null) return;
+            Progress.SetShadowSkillEnabled(enabled);
+            shadowSkill?.Reset(); dirty = true; SaveNow();
+        }
+        internal int CollectSkillTargets(List<ZombieActor> targets, Camera camera, float facing)
+        {
+            targets.Clear();
+            foreach (ZombieActor zombie in zombies)
+            {
+                if (!zombie.IsAlive || (zombie.transform.position.x - GrandmaX) * facing < 0) continue;
+                Vector3 viewport = camera.WorldToViewportPoint(zombie.HitPoint);
+                if (viewport.z > 0 && viewport.x > .07f && viewport.x < .93f && viewport.y > .1f && viewport.y < .9f && TrySkillFoot(zombie, out _)) targets.Add(zombie);
+            }
+            Vector2 origin = GrandmaFootPosition;
+            targets.Sort((a, b) => ((Vector2)a.transform.position - origin).sqrMagnitude.CompareTo(((Vector2)b.transform.position - origin).sqrMagnitude));
+            return targets.Count;
+        }
+        internal bool TrySkillFoot(ZombieActor zombie, out Vector2 position)
+        {
+            Vector2 foot = zombie.transform.position;
+            position = FreeFootPosition(foot - Vector2.right * zombie.FacingDirection * 1.35f);
+            return Mathf.Abs(position.y - foot.y) <= .05f && (position.x - foot.x) * zombie.FacingDirection <= -.4f;
         }
     }
 }

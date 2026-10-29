@@ -40,7 +40,12 @@ namespace HunterGrandma.Editor
             File.Delete(path);
             if (command == "validate" || command == "validate-map" || command == "validate-stage" || command=="validate-belt") GrandmaStageValidation.Begin();
             else if (command == "validate-ui") GrandmaUiValidation.Begin();
+            else if (command == "validate-upgrades") GrandmaUiValidation.BeginUpgradeConnection();
             else if (command == "validate-opening") GrandmaOpeningValidation.Begin();
+            else if (command == "validate-animation") SundeokAnimationValidation.Begin();
+            else if (command == "validate-skill") GrandmaShadowSkillValidation.Begin();
+            else if (command == "investigate-skill") GrandmaSkillInvestigation.Begin(false);
+            else if (command == "demo-skill") GrandmaSkillInvestigation.Begin(true);
             else if (command == "configure-stage") GrandmaStageSetup.Configure();
             else if (command == "open" && !EditorApplication.isPlayingOrWillChangePlaymode) EditorSceneManager.OpenScene(ScenePath);
             else if (command == "play" && !EditorApplication.isPlayingOrWillChangePlaymode)

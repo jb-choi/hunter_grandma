@@ -1,6 +1,6 @@
 # 2D belt-scroll implementation validation
 
-Unity 6000.3.10f1 · 2026-10-28 01:38
+Unity 6000.3.10f1 · 2026-10-29 16:16
 
 Status: PASS
 
@@ -163,11 +163,11 @@ Isolated save: `Library/BeltScroll-validation.json`. The player profile is never
 - PASS: Retry resets the encounter while keeping permanent progress
 - PASS: No runtime errors, exceptions, or assertions during the complete stage suite
 
-- Stage 0: 45.6 simulated seconds, 14 kills, 23 shots, 0 breaches, 92 HP, boss attacks 2
+- Stage 0: 46.1 simulated seconds, 14 kills, 23 shots, 0 breaches, 92 HP, boss attacks 2
 - Stage 1: 63.6 simulated seconds, 30 kills, 61 shots, 0 breaches, 90 HP, boss attacks 1
-- Stage 2: 60.2 simulated seconds, 30 kills, 60 shots, 0 breaches, 100 HP, boss attacks 1
-- Stage 3: 70.1 simulated seconds, 36 kills, 58 shots, 0 breaches, 100 HP, boss attacks 1
-- Stage 4: 76.5 simulated seconds, 36 kills, 48 shots, 0 breaches, 84 HP, boss attacks 1
-- Stage 5: 74.7 simulated seconds, 44 kills, 87 shots, 0 breaches, 82 HP, boss attacks 1
-- Stage 6: 79.6 simulated seconds, 49 kills, 74 shots, 0 breaches, 100 HP, boss attacks 1
-- Stage 0: 35.8 simulated seconds, 14 kills, 17 shots, 0 breaches, 100 HP, boss attacks 0
+- Stage 2: 60.9 simulated seconds, 30 kills, 61 shots, 0 breaches, 100 HP, boss attacks 2
+- Stage 3: 70.2 simulated seconds, 36 kills, 58 shots, 0 breaches, 100 HP, boss attacks 1
+- Stage 4: 76.2 simulated seconds, 36 kills, 48 shots, 0 breaches, 84 HP, boss attacks 1
+- Stage 5: 70.6 simulated seconds, 44 kills, 86 shots, 0 breaches, 82 HP, boss attacks 1
+- Stage 6: 79.7 simulated seconds, 49 kills, 73 shots, 0 breaches, 100 HP, boss attacks 1
+- Stage 0: 36.4 simulated seconds, 14 kills, 17 shots, 0 breaches, 100 HP, boss attacks 0

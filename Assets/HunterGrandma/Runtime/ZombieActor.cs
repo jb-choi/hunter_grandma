@@ -27,6 +27,8 @@ namespace HunterGrandma
         public override bool IsAlive => alive && gameObject.activeSelf;
         public override Vector3 HitPoint => transform.position + Vector3.up * (1.68f * size);
         public int Health => health;
+        public float FacingDirection => direction;
+        public Vector3 HeadPoint => visual == null ? HitPoint : new Vector3(visual.Body.bounds.center.x, visual.Body.bounds.max.y - visual.Body.bounds.size.y * .18f, transform.position.z);
         public bool IsMelting => gameObject.activeSelf && !alive;
         public void Configure(Sprite[] frames) { walkFrames = frames; }
         private void Awake() { spriteRenderer = GetComponent<SpriteRenderer>(); }

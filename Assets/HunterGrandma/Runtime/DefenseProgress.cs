@@ -19,6 +19,7 @@ namespace HunterGrandma
     {
         public int version = 1;
         public int gold, attackLevel, fireRateLevel;
+        public bool shadowSkillEnabled;
         public List<DistrictProgress> stages = new List<DistrictProgress>();
         public List<DefenseCaptive> captives = new List<DefenseCaptive>();
     }
@@ -46,6 +47,8 @@ namespace HunterGrandma
         public int Gold => data.gold;
         public int AttackLevel => data.attackLevel;
         public int FireRateLevel => data.fireRateLevel;
+        public bool ShadowSkillEnabled => data.shadowSkillEnabled;
+        public void SetShadowSkillEnabled(bool enabled) { data.shadowSkillEnabled = enabled; }
         public int Damage => DamageAtLevel(AttackLevel);
         public float FireInterval => IntervalAtLevel(FireRateLevel);
         public int NextDamage => DamageAtLevel(Math.Min(30, AttackLevel + 1));

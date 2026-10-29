@@ -12,31 +12,34 @@ namespace HunterGrandma
         [SerializeField] private Sprite cityMap;
         [SerializeField] private Font font;
         [SerializeField] private Sprite resourcePlaceholder, attackPlaceholder, ratePlaceholder, upgradePlaceholder;
-        private Text heading, stageLabel, gold, status, pauseLabel, attackLabel, rateLabel, bossLabel, resultTitle, resultBody, saveWarning;
+        [SerializeField] private Sprite[] upgradePortraits, upgradeLockedPortraits;
+        private Text heading, stageLabel, gold, status, pauseLabel, bossLabel, resultTitle, resultBody, saveWarning;
         private Image bossFill, fade;
         private GameObject bossPanel, resultPanel;
-        private Button attackButton, rateButton, mapButton, retryButton, retreatButton, upgradeToggleButton;
+        private Button mapButton, retryButton, retreatButton, upgradeToggleButton;
         private DefenseMapView mapView;
+        private DefenseUpgradeView upgradeView;
         private DefenseUiBuilder ui;
         private float nextRefresh;
-        private Text gainFeedback, purchaseFeedback;
-        private GameObject upgradePanel;
+        private Text gainFeedback;
         private RectTransform canvasRoot, resourceTarget;
         private Camera worldCamera;
         private readonly ResourceFlight[] flights = new ResourceFlight[12];
-        private float gainUntil, purchaseUntil;
+        private float gainUntil;
         private int pendingGain;
         private Vector2 lastCanvasSize;
         private GameObject battleChrome, openingChrome;
         private Text openingCaption;
         private sealed class ResourceFlight { public RectTransform Rect; public Vector2 Start; public float Age; public bool Active; }
         public bool IsMapOpen => mapView != null && mapView.IsOpen;
-        public bool IsUpgradeOpen => upgradePanel != null && upgradePanel.activeSelf;
+        public bool IsUpgradeOpen => upgradeView != null && upgradeView.IsOpen;
+        public bool IsUpgradeDetailOpen => upgradeView != null && upgradeView.IsDetailOpen;
         public void Configure(GrandmaDefense owner, Font uiFont) { encounter = owner; font = uiFont; }
         public void ConfigureMap(Sprite map) { cityMap = map; }
         public void RefreshMapLayout()
         {
             mapView?.RefreshLayout();
+            upgradeView?.RefreshLayout();
             if (canvasRoot == null || canvasRoot.rect.size == lastCanvasSize) return;
             lastCanvasSize = canvasRoot.rect.size;
             status.rectTransform.sizeDelta = new Vector2(lastCanvasSize.x - 60, 29);
@@ -55,6 +58,7 @@ namespace HunterGrandma
             BuildBattleHud(battleChrome.transform, cream, muted);
             BuildResourceFlights(battleChrome.transform);
             mapView = new DefenseMapView(canvasRoot, ui, cityMap, encounter);
+            upgradeView = new DefenseUpgradeView(canvasRoot, ui, encounter, upgradePortraits, upgradeLockedPortraits, encounter.GrandmaPortrait, attackPlaceholder, ratePlaceholder, RefreshPresentation);
             if (FindFirstObjectByType<EventSystem>() == null)
                 new GameObject("UI EventSystem", typeof(EventSystem), typeof(InputSystemUIInputModule)).transform.SetParent(transform, false);
             BuildOpeningHud(canvasRoot, cream, muted);
@@ -80,7 +84,6 @@ namespace HunterGrandma
             resourceTarget = ReferenceImage(root, "Resource reference", resourcePlaceholder, "재화-01", new Vector2(-468, -19), 58, true);
             gold = ui.TextAt(root, "", 24, new Vector2(-395, -17), new Vector2(367, 35), cream, true);
             gainFeedback = ui.TextAt(root, "", 19, new Vector2(-395, -56), new Vector2(367, 28), new Color(.91f, .87f, .57f), true);
-            BuildUpgradePanel(root, cream, muted);
             bossPanel = ui.Panel(root, "Boss health panel", new Vector2(.5f, 1), new Vector2(.5f, 1), new Vector2(-275, -144), new Vector2(275, -100), new Color(.10f, .07f, .13f, .92f));
             bossLabel = ui.TextAt(bossPanel.transform, "", 14, new Vector2(18, -5), new Vector2(516, 22), cream);
             GameObject track = ui.Panel(bossPanel.transform, "Boss health track", Vector2.zero, Vector2.right, new Vector2(18, 8), new Vector2(-18, 15), new Color(.25f, .23f, .28f));
@@ -107,7 +110,6 @@ namespace HunterGrandma
             ui.MakeButton(resultPanel.transform, "지도 · 다음 구역", new Vector2(231, 23), new Vector2(206, 48), ToggleMap);
             resultPanel.SetActive(false);
             saveWarning = ui.TextAt(root, "", 13, new Vector2(32, -246), new Vector2(680, 26), new Color(1f, .75f, .45f));
-            upgradePanel.transform.SetAsLastSibling();
         }
 
         private void BuildResourceFlights(Transform root)
@@ -150,6 +152,7 @@ namespace HunterGrandma
                 }
             }
             mapView.RefreshLayout();
+            upgradeView.RefreshLayout();
             UpdateFeedback();
             if (Time.unscaledTime < nextRefresh) return;
             nextRefresh = Time.unscaledTime + .1f;
@@ -169,10 +172,7 @@ namespace HunterGrandma
             stageLabel.text = "STAGE " + encounter.CurrentStageId + "  /  " + encounter.LocationName + "  ·  " + (encounter.AutoExplore?"자동 탐색 ON":"직접 이동");
             gold.text = "(미정)재화  " + p.Gold;
             if (Time.unscaledTime >= gainUntil) gainFeedback.text = "이번 사냥 +" + encounter.Run.EarnedGold;
-            attackLabel.text = "항목 01 · 임시 공격력 / Lv." + p.AttackLevel + "\n" + p.Damage + (p.AttackLevel >= 30 ? " · 최대 강화" : " → " + p.NextDamage + "\n비용 " + p.AttackCost + (p.Gold < p.AttackCost ? " · 재화 부족" : " · 강화 가능"));
-            rateLabel.text = "항목 02 · 임시 발사 간격 / Lv." + p.FireRateLevel + "\n" + p.FireInterval.ToString("F2") + (p.FireRateLevel >= 15 ? "초 · 최대 강화" : " → " + p.NextFireInterval.ToString("F2") + "초\n비용 " + p.FireRateCost + (p.Gold < p.FireRateCost ? " · 재화 부족" : " · 강화 가능"));
-            attackButton.interactable = p.Gold >= p.AttackCost && p.AttackLevel < 30;
-            rateButton.interactable = p.Gold >= p.FireRateCost && p.FireRateLevel < 15;
+            upgradeView.Refresh();
             status.text = "● " + encounter.StateText + "   ·   체력 " + encounter.DefenseHealth + "   ·   처치 " + encounter.KillCount + "   ·   포획 " + p.CaptiveCount;
             pauseLabel.text = encounter.IsPaused ? "계속하기" : "쉬기";
             mapButton.interactable = encounter.CanOpenMap; retryButton.interactable = !encounter.IsCaptureSequence;
@@ -205,36 +205,13 @@ namespace HunterGrandma
             }
             saveWarning.text = encounter.SaveWarning ? "저장에 실패했습니다. 잠시 후 자동으로 다시 시도합니다." : "";
         }
-        private void BuildUpgradePanel(Transform root, Color cream, Color muted)
-        {
-            upgradePanel = ui.Panel(root, "Upgrade panel", Vector2.one, Vector2.one, new Vector2(-520, -450), new Vector2(-28, -110), new Color(.06f, .10f, .12f, .98f));
-            upgradePanel.GetComponent<Image>().raycastTarget = true;
-            ui.TextAt(upgradePanel.transform, "(미정)강화 항목", 26, new Vector2(18, -12), new Vector2(375, 37), cream);
-            ui.TextAt(upgradePanel.transform, "기존 샷건 성능 예시 · 발사 간격은 짧을수록 빠름", 16, new Vector2(19, -53), new Vector2(458, 27), muted);
-            ui.MakeButton(upgradePanel.transform, "Close upgrades", new Vector2(-78, -46), new Vector2(60, 30), CloseUpgrade, true, true).text = "닫기";
-            attackLabel = ui.MakeButton(upgradePanel.transform, "Attack upgrade", new Vector2(18, 151), new Vector2(456, 95), () => Purchase(false));
-            rateLabel = ui.MakeButton(upgradePanel.transform, "Fire rate upgrade", new Vector2(18, 44), new Vector2(456, 95), () => Purchase(true));
-            foreach (Text label in new[] { attackLabel, rateLabel })
-            { label.fontSize = 20; label.alignment = TextAnchor.MiddleLeft; label.rectTransform.offsetMin = new Vector2(88, 3); }
-            attackButton = attackLabel.GetComponentInParent<Button>(); rateButton = rateLabel.GetComponentInParent<Button>();
-            ReferenceImage(attackButton.transform, "Attack reference", attackPlaceholder, "항목-01", new Vector2(10, -14), 64);
-            ReferenceImage(rateButton.transform, "Rate reference", ratePlaceholder, "항목-02", new Vector2(10, -14), 64);
-            purchaseFeedback = ui.TextAt(upgradePanel.transform, "사냥을 계속하며 강화할 수 있습니다.", 16, new Vector2(18, 9), new Vector2(456, 27), muted, false, true);
-            upgradePanel.SetActive(false);
-        }
         public void ToggleUpgrade()
         {
             if (IsMapOpen || encounter.Progress == null || encounter.IsOpening || encounter.IsCaptureSequence || encounter.Phase == DefensePhase.Clear || encounter.Phase == DefensePhase.Failed || encounter.Phase == DefensePhase.Retreated) return;
-            upgradePanel.SetActive(!IsUpgradeOpen); RefreshPresentation();
+            upgradeView.Toggle(); RefreshPresentation();
         }
-        private void CloseUpgrade() { upgradePanel.SetActive(false); }
+        private void CloseUpgrade() { upgradeView?.Close(); }
         private void ToggleMap() { CloseUpgrade(); mapView.Toggle(); }
-        private void Purchase(bool rate)
-        {
-            bool bought = rate ? encounter.TryUpgradeFireRate() : encounter.TryUpgradeAttack();
-            if (bought) { purchaseFeedback.text = "강화 완료 · 임시 성능에 적용했습니다."; purchaseUntil = Time.unscaledTime + 2f; }
-            RefreshPresentation();
-        }
         public void ShowResourceGain(int amount, Vector3 worldPosition)
         {
             if (amount <= 0) return;
@@ -252,12 +229,12 @@ namespace HunterGrandma
         public void ResetRunFeedback()
         {
             pendingGain = 0; gainUntil = 0;
+            CloseUpgrade();
             foreach (ResourceFlight flight in flights) { flight.Active = false; flight.Rect.gameObject.SetActive(false); }
         }
         private void UpdateFeedback()
         {
             if (Time.unscaledTime >= gainUntil) gold.color = new Color(1f, .94f, .80f);
-            if (purchaseUntil > 0 && Time.unscaledTime >= purchaseUntil) { purchaseFeedback.text = "사냥을 계속하며 강화할 수 있습니다."; purchaseUntil = 0; }
             Vector2 destination = canvasRoot.InverseTransformPoint(resourceTarget.position);
             foreach (ResourceFlight flight in flights)
             {
@@ -277,6 +254,6 @@ namespace HunterGrandma
             label.alignment = TextAnchor.MiddleCenter; label.gameObject.AddComponent<Shadow>().effectColor = Color.black;
             return obj.GetComponent<RectTransform>();
         }
-        private void OnDisable() { mapView?.Close(); if (upgradePanel != null) CloseUpgrade(); }
+        private void OnDisable() { mapView?.Close(); CloseUpgrade(); }
     }
 }

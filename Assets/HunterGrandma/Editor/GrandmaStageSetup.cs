@@ -34,10 +34,19 @@ namespace HunterGrandma.Editor
             const string openingArt = "Assets/HunterGrandma/Art/Stage0/";
             Sprite tea = File.Exists(openingArt + "sundeok_tea.png") ? Import(openingArt + "sundeok_tea.png", new Vector2(.5f, 3f / 64f), 16f) : null;
             Sprite chair = File.Exists(openingArt + "sundeok_chair.png") ? Import(openingArt + "sundeok_chair.png", new Vector2(.5f, 3f / 64f), 16f) : null;
+            Sprite[] portraits = ImportGrandmaPortraits(false), lockedPortraits = ImportGrandmaPortraits(true);
+            SundeokAnimationSet animationSet = SundeokAnimationSetup.Configure();
             Scene scene = SceneManager.GetSceneByPath(GrandmaProjectSetup.ScenePath);
             bool opened = !scene.isLoaded;
             if (opened) scene = EditorSceneManager.OpenScene(GrandmaProjectSetup.ScenePath, OpenSceneMode.Additive);
             bool wasDirty = scene.isDirty, changed = false;
+            if (animationSet != null)
+                foreach (GrandmaShooter shooter in scene.GetRootGameObjects().SelectMany(r => r.GetComponentsInChildren<GrandmaShooter>(true)))
+                {
+                    var actor = new SerializedObject(shooter);
+                    if (actor.FindProperty("animationSet").objectReferenceValue != animationSet)
+                    { actor.FindProperty("animationSet").objectReferenceValue = animationSet; actor.ApplyModifiedPropertiesWithoutUndo(); changed = true; }
+                }
             foreach (GrandmaDefense encounter in scene.GetRootGameObjects().SelectMany(r => r.GetComponentsInChildren<GrandmaDefense>(true)))
             {
                 var serialized = new SerializedObject(encounter);
@@ -79,6 +88,13 @@ namespace HunterGrandma.Editor
             foreach (DefenseHud hud in scene.GetRootGameObjects().SelectMany(r => r.GetComponentsInChildren<DefenseHud>(true)))
             {
                 var ui = new SerializedObject(hud);
+                foreach (var roster in new[] { ("upgradePortraits", portraits), ("upgradeLockedPortraits", lockedPortraits) })
+                {
+                    SerializedProperty images = ui.FindProperty(roster.Item1);
+                    if (images.arraySize != roster.Item2.Length) { images.arraySize = roster.Item2.Length; changed = true; }
+                    for (int i = 0; i < roster.Item2.Length; i++)
+                        if (images.GetArrayElementAtIndex(i).objectReferenceValue != roster.Item2[i]) { images.GetArrayElementAtIndex(i).objectReferenceValue = roster.Item2[i]; changed = true; }
+                }
                 foreach (var binding in new[] { ("resourcePlaceholder", "resource-01"), ("attackPlaceholder", "attack-01"), ("ratePlaceholder", "rate-01"), ("upgradePlaceholder", "upgrade-01") })
                 {
                     string path = "Assets/HunterGrandma/Art/UI/Placeholders/" + binding.Item2 + ".png";
@@ -91,6 +107,23 @@ namespace HunterGrandma.Editor
             }
             if (changed) { EditorSceneManager.MarkSceneDirty(scene); if (!wasDirty || opened) EditorSceneManager.SaveScene(scene); }
             if (opened) EditorSceneManager.CloseScene(scene, true);
+        }
+        private static Sprite[] ImportGrandmaPortraits(bool locked)
+        {
+            const string source = "Assets/Artsource/Drafts/GrandmaShooter64/v002/Export/", destination = "Assets/HunterGrandma/Art/UI/GrandmaPortraits/";
+            string[] names = { "grandma_04_sundeok", "grandma_05_flamethrower", "grandma_06_machinegun", "grandma_07_sniper", "grandma_08_motorcycle" };
+            var result = new Sprite[names.Length]; Directory.CreateDirectory(destination);
+            for (int i = 0; i < names.Length; i++)
+            {
+                if (locked && i == 0) continue;
+                string original = source + names[i] + (locked ? "_silhouette.png" : "_no_fx.png");
+                if (!File.Exists(original)) continue;
+                string path = destination + names[i] + (locked ? "_locked.png" : ".png");
+                byte[] pixels = File.ReadAllBytes(original);
+                if (!File.Exists(path) || !pixels.SequenceEqual(File.ReadAllBytes(path))) File.WriteAllBytes(path, pixels);
+                result[i] = Import(path, Vector2.one * .5f, 16f);
+            }
+            return result;
         }
         private static GameObject CreateBeltPreview(GrandmaDefense encounter, SpriteRenderer backdrop, SerializedObject state)
         {

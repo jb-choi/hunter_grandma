@@ -1,0 +1,32 @@
+[
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Scenes\\GrandmaDefense.unity",
+    "Before": "E7FED403E5EB657DC2850377E2B70C073345032D5C2BCBE97AA3F1597F767143",
+    "After": "E7FED403E5EB657DC2850377E2B70C073345032D5C2BCBE97AA3F1597F767143",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Packages\\manifest.json",
+    "Before": "EADB2409E74E98314259257A36E15BE39D62670F2C8E7B3DCD6FE80EB6388242",
+    "After": "EADB2409E74E98314259257A36E15BE39D62670F2C8E7B3DCD6FE80EB6388242",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\ProjectSettings.asset",
+    "Before": "51CC2ECE34ADA65AE535FF1B315B6B7A49C10CFF83D7F0049CE99524B2E3DFC1",
+    "After": "51CC2ECE34ADA65AE535FF1B315B6B7A49C10CFF83D7F0049CE99524B2E3DFC1",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\EditorBuildSettings.asset",
+    "Before": "F740E5E08068D756B1838E970176A1BC95003D1B2A75CDB5556353742BE25153",
+    "After": "F740E5E08068D756B1838E970176A1BC95003D1B2A75CDB5556353742BE25153",
+    "Unchanged": true
+  },
+  {
+    "Path": "C:\\Users\\Junbeom_Choi\\AppData\\LocalLow\\DefaultCompany\\Hunter_grandma\\HunterGrandma\\stage-progress-v1.json",
+    "Before": "7F33B71172D35757FAA73FFD861569D30609173D4EA176B8A9798ECD13AA16E6",
+    "After": "7F33B71172D35757FAA73FFD861569D30609173D4EA176B8A9798ECD13AA16E6",
+    "Unchanged": true
+  }
+]

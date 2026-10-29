@@ -1,0 +1,296 @@
+[
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\grandma_01_sundeok_120.aseprite",
+    "Before": "791A4674097B0ED5DF8498832F4C1366DBCC56408749491BF587EA2D0E389E5E",
+    "After": "791A4674097B0ED5DF8498832F4C1366DBCC56408749491BF587EA2D0E389E5E",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\sundeok_walk_aim_fire_demo.aseprite",
+    "Before": "3F14EC425882518A9F85B86F65A50C834326C07E014CAF8DFC80FA0E95634185",
+    "After": "3F14EC425882518A9F85B86F65A50C834326C07E014CAF8DFC80FA0E95634185",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Clips\\sundeok_aim.aseprite",
+    "Before": "6B57814DD4CA83B3301DCEF6440B50E72299DD97428EB9F685770A51C38A6C85",
+    "After": "6B57814DD4CA83B3301DCEF6440B50E72299DD97428EB9F685770A51C38A6C85",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Clips\\sundeok_collect.aseprite",
+    "Before": "D9F7B2740F0BD822A1624483C0F482F5678F034ECBF2A3BBF6E7FD6C5DAFC13A",
+    "After": "D9F7B2740F0BD822A1624483C0F482F5678F034ECBF2A3BBF6E7FD6C5DAFC13A",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Clips\\sundeok_fire.aseprite",
+    "Before": "36EF7014EEA6B2D6115447F1A8211DABA39C75F6A61FCEF755ECC44D8CD31089",
+    "After": "36EF7014EEA6B2D6115447F1A8211DABA39C75F6A61FCEF755ECC44D8CD31089",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Clips\\sundeok_idle.aseprite",
+    "Before": "036A12210D32A6FC10B4EB5B9BEBF1CC75E8F54D36AC49BA5AF8DC5E6C52092A",
+    "After": "036A12210D32A6FC10B4EB5B9BEBF1CC75E8F54D36AC49BA5AF8DC5E6C52092A",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Clips\\sundeok_reload.aseprite",
+    "Before": "DECB23203E876305860E9077A2D17F71E3138DC98DBDBF2886EF8E0D7E2EF2FD",
+    "After": "DECB23203E876305860E9077A2D17F71E3138DC98DBDBF2886EF8E0D7E2EF2FD",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Clips\\sundeok_walk.aseprite",
+    "Before": "142C54931371BB76854D4CB8C90638978D6E4F21C45765B7BB6856AB38907A5D",
+    "After": "142C54931371BB76854D4CB8C90638978D6E4F21C45765B7BB6856AB38907A5D",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Parts\\Native\\sundeok_ammo.aseprite",
+    "Before": "DC67534214F7C2F20F2ECDE8BF7B15B9DAD1F57215D25B0C50F4023979CCE85F",
+    "After": "DC67534214F7C2F20F2ECDE8BF7B15B9DAD1F57215D25B0C50F4023979CCE85F",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Parts\\Native\\sundeok_backarm.aseprite",
+    "Before": "D2BFFD514C29B65CFAAA5DE80B6EF9509B4B5A2647B5F22DA05BD262D2FD3D8E",
+    "After": "D2BFFD514C29B65CFAAA5DE80B6EF9509B4B5A2647B5F22DA05BD262D2FD3D8E",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Parts\\Native\\sundeok_body.aseprite",
+    "Before": "66BB9C89F6C17E1EE4903E88597CD4B7D5440C901D33DD97434B3CD13601DD07",
+    "After": "66BB9C89F6C17E1EE4903E88597CD4B7D5440C901D33DD97434B3CD13601DD07",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Parts\\Native\\sundeok_frontarm.aseprite",
+    "Before": "6C9E51BAE1698C46BD400D9238684D5A20ACC550161189EA3B8504E57E9F9B94",
+    "After": "6C9E51BAE1698C46BD400D9238684D5A20ACC550161189EA3B8504E57E9F9B94",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Parts\\Native\\sundeok_fx.aseprite",
+    "Before": "84E724B94A498C8EFBEE65A54053E211ACCA21DA4AD2D6D70F0E4336246636F6",
+    "After": "84E724B94A498C8EFBEE65A54053E211ACCA21DA4AD2D6D70F0E4336246636F6",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Parts\\Native\\sundeok_pickup.aseprite",
+    "Before": "EF2BEA80BBC1B7B1F0BE6D1F474AF399DC1AC92258C0BEFB76CBE009875831EA",
+    "After": "EF2BEA80BBC1B7B1F0BE6D1F474AF399DC1AC92258C0BEFB76CBE009875831EA",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Parts\\Native\\sundeok_weapon.aseprite",
+    "Before": "3A02367928CF5B2FEB531566FAF5163BA1786A14A0086F97C4C4CF7C0E41B72A",
+    "After": "3A02367928CF5B2FEB531566FAF5163BA1786A14A0086F97C4C4CF7C0E41B72A",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Aim\\sundeok_aim_01.png",
+    "Before": "468D5805F7D7A1598A7D6CB8397A23A54F6BB254E2EB10AF20D7179B69DCC0F0",
+    "After": "468D5805F7D7A1598A7D6CB8397A23A54F6BB254E2EB10AF20D7179B69DCC0F0",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Aim\\sundeok_aim_02.png",
+    "Before": "42A670754A9A6E3F204DEF5154D608575D62365B7D753A52A6E8D0BB2A215EF8",
+    "After": "42A670754A9A6E3F204DEF5154D608575D62365B7D753A52A6E8D0BB2A215EF8",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Aim\\sundeok_aim_03.png",
+    "Before": "86369CB4521256801C43627E7FE1BF419DD472A95930796DBBEA3E58D16B3806",
+    "After": "86369CB4521256801C43627E7FE1BF419DD472A95930796DBBEA3E58D16B3806",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Collect\\sundeok_collect_01.png",
+    "Before": "7D77A4A79BD7BDF9C44DB151FFA68EB4E17DA430E2CF838B6156A8808525413C",
+    "After": "7D77A4A79BD7BDF9C44DB151FFA68EB4E17DA430E2CF838B6156A8808525413C",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Collect\\sundeok_collect_02.png",
+    "Before": "86505911542CEF6AB2247A5E79501DB4351AD756F4168C7BDD157025D954DAC6",
+    "After": "86505911542CEF6AB2247A5E79501DB4351AD756F4168C7BDD157025D954DAC6",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Collect\\sundeok_collect_03.png",
+    "Before": "A4A17D255CE12A341A360618D0F8A11CCF2AC0BC1058CEF681FE6BE4ED9D7AFB",
+    "After": "A4A17D255CE12A341A360618D0F8A11CCF2AC0BC1058CEF681FE6BE4ED9D7AFB",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Collect\\sundeok_collect_04.png",
+    "Before": "7BAB792E3D20BF81077FAD3C1E7443E3D06D0D0E851EB74F020F4C4ED1B089A5",
+    "After": "7BAB792E3D20BF81077FAD3C1E7443E3D06D0D0E851EB74F020F4C4ED1B089A5",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Fire\\sundeok_fire_01.png",
+    "Before": "735FA6CD854BA47051CD21FA702103885246E50C9D0F8A28354F3FA50FE5A163",
+    "After": "735FA6CD854BA47051CD21FA702103885246E50C9D0F8A28354F3FA50FE5A163",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Fire\\sundeok_fire_02.png",
+    "Before": "ECB9A8CEA0DD661F502A45F8822CC0426489C25473B23DF4DAD25A2AAD5855B8",
+    "After": "ECB9A8CEA0DD661F502A45F8822CC0426489C25473B23DF4DAD25A2AAD5855B8",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Fire\\sundeok_fire_03.png",
+    "Before": "6B8EA8FB3CFC7280D02AB31BD503ECC909480297DCD37443242E71B6E55FF000",
+    "After": "6B8EA8FB3CFC7280D02AB31BD503ECC909480297DCD37443242E71B6E55FF000",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Fire\\sundeok_fire_04.png",
+    "Before": "D28FC07EF8BF5253FBDF4FC78C5FA903DA5B8E6EB7EA6614D57D5173590A5727",
+    "After": "D28FC07EF8BF5253FBDF4FC78C5FA903DA5B8E6EB7EA6614D57D5173590A5727",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Idle\\sundeok_idle_01.png",
+    "Before": "C09A8245EE4DC61DD6DAB6FBF30C194A4359BAB04956AC70E48FF5BD349D8DB9",
+    "After": "C09A8245EE4DC61DD6DAB6FBF30C194A4359BAB04956AC70E48FF5BD349D8DB9",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Idle\\sundeok_idle_02.png",
+    "Before": "55529F8AC2D95A8C1B13E771B2827079D81AE1CAFE1725BDDA36468A330BE8EF",
+    "After": "55529F8AC2D95A8C1B13E771B2827079D81AE1CAFE1725BDDA36468A330BE8EF",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Idle\\sundeok_idle_03.png",
+    "Before": "5272EB051D6B367126CD45108B83C52C29DEB9ADEB22A0DD9D283917880BF3A4",
+    "After": "5272EB051D6B367126CD45108B83C52C29DEB9ADEB22A0DD9D283917880BF3A4",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Idle\\sundeok_idle_04.png",
+    "Before": "76235520E9E71B7EB8A60278A427447CE0CAE9A2ABE6C8821BE30D4EA228976E",
+    "After": "76235520E9E71B7EB8A60278A427447CE0CAE9A2ABE6C8821BE30D4EA228976E",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Reload\\sundeok_reload_01.png",
+    "Before": "D04CF77997C7BA08024E87020234C5353FFA29EC4E8EF19ECF1C2D1537C024E7",
+    "After": "D04CF77997C7BA08024E87020234C5353FFA29EC4E8EF19ECF1C2D1537C024E7",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Reload\\sundeok_reload_02.png",
+    "Before": "97DA082A552AC3339169C048805210744926609D4F27B748B3DA015868E00E4E",
+    "After": "97DA082A552AC3339169C048805210744926609D4F27B748B3DA015868E00E4E",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Reload\\sundeok_reload_03.png",
+    "Before": "29FA7E3689ED46CB92379129AB6EC33FDDB9889A0A17BA0F31413248F369600A",
+    "After": "29FA7E3689ED46CB92379129AB6EC33FDDB9889A0A17BA0F31413248F369600A",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Reload\\sundeok_reload_04.png",
+    "Before": "9B3B09250D54B637C642556D7AE9E04F2EA12688BD354FA2DFDF4A7A2DD29A8E",
+    "After": "9B3B09250D54B637C642556D7AE9E04F2EA12688BD354FA2DFDF4A7A2DD29A8E",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Reload\\sundeok_reload_05.png",
+    "Before": "91DA73980560752918DDD5CF6F3EC0A11E152DF23F9E631C2417499D900D723A",
+    "After": "91DA73980560752918DDD5CF6F3EC0A11E152DF23F9E631C2417499D900D723A",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Reload\\sundeok_reload_06.png",
+    "Before": "9A678A9DDBABA9BB297F2CB0EBE88C72991E81CBBB9CF4C433FFB2CE18C4F6E3",
+    "After": "9A678A9DDBABA9BB297F2CB0EBE88C72991E81CBBB9CF4C433FFB2CE18C4F6E3",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Walk\\sundeok_walk_01.png",
+    "Before": "4EA6E439E54E26DC5E47D5DD87F49E32678FB997F8840266FC41FEA4AE04F20A",
+    "After": "4EA6E439E54E26DC5E47D5DD87F49E32678FB997F8840266FC41FEA4AE04F20A",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Walk\\sundeok_walk_02.png",
+    "Before": "33EA65D666FFD2CEED14429A6442B2C7A479259EBDC9F35B79315AA25CE173BD",
+    "After": "33EA65D666FFD2CEED14429A6442B2C7A479259EBDC9F35B79315AA25CE173BD",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Walk\\sundeok_walk_03.png",
+    "Before": "69346CE4923024D002AAC67DC993AEB3C6E67D28578768D0385ACA1A48BDFCF5",
+    "After": "69346CE4923024D002AAC67DC993AEB3C6E67D28578768D0385ACA1A48BDFCF5",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Walk\\sundeok_walk_04.png",
+    "Before": "05CD4B26E2C38D3A9B6B307A4DE781786EF44D6BB7DA5A096832A27BCDCD6A88",
+    "After": "05CD4B26E2C38D3A9B6B307A4DE781786EF44D6BB7DA5A096832A27BCDCD6A88",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Walk\\sundeok_walk_05.png",
+    "Before": "774DE0E14F13DC310392ECBBB086FAE53AD798048C2AA91237EC5470270F1039",
+    "After": "774DE0E14F13DC310392ECBBB086FAE53AD798048C2AA91237EC5470270F1039",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Export\\Frames\\Walk\\sundeok_walk_06.png",
+    "Before": "AF77E4DF6241A9CE71E2248126490976E54E37E877E0E08A0044E8036A3D4B77",
+    "After": "AF77E4DF6241A9CE71E2248126490976E54E37E877E0E08A0044E8036A3D4B77",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Source\\pose_metadata.json",
+    "Before": "B1CD3C7EFD0270005DC13D2787E719A47528CB7E8C1BB53EB7A0862847E8976C",
+    "After": "B1CD3C7EFD0270005DC13D2787E719A47528CB7E8C1BB53EB7A0862847E8976C",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Source\\demo_metadata.json",
+    "Before": "6CCE7B872C1FF79D6598CFAE1798F6D56D1C50FF3793A7A5FC09C69B0F2175B7",
+    "After": "6CCE7B872C1FF79D6598CFAE1798F6D56D1C50FF3793A7A5FC09C69B0F2175B7",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\asset_manifest.json",
+    "Before": "89CD7542F7C6CC23EFFB199DDBF46B28A6FA67EBB5ECD06BBA2DF89114587754",
+    "After": "89CD7542F7C6CC23EFFB199DDBF46B28A6FA67EBB5ECD06BBA2DF89114587754",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\ProjectSettings.asset",
+    "Before": "51CC2ECE34ADA65AE535FF1B315B6B7A49C10CFF83D7F0049CE99524B2E3DFC1",
+    "After": "51CC2ECE34ADA65AE535FF1B315B6B7A49C10CFF83D7F0049CE99524B2E3DFC1",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\EditorBuildSettings.asset",
+    "Before": "F740E5E08068D756B1838E970176A1BC95003D1B2A75CDB5556353742BE25153",
+    "After": "F740E5E08068D756B1838E970176A1BC95003D1B2A75CDB5556353742BE25153",
+    "Unchanged": true
+  },
+  {
+    "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Packages\\manifest.json",
+    "Before": "EADB2409E74E98314259257A36E15BE39D62670F2C8E7B3DCD6FE80EB6388242",
+    "After": "EADB2409E74E98314259257A36E15BE39D62670F2C8E7B3DCD6FE80EB6388242",
+    "Unchanged": true
+  },
+  {
+    "Path": "C:\\Users\\Junbeom_Choi\\AppData\\LocalLow\\DefaultCompany\\Hunter_grandma\\HunterGrandma\\stage-progress-v1.json",
+    "Before": "7F33B71172D35757FAA73FFD861569D30609173D4EA176B8A9798ECD13AA16E6",
+    "After": "7F33B71172D35757FAA73FFD861569D30609173D4EA176B8A9798ECD13AA16E6",
+    "Unchanged": true
+  }
+]

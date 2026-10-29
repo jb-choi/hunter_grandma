@@ -16,6 +16,8 @@ namespace HunterGrandma.Editor
     public static class GrandmaUiValidation
     {
         private const string Running = "HunterGrandma.UI-P0.Validation";
+        private const string LiveReview = "HunterGrandma.UI-P0.LiveReview";
+        private static bool requireLiveReview;
         private static readonly string Profile = Path.GetFullPath("Library/UI-P0-validation.json");
         private const string Observation = "Library/UI-P0-observation.txt";
         private static readonly List<string> checks = new List<string>(), errors = new List<string>();
@@ -28,6 +30,7 @@ namespace HunterGrandma.Editor
         private static float inputQueuedAt;
         static GrandmaUiValidation()
         {
+            requireLiveReview = SessionState.GetBool(LiveReview, true);
             if (SessionState.GetBool(Running, false)) DefenseProgressStore.EditorValidationPath = Profile;
             EditorApplication.update += Tick;
             Application.logMessageReceived += (message, stack, type) =>
@@ -36,10 +39,14 @@ namespace HunterGrandma.Editor
             };
         }
         [MenuItem("Tools/Hunter Grandma/Run UI P0 Validation")]
-        public static void Begin()
+        public static void Begin() { BeginRun(true); }
+        [MenuItem("Tools/Hunter Grandma/Run Upgrade Connection Validation")]
+        public static void BeginUpgradeConnection() { BeginRun(false); }
+        private static void BeginRun(bool liveReview)
         {
             if (EditorApplication.isPlayingOrWillChangePlaymode) return;
             if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().isDirty) { Debug.LogError("Save the scene before UI validation."); return; }
+            requireLiveReview = liveReview; SessionState.SetBool(LiveReview, liveReview);
             GrandmaStageSetup.Configure(); checks.Clear(); errors.Clear(); owner = null; hud = null; keyboard = null; step = 0;
             foreach (string path in new[] { Profile, Profile + ".bak", Observation }) if (File.Exists(path)) File.Delete(path);
             SessionState.SetBool(Running, true); DefenseProgressStore.EditorValidationPath = Profile;
@@ -105,6 +112,34 @@ namespace HunterGrandma.Editor
                 if (step == 1)
                 {
                     Check(hud.IsUpgradeOpen && owner.IsPaused, "U opens upgrades without changing the existing pause state");
+                    Check(!hud.IsUpgradeDetailOpen, "Upgrade entry opens the roster connection view before the detail controls");
+                    Check(GameObject.Find("Grandma roster content").transform.childCount == 5, "Connection roster contains the five grandma slots from the KRA");
+                    string[] portraitIds = { "grandma_04_sundeok", "grandma_05_flamethrower", "grandma_06_machinegun", "grandma_07_sniper", "grandma_08_motorcycle" };
+                    string[] grandmaNames = { "순덕 할매", "화방 할매", "기관총 할매", "저격 할매", "오토바이 할매" };
+                    var distinctPortraits = new HashSet<Sprite>();
+                    for (int i = 0; i < portraitIds.Length; i++)
+                    {
+                        Sprite portrait = GameObject.Find("Grandma portrait " + i).GetComponent<Image>().sprite;
+                        Check(portrait != null && AssetDatabase.GetAssetPath(portrait).EndsWith("/GrandmaPortraits/" + portraitIds[i] + (i == 0 ? ".png" : "_locked.png")), "Roster slot " + i + " uses its own v002 portrait or authored silhouette");
+                        Check(GameObject.Find("Grandma name " + i).GetComponent<Text>().text == grandmaNames[i], "Roster slot " + i + " displays its matching grandma role");
+                        distinctPortraits.Add(portrait);
+                    }
+                    Check(distinctPortraits.Count == 5, "All five roster portraits are distinct rather than repeated Sundeok images");
+                    for (int i = 1; i < 5; i++) Check(!Button("Locked grandma " + i).interactable, "Unreleased grandma slot " + i + " stays locked without new unlock rules");
+                    Snapshot("upgrade-roster"); Snapshot("upgrade-roster-4x3", 1024, 768); Snapshot("upgrade-roster-small", 800, 450);
+                    ScrollRect roster = GameObject.Find("Grandma roster viewport").GetComponent<ScrollRect>();
+                    Canvas.ForceUpdateCanvases(); float scrollBefore = roster.verticalNormalizedPosition;
+                    ExecuteEvents.Execute(roster.gameObject, new PointerEventData(EventSystem.current) { scrollDelta = new Vector2(0, -8) }, ExecuteEvents.scrollHandler);
+                    Check(roster.verticalNormalizedPosition < scrollBefore, "Pointer wheel events scroll the clipped five-card roster");
+                    roster.verticalNormalizedPosition = 0; Canvas.ForceUpdateCanvases(); Snapshot("upgrade-roster-locked");
+                    roster.verticalNormalizedPosition = 1; Canvas.ForceUpdateCanvases();
+                    var arrowHits = new List<RaycastResult>();
+                    EventSystem.current.RaycastAll(new PointerEventData(EventSystem.current) { position = RectTransformUtility.WorldToScreenPoint(null, Button("Open Sundeok upgrades").transform.position) }, arrowHits);
+                    Check(arrowHits.Count > 0 && arrowHits[0].gameObject.GetComponentInParent<Button>() == Button("Open Sundeok upgrades"), "Sundeok arrow receives pointer raycasts above the modal curtain");
+                    int rosterGold = owner.Progress.Gold;
+                    Click("Open Sundeok upgrades"); Check(hud.IsUpgradeDetailOpen, "Sundeok arrow connects to the actual existing shotgun upgrades");
+                    Click("Back to upgrade roster"); Check(hud.IsUpgradeOpen && !hud.IsUpgradeDetailOpen && owner.IsPaused, "Detail back action returns to the connection view without changing pause");
+                    Click("Open Sundeok upgrades"); Check(owner.Progress.Gold == rosterGold, "Opening details and returning to the roster never spends currency");
                     Check(!Button("Attack upgrade").interactable && !Button("Fire rate upgrade").interactable, "Insufficient currency disables both purchase buttons");
                     Check(Label("Attack upgrade").text.Contains("재화 부족"), "Insufficient state has a text explanation");
                     Check(Label("Attack reference").text == "항목-01" && Label("Rate reference").text == "항목-02", "Both upgrade images carry temporary identifiers");
@@ -115,11 +150,12 @@ namespace HunterGrandma.Editor
                     Check(!hud.IsUpgradeOpen && owner.IsPaused, "Escape closes upgrades without resuming paused combat");
                     for (int i = 0; i < 6; i++) { Click("Upgrade panel toggle"); Check(hud.IsUpgradeOpen, "Repeated upgrade open " + i); Click("Close upgrades"); }
                     Check(!hud.IsUpgradeOpen, "Repeated opening does not leave hidden blocking UI");
-                    owner.Progress.AddGold(200); Click("Upgrade panel toggle");
+                    owner.Progress.AddGold(200); Click("Upgrade panel toggle"); Click("Open Sundeok upgrades");
                     int damage = owner.Progress.NextDamage, cost = owner.Progress.AttackCost, gold = owner.Progress.Gold;
                     Click("Attack upgrade"); Check(owner.Progress.Gold == gold - cost && owner.Progress.Damage == damage, "Attack button spends exactly its displayed cost and applies the previewed damage");
                     float interval = owner.Progress.NextFireInterval; cost = owner.Progress.FireRateCost; gold = owner.Progress.Gold;
                     Click("Fire rate upgrade"); Check(owner.Progress.Gold == gold - cost && Mathf.Approximately(owner.Progress.FireInterval, interval), "Rate button spends exactly its displayed cost and applies the previewed interval");
+                    Check(GameObject.Find("Upgrade balance").GetComponent<Text>().text.EndsWith(" " + owner.Progress.Gold) && GameObject.Find("Resource reference").transform.parent.GetComponentsInChildren<Text>().Any(t => t.text == "(미정)재화  " + owner.Progress.Gold), "Purchase refreshes the detail balance and main HUD balance in the same callback");
                     Check(GameObject.Find("Upgrade panel").GetComponentsInChildren<Text>().Any(t => t.text.Contains("강화 완료")), "Successful purchase has visible feedback");
                     Snapshot("upgrades"); Snapshot("upgrades-4x3", 1024, 768); Snapshot("upgrades-small", 800, 450);
                     Click("Close upgrades"); beforeGold = owner.Progress.Gold; owner.OnZombieKilled(7, owner.GrandmaFootPosition + Vector2.right * 3f);
@@ -140,7 +176,9 @@ namespace HunterGrandma.Editor
                     if (Time.unscaledTime - feedbackStart < 1.5f) return;
                     Check(!UnityEngine.Object.FindObjectsByType<Image>(FindObjectsSortMode.None).Any(i => i.name.StartsWith("Resource flight")), "Resource flights return to their fixed-size pool after arrival");
                     Check(owner.Progress.Gold == beforeGold + 7, "Flight arrival does not grant currency again");
-                    owner.TogglePause(); Click("Upgrade panel toggle"); Key(UnityEngine.InputSystem.Key.M); step = 5; return;
+                    owner.TogglePause(); Click("Upgrade panel toggle");
+                    Check(hud.IsUpgradeOpen && !owner.IsPaused, "Connection window preserves running combat rather than taking ownership of pause");
+                    Key(UnityEngine.InputSystem.Key.M); step = 5; return;
                 }
                 if (step == 5)
                 {
@@ -150,7 +188,10 @@ namespace HunterGrandma.Editor
                     EventSystem.current.RaycastAll(new PointerEventData(EventSystem.current) { position = RectTransformUtility.WorldToScreenPoint(null, Button("Region 0").transform.position) }, hits);
                     Check(hits.Count > 0 && hits[0].gameObject.GetComponentInParent<Button>() == Button("Region 0"), "Map pin is above the modal backdrop in actual UI raycasts");
                     Snapshot("map"); Snapshot("map-4x3", 1024, 768); Snapshot("map-small", 800, 450);
-                    File.WriteAllText(Observation, "MAP_READY"); Debug.Log("Hunter Grandma UI P0: map ready for live Game View review"); step = 6; return;
+                    if (requireLiveReview)
+                    { File.WriteAllText(Observation, "MAP_READY"); Debug.Log("Hunter Grandma UI P0: map ready for live Game View review"); step = 6; }
+                    else { Key(UnityEngine.InputSystem.Key.Escape); step = 7; }
+                    return;
                 }
                 if (step == 6)
                 {
@@ -166,7 +207,7 @@ namespace HunterGrandma.Editor
                     owner.Progress.AddGold(1000000);
                     while (owner.TryUpgradeAttack()) { }
                     while (owner.TryUpgradeFireRate()) { }
-                    Click("Upgrade panel toggle"); hud.RefreshPresentation();
+                    Click("Upgrade panel toggle"); Click("Open Sundeok upgrades"); hud.RefreshPresentation();
                     Check(!Button("Attack upgrade").interactable && !Button("Fire rate upgrade").interactable, "Both maximum upgrade buttons are disabled");
                     Check(Label("Attack upgrade").text.Contains("최대 강화") && Label("Fire rate upgrade").text.Contains("최대 강화"), "Maximum state uses an explicit label");
                     Check(owner.Progress.NextDamage == owner.Progress.Damage && Mathf.Approximately(owner.Progress.NextFireInterval, owner.Progress.FireInterval), "Preview remains at the maximum rather than promising an unavailable upgrade");
@@ -184,10 +225,11 @@ namespace HunterGrandma.Editor
         private static void Finish(string failure)
         {
             string report = "# UI P0 validation\n\nUnity " + Application.unityVersion + " · " + DateTimeOffset.UtcNow.ToOffset(TimeSpan.FromHours(9)).ToString("yyyy-MM-dd HH:mm") + " KST\n\nStatus: " + (failure == null ? "PASS" : "FAIL") + "\n\nIsolated profile: Library/UI-P0-validation.json. Synthetic funds and one synthetic kill are used only in this UI test profile; the ordinary player save is never reset.\n\n";
+            report += requireLiveReview ? "Includes a separate live Game View map observation.\n\n" : "Automated upgrade-connection suite: rendered captures and actual UI events/raycast checks. Separate native Game View observation was NOT performed.\n\n";
             report += string.Join("\n", checks.Select(c => "- PASS: " + c));
             if (failure != null) report += "\n\nFailure: " + failure;
             if (errors.Count > 0) report += "\n\nRuntime errors:\n" + string.Join("\n", errors);
-            File.WriteAllText("Docs/Validation/UI-P0-validation.md", report);
+            File.WriteAllText(requireLiveReview ? "Docs/Validation/UI-P0-validation.md" : "Docs/Validation/UpgradeConnection-validation.md", report);
             if (keyboard != null && keyboard.added) InputSystem.RemoveDevice(keyboard);
             SessionState.SetBool(Running, false); DefenseProgressStore.EditorValidationPath = null; Time.timeScale = 1;
             Debug.Log("Hunter Grandma UI P0 validation: " + (failure == null ? "PASS (" + checks.Count + " checks)" : "FAIL: " + failure));
