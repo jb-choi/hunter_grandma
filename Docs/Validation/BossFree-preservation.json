@@ -1,0 +1,432 @@
+{
+  "preservation": [
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Scenes\\GrandmaDefense.unity",
+      "Before": "E7FED403E5EB657DC2850377E2B70C073345032D5C2BCBE97AA3F1597F767143",
+      "After": "E7FED403E5EB657DC2850377E2B70C073345032D5C2BCBE97AA3F1597F767143",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\ProjectSettings.asset",
+      "Before": "51CC2ECE34ADA65AE535FF1B315B6B7A49C10CFF83D7F0049CE99524B2E3DFC1",
+      "After": "51CC2ECE34ADA65AE535FF1B315B6B7A49C10CFF83D7F0049CE99524B2E3DFC1",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\EditorBuildSettings.asset",
+      "Before": "F740E5E08068D756B1838E970176A1BC95003D1B2A75CDB5556353742BE25153",
+      "After": "F740E5E08068D756B1838E970176A1BC95003D1B2A75CDB5556353742BE25153",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Packages\\manifest.json",
+      "Before": "EADB2409E74E98314259257A36E15BE39D62670F2C8E7B3DCD6FE80EB6388242",
+      "After": "EADB2409E74E98314259257A36E15BE39D62670F2C8E7B3DCD6FE80EB6388242",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\GrandmaShadowSkill.cs",
+      "Before": "A68172FFB401FF311B676FD73CFF97896FB5A715889685FBEBFA0B277EECEFB9",
+      "After": "A68172FFB401FF311B676FD73CFF97896FB5A715889685FBEBFA0B277EECEFB9",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\ZombieActor.cs",
+      "Before": "103C4F01412105DAF02386C481EFF3F2FE43735361BB8851180A73A3EEA0B7C3",
+      "After": "103C4F01412105DAF02386C481EFF3F2FE43735361BB8851180A73A3EEA0B7C3",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Sundeok120\\Sundeok120AnimationSet.asset",
+      "Before": "53889CCF6C3A8E0A4A041E6B88D168CD100817DAC60C808E1B9523AF38B5916D",
+      "After": "53889CCF6C3A8E0A4A041E6B88D168CD100817DAC60C808E1B9523AF38B5916D",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\ATTRIBUTION.md",
+      "Before": "E9F1DFDE27698DADFD3A66D0439EBE26BBAA5F4C296DFC91CE8C636B4ED63394",
+      "After": "E9F1DFDE27698DADFD3A66D0439EBE26BBAA5F4C296DFC91CE8C636B4ED63394",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\ATTRIBUTION.md.meta",
+      "Before": "9299BD6751F9E0CC22ED26148AA7703A6E25925D04994287713E39A1DAAE3D1A",
+      "After": "9299BD6751F9E0CC22ED26148AA7703A6E25925D04994287713E39A1DAAE3D1A",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\capture_cart.png",
+      "Before": "9DAADD0A8C2E882F25A3B78CA86AEABBC6E0755DBA95323FB55CFB6D279079D8",
+      "After": "9DAADD0A8C2E882F25A3B78CA86AEABBC6E0755DBA95323FB55CFB6D279079D8",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\capture_cart.png.meta",
+      "Before": "0DC6681511CCA691C8B58E5DE4B7B471136324129353572C4FB2423478A43026",
+      "After": "0DC6681511CCA691C8B58E5DE4B7B471136324129353572C4FB2423478A43026",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Frames.meta",
+      "Before": "DA7670884A5A0C057DAC3D6F0D8B0C427D239D1E3D5F3FD8768CC4D1672494CE",
+      "After": "DA7670884A5A0C057DAC3D6F0D8B0C427D239D1E3D5F3FD8768CC4D1672494CE",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\gold_coin.png",
+      "Before": "D85ED1FF868A7D5B533C62998F873B83155C34AE5E8FD1A7D05A715471D54B17",
+      "After": "D85ED1FF868A7D5B533C62998F873B83155C34AE5E8FD1A7D05A715471D54B17",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\gold_coin.png.meta",
+      "Before": "D1F559E98D3A2574C88D000660FEDFE658D5A00780D8A7EC5ACE6A6D22AABB57",
+      "After": "D1F559E98D3A2574C88D000660FEDFE658D5A00780D8A7EC5ACE6A6D22AABB57",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source.meta",
+      "Before": "2B98D61D629CB6C27C8D9E719FD946F95D590AECDE566AD4BEBE98DE2EA96BC0",
+      "After": "2B98D61D629CB6C27C8D9E719FD946F95D590AECDE566AD4BEBE98DE2EA96BC0",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Frames\\boss_stage_0_64.png",
+      "Before": "2883A192EFDC416F8CB451C913571B160EC2AD51A779BD7E21A89A85CF5D93D0",
+      "After": "2883A192EFDC416F8CB451C913571B160EC2AD51A779BD7E21A89A85CF5D93D0",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Frames\\boss_stage_0_64.png.meta",
+      "Before": "FF45973FE0886D3DF54898D3C2A3D924A676287E18E6D6740F85D19B20A1DCB2",
+      "After": "FF45973FE0886D3DF54898D3C2A3D924A676287E18E6D6740F85D19B20A1DCB2",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Frames\\boss_stage_1_64.png",
+      "Before": "18D7851EF3001A1C8E58E68D46B6D0FAA79A3CBDAA82AB406DA38BDFCA22056F",
+      "After": "18D7851EF3001A1C8E58E68D46B6D0FAA79A3CBDAA82AB406DA38BDFCA22056F",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Frames\\boss_stage_1_64.png.meta",
+      "Before": "43D434707A67BC081B4462BB2D3C710E440FB28FE368C60B252D837A6F5D5E8A",
+      "After": "43D434707A67BC081B4462BB2D3C710E440FB28FE368C60B252D837A6F5D5E8A",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Frames\\boss_stage_2_64.png",
+      "Before": "E7C025D3ECC2B17AD9B964BBD496316F9EF31132ADB8079453479321722AD224",
+      "After": "E7C025D3ECC2B17AD9B964BBD496316F9EF31132ADB8079453479321722AD224",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Frames\\boss_stage_2_64.png.meta",
+      "Before": "9DD31DF0906E4B38B6B806A060CEB48BDFAE0E592A444D93C1F30AD7697FA624",
+      "After": "9DD31DF0906E4B38B6B806A060CEB48BDFAE0E592A444D93C1F30AD7697FA624",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Frames\\boss_stage_3_64.png",
+      "Before": "5A567593BBA387EF29DE3FBE25B61EADD67E737409FFA771875D825C7E3A9C56",
+      "After": "5A567593BBA387EF29DE3FBE25B61EADD67E737409FFA771875D825C7E3A9C56",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Frames\\boss_stage_3_64.png.meta",
+      "Before": "FC20F7FAE6DC4C57FB9A4F0D668E0B9E08AA17931F25407AB1E4E08E7194BEB4",
+      "After": "FC20F7FAE6DC4C57FB9A4F0D668E0B9E08AA17931F25407AB1E4E08E7194BEB4",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Frames\\boss_stage_4_64.png",
+      "Before": "E795FC5E4A63478ECDE6584405757D026ECE766AEAFAB21825E5772F373C6530",
+      "After": "E795FC5E4A63478ECDE6584405757D026ECE766AEAFAB21825E5772F373C6530",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Frames\\boss_stage_4_64.png.meta",
+      "Before": "4CC1FF0688E424FACCD0291BB445168DB5AF71402B85ED38C3F292499D6821F2",
+      "After": "4CC1FF0688E424FACCD0291BB445168DB5AF71402B85ED38C3F292499D6821F2",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Frames\\boss_stage_5_64.png",
+      "Before": "BEB07C616FC380940F37BECFDF00872127C86C44E795AF8AFEE5BA150A2F5EF2",
+      "After": "BEB07C616FC380940F37BECFDF00872127C86C44E795AF8AFEE5BA150A2F5EF2",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Frames\\boss_stage_5_64.png.meta",
+      "Before": "A5CA7CE29B0F3FE0420E66F120029F66AC7321930AF7711215BECDBB5C8AAAC2",
+      "After": "A5CA7CE29B0F3FE0420E66F120029F66AC7321930AF7711215BECDBB5C8AAAC2",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Frames\\boss_stage_6_64.png",
+      "Before": "F009DD5A924A9960271A369C472805B16CC6A0FB6011830CA317882CC56759D5",
+      "After": "F009DD5A924A9960271A369C472805B16CC6A0FB6011830CA317882CC56759D5",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Frames\\boss_stage_6_64.png.meta",
+      "Before": "D92008AB6DF851C7134AAE7120C94CB8FB4D28FD63282991E3D106A0895BFD35",
+      "After": "D92008AB6DF851C7134AAE7120C94CB8FB4D28FD63282991E3D106A0895BFD35",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity.meta",
+      "Before": "098A1F5D341F2A63B2109CECD69DA293E6C8357E428451F5525D32EDE686E62E",
+      "After": "098A1F5D341F2A63B2109CECD69DA293E6C8357E428451F5525D32EDE686E62E",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\S0_Dog_Spritesheet_CC0.png",
+      "Before": "0FEBEBA5CCA4020B3B04B2657C5A5AFE4E2CCB3653247A5BE5F8507D3D5062F9",
+      "After": "0FEBEBA5CCA4020B3B04B2657C5A5AFE4E2CCB3653247A5BE5F8507D3D5062F9",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\S0_Dog_Spritesheet_CC0.png.meta",
+      "Before": "A67E90426D096ED3AEC616E0BBE2BDF79F6094E282401A81B1B6D2E8910591EA",
+      "After": "A67E90426D096ED3AEC616E0BBE2BDF79F6094E282401A81B1B6D2E8910591EA",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\S1_CyberCity_Delivery_CC0.zip",
+      "Before": "319BEDFEAE979BE4DA44B8714B32391CDE52D122B6D7E2DF8BAA9410541F86AC",
+      "After": "319BEDFEAE979BE4DA44B8714B32391CDE52D122B6D7E2DF8BAA9410541F86AC",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\S1_CyberCity_Delivery_CC0.zip.meta",
+      "Before": "9D5E0078B9BDDE650B62D73ED5BC7C736C1E735BE040B524E5025F65CE791700",
+      "After": "9D5E0078B9BDDE650B62D73ED5BC7C736C1E735BE040B524E5025F65CE791700",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\S2_Salesperson_Source_96px_CC0.png",
+      "Before": "3644835C46204F7EF967293935C26EA316FD400E8B1B0658833599AF6F67F544",
+      "After": "3644835C46204F7EF967293935C26EA316FD400E8B1B0658833599AF6F67F544",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\S2_Salesperson_Source_96px_CC0.png.meta",
+      "Before": "2E1F73FD2CF6FA9E3FE9A9E6B3873EBB30FEC9F8BA575031C41021A9528BB37A",
+      "After": "2E1F73FD2CF6FA9E3FE9A9E6B3873EBB30FEC9F8BA575031C41021A9528BB37A",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\S3_Pixel_Worker_Hardhat_CC0.png",
+      "Before": "798BAABBDBD062A04BA87C3CC7395DFC830D8A94F173415A2BE9A6A027AD97B8",
+      "After": "798BAABBDBD062A04BA87C3CC7395DFC830D8A94F173415A2BE9A6A027AD97B8",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\S3_Pixel_Worker_Hardhat_CC0.png.meta",
+      "Before": "F0C8423D8E8FB1631DB538104803BE64904163B37F00DF0F84FBBA1364C466AA",
+      "After": "F0C8423D8E8FB1631DB538104803BE64904163B37F00DF0F84FBBA1364C466AA",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\S4_Dancers_32px_CC0.png",
+      "Before": "B171368FFE59D4B27E222016DAE5821F549CB3CD2303B3A111E9C2BD3DCEAF6C",
+      "After": "B171368FFE59D4B27E222016DAE5821F549CB3CD2303B3A111E9C2BD3DCEAF6C",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\S4_Dancers_32px_CC0.png.meta",
+      "Before": "DC26DF26B33AE964F1B3BD6247EEEF908D24FA565C5ED9BF5680CB7D3FAA6200",
+      "After": "DC26DF26B33AE964F1B3BD6247EEEF908D24FA565C5ED9BF5680CB7D3FAA6200",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\S5_Bodybuilder_CC0.png",
+      "Before": "A6DB9BC8347E1A55C25982F24795C86D32945950CBC9113FA630F4B54A8BFFD2",
+      "After": "A6DB9BC8347E1A55C25982F24795C86D32945950CBC9113FA630F4B54A8BFFD2",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\S5_Bodybuilder_CC0.png.meta",
+      "Before": "81D4798F9D15B3011140060E24F1A3966C08E8044D175E8270B0BCE5BB024AC4",
+      "After": "81D4798F9D15B3011140060E24F1A3966C08E8044D175E8270B0BCE5BB024AC4",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\S6_Medical_Examiner_32px_CC0.png",
+      "Before": "9146DA1FF211E51BEA3A2EF2A216FDB92480A64CDCDF74C3E2C162B787F4CB3C",
+      "After": "9146DA1FF211E51BEA3A2EF2A216FDB92480A64CDCDF74C3E2C162B787F4CB3C",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\S6_Medical_Examiner_32px_CC0.png.meta",
+      "Before": "EF14F328F83EDAA957E9A72CA9E3F220BFCCCFEFBF51BB02778DAC4A06318082",
+      "After": "EF14F328F83EDAA957E9A72CA9E3F220BFCCCFEFBF51BB02778DAC4A06318082",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\$Yakuza1.png",
+      "Before": "9ED072AA7639E25999F38A0BE7B08E6C63B279E0187C59BA76715E4997BFAE5D",
+      "After": "9ED072AA7639E25999F38A0BE7B08E6C63B279E0187C59BA76715E4997BFAE5D",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\$Yakuza1.png.meta",
+      "Before": "2A0DC8BAECB688D5F089E1A9E0D63991B6754CCBD32A8F3431CA557D332A4F1A",
+      "After": "2A0DC8BAECB688D5F089E1A9E0D63991B6754CCBD32A8F3431CA557D332A4F1A",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\$Yakuza2.png",
+      "Before": "5E7D7D9294EE6DC6B1C123CAFB98D38AE89BB876B273A2FBDF6D5CB27DD3B172",
+      "After": "5E7D7D9294EE6DC6B1C123CAFB98D38AE89BB876B273A2FBDF6D5CB27DD3B172",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\$Yakuza2.png.meta",
+      "Before": "6385AF95E81848C33C22335592321B6DF31E889AF685A881BC42CE37DB7DD380",
+      "After": "6385AF95E81848C33C22335592321B6DF31E889AF685A881BC42CE37DB7DD380",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\$Yakuza3.png",
+      "Before": "550D31A6E7142CFB5C752FE8F3F1C6FA0C46EE438E1A81DA88E50F580E2A0631",
+      "After": "550D31A6E7142CFB5C752FE8F3F1C6FA0C46EE438E1A81DA88E50F580E2A0631",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\$Yakuza3.png.meta",
+      "Before": "C1C7832B3B749D643A55F7FD2835C778E9FC6FDD27915A0BC5D16338068DAB42",
+      "After": "C1C7832B3B749D643A55F7FD2835C778E9FC6FDD27915A0BC5D16338068DAB42",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\$YakuzaBoss.png",
+      "Before": "9777332A5F347B9DA8FA5549F0ED049F639D2B6DBBC3B5F50F24E87FA66E5511",
+      "After": "9777332A5F347B9DA8FA5549F0ED049F639D2B6DBBC3B5F50F24E87FA66E5511",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\$YakuzaBoss.png.meta",
+      "Before": "6C17A36567A8A69A44A11A942278D4B3F3F0557B07CD1A2071662FE3E75481F3",
+      "After": "6C17A36567A8A69A44A11A942278D4B3F3F0557B07CD1A2071662FE3E75481F3",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\city.png",
+      "Before": "FC2526A604E0FAC6F1440C308A16CA209D4EDE6338B9B0047F69451A5661F458",
+      "After": "FC2526A604E0FAC6F1440C308A16CA209D4EDE6338B9B0047F69451A5661F458",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\city.png.meta",
+      "Before": "5BC816C299F12D8D8BADF3263DFCBEC524A646D804F757164DA33EA78615D4FF",
+      "After": "5BC816C299F12D8D8BADF3263DFCBEC524A646D804F757164DA33EA78615D4FF",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\lady.png",
+      "Before": "D47C9EDC68D6754EB8BCA1BF722AC4C2FD8AB221675E64966A46F26A0F3A2A32",
+      "After": "D47C9EDC68D6754EB8BCA1BF722AC4C2FD8AB221675E64966A46F26A0F3A2A32",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\lady.png.meta",
+      "Before": "3648BB05F5D4E2415BF85988BA8D8B38B9164E8CC11EF971A2EE9E159B5008F6",
+      "After": "3648BB05F5D4E2415BF85988BA8D8B38B9164E8CC11EF971A2EE9E159B5008F6",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\PizzaActors.png",
+      "Before": "F5F8C2A92412BC7FF914BF14824F13F308AB2036ADC827431608B57D9DC2A5EC",
+      "After": "F5F8C2A92412BC7FF914BF14824F13F308AB2036ADC827431608B57D9DC2A5EC",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\PizzaActors.png.meta",
+      "Before": "608CCACBCBE35A7AD10EFE9FBC15CBC632A8373BDC50A56F199CE464557ED653",
+      "After": "608CCACBCBE35A7AD10EFE9FBC15CBC632A8373BDC50A56F199CE464557ED653",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\pizzaGuy.png",
+      "Before": "FED3D9D4F7A0E7D6B665AECF5A0EF299361B32FF1E88BE8C5EE51DE50FCA49AA",
+      "After": "FED3D9D4F7A0E7D6B665AECF5A0EF299361B32FF1E88BE8C5EE51DE50FCA49AA",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\pizzaGuy.png.meta",
+      "Before": "38DB21ED46F71D8B791346BB2536C856EDE89E6A4EB057EEDF0E7EF7A2ECE71C",
+      "After": "38DB21ED46F71D8B791346BB2536C856EDE89E6A4EB057EEDF0E7EF7A2ECE71C",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\pizzaGuyNoPizza.png",
+      "Before": "F7785AB055EF8B0F73F09B2B55DB55CEAE4F88F9D6E0C617C65EE6E117CF3CBE",
+      "After": "F7785AB055EF8B0F73F09B2B55DB55CEAE4F88F9D6E0C617C65EE6E117CF3CBE",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\pizzaGuyNoPizza.png.meta",
+      "Before": "7A10EA2F40431E456AA3364C727A362E72799C2323A827415C5D34D6BA8DB3A7",
+      "After": "7A10EA2F40431E456AA3364C727A362E72799C2323A827415C5D34D6BA8DB3A7",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\streetPeople.png",
+      "Before": "557BCB039246221086505C2DC0B5295623DDEC08F7EC05AE0EA8C734E1AEF878",
+      "After": "557BCB039246221086505C2DC0B5295623DDEC08F7EC05AE0EA8C734E1AEF878",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\streetPeople.png.meta",
+      "Before": "1C8426A9E79340130C0CDCB3AADD8A32EB1E3BAD78D16F626D86DEB7BCDC20FD",
+      "After": "1C8426A9E79340130C0CDCB3AADD8A32EB1E3BAD78D16F626D86DEB7BCDC20FD",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\streetPeople2.png",
+      "Before": "E74D2CF97E5B99C9DB72DBBD92F2358F264831F55D10683651282EB9B905732F",
+      "After": "E74D2CF97E5B99C9DB72DBBD92F2358F264831F55D10683651282EB9B905732F",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Bosses\\Source\\CyberCity\\streetPeople2.png.meta",
+      "Before": "D338C0F67C681EB4BBEC41DB88981964BDFCCB769345DBF3B2FEE696D8A54DF1",
+      "After": "D338C0F67C681EB4BBEC41DB88981964BDFCCB769345DBF3B2FEE696D8A54DF1",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\Users\\Junbeom_Choi\\AppData\\LocalLow\\DefaultCompany\\Hunter_grandma\\HunterGrandma\\stage-progress-v1.json",
+      "Before": "44738A6BA41753842048A6418760C9779ACCECDB4079E5EBE65CD5CC701E5B26",
+      "After": "44738A6BA41753842048A6418760C9779ACCECDB4079E5EBE65CD5CC701E5B26",
+      "Unchanged": true
+    }
+  ],
+  "testedFiles": [
+    {
+      "Path": "Assets/HunterGrandma/Runtime/GrandmaDefense.cs",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Runtime/DefenseProgress.cs",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Runtime/DefenseHud.cs",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Runtime/DefenseMapView.cs",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Editor/GrandmaStageValidation.cs",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Scenes/GrandmaDefense.unity",
+      "MatchesTestedCopy": true
+    }
+  ]
+}

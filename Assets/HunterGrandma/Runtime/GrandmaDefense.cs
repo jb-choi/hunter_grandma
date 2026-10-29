@@ -6,6 +6,7 @@ namespace HunterGrandma
 {
     public sealed class GrandmaDefense : MonoBehaviour
     {
+        public const float StageClearDuration = 1.5f;
         [SerializeField] private GrandmaShooter grandma;
         [SerializeField] private ZombieActor zombiePrefab;
         [SerializeField] private ShotTracer tracerPrefab;
@@ -66,7 +67,10 @@ namespace HunterGrandma
         public string OpeningCaption => houseOpening != null ? houseOpening.Caption : "";
         public int OpeningSoundCues => houseOpening != null ? houseOpening.SoundCues : 0;
         public bool CanOpenMap => initialized && !IsCaptureSequence && !IsOpening;
-        public bool AtYard => Phase == DefensePhase.Clear || (Phase == DefensePhase.Returning && phaseTime >= 3.5f);
+        public bool AtYard => (Phase == DefensePhase.Clear && Run != null && Run.ReturnedToYard) || (Phase == DefensePhase.Returning && phaseTime >= 3.5f);
+        public bool HasNextStage => CurrentStageId + 1 < DefenseStages.Count;
+        public bool IsAdvancingStage => Phase == DefensePhase.Clear && HasNextStage;
+        public float StageClearRemaining => IsAdvancingStage ? Mathf.Max(0f, StageClearDuration - phaseTime) : 0f;
         public string LocationName => AtYard ? "할머니 집 마당" : CurrentStage.Name;
         public float Elapsed { get; private set; }
         public float DefenseLine => GrandmaX + 1.2f;
@@ -100,13 +104,13 @@ namespace HunterGrandma
                 {
                     case DefensePhase.Opening: return OpeningCaption;
                     case DefensePhase.Waves: return "웨이브 " + WaveNumber + " / " + CurrentStage.WaveCount;
-                    case DefensePhase.WaveBreak: return WaveNumber < CurrentStage.WaveCount ? "앞으로 이동 → 다음 전투 구역" : "거대 감염체가 다가온다";
+                    case DefensePhase.WaveBreak: return WaveNumber < CurrentStage.WaveCount ? "앞으로 이동 → 다음 전투 구역" : "좀비 소탕 완료";
                     case DefensePhase.BossArrival: return "거대 숙주형 감염체 등장";
                     case DefensePhase.BossFight: return Boss.Telegraph;
                     case DefensePhase.Subdued: return "제압 성공 · 사격 중지";
                     case DefensePhase.LoadingCart: return "감염체를 수레에 싣는 중";
                     case DefensePhase.Returning: return AtYard ? "집 마당에 도착" : "집 마당으로 귀환";
-                    case DefensePhase.Clear: return "STAGE CLEAR · 신규 포획 +1";
+                    case DefensePhase.Clear: return HasNextStage ? "STAGE CLEAR · 다음 스테이지로 이동" : "ALL STAGES CLEAR";
                     case DefensePhase.Failed: return "방어선 붕괴 · 강화 후 재도전";
                     default: return "후퇴 · 획득 (미정)재화 보존";
                 }
@@ -119,8 +123,8 @@ namespace HunterGrandma
             Application.runInBackground = true;
             if (beltLayoutPreview != null) beltLayoutPreview.SetActive(false);
             hud = GetComponent<DefenseHud>();
-            if (grandma == null || zombiePrefab == null || tracerPrefab == null || bossSprites == null || bossSprites.Length != DefenseStages.Count || cartSprite == null || coinSprite == null)
-            { Debug.LogError("GrandmaDefense needs its scene references and the seven Notion boss sprites.", this); enabled = false; return; }
+            if (grandma == null || zombiePrefab == null || tracerPrefab == null || cartSprite == null || coinSprite == null)
+            { Debug.LogError("GrandmaDefense needs its shooter, zombie, tracer, cart and coin scene references.", this); enabled = false; return; }
             store = new DefenseProgressStore(DefenseProgressStore.DefaultPath);
             Progress = store.Load();
             if (startingZombies != null) zombies.AddRange(startingZombies);
@@ -254,8 +258,14 @@ namespace HunterGrandma
             if (shadowSkill.OwnsFrame) return;
             float dt = CombatDeltaTime; if (dt <= 0f) return;
             if (houseOpening != null && houseOpening.gameObject.activeSelf) houseOpening.AdvanceFence(dt);
+            if (Phase == DefensePhase.Clear)
+            {
+                phaseTime += dt;
+                if (HasNextStage && phaseTime >= StageClearDuration) StartStage(CurrentStageId + 1);
+                return;
+            }
             UpdateMovement(dt);
-            if (Phase == DefensePhase.Clear || Phase == DefensePhase.Failed || Phase == DefensePhase.Retreated) return;
+            if (Phase == DefensePhase.Failed || Phase == DefensePhase.Retreated) return;
             Elapsed += dt; phaseTime += dt; fireTimer -= dt;
             if (Phase == DefensePhase.Waves)
             {
@@ -267,7 +277,7 @@ namespace HunterGrandma
             else if (Phase == DefensePhase.WaveBreak && phaseTime >= 2f && (WaveNumber == CurrentStage.WaveCount || GrandmaX >= WaveNumber*10f-5f))
             {
                 if (WaveNumber < CurrentStage.WaveCount) { WaveNumber++; BeginWave(); }
-                else { SetPhase(DefensePhase.BossArrival); Boss.Spawn(CurrentStage, bossSprites[CurrentStageId], Progress.Stage(CurrentStageId).capturedCount); }
+                else CompleteStageWaves();
             }
             else if (Phase == DefensePhase.BossArrival && phaseTime >= 4.6f) SetPhase(DefensePhase.BossFight);
             else if (Phase == DefensePhase.Subdued && phaseTime >= 1.1f)
@@ -281,6 +291,16 @@ namespace HunterGrandma
             bool fighting = Phase == DefensePhase.Waves || Phase == DefensePhase.BossFight;
             grandma.SetCombatTarget(fighting ? FindShotTarget(true) : null, fireTimer);
             if (fighting && fireTimer <= 0f) TryFire();
+        }
+        private void CompleteStageWaves()
+        {
+            Run.CompleteWaves();
+            if (!Progress.TryCompleteWaves(Run))
+            { Debug.LogError("Wave clear settlement rejected an incomplete or duplicate run.", this); return; }
+            StopActors();
+            SetPhase(DefensePhase.Clear);
+            dirty = true;
+            SaveNow();
         }
         private DefenseTarget FindShotTarget(bool includeReserved)
         {

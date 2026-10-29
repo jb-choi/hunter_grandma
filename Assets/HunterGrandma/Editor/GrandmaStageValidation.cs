@@ -16,34 +16,53 @@ namespace HunterGrandma.Editor
     public static class GrandmaStageValidation
     {
         private const string RunningKey = "HunterGrandma.StageV2.Validation";
+        private const string BatchKey = "HunterGrandma.StageValidation.Batch";
+        private const string BatchDoneKey = BatchKey + ".Done";
         private static readonly string Profile = Path.GetFullPath("Library/BeltScroll-validation.json");
         private static readonly List<string> checks = new List<string>(), errors = new List<string>(), runs = new List<string>();
+        private static readonly List<string> environmentErrors = new List<string>();
         private static GrandmaDefense owner;
         private static DefenseHud hud;
         private static Keyboard keyboard;
-        private static int step, completed, startingCaptives, subduedShots;
+        private static int step, completed, transitionGold, bossFreeFrames;
         private static int inputFrame;
-        private static bool seenSubdued, seenLoad, seenReturn, seenMelt, seenLeft, repeat;
+        private static bool seenMelt, seenLeft, repeat;
         private static double deadline, waitUntil;
-        private static string firstDog, firstClear;
-        private static DefensePhase previousPhase;
-        private static Vector2 movementStart, subduedFoot, autoStart;
+        private static string firstClear, previousRun;
+        private static Vector2 movementStart, autoStart;
         private static float movementAt, cameraStart;
         private static int offLaneHealth, shotKills;
         private static ZombieActor offLaneZombie;
-        private static bool dodgePending, dodgeDone;
-        private static float bossStarted;
-        private static Vector2 dodgeStart;
-        private static int dodgeHealth;
+        private static float pausedClearRemaining;
+        private static bool inputRoutingChanged;
+        private static InputSettings.BackgroundBehavior previousBackgroundBehavior;
+        private static InputSettings.EditorInputBehaviorInPlayMode previousEditorInputBehavior;
         static GrandmaStageValidation()
         {
             if (SessionState.GetBool(RunningKey, false)) DefenseProgressStore.EditorValidationPath = Profile;
-            EditorApplication.update += Tick; Application.logMessageReceived += OnLog;
+            EditorApplication.update += Tick; EditorApplication.update += BatchTick; Application.logMessageReceived += OnLog;
             EditorApplication.playModeStateChanged += state =>
             {
                 if (state == PlayModeStateChange.EnteredEditMode)
                 { SessionState.SetBool(RunningKey, false); DefenseProgressStore.EditorValidationPath = null; }
             };
+        }
+        // CLI entry point for an isolated project copy; never closes an interactive Editor.
+        public static void RunBatch()
+        {
+            if (!Application.isBatchMode) throw new InvalidOperationException("RunBatch requires Unity -batchmode.");
+            SessionState.SetBool(BatchKey, true); SessionState.SetBool(BatchDoneKey, false);
+            SessionState.SetFloat(BatchKey + ".Deadline", (float)EditorApplication.timeSinceStartup + 500f);
+            EditorSceneManager.OpenScene(GrandmaProjectSetup.ScenePath);
+            Begin();
+        }
+        private static void BatchTick()
+        {
+            if (!Application.isBatchMode || !SessionState.GetBool(BatchKey, false)) return;
+            if (SessionState.GetBool(BatchDoneKey, false) && !EditorApplication.isPlayingOrWillChangePlaymode)
+                EditorApplication.Exit(SessionState.GetInt(BatchKey + ".ExitCode", 1));
+            else if (EditorApplication.timeSinceStartup > SessionState.GetFloat(BatchKey + ".Deadline", float.MaxValue))
+            { Debug.LogError("Stage batch validation timed out."); EditorApplication.Exit(1); }
         }
         [MenuItem("Tools/Hunter Grandma/Run Stage v2 Validation")]
         [MenuItem("Tools/Hunter Grandma/Run Belt Scroll Validation")]
@@ -52,10 +71,9 @@ namespace HunterGrandma.Editor
             if (EditorApplication.isPlayingOrWillChangePlaymode) return;
             if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().isDirty) { Debug.LogError("Save the scene before Stage validation."); return; }
             GrandmaStageSetup.Configure();
-            checks.Clear(); errors.Clear(); runs.Clear(); owner = null; hud = null; keyboard = null;
-            step = completed = startingCaptives = subduedShots = 0;
-            seenSubdued = seenLoad = seenReturn = seenMelt = seenLeft = repeat = false;
-            dodgePending=dodgeDone=false;
+            checks.Clear(); errors.Clear(); runs.Clear(); environmentErrors.Clear(); owner = null; hud = null; keyboard = null;
+            step = completed = transitionGold = bossFreeFrames = 0;
+            seenMelt = seenLeft = repeat = false;
             if (File.Exists(Profile)) File.Delete(Profile);
             if (File.Exists(Profile + ".bak")) File.Delete(Profile + ".bak");
             DefenseProgressStore.EditorValidationPath = Profile;
@@ -63,6 +81,8 @@ namespace HunterGrandma.Editor
         }
         private static void OnLog(string text, string stack, LogType type)
         {
+            if (Application.isBatchMode && SessionState.GetBool(RunningKey, false) && stack.Contains("UnityEditor.Search."))
+            { environmentErrors.Add(text + "\n" + stack); return; }
             if (SessionState.GetBool(RunningKey, false) && (type == LogType.Error || type == LogType.Exception || type == LogType.Assert)) errors.Add(text + "\n" + stack);
         }
         private static void Check(bool value, string description)
@@ -74,6 +94,7 @@ namespace HunterGrandma.Editor
         private static void Click(string name) { hud?.RefreshPresentation(); Button button = Button(name); Check(button.IsInteractable(), "Clickable UI: " + name); button.onClick.Invoke(); }
         private static void Snapshot(string name, int width = 1280, int height = 720)
         {
+            if (SystemInfo.graphicsDeviceType == UnityEngine.Rendering.GraphicsDeviceType.Null) return;
             hud?.RefreshPresentation();
             GrandmaCombatValidation.Capture("Docs/Validation/BeltScroll-" + name + ".png", width, height);
         }
@@ -97,6 +118,32 @@ namespace HunterGrandma.Editor
             Check(progress.TryUpgradeFireRate() && progress.FireInterval < oldInterval && progress.Gold == 460, "Fire-rate upgrade spends gold and shortens the actual shot interval");
             DefenseProgress restored = DefenseProgress.FromJson(progress.ToJson());
             Check(restored.Gold == progress.Gold && restored.Captives[1].captiveId == other.captiveId && restored.Stage(0).clearCount == 2, "Save JSON round-trip preserves gold, IDs, and stage records");
+            var replay = new DefenseRun(0); replay.CompleteWaves();
+            Check(restored.TryCompleteWaves(replay) && restored.Stage(0).clearCount == 3 && restored.Stage(0).capturedCount == 2 && restored.CaptiveCount == 2 && restored.Stage(0).firstClearAt == first.capturedAt, "Wave-only completion preserves legacy captives and first-clear time without granting another captive");
+            DefenseProgress mixed = DefenseProgress.FromJson(restored.ToJson());
+            Check(mixed.Stage(0).clearCount == 3 && mixed.Captives[1].captiveId == other.captiveId && mixed.ShadowSkillEnabled == restored.ShadowSkillEnabled, "Mixed historical captures and wave-only clears round-trip in the existing save schema");
+            var waves = new DefenseProgress();
+            var incomplete = new DefenseRun(0);
+            Check(!waves.TryCompleteWaves(null) && !waves.TryCompleteWaves(incomplete), "Missing and unfinished wave runs cannot unlock a stage");
+            var locked = new DefenseRun(2); locked.CompleteWaves();
+            var invalid = new DefenseRun(DefenseStages.Count); invalid.CompleteWaves();
+            Check(!waves.TryCompleteWaves(locked) && !waves.TryCompleteWaves(invalid), "Wave completion rejects locked or invalid stage IDs");
+            var cancelled = new DefenseRun(0); cancelled.CompleteWaves(); cancelled.Abandon();
+            Check(!waves.TryCompleteWaves(cancelled), "Retreat or failure cannot settle a marked wave run");
+            for (int id = 0; id < DefenseStages.Count; id++)
+            {
+                var waveRun = new DefenseRun(id); waveRun.CompleteWaves();
+                Check(waves.TryCompleteWaves(waveRun) && waveRun.Settled && waves.Stage(id).clearCount == 1 && waves.Stage(id).capturedCount == 0 && waves.CaptiveCount == 0, "Stage " + id + ": wave-only settlement records one clear and no captive");
+                Check(!waves.TryCompleteWaves(waveRun) && !waves.TryComplete(waveRun, "duplicate", out _) && waves.Stage(id).clearCount == 1, "Stage " + id + ": the same wave run cannot settle twice or grant a legacy capture");
+            }
+            DefenseProgress noCaptives = DefenseProgress.FromJson(waves.ToJson());
+            Check(noCaptives.IsUnlocked(6) && noCaptives.Stage(6).clearCount == 1 && noCaptives.CaptiveCount == 0, "All seven wave-only clears survive JSON reload with sequential unlocks");
+            DefenseSaveData badCounts = JsonUtility.FromJson<DefenseSaveData>(restored.ToJson()); badCounts.stages[0].clearCount = 1;
+            bool rejectedCounts = false; try { DefenseProgress.FromJson(JsonUtility.ToJson(badCounts)); } catch (FormatException) { rejectedCounts = true; }
+            Check(rejectedCounts, "A save with fewer clears than historical captive records is rejected");
+            DefenseSaveData badUnlock = JsonUtility.FromJson<DefenseSaveData>(waves.ToJson()); badUnlock.stages[0].clearCount = 0;
+            bool rejectedUnlock = false; try { DefenseProgress.FromJson(JsonUtility.ToJson(badUnlock)); } catch (FormatException) { rejectedUnlock = true; }
+            Check(rejectedUnlock, "A save with cleared stages beyond a locked predecessor is rejected");
             bool rejected = false; try { DefenseProgress.FromJson("{\"version\":99}"); } catch (Exception) { rejected = true; }
             Check(rejected, "Unsupported save versions are rejected");
             var store = new DefenseProgressStore(Profile + ".model");
@@ -131,6 +178,15 @@ namespace HunterGrandma.Editor
                     // Let the first game frames finish before injecting dynamic-update input.
                     if (owner.Elapsed < .3f) return;
                     deadline = EditorApplication.timeSinceStartup + 420; ModelChecks(); Time.timeScale = 8f;
+                    if (Application.isBatchMode)
+                    {
+                        // There is no focused Game View in a CLI process; route only this fixture's virtual device to the player.
+                        previousBackgroundBehavior = InputSystem.settings.backgroundBehavior;
+                        previousEditorInputBehavior = InputSystem.settings.editorInputBehaviorInPlayMode;
+                        InputSystem.settings.backgroundBehavior = InputSettings.BackgroundBehavior.IgnoreFocus;
+                        InputSystem.settings.editorInputBehaviorInPlayMode = InputSettings.EditorInputBehaviorInPlayMode.AllDeviceInputAlwaysGoesToGameView;
+                        inputRoutingChanged = true;
+                    }
                     Check(owner.CurrentStageId == 0 && owner.ActiveZombieCount >= 3 && owner.PoolSize <= 24, "Playable scene starts Stage 0 with live zombies and a bounded pool");
                     Check(!owner.EnterStage(1), "Gameplay rejects locked district travel");
                     hud = UnityEngine.Object.FindFirstObjectByType<DefenseHud>(); keyboard = InputSystem.AddDevice<Keyboard>("Stage validation keyboard");
@@ -231,7 +287,15 @@ namespace HunterGrandma.Editor
                     Check(owner.AutoExplore,"Tab input turns automatic exploration back on");
                     InputSystem.QueueStateEvent(keyboard,new KeyboardState());
                     Check(Mathf.Abs(owner.GrandmaFootPosition.x-autoStart.x)>.5f&&Mathf.Abs(owner.GrandmaFootPosition.y-autoStart.y)>.1f&&owner.ShotsFired>0,"Automatic hunting approaches enemies on X/Y and fires without movement input");
-                    Snapshot("auto-hunt");previousPhase=owner.Phase;startingCaptives=0;step=3;return;
+                    Snapshot("auto-hunt");step=3;return;
+                }
+                if (step == 3 || step == 20 || step == 21 || step == 22)
+                {
+                    bossFreeFrames++;
+                    if (owner.Boss.gameObject.activeSelf || owner.IsCaptureSequence || owner.Phase == DefensePhase.BossArrival || owner.Phase == DefensePhase.BossFight)
+                        throw new Exception("A boss/capture phase appeared during wave-only progression");
+                    if (owner.Phase == DefensePhase.Failed)
+                        throw new Exception("Natural wave combat failed at Stage " + owner.CurrentStageId);
                 }
                 if (step == 3)
                 {
@@ -240,93 +304,74 @@ namespace HunterGrandma.Editor
                         if (!seenMelt && zombie.IsMelting) { seenMelt = true; Snapshot("zombie-melt"); }
                         if (owner.CurrentStageId == 4 && zombie.IsAlive && zombie.transform.position.x < owner.GrandmaX) seenLeft = true;
                     }
-                    if (owner.Phase == DefensePhase.Failed) throw new Exception("Natural combat failed at Stage " + owner.CurrentStageId + "; health depleted before capture");
-                    if (owner.Phase != previousPhase)
+                    if (owner.Phase != DefensePhase.Clear) return;
+                    int id = owner.CurrentStageId;
+                    Check(owner.Run.WavesCleared && owner.Run.Settled && !owner.Run.BossSubdued && !owner.Run.ReturnedToYard && !owner.AtYard, "Stage " + id + ": waves settle directly to CLEAR at the hunting location");
+                    Check(owner.WaveNumber == owner.CurrentStage.WaveCount && owner.KillCount == owner.CurrentStage.WaveCount * owner.CurrentStage.EnemiesPerWave && owner.ActiveZombieCount == 0, "Stage " + id + ": every configured normal zombie is defeated before CLEAR");
+                    Check(owner.Progress.CaptiveCount == 0 && owner.Progress.Stage(id).capturedCount == 0 && owner.LastCaptive == null && !owner.Boss.gameObject.activeSelf, "Stage " + id + ": no boss, cart settlement or fabricated captive");
+                    Check(owner.Progress.Stage(id).clearCount == (repeat ? 2 : 1), "Stage " + id + ": exactly one clear is credited for this run");
+                    Check(!owner.CanMoveOnBelt && !owner.IsCombatPhase && !GameObject.Find("Boss health panel"), "Stage " + id + ": CLEAR stops movement/combat and has no boss HUD");
+                    var disk = new DefenseProgressStore(Profile).Load();
+                    Check(disk.Stage(id).clearCount == owner.Progress.Stage(id).clearCount && disk.CaptiveCount == 0, "Stage " + id + ": wave-only clear is saved before advancing");
+                    runs.Add("Stage " + id + ": " + owner.Elapsed.ToString("F1") + " simulated seconds, " + owner.KillCount + " kills, " + owner.ShotsFired + " shots, " + owner.DefenseHealth + " HP; no boss/capture");
+                    Snapshot("stage-clear-" + id);
+                    if (repeat)
                     {
-                        previousPhase = owner.Phase;
-                        if (owner.Phase == DefensePhase.BossFight)
-                        {
-                            Snapshot("boss-"+owner.CurrentStageId);
-                            if(owner.CurrentStageId==0&&!repeat&&!dodgeDone){dodgePending=true;bossStarted=owner.Elapsed;if(owner.AutoExplore)owner.ToggleAutoExplore();}
-                        }
-                        if (owner.Phase == DefensePhase.Subdued)
-                        {
-                            subduedFoot=owner.Boss.transform.position;
-                            seenSubdued = true; subduedShots = owner.ShotsFired;
-                            Check(owner.Boss.IsSubdued && owner.Boss.gameObject.activeSelf && owner.Progress.CaptiveCount == startingCaptives, "Stage " + owner.CurrentStageId + ": subdual keeps the host body without granting an early capture");
-                            Check(!owner.CanOpenMap, "Stage " + owner.CurrentStageId + ": map travel is blocked during capture");
-                            if (!repeat) Check(owner.Boss.PatternAttackCount > 0, "Stage " + owner.CurrentStageId + ": signature boss attack executed");
-                            if (owner.CurrentStageId == 6) Check(owner.Boss.HealUses > 0 && owner.Boss.HealUses <= 2, "Doctor uses bounded self-heal and summons");
-                            if (owner.CurrentStageId == 1) Snapshot("subdued-host");
-                        }
-                        if (owner.Phase == DefensePhase.LoadingCart)
-                        {
-                            seenLoad=true;
-                            Check(Vector2.Distance(subduedFoot,owner.Boss.transform.position)<.001f,"Subdued boss stays at its belt foot position until loading starts");
-                        }
-                        if (owner.Phase == DefensePhase.Returning)
-                        {
-                            seenReturn = true;
-                            Check(owner.Boss.transform.parent.name == "Capture cart" && owner.ShotsFired == subduedShots, "Stage " + owner.CurrentStageId + ": intact host is loaded on the cart and shooting stays stopped");
-                            Transform cart=owner.Boss.transform.parent;
-                            Check(Mathf.Abs(cart.position.x-(subduedFoot.x-.8f))<.15f&&Mathf.Abs(cart.position.y-subduedFoot.y)<.15f,"Cart loads at the actual subdual X/Y location");
-                            Check(owner.Progress.CaptiveCount == startingCaptives, "Stage " + owner.CurrentStageId + ": returning cart has not yet settled a reward");
-                            if (owner.CurrentStageId == 1) Snapshot("cart-return");
-                        }
+                        Check(owner.Progress.Stage(0).firstClearAt == firstClear && owner.Progress.Stage(0).clearCount == 2, "Replaying Stage 0 preserves first-clear time and increments only the clear count");
+                        Click("지도  M"); Click("Region 5"); Snapshot("map-unlocked"); Snapshot("map-unlocked-4x3", 1024, 768);
+                        Check(Button("Travel to selected region").interactable, "Completed Stage 6 remains selectable for another wave-only hunt");
+                        Click("Close map"); Check(owner.EnterStage(1), "A completed district can be re-entered"); step = 4; return;
                     }
-                    if(dodgePending&&owner.Phase==DefensePhase.BossFight&&owner.Elapsed-bossStarted>=.7f)
+                    completed++;
+                    if (id == 0) firstClear = owner.Progress.Stage(0).firstClearAt;
+                    if (!owner.HasNextStage)
                     {
-                        dodgeStart=owner.GrandmaFootPosition;dodgeHealth=owner.DefenseHealth;
-                        InputSystem.QueueStateEvent(keyboard,new KeyboardState(dodgeStart.y>BeltSpace.CenterDepth?Key.S:Key.W));step=19;return;
+                        Check(completed == DefenseStages.Count && !owner.IsAdvancingStage && owner.StateText == "ALL STAGES CLEAR", "The last stage ends the finite campaign without a nonexistent next stage");
+                        Snapshot("all-stages-clear"); waitUntil = EditorApplication.timeSinceStartup + .5; step = 22; return;
                     }
-                    if (owner.Phase == DefensePhase.Clear)
+                    Check(owner.IsAdvancingStage && owner.Progress.IsUnlocked(id + 1), "Stage " + id + ": CLEAR unlocks the next stage and schedules automatic travel");
+                    if (id + 2 < DefenseStages.Count) Check(!owner.Progress.IsUnlocked(id + 2), "Stage " + id + ": later stages stay locked");
+                    // Spend only naturally earned funds, as in the previous full-stage suite.
+                    owner.TryUpgradeAttack(); owner.TryUpgradeFireRate();
+                    previousRun = owner.Run.Id; transitionGold = owner.Progress.Gold;
+                    if (id == 0)
                     {
-                        Check(seenSubdued && seenLoad && seenReturn && owner.AtYard && owner.Run.Settled, "Stage " + owner.CurrentStageId + ": full subdual, loading, return, yard, CLEAR sequence");
-                        Check(owner.LastCaptive != null && owner.Progress.CaptiveCount == startingCaptives + 1 && owner.LastCaptive.returnedToYard, "Stage " + owner.CurrentStageId + ": exactly one new captive is settled at home");
-                        runs.Add("Stage " + owner.CurrentStageId + ": " + owner.Elapsed.ToString("F1") + " simulated seconds, " + owner.KillCount + " kills, " + owner.ShotsFired + " shots, " + owner.BreachCount + " breaches, " + owner.DefenseHealth + " HP, boss attacks " + owner.Boss.PatternAttackCount);
-                        if (owner.CurrentStageId == 0 && !repeat) { firstDog = owner.LastCaptive.captiveId; firstClear = owner.Progress.Stage(0).firstClearAt; Snapshot("yard-dog"); }
-                        if (owner.CurrentStageId == 1) Snapshot("yard-human");
-                        if (owner.CurrentStageId == 6 && !repeat) Snapshot("all-stages-clear");
-                        if (repeat)
-                        {
-                            Check(owner.Progress.Stage(0).clearCount == 2 && owner.Progress.Stage(0).capturedCount == 2 && owner.LastCaptive.captiveId != firstDog && owner.Progress.Stage(0).firstClearAt == firstClear, "Actual Stage 0 replay adds a different dog and preserves the first clear");
-                            Check(owner.LastCaptive.appearance.StartsWith("동네 강아지"), "Repeat dog is a new neighborhood animal rather than resurrected Kongi");
-                            Click("지도  M"); Click("Region 5"); Snapshot("map-unlocked"); Snapshot("map-unlocked-4x3", 1024, 768);
-                            Check(Button("Travel to selected region").interactable, "Cleared Stage 6 remains selectable for repeat capture");
-                            Click("Close map"); Check(owner.EnterStage(1), "Cleared district can be re-entered"); step = 4; return;
-                        }
-                        completed++; startingCaptives = owner.Progress.CaptiveCount; seenSubdued = seenLoad = seenReturn = false;
-                        if (completed == 7) { repeat = true; Check(owner.EnterStage(0), "All seven stages cleared; replay Stage 0"); }
-                        else
-                        {
-                            Check(owner.Progress.IsUnlocked(completed), "First clear unlocks Stage " + completed);
-                            if (completed < 6) Check(!owner.Progress.IsUnlocked(completed + 1), "Later stages stay locked after Stage " + (completed - 1));
-                            owner.TryUpgradeAttack(); owner.TryUpgradeFireRate();
-                            Check(owner.EnterStage(completed), "Enter next unlocked stage " + completed);
-                        }
-                        previousPhase = owner.Phase;
+                        Click("지도  M"); pausedClearRemaining = owner.StageClearRemaining;
+                        waitUntil = EditorApplication.timeSinceStartup + .35; step = 20;
                     }
+                    else step = 21;
                     return;
                 }
-                if(step==19&&owner.Elapsed-bossStarted>=3.1f)
+                if (step == 20 && EditorApplication.timeSinceStartup >= waitUntil)
                 {
-                    Check(owner.Boss.PatternAttackCount>0&&Mathf.Abs(owner.GrandmaFootPosition.y-dodgeStart.y)>.9f,"Movement keys leave the depth lane targeted by the boss telegraph");
-                    Check(owner.DefenseHealth==dodgeHealth,"A boss charge misses after grandma moves out of its depth lane");
-                    Snapshot("boss-depth-dodge");InputSystem.QueueStateEvent(keyboard,new KeyboardState());
-                    if(!owner.AutoExplore)owner.ToggleAutoExplore();dodgePending=false;dodgeDone=true;previousPhase=owner.Phase;step=3;return;
+                    Check(owner.CurrentStageId == 0 && owner.IsPaused && Mathf.Abs(owner.StageClearRemaining - pausedClearRemaining) < .001f && owner.Progress.Stage(0).clearCount == 1, "Map pause freezes the CLEAR countdown without duplicating its settlement");
+                    Click("Close map"); Check(!owner.IsPaused, "Closing the map resumes automatic stage transition"); step = 21; return;
+                }
+                if (step == 21)
+                {
+                    if (owner.CurrentStageId == completed - 1) return;
+                    Check(owner.CurrentStageId == completed && owner.Phase == DefensePhase.Waves && owner.Run.Id != previousRun, "Automatically enter Stage " + completed + " without a map selection or EnterStage call");
+                    Check(owner.Run.EarnedGold == 0 && owner.KillCount == 0 && owner.ShotsFired == 0 && owner.DefenseHealth == 100 && !owner.IsPaused, "Stage " + completed + ": new run counters/health reset while the campaign continues");
+                    Check(owner.Progress.Gold == transitionGold && owner.Progress.CaptiveCount == 0 && owner.Progress.Stage(completed - 1).clearCount == 1, "Stage " + completed + ": gold, upgrades and the previous clear survive automatic travel");
+                    step = 3; return;
+                }
+                if (step == 22 && EditorApplication.timeSinceStartup >= waitUntil)
+                {
+                    Check(owner.CurrentStageId == DefenseStages.Count - 1 && owner.Phase == DefensePhase.Clear && owner.Progress.Stage(6).clearCount == 1 && owner.ActiveZombieCount == 0, "Final CLEAR remains stable for multiple transition intervals and grants no repeated clear");
+                    Check(bossFreeFrames > 0, "Every observed natural combat/transition frame remained free of bosses and capture phases");
+                    repeat = true; Check(owner.EnterStage(0), "All seven stages completed; replay Stage 0"); step = 3; return;
                 }
                 if (step == 4 && owner.KillCount > 0)
                 {
-                    int gold = owner.Progress.Gold, count = owner.Progress.CaptiveCount;
-                    Check(owner.Retreat() && owner.Phase == DefensePhase.Retreated && owner.Progress.Gold == gold && owner.Progress.CaptiveCount == count && owner.Progress.Stage(1).clearCount == 1, "Retreat preserves earned gold and historical clears/captures without a new captive");
+                    int gold = owner.Progress.Gold;
+                    Check(owner.Retreat() && owner.Phase == DefensePhase.Retreated && owner.Progress.Gold == gold && owner.Progress.CaptiveCount == 0 && owner.Progress.Stage(1).clearCount == 1, "Retreat preserves earned gold and historical clears without another clear or captive");
                     owner.RestartEncounter(); owner.DamageDefense(100);
-                    Check(owner.Phase == DefensePhase.Failed && owner.Progress.Gold == gold && owner.Progress.CaptiveCount == count, "Defense failure grants no captive and keeps earned progress");
+                    Check(owner.Phase == DefensePhase.Failed && owner.Progress.Gold == gold && owner.Progress.CaptiveCount == 0 && owner.Progress.Stage(1).clearCount == 1, "Failure keeps progress and does not settle the unfinished wave run");
                     var saved = new DefenseProgressStore(Profile).Load();
-                    Check(saved.CaptiveCount == 8 && saved.Stage(0).clearCount == 2 && saved.Stage(6).clearCount == 1 && saved.Gold == gold, "Disk reload retains eight unique captives, all stage clears, upgrades, and gold");
-                    Check(saved.Captives.Select(c => c.captiveId).Distinct().Count() == 8 && saved.Captives.Select(c => c.sourceRunId).Distinct().Count() == 8, "All actual capture and run IDs are unique");
+                    Check(saved.CaptiveCount == 0 && saved.Stage(0).clearCount == 2 && saved.Stage(6).clearCount == 1 && saved.Gold == gold && saved.ShadowSkillEnabled == owner.Progress.ShadowSkillEnabled, "Disk reload retains all seven wave clears, replay count, gold and skill preference without captives");
                     Check(seenMelt && seenLeft, "Normal zombies visibly melt; plaza waves approach from both sides");
-                    owner.RestartEncounter(); Check(owner.Phase == DefensePhase.Waves && owner.KillCount == 0 && owner.Progress.CaptiveCount == 8, "Retry resets the encounter while keeping permanent progress");
-                    Check(errors.Count == 0, "No runtime errors, exceptions, or assertions during the complete stage suite"); Finish(null);
+                    owner.RestartEncounter(); Check(owner.Phase == DefensePhase.Waves && owner.KillCount == 0 && owner.Progress.CaptiveCount == 0, "Retry resets combat while keeping permanent progress");
+                    Check(errors.Count == 0, "No runtime errors, exceptions or assertions in the complete boss-free stage suite"); Finish(null);
                 }
             }
             catch (Exception exception) { Finish(exception.Message + "\n" + exception.StackTrace); }
@@ -334,14 +379,24 @@ namespace HunterGrandma.Editor
         private static void Finish(string failure)
         {
             Directory.CreateDirectory("Docs/Validation");
-            string report = "# 2D belt-scroll implementation validation\n\nUnity " + Application.unityVersion + " · " + DateTime.Now.ToString("yyyy-MM-dd HH:mm") + "\n\nStatus: " + (failure == null ? "PASS" : "FAIL") + "\n\nIsolated save: `Library/BeltScroll-validation.json`. The player profile is never reset or modified by this suite.\n\n";
+            string report = "# Boss-free automatic stage progression validation\n\nUnity " + Application.unityVersion + " · " + DateTime.Now.ToString("yyyy-MM-dd HH:mm") + "\n\nStatus: " + (failure == null ? "PASS" : "FAIL") + "\n\nIsolated save: `Library/BeltScroll-validation.json`. The player profile is never reset or modified by this suite. Ordinary combat, automatic travel and replay run naturally; earned funds buy upgrades between stages. Synthetic keyboard input is game-test input, without computer-use tools. Legacy capture model cases verify old-save compatibility only.\n\n";
             report += string.Join("\n", checks.Select(c => "- PASS: " + c)) + "\n\n" + string.Join("\n", runs.Select(r => "- " + r));
             if (failure != null) report += "\n\nFailure: " + failure;
             if (errors.Count > 0) report += "\n\nRuntime errors:\n" + string.Join("\n", errors);
+            if (environmentErrors.Count > 0) report += "\n\nSeparate Unity Editor Search startup/indexing errors (not gameplay):\n" + string.Join("\n", environmentErrors);
+            if (Application.isBatchMode) report += "\n\nExecution: isolated Unity batchmode / nographics. Native UI/computer-use tools and visual screenshot verification were not used.\n";
             File.WriteAllText("Docs/Validation/BeltScroll-validation.md", report);
             if (keyboard != null && keyboard.added) InputSystem.RemoveDevice(keyboard);
+            if (inputRoutingChanged)
+            {
+                InputSystem.settings.backgroundBehavior = previousBackgroundBehavior;
+                InputSystem.settings.editorInputBehaviorInPlayMode = previousEditorInputBehavior;
+                inputRoutingChanged = false;
+            }
             SessionState.SetBool(RunningKey, false); DefenseProgressStore.EditorValidationPath = null; Time.timeScale = 1f;
             Debug.Log("Hunter Grandma belt-scroll validation: " + (failure == null ? "PASS (" + checks.Count + " checks)" : "FAIL: " + failure));
+            if (SessionState.GetBool(BatchKey, false))
+            { SessionState.SetInt(BatchKey + ".ExitCode", failure == null ? 0 : 1); SessionState.SetBool(BatchDoneKey, true); }
             EditorApplication.ExitPlaymode();
         }
     }

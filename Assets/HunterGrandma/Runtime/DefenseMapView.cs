@@ -150,11 +150,11 @@ namespace HunterGrandma
             bool ongoing = index == encounter.CurrentStageId && encounter.Phase != DefensePhase.Clear && encounter.Phase != DefensePhase.Failed && encounter.Phase != DefensePhase.Retreated;
             currentLocation.text = "현재 위치  ·  " + encounter.LocationName;
             selectedTitle.text = stage.Name;
-            description.text = "보스  ·  " + stage.BossName + "\n" + stage.WaveCount + " WAVE  ·  " + stage.WaveDescription + "\n제압 → 수레 적재 → 집 마당 귀환";
+            description.text = stage.WaveCount + " WAVE  ·  " + stage.WaveDescription + "\n일반 좀비를 모두 소탕하면 STAGE CLEAR\n" + (index + 1 < DefenseStages.Count ? "완료 후 다음 스테이지로 자동 이동" : "마지막 스테이지 · 완료 후 전체 CLEAR");
             destinationCode.text = "STAGE " + index + "   /   " + (!unlocked ? "잠김" : ongoing ? "진행 중" : record.clearCount > 0 ? "CLEAR" : "도전 가능");
-            instructions.text = "CLEAR " + record.clearCount + "회  ·  포획 " + record.capturedCount + "개체\n" + (unlocked ? "매 사냥마다 새로운 감염체를 포획합니다.\n이동·후퇴 시 (미정)재화는 보존됩니다." : "이전 Stage를 CLEAR하면 열립니다.");
+            instructions.text = "CLEAR " + record.clearCount + "회\n" + (unlocked ? "웨이브 소탕으로 다음 Stage가 열립니다.\n이동·후퇴 시 (미정)재화는 보존됩니다." : "이전 Stage를 CLEAR하면 열립니다.");
             travelButton.interactable = unlocked;
-            travelCaption.text = !unlocked ? "잠김 · 이전 Stage CLEAR 필요" : ongoing ? "현재 사냥 계속하기" : record.clearCount > 0 ? "다시 사냥 · 새 감염체 포획  →" : "이 구역에서 사냥 시작  →";
+            travelCaption.text = !unlocked ? "잠김 · 이전 Stage CLEAR 필요" : ongoing ? "현재 사냥 계속하기" : record.clearCount > 0 ? "이 구역에서 다시 사냥  →" : "이 구역에서 사냥 시작  →";
             homeImage.color = index == 0 ? gold : paper;
             homeLabel.text = "STAGE 0 · 할머니 집   /   " + State(0);
             for (int i = 0; i < pins.Length; i++)
@@ -170,7 +170,7 @@ namespace HunterGrandma
         {
             if (!encounter.Progress.IsUnlocked(id)) return "잠김";
             DistrictProgress record = encounter.Progress.Stage(id);
-            return record.clearCount > 0 ? "CLEAR " + record.clearCount + " · 포획 " + record.capturedCount : id == encounter.CurrentStageId ? "진행 중" : "도전 가능";
+            return record.clearCount > 0 ? "CLEAR " + record.clearCount : id == encounter.CurrentStageId ? "진행 중" : "도전 가능";
         }
 
         private void ConfirmTravel()

@@ -30,17 +30,19 @@ namespace HunterGrandma
         public int EarnedGold { get; private set; }
         public bool BossSubdued { get; private set; }
         public bool ReturnedToYard { get; private set; }
+        public bool WavesCleared { get; private set; }
         public bool Abandoned { get; private set; }
         public bool Settled { get; private set; }
         public DefenseRun(int stageId) { StageId = stageId; }
         public void AddGold(int gold) { if (!Settled && !Abandoned) EarnedGold += Math.Max(0, gold); }
         public void SubdueBoss() { if (!Abandoned) BossSubdued = true; }
         public void ReturnToYard() { if (BossSubdued && !Abandoned) ReturnedToYard = true; }
+        public void CompleteWaves() { if (!Settled && !Abandoned) WavesCleared = true; }
         public void Abandon() { if (!Settled) Abandoned = true; }
         internal void Settle() { Settled = true; }
     }
 
-    // Persistent rewards belong here; presentation never grants a capture on its own.
+    // Persistent rewards belong here; clearing waves does not fabricate a captive.
     public sealed class DefenseProgress
     {
         private readonly DefenseSaveData data;
@@ -79,6 +81,19 @@ namespace HunterGrandma
             if (FireRateLevel >= 15 || Gold < FireRateCost) return false;
             data.gold -= FireRateCost; data.fireRateLevel++; return true;
         }
+        public bool TryCompleteWaves(DefenseRun run)
+        {
+            if (run == null || !IsUnlocked(run.StageId) || run.Abandoned || run.Settled || !run.WavesCleared) return false;
+            RecordClear(run.StageId, DateTime.UtcNow.ToString("O"));
+            run.Settle();
+            return true;
+        }
+        private void RecordClear(int stageId, string clearedAt)
+        {
+            DistrictProgress district = Stage(stageId);
+            if (district.clearCount == 0) district.firstClearAt = clearedAt;
+            district.clearCount = (int)Math.Min(int.MaxValue, (long)district.clearCount + 1);
+        }
         public bool TryComplete(DefenseRun run, string appearance, out DefenseCaptive captive)
         {
             captive = null;
@@ -93,8 +108,8 @@ namespace HunterGrandma
             };
             data.captives.Add(captive);
             DistrictProgress district = Stage(run.StageId);
-            if (district.clearCount == 0) district.firstClearAt = captive.capturedAt;
-            district.clearCount++; district.capturedCount++;
+            RecordClear(run.StageId, captive.capturedAt);
+            district.capturedCount++;
             run.Settle();
             return true;
         }
@@ -116,7 +131,7 @@ namespace HunterGrandma
             for (int i = 0; i < DefenseStages.Count; i++)
             {
                 DistrictProgress stage = loaded.stages[i];
-                if (stage == null || stage.stageId != i || stage.clearCount != counts[i] || stage.capturedCount != counts[i] || (i > 0 && stage.clearCount > 0 && loaded.stages[i - 1].clearCount == 0))
+                if (stage == null || stage.stageId != i || stage.clearCount < counts[i] || stage.capturedCount != counts[i] || (i > 0 && stage.clearCount > 0 && loaded.stages[i - 1].clearCount == 0))
                     throw new FormatException("Invalid stage progression.");
             }
             return new DefenseProgress(loaded);

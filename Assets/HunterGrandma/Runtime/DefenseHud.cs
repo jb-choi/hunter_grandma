@@ -16,7 +16,7 @@ namespace HunterGrandma
         private Text heading, stageLabel, gold, status, pauseLabel, bossLabel, resultTitle, resultBody, saveWarning;
         private Image bossFill, fade;
         private GameObject bossPanel, resultPanel;
-        private Button mapButton, retryButton, retreatButton, upgradeToggleButton;
+        private Button mapButton, retryButton, retreatButton, upgradeToggleButton, resultRetryButton, resultMapButton;
         private DefenseMapView mapView;
         private DefenseUpgradeView upgradeView;
         private DefenseUiBuilder ui;
@@ -106,8 +106,8 @@ namespace HunterGrandma
             resultTitle = ui.TextAt(resultPanel.transform, "", 28, new Vector2(24, -22), new Vector2(414, 45), cream);
             resultBody = ui.TextAt(resultPanel.transform, "", 16, new Vector2(25, -82), new Vector2(410, 142), muted);
             resultBody.horizontalOverflow = HorizontalWrapMode.Wrap;
-            ui.MakeButton(resultPanel.transform, "한 번 더 사냥", new Vector2(24, 23), new Vector2(194, 48), encounter.RestartEncounter);
-            ui.MakeButton(resultPanel.transform, "지도 · 다음 구역", new Vector2(231, 23), new Vector2(206, 48), ToggleMap);
+            resultRetryButton = ui.MakeButton(resultPanel.transform, "한 번 더 사냥", new Vector2(24, 23), new Vector2(194, 48), encounter.RestartEncounter).GetComponentInParent<Button>();
+            resultMapButton = ui.MakeButton(resultPanel.transform, "지도 · 다음 구역", new Vector2(231, 23), new Vector2(206, 48), ToggleMap).GetComponentInParent<Button>();
             resultPanel.SetActive(false);
             saveWarning = ui.TextAt(root, "", 13, new Vector2(32, -246), new Vector2(680, 26), new Color(1f, .75f, .45f));
         }
@@ -173,7 +173,7 @@ namespace HunterGrandma
             gold.text = "(미정)재화  " + p.Gold;
             if (Time.unscaledTime >= gainUntil) gainFeedback.text = "이번 사냥 +" + encounter.Run.EarnedGold;
             upgradeView.Refresh();
-            status.text = "● " + encounter.StateText + "   ·   체력 " + encounter.DefenseHealth + "   ·   처치 " + encounter.KillCount + "   ·   포획 " + p.CaptiveCount;
+            status.text = "● " + encounter.StateText + "   ·   체력 " + encounter.DefenseHealth + "   ·   처치 " + encounter.KillCount;
             pauseLabel.text = encounter.IsPaused ? "계속하기" : "쉬기";
             mapButton.interactable = encounter.CanOpenMap; retryButton.interactable = !encounter.IsCaptureSequence;
             retreatButton.interactable = !encounter.IsCaptureSequence && encounter.Phase != DefensePhase.Clear && encounter.Phase != DefensePhase.Retreated && encounter.Phase != DefensePhase.Failed;
@@ -193,15 +193,16 @@ namespace HunterGrandma
             if (ended)
             {
                 bool clear = encounter.Phase == DefensePhase.Clear;
-                resultTitle.text = clear ? "STAGE CLEAR" : encounter.Phase == DefensePhase.Failed ? "방어선이 무너졌어요" : "이번 사냥에서 후퇴";
-                if (clear && encounter.LastCaptive != null)
+                resultTitle.text = clear ? (encounter.HasNextStage ? "STAGE CLEAR" : "ALL STAGES CLEAR") : encounter.Phase == DefensePhase.Failed ? "방어선이 무너졌어요" : "이번 사냥에서 후퇴";
+                resultRetryButton.gameObject.SetActive(!encounter.IsAdvancingStage);
+                resultMapButton.gameObject.SetActive(!encounter.IsAdvancingStage);
+                if (clear)
                 {
                     DistrictProgress record = p.Stage(encounter.CurrentStageId);
-                    string next = encounter.CurrentStageId < DefenseStages.Count - 1 ? "다음 구역 해금: " + DefenseStages.Get(encounter.CurrentStageId + 1).Name : "모든 구역 해금 완료 · 반복 포획 가능";
-                    string identity = encounter.CurrentStageId == 0 ? encounter.LastCaptive.appearance : encounter.CurrentStage.BossName + " · " + encounter.LastCaptive.appearance;
-                    resultBody.text = identity + "\n집 마당 수레에 무사히 도착 · 신규 포획 +1\n포획 ID  " + encounter.LastCaptive.captiveId.Substring(0, 8) + "\nCLEAR " + record.clearCount + "회  ·  이 구역 포획 " + record.capturedCount + "명\n" + next;
+                    string next = encounter.HasNextStage ? "다음: STAGE " + (encounter.CurrentStageId + 1) + " · " + DefenseStages.Get(encounter.CurrentStageId + 1).Name + "\n" + encounter.StageClearRemaining.ToString("F1") + "초 후 자동 이동" : "모든 스테이지를 완료했습니다.\n지도에서 다시 사냥할 구역을 선택할 수 있습니다.";
+                    resultBody.text = "일반 좀비 소탕 완료\n이번 사냥 (미정)재화 +" + encounter.Run.EarnedGold + "\nCLEAR " + record.clearCount + "회\n" + next;
                 }
-                else resultBody.text = "획득한 (미정)재화 +" + encounter.Run.EarnedGold + " 보존\n이번 사냥의 포획 보상은 없습니다.\n기존 CLEAR·포획 기록도 그대로입니다.\n강화 후 다시 도전할 수 있습니다.";
+                else resultBody.text = "획득한 (미정)재화 +" + encounter.Run.EarnedGold + " 보존\n기존 CLEAR 기록도 그대로입니다.\n강화 후 다시 도전할 수 있습니다.";
             }
             saveWarning.text = encounter.SaveWarning ? "저장에 실패했습니다. 잠시 후 자동으로 다시 시도합니다." : "";
         }
