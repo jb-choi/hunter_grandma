@@ -36,16 +36,18 @@ namespace HunterGrandma.Editor
             Sprite chair = File.Exists(openingArt + "sundeok_chair.png") ? Import(openingArt + "sundeok_chair.png", new Vector2(.5f, 3f / 64f), 16f) : null;
             Sprite[] portraits = ImportGrandmaPortraits(false), lockedPortraits = ImportGrandmaPortraits(true);
             SundeokAnimationSet animationSet = SundeokAnimationSetup.Configure();
+            AudioClip reloadSound = ImportReloadSound();
             Scene scene = SceneManager.GetSceneByPath(GrandmaProjectSetup.ScenePath);
             bool opened = !scene.isLoaded;
             if (opened) scene = EditorSceneManager.OpenScene(GrandmaProjectSetup.ScenePath, OpenSceneMode.Additive);
             bool wasDirty = scene.isDirty, changed = false;
-            if (animationSet != null)
-                foreach (GrandmaShooter shooter in scene.GetRootGameObjects().SelectMany(r => r.GetComponentsInChildren<GrandmaShooter>(true)))
+            foreach (GrandmaShooter shooter in scene.GetRootGameObjects().SelectMany(r => r.GetComponentsInChildren<GrandmaShooter>(true)))
                 {
                     var actor = new SerializedObject(shooter);
-                    if (actor.FindProperty("animationSet").objectReferenceValue != animationSet)
+                    if (animationSet != null && actor.FindProperty("animationSet").objectReferenceValue != animationSet)
                     { actor.FindProperty("animationSet").objectReferenceValue = animationSet; actor.ApplyModifiedPropertiesWithoutUndo(); changed = true; }
+                    if (reloadSound != null && actor.FindProperty("reloadSound").objectReferenceValue != reloadSound)
+                    { actor.FindProperty("reloadSound").objectReferenceValue = reloadSound; actor.ApplyModifiedPropertiesWithoutUndo(); changed = true; }
                 }
             foreach (GrandmaDefense encounter in scene.GetRootGameObjects().SelectMany(r => r.GetComponentsInChildren<GrandmaDefense>(true)))
             {
@@ -107,6 +109,22 @@ namespace HunterGrandma.Editor
             }
             if (changed) { EditorSceneManager.MarkSceneDirty(scene); if (!wasDirty || opened) EditorSceneManager.SaveScene(scene); }
             if (opened) EditorSceneManager.CloseScene(scene, true);
+        }
+        private static AudioClip ImportReloadSound()
+        {
+            const string path = "Assets/HunterGrandma/Audio/sundeok_reload_clack.wav";
+            if (!File.Exists(path)) return null;
+            AssetDatabase.ImportAsset(path);
+            var importer = AssetImporter.GetAtPath(path) as AudioImporter;
+            if (importer == null) return null;
+            AudioImporterSampleSettings settings = importer.defaultSampleSettings;
+            if (settings.loadType != AudioClipLoadType.DecompressOnLoad || settings.compressionFormat != AudioCompressionFormat.PCM || settings.sampleRateSetting != AudioSampleRateSetting.PreserveSampleRate || !settings.preloadAudioData || importer.loadInBackground)
+            {
+                settings.loadType = AudioClipLoadType.DecompressOnLoad; settings.compressionFormat = AudioCompressionFormat.PCM;
+                settings.sampleRateSetting = AudioSampleRateSetting.PreserveSampleRate; settings.preloadAudioData = true; importer.defaultSampleSettings = settings;
+                importer.loadInBackground = false; importer.SaveAndReimport();
+            }
+            return AssetDatabase.LoadAssetAtPath<AudioClip>(path);
         }
         private static Sprite[] ImportGrandmaPortraits(bool locked)
         {

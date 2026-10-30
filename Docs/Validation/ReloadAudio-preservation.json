@@ -1,0 +1,68 @@
+{
+  "TestedCopy": [
+    {
+      "Path": "Assets/HunterGrandma/Runtime/GrandmaShooter.cs",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Runtime/SundeokAnimationPlayer.cs",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Editor/GrandmaStageSetup.cs",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Editor/GrandmaProjectSetup.cs",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Editor/GrandmaReloadAudioValidation.cs",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Scenes/GrandmaDefense.unity",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Audio/sundeok_reload_clack.wav",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Audio/sundeok_reload_clack.wav.meta",
+      "MatchesTestedCopy": true
+    }
+  ],
+  "Protected": [
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\ProjectSettings.asset",
+      "Before": "51CC2ECE34ADA65AE535FF1B315B6B7A49C10CFF83D7F0049CE99524B2E3DFC1",
+      "After": "51CC2ECE34ADA65AE535FF1B315B6B7A49C10CFF83D7F0049CE99524B2E3DFC1",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\EditorBuildSettings.asset",
+      "Before": "F740E5E08068D756B1838E970176A1BC95003D1B2A75CDB5556353742BE25153",
+      "After": "F740E5E08068D756B1838E970176A1BC95003D1B2A75CDB5556353742BE25153",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Packages\\manifest.json",
+      "Before": "EADB2409E74E98314259257A36E15BE39D62670F2C8E7B3DCD6FE80EB6388242",
+      "After": "EADB2409E74E98314259257A36E15BE39D62670F2C8E7B3DCD6FE80EB6388242",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Sundeok120\\Sundeok120AnimationSet.asset",
+      "Before": "53889CCF6C3A8E0A4A041E6B88D168CD100817DAC60C808E1B9523AF38B5916D",
+      "After": "53889CCF6C3A8E0A4A041E6B88D168CD100817DAC60C808E1B9523AF38B5916D",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\Users\\Junbeom_Choi\\AppData\\LocalLow\\DefaultCompany\\Hunter_grandma\\HunterGrandma\\stage-progress-v1.json",
+      "Before": "61DC595FD9D9083E99B5FA521DB913905692F0CD01585B6AC2BDAACEB70C3320",
+      "After": "61DC595FD9D9083E99B5FA521DB913905692F0CD01585B6AC2BDAACEB70C3320",
+      "Unchanged": true
+    }
+  ]
+}

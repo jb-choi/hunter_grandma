@@ -43,6 +43,7 @@ namespace HunterGrandma.Editor
             else if (command == "validate-upgrades") GrandmaUiValidation.BeginUpgradeConnection();
             else if (command == "validate-opening") GrandmaOpeningValidation.Begin();
             else if (command == "validate-animation") SundeokAnimationValidation.Begin();
+            else if (command == "validate-reload") GrandmaReloadAudioValidation.Begin();
             else if (command == "validate-skill") GrandmaShadowSkillValidation.Begin();
             else if (command == "investigate-skill") GrandmaSkillInvestigation.Begin(false);
             else if (command == "demo-skill") GrandmaSkillInvestigation.Begin(true);

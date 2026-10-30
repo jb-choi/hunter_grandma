@@ -8,9 +8,10 @@ namespace HunterGrandma
         private readonly SundeokAnimationSet data;
         private readonly BeltActorVisual visual;
         private readonly SpriteRenderer upper;
+        private readonly System.Action reloadSound;
         private SundeokAction? special;
         private float specialTime, idleTime, walkTime, aimTime, cycleSpeed = 1, aimSpeed = 1, nextShot;
-        private bool aiming, visible = true, collectPending, wasWalking;
+        private bool aiming, visible = true, collectPending, wasWalking, reloadSoundPlayed;
         private int firedFrame = -1;
         public SundeokAction Action { get; private set; }
         public int FrameIndex { get; private set; }
@@ -20,9 +21,9 @@ namespace HunterGrandma
         public Vector2 MuzzleOffset { get; private set; }
         public float AnimationTime => special.HasValue ? specialTime : Action == SundeokAction.Walk ? walkTime : Action == SundeokAction.Aim ? aimTime : idleTime;
 
-        public SundeokAnimationPlayer(SundeokAnimationSet data, BeltActorVisual visual)
+        public SundeokAnimationPlayer(SundeokAnimationSet data, BeltActorVisual visual, System.Action reloadSound = null)
         {
-            this.data = data; this.visual = visual;
+            this.data = data; this.visual = visual; this.reloadSound = reloadSound;
             var obj = new GameObject("120px upper body", typeof(SpriteRenderer)); obj.transform.SetParent(visual.Display, false);
             upper = obj.GetComponent<SpriteRenderer>(); upper.sharedMaterial = visual.Body.sharedMaterial; upper.sortingOrder = visual.Body.sortingOrder + 1;
             Reset();
@@ -30,7 +31,7 @@ namespace HunterGrandma
         public void Reset()
         {
             special = null; specialTime = idleTime = walkTime = aimTime = nextShot = 0;
-            aiming = collectPending = wasWalking = false; firedFrame = -1; cycleSpeed = aimSpeed = 1;
+            aiming = collectPending = wasWalking = reloadSoundPlayed = false; firedFrame = -1; cycleSpeed = aimSpeed = 1;
             Render(false, 1);
         }
         public void SetVisible(bool value) { visible = value; visual.Body.enabled = value; if (!value) upper.enabled = false; }
@@ -50,6 +51,7 @@ namespace HunterGrandma
         {
             cycleSpeed = (data.Clip(SundeokAction.Fire).Duration + data.Clip(SundeokAction.Reload).Duration) / Mathf.Max(.05f, interval);
             special = SundeokAction.Fire;
+            reloadSoundPlayed = false;
             // The first authored frame is shown just before the scheduled shot. Commit at the FX frame.
             specialTime = data.Clip(SundeokAction.Fire).frames[0].duration;
             firedFrame = Time.frameCount; Render(walking, facing);
@@ -63,7 +65,7 @@ namespace HunterGrandma
         }
         public void InterruptCollect() { if (IsCollecting) { special = null; specialTime = 0; } }
         public void StopCombat()
-        { special = null; aiming = collectPending = false; specialTime = 0; }
+        { special = null; aiming = collectPending = reloadSoundPlayed = false; specialTime = 0; }
         public void Advance(float dt, bool walking, float facing)
         {
             if (dt <= 0) return;
@@ -80,6 +82,9 @@ namespace HunterGrandma
                     else { special = null; specialTime = 0; }
                 }
             }
+            // The hand reaches the loading action at frame 2. Crossing the time also catches skipped frames.
+            if (special == SundeokAction.Reload && !reloadSoundPlayed && specialTime >= data.Clip(SundeokAction.Reload).frames[0].duration)
+            { reloadSoundPlayed = true; reloadSound?.Invoke(); }
             if (!walking && !aiming) TryCollect();
             Render(walking, facing);
         }

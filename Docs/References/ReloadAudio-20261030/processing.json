@@ -1,0 +1,11 @@
+{
+  "source_sha256": "33e007321ba83301c861aef573f2c40b70bc62f8f24c0164877e6dd123e24371",
+  "output_sha256": "c9ba3c5ca510fbe392b1d4b4ddfa1e6a6105838426b350a1873b1f89baa72d60",
+  "rate": 44100,
+  "channels": 1,
+  "bits": 16,
+  "seconds": 0.4363265306122449,
+  "peak": 0.8,
+  "rms": 0.2109492967427521,
+  "changes": "mono downmix; remove 37.5ms lead; remove DC; normalize peak to .80; 2ms/12ms fades; no tempo/pitch processing"
+}

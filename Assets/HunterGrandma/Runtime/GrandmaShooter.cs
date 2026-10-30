@@ -10,8 +10,12 @@ namespace HunterGrandma
         [SerializeField] private SundeokAnimationSet animationSet;
         [SerializeField] private Vector2 muzzleOffset = new Vector2(1.1875f, 2.5625f);
         [SerializeField, Range(0f, 1f)] private float shotVolume = 0.16f;
+        [SerializeField] private AudioClip reloadSound;
+        [SerializeField, Range(0f, 1f)] private float reloadVolume = .13f;
         private SpriteRenderer spriteRenderer;
         private AudioSource audioSource;
+        private AudioSource reloadAudioSource;
+        private bool reloadAudioPaused;
         private AudioClip shotSound;
         private Vector3 restPosition;
         private float recoil;
@@ -36,13 +40,15 @@ namespace HunterGrandma
         public bool IsLayeredAnimation => animation != null && animation.IsLayered;
         public bool IsCollecting => animation != null && animation.IsCollecting;
         public float AnimationTime => animation != null ? animation.AnimationTime : 0;
+        public AudioClip ReloadSound => reloadSound;
+        public int ReloadSoundCues { get; private set; }
         public void SetPresentationVisible(bool visible)
-        { if (visual != null) { visual.Body.enabled = visible; visual.Shadow.enabled = visible; animation?.SetVisible(visible); } }
+        { if (!visible) StopReloadSound(); if (visual != null) { visual.Body.enabled = visible; visual.Shadow.enabled = visible; animation?.SetVisible(visible); } }
         public void InitializeBelt(GrandmaDefense owner, Sprite shadow)
         {
             encounter = owner; visual = gameObject.AddComponent<BeltActorVisual>();
             visual.Initialize(spriteRenderer, shadow, .8f); spriteRenderer = visual.Body;
-            if (animationSet != null && animationSet.IsReady) animation = new SundeokAnimationPlayer(animationSet, visual);
+            if (animationSet != null && animationSet.IsReady) animation = new SundeokAnimationPlayer(animationSet, visual, PlayReloadSound);
         }
         public void FaceTarget(float x)
         {
@@ -52,6 +58,7 @@ namespace HunterGrandma
         public void PresentTravel(Vector3 position, bool walking)
         {
             recoil = 0f;
+            StopReloadSound();
             if (animation == null) spriteRenderer.sprite = idleSprite;
             animation?.StopCombat();
             if (Mathf.Abs(position.x-transform.position.x)>.005f) FaceTarget(position.x);
@@ -81,6 +88,12 @@ namespace HunterGrandma
             audioSource = GetComponent<AudioSource>();
             audioSource.playOnAwake = false;
             audioSource.spatialBlend = 0f;
+            reloadAudioSource = gameObject.AddComponent<AudioSource>();
+            reloadAudioSource.playOnAwake = false;
+            reloadAudioSource.loop = false;
+            reloadAudioSource.spatialBlend = 0f;
+            reloadAudioSource.dopplerLevel = 0f;
+            reloadAudioSource.priority = 160;
             restPosition = transform.position;
             shotSound = CreateShotSound();
             ResetPose();
@@ -88,6 +101,7 @@ namespace HunterGrandma
 
         public void Fire()
         {
+            StopReloadSound();
             recoil = 0.14f;
             if (animation != null) animation.Fire(walking && motionFrame == Time.frameCount, facing, encounter.Progress.FireInterval);
             else spriteRenderer.sprite = firingSprite;
@@ -99,6 +113,7 @@ namespace HunterGrandma
 
         public void ResetPose()
         {
+            StopReloadSound(); ReloadSoundCues = 0;
             recoil = 0f;
             walking = false; walkAge = 0f;
             facing = 1f;
@@ -116,7 +131,33 @@ namespace HunterGrandma
         public void QueueCollect() { animation?.QueueCollect(); }
         public bool TryCollect() => animation != null && animation.TryCollect();
         public void InterruptCollect() { animation?.InterruptCollect(); }
-        public void StopCombatPresentation() { animation?.StopCombat(); }
+        public void StopCombatPresentation() { animation?.StopCombat(); StopReloadSound(); }
+
+        private void PlayReloadSound()
+        {
+            if (reloadSound == null || reloadAudioSource == null || !isActiveAndEnabled || reloadVolume <= 0 || audioSource.mute || audioSource.volume <= 0) return;
+            reloadAudioSource.outputAudioMixerGroup = audioSource.outputAudioMixerGroup;
+            reloadAudioSource.ignoreListenerPause = audioSource.ignoreListenerPause;
+            reloadAudioSource.clip = reloadSound;
+            // Keep the normal cadence's timbre; shorten faster reloads without changing the gunshot source.
+            reloadAudioSource.pitch = Mathf.Clamp(.72f / encounter.Progress.FireInterval, 1f, 3f);
+            reloadAudioSource.volume = audioSource.volume * reloadVolume;
+            reloadAudioSource.mute = audioSource.mute;
+            reloadAudioPaused = false;
+            reloadAudioSource.Play(); ReloadSoundCues++;
+        }
+        private void StopReloadSound()
+        { if (reloadAudioSource != null) reloadAudioSource.Stop(); reloadAudioPaused = false; }
+        private void UpdateReloadSound(bool frozen)
+        {
+            if (reloadAudioSource == null) return;
+            reloadAudioSource.mute = audioSource.mute;
+            reloadAudioSource.volume = audioSource.volume * reloadVolume;
+            if (frozen && !reloadAudioPaused && reloadAudioSource.isPlaying)
+            { reloadAudioSource.Pause(); reloadAudioPaused = true; }
+            else if (!frozen && reloadAudioPaused)
+            { reloadAudioSource.UnPause(); reloadAudioPaused = false; }
+        }
 
         private void Update()
         {
@@ -133,8 +174,11 @@ namespace HunterGrandma
         }
         private void LateUpdate()
         {
+            UpdateReloadSound(encounter != null && encounter.CombatDeltaTime <= 0f);
             if (animation != null) animation.Advance(encounter.CombatDeltaTime, walking && motionFrame == Time.frameCount, facing);
         }
+
+        private void OnDisable() { StopReloadSound(); }
 
         private static AudioClip CreateShotSound()
         {

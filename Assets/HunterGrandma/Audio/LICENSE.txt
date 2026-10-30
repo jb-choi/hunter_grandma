@@ -1,0 +1,18 @@
+Sundeok reload sound
+
+Original: shotguncock.wav (download filename shotguncock_0.wav)
+Creator: SpringySpringo
+Source: https://opengameart.org/content/gun-reload-sounds
+Download: https://opengameart.org/sites/default/files/shotguncock_0.wav
+License: CC0 1.0 Universal
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Retrieved: 2026-10-30
+
+The source page identifies these as the creator's airsoft gun recordings and
+marks the files CC0. Attribution is optional; it is retained here voluntarily.
+
+Runtime derivative: sundeok_reload_clack.wav
+Mono downmix, 37.5 ms lead trim, DC removal, peak normalization to 0.80,
+2 ms fade-in and 12 ms fade-out. No pitch or tempo edit in the WAV itself.
+Original download and SHA-256 processing record:
+Docs/References/ReloadAudio-20261030/

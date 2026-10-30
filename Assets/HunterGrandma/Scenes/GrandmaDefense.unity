@@ -337,6 +337,8 @@ MonoBehaviour:
   animationSet: {fileID: 11400000, guid: f2899606ca25a20419220de0647b0817, type: 2}
   muzzleOffset: {x: 1.1875, y: 2.5625}
   shotVolume: 0.16
+  reloadSound: {fileID: 8300000, guid: 061f9d36639a1aa4389ef6f657a84c26, type: 3}
+  reloadVolume: 0.13
 --- !u!82 &58138514
 AudioSource:
   m_ObjectHideFlags: 0
