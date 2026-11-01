@@ -19,7 +19,8 @@ namespace HunterGrandma.Editor
             Directory.CreateDirectory(Art + "Frames");
             string[] sources = { "S0_Dog_Spritesheet_CC0.png", "CyberCity/pizzaGuy.png", "S2_Salesperson_Source_96px_CC0.png", "S3_Pixel_Worker_Hardhat_CC0.png", "S4_Dancers_32px_CC0.png", "S5_Bodybuilder_CC0.png", "S6_Medical_Examiner_32px_CC0.png" };
             RectInt[] cells = { new RectInt(0,0,16,16), new RectInt(0,64,64,64), new RectInt(193,1,94,94), new RectInt(1,1,17,30), new RectInt(0,128,32,32), new RectInt(0,0,64,64), new RectInt(1,1,30,30) };
-            Sprite[] bosses = new Sprite[DefenseStages.Count];
+            // Historical boss art is retained; Stage 7 is a wave-only district.
+            Sprite[] bosses = new Sprite[sources.Length];
             for (int i = 0; i < bosses.Length; i++)
             {
                 string destination = Art + "Frames/boss_stage_" + i + "_64.png";
@@ -36,11 +37,22 @@ namespace HunterGrandma.Editor
             Sprite chair = File.Exists(openingArt + "sundeok_chair.png") ? Import(openingArt + "sundeok_chair.png", new Vector2(.5f, 3f / 64f), 16f) : null;
             Sprite[] portraits = ImportGrandmaPortraits(false), lockedPortraits = ImportGrandmaPortraits(true);
             SundeokAnimationSet animationSet = SundeokAnimationSetup.Configure();
+            ZombieAnimationSet zombieAnimations = ZombieAnimationSetup.Configure();
             AudioClip reloadSound = ImportReloadSound();
             Scene scene = SceneManager.GetSceneByPath(GrandmaProjectSetup.ScenePath);
             bool opened = !scene.isLoaded;
             if (opened) scene = EditorSceneManager.OpenScene(GrandmaProjectSetup.ScenePath, OpenSceneMode.Additive);
             bool wasDirty = scene.isDirty, changed = false;
+            if (zombieAnimations != null)
+                foreach (ZombieActor zombie in scene.GetRootGameObjects().SelectMany(r => r.GetComponentsInChildren<ZombieActor>(true)))
+                {
+                    var actor = new SerializedObject(zombie);
+                    if (actor.FindProperty("animationSet").objectReferenceValue != zombieAnimations)
+                    { actor.FindProperty("animationSet").objectReferenceValue = zombieAnimations; actor.ApplyModifiedPropertiesWithoutUndo(); changed = true; }
+                    var renderer = zombie.GetComponent<SpriteRenderer>();
+                    Sprite idle = zombieAnimations.Clip(ZombieKind.Infected, ZombieAction.Idle).frames[0];
+                    if (renderer.sprite != idle || !renderer.flipX) { renderer.sprite = idle; renderer.flipX = true; changed = true; }
+                }
             foreach (GrandmaShooter shooter in scene.GetRootGameObjects().SelectMany(r => r.GetComponentsInChildren<GrandmaShooter>(true)))
                 {
                     var actor = new SerializedObject(shooter);
@@ -75,7 +87,7 @@ namespace HunterGrandma.Editor
                         var shooter = (GrandmaShooter)serialized.FindProperty("grandma").objectReferenceValue;
                         var zombie = (ZombieActor)serialized.FindProperty("zombiePrefab").objectReferenceValue;
                         var dot = ((ShotTracer)serialized.FindProperty("tracerPrefab").objectReferenceValue).GetComponent<SpriteRenderer>();
-                        StageZeroOpeningView.Create(preview.transform, tea, chair, shooter.GetComponent<SpriteRenderer>().sprite, zombie.WalkFrames, dot.sprite, dot.sharedMaterial, false);
+                        StageZeroOpeningView.Create(preview.transform, tea, chair, shooter.GetComponent<SpriteRenderer>().sprite, zombie.WalkFrames, dot.sprite, dot.sharedMaterial, false, zombieAnimations);
                         changed = true;
                     }
                 }
@@ -86,6 +98,13 @@ namespace HunterGrandma.Editor
                 foreach (var binding in new[] { ("cartSprite", cart), ("coinSprite", coin) })
                     if (serialized.FindProperty(binding.Item1).objectReferenceValue != binding.Item2) { serialized.FindProperty(binding.Item1).objectReferenceValue = binding.Item2; changed = true; }
                 serialized.ApplyModifiedPropertiesWithoutUndo();
+                if (preview != null && zombieAnimations != null)
+                    foreach (SpriteRenderer renderer in preview.GetComponentsInChildren<SpriteRenderer>(true))
+                    {
+                        if (!renderer.name.StartsWith("Zombie outside ") && !renderer.name.StartsWith("Zombie · depth preview")) continue;
+                        Sprite pose = zombieAnimations.Attack(ZombieKind.Infected, .44f);
+                        if (renderer.sprite != pose || !renderer.flipX) { renderer.sprite = pose; renderer.flipX = true; changed = true; }
+                    }
             }
             foreach (DefenseHud hud in scene.GetRootGameObjects().SelectMany(r => r.GetComponentsInChildren<DefenseHud>(true)))
             {

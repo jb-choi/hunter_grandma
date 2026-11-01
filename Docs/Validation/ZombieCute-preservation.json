@@ -1,0 +1,1021 @@
+{
+  "Date": "2026-10-31",
+  "TestedCopy": [
+    {
+      "Path": "Assets/HunterGrandma/Art/Zombies120.meta",
+      "Hash": "D1CF9ACC76AD31B3AAF6E8C7A279BAEBF05F64A8E96127B9E4A7049732979543",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected.meta",
+      "Hash": "593B0BBCBB2B6416D918F6DFB08D5ABAA233972ECA46C8A995F77D69014C06A4",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large.meta",
+      "Hash": "5723582BA16C1825C68245A20F43699B4DFEC009A4A489624E3B5F807BF9F75D",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal.meta",
+      "Hash": "49547096E4D53C0003ACA469A2888F4D60DCC2BCAA79A3628E2D699324E8A9D1",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\README.md",
+      "Hash": "4DFEE18FE3797F8B3E8A20512DDDF4AD4E44753AFAD1BA5E84BC2C7354C72943",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\README.md.meta",
+      "Hash": "6436A79871B086842234E4878D7C348067A1C57888DD4711B8DA85AB7EF0B3B2",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Zombie120AnimationSet.asset",
+      "Hash": "7572BED7909E8F828F23541871930E759241A3A0C7E191D55347F6B5497B6833",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Zombie120AnimationSet.asset.meta",
+      "Hash": "D79E71F1FB08792B5C74379ED9E4CF3E66049A2622D0EA2CD8042A4D2CA67942",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_01.png",
+      "Hash": "E3D6CC6F6EDB2F177FB4983FCEB93A35FEF08FA72B9A5C92985882C7D0F1C06B",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_01.png.meta",
+      "Hash": "9DA6E3186ED1FCC8DF03F5CAAC38C4B0303437BDBC5950BDAB41D0A52C2D7EDF",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_02.png",
+      "Hash": "2A69F2DC155EA7B48FCBC1D54686781AFEB7DDF4F6533532E9B88530739009F0",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_02.png.meta",
+      "Hash": "04C5691E45ABC873115C464BD007CCF906D6F5438F5E65AAC073B9EFFEAC1535",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_03.png",
+      "Hash": "4BA0C8971F7CA98B776DD1BA4F49CC43EA083BEE2670BD4384B1C6556D2AFBEA",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_03.png.meta",
+      "Hash": "D83931C89905C3395BE5745CCFEF6915821A840FA06EC8EFB6F6AD93B0F0A7AC",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_04.png",
+      "Hash": "253AEC02963275384DB54CE0914D0409267AC0E0D773C67320C7C4A32A95828A",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_04.png.meta",
+      "Hash": "F37F20A4148E712BB9638EE61DCD687B5A916AB835FF2C64D601DAF02DBBAC13",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_05.png",
+      "Hash": "53DD2E3518ED80897C2B69C491068C1E1B9A978DEE0B3B0807ADB3F69D16715B",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_05.png.meta",
+      "Hash": "4271B09E94CD5A87094D3974755BB512C49BEFF987395B92FCFCADBFE2527677",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_06.png",
+      "Hash": "1F6258A8408D665330548C04F6C9A2C1B53A7C41340C401E9AB4B180676946C4",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_06.png.meta",
+      "Hash": "D179558D9F39DAFD0291E996B6962688D5384FEBC786DCD80240B18E8DCE0424",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_07.png",
+      "Hash": "967E74E6DF582AD67735B891D2DE4D9FE5BA832A080A636BCC10A4C535519851",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_07.png.meta",
+      "Hash": "247BCE2F8EE04A3729FAB4243304A5FD7E568699C41A2A6E3AFAB5F5D77BB559",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_08.png",
+      "Hash": "D267D0CAD020FDCBE1AF9A0E20DB07CBEA97078887F945B517E79F1CB4B5A01F",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_08.png.meta",
+      "Hash": "DAF5D732173E8CA7ECCA1BB8E00DC37AF56878891FE5BAC10647742349197AA2",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_09.png",
+      "Hash": "0E22424984102F6BA3103EE4BD233A7147722F5FEDE9C1D339AA3ABBC86D26B7",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_09.png.meta",
+      "Hash": "4D381839B11A9D98F0EF047EFFF0D1EF489A7F2C2F768B432F38D7ACAA05FC2C",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_10.png",
+      "Hash": "27C34AF0E726677F78EFB45FFA5F75C3E155454B92B50DC46457F3CFE0CA490C",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_10.png.meta",
+      "Hash": "3E688FE60EBC3688161CEF75A4F4DD2B0FE76DF8D3A0A7F65225CED6D05E89E0",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_11.png",
+      "Hash": "D3DD6D37F8BC9C6C6619551FC42D1CA9CADE725AC1EAE5A878DF9A96531EAB07",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_11.png.meta",
+      "Hash": "34A88C596C7D143D066E09DBCE82F4E1C8D14CFF75EFF87800D47D508FAC0A4D",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_12.png",
+      "Hash": "9CFFA2171E95FE3021E29F21EBD0E3D7166C23FA44E8BCCB545FD584C93EDE4F",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_12.png.meta",
+      "Hash": "1951EB6EB27863892441341AB3E74FFC3F004F7EBF0D7697F954DF3C93EC6AAA",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_13.png",
+      "Hash": "CFB057073E1896128F438F9A2CA28E501FF1B6028915BCB21185261E083FD041",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_13.png.meta",
+      "Hash": "0BDD29ACFB88D0F78FAA4D69C32B7A7321D2918C3394B217CB632911AAB1F0C0",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_14.png",
+      "Hash": "FE823E451CCE7B55428940B3B72CA5F532ADE915DF03DDE511FE0A87873D960B",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_14.png.meta",
+      "Hash": "8D5204BAF47B9F549008AE556D98E7A27401283F912D833DFB4C4DCE684A43EC",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_15.png",
+      "Hash": "7089475998E5F3EAB9598BA32E03A18134166B175CC1E900B56567B586AA663F",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_15.png.meta",
+      "Hash": "9FF0AE839B80196B452878E069AD7BD448C93C9C62AD7D2B648534191C6D0CD5",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_16.png",
+      "Hash": "C47C2C20E307BC6051B1D624408C4D76C97135E5091A171A351E30A23E792489",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_16.png.meta",
+      "Hash": "C67CD76B95945150BFEF40EE88F42F19EAF2116A55D9E430B619CB0A97C63F84",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_17.png",
+      "Hash": "A3336CCED580473D9236B7C114040D337741CEB44CE9B9AC6010911C0D89EFF7",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_17.png.meta",
+      "Hash": "39C963032A59F2BDE751B242FFC80D8EF2A6849CDBDE05F50F73AECFFA0C7375",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_18.png",
+      "Hash": "C16451468208DB5DF8478694DAB2861545FA428986CB757B182DDE290223A683",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_18.png.meta",
+      "Hash": "21A740B16D5961E3FFFB7487A4B2064A59B908E801EC9445F92518A56489B589",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_19.png",
+      "Hash": "82E73B685BB53F0D8021E1273734A906F00F93EB32B1FB5A68C58B36494D1205",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_19.png.meta",
+      "Hash": "ADB38B388122438CB3EF0380978906E5A9C032B3B3AE9F09310DC547F202103B",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_20.png",
+      "Hash": "BB72423F1250C4184ECA7F71C619A70FEBD52B33513B182069BE076C88BBF876",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_20.png.meta",
+      "Hash": "55DDD784C4500335E89929C09601E8162E1C90115B2FE0F3E80D4CAFB786B5D0",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_21.png",
+      "Hash": "F15685C19EDC9856B1228BA0134CAE68ADEAB0931D98B8FF5DE22A774651230D",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_21.png.meta",
+      "Hash": "B0BFC036B0B84D525A2D0CE1C612D43A469CEC02D3681DEA4DBBE2323D69AE7F",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_22.png",
+      "Hash": "ECCA189ED55F3A78F759D5BC11BD47F3EE17BF27DC0A0866851E68DAA2CAFCD7",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_22.png.meta",
+      "Hash": "177ADDC050892DA774FC37068F5947BD13EEB40B412860A6AF14A428E5493479",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_23.png",
+      "Hash": "631BFA7CEF4AEB94B736B02ECD5AE74AAFF13CA7D30035C8F074525C58A2AE86",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_23.png.meta",
+      "Hash": "5D61D4F8E7ABD55417FE50716F190C69D2C18081262E465D0315E3C2506DD111",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_24.png",
+      "Hash": "36CB05E494C9CB19CA938AF3756A566A011D2D7B0E3F73CE47759358231AC6AF",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_24.png.meta",
+      "Hash": "59322C745E1EA2B9B20E2D3D1CA4E2DCD5F05D92DFEAD87623ABC9CD3D28EEBF",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_25.png",
+      "Hash": "F0D43317AB5528C36A1EC5BF7B10582A9F5BEE5A8933C8A4C84AC00284863833",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_25.png.meta",
+      "Hash": "092FEB66F02C7EA0D5CEA2FD01AF157F768CDC39690D97C9BE2AB0A7AADB6036",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_26.png",
+      "Hash": "1DF13A0469297F8F50C6F8C858B26CB101C4EF87D05E673089689D3337D7D88D",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_26.png.meta",
+      "Hash": "2600720FD54FD5CEDF8764E9A2B8E280E4686472B7A74D3C3F7380DDFB59AB3F",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_27.png",
+      "Hash": "64BF9183B9BDFAA5DC1AE2D99C38CC8F079EED69995ABC5B9712FC9999790038",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_27.png.meta",
+      "Hash": "035A3CA3133B43AE97A7372BF2AA628E56F776F5A37C60AD9144AD6B8D460252",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_28.png",
+      "Hash": "5F7136FEA3C07521D403B1507E2596CFE0C461E32F706FAA0D0F053BEB02E62E",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Infected\\frame_28.png.meta",
+      "Hash": "9CE3DF836348554129A0F67C4E8B95A94C02951FE106E85F5203C11C5ED560DF",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_01.png",
+      "Hash": "3A6E52BB375E7B1ACF20D255F5A201FEE4FE49990428236356738FCADB95096C",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_01.png.meta",
+      "Hash": "B1C6FCB8368877B4FC08CF1B13A52F827DA8389EFC4CDEB8A36A63DDACE51722",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_02.png",
+      "Hash": "E53114ED5B6DBFB4AB58BD85B8D453E08CB05F077D57475E8D5B39F3D83CBF38",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_02.png.meta",
+      "Hash": "417D8A16AD065834E77BC9D4D1F065A4DC441CE349558E2C285893650DC17FA6",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_03.png",
+      "Hash": "9A8890B02C58485F6E238C2DA439B3AD5628C549984F08F45A50147AD558B8CD",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_03.png.meta",
+      "Hash": "C609B10920ECA7FBAE3EE79025D9CCA0BB14C2DF82E77249A403A4CD617AC55B",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_04.png",
+      "Hash": "E0DF61B78115C9F839D8E47A292AAC4283410E0CEC478F2C1EA49ADD6442E9B1",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_04.png.meta",
+      "Hash": "74AC6780B811BA3E409473698ED1727B7DBF486A6A38BE5341DD395D975EE8BD",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_05.png",
+      "Hash": "1C0A8F343CDB4FD7464B62F722AE6ABE7E03047E981B51987F9AEF847229BA73",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_05.png.meta",
+      "Hash": "45783FA1E8F70D520E38BB5B4B6269089FBE21214427E49E8D32C0418BBB2810",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_06.png",
+      "Hash": "FC2B6766C6F1B15CA49198BE79192CF18349EAEA826EF1934241860F74D7A9B2",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_06.png.meta",
+      "Hash": "067D93FDCD0598AD9EE30F9171E6FCCE41EF601BF4D4176950C0AABC716AA169",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_07.png",
+      "Hash": "B5D051F1C2AA429E8A1DE425DAA0830CA2488CA0B1553482F6C1266158180893",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_07.png.meta",
+      "Hash": "D19CE9C91CD503E0F4FEA8DC52882952CCA3D20221515691779723E744D33C88",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_08.png",
+      "Hash": "CE967887DBB036C9D488B765AFD964E7AF5924BAC0B03F23D943A12AFF833E7D",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_08.png.meta",
+      "Hash": "EE065A3BAF1A933D1DAEC56112DDA494974083FDEA826DE648DA082F3B2ECCEB",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_09.png",
+      "Hash": "A97C6D50AA459C55EB08CFD8BD935D644D42509A3A138D064EF26C858D201148",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_09.png.meta",
+      "Hash": "08B2C43545BCACC3C14C12A60745ADA0B183970177E00C459FF09556B0C4492C",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_10.png",
+      "Hash": "025FA125EC0225647CFA8EE48736735F4588A9AD4B55CA67BE448F4560AA1914",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_10.png.meta",
+      "Hash": "6C12BCD6F12502940274FA507C3A9C61FE50631F469C229ED909B1C7AF355BD8",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_11.png",
+      "Hash": "F3C0C047CC3112D9A2487053A5E472634B44F940B8C28A11BABA89E5A11E229C",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_11.png.meta",
+      "Hash": "C8061994FB6EA2C99DEDFE5518F6EFF2F59388D075569551CF596940FCBA6052",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_12.png",
+      "Hash": "4F74DEFA1EA0A37385148DD9C6E7BC900DE7FB294B8A3ACF2C545CEED52F8CB9",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_12.png.meta",
+      "Hash": "E2BE08269D289D76965D2E9F9748CE6E0B810C7440B3F1B60C28966DF86CDB08",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_13.png",
+      "Hash": "9E1B329737A2B246D505E426C649A449AB7B5843A53878EEA871DE6E1866F8DA",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_13.png.meta",
+      "Hash": "EA642543933C563AC2C52A0BD40E6792FDFE054ADB27B0A04FCC7BB6439706D2",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_14.png",
+      "Hash": "EEC3FDF0A7632DFBE623527612F1000DD1BCC1893B2C5E959707C0A50D66FB85",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_14.png.meta",
+      "Hash": "1E5EB4FBD7BAE1ABC7C3BC3FA09E1B28C68E040A6A36669B7B076DE3F22A8EA4",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_15.png",
+      "Hash": "66959ECC70A5DA82EF10977D494EC8542C64F1AD1B8305A78CBB8CDC74EAC1D2",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_15.png.meta",
+      "Hash": "1346A7E4C63C2A43A05732866227A81763DFD53359598C11234D315E3A089CAF",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_16.png",
+      "Hash": "8C2E2463B3DA346B3365BCBF7F076A81545C34ABF1BFBE1197DC6A8F48F1912B",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_16.png.meta",
+      "Hash": "F283EE8F172862724933A9AA803B0A2882797D35FEECD62C760F8E038D899237",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_17.png",
+      "Hash": "23F0507EEF8B8B309FEF238A3F55A6A490DD265D4A460A7B343E3016632D695D",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_17.png.meta",
+      "Hash": "D430B2E76EE832F9C94C3F2C0D4E5B9B75F699AE6AE5D0F33C61219A888F1EBC",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_18.png",
+      "Hash": "695AEB6CDF7287E7F5DE1DC37B8FAD6C6AF7DEEDBF1C0A19E467F4CA94E99A00",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_18.png.meta",
+      "Hash": "FE1DAB66AC3F57EA3514EE88635EAED522A3EE93BA6091DA5CF6A5398EEE31C7",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_19.png",
+      "Hash": "5049B2F8AE1677F688148F43CCB59C732B5020B2CFEC19CAA46D856056321A23",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_19.png.meta",
+      "Hash": "50F8FA1BFB87DB78DC35B44A49839476CC136DD369929BC6708206CD83BCB075",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_20.png",
+      "Hash": "F35C9B2A93219A7A3542540968FBEFF168D4A2B8103FA33D529B8214EC15B364",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_20.png.meta",
+      "Hash": "E473B4E60F6208D0326E25900A2FA82A2124F10EC425C636CAD19E9E5AF243A5",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_21.png",
+      "Hash": "D14FDCFB436C0287635A5AA847C6B809C4FD3704B9BD1E40D8046CE31EEC3F90",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_21.png.meta",
+      "Hash": "6D3752978ADEDCC5A99EBFA485E9145914C4CA1ED3535F35B64C77B521C9518E",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_22.png",
+      "Hash": "7CBDED8D07A7743DB27BDF84E64CCBB02A78EE89FCBA6937F5E89A4AE3C6EA8F",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_22.png.meta",
+      "Hash": "B035C398D7B00FA8E174ABD2B0CC28BED6148FA2A2AD83B3CC781CF92CE770C0",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_23.png",
+      "Hash": "F26F94801352B4B13E5BBD3205113A2FDE0BD09F2DB0D77BEA9FDB7C9D8FE097",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_23.png.meta",
+      "Hash": "F3608B079101A97BA93F9C5CF47508A084C14394DCE22959F6681BC3E955CFB3",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_24.png",
+      "Hash": "26235DBCB6270F65C035432DB66DA02810338FFE8185D39D29B90F3DA795FD20",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_24.png.meta",
+      "Hash": "1C619DF634BF952196DF6FC82E9C8D924A33E48639218F68B898CB81797804D6",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_25.png",
+      "Hash": "AF8E0B92D17CAA1F3FBF84B04DEAC28EAADAE095A73D788868FD433BE5A57BD8",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_25.png.meta",
+      "Hash": "5ADCAD1F5BA6F85271B15F128BCA992E631888E359EAD83C45A06F312C2E2D53",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_26.png",
+      "Hash": "CDE80F1A80DC65D2939D4FC3AB18D0898264806749E0564615248ACA06C5F801",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_26.png.meta",
+      "Hash": "38F6E1808CBA89B9D11AA7BD57BD6BFA836C4A0336B43E82A4F5EE30EB5EEDBE",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_27.png",
+      "Hash": "A2AC97E51C53574DD53FA39D35C7C9DCCB0AACC261F2E6C4C230D4822B7A6503",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_27.png.meta",
+      "Hash": "35C36A814ABF42772A5F3C336AE7E0B8113CFBDE4538DA8F4058E3313B6C86E0",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_28.png",
+      "Hash": "C80251DA64D7E77D0568D5D2C0416A00DD7820A1816923B883421AD4B351DA72",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Large\\frame_28.png.meta",
+      "Hash": "A35C188B7DDCB5BC129AE1FB19A42140DFF9F960F524AE782629808CBFDC0B0E",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_01.png",
+      "Hash": "A13C0391B8CD16E1760767BC0D6BD2CF3F9D4C44820F7FA6B2EE31EA667BF980",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_01.png.meta",
+      "Hash": "95F48749215FF01D78E5DECAED34B6E78F5AD76BA6C94960360C023F2D1A9AB0",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_02.png",
+      "Hash": "84DBD654F354D0A405A2CC6E8E3DE154734B7E02F1802E5661568B355DEB1246",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_02.png.meta",
+      "Hash": "9B9A1BF2F52BDC9DF1CE4536CD181F98500BC66FA9ED87DD5DCF2F81C4D6AFC8",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_03.png",
+      "Hash": "F51A2E177D0C981C5131C186EB5B79470E440A480F71FB34D6D476FD29E26CAC",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_03.png.meta",
+      "Hash": "72F3AC0A544D272E384E34D13F4FBF6C3C634867A09824B86F6714863EDA7384",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_04.png",
+      "Hash": "182785D1D399A921C30C36256520572DD513D0F15DBAD13A8994ED2D6EB78995",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_04.png.meta",
+      "Hash": "D9CEA6421D70DC8853D67E3979BC42BBE4E7873FA377B48E07E6DE2BB8489AEE",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_05.png",
+      "Hash": "4ED18F830BD769E05834EA14B7F070A20E2497682D37E78732421B9471AD497F",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_05.png.meta",
+      "Hash": "CCD528536A581F48ADE746FB589EDE8DF393E7539778BF64B8038C8DAFE30677",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_06.png",
+      "Hash": "A2B4C437A5032CB946F49D8CAB578BD072A12AC35DA6827700335F0521698B34",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_06.png.meta",
+      "Hash": "235BB4325A616FB26AEF1F0CCEE4CB63641789BFD4CC66C8B8883162218315B8",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_07.png",
+      "Hash": "A0926798BFDA2916E474B8943857FC77C8C4196D447760E7A0E891C0413A90F9",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_07.png.meta",
+      "Hash": "95D0C0316D0271757541C7A42EF93BB18B8DAAE1EF8B278689A63162A4133537",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_08.png",
+      "Hash": "8949B4AD501733CC76B1B601E6933396FCB78A66741BE649568A58255417D708",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_08.png.meta",
+      "Hash": "505BAEDAC423C4120D3154E2C3B79699FAF9C084D0D6D5BD8B6F5BE11309043E",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_09.png",
+      "Hash": "563D4FF5B14B629DA18DABA52CFBF1B69CB471CDAD77BDE02DFA2A5D1D073E20",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_09.png.meta",
+      "Hash": "B76E66B06F28B3FD507C45ADD58AB71E130D624AA738FE02300C55FB774DF49A",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_10.png",
+      "Hash": "CABB3BA423C3E4A2CDAE20952615F698C255872E76020B0A7EC8BB4EC748B5BD",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_10.png.meta",
+      "Hash": "5399A943F936744095181CE4EB2EC1AD06C9A5CE563D16C58FCA22D34DEB2E8D",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_11.png",
+      "Hash": "1CF677CC91A66BB7018708325A6F4AB5089CA415BB6460AC506A99CD47EABE96",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_11.png.meta",
+      "Hash": "9EA174A5B6A0A1F113CBCC7B0AADFDE69E73E34ACFBB88B0EC3FC017D57F9FB2",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_12.png",
+      "Hash": "C4D1F22B6EBF656F73D6265BDED6BC986D8CA16931025F9D9F998F956962D197",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_12.png.meta",
+      "Hash": "18EC459DFCD8A03217A0C625B94649CB124530E55B1429E07A9B6E461C7DC01F",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_13.png",
+      "Hash": "7C16D42D1BB9403D53517BB466C64504DAD54403A513E93D39B13CCCA28DBD65",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_13.png.meta",
+      "Hash": "1392FA181F4DF8B4B63BAD2C02C2E1374C8D8B9862321489BB184583BE348576",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_14.png",
+      "Hash": "3577FA4891EF1142D4C04CFEAFB1DCE5CA33112A53E830B29D89EA6251609F7C",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_14.png.meta",
+      "Hash": "669A046C73D0365A992A3C21198C11CA98FE9FA166F09AB602DA7C685359193D",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_15.png",
+      "Hash": "A1C54F906478AA036B85C0E6408A4CCE1074C69DD1B311683704FC923D34F685",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_15.png.meta",
+      "Hash": "A72DC23953C6ECA2114BDF263EE90C2AE0F6C4E3B9BBC569191CC2CEBB53A3AA",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_16.png",
+      "Hash": "EA1CC667A6FCC343D8C0878DC25C43855AB6D93B743205B03A78C460157E09B0",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_16.png.meta",
+      "Hash": "3463E9772D8C6B0272F87B9CF5F6A7C1AD9116AEE50FE109F75A0C657A2FC307",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_17.png",
+      "Hash": "3C8C4D1840286AFDC94B9D4C0B65B0F34DA55CC93E1607C9ED177C20690964D5",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_17.png.meta",
+      "Hash": "1AD425C9B89F3F63C3C799DA0479FF0DA28E5DE44421B9FC3190B154480BDC96",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_18.png",
+      "Hash": "6269DCF82978DA2026BBCCC8FF80AA553CF1631B1421B9E2C454B467A822FA31",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_18.png.meta",
+      "Hash": "435CBD63BBF8FD8BF1BA99A369AC1007E53E4E6687865451808F2973C5158620",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_19.png",
+      "Hash": "3CF825ADD09F527B60F17988E00A72A450CFA495591340D4CF9D77F8E9BD43EC",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_19.png.meta",
+      "Hash": "905B29872639B499B74D5889D4571EE9D77ABD666F10EB1E7197238B9888C5B0",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_20.png",
+      "Hash": "3CCD9CEBD36300B07C882B50463A81EBF0489716AA5A4935EB24FAB094B94037",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_20.png.meta",
+      "Hash": "C72E404D03AA19C4EA4D440C28B6069473D2D2A53FBB6BAC220960CF89709567",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_21.png",
+      "Hash": "F6A14B5A759B821559A9251CB2EDC22D15DA67D41D81D2527880BE30CFDCDB20",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_21.png.meta",
+      "Hash": "156F62D9259CDC859EF1FE50293FA622A56004D8414DD6C5258A009D4387C39F",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_22.png",
+      "Hash": "DEE17A1B4B667E9D2F40AB302D69C2490EC71C8018E26FAA10839A42B18BECED",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_22.png.meta",
+      "Hash": "D2AF151F1EC94E97F18D7A56681D1BF74B623442EECC399C30AC15182D8D3313",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_23.png",
+      "Hash": "45EC153436CD3653674DDCFD3FEC4CECE456B71A02EFF8A0027113FDBD919D31",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_23.png.meta",
+      "Hash": "D57EB4D3CEDB035C9E7EB9DF4DB7CD15238BD0B4CB83028B4C2943B8FE368BF9",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_24.png",
+      "Hash": "34300D649E2EFE093482FA58467B465DB502E6FC5B4DFC38D5DB1549EB9F7A7D",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_24.png.meta",
+      "Hash": "56C52849ED6848681373B2E7858823AE2990A22E684F3043A363FD87B3DFC1C3",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_25.png",
+      "Hash": "2632DE2BB254A174EC6462EE954D01368C3A34B3366F8E6F610D7ECB0E71A184",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_25.png.meta",
+      "Hash": "1B3EA38EF72C3DDB550010E8AED58ED0E690ED55D3AE0B52AA3FDA11BFD78381",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_26.png",
+      "Hash": "6D4ED95B2AF99ACE35F98678FB50265F7F45143094486EA9412EA1A438E3960E",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_26.png.meta",
+      "Hash": "80E94CBE8AEFB1FF8D255A6BA94E63D579BFAA574A0BE99A584D17E988A167CF",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_27.png",
+      "Hash": "05F013201E7EE9510DD9CC17D2EF5B865B1024F3995D90BA88D1FB213B40DABE",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_27.png.meta",
+      "Hash": "D7ADFD0BCCDB5F69E0E1E2289218B5B75A478DA868EBC1BCAB12636C2A156D88",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_28.png",
+      "Hash": "4330C1C70D90BDF423C0A077109DD5D557B64F55CE77E19EF9BC4F17EF4155EF",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Zombies120\\Normal\\frame_28.png.meta",
+      "Hash": "3C4AD6BC678AFB893B3E490BBB7D8B79782ADBB5EDE7FC350FB1156A131E8F24",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Runtime/ZombieActor.cs",
+      "Hash": "032D47DC6556E268373190A2FB372ED5936AF876408C879913CAF26AAAD91174",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Runtime/ZombieAnimationSet.cs",
+      "Hash": "46D170AC35B0AF9B168E1F3D0822B02E4C39C9E3E65845AD12366D0B62B4E6BB",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Runtime/DefenseStages.cs",
+      "Hash": "9AF8628947513810447ECE567009F628484C03509D3E66986ADDF36111D92917",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Runtime/DefenseRegions.cs",
+      "Hash": "A5F6FBB62FF0A703301ED9D9E0B0E57AE20894B5F9D3C1880696449D2D218B0D",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Runtime/DefenseProgress.cs",
+      "Hash": "629F4CE6C287BB0531EA69EC575C34B2A732D33777240CB58BC5496674BA771D",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Runtime/DefenseScenery.cs",
+      "Hash": "22EFEC110855BFA9F4D0E0A72FD56C206ADDC6052844EBED225A47A26D042B9A",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Runtime/GrandmaDefense.cs",
+      "Hash": "D4C640457B99F2ADB3B709E6D608CB034B9EA1EB4DD31052A8F7230DA8173770",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Runtime/StageZeroOpeningView.cs",
+      "Hash": "58B77D22158BB1305AC0D9016FE897DAD05E8A18733263EB6A6837F5216DF734",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Editor/GrandmaStageSetup.cs",
+      "Hash": "2FC91EBFFF09659DCB582001A760E6CFE44E5D669E2923F96099C13E5B682F4B",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Editor/GrandmaStageValidation.cs",
+      "Hash": "DEFCDD36576A1F68491AB39F70F0167EE7A1B84856D31505C3FC8CBD280A0E6C",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Editor/ZombieAnimationSetup.cs",
+      "Hash": "50C69CF534430DD5C05B54B1E4B6F2FD7395C29EBF4C367E5BCEB9F8EFECCC88",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Editor/ZombieRosterValidation.cs",
+      "Hash": "500F07C2CFBCB66C069E9E5097C400778862FD2CED7F837AE9ECB69C461B01DA",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Scenes/GrandmaDefense.unity",
+      "Hash": "E03288A03713485B582EDCD1A8C9F70C186AEA42AF1270231519FD91C487DED6",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Runtime/ZombieAnimationSet.cs.meta",
+      "Hash": "1E1C7230DF60C1ECC2FAFA2F05A32838251DD51D28E5C582B00D4F897045E8B7",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Editor/ZombieAnimationSetup.cs.meta",
+      "Hash": "6534AEBBF662AD9E5CFE70666EDDE6B67151B4F4A2F95099258B2D672984CA5B",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Editor/ZombieRosterValidation.cs.meta",
+      "Hash": "3AD5FC0635FDA96D523E8B1715BD9E916DA0DE46C8D038032222CD9027EA485A",
+      "MatchesTestedCopy": true
+    }
+  ],
+  "Protected": [
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\ProjectSettings.asset",
+      "Before": "51CC2ECE34ADA65AE535FF1B315B6B7A49C10CFF83D7F0049CE99524B2E3DFC1",
+      "After": "51CC2ECE34ADA65AE535FF1B315B6B7A49C10CFF83D7F0049CE99524B2E3DFC1",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\EditorBuildSettings.asset",
+      "Before": "F740E5E08068D756B1838E970176A1BC95003D1B2A75CDB5556353742BE25153",
+      "After": "F740E5E08068D756B1838E970176A1BC95003D1B2A75CDB5556353742BE25153",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Packages\\manifest.json",
+      "Before": "EADB2409E74E98314259257A36E15BE39D62670F2C8E7B3DCD6FE80EB6388242",
+      "After": "EADB2409E74E98314259257A36E15BE39D62670F2C8E7B3DCD6FE80EB6388242",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Sundeok120\\Sundeok120AnimationSet.asset",
+      "Before": "53889CCF6C3A8E0A4A041E6B88D168CD100817DAC60C808E1B9523AF38B5916D",
+      "After": "53889CCF6C3A8E0A4A041E6B88D168CD100817DAC60C808E1B9523AF38B5916D",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Audio\\sundeok_reload_clack.wav",
+      "Before": "C9BA3C5CA510FBE392B1D4B4DDFA1E6A6105838426B350A1873B1F89BAA72D60",
+      "After": "C9BA3C5CA510FBE392B1D4B4DDFA1E6A6105838426B350A1873B1F89BAA72D60",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Monsters_Cute\\zombie_01_normal_120.aseprite",
+      "Before": "9CE8B38FF88595895791CA866C202354156ABFE980B9BB6DEA16932FBACD21B8",
+      "After": "9CE8B38FF88595895791CA866C202354156ABFE980B9BB6DEA16932FBACD21B8",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Monsters_Cute\\zombie_02_large_120.aseprite",
+      "Before": "19E824DE909D11B0E9A66975C7B6321C5D8607B168EDFAE332D6BA006EB86F19",
+      "After": "19E824DE909D11B0E9A66975C7B6321C5D8607B168EDFAE332D6BA006EB86F19",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Monsters_Cute\\zombie_03_rescue_human_120.aseprite",
+      "Before": "EB1D1D08202080DEBFA9D9CA452918023ABB9819968C7E0AAC9EFA38FDCEABA0",
+      "After": "EB1D1D08202080DEBFA9D9CA452918023ABB9819968C7E0AAC9EFA38FDCEABA0",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\Users\\Junbeom_Choi\\AppData\\LocalLow\\DefaultCompany\\Hunter_grandma\\HunterGrandma\\stage-progress-v1.json",
+      "Before": "61DC595FD9D9083E99B5FA521DB913905692F0CD01585B6AC2BDAACEB70C3320",
+      "After": "61DC595FD9D9083E99B5FA521DB913905692F0CD01585B6AC2BDAACEB70C3320",
+      "Unchanged": true
+    }
+  ]
+}

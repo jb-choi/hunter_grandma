@@ -5,7 +5,7 @@ namespace HunterGrandma
     // Lightweight district landmarks share the existing village art and sprite material.
     public sealed class DefenseScenery : MonoBehaviour
     {
-        private readonly GameObject[] places = new GameObject[8];
+        private readonly GameObject[] places = new GameObject[DefenseStages.Count + 1];
         private Sprite pixel;
         private Material material;
         private int current = -1;
@@ -15,15 +15,15 @@ namespace HunterGrandma
             Color wood = new Color(.33f, .23f, .17f), pale = new Color(.52f, .52f, .45f), green = new Color(.22f, .37f, .31f);
             for (int i = 0; i < places.Length; i++)
             {
-                places[i] = new GameObject(i == 7 ? "Grandma home yard" : "District landmarks " + i);
+                places[i] = new GameObject(i == DefenseStages.Count ? "Grandma home yard" : "District landmarks " + i);
                 places[i].transform.SetParent(transform, false);
-                if (i == 0 || i == 7)
+                if (i == 0 || i == DefenseStages.Count)
                 {
                     for (int n = 0; n < 22; n++) Box(i, -11f + n, -1.95f, .14f, 1.4f, wood);
                     Box(i, 0, -1.65f, 24, .13f, wood); Box(i, 0, -2.15f, 24, .13f, wood);
-                    if (i == 7) { Box(i, 8, .2f, 4.5f, 5.5f, pale); Box(i, 8, -.5f, 1.25f, 3.8f, wood); Box(i, 6.7f, 1.1f, 1.1f, 1.4f, green); }
+                    if (i == DefenseStages.Count) { Box(i, 8, .2f, 4.5f, 5.5f, pale); Box(i, 8, -.5f, 1.25f, 3.8f, wood); Box(i, 6.7f, 1.1f, 1.1f, 1.4f, green); }
                 }
-                if (i == 1 || i == 3)
+                if (i == 1 || i == 3 || i == 7)
                 {
                     for (int n = 0; n < 4; n++)
                     {
@@ -63,7 +63,7 @@ namespace HunterGrandma
         }
         public void Show(int stage, bool yard)
         {
-            int next = yard ? 7 : stage; if (current == next) return;
+            int next = yard ? DefenseStages.Count : stage; if (current == next) return;
             if (current >= 0) places[current].SetActive(false);
             places[next].SetActive(true); current = next;
         }

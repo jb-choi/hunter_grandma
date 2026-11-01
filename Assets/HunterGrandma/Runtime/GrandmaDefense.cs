@@ -141,7 +141,7 @@ namespace HunterGrandma
             grandma.InitializeBelt(this, ShadowSprite);
             shadowSkill = new GrandmaShadowSkill(this, grandma, worldCamera, pixel.sprite, ShadowSprite);
             if (houseTeaSprite != null && houseChairSprite != null)
-                houseOpening = StageZeroOpeningView.Create(transform, houseTeaSprite, houseChairSprite, grandma.IdleSprite, zombiePrefab.WalkFrames, pixel.sprite, pixel.sharedMaterial, true);
+                houseOpening = StageZeroOpeningView.Create(transform, houseTeaSprite, houseChairSprite, grandma.IdleSprite, zombiePrefab.WalkFrames, pixel.sprite, pixel.sharedMaterial, true, zombiePrefab.AnimationSet);
             scenery = new GameObject("Stage scenery", typeof(DefenseScenery)).GetComponent<DefenseScenery>();
             scenery.transform.SetParent(transform, false); scenery.Initialize(pixel.sprite, pixel.sharedMaterial);
             GameObject bossObject = new GameObject("Giant host boss", typeof(SpriteRenderer), typeof(BossActor));
@@ -208,24 +208,24 @@ namespace HunterGrandma
         private bool SpawnWaveZombie(float x)
         {
             if (waveSpawned >= CurrentStage.EnemiesPerWave) return false;
-            bool mixed = CurrentStageId == 3 || CurrentStageId == 6;
-            float size = mixed && waveSpawned % 3 == 0 ? 1.25f : mixed ? 0.8f : 1f;
-            int hp = Mathf.RoundToInt(CurrentStage.ZombieHealth * size);
-            float speed = CurrentStage.ZombieSpeed;
-            if ((CurrentStageId == 5 || CurrentStageId == 6) && waveSpawned >= CurrentStage.EnemiesPerWave - 3) speed *= 1.5f;
-            if ((CurrentStageId == 4 && waveSpawned % 3 == 1) || (CurrentStageId == 6 && waveSpawned % 7 == 1)) x = Mathf.Max(BeltSpace.MinX+.5f,WaveAnchor-11f);
+            ZombieKind kind = CurrentStage.EnemyKind(waveSpawned, WaveNumber);
+            float size = kind == ZombieKind.Large ? 1.2f : 1f;
+            int hp = Mathf.RoundToInt(CurrentStage.ZombieHealth * (kind == ZombieKind.Large ? 2f : 1f));
+            float speed = CurrentStage.ZombieSpeed * (kind == ZombieKind.Large ? .8f : 1f);
+            if (CurrentStageId >= 5 && kind != ZombieKind.Large && waveSpawned >= CurrentStage.EnemiesPerWave - 3) speed *= 1.5f;
+            if ((CurrentStageId == 4 && waveSpawned % 3 == 1) || (CurrentStageId >= 6 && waveSpawned % 7 == 1)) x = Mathf.Max(BeltSpace.MinX+.5f,WaveAnchor-11f);
             float depth = Mathf.Lerp(BeltSpace.MinDepth+.3f,BeltSpace.MaxDepth-.25f,((waveSpawned*3+WaveNumber)%7)/6f);
             bool atFence = CurrentStageId == 0 && WaveNumber == 1 && houseOpening != null;
             if (atFence) { Vector2 foot = StageZeroOpeningView.VisitorFoot(waveSpawned); x = foot.x; depth = foot.y; }
-            if (!SpawnZombie(x, depth, speed, hp, size, atFence)) return false;
+            if (!SpawnZombie(x, depth, speed, hp, size, atFence, kind)) return false;
             waveSpawned++; return true;
         }
-        private bool SpawnZombie(float x, float depth, float speed, int hp, float size, bool atFence = false)
+        private bool SpawnZombie(float x, float depth, float speed, int hp, float size, bool atFence = false, ZombieKind kind = ZombieKind.Infected)
         {
             foreach (ZombieActor zombie in zombies)
             {
                 if (zombie.gameObject.activeSelf) continue;
-                zombie.Spawn(this, FreeFootPosition(new Vector2(x,depth)), speed, SpawnedCount * 0.31f, hp, CurrentStage.GoldPerKill, size);
+                zombie.Spawn(this, FreeFootPosition(new Vector2(x,depth)), speed, SpawnedCount * 0.31f, hp, CurrentStage.GoldPerKill, size, kind);
                 if (atFence) zombie.HoldAtFence();
                 SpawnedCount++; return true;
             }

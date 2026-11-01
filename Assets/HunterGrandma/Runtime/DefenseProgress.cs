@@ -65,8 +65,8 @@ namespace HunterGrandma
         public DefenseProgress(DefenseSaveData source = null)
         {
             data = source ?? new DefenseSaveData();
-            if (data.stages.Count == 0)
-                for (int i = 0; i < DefenseStages.Count; i++) data.stages.Add(new DistrictProgress { stageId = i });
+            // Stage 7 extends the campaign without resetting an existing v1 profile.
+            for (int i = data.stages.Count; i < DefenseStages.Count; i++) data.stages.Add(new DistrictProgress { stageId = i });
         }
         public DistrictProgress Stage(int id) => data.stages[id];
         public bool IsUnlocked(int id) => DefenseStages.IsValid(id) && (id == 0 || Stage(id - 1).clearCount > 0);
@@ -117,8 +117,9 @@ namespace HunterGrandma
         public static DefenseProgress FromJson(string json)
         {
             DefenseSaveData loaded = JsonUtility.FromJson<DefenseSaveData>(json);
-            if (loaded == null || loaded.version != 1 || loaded.gold < 0 || loaded.attackLevel < 0 || loaded.attackLevel > 30 || loaded.fireRateLevel < 0 || loaded.fireRateLevel > 15 || loaded.stages == null || loaded.stages.Count != DefenseStages.Count || loaded.captives == null)
+            if (loaded == null || loaded.version != 1 || loaded.gold < 0 || loaded.attackLevel < 0 || loaded.attackLevel > 30 || loaded.fireRateLevel < 0 || loaded.fireRateLevel > 15 || loaded.stages == null || (loaded.stages.Count != 7 && loaded.stages.Count != DefenseStages.Count) || loaded.captives == null)
                 throw new FormatException("Invalid Hunter Grandma save data.");
+            if (loaded.stages.Count == 7) loaded.stages.Add(new DistrictProgress { stageId = 7 });
             var ids = new HashSet<string>();
             var runs = new HashSet<string>();
             int[] counts = new int[DefenseStages.Count];

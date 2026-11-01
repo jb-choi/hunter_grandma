@@ -1,0 +1,596 @@
+{
+  "date": "2026-10-31",
+  "method": "Aseprite headless batch_export from the three native masters; RGBA byte comparison with their validated full-canvas exports",
+  "count": 84,
+  "all_match": true,
+  "frames": [
+    {
+      "kind": "Normal",
+      "action": "Idle",
+      "frame": 1,
+      "matches_native_validated_export": true,
+      "sha256": "a13c0391b8cd16e1760767bc0d6bd2cf3f9d4c44820f7fa6b2ee31ea667bf980"
+    },
+    {
+      "kind": "Normal",
+      "action": "Idle",
+      "frame": 2,
+      "matches_native_validated_export": true,
+      "sha256": "84dbd654f354d0a405a2cc6e8e3de154734b7e02f1802e5661568b355deb1246"
+    },
+    {
+      "kind": "Normal",
+      "action": "Idle",
+      "frame": 3,
+      "matches_native_validated_export": true,
+      "sha256": "f51a2e177d0c981c5131c186eb5b79470e440a480f71fb34d6d476fd29e26cac"
+    },
+    {
+      "kind": "Normal",
+      "action": "Idle",
+      "frame": 4,
+      "matches_native_validated_export": true,
+      "sha256": "182785d1d399a921c30c36256520572dd513d0f15dbad13a8994ed2d6eb78995"
+    },
+    {
+      "kind": "Normal",
+      "action": "Walk",
+      "frame": 1,
+      "matches_native_validated_export": true,
+      "sha256": "4ed18f830bd769e05834ea14b7f070a20e2497682d37e78732421b9471ad497f"
+    },
+    {
+      "kind": "Normal",
+      "action": "Walk",
+      "frame": 2,
+      "matches_native_validated_export": true,
+      "sha256": "a2b4c437a5032cb946f49d8cab578bd072a12ac35da6827700335f0521698b34"
+    },
+    {
+      "kind": "Normal",
+      "action": "Walk",
+      "frame": 3,
+      "matches_native_validated_export": true,
+      "sha256": "a0926798bfda2916e474b8943857fc77c8c4196d447760e7a0e891c0413a90f9"
+    },
+    {
+      "kind": "Normal",
+      "action": "Walk",
+      "frame": 4,
+      "matches_native_validated_export": true,
+      "sha256": "8949b4ad501733cc76b1b601e6933396fcb78a66741be649568a58255417d708"
+    },
+    {
+      "kind": "Normal",
+      "action": "Walk",
+      "frame": 5,
+      "matches_native_validated_export": true,
+      "sha256": "563d4ff5b14b629da18daba52cfbf1b69cb471cdad77bde02dfa2a5d1d073e20"
+    },
+    {
+      "kind": "Normal",
+      "action": "Walk",
+      "frame": 6,
+      "matches_native_validated_export": true,
+      "sha256": "cabb3ba423c3e4a2cdae20952615f698c255872e76020b0a7ec8bb4ec748b5bd"
+    },
+    {
+      "kind": "Normal",
+      "action": "Run",
+      "frame": 1,
+      "matches_native_validated_export": true,
+      "sha256": "1cf677cc91a66bb7018708325a6f4ab5089ca415bb6460ac506a99cd47eabe96"
+    },
+    {
+      "kind": "Normal",
+      "action": "Run",
+      "frame": 2,
+      "matches_native_validated_export": true,
+      "sha256": "c4d1f22b6ebf656f73d6265bded6bc986d8ca16931025f9d9f998f956962d197"
+    },
+    {
+      "kind": "Normal",
+      "action": "Run",
+      "frame": 3,
+      "matches_native_validated_export": true,
+      "sha256": "7c16d42d1bb9403d53517bb466c64504dad54403a513e93d39b13ccca28dbd65"
+    },
+    {
+      "kind": "Normal",
+      "action": "Run",
+      "frame": 4,
+      "matches_native_validated_export": true,
+      "sha256": "3577fa4891ef1142d4c04cfeafb1dce5ca33112a53e830b29d89ea6251609f7c"
+    },
+    {
+      "kind": "Normal",
+      "action": "Run",
+      "frame": 5,
+      "matches_native_validated_export": true,
+      "sha256": "a1c54f906478aa036b85c0e6408a4cce1074c69dd1b311683704fc923d34f685"
+    },
+    {
+      "kind": "Normal",
+      "action": "Run",
+      "frame": 6,
+      "matches_native_validated_export": true,
+      "sha256": "ea1cc667a6fcc343d8c0878dc25c43855ab6d93b743205b03a78c460157e09b0"
+    },
+    {
+      "kind": "Normal",
+      "action": "Attack",
+      "frame": 1,
+      "matches_native_validated_export": true,
+      "sha256": "3c8c4d1840286afdc94b9d4c0b65b0f34da55cc93e1607c9ed177c20690964d5"
+    },
+    {
+      "kind": "Normal",
+      "action": "Attack",
+      "frame": 2,
+      "matches_native_validated_export": true,
+      "sha256": "6269dcf82978da2026bbccc8ff80aa553cf1631b1421b9e2c454b467a822fa31"
+    },
+    {
+      "kind": "Normal",
+      "action": "Attack",
+      "frame": 3,
+      "matches_native_validated_export": true,
+      "sha256": "3cf825add09f527b60f17988e00a72a450cfa495591340d4cf9d77f8e9bd43ec"
+    },
+    {
+      "kind": "Normal",
+      "action": "Attack",
+      "frame": 4,
+      "matches_native_validated_export": true,
+      "sha256": "3ccd9cebd36300b07c882b50463a81ebf0489716aa5a4935eb24fab094b94037"
+    },
+    {
+      "kind": "Normal",
+      "action": "Attack",
+      "frame": 5,
+      "matches_native_validated_export": true,
+      "sha256": "f6a14b5a759b821559a9251cb2edc22d15da67d41d81d2527880be30cfdcdb20"
+    },
+    {
+      "kind": "Normal",
+      "action": "Attack",
+      "frame": 6,
+      "matches_native_validated_export": true,
+      "sha256": "dee17a1b4b667e9d2f40ab302d69c2490ec71c8018e26faa10839a42b18beced"
+    },
+    {
+      "kind": "Normal",
+      "action": "Dead",
+      "frame": 1,
+      "matches_native_validated_export": true,
+      "sha256": "45ec153436cd3653674ddcfd3fec4cece456b71a02eff8a0027113fdbd919d31"
+    },
+    {
+      "kind": "Normal",
+      "action": "Dead",
+      "frame": 2,
+      "matches_native_validated_export": true,
+      "sha256": "34300d649e2efe093482fa58467b465db502e6fc5b4dfc38d5db1549eb9f7a7d"
+    },
+    {
+      "kind": "Normal",
+      "action": "Dead",
+      "frame": 3,
+      "matches_native_validated_export": true,
+      "sha256": "2632de2bb254a174ec6462ee954d01368c3a34b3366f8e6f610d7ecb0e71a184"
+    },
+    {
+      "kind": "Normal",
+      "action": "Dead",
+      "frame": 4,
+      "matches_native_validated_export": true,
+      "sha256": "6d4ed95b2af99ace35f98678fb50265f7f45143094486ea9412ea1a438e3960e"
+    },
+    {
+      "kind": "Normal",
+      "action": "Dead",
+      "frame": 5,
+      "matches_native_validated_export": true,
+      "sha256": "05f013201e7ee9510dd9cc17d2ef5b865b1024f3995d90ba88d1fb213b40dabe"
+    },
+    {
+      "kind": "Normal",
+      "action": "Dead",
+      "frame": 6,
+      "matches_native_validated_export": true,
+      "sha256": "4330c1c70d90bdf423c0a077109dd5d557b64f55ce77e19ef9bc4f17ef4155ef"
+    },
+    {
+      "kind": "Infected",
+      "action": "Idle",
+      "frame": 1,
+      "matches_native_validated_export": true,
+      "sha256": "e3d6cc6f6edb2f177fb4983fceb93a35fef08fa72b9a5c92985882c7d0f1c06b"
+    },
+    {
+      "kind": "Infected",
+      "action": "Idle",
+      "frame": 2,
+      "matches_native_validated_export": true,
+      "sha256": "2a69f2dc155ea7b48fcbc1d54686781afeb7ddf4f6533532e9b88530739009f0"
+    },
+    {
+      "kind": "Infected",
+      "action": "Idle",
+      "frame": 3,
+      "matches_native_validated_export": true,
+      "sha256": "4ba0c8971f7ca98b776dd1ba4f49cc43ea083bee2670bd4384b1c6556d2afbea"
+    },
+    {
+      "kind": "Infected",
+      "action": "Idle",
+      "frame": 4,
+      "matches_native_validated_export": true,
+      "sha256": "253aec02963275384db54ce0914d0409267ac0e0d773c67320c7c4a32a95828a"
+    },
+    {
+      "kind": "Infected",
+      "action": "Walk",
+      "frame": 1,
+      "matches_native_validated_export": true,
+      "sha256": "53dd2e3518ed80897c2b69c491068c1e1b9a978dee0b3b0807adb3f69d16715b"
+    },
+    {
+      "kind": "Infected",
+      "action": "Walk",
+      "frame": 2,
+      "matches_native_validated_export": true,
+      "sha256": "1f6258a8408d665330548c04f6c9a2c1b53a7c41340c401e9ab4b180676946c4"
+    },
+    {
+      "kind": "Infected",
+      "action": "Walk",
+      "frame": 3,
+      "matches_native_validated_export": true,
+      "sha256": "967e74e6df582ad67735b891d2de4d9fe5ba832a080a636bcc10a4c535519851"
+    },
+    {
+      "kind": "Infected",
+      "action": "Walk",
+      "frame": 4,
+      "matches_native_validated_export": true,
+      "sha256": "d267d0cad020fdcbe1af9a0e20db07cbea97078887f945b517e79f1cb4b5a01f"
+    },
+    {
+      "kind": "Infected",
+      "action": "Walk",
+      "frame": 5,
+      "matches_native_validated_export": true,
+      "sha256": "0e22424984102f6ba3103ee4bd233a7147722f5fede9c1d339aa3abbc86d26b7"
+    },
+    {
+      "kind": "Infected",
+      "action": "Walk",
+      "frame": 6,
+      "matches_native_validated_export": true,
+      "sha256": "27c34af0e726677f78efb45ffa5f75c3e155454b92b50dc46457f3cfe0ca490c"
+    },
+    {
+      "kind": "Infected",
+      "action": "Run",
+      "frame": 1,
+      "matches_native_validated_export": true,
+      "sha256": "d3dd6d37f8bc9c6c6619551fc42d1ca9cade725ac1eae5a878df9a96531eab07"
+    },
+    {
+      "kind": "Infected",
+      "action": "Run",
+      "frame": 2,
+      "matches_native_validated_export": true,
+      "sha256": "9cffa2171e95fe3021e29f21ebd0e3d7166c23fa44e8bccb545fd584c93ede4f"
+    },
+    {
+      "kind": "Infected",
+      "action": "Run",
+      "frame": 3,
+      "matches_native_validated_export": true,
+      "sha256": "cfb057073e1896128f438f9a2ca28e501ff1b6028915bcb21185261e083fd041"
+    },
+    {
+      "kind": "Infected",
+      "action": "Run",
+      "frame": 4,
+      "matches_native_validated_export": true,
+      "sha256": "fe823e451cce7b55428940b3b72ca5f532ade915df03dde511fe0a87873d960b"
+    },
+    {
+      "kind": "Infected",
+      "action": "Run",
+      "frame": 5,
+      "matches_native_validated_export": true,
+      "sha256": "7089475998e5f3eab9598ba32e03a18134166b175cc1e900b56567b586aa663f"
+    },
+    {
+      "kind": "Infected",
+      "action": "Run",
+      "frame": 6,
+      "matches_native_validated_export": true,
+      "sha256": "c47c2c20e307bc6051b1d624408c4d76c97135e5091a171a351e30a23e792489"
+    },
+    {
+      "kind": "Infected",
+      "action": "Attack",
+      "frame": 1,
+      "matches_native_validated_export": true,
+      "sha256": "a3336cced580473d9236b7c114040d337741ceb44ce9b9ac6010911c0d89eff7"
+    },
+    {
+      "kind": "Infected",
+      "action": "Attack",
+      "frame": 2,
+      "matches_native_validated_export": true,
+      "sha256": "c16451468208db5df8478694dab2861545fa428986cb757b182dde290223a683"
+    },
+    {
+      "kind": "Infected",
+      "action": "Attack",
+      "frame": 3,
+      "matches_native_validated_export": true,
+      "sha256": "82e73b685bb53f0d8021e1273734a906f00f93eb32b1fb5a68c58b36494d1205"
+    },
+    {
+      "kind": "Infected",
+      "action": "Attack",
+      "frame": 4,
+      "matches_native_validated_export": true,
+      "sha256": "bb72423f1250c4184eca7f71c619a70febd52b33513b182069be076c88bbf876"
+    },
+    {
+      "kind": "Infected",
+      "action": "Attack",
+      "frame": 5,
+      "matches_native_validated_export": true,
+      "sha256": "f15685c19edc9856b1228ba0134cae68adeab0931d98b8ff5de22a774651230d"
+    },
+    {
+      "kind": "Infected",
+      "action": "Attack",
+      "frame": 6,
+      "matches_native_validated_export": true,
+      "sha256": "ecca189ed55f3a78f759d5bc11bd47f3ee17bf27dc0a0866851e68daa2cafcd7"
+    },
+    {
+      "kind": "Infected",
+      "action": "Dead",
+      "frame": 1,
+      "matches_native_validated_export": true,
+      "sha256": "631bfa7cef4aeb94b736b02ecd5ae74aaff13ca7d30035c8f074525c58a2ae86"
+    },
+    {
+      "kind": "Infected",
+      "action": "Dead",
+      "frame": 2,
+      "matches_native_validated_export": true,
+      "sha256": "36cb05e494c9cb19ca938af3756a566a011d2d7b0e3f73ce47759358231ac6af"
+    },
+    {
+      "kind": "Infected",
+      "action": "Dead",
+      "frame": 3,
+      "matches_native_validated_export": true,
+      "sha256": "f0d43317ab5528c36a1ec5bf7b10582a9f5bee5a8933c8a4c84ac00284863833"
+    },
+    {
+      "kind": "Infected",
+      "action": "Dead",
+      "frame": 4,
+      "matches_native_validated_export": true,
+      "sha256": "1df13a0469297f8f50c6f8c858b26cb101c4ef87d05e673089689d3337d7d88d"
+    },
+    {
+      "kind": "Infected",
+      "action": "Dead",
+      "frame": 5,
+      "matches_native_validated_export": true,
+      "sha256": "64bf9183b9bdfaa5dc1ae2d99c38cc8f079eed69995abc5b9712fc9999790038"
+    },
+    {
+      "kind": "Infected",
+      "action": "Dead",
+      "frame": 6,
+      "matches_native_validated_export": true,
+      "sha256": "5f7136fea3c07521d403b1507e2596cfe0c461e32f706faa0d0f053beb02e62e"
+    },
+    {
+      "kind": "Large",
+      "action": "Idle",
+      "frame": 1,
+      "matches_native_validated_export": true,
+      "sha256": "3a6e52bb375e7b1acf20d255f5a201fee4fe49990428236356738fcadb95096c"
+    },
+    {
+      "kind": "Large",
+      "action": "Idle",
+      "frame": 2,
+      "matches_native_validated_export": true,
+      "sha256": "e53114ed5b6dbfb4ab58bd85b8d453e08cb05f077d57475e8d5b39f3d83cbf38"
+    },
+    {
+      "kind": "Large",
+      "action": "Idle",
+      "frame": 3,
+      "matches_native_validated_export": true,
+      "sha256": "9a8890b02c58485f6e238c2da439b3ad5628c549984f08f45a50147ad558b8cd"
+    },
+    {
+      "kind": "Large",
+      "action": "Idle",
+      "frame": 4,
+      "matches_native_validated_export": true,
+      "sha256": "e0df61b78115c9f839d8e47a292aac4283410e0cec478f2c1ea49add6442e9b1"
+    },
+    {
+      "kind": "Large",
+      "action": "Walk",
+      "frame": 1,
+      "matches_native_validated_export": true,
+      "sha256": "1c0a8f343cdb4fd7464b62f722ae6abe7e03047e981b51987f9aef847229ba73"
+    },
+    {
+      "kind": "Large",
+      "action": "Walk",
+      "frame": 2,
+      "matches_native_validated_export": true,
+      "sha256": "fc2b6766c6f1b15ca49198be79192cf18349eaea826ef1934241860f74d7a9b2"
+    },
+    {
+      "kind": "Large",
+      "action": "Walk",
+      "frame": 3,
+      "matches_native_validated_export": true,
+      "sha256": "b5d051f1c2aa429e8a1de425daa0830ca2488ca0b1553482f6c1266158180893"
+    },
+    {
+      "kind": "Large",
+      "action": "Walk",
+      "frame": 4,
+      "matches_native_validated_export": true,
+      "sha256": "ce967887dbb036c9d488b765afd964e7af5924bac0b03f23d943a12aff833e7d"
+    },
+    {
+      "kind": "Large",
+      "action": "Walk",
+      "frame": 5,
+      "matches_native_validated_export": true,
+      "sha256": "a97c6d50aa459c55eb08cfd8bd935d644d42509a3a138d064ef26c858d201148"
+    },
+    {
+      "kind": "Large",
+      "action": "Walk",
+      "frame": 6,
+      "matches_native_validated_export": true,
+      "sha256": "025fa125ec0225647cfa8ee48736735f4588a9ad4b55ca67be448f4560aa1914"
+    },
+    {
+      "kind": "Large",
+      "action": "Run",
+      "frame": 1,
+      "matches_native_validated_export": true,
+      "sha256": "f3c0c047cc3112d9a2487053a5e472634b44f940b8c28a11baba89e5a11e229c"
+    },
+    {
+      "kind": "Large",
+      "action": "Run",
+      "frame": 2,
+      "matches_native_validated_export": true,
+      "sha256": "4f74defa1ea0a37385148dd9c6e7bc900de7fb294b8a3acf2c545ceed52f8cb9"
+    },
+    {
+      "kind": "Large",
+      "action": "Run",
+      "frame": 3,
+      "matches_native_validated_export": true,
+      "sha256": "9e1b329737a2b246d505e426c649a449ab7b5843a53878eea871de6e1866f8da"
+    },
+    {
+      "kind": "Large",
+      "action": "Run",
+      "frame": 4,
+      "matches_native_validated_export": true,
+      "sha256": "eec3fdf0a7632dfbe623527612f1000dd1bcc1893b2c5e959707c0a50d66fb85"
+    },
+    {
+      "kind": "Large",
+      "action": "Run",
+      "frame": 5,
+      "matches_native_validated_export": true,
+      "sha256": "66959ecc70a5da82ef10977d494ec8542c64f1ad1b8305a78cbb8cdc74eac1d2"
+    },
+    {
+      "kind": "Large",
+      "action": "Run",
+      "frame": 6,
+      "matches_native_validated_export": true,
+      "sha256": "8c2e2463b3da346b3365bcbf7f076a81545c34abf1bfbe1197dc6a8f48f1912b"
+    },
+    {
+      "kind": "Large",
+      "action": "Attack",
+      "frame": 1,
+      "matches_native_validated_export": true,
+      "sha256": "23f0507eef8b8b309fef238a3f55a6a490dd265d4a460a7b343e3016632d695d"
+    },
+    {
+      "kind": "Large",
+      "action": "Attack",
+      "frame": 2,
+      "matches_native_validated_export": true,
+      "sha256": "695aeb6cdf7287e7f5de1dc37b8fad6c6af7deedbf1c0a19e467f4ca94e99a00"
+    },
+    {
+      "kind": "Large",
+      "action": "Attack",
+      "frame": 3,
+      "matches_native_validated_export": true,
+      "sha256": "5049b2f8ae1677f688148f43ccb59c732b5020b2cfec19caa46d856056321a23"
+    },
+    {
+      "kind": "Large",
+      "action": "Attack",
+      "frame": 4,
+      "matches_native_validated_export": true,
+      "sha256": "f35c9b2a93219a7a3542540968fbeff168d4a2b8103fa33d529b8214ec15b364"
+    },
+    {
+      "kind": "Large",
+      "action": "Attack",
+      "frame": 5,
+      "matches_native_validated_export": true,
+      "sha256": "d14fdcfb436c0287635a5aa847c6b809c4fd3704b9bd1e40d8046ce31eec3f90"
+    },
+    {
+      "kind": "Large",
+      "action": "Attack",
+      "frame": 6,
+      "matches_native_validated_export": true,
+      "sha256": "7cbded8d07a7743db27bdf84e64ccbb02a78ee89fcba6937f5e89a4ae3c6ea8f"
+    },
+    {
+      "kind": "Large",
+      "action": "Dead",
+      "frame": 1,
+      "matches_native_validated_export": true,
+      "sha256": "f26f94801352b4b13e5bbd3205113a2fde0bd09f2db0d77bea9fdb7c9d8fe097"
+    },
+    {
+      "kind": "Large",
+      "action": "Dead",
+      "frame": 2,
+      "matches_native_validated_export": true,
+      "sha256": "26235dbcb6270f65c035432db66da02810338ffe8185d39d29b90f3da795fd20"
+    },
+    {
+      "kind": "Large",
+      "action": "Dead",
+      "frame": 3,
+      "matches_native_validated_export": true,
+      "sha256": "af8e0b92d17caa1f3fbf84b04deac28eaadae095a73d788868fd433be5a57bd8"
+    },
+    {
+      "kind": "Large",
+      "action": "Dead",
+      "frame": 4,
+      "matches_native_validated_export": true,
+      "sha256": "cde80f1a80dc65d2939d4fc3ab18d0898264806749e0564615248aca06c5f801"
+    },
+    {
+      "kind": "Large",
+      "action": "Dead",
+      "frame": 5,
+      "matches_native_validated_export": true,
+      "sha256": "a2ac97e51c53574dd53fa39d35c7c9dccb0aacc261f2e6c4c230d4822b7a6503"
+    },
+    {
+      "kind": "Large",
+      "action": "Dead",
+      "frame": 6,
+      "matches_native_validated_export": true,
+      "sha256": "c80251da64d7e77d0568d5d2c0416a00dd7820a1816923b883421ad4b351da72"
+    }
+  ]
+}

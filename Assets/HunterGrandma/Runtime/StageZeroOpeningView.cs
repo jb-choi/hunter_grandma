@@ -16,6 +16,7 @@ namespace HunterGrandma
         private Transform fence;
         private SpriteRenderer[] visitors, impactMarks;
         private Sprite[] zombieFrames;
+        private ZombieAnimationSet zombieAnimations;
         private Sprite tea, standing, pixel;
         private Material material;
         private AudioSource audioSource;
@@ -29,11 +30,12 @@ namespace HunterGrandma
 
         public static Vector2 FenceFoot(float x) => new Vector2(x, -.65f - (x + .3f) * .285f);
         public static Vector2 VisitorFoot(int index) => FenceFoot(2f + index % 3 * 3.5f) + new Vector2(.34f, .22f);
-        public static StageZeroOpeningView Create(Transform parent, Sprite teaSprite, Sprite chairSprite, Sprite idle, Sprite[] zombies, Sprite dot, Material shared, bool withAudio)
+        public static StageZeroOpeningView Create(Transform parent, Sprite teaSprite, Sprite chairSprite, Sprite idle, Sprite[] zombies, Sprite dot, Material shared, bool withAudio, ZombieAnimationSet animations = null)
         {
             var obj = new GameObject("Stage 0 house opening", typeof(StageZeroOpeningView)); obj.transform.SetParent(parent, false);
             StageZeroOpeningView view = obj.GetComponent<StageZeroOpeningView>();
             view.pixel = dot; view.material = shared; view.tea = teaSprite; view.standing = idle; view.zombieFrames = zombies;
+            view.zombieAnimations = animations != null && animations.IsReady ? animations : null;
             view.layoutVersion = LayoutVersion; view.BuildRoom(chairSprite);
             if (withAudio)
             {
@@ -85,6 +87,7 @@ namespace HunterGrandma
             for (int i = 0; i < visitors.Length; i++)
             {
                 visitors[i] = Image("Zombie outside " + i, zombieFrames[0], VisitorFoot(i), .8f, BeltSpace.SortOrder(VisitorFoot(i).y));
+                visitors[i].flipX = zombieAnimations != null;
                 Vector2 hit = FenceFoot(VisitorFoot(i).x - .8f) + Vector2.up * UpperRail;
                 impactMarks[i] = Box("Fence impact " + i, hit.x, hit.y, .28f, .07f, new Color(.94f, .77f, .46f), 1510);
                 impactMarks[i].transform.rotation = Quaternion.Euler(0, 0, 50); impactMarks[i].enabled = false;
@@ -132,7 +135,7 @@ namespace HunterGrandma
             {
                 float beat = Mathf.Repeat(Mathf.Max(0, Age - TeaEnd) + i * .31f, 1.35f);
                 float reach = ZombieActor.FenceReach(beat);
-                visitors[i].sprite = zombieFrames[Mathf.Min(reach > .1f ? 1 : 2, zombieFrames.Length - 1)];
+                visitors[i].sprite = zombieAnimations != null ? zombieAnimations.Attack(ZombieKind.Infected, beat) : zombieFrames[Mathf.Min(reach > .1f ? 1 : 2, zombieFrames.Length - 1)];
                 visitors[i].transform.position = VisitorFoot(i) + new Vector2(-reach * .18f, -Mathf.Max(0, reach) * .08f);
                 visitors[i].transform.localRotation = Quaternion.Euler(0, 0, reach * 11f);
                 visitors[i].transform.localScale = new Vector3(.8f * (1 + Mathf.Max(0, reach) * .06f), .8f * (1 + reach * .035f), 1);

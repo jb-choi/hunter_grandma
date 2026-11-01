@@ -26,6 +26,8 @@ namespace HunterGrandma.Editor
         private static Keyboard keyboard;
         private static int step, completed, transitionGold, bossFreeFrames;
         private static int inputFrame;
+        private static int[] observedKinds = new int[DefenseStages.Count];
+        private static bool observedAuthoredAttack, observedAuthoredDeath, observedAuthoredWalk;
         private static bool seenMelt, seenLeft, repeat;
         private static double deadline, waitUntil;
         private static string firstClear, previousRun;
@@ -74,6 +76,8 @@ namespace HunterGrandma.Editor
             checks.Clear(); errors.Clear(); runs.Clear(); environmentErrors.Clear(); owner = null; hud = null; keyboard = null;
             step = completed = transitionGold = bossFreeFrames = 0;
             seenMelt = seenLeft = repeat = false;
+            observedKinds = new int[DefenseStages.Count];
+            observedAuthoredAttack = observedAuthoredDeath = observedAuthoredWalk = false;
             if (File.Exists(Profile)) File.Delete(Profile);
             if (File.Exists(Profile + ".bak")) File.Delete(Profile + ".bak");
             DefenseProgressStore.EditorValidationPath = Profile;
@@ -100,6 +104,7 @@ namespace HunterGrandma.Editor
         }
         private static void ModelChecks()
         {
+            ZombieRosterValidation.ModelChecks(Check);
             var progress = new DefenseProgress();
             Check(progress.IsUnlocked(0) && !progress.IsUnlocked(1) && !progress.IsUnlocked(-1) && !progress.IsUnlocked(7), "New profile unlocks only Stage 0; invalid stage IDs are rejected");
             Check(!progress.TryUpgradeAttack() && !progress.TryUpgradeFireRate(), "Upgrades cannot spend unavailable gold");
@@ -137,7 +142,7 @@ namespace HunterGrandma.Editor
                 Check(!waves.TryCompleteWaves(waveRun) && !waves.TryComplete(waveRun, "duplicate", out _) && waves.Stage(id).clearCount == 1, "Stage " + id + ": the same wave run cannot settle twice or grant a legacy capture");
             }
             DefenseProgress noCaptives = DefenseProgress.FromJson(waves.ToJson());
-            Check(noCaptives.IsUnlocked(6) && noCaptives.Stage(6).clearCount == 1 && noCaptives.CaptiveCount == 0, "All seven wave-only clears survive JSON reload with sequential unlocks");
+            Check(noCaptives.IsUnlocked(DefenseStages.Count - 1) && noCaptives.Stage(DefenseStages.Count - 1).clearCount == 1 && noCaptives.CaptiveCount == 0, "Every wave-only stage clear survives JSON reload with sequential unlocks");
             DefenseSaveData badCounts = JsonUtility.FromJson<DefenseSaveData>(restored.ToJson()); badCounts.stages[0].clearCount = 1;
             bool rejectedCounts = false; try { DefenseProgress.FromJson(JsonUtility.ToJson(badCounts)); } catch (FormatException) { rejectedCounts = true; }
             Check(rejectedCounts, "A save with fewer clears than historical captive records is rejected");
@@ -173,6 +178,14 @@ namespace HunterGrandma.Editor
             {
                 if (owner == null) owner = UnityEngine.Object.FindFirstObjectByType<GrandmaDefense>();
                 if (owner == null || owner.Progress == null) return;
+                foreach (ZombieActor zombie in UnityEngine.Object.FindObjectsByType<ZombieActor>(FindObjectsSortMode.None))
+                {
+                    if (!zombie.gameObject.activeSelf || zombie.AnimationSet == null) continue;
+                    if (zombie.IsAlive) observedKinds[owner.CurrentStageId] |= 1 << (int)zombie.Kind;
+                    observedAuthoredAttack |= zombie.IsAlive && zombie.AnimationAction == ZombieAction.Attack;
+                    observedAuthoredWalk |= zombie.IsAlive && (zombie.AnimationAction == ZombieAction.Walk || zombie.AnimationAction == ZombieAction.Run);
+                    observedAuthoredDeath |= zombie.IsMelting && zombie.AnimationAction == ZombieAction.Dead;
+                }
                 if (step == 0)
                 {
                     // Let the first game frames finish before injecting dynamic-update input.
@@ -207,7 +220,7 @@ namespace HunterGrandma.Editor
                     var hits = new List<RaycastResult>(); EventSystem.current.RaycastAll(pointer, hits);
                     Check(hits.Count > 0 && hits[0].gameObject.GetComponentInParent<Button>() == Button("Region 0"), "Map pin receives the actual pointer raycast above the modal backdrop");
                     Snapshot("map-locked"); Snapshot("map-locked-4x3", 1024, 768);
-                    Check(GameObject.Find("Stage 0 home") != null, "Stage 0 is separately selectable outside the six city pins");
+                    Check(GameObject.Find("Stage 0 home") != null && GameObject.Find("Region 6") != null, "Stage 0 is separately selectable alongside seven city pins, including Stage 7");
                     InputSystem.QueueStateEvent(keyboard, new KeyboardState(Key.Escape)); inputFrame = Time.frameCount;
                     step = 2; waitUntil = EditorApplication.timeSinceStartup + 8; return;
                 }
@@ -306,6 +319,7 @@ namespace HunterGrandma.Editor
                     }
                     if (owner.Phase != DefensePhase.Clear) return;
                     int id = owner.CurrentStageId;
+                    Check(observedKinds[id] == (id == 0 ? 2 : id < 5 ? 3 : 7), "Stage " + id + ": natural runtime spawns contain exactly the requested zombie variants");
                     Check(owner.Run.WavesCleared && owner.Run.Settled && !owner.Run.BossSubdued && !owner.Run.ReturnedToYard && !owner.AtYard, "Stage " + id + ": waves settle directly to CLEAR at the hunting location");
                     Check(owner.WaveNumber == owner.CurrentStage.WaveCount && owner.KillCount == owner.CurrentStage.WaveCount * owner.CurrentStage.EnemiesPerWave && owner.ActiveZombieCount == 0, "Stage " + id + ": every configured normal zombie is defeated before CLEAR");
                     Check(owner.Progress.CaptiveCount == 0 && owner.Progress.Stage(id).capturedCount == 0 && owner.LastCaptive == null && !owner.Boss.gameObject.activeSelf, "Stage " + id + ": no boss, cart settlement or fabricated captive");
@@ -318,8 +332,8 @@ namespace HunterGrandma.Editor
                     if (repeat)
                     {
                         Check(owner.Progress.Stage(0).firstClearAt == firstClear && owner.Progress.Stage(0).clearCount == 2, "Replaying Stage 0 preserves first-clear time and increments only the clear count");
-                        Click("지도  M"); Click("Region 5"); Snapshot("map-unlocked"); Snapshot("map-unlocked-4x3", 1024, 768);
-                        Check(Button("Travel to selected region").interactable, "Completed Stage 6 remains selectable for another wave-only hunt");
+                        Click("지도  M"); Click("Region 6"); Snapshot("map-unlocked"); Snapshot("map-unlocked-4x3", 1024, 768);
+                        Check(Button("Travel to selected region").interactable, "Completed Stage 7 remains selectable for another wave-only hunt");
                         Click("Close map"); Check(owner.EnterStage(1), "A completed district can be re-entered"); step = 4; return;
                     }
                     completed++;
@@ -357,9 +371,9 @@ namespace HunterGrandma.Editor
                 }
                 if (step == 22 && EditorApplication.timeSinceStartup >= waitUntil)
                 {
-                    Check(owner.CurrentStageId == DefenseStages.Count - 1 && owner.Phase == DefensePhase.Clear && owner.Progress.Stage(6).clearCount == 1 && owner.ActiveZombieCount == 0, "Final CLEAR remains stable for multiple transition intervals and grants no repeated clear");
+                    Check(owner.CurrentStageId == DefenseStages.Count - 1 && owner.Phase == DefensePhase.Clear && owner.Progress.Stage(DefenseStages.Count - 1).clearCount == 1 && owner.ActiveZombieCount == 0, "Final CLEAR remains stable for multiple transition intervals and grants no repeated clear");
                     Check(bossFreeFrames > 0, "Every observed natural combat/transition frame remained free of bosses and capture phases");
-                    repeat = true; Check(owner.EnterStage(0), "All seven stages completed; replay Stage 0"); step = 3; return;
+                    repeat = true; Check(owner.EnterStage(0), "Stage 0 and all seven city stages completed; replay Stage 0"); step = 3; return;
                 }
                 if (step == 4 && owner.KillCount > 0)
                 {
@@ -368,7 +382,8 @@ namespace HunterGrandma.Editor
                     owner.RestartEncounter(); owner.DamageDefense(100);
                     Check(owner.Phase == DefensePhase.Failed && owner.Progress.Gold == gold && owner.Progress.CaptiveCount == 0 && owner.Progress.Stage(1).clearCount == 1, "Failure keeps progress and does not settle the unfinished wave run");
                     var saved = new DefenseProgressStore(Profile).Load();
-                    Check(saved.CaptiveCount == 0 && saved.Stage(0).clearCount == 2 && saved.Stage(6).clearCount == 1 && saved.Gold == gold && saved.ShadowSkillEnabled == owner.Progress.ShadowSkillEnabled, "Disk reload retains all seven wave clears, replay count, gold and skill preference without captives");
+                    Check(saved.CaptiveCount == 0 && saved.Stage(0).clearCount == 2 && saved.Stage(7).clearCount == 1 && saved.Gold == gold && saved.ShadowSkillEnabled == owner.Progress.ShadowSkillEnabled, "Disk reload retains all eight wave clears, replay count, gold and skill preference without captives");
+                    Check(observedAuthoredAttack && observedAuthoredDeath && observedAuthoredWalk, "Actual pooled enemies presented authored movement, fence attack and death during natural play");
                     Check(seenMelt && seenLeft, "Normal zombies visibly melt; plaza waves approach from both sides");
                     owner.RestartEncounter(); Check(owner.Phase == DefensePhase.Waves && owner.KillCount == 0 && owner.Progress.CaptiveCount == 0, "Retry resets combat while keeping permanent progress");
                     Check(errors.Count == 0, "No runtime errors, exceptions or assertions in the complete boss-free stage suite"); Finish(null);
