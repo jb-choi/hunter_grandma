@@ -41,42 +41,42 @@ MonoBehaviour:
       registration: {x: 43.5, y: 47}
   - action: 1
     frames:
-    - composite: {fileID: 21300000, guid: 762b97b8f14f7c54caced43fb7cc768b, type: 3}
-      body: {fileID: 21300000, guid: 3971557729602a742875f2901fc5ea4c, type: 3}
-      upper: {fileID: 21300000, guid: 064ef5df2d372f84cba96e05fdd125cd, type: 3}
-      duration: 0.11
-      muzzle: {x: 112, y: 47}
-      registration: {x: 46, y: 45}
-    - composite: {fileID: 21300000, guid: 447c2dabf1e3aba41857d209871a7651, type: 3}
-      body: {fileID: 21300000, guid: 82d1a13284419f649a5d68dccc8bc6cc, type: 3}
-      upper: {fileID: 21300000, guid: ca5c1700d45c50c4bab01f9ea7092657, type: 3}
-      duration: 0.11
-      muzzle: {x: 110, y: 47}
-      registration: {x: 44, y: 45}
-    - composite: {fileID: 21300000, guid: 60fb2743a7a9c3a4284c765497377895, type: 3}
-      body: {fileID: 21300000, guid: 25d221b90902eff4d9d769edfd92984a, type: 3}
-      upper: {fileID: 21300000, guid: 429af2b9b54873949ac73e946f963b77, type: 3}
-      duration: 0.11
-      muzzle: {x: 110, y: 47}
-      registration: {x: 44, y: 46}
-    - composite: {fileID: 21300000, guid: e1ed70630a6c4c24380f385fbb85b481, type: 3}
-      body: {fileID: 21300000, guid: 2c358146adaa8d146ba1f7c0d30a9034, type: 3}
-      upper: {fileID: 21300000, guid: 07c40e506e9014d4a9aaafa54c60d43b, type: 3}
-      duration: 0.11
-      muzzle: {x: 111, y: 49}
-      registration: {x: 45, y: 47}
-    - composite: {fileID: 21300000, guid: fc24e642910b43b469da6b7987acfed2, type: 3}
-      body: {fileID: 21300000, guid: b9db31dbb3c67174d881cc9afd8fa4f3, type: 3}
-      upper: {fileID: 21300000, guid: e75b994bf5cd5da4bb40df188b0c2e88, type: 3}
-      duration: 0.11
-      muzzle: {x: 109, y: 48}
-      registration: {x: 43.5, y: 46}
-    - composite: {fileID: 21300000, guid: d3f4339fbeb458e4bbc8e0851a01d895, type: 3}
-      body: {fileID: 21300000, guid: 45c55125e6bfe094eb7384ebdb6e155a, type: 3}
-      upper: {fileID: 21300000, guid: e803bac8808d15347b506b4c84c63ab0, type: 3}
-      duration: 0.11
-      muzzle: {x: 110, y: 48}
-      registration: {x: 44, y: 47}
+    - composite: {fileID: 21300000, guid: 4bbdffefcb9327a439ca43c016fc4058, type: 3}
+      body: {fileID: 21300000, guid: afb8ad06ecf5e7b49a8754b31eb533b9, type: 3}
+      upper: {fileID: 21300000, guid: 0b8a38fcfc64b284395e384f4eb31593, type: 3}
+      duration: 0.14
+      muzzle: {x: 111, y: 44}
+      registration: {x: 52, y: 55}
+    - composite: {fileID: 21300000, guid: 5d3642b731dff714ebb439b1baa86f1a, type: 3}
+      body: {fileID: 21300000, guid: fe5864445613d614d864676b6569b306, type: 3}
+      upper: {fileID: 21300000, guid: c0ce71a5a2d529040ba887db42e7a33a, type: 3}
+      duration: 0.14
+      muzzle: {x: 111, y: 41}
+      registration: {x: 52, y: 52}
+    - composite: {fileID: 21300000, guid: dab72c7f177b6b343ab7ed1f443eddf8, type: 3}
+      body: {fileID: 21300000, guid: 4c5817050dcff2d408deaa302ffbd246, type: 3}
+      upper: {fileID: 21300000, guid: 7ba49a62351c99348b6a35ee4e4a91f8, type: 3}
+      duration: 0.14
+      muzzle: {x: 111, y: 41}
+      registration: {x: 52, y: 52}
+    - composite: {fileID: 21300000, guid: b942986d994b2ca408184168e9b73e45, type: 3}
+      body: {fileID: 21300000, guid: b19556df152594c4e819b2390098bb6e, type: 3}
+      upper: {fileID: 21300000, guid: 0b437b4508f44f044a20cbee24977433, type: 3}
+      duration: 0.14
+      muzzle: {x: 111, y: 41}
+      registration: {x: 52, y: 52}
+    - composite: {fileID: 21300000, guid: d8e066320abdc4a4883afb5eabc9813e, type: 3}
+      body: {fileID: 21300000, guid: 1cfc61b4b3e39484fb4ffaeb6668c40d, type: 3}
+      upper: {fileID: 21300000, guid: 29b3b03e9bca59d4ba0a470070543918, type: 3}
+      duration: 0.14
+      muzzle: {x: 111, y: 41}
+      registration: {x: 52, y: 52}
+    - composite: {fileID: 21300000, guid: 0da732cdc2bac3645b700bb4a07ae931, type: 3}
+      body: {fileID: 21300000, guid: cfcb2f65d5159a44e91b539a30e5db5f, type: 3}
+      upper: {fileID: 21300000, guid: ad5f2f69e7bb4e54eb31463c2d9cc4b5, type: 3}
+      duration: 0.14
+      muzzle: {x: 111, y: 41}
+      registration: {x: 52, y: 52}
   - action: 2
     frames:
     - composite: {fileID: 21300000, guid: 8f8daccfb130aa3448c4a42a5f1530e3, type: 3}
@@ -117,50 +117,38 @@ MonoBehaviour:
       registration: {x: 39.5, y: 45}
   - action: 3
     frames:
-    - composite: {fileID: 21300000, guid: e9571f1d06e93814781698f60b925c01, type: 3}
-      body: {fileID: 21300000, guid: b586f847937821c4b8ae47c9909384a0, type: 3}
-      upper: {fileID: 21300000, guid: 11b5a93d0e936484685bc3e244fcfac6, type: 3}
-      duration: 0.14
-      muzzle: {x: 99, y: 72}
-      registration: {x: 46.5, y: 47}
-    - composite: {fileID: 21300000, guid: 192b1592b95a34f4abad984960cb3d84, type: 3}
-      body: {fileID: 21300000, guid: 36f90996e6447d34f8d295edbef33f77, type: 3}
-      upper: {fileID: 21300000, guid: 59a3b0f4fdc9c9a428de03b587f8b409, type: 3}
-      duration: 0.14
-      muzzle: {x: 103, y: 41}
-      registration: {x: 47, y: 46}
-    - composite: {fileID: 21300000, guid: ed076012bff90af48bb85f4aceb25684, type: 3}
-      body: {fileID: 21300000, guid: c4606355f85e2d149b6dffe89c8dd23e, type: 3}
-      upper: {fileID: 21300000, guid: ea66de5f88b233f4b8463f44af7f2ca1, type: 3}
-      duration: 0.14
-      muzzle: {x: 106, y: 38}
-      registration: {x: 47, y: 49}
+    - composite: {fileID: 21300000, guid: 72fe301f93ebe144aae8a9032319c5dc, type: 3}
+      body: {fileID: 21300000, guid: a5923bda1c84e9b47aa5d4fdae51902c, type: 3}
+      upper: {fileID: 21300000, guid: 4638832a1fc1cd64f873933529d54411, type: 3}
+      duration: 0.42
+      muzzle: {x: 111, y: 44}
+      registration: {x: 52, y: 55}
   - action: 4
     frames:
-    - composite: {fileID: 21300000, guid: 3213f3a87019fac4f915f522b32a2e23, type: 3}
-      body: {fileID: 21300000, guid: b7b52ae2aaf33ee47a456e0ff9248148, type: 3}
-      upper: {fileID: 21300000, guid: d5234f1364157624d9ae21cca676d88d, type: 3}
+    - composite: {fileID: 21300000, guid: d986feca60b327644a434850cdc052f7, type: 3}
+      body: {fileID: 21300000, guid: 80ce6927967601843890e43eedd4e4ae, type: 3}
+      upper: {fileID: 21300000, guid: 259960d2dc4e83049ab72acd5c6edf7a, type: 3}
       duration: 0.1
-      muzzle: {x: 106, y: 49}
-      registration: {x: 46, y: 50}
-    - composite: {fileID: 21300000, guid: 613e5b678b3aa5f47abe789655884581, type: 3}
-      body: {fileID: 21300000, guid: 846e8aaa3348d654d92b82968bcba742, type: 3}
-      upper: {fileID: 21300000, guid: be2866ee9ba9695448370908072f56c4, type: 3}
+      muzzle: {x: 111, y: 44}
+      registration: {x: 52, y: 55}
+    - composite: {fileID: 21300000, guid: 4b999177018d1d642addb990e47735b3, type: 3}
+      body: {fileID: 21300000, guid: b3db4b6fe8c67ce468580d15d160d87e, type: 3}
+      upper: {fileID: 21300000, guid: f86c6f05d4f50d442b7bbacddc14c1b8, type: 3}
       duration: 0.07
-      muzzle: {x: 92, y: 45}
-      registration: {x: 29, y: 59}
-    - composite: {fileID: 21300000, guid: 5d83097ff72cfea4db5e7653cfe4e9b3, type: 3}
-      body: {fileID: 21300000, guid: 7e33f2122b0f2d04e8a4236b6663ee97, type: 3}
-      upper: {fileID: 21300000, guid: d805b969072b77446b53bd22412245f9, type: 3}
-      duration: 0.11
-      muzzle: {x: 109, y: 70}
-      registration: {x: 59, y: 56}
-    - composite: {fileID: 21300000, guid: 28ad0356aa7decf41b7252ae3460984e, type: 3}
-      body: {fileID: 21300000, guid: 306caa2001ee761418fdf27b1d4f6686, type: 3}
-      upper: {fileID: 21300000, guid: ba630c296a264974e8a2381f2f09e692, type: 3}
+      muzzle: {x: 108, y: 44}
+      registration: {x: 52, y: 56}
+    - composite: {fileID: 21300000, guid: 4b8531e0ba00a694d956592f502560c2, type: 3}
+      body: {fileID: 21300000, guid: 8eb40b988dd524f499ffed10159fc901, type: 3}
+      upper: {fileID: 21300000, guid: ec55935e1b026fd45ac8b4fc18d6e7bb, type: 3}
+      duration: 0.1
+      muzzle: {x: 110, y: 45}
+      registration: {x: 52, y: 56}
+    - composite: {fileID: 21300000, guid: b8eb46a20f99058418fffa8d2bfb278f, type: 3}
+      body: {fileID: 21300000, guid: 2f19f037aa1862e44981679737994e65, type: 3}
+      upper: {fileID: 21300000, guid: 22d0b2fe0f8726d478a8a566f71986ce, type: 3}
       duration: 0.15
-      muzzle: {x: 105, y: 47}
-      registration: {x: 41.5, y: 51}
+      muzzle: {x: 111, y: 44}
+      registration: {x: 52, y: 55}
   - action: 5
     frames:
     - composite: {fileID: 21300000, guid: 7a2c05b33c3e7ca4fa794a68edd616eb, type: 3}

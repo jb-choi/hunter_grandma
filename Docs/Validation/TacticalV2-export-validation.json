@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-02",
+  "count": 11,
+  "all_match": true,
+  "poses": [
+    {
+      "action": "Walk",
+      "frame": 1,
+      "master": 28,
+      "matches_native_export": true,
+      "layer_reassembly_matches": true,
+      "registration": [
+        62.0,
+        55
+      ]
+    },
+    {
+      "action": "Walk",
+      "frame": 2,
+      "master": 29,
+      "matches_native_export": true,
+      "layer_reassembly_matches": true,
+      "registration": [
+        62.5,
+        51
+      ]
+    },
+    {
+      "action": "Walk",
+      "frame": 3,
+      "master": 30,
+      "matches_native_export": true,
+      "layer_reassembly_matches": true,
+      "registration": [
+        62.5,
+        51
+      ]
+    },
+    {
+      "action": "Walk",
+      "frame": 4,
+      "master": 31,
+      "matches_native_export": true,
+      "layer_reassembly_matches": true,
+      "registration": [
+        61.5,
+        51
+      ]
+    },
+    {
+      "action": "Walk",
+      "frame": 5,
+      "master": 32,
+      "matches_native_export": true,
+      "layer_reassembly_matches": true,
+      "registration": [
+        62.0,
+        51
+      ]
+    },
+    {
+      "action": "Walk",
+      "frame": 6,
+      "master": 33,
+      "matches_native_export": true,
+      "layer_reassembly_matches": true,
+      "registration": [
+        62.0,
+        50
+      ]
+    },
+    {
+      "action": "Aim",
+      "frame": 1,
+      "master": 40,
+      "matches_native_export": true,
+      "layer_reassembly_matches": true,
+      "registration": [
+        62.0,
+        55
+      ]
+    },
+    {
+      "action": "Fire",
+      "frame": 1,
+      "master": 40,
+      "matches_native_export": true,
+      "layer_reassembly_matches": true,
+      "registration": [
+        62.0,
+        55
+      ]
+    },
+    {
+      "action": "Fire",
+      "frame": 2,
+      "master": 41,
+      "matches_native_export": true,
+      "layer_reassembly_matches": true,
+      "registration": [
+        60.0,
+        56
+      ]
+    },
+    {
+      "action": "Fire",
+      "frame": 3,
+      "master": 42,
+      "matches_native_export": true,
+      "layer_reassembly_matches": true,
+      "registration": [
+        61.0,
+        56
+      ]
+    },
+    {
+      "action": "Fire",
+      "frame": 4,
+      "master": 43,
+      "matches_native_export": true,
+      "layer_reassembly_matches": true,
+      "registration": [
+        62.0,
+        55
+      ]
+    }
+  ]
+}

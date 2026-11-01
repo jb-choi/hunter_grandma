@@ -1,0 +1,1132 @@
+{
+  "canvas": [
+    120,
+    120
+  ],
+  "clips": [
+    {
+      "cols": 3,
+      "count": 6,
+      "file": "walk_v2_tiptoe_body.png",
+      "kind": "Walk",
+      "ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "rows": 2,
+      "start": 28,
+      "tag": "walk_v2_tactical"
+    },
+    {
+      "cols": 3,
+      "count": 6,
+      "file": "reload_v2_body.png",
+      "kind": "Reload",
+      "ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "rows": 2,
+      "start": 34,
+      "tag": "reload_v2_tactical"
+    },
+    {
+      "cols": 2,
+      "count": 4,
+      "file": "fire_v2_body.png",
+      "kind": "Fire",
+      "ms": [
+        100,
+        70,
+        100,
+        150
+      ],
+      "rows": 2,
+      "start": 40,
+      "tag": "fire_v2_tactical"
+    }
+  ],
+  "date": "2026-11-02",
+  "flash_source_frame": 21,
+  "frames": [
+    {
+      "action": "walk_v2_tactical",
+      "aseprite_tag": "walk_v2_tactical",
+      "compact_recoil": false,
+      "duration_ms": 140,
+      "flash": false,
+      "floor_boundary_y": 118,
+      "foot_span_px": 43,
+      "frame": 28,
+      "head_center": [
+        62.5,
+        30
+      ],
+      "local_frame": 1,
+      "loop": true,
+      "muzzle": [
+        111,
+        44
+      ],
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalV2/Source/Sampled/walk_v2_tactical/Body_01.png",
+      "source_scale": 0.23927765237020315,
+      "toe_weighted_walk": true,
+      "upper_mode": "Steady authored Aim assembly on new short forefoot gait",
+      "upper_offset_xy": [
+        5,
+        6
+      ],
+      "upper_source_frame": 19,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        66,
+        52
+      ],
+      "hand_back": [
+        89,
+        55
+      ],
+      "hand_front": [
+        61,
+        53
+      ],
+      "shoulder_back": [
+        73,
+        55
+      ],
+      "shoulder_front": [
+        30,
+        55
+      ],
+      "support_grip": [
+        90,
+        52
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 3.1622776601683795,
+      "registration": "Native separated assembly translated without resampling; forefoot body registered by gray hair",
+      "body_derivation": "Selected ImageGen forefoot atlas; nearest sampling and shared26-color palette"
+    },
+    {
+      "action": "walk_v2_tactical",
+      "aseprite_tag": "walk_v2_tactical",
+      "compact_recoil": false,
+      "duration_ms": 140,
+      "flash": false,
+      "floor_boundary_y": 118,
+      "foot_span_px": 43,
+      "frame": 29,
+      "head_center": [
+        62,
+        27.5
+      ],
+      "local_frame": 2,
+      "loop": true,
+      "muzzle": [
+        111,
+        41
+      ],
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalV2/Source/Sampled/walk_v2_tactical/Body_02.png",
+      "source_scale": 0.23927765237020315,
+      "toe_weighted_walk": true,
+      "upper_mode": "Steady authored Aim assembly on new short forefoot gait",
+      "upper_offset_xy": [
+        5,
+        3
+      ],
+      "upper_source_frame": 19,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        66,
+        49
+      ],
+      "hand_back": [
+        89,
+        52
+      ],
+      "hand_front": [
+        61,
+        50
+      ],
+      "shoulder_back": [
+        73,
+        52
+      ],
+      "shoulder_front": [
+        30,
+        52
+      ],
+      "support_grip": [
+        90,
+        49
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 3.1622776601683795,
+      "registration": "Native separated assembly translated without resampling; forefoot body registered by gray hair",
+      "body_derivation": "Selected ImageGen forefoot atlas; nearest sampling and shared26-color palette"
+    },
+    {
+      "action": "walk_v2_tactical",
+      "aseprite_tag": "walk_v2_tactical",
+      "compact_recoil": false,
+      "duration_ms": 140,
+      "flash": false,
+      "floor_boundary_y": 118,
+      "foot_span_px": 38,
+      "frame": 30,
+      "head_center": [
+        62.5,
+        27.5
+      ],
+      "local_frame": 3,
+      "loop": true,
+      "muzzle": [
+        111,
+        41
+      ],
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalV2/Source/Sampled/walk_v2_tactical/Body_03.png",
+      "source_scale": 0.23927765237020315,
+      "toe_weighted_walk": true,
+      "upper_mode": "Steady authored Aim assembly on new short forefoot gait",
+      "upper_offset_xy": [
+        5,
+        3
+      ],
+      "upper_source_frame": 19,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        66,
+        49
+      ],
+      "hand_back": [
+        89,
+        52
+      ],
+      "hand_front": [
+        61,
+        50
+      ],
+      "shoulder_back": [
+        73,
+        52
+      ],
+      "shoulder_front": [
+        30,
+        52
+      ],
+      "support_grip": [
+        90,
+        49
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 3.1622776601683795,
+      "registration": "Native separated assembly translated without resampling; forefoot body registered by gray hair",
+      "body_derivation": "Selected ImageGen forefoot atlas; nearest sampling and shared26-color palette"
+    },
+    {
+      "action": "walk_v2_tactical",
+      "aseprite_tag": "walk_v2_tactical",
+      "compact_recoil": false,
+      "duration_ms": 140,
+      "flash": false,
+      "floor_boundary_y": 118,
+      "foot_span_px": 42,
+      "frame": 31,
+      "head_center": [
+        62.5,
+        27
+      ],
+      "local_frame": 4,
+      "loop": true,
+      "muzzle": [
+        111,
+        41
+      ],
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalV2/Source/Sampled/walk_v2_tactical/Body_04.png",
+      "source_scale": 0.23927765237020315,
+      "toe_weighted_walk": true,
+      "upper_mode": "Steady authored Aim assembly on new short forefoot gait",
+      "upper_offset_xy": [
+        5,
+        3
+      ],
+      "upper_source_frame": 19,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        66,
+        49
+      ],
+      "hand_back": [
+        89,
+        52
+      ],
+      "hand_front": [
+        61,
+        50
+      ],
+      "shoulder_back": [
+        73,
+        52
+      ],
+      "shoulder_front": [
+        30,
+        52
+      ],
+      "support_grip": [
+        90,
+        49
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 3.1622776601683795,
+      "registration": "Native separated assembly translated without resampling; forefoot body registered by gray hair",
+      "body_derivation": "Selected ImageGen forefoot atlas; nearest sampling and shared26-color palette"
+    },
+    {
+      "action": "walk_v2_tactical",
+      "aseprite_tag": "walk_v2_tactical",
+      "compact_recoil": false,
+      "duration_ms": 140,
+      "flash": false,
+      "floor_boundary_y": 118,
+      "foot_span_px": 43,
+      "frame": 32,
+      "head_center": [
+        62.5,
+        27
+      ],
+      "local_frame": 5,
+      "loop": true,
+      "muzzle": [
+        111,
+        41
+      ],
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalV2/Source/Sampled/walk_v2_tactical/Body_05.png",
+      "source_scale": 0.23927765237020315,
+      "toe_weighted_walk": true,
+      "upper_mode": "Steady authored Aim assembly on new short forefoot gait",
+      "upper_offset_xy": [
+        5,
+        3
+      ],
+      "upper_source_frame": 19,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        66,
+        49
+      ],
+      "hand_back": [
+        89,
+        52
+      ],
+      "hand_front": [
+        61,
+        50
+      ],
+      "shoulder_back": [
+        73,
+        52
+      ],
+      "shoulder_front": [
+        30,
+        52
+      ],
+      "support_grip": [
+        90,
+        49
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 3.1622776601683795,
+      "registration": "Native separated assembly translated without resampling; forefoot body registered by gray hair",
+      "body_derivation": "Selected ImageGen forefoot atlas; nearest sampling and shared26-color palette"
+    },
+    {
+      "action": "walk_v2_tactical",
+      "aseprite_tag": "walk_v2_tactical",
+      "compact_recoil": false,
+      "duration_ms": 140,
+      "flash": false,
+      "floor_boundary_y": 118,
+      "foot_span_px": 42,
+      "frame": 33,
+      "head_center": [
+        63,
+        27
+      ],
+      "local_frame": 6,
+      "loop": true,
+      "muzzle": [
+        111,
+        41
+      ],
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalV2/Source/Sampled/walk_v2_tactical/Body_06.png",
+      "source_scale": 0.23927765237020315,
+      "toe_weighted_walk": true,
+      "upper_mode": "Steady authored Aim assembly on new short forefoot gait",
+      "upper_offset_xy": [
+        5,
+        3
+      ],
+      "upper_source_frame": 19,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        66,
+        49
+      ],
+      "hand_back": [
+        89,
+        52
+      ],
+      "hand_front": [
+        61,
+        50
+      ],
+      "shoulder_back": [
+        73,
+        52
+      ],
+      "shoulder_front": [
+        30,
+        52
+      ],
+      "support_grip": [
+        90,
+        49
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 3.1622776601683795,
+      "registration": "Native separated assembly translated without resampling; forefoot body registered by gray hair",
+      "body_derivation": "Selected ImageGen forefoot atlas; nearest sampling and shared26-color palette"
+    },
+    {
+      "action": "reload_v2_tactical",
+      "aseprite_tag": "reload_v2_tactical",
+      "compact_recoil": false,
+      "duration_ms": 150,
+      "flash": false,
+      "floor_boundary_y": 118,
+      "foot_span_px": 43,
+      "frame": 34,
+      "head_center": [
+        62.5,
+        30
+      ],
+      "local_frame": 1,
+      "loop": false,
+      "muzzle": [
+        111,
+        44
+      ],
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalV2/Source/Sampled/reload_v2_tactical/Body_01.png",
+      "source_scale": 1,
+      "toe_weighted_walk": false,
+      "upper_mode": "Authored reload hands and shell, normalized to steady shouldered shotgun position",
+      "upper_offset_xy": [
+        7,
+        -3
+      ],
+      "upper_source_frame": 11,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        66,
+        52
+      ],
+      "hand_back": [
+        98,
+        52
+      ],
+      "hand_front": [
+        61,
+        53
+      ],
+      "shoulder_back": [
+        72,
+        43
+      ],
+      "shoulder_front": [
+        28,
+        43
+      ],
+      "support_grip": [
+        90,
+        52
+      ],
+      "support_skin_distance": 2.23606797749979,
+      "trigger_skin_distance": 0,
+      "registration": "Native separated assembly translated without resampling; forefoot body registered by gray hair",
+      "body_source_master_frame": 28,
+      "body_derivation": "Frame28 narrow forefoot body; 0-2px upper-body compression/recoil anchored at waist y82; legs y83-119 fixed",
+      "generated_body_study_used": false
+    },
+    {
+      "action": "reload_v2_tactical",
+      "aseprite_tag": "reload_v2_tactical",
+      "compact_recoil": false,
+      "duration_ms": 150,
+      "flash": false,
+      "floor_boundary_y": 118,
+      "foot_span_px": 43,
+      "frame": 35,
+      "head_center": [
+        62.5,
+        31
+      ],
+      "local_frame": 2,
+      "loop": false,
+      "muzzle": [
+        111,
+        45
+      ],
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalV2/Source/Sampled/reload_v2_tactical/Body_02.png",
+      "source_scale": 1,
+      "toe_weighted_walk": false,
+      "upper_mode": "Authored reload hands and shell, normalized to steady shouldered shotgun position",
+      "upper_offset_xy": [
+        7,
+        -2
+      ],
+      "upper_source_frame": 12,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        66,
+        53
+      ],
+      "hand_back": [
+        61,
+        54
+      ],
+      "hand_front": [
+        38,
+        60
+      ],
+      "shoulder_back": [
+        71,
+        44
+      ],
+      "shoulder_front": [
+        28,
+        44
+      ],
+      "support_grip": [
+        90,
+        53
+      ],
+      "support_skin_distance": 21,
+      "trigger_skin_distance": 22.80350850198276,
+      "registration": "Native separated assembly translated without resampling; forefoot body registered by gray hair",
+      "body_source_master_frame": 28,
+      "body_derivation": "Frame28 narrow forefoot body; 0-2px upper-body compression/recoil anchored at waist y82; legs y83-119 fixed",
+      "generated_body_study_used": false
+    },
+    {
+      "action": "reload_v2_tactical",
+      "aseprite_tag": "reload_v2_tactical",
+      "compact_recoil": false,
+      "duration_ms": 150,
+      "flash": false,
+      "floor_boundary_y": 118,
+      "foot_span_px": 43,
+      "frame": 36,
+      "head_center": [
+        62.5,
+        32
+      ],
+      "local_frame": 3,
+      "loop": false,
+      "muzzle": [
+        111,
+        46
+      ],
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalV2/Source/Sampled/reload_v2_tactical/Body_03.png",
+      "source_scale": 1,
+      "toe_weighted_walk": false,
+      "upper_mode": "Authored reload hands and shell, normalized to steady shouldered shotgun position",
+      "upper_offset_xy": [
+        10,
+        -1
+      ],
+      "upper_source_frame": 13,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        66,
+        54
+      ],
+      "hand_back": [
+        73,
+        53
+      ],
+      "hand_front": [
+        61,
+        55
+      ],
+      "shoulder_back": [
+        74,
+        45
+      ],
+      "shoulder_front": [
+        31,
+        45
+      ],
+      "support_grip": [
+        90,
+        54
+      ],
+      "support_skin_distance": 13,
+      "trigger_skin_distance": 0,
+      "registration": "Native separated assembly translated without resampling; forefoot body registered by gray hair",
+      "body_source_master_frame": 28,
+      "body_derivation": "Frame28 narrow forefoot body; 0-2px upper-body compression/recoil anchored at waist y82; legs y83-119 fixed",
+      "generated_body_study_used": false
+    },
+    {
+      "action": "reload_v2_tactical",
+      "aseprite_tag": "reload_v2_tactical",
+      "compact_recoil": false,
+      "duration_ms": 150,
+      "flash": false,
+      "floor_boundary_y": 118,
+      "foot_span_px": 43,
+      "frame": 37,
+      "head_center": [
+        62.5,
+        32
+      ],
+      "local_frame": 4,
+      "loop": false,
+      "muzzle": [
+        111,
+        46
+      ],
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalV2/Source/Sampled/reload_v2_tactical/Body_04.png",
+      "source_scale": 1,
+      "toe_weighted_walk": false,
+      "upper_mode": "Authored reload hands and shell, normalized to steady shouldered shotgun position",
+      "upper_offset_xy": [
+        6,
+        -1
+      ],
+      "upper_source_frame": 14,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        66,
+        54
+      ],
+      "hand_back": [
+        69,
+        53
+      ],
+      "hand_front": [
+        61,
+        55
+      ],
+      "shoulder_back": [
+        71,
+        46
+      ],
+      "shoulder_front": [
+        27,
+        46
+      ],
+      "support_grip": [
+        90,
+        54
+      ],
+      "support_skin_distance": 17,
+      "trigger_skin_distance": 0,
+      "registration": "Native separated assembly translated without resampling; forefoot body registered by gray hair",
+      "body_source_master_frame": 28,
+      "body_derivation": "Frame28 narrow forefoot body; 0-2px upper-body compression/recoil anchored at waist y82; legs y83-119 fixed",
+      "generated_body_study_used": false
+    },
+    {
+      "action": "reload_v2_tactical",
+      "aseprite_tag": "reload_v2_tactical",
+      "compact_recoil": false,
+      "duration_ms": 150,
+      "flash": false,
+      "floor_boundary_y": 118,
+      "foot_span_px": 43,
+      "frame": 38,
+      "head_center": [
+        62.5,
+        31
+      ],
+      "local_frame": 5,
+      "loop": false,
+      "muzzle": [
+        111,
+        45
+      ],
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalV2/Source/Sampled/reload_v2_tactical/Body_05.png",
+      "source_scale": 1,
+      "toe_weighted_walk": false,
+      "upper_mode": "Authored reload hands and shell, normalized to steady shouldered shotgun position",
+      "upper_offset_xy": [
+        10,
+        -1
+      ],
+      "upper_source_frame": 15,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        66,
+        53
+      ],
+      "hand_back": [
+        101,
+        55
+      ],
+      "hand_front": [
+        61,
+        54
+      ],
+      "shoulder_back": [
+        74,
+        46
+      ],
+      "shoulder_front": [
+        30,
+        46
+      ],
+      "support_grip": [
+        90,
+        53
+      ],
+      "support_skin_distance": 11.40175425099138,
+      "trigger_skin_distance": 0,
+      "registration": "Native separated assembly translated without resampling; forefoot body registered by gray hair",
+      "body_source_master_frame": 28,
+      "body_derivation": "Frame28 narrow forefoot body; 0-2px upper-body compression/recoil anchored at waist y82; legs y83-119 fixed",
+      "generated_body_study_used": false
+    },
+    {
+      "action": "reload_v2_tactical",
+      "aseprite_tag": "reload_v2_tactical",
+      "compact_recoil": false,
+      "duration_ms": 150,
+      "flash": false,
+      "floor_boundary_y": 118,
+      "foot_span_px": 43,
+      "frame": 39,
+      "head_center": [
+        62.5,
+        30
+      ],
+      "local_frame": 6,
+      "loop": false,
+      "muzzle": [
+        111,
+        44
+      ],
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalV2/Source/Sampled/reload_v2_tactical/Body_06.png",
+      "source_scale": 1,
+      "toe_weighted_walk": false,
+      "upper_mode": "Authored reload hands and shell, normalized to steady shouldered shotgun position",
+      "upper_offset_xy": [
+        9,
+        -3
+      ],
+      "upper_source_frame": 16,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        66,
+        52
+      ],
+      "hand_back": [
+        98,
+        52
+      ],
+      "hand_front": [
+        61,
+        53
+      ],
+      "shoulder_back": [
+        73,
+        42
+      ],
+      "shoulder_front": [
+        30,
+        42
+      ],
+      "support_grip": [
+        90,
+        52
+      ],
+      "support_skin_distance": 3.1622776601683795,
+      "trigger_skin_distance": 0,
+      "registration": "Native separated assembly translated without resampling; forefoot body registered by gray hair",
+      "body_source_master_frame": 28,
+      "body_derivation": "Frame28 narrow forefoot body; 0-2px upper-body compression/recoil anchored at waist y82; legs y83-119 fixed",
+      "generated_body_study_used": false
+    },
+    {
+      "action": "fire_v2_tactical",
+      "aseprite_tag": "fire_v2_tactical",
+      "compact_recoil": true,
+      "duration_ms": 100,
+      "flash": false,
+      "floor_boundary_y": 118,
+      "foot_span_px": 43,
+      "frame": 40,
+      "head_center": [
+        62.5,
+        30
+      ],
+      "local_frame": 1,
+      "loop": false,
+      "muzzle": [
+        111,
+        44
+      ],
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalV2/Source/Sampled/fire_v2_tactical/Body_01.png",
+      "source_scale": 1,
+      "toe_weighted_walk": false,
+      "upper_mode": "Compact authored Aim assembly recoil plus source Fire2 flash",
+      "upper_offset_xy": [
+        5,
+        6
+      ],
+      "upper_source_frame": 19,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        66,
+        52
+      ],
+      "hand_back": [
+        89,
+        55
+      ],
+      "hand_front": [
+        61,
+        53
+      ],
+      "shoulder_back": [
+        73,
+        55
+      ],
+      "shoulder_front": [
+        30,
+        55
+      ],
+      "support_grip": [
+        90,
+        52
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 3.1622776601683795,
+      "registration": "Native separated assembly translated without resampling; forefoot body registered by gray hair",
+      "body_source_master_frame": 28,
+      "body_derivation": "Frame28 narrow forefoot body; 0-2px upper-body compression/recoil anchored at waist y82; legs y83-119 fixed",
+      "generated_body_study_used": false
+    },
+    {
+      "action": "fire_v2_tactical",
+      "aseprite_tag": "fire_v2_tactical",
+      "compact_recoil": true,
+      "duration_ms": 70,
+      "flash": true,
+      "floor_boundary_y": 118,
+      "foot_span_px": 43,
+      "frame": 41,
+      "head_center": [
+        60.5,
+        31
+      ],
+      "local_frame": 2,
+      "loop": false,
+      "muzzle": [
+        108,
+        44
+      ],
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalV2/Source/Sampled/fire_v2_tactical/Body_02.png",
+      "source_scale": 1,
+      "toe_weighted_walk": false,
+      "upper_mode": "Compact authored Aim assembly recoil plus source Fire2 flash",
+      "upper_offset_xy": [
+        2,
+        6
+      ],
+      "upper_source_frame": 19,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        63,
+        52
+      ],
+      "hand_back": [
+        86,
+        55
+      ],
+      "hand_front": [
+        58,
+        53
+      ],
+      "shoulder_back": [
+        70,
+        55
+      ],
+      "shoulder_front": [
+        27,
+        55
+      ],
+      "support_grip": [
+        87,
+        52
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 3.1622776601683795,
+      "registration": "Native separated assembly translated without resampling; forefoot body registered by gray hair",
+      "body_source_master_frame": 28,
+      "body_derivation": "Frame28 narrow forefoot body; 0-2px upper-body compression/recoil anchored at waist y82; legs y83-119 fixed",
+      "generated_body_study_used": false
+    },
+    {
+      "action": "fire_v2_tactical",
+      "aseprite_tag": "fire_v2_tactical",
+      "compact_recoil": true,
+      "duration_ms": 100,
+      "flash": false,
+      "floor_boundary_y": 118,
+      "foot_span_px": 43,
+      "frame": 42,
+      "head_center": [
+        61.5,
+        31
+      ],
+      "local_frame": 3,
+      "loop": false,
+      "muzzle": [
+        110,
+        45
+      ],
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalV2/Source/Sampled/fire_v2_tactical/Body_03.png",
+      "source_scale": 1,
+      "toe_weighted_walk": false,
+      "upper_mode": "Compact authored Aim assembly recoil plus source Fire2 flash",
+      "upper_offset_xy": [
+        4,
+        7
+      ],
+      "upper_source_frame": 19,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        65,
+        53
+      ],
+      "hand_back": [
+        88,
+        56
+      ],
+      "hand_front": [
+        60,
+        54
+      ],
+      "shoulder_back": [
+        72,
+        56
+      ],
+      "shoulder_front": [
+        29,
+        56
+      ],
+      "support_grip": [
+        89,
+        53
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 3.1622776601683795,
+      "registration": "Native separated assembly translated without resampling; forefoot body registered by gray hair",
+      "body_source_master_frame": 28,
+      "body_derivation": "Frame28 narrow forefoot body; 0-2px upper-body compression/recoil anchored at waist y82; legs y83-119 fixed",
+      "generated_body_study_used": false
+    },
+    {
+      "action": "fire_v2_tactical",
+      "aseprite_tag": "fire_v2_tactical",
+      "compact_recoil": true,
+      "duration_ms": 150,
+      "flash": false,
+      "floor_boundary_y": 118,
+      "foot_span_px": 43,
+      "frame": 43,
+      "head_center": [
+        62.5,
+        30
+      ],
+      "local_frame": 4,
+      "loop": false,
+      "muzzle": [
+        111,
+        44
+      ],
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalV2/Source/Sampled/fire_v2_tactical/Body_04.png",
+      "source_scale": 1,
+      "toe_weighted_walk": false,
+      "upper_mode": "Compact authored Aim assembly recoil plus source Fire2 flash",
+      "upper_offset_xy": [
+        5,
+        6
+      ],
+      "upper_source_frame": 19,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        66,
+        52
+      ],
+      "hand_back": [
+        89,
+        55
+      ],
+      "hand_front": [
+        61,
+        53
+      ],
+      "shoulder_back": [
+        73,
+        55
+      ],
+      "shoulder_front": [
+        30,
+        55
+      ],
+      "support_grip": [
+        90,
+        52
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 3.1622776601683795,
+      "registration": "Native separated assembly translated without resampling; forefoot body registered by gray hair",
+      "body_source_master_frame": 28,
+      "body_derivation": "Frame28 narrow forefoot body; 0-2px upper-body compression/recoil anchored at waist y82; legs y83-119 fixed",
+      "generated_body_study_used": false
+    }
+  ],
+  "max_ready_dx": 5,
+  "ready_assembly_from": 19,
+  "root_pivot": [
+    60,
+    118
+  ],
+  "runtime_changed": false,
+  "tags": [
+    [
+      "Idle",
+      1,
+      4
+    ],
+    [
+      "walk_v1_normal",
+      5,
+      10
+    ],
+    [
+      "reload_v1_normal",
+      11,
+      16
+    ],
+    [
+      "Aim",
+      17,
+      19
+    ],
+    [
+      "fire_v1_normal",
+      20,
+      23
+    ],
+    [
+      "Collect",
+      24,
+      27
+    ],
+    [
+      "walk_v2_tactical",
+      28,
+      33
+    ],
+    [
+      "reload_v2_tactical",
+      34,
+      39
+    ],
+    [
+      "fire_v2_tactical",
+      40,
+      43
+    ]
+  ],
+  "final_body_atlas": "Source/walk_v2_tiptoe_body.png",
+  "unused_studies": [
+    "Source/reload_v2_body.png",
+    "Source/fire_v2_body.png"
+  ]
+}

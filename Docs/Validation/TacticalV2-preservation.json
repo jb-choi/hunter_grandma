@@ -1,0 +1,550 @@
+{
+  "Date": "2026-11-02",
+  "TestedCopy": [
+    {
+      "Path": "Assets/HunterGrandma/Editor/SundeokAnimationSetup.cs",
+      "Hash": "78A6885EE14C22DD54FCCCA6015924B7462A1B06585D4CDF9F90DA33C2D61D3D",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Editor/SundeokAnimationValidation.cs",
+      "Hash": "62501E2AA046D8A07BC03C48E4DC42AD0DEEA39C59F1A3D3F49A68FC24F31395",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Editor/GrandmaReloadAudioValidation.cs",
+      "Hash": "461B8F5EA5A6EAB3F80A885FCAA79E5D70B536DE7AD67DF7EE0B1F8E41039D3F",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Art/Sundeok120/Sundeok120AnimationSet.asset",
+      "Hash": "1255E9CA52B9597205C0355EBED3A208F368D5EC9595217C13FF16083E5C6CF3",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Art/Sundeok120/Sundeok120AnimationSet.asset.meta",
+      "Hash": "2F31FFCEC257DC66DABE827D3BD06B8C4306BA52D9DDDBD165799488F9E08134",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Art/Sundeok120/pose_metadata.json",
+      "Hash": "24B5D2C5D1C838201261327FDCD94F217C3F319EFE353634A776783483F703BA",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Art/Sundeok120/TacticalV2.meta",
+      "Hash": "B098B1DC0B406C9B24122E49F8F7507EA8BB43843EB7E36F8E51D9EA2F53E792",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body.meta",
+      "Hash": "A9AF0001ADC93C39B25D3755C6D0F395D3A28901F79FEF8848A376BCAD26A8B2",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite.meta",
+      "Hash": "EAC5D3C5E9E3ED4208C6CEE455308EB7D8A437B1484DD043B3B9FAE42F4BCA30",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\README.md",
+      "Hash": "A2E923B87A29931F848C1B8ED71A880B3BC9249D2B26CF754AA0189033D26284",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\README.md.meta",
+      "Hash": "D6D805C660290E3A086AD8BE9DEEF5B372E1D0BFBE9B036D4A620CCAC6C685B2",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper.meta",
+      "Hash": "D74E700C0AB2B03347DA9FF9325BA83B857FBB7AFE011A1A0821EE79460A547F",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\aim.meta",
+      "Hash": "02D652C5467200236BB27FA43B35A0F84955013356831A9321C9E6099DABDA9F",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\fire.meta",
+      "Hash": "BD20BC7D83523087A729C0FB321D3A3BA82FE3B4DF898B48F722DC6EE6E93045",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\walk.meta",
+      "Hash": "30B5B17C22F818B315F5A9F1630D9BB2C5FC42049E052D75D827A8F0F935A4CF",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\aim\\sundeok_aim_01.png",
+      "Hash": "FE3937B7CA27C9839F5328683F76E1A7489211B39E1B7B9676A56F8CEE5B1DB8",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\aim\\sundeok_aim_01.png.meta",
+      "Hash": "71F181BD0A83CC03E93AE3F71902C65337073209B982139CEFFD2C96C5C303B7",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\fire\\sundeok_fire_01.png",
+      "Hash": "FE3937B7CA27C9839F5328683F76E1A7489211B39E1B7B9676A56F8CEE5B1DB8",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\fire\\sundeok_fire_01.png.meta",
+      "Hash": "8E02FADC9FFF6BEFD20456AB3102150195ABF9990FD77C85BB551291B3699B26",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\fire\\sundeok_fire_02.png",
+      "Hash": "4A221E1FB998D19FE559070DF4124DABC0B28AAD3686A7FB7715A0051664E8DC",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\fire\\sundeok_fire_02.png.meta",
+      "Hash": "0048313E5DA669867AADCBF46627CC5A1EA0F5E6EE15580E1D0419A87563A148",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\fire\\sundeok_fire_03.png",
+      "Hash": "63406A54B6498EFDCCA8148BE98FA75567F256DDA98F05709A3AC489AC5EEDCC",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\fire\\sundeok_fire_03.png.meta",
+      "Hash": "70681C995AE4107CDD877906919F5F85BA6016D547F843F342099BD774473353",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\fire\\sundeok_fire_04.png",
+      "Hash": "FE3937B7CA27C9839F5328683F76E1A7489211B39E1B7B9676A56F8CEE5B1DB8",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\fire\\sundeok_fire_04.png.meta",
+      "Hash": "B62DC075CEEC8499606AEE83C950AA5E9183B81E6701695AAD9ACA214BA0E1CA",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\walk\\sundeok_walk_01.png",
+      "Hash": "FE3937B7CA27C9839F5328683F76E1A7489211B39E1B7B9676A56F8CEE5B1DB8",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\walk\\sundeok_walk_01.png.meta",
+      "Hash": "BB7C7C37AB1EF51502CBCFBE3C322CD45A4515BAA947BE3641081AA6970B5A49",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\walk\\sundeok_walk_02.png",
+      "Hash": "7353B1394E6E759BDC718E886B69097524922A6AF27791A8B2B2865837BE49C7",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\walk\\sundeok_walk_02.png.meta",
+      "Hash": "F98A9FBD193870BB269F120C68FD8D321D7CB7F816FAEC5B6514A4E2650E9B3F",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\walk\\sundeok_walk_03.png",
+      "Hash": "BCF30FF4AE71BD232F58EE9B6DA38088135A3DE2F4490C34B9977E97D699D54B",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\walk\\sundeok_walk_03.png.meta",
+      "Hash": "D25B62B80F52B7F733A07A272F23B3E55E33C3048B50682DDB6E4486C69541CC",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\walk\\sundeok_walk_04.png",
+      "Hash": "56E26E4F3ED37059483611D9498DD1FFF1D9CCC83B044441CD5517B40972EA19",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\walk\\sundeok_walk_04.png.meta",
+      "Hash": "EC17C66EE2B02001148A27B5B8CF340F86DD51CC9F9B153443BB8E5112726CCE",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\walk\\sundeok_walk_05.png",
+      "Hash": "B279D81EAFF2A72341B7822636718F0B849288FEA31F2F42A3A5824B954CC1AF",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\walk\\sundeok_walk_05.png.meta",
+      "Hash": "5AF89B599E75F1914E11E39E448E230EC2074835181E04E390324A892493C684",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\walk\\sundeok_walk_06.png",
+      "Hash": "B447D1B1A99393093ABE8AF55A1B3F1F530E3A6C1CD0700A59C1D3A767EC61F5",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Body\\walk\\sundeok_walk_06.png.meta",
+      "Hash": "20B68624E0D18244F0BDA82DF4B03601CABE5C6F4B3F0D91E2B047F97452CCD0",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\aim.meta",
+      "Hash": "44722C439CF86B9CD956CF35F429ED8C1254E2BCDC0E05854E8380C34C43BB4B",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\fire.meta",
+      "Hash": "D0F6721EE0F2E7A09523B4E8D005170160174FC34E670A3B1F785EB0883D1C58",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\walk.meta",
+      "Hash": "39418BA8149A994D1A5C164E16572E61D262CFE985AE116CA0E8CB5CE14C2204",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\aim\\sundeok_aim_01.png",
+      "Hash": "7BC49CF6EFDBC1DD77D6F9226E6E81C8A25D4E81662A48E8376E187F34EF3DAA",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\aim\\sundeok_aim_01.png.meta",
+      "Hash": "9A1C8932AA6E2904817CC4337146D0F8F6DC58C98DF26A73573FB3B7C9BEF125",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\fire\\sundeok_fire_01.png",
+      "Hash": "7BC49CF6EFDBC1DD77D6F9226E6E81C8A25D4E81662A48E8376E187F34EF3DAA",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\fire\\sundeok_fire_01.png.meta",
+      "Hash": "AB98A3047B9FC1CEC2E845E0896006E4A46E4D7B64F20835A0CC84D562E21106",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\fire\\sundeok_fire_02.png",
+      "Hash": "C3304DEE807D3C95A5F7CFEF7F9A8DD2646484BC09ECD598097AA5DA56FF67F6",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\fire\\sundeok_fire_02.png.meta",
+      "Hash": "3854D22E12D39ADB7C1EF76F791F509214CC978EF0B8980F36E2817ED6FC3862",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\fire\\sundeok_fire_03.png",
+      "Hash": "DE29070915F6A176E5FC21C3A0A3E8C03EE2177EB53D856C2C563C117ACCCF01",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\fire\\sundeok_fire_03.png.meta",
+      "Hash": "57CA95BB149BEB7C752644E84C4F3B2FAB0ED9215FBA33E0A8E7E054B47B35EB",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\fire\\sundeok_fire_04.png",
+      "Hash": "7BC49CF6EFDBC1DD77D6F9226E6E81C8A25D4E81662A48E8376E187F34EF3DAA",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\fire\\sundeok_fire_04.png.meta",
+      "Hash": "6C6B4102BEDEF31B82C96032A94FD8F46101FC57FE0428C1CF8D15ECEC18C49A",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\walk\\sundeok_walk_01.png",
+      "Hash": "7BC49CF6EFDBC1DD77D6F9226E6E81C8A25D4E81662A48E8376E187F34EF3DAA",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\walk\\sundeok_walk_01.png.meta",
+      "Hash": "A86E90CB57902F5BA7D03B4C78298E1EEE9DC613FE9B4ADB9A1BA4A226B01616",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\walk\\sundeok_walk_02.png",
+      "Hash": "2093D40F6DD6DE712EDFDE67472F6FE576811ACBA9669F08A32AA8EBA50BCB59",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\walk\\sundeok_walk_02.png.meta",
+      "Hash": "EF44DC223260026D15EA38FD6F26F960D8E812BAE268C75BA89F0C5095D4EF81",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\walk\\sundeok_walk_03.png",
+      "Hash": "F183CF8E506011F99437967F5E2A39A968A545B00F81B5BB1D00B5CA4D4346B4",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\walk\\sundeok_walk_03.png.meta",
+      "Hash": "7ABEBDA84C9DCD6A6CC31405B7E4C8FAE1386AE52DA1F4E6E2877A0A7C531467",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\walk\\sundeok_walk_04.png",
+      "Hash": "19201D623E43279EA7D6EDF4AB76A33D3CB16A0A0FD9A4DA2F25191A60698DAE",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\walk\\sundeok_walk_04.png.meta",
+      "Hash": "B07F07D6C30E658062B771C1F7BE164AF9D4F2A69DE61F1B4AFCCCAB7169BC6C",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\walk\\sundeok_walk_05.png",
+      "Hash": "BFA23824014B260592EC8469C97B4659B0E99FD98F1F4303A4FDDBCFEA77D56E",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\walk\\sundeok_walk_05.png.meta",
+      "Hash": "70011957F812D773E9677072DBB0B1976A95E84EA39867BA1C2AAEF0C2B92B28",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\walk\\sundeok_walk_06.png",
+      "Hash": "3D58B43D3747D20329B838C4E5385CAA71204CC006C225350DE5CC7190DE72B7",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Composite\\walk\\sundeok_walk_06.png.meta",
+      "Hash": "62D7A47E6B616AAE79A3D40B02895186DCC7699B824E437F87AE44412974B455",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\aim.meta",
+      "Hash": "5B89610D386F576EB85BF14AB66CB8968F73EC996F457C217979E5892649A081",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\fire.meta",
+      "Hash": "8FD65D1F3936E3060580BE0A067CD8A45F0CD810F63E1F65D45B19BAF59EF6F3",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\walk.meta",
+      "Hash": "FB935DE2CA553B6234382B7AD23F62D391C3B6EEDEE805B313D777E33765E24C",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\aim\\sundeok_aim_01.png",
+      "Hash": "293CCCA92FFB7A2AEDBA064A98A3146A94599E4FA745E130D0355FCE823E4A3A",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\aim\\sundeok_aim_01.png.meta",
+      "Hash": "2A0B996BFC89B6FE0B94D0366954ACB344F9C6CA2CB3876438C6B9EEA7F6B326",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\fire\\sundeok_fire_01.png",
+      "Hash": "293CCCA92FFB7A2AEDBA064A98A3146A94599E4FA745E130D0355FCE823E4A3A",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\fire\\sundeok_fire_01.png.meta",
+      "Hash": "A0C1853B84CF98880CBF98505369126FB020FC905FDB8122348AFE7BBFA525D3",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\fire\\sundeok_fire_02.png",
+      "Hash": "4EEB06FDA0D745FA65C797D14EFA23F62E7BD8C404ED048537B76CBD8E8941CB",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\fire\\sundeok_fire_02.png.meta",
+      "Hash": "0C048B04BAE6786FD58F14246AFE5AA051E1D2B5332E9943555DB437AA7B9533",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\fire\\sundeok_fire_03.png",
+      "Hash": "F00DFEB4E2030258188FD6E66DC8003A54713A4CAF382DD4DAF9A77887EC4BE9",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\fire\\sundeok_fire_03.png.meta",
+      "Hash": "C6299C6A66EBEA9B3294E71F3F00BDE6FE0791FB8007EE315E0448CCD3343859",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\fire\\sundeok_fire_04.png",
+      "Hash": "293CCCA92FFB7A2AEDBA064A98A3146A94599E4FA745E130D0355FCE823E4A3A",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\fire\\sundeok_fire_04.png.meta",
+      "Hash": "C62A0F356065E2E4FC609C15E7502CCAD6A277098398391E77C80477697563BE",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\walk\\sundeok_walk_01.png",
+      "Hash": "293CCCA92FFB7A2AEDBA064A98A3146A94599E4FA745E130D0355FCE823E4A3A",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\walk\\sundeok_walk_01.png.meta",
+      "Hash": "F02E4B33D7E98AED9AF17C80DB53D774C6D9E3613B29C58D20D0F748FD3952A3",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\walk\\sundeok_walk_02.png",
+      "Hash": "9785699CCEA46EE0F9A66106C43209B23573CD57342428CD4C0C049D7372DAAB",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\walk\\sundeok_walk_02.png.meta",
+      "Hash": "3B372FD9ED06B8C19050361CAB1AB5AAA901D8E24A0A138F952B899B214DBB4C",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\walk\\sundeok_walk_03.png",
+      "Hash": "9785699CCEA46EE0F9A66106C43209B23573CD57342428CD4C0C049D7372DAAB",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\walk\\sundeok_walk_03.png.meta",
+      "Hash": "F5E1CA3A09980F4CF3E2212B8C7A0A571868021E3C0494A8F2EA6E6C5EFAA65E",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\walk\\sundeok_walk_04.png",
+      "Hash": "9785699CCEA46EE0F9A66106C43209B23573CD57342428CD4C0C049D7372DAAB",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\walk\\sundeok_walk_04.png.meta",
+      "Hash": "46B85E510AEDF01692ABBFDD0F4B614D37F0BA162A109D1255CD0FE5EE81B373",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\walk\\sundeok_walk_05.png",
+      "Hash": "9785699CCEA46EE0F9A66106C43209B23573CD57342428CD4C0C049D7372DAAB",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\walk\\sundeok_walk_05.png.meta",
+      "Hash": "974AA90EEAF3D342FC38B3B824A3FA96D30910FAA6DB1B3947EA31D51C205ED4",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\walk\\sundeok_walk_06.png",
+      "Hash": "9785699CCEA46EE0F9A66106C43209B23573CD57342428CD4C0C049D7372DAAB",
+      "MatchesTestedCopy": true
+    },
+    {
+      "Path": "Assets\\HunterGrandma\\Art\\Sundeok120\\TacticalV2\\Upper\\walk\\sundeok_walk_06.png.meta",
+      "Hash": "A6021B5813BD6FC8E1B9E66DCC6719AA73830ED63E0D47F89C908C6462FB0E0B",
+      "MatchesTestedCopy": true
+    }
+  ],
+  "Protected": [
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\grandma_01_sundeok_120.aseprite",
+      "Before": "84547DD9AC475885A0C8F22EEEA240E96634B31208F103658319CA6F54875210",
+      "After": "84547DD9AC475885A0C8F22EEEA240E96634B31208F103658319CA6F54875210",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\TacticalV2\\pose_metadata.json",
+      "Before": "F57CC118D7FA98CF13BB1429574691E47AC486F3C2F94504CEC8FD5A6DD8D175",
+      "After": "F57CC118D7FA98CF13BB1429574691E47AC486F3C2F94504CEC8FD5A6DD8D175",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\SundeokAnimationPlayer.cs",
+      "Before": "33BCABBD30748508A1089559B8700666FD3CDE03AEF6B6AE8FB8F202F7487AB8",
+      "After": "33BCABBD30748508A1089559B8700666FD3CDE03AEF6B6AE8FB8F202F7487AB8",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\GrandmaShooter.cs",
+      "Before": "46D8BA7474025FC3CA171BD615D7BCB73ADFA631EE11695CC14F94696E579D21",
+      "After": "46D8BA7474025FC3CA171BD615D7BCB73ADFA631EE11695CC14F94696E579D21",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Scenes\\GrandmaDefense.unity",
+      "Before": "E03288A03713485B582EDCD1A8C9F70C186AEA42AF1270231519FD91C487DED6",
+      "After": "E03288A03713485B582EDCD1A8C9F70C186AEA42AF1270231519FD91C487DED6",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Audio\\sundeok_reload_clack.wav",
+      "Before": "C9BA3C5CA510FBE392B1D4B4DDFA1E6A6105838426B350A1873B1F89BAA72D60",
+      "After": "C9BA3C5CA510FBE392B1D4B4DDFA1E6A6105838426B350A1873B1F89BAA72D60",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Art\\Zombies120\\Zombie120AnimationSet.asset",
+      "Before": "7572BED7909E8F828F23541871930E759241A3A0C7E191D55347F6B5497B6833",
+      "After": "7572BED7909E8F828F23541871930E759241A3A0C7E191D55347F6B5497B6833",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\ProjectSettings.asset",
+      "Before": "51CC2ECE34ADA65AE535FF1B315B6B7A49C10CFF83D7F0049CE99524B2E3DFC1",
+      "After": "51CC2ECE34ADA65AE535FF1B315B6B7A49C10CFF83D7F0049CE99524B2E3DFC1",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\EditorBuildSettings.asset",
+      "Before": "F740E5E08068D756B1838E970176A1BC95003D1B2A75CDB5556353742BE25153",
+      "After": "F740E5E08068D756B1838E970176A1BC95003D1B2A75CDB5556353742BE25153",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Packages\\manifest.json",
+      "Before": "EADB2409E74E98314259257A36E15BE39D62670F2C8E7B3DCD6FE80EB6388242",
+      "After": "EADB2409E74E98314259257A36E15BE39D62670F2C8E7B3DCD6FE80EB6388242",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\Users\\Junbeom_Choi\\AppData\\LocalLow\\DefaultCompany\\Hunter_grandma\\HunterGrandma\\stage-progress-v1.json",
+      "Before": "FAE1E7335FA50AD5F2EE929BAF91136F7E4517D7FB70D7E60623A2BCCAF75149",
+      "After": "FAE1E7335FA50AD5F2EE929BAF91136F7E4517D7FB70D7E60623A2BCCAF75149",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Parts\\Native\\sundeok_ammo.aseprite",
+      "Before": "55ECB88CE996ED902EE56F719A0A3831728BF5C8A451512420787A76BC44CA78",
+      "After": "55ECB88CE996ED902EE56F719A0A3831728BF5C8A451512420787A76BC44CA78",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Parts\\Native\\sundeok_backarm.aseprite",
+      "Before": "22908BE0E373C3FC80327B019219E25D30AF35FABB7EC5A31A70F0455E420415",
+      "After": "22908BE0E373C3FC80327B019219E25D30AF35FABB7EC5A31A70F0455E420415",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Parts\\Native\\sundeok_body.aseprite",
+      "Before": "E6B5EF42670A6C12BEF4E9D4AE26A7690E39CCA8527C41C03D3DEDD16CAD6932",
+      "After": "E6B5EF42670A6C12BEF4E9D4AE26A7690E39CCA8527C41C03D3DEDD16CAD6932",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Parts\\Native\\sundeok_frontarm.aseprite",
+      "Before": "267ABC68C7B66C977D879BC4969DAF1D320C4200CE12567061D006795392BAA0",
+      "After": "267ABC68C7B66C977D879BC4969DAF1D320C4200CE12567061D006795392BAA0",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Parts\\Native\\sundeok_fx.aseprite",
+      "Before": "9FAB1B3A1D51240276AD650376DD0A26487A83C36033031CC7CB60AA6F6DD3FD",
+      "After": "9FAB1B3A1D51240276AD650376DD0A26487A83C36033031CC7CB60AA6F6DD3FD",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Parts\\Native\\sundeok_pickup.aseprite",
+      "Before": "23116221B46DA83944F68F7F081255FC96D28A4CB8A051B8FC9D8EF8B70B3B3B",
+      "After": "23116221B46DA83944F68F7F081255FC96D28A4CB8A051B8FC9D8EF8B70B3B3B",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Parts\\Native\\sundeok_weapon.aseprite",
+      "Before": "AA4A7524FB119966672C5DE57EE18790FC22BCF61BD211386CBACC5BEB014B7A",
+      "After": "AA4A7524FB119966672C5DE57EE18790FC22BCF61BD211386CBACC5BEB014B7A",
+      "Unchanged": true
+    }
+  ]
+}

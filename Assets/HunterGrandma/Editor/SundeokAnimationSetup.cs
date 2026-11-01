@@ -11,7 +11,7 @@ namespace HunterGrandma.Editor
         internal const string Root = "Assets/HunterGrandma/Art/Sundeok120/";
         internal const string AssetPath = Root + "Sundeok120AnimationSet.asset";
         [Serializable] private sealed class Metadata { public Pose[] frames; }
-        [Serializable] private sealed class Pose { public string action; public int local_frame, duration_ms; public int[] muzzle; }
+        [Serializable] private sealed class Pose { public string action, folder; public int local_frame, duration_ms; public int[] muzzle; public float[] attachment_pixels; }
 
         internal static SundeokAnimationSet Configure()
         {
@@ -26,10 +26,12 @@ namespace HunterGrandma.Editor
                 {
                     if (pose.action != ((SundeokAction)i).ToString()) continue;
                     string name = pose.action.ToLowerInvariant(), leaf = name + "/sundeok_" + name + "_" + pose.local_frame.ToString("00") + ".png";
-                    string bodyPath = Root + "Body/" + leaf;
+                    string folder = Root + (pose.folder ?? "");
+                    string bodyPath = folder + "Body/" + leaf;
                     frames.Add(new SundeokAnimationFrame {
-                        composite = Import(Root + "Composite/" + leaf), body = Import(bodyPath), upper = Import(Root + "Upper/" + leaf),
-                        duration = pose.duration_ms / 1000f, muzzle = new Vector2(pose.muzzle[0], pose.muzzle[1]), registration = ReadRegistration(bodyPath)
+                        composite = Import(folder + "Composite/" + leaf), body = Import(bodyPath), upper = Import(folder + "Upper/" + leaf),
+                        duration = pose.duration_ms / 1000f, muzzle = new Vector2(pose.muzzle[0], pose.muzzle[1]),
+                        registration = pose.attachment_pixels != null && pose.attachment_pixels.Length == 2 ? new Vector2(pose.attachment_pixels[0], pose.attachment_pixels[1]) : ReadRegistration(bodyPath)
                     });
                 }
                 clips[i] = new SundeokAnimationClip { action = (SundeokAction)i, frames = frames.ToArray() };

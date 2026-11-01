@@ -30,6 +30,7 @@ namespace HunterGrandma.Editor
         static GrandmaReloadAudioValidation()
         {
             if (SessionState.GetBool(Running, false)) DefenseProgressStore.EditorValidationPath = Profile;
+            if (Application.isBatchMode && SessionState.GetBool(Running, false)) AudioListener.volume = 0f;
             EditorApplication.update += Tick;
             EditorApplication.playModeStateChanged += state =>
             {
@@ -48,6 +49,7 @@ namespace HunterGrandma.Editor
         {
             if (!Application.isBatchMode) throw new InvalidOperationException("Use -batchmode for RunBatch.");
             SessionState.SetBool(Batch, true); SessionState.SetBool(Batch + ".Done", false);
+            AudioListener.volume = 0f;
             EditorSceneManager.OpenScene(GrandmaProjectSetup.ScenePath); Begin();
         }
         [MenuItem("Tools/Hunter Grandma/Run Reload Audio Validation")]

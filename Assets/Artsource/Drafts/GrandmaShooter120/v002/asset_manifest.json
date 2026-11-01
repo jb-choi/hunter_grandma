@@ -38,7 +38,7 @@
       "preview_gif": "Previews/Idle_3x.gif"
     },
     {
-      "name": "Walk",
+      "name": "walk_v1_normal",
       "frames": 6,
       "durations_ms": [
         110,
@@ -48,13 +48,13 @@
         110,
         110
       ],
-      "native": "Clips/sundeok_walk.aseprite",
+      "native": "Clips/sundeok_walk_v1_normal.aseprite",
       "sheet": "Export/Sheets/sundeok_walk.png",
       "gif": "Export/Gifs/sundeok_walk.gif",
       "preview_gif": "Previews/Walk_3x.gif"
     },
     {
-      "name": "Reload",
+      "name": "reload_v1_normal",
       "frames": 6,
       "durations_ms": [
         150,
@@ -64,10 +64,11 @@
         150,
         150
       ],
-      "native": "Clips/sundeok_reload.aseprite",
+      "native": "Clips/sundeok_reload_v1_normal.aseprite",
       "sheet": "Export/Sheets/sundeok_reload.png",
       "gif": "Export/Gifs/sundeok_reload.gif",
-      "preview_gif": "Previews/Reload_3x.gif"
+      "preview_gif": "Previews/Reload_3x.gif",
+      "runtime_action_alias": "Reload"
     },
     {
       "name": "Aim",
@@ -83,7 +84,7 @@
       "preview_gif": "Previews/Aim_3x.gif"
     },
     {
-      "name": "Fire",
+      "name": "fire_v1_normal",
       "frames": 4,
       "durations_ms": [
         100,
@@ -91,10 +92,11 @@
         110,
         150
       ],
-      "native": "Clips/sundeok_fire.aseprite",
+      "native": "Clips/sundeok_fire_v1_normal.aseprite",
       "sheet": "Export/Sheets/sundeok_fire.png",
       "gif": "Export/Gifs/sundeok_fire.gif",
-      "preview_gif": "Previews/Fire_3x.gif"
+      "preview_gif": "Previews/Fire_3x.gif",
+      "runtime_action_alias": "Fire"
     },
     {
       "name": "Collect",
@@ -109,14 +111,75 @@
       "sheet": "Export/Sheets/sundeok_collect.png",
       "gif": "Export/Gifs/sundeok_collect.gif",
       "preview_gif": "Previews/Collect_3x.gif"
+    },
+    {
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "frames": 6,
+      "sheet": "TacticalV2/Export/Sheets/walk_v2_tactical.png",
+      "master_range": [
+        28,
+        33
+      ],
+      "loop": true,
+      "native": "Clips/sundeok_walk_v2_tactical.aseprite",
+      "gif": "TacticalV2/Export/Gifs/walk_v2_tactical.gif",
+      "name": "walk_v2_tactical",
+      "preview_gif": "TacticalV2/Previews/walk_v2_tactical_3x.gif"
+    },
+    {
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "frames": 6,
+      "sheet": "TacticalV2/Export/Sheets/reload_v2_tactical.png",
+      "master_range": [
+        34,
+        39
+      ],
+      "loop": false,
+      "native": "Clips/sundeok_reload_v2_tactical.aseprite",
+      "gif": "TacticalV2/Export/Gifs/reload_v2_tactical.gif",
+      "name": "reload_v2_tactical",
+      "preview_gif": "TacticalV2/Previews/reload_v2_tactical_3x.gif"
+    },
+    {
+      "durations_ms": [
+        100,
+        70,
+        100,
+        150
+      ],
+      "frames": 4,
+      "sheet": "TacticalV2/Export/Sheets/fire_v2_tactical.png",
+      "master_range": [
+        40,
+        43
+      ],
+      "loop": false,
+      "native": "Clips/sundeok_fire_v2_tactical.aseprite",
+      "gif": "TacticalV2/Export/Gifs/fire_v2_tactical.gif",
+      "name": "fire_v2_tactical",
+      "preview_gif": "TacticalV2/Previews/fire_v2_tactical_3x.gif"
     }
   ],
-  "total_action_frames": 27,
-  "cropped_part_png_slots": 116,
+  "total_action_frames": 43,
+  "cropped_part_png_slots": 184,
   "part_metadata": "Export/sundeok_parts.json",
   "part_inventory": "QA/part_inventory.json",
   "independent_part_libraries": 7,
-  "part_library_frame_slots": 189,
+  "part_library_frame_slots": 301,
   "shotgun": {
     "canvas_px": [
       78,
@@ -137,16 +200,30 @@
   },
   "generation": {
     "tool": "Built-in ImageGen",
-    "calls": 12,
+    "calls": 18,
     "prompts": "Source/generation_prompts.json",
-    "native_processing": "Aseprite Lua: nearest sampling, shared palette mapping, pose registration, independent arm/weapon assembly and occlusion repaint"
+    "native_processing": "Selected ImageGen forefoot walk body atlas; Aseprite nearest sampling/palette registration. Reload/Fire: same body stance plus native upper-body compression/recoil; reuse authored reload hands/shell, Aim arms/shotgun and Fire2 flash. Reload/Fire body generation studies are unused."
   },
   "validation": {
-    "native_visibility_states": 54,
+    "native_visibility_states": 42,
     "png_composite_difference": 0,
     "part_reassembly_difference": 0,
     "library_master_difference": 0,
-    "base_files_preserved": 5
+    "base_files_preserved": 5,
+    "latest": "TacticalV2/QA/validation.json"
   },
-  "unity_runtime_connected": false
+  "unity_runtime_connected": true,
+  "tactical_part_metadata": "TacticalV2/Export/parts.json",
+  "tactical_validation": "TacticalV2/QA/validation.json",
+  "tactical_generation_prompts": "TacticalV2/Source/generation_prompts.json",
+  "runtime_walk_version": "walk_v1_normal",
+  "runtime_connected_frame_count": 27,
+  "tactical_runtime_connected": false,
+  "latest_revision": "2026-11-02 forefoot tactical v2 set",
+  "runtime_action_aliases": {
+    "Fire": "fire_v1_normal",
+    "Reload": "reload_v1_normal",
+    "Walk": "walk_v1_normal"
+  },
+  "latest_preview": "TacticalV2/Previews/tactical_v2_set_3x.gif"
 }

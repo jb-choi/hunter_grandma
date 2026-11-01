@@ -14,8 +14,10 @@ namespace HunterGrandma.Editor
     public static class SundeokAnimationValidation
     {
         private const string Running = "HunterGrandma.Sundeok120.Validation";
+        private const string Batch = Running + ".Batch";
         private static readonly string Profile = Path.GetFullPath("Library/Sundeok120-validation.json");
         private static readonly List<string> checks = new List<string>(), errors = new List<string>();
+        private static readonly List<string> environmentErrors = new List<string>();
         private static readonly HashSet<int> walkFrames = new HashSet<int>();
         private static GrandmaDefense owner;
         private static GrandmaShooter grandma;
@@ -27,15 +29,30 @@ namespace HunterGrandma.Editor
         private static float until, clock;
         private static Vector2 foot;
         private static double deadline;
-        [Serializable] private sealed class Demo { public DemoPose[] frames; }
-        [Serializable] private sealed class DemoPose { public int walk_frame, upper_frame; public string upper_action; public int[] upper_translation_xy; }
+        private static InputSettings.BackgroundBehavior backgroundBehavior;
+        private static InputSettings.EditorInputBehaviorInPlayMode editorInputBehavior;
+        private static bool inputRoutingChanged;
+        [Serializable] private sealed class TacticalMetadata { public TacticalPose[] frames; }
+        [Serializable] private sealed class TacticalPose { public string action; public int local_frame; public int[] upper_offset_xy; }
 
         static SundeokAnimationValidation()
         {
             if (SessionState.GetBool(Running, false)) DefenseProgressStore.EditorValidationPath = Profile;
+            if (Application.isBatchMode && SessionState.GetBool(Running, false)) AudioListener.volume = 0f;
             EditorApplication.update += Tick;
-            EditorApplication.playModeStateChanged += state => { if (state == PlayModeStateChange.EnteredEditMode) { SessionState.SetBool(Running, false); DefenseProgressStore.EditorValidationPath = null; } };
-            Application.logMessageReceived += (message, stack, type) => { if (SessionState.GetBool(Running, false) && (type == LogType.Error || type == LogType.Exception || type == LogType.Assert)) errors.Add(message + "\n" + stack); };
+            EditorApplication.playModeStateChanged += state => { if (state == PlayModeStateChange.EnteredEditMode) { SessionState.SetBool(Running, false); DefenseProgressStore.EditorValidationPath = null; if (Application.isBatchMode && SessionState.GetBool(Batch + ".Done", false)) EditorApplication.Exit(SessionState.GetInt(Batch + ".Code", 1)); } };
+            Application.logMessageReceived += (message, stack, type) =>
+            {
+                if (!SessionState.GetBool(Running, false) || (type != LogType.Error && type != LogType.Exception && type != LogType.Assert)) return;
+                if (stack.Contains("UnityEditor.Search.SearchInit.IndexationOnStartup")) environmentErrors.Add(message + "\n" + stack);
+                else errors.Add(message + "\n" + stack);
+            };
+        }
+        public static void RunBatch()
+        {
+            if (!Application.isBatchMode) throw new InvalidOperationException("RunBatch requires -batchmode.");
+            SessionState.SetBool(Batch, true); SessionState.SetBool(Batch + ".Done", false);
+            AudioListener.volume = 0f; EditorSceneManager.OpenScene(GrandmaProjectSetup.ScenePath); Begin();
         }
         [MenuItem("Tools/Hunter Grandma/Run Sundeok 120 Animation Validation")]
         public static void Begin()
@@ -43,16 +60,17 @@ namespace HunterGrandma.Editor
             if (EditorApplication.isPlayingOrWillChangePlaymode) return;
             if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().isDirty) { Debug.LogError("Save the scene before animation validation."); return; }
             GrandmaStageSetup.Configure(); checks.Clear(); errors.Clear(); walkFrames.Clear(); rendererStates.Clear(); owner = null; grandma = null; target = null; pool = null; keyboard = null; step = 0;
+            environmentErrors.Clear();
             foreach (string path in new[] { Profile, Profile + ".bak" }) if (File.Exists(path)) File.Delete(path);
             DefenseProgressStore.EditorValidationPath = Profile; SessionState.SetBool(Running, true);
             EditorSceneManager.OpenScene(GrandmaProjectSetup.ScenePath); EditorApplication.EnterPlaymode();
         }
         private static void Check(bool value, string message) { if (!value) throw new Exception(message); checks.Add(message); }
         private static void Snapshot(string name)
-        { UnityEngine.Object.FindFirstObjectByType<DefenseHud>().RefreshPresentation(); GrandmaCombatValidation.Capture("Docs/Validation/Sundeok120-" + name + ".png", 1280, 720); }
+        { if (SystemInfo.graphicsDeviceType == UnityEngine.Rendering.GraphicsDeviceType.Null) return; UnityEngine.Object.FindFirstObjectByType<DefenseHud>().RefreshPresentation(); GrandmaCombatValidation.Capture("Docs/Validation/Sundeok120-" + name + ".png", 1280, 720); }
         private static void Key(Key? key)
         {
-            Type gameView = typeof(EditorWindow).Assembly.GetType("UnityEditor.GameView"); if (gameView != null) EditorWindow.GetWindow(gameView).Focus();
+            if (!Application.isBatchMode) { Type gameView = typeof(EditorWindow).Assembly.GetType("UnityEditor.GameView"); if (gameView != null) EditorWindow.GetWindow(gameView).Focus(); }
             keyboard.MakeCurrent(); InputSystem.QueueStateEvent(keyboard, key.HasValue ? new KeyboardState(key.Value) : new KeyboardState());
         }
         private static void PlaceTarget(Vector2 position)
@@ -74,23 +92,33 @@ namespace HunterGrandma.Editor
                     deadline = EditorApplication.timeSinceStartup + 90;
                     SundeokAnimationSet data = grandma.AnimationSet;
                     Check(data != null && data.IsReady, "Scene explicitly references the 120px animation asset");
-                    int[] counts = { 4, 6, 6, 3, 4, 4 }; float[] durations = { .88f, .66f, .90f, .42f, .43f, .68f };
+                    if (Application.isBatchMode)
+                    {
+                        AudioListener.volume = 0f;
+                        backgroundBehavior = InputSystem.settings.backgroundBehavior; editorInputBehavior = InputSystem.settings.editorInputBehaviorInPlayMode;
+                        InputSystem.settings.backgroundBehavior = InputSettings.BackgroundBehavior.IgnoreFocus;
+                        InputSystem.settings.editorInputBehaviorInPlayMode = InputSettings.EditorInputBehaviorInPlayMode.AllDeviceInputAlwaysGoesToGameView; inputRoutingChanged = true;
+                        Check(AudioListener.volume == 0f, "Automated validation keeps hardware output muted without disabling source playback");
+                    }
+                    int[] counts = { 4, 6, 6, 1, 4, 4 }; float[] durations = { .88f, .84f, .90f, .42f, .42f, .68f };
                     for (int i = 0; i < 6; i++)
                     {
                         SundeokAnimationClip clip = data.Clip((SundeokAction)i);
                         Check(clip.frames.Length == counts[i] && Mathf.Abs(clip.Duration - durations[i]) < .001f, clip.action + " preserves the authored frame count and durations");
                         Check(clip.frames.All(f => f.composite != null && f.body != null && f.upper != null && f.composite.rect.size == Vector2.one * 120 && Vector2.Distance(f.composite.pivot, new Vector2(60, 2)) < .01f && f.composite.pixelsPerUnit == 32), clip.action + " has complete composite/body/upper sprites with the 120px foot pivot and PPU");
                     }
-                    Check(LayersMatch(data), "Body plus exported upper layers reconstruct all 27 source composites pixel-for-pixel");
-                    string raw = File.ReadAllText("Assets/Artsource/Drafts/GrandmaShooter120/v002/Source/demo_metadata.json");
-                    Demo demo = JsonUtility.FromJson<Demo>("{\"frames\":" + raw + "}");
-                    int demoIndex = 0;
-                    foreach (DemoPose pose in demo.frames)
+                    Check(LayersMatch(data), "Body plus exported upper layers reconstruct all 25 active source poses pixel-for-pixel");
+                    var source = JsonUtility.FromJson<TacticalMetadata>(File.ReadAllText("Assets/Artsource/Drafts/GrandmaShooter120/v002/TacticalV2/pose_metadata.json"));
+                    SundeokAnimationFrame ready = data.Clip(SundeokAction.Aim).frames[0];
+                    foreach (TacticalPose pose in source.frames.Where(p => p.action == "walk_v2_tactical"))
                     {
-                        SundeokAnimationFrame walk = data.Clip(SundeokAction.Walk).frames[pose.walk_frame - 1];
-                        SundeokAnimationFrame action = data.Clip((SundeokAction)Enum.Parse(typeof(SundeokAction), pose.upper_action)).frames[pose.upper_frame - 1];
-                        Check(Mathf.Floor(walk.registration.x - action.registration.x + .5f) == pose.upper_translation_xy[0] && walk.registration.y - action.registration.y == pose.upper_translation_xy[1], "Layer registration matches source demo frame " + (++demoIndex));
+                        SundeokAnimationFrame walk = data.Clip(SundeokAction.Walk).frames[pose.local_frame - 1];
+                        Vector2 expected = new Vector2(pose.upper_offset_xy[0] - 5, pose.upper_offset_xy[1] - 6);
+                        Vector2 offset = new Vector2(Mathf.Floor(walk.registration.x - ready.registration.x + .5f), walk.registration.y - ready.registration.y);
+                        Check(offset == expected && Vector2.Distance(walk.muzzle, ready.muzzle + offset) < .001f, "Tactical walking Aim matches the authored upper placement and muzzle on gait frame " + pose.local_frame);
                     }
+                    Check(data.Clip(SundeokAction.Walk).frames.Concat(data.Clip(SundeokAction.Aim).frames).Concat(data.Clip(SundeokAction.Fire).frames).All(f => AssetDatabase.GetAssetPath(f.composite).Contains("/TacticalV2/")), "Walk, held Aim and Fire explicitly use tactical exports");
+                    Check(File.ReadAllBytes(AssetDatabase.GetAssetPath(ready.composite)).SequenceEqual(File.ReadAllBytes(AssetDatabase.GetAssetPath(data.Clip(SundeokAction.Fire).frames[0].composite))), "Stationary Aim holds the exact tactical ready pose without a legacy stance jump");
                     Check(owner.IsOpening && !grandma.GetComponent<BeltActorVisual>().Body.enabled && !GameObject.Find("120px upper body").GetComponent<SpriteRenderer>().enabled, "Tea opening hides both new world renderers");
                     owner.SkipStageOpening(); step = 1; return;
                 }
@@ -129,7 +157,7 @@ namespace HunterGrandma.Editor
                     if (Time.unscaledTime < until) return;
                     Check(grandma.AnimationFrame != oldFrame && grandma.FootPosition == foot, "Idle advances frames without moving the logical feet");
                     PlaceTarget(grandma.FootPosition + Vector2.right * 20);
-                    walkFrames.Clear(); Key(UnityEngine.InputSystem.Key.D); until = Time.unscaledTime + .78f; step = 4; return;
+                    walkFrames.Clear(); Key(UnityEngine.InputSystem.Key.D); until = Time.unscaledTime + .95f; step = 4; return;
                 }
                 if (step == 4)
                 {
@@ -202,12 +230,16 @@ namespace HunterGrandma.Editor
             string report = "# Sundeok 120px animation validation\n\nUnity " + Application.unityVersion + " · " + DateTimeOffset.UtcNow.ToOffset(TimeSpan.FromHours(9)).ToString("yyyy-MM-dd HH:mm") + " KST\n\nStatus: " + (failure == null ? "PASS" : "FAIL") + "\n\nIsolated profile: Library/Sundeok120-validation.json. After one natural hunting second, prior projectiles are cancelled and dead/disabled pool slots are kept active to prevent extra spawns. One hidden reserved target allows real encounter movement/aim updates without new gameplay shots. Synthetic keyboard input drives movement; actual animation/aim/fire/collect APIs run. One synthetic +7 reward verifies that Collect does not credit currency again. No ordinary save reset.\n\n";
             report += string.Join("\n", checks.Select(c => "- PASS: " + c)); if (failure != null) report += "\n\nFailure: " + failure;
             if (errors.Count > 0) report += "\n\nRuntime errors:\n" + string.Join("\n", errors);
+            if (environmentErrors.Count > 0) report += "\n\nSeparate Unity Editor Search startup/indexing errors:\n" + string.Join("\n", environmentErrors);
+            if (Application.isBatchMode) report += "\n\nBatch execution mutes AudioListener output; no computer-use tools or ordinary save edits.\n";
             Directory.CreateDirectory("Docs/Validation"); File.WriteAllText("Docs/Validation/Sundeok120-animation-validation.md", report);
             if (owner != null) owner.enabled = true;
             if (pool != null) foreach (ZombieActor zombie in pool) if (zombie != null) zombie.enabled = true;
             foreach (var renderer in rendererStates) if (renderer.Key != null) renderer.Key.enabled = renderer.Value;
             if (keyboard != null && keyboard.added) InputSystem.RemoveDevice(keyboard);
+            if (inputRoutingChanged) { InputSystem.settings.backgroundBehavior = backgroundBehavior; InputSystem.settings.editorInputBehaviorInPlayMode = editorInputBehavior; inputRoutingChanged = false; }
             SessionState.SetBool(Running, false); DefenseProgressStore.EditorValidationPath = null; Time.timeScale = 1;
+            if (Application.isBatchMode) { SessionState.SetBool(Batch + ".Done", true); SessionState.SetInt(Batch + ".Code", failure == null ? 0 : 1); }
             Debug.Log("Hunter Grandma Sundeok120 validation: " + (failure == null ? "PASS (" + checks.Count + " checks)" : "FAIL: " + failure)); EditorApplication.ExitPlaymode();
         }
         private static bool LayersMatch(SundeokAnimationSet data)
