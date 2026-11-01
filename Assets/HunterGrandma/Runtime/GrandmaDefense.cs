@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 namespace HunterGrandma
 {
@@ -29,7 +28,7 @@ namespace HunterGrandma
         private BeltStageView beltView;
         private BeltActorVisual cartVisual;
         private Camera worldCamera;
-        private float manualOverride;
+        private GrandmaMovement movement;
         private Vector2 captureFoot, cartEntry, heroLoadStart;
         private Rect[] obstacles = new Rect[0];
         private Transform cart;
@@ -139,6 +138,7 @@ namespace HunterGrandma
             worldCamera=Camera.main;
             beltView.transform.SetParent(transform, false); beltView.Initialize(this, worldCamera, beltBackdrop, pixel.sprite, pixel.sharedMaterial);
             grandma.InitializeBelt(this, ShadowSprite);
+            movement = new GrandmaMovement(this, grandma, zombies);
             shadowSkill = new GrandmaShadowSkill(this, grandma, worldCamera, pixel.sprite, ShadowSprite);
             if (houseTeaSprite != null && houseChairSprite != null)
                 houseOpening = StageZeroOpeningView.Create(transform, houseTeaSprite, houseChairSprite, grandma.IdleSprite, zombiePrefab.WalkFrames, pixel.sprite, pixel.sharedMaterial, true, zombiePrefab.AnimationSet);
@@ -179,7 +179,7 @@ namespace HunterGrandma
             Elapsed = phaseTime = hitStopUntil = 0f; DefenseHealth = 100; WaveNumber = 1; cartLoaded = false;
             obstacles = new[] { new Rect(12f,-2.65f,1.4f,.75f),new Rect(23f,-1.85f,1.5f,.7f),new Rect(34f,-3.6f,1.4f,.7f) };
             beltView.Configure(StageMaxX,obstacles);
-            fireTimer = 0.3f; manualOverride=0f; grandma.ResetPose();grandma.MoveOnBelt(BeltSpace.Start); IsPaused = keepPaused;
+            fireTimer = 0.3f; movement.Reset(); grandma.ResetPose();grandma.MoveOnBelt(BeltSpace.Start); IsPaused = keepPaused;
             scenery.Show(id, false);
             bool playOpening = id == 0 && !houseOpeningSeen && houseOpening != null;
             if (houseOpening != null)
@@ -238,14 +238,7 @@ namespace HunterGrandma
         private void Update()
         {
             if (!initialized) return;
-            scenery.Show(CurrentStageId, AtYard);
-            if (houseOpening != null)
-            {
-                bool showHouse = CurrentStageId == 0 && !AtYard;
-                if (houseOpening.gameObject.activeSelf != showHouse) houseOpening.gameObject.SetActive(showHouse);
-                scenery.gameObject.SetActive(!showHouse);
-            }
-            if(AtYard)scenery.transform.position=Vector3.up*1.75f;
+            UpdateScenery();
             if (dirty && Time.unscaledTime >= nextSave) SaveNow();
             if (IsOpening)
             {
@@ -264,33 +257,80 @@ namespace HunterGrandma
                 if (HasNextStage && phaseTime >= StageClearDuration) StartStage(CurrentStageId + 1);
                 return;
             }
-            UpdateMovement(dt);
+            movement.Advance(dt);
             if (Phase == DefensePhase.Failed || Phase == DefensePhase.Retreated) return;
             Elapsed += dt; phaseTime += dt; fireTimer -= dt;
-            if (Phase == DefensePhase.Waves)
+            AdvancePhase(dt);
+            UpdateShooting();
+        }
+        private void UpdateScenery()
+        {
+            scenery.Show(CurrentStageId, AtYard);
+            if (houseOpening != null)
             {
-                spawnTimer -= dt;
-                if (spawnTimer <= 0f && waveSpawned < CurrentStage.EnemiesPerWave)
-                { if (SpawnWaveZombie(WaveAnchor+13f)) spawnTimer += CurrentStage.SpawnInterval; }
-                if (waveSpawned >= CurrentStage.EnemiesPerWave && ActiveZombieCount == 0) SetPhase(DefensePhase.WaveBreak);
+                bool showHouse = CurrentStageId == 0 && !AtYard;
+                if (houseOpening.gameObject.activeSelf != showHouse) houseOpening.gameObject.SetActive(showHouse);
+                scenery.gameObject.SetActive(!showHouse);
             }
-            else if (Phase == DefensePhase.WaveBreak && phaseTime >= 2f && (WaveNumber == CurrentStage.WaveCount || GrandmaX >= WaveNumber*10f-5f))
+            if (AtYard) scenery.transform.position = Vector3.up * 1.75f;
+        }
+        private void AdvancePhase(float dt)
+        {
+            switch (Phase)
             {
-                if (WaveNumber < CurrentStage.WaveCount) { WaveNumber++; BeginWave(); }
-                else CompleteStageWaves();
+                case DefensePhase.Waves:
+                    AdvanceWave(dt);
+                    break;
+                case DefensePhase.WaveBreak:
+                    AdvanceWaveBreak();
+                    break;
+                case DefensePhase.BossArrival:
+                    if (phaseTime >= 4.6f) SetPhase(DefensePhase.BossFight);
+                    break;
+                case DefensePhase.Subdued:
+                    if (phaseTime >= 1.1f) BeginLoadingCart();
+                    break;
+                case DefensePhase.LoadingCart:
+                    UpdateLoading();
+                    break;
+                case DefensePhase.Returning:
+                    UpdateReturn();
+                    break;
             }
-            else if (Phase == DefensePhase.BossArrival && phaseTime >= 4.6f) SetPhase(DefensePhase.BossFight);
-            else if (Phase == DefensePhase.Subdued && phaseTime >= 1.1f)
+        }
+        private void AdvanceWave(float dt)
+        {
+            spawnTimer -= dt;
+            if (spawnTimer <= 0f && waveSpawned < CurrentStage.EnemiesPerWave)
             {
-                SetPhase(DefensePhase.LoadingCart); cart.gameObject.SetActive(true);
-                captureFoot=Boss.transform.position;loadingBossStart=Boss.transform.position;
-                cartEntry=new Vector2(captureFoot.x-13f,BeltSpace.MinDepth+.2f);cart.position=cartEntry;heroLoadStart=GrandmaFootPosition;
+                if (SpawnWaveZombie(WaveAnchor + 13f)) spawnTimer += CurrentStage.SpawnInterval;
             }
-            else if (Phase == DefensePhase.LoadingCart) UpdateLoading();
-            else if (Phase == DefensePhase.Returning) UpdateReturn();
-            bool fighting = Phase == DefensePhase.Waves || Phase == DefensePhase.BossFight;
-            grandma.SetCombatTarget(fighting ? FindShotTarget(true) : null, fireTimer);
-            if (fighting && fireTimer <= 0f) TryFire();
+            if (waveSpawned >= CurrentStage.EnemiesPerWave && ActiveZombieCount == 0) SetPhase(DefensePhase.WaveBreak);
+        }
+        private void AdvanceWaveBreak()
+        {
+            if (phaseTime < 2f || (WaveNumber != CurrentStage.WaveCount && GrandmaX < WaveNumber * 10f - 5f)) return;
+            if (WaveNumber < CurrentStage.WaveCount)
+            {
+                WaveNumber++;
+                BeginWave();
+            }
+            else CompleteStageWaves();
+        }
+        private void BeginLoadingCart()
+        {
+            SetPhase(DefensePhase.LoadingCart);
+            cart.gameObject.SetActive(true);
+            captureFoot = Boss.transform.position;
+            loadingBossStart = Boss.transform.position;
+            cartEntry = new Vector2(captureFoot.x - 13f, BeltSpace.MinDepth + .2f);
+            cart.position = cartEntry;
+            heroLoadStart = GrandmaFootPosition;
+        }
+        private void UpdateShooting()
+        {
+            grandma.SetCombatTarget(IsCombatPhase ? FindShotTarget(true) : null, fireTimer);
+            if (IsCombatPhase && fireTimer <= 0f) TryFire();
         }
         private void CompleteStageWaves()
         {
@@ -328,7 +368,7 @@ namespace HunterGrandma
                 ShotsFired++; fireTimer = Progress.FireInterval; return;
             }
         }
-        private bool CanShoot(DefenseTarget target)
+        internal bool CanShoot(DefenseTarget target)
         {
             float facing=target.transform.position.x<GrandmaX?-1f:1f;
             return BeltSpace.CanHit(GrandmaFootPosition,target.transform.position,facing,BeltSpace.ClearRange(GrandmaFootPosition,facing,shootingRange,obstacles),obstacles);
@@ -350,51 +390,6 @@ namespace HunterGrandma
         }
         public void RegisterContact() { BreachCount++; }
         public void ToggleAutoExplore() { if(CanMoveOnBelt)AutoExplore=!AutoExplore; }
-        private DefenseTarget NearestTarget()
-        {
-            DefenseTarget target=null;float best=float.MaxValue;
-            foreach(ZombieActor zombie in zombies)
-            {
-                if(!zombie.IsAlive)continue;
-                Vector2 delta=(Vector2)zombie.transform.position-GrandmaFootPosition;float score=Mathf.Abs(delta.x)+Mathf.Abs(delta.y)*2f;
-                if(score<best){best=score;target=zombie;}
-            }
-            return target!=null?target:Boss.IsAlive?Boss:null;
-        }
-        private void UpdateMovement(float dt)
-        {
-            if(!CanMoveOnBelt)return;
-            Keyboard keyboard=Keyboard.current;Vector2 input=Vector2.zero;
-            if(keyboard!=null)
-            {
-                if(keyboard.tabKey.wasPressedThisFrame)ToggleAutoExplore();
-                input.x=(keyboard.dKey.isPressed||keyboard.rightArrowKey.isPressed?1:0)-(keyboard.aKey.isPressed||keyboard.leftArrowKey.isPressed?1:0);
-                input.y=(keyboard.wKey.isPressed||keyboard.upArrowKey.isPressed?1:0)-(keyboard.sKey.isPressed||keyboard.downArrowKey.isPressed?1:0);
-            }
-            Vector2 position=GrandmaFootPosition, next=position;
-            if(input.sqrMagnitude>.01f){grandma.InterruptCollect();manualOverride=1.1f;next=MoveActor(position,Vector2.ClampMagnitude(input,1f)*3.6f*dt);}
-            else
-            {
-                manualOverride=Mathf.Max(0,manualOverride-dt);
-                if(AutoExplore&&manualOverride<=0)
-                {
-                    DefenseTarget target=NearestTarget();Vector2 goal=position;
-                    if (target == null && grandma.TryCollect()) { grandma.MoveOnBelt(position); return; }
-                    if(target!=null)
-                    {
-                        Vector2 foot=target.transform.position;float sign=foot.x<position.x?-1f:1f;float range=Mathf.Abs(foot.x-position.x);
-                        goal.y=foot.y;
-                        if(range>shootingRange*.78f)goal.x=foot.x-sign*shootingRange*.65f;
-                        else if(range<2.5f)goal.x=foot.x-sign*3.2f;
-                        if(!CanShoot(target)&&Mathf.Abs(foot.y-position.y)<.15f)goal.x=foot.x-sign*2f;
-                    }
-                    else goal=new Vector2(Phase==DefensePhase.WaveBreak&&WaveNumber<CurrentStage.WaveCount?WaveNumber*10f-4f:WaveAnchor-4f,BeltSpace.CenterDepth);
-                    goal=BeltSpace.Clamp(goal,StageMaxX);goal=BeltSpace.Waypoint(position,goal,obstacles);
-                    Vector2 delta=Vector2.MoveTowards(position,goal,2.8f*dt)-position;next=MoveActor(position,delta);
-                }
-            }
-            next.x=Mathf.Min(next.x,WaveAnchor+12f);grandma.MoveOnBelt(next);
-        }
         public void OnZombieKilled(int gold, Vector3 position)
         {
             KillCount++; Progress.AddGold(gold); Run.AddGold(gold); dirty = true;

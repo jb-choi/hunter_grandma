@@ -1,0 +1,45 @@
+{
+  "ProtectedFiles": 597,
+  "UnchangedFiles": 596,
+  "ChangedFiles": [
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\GrandmaDefense.cs",
+      "Before": "D4C640457B99F2ADB3B709E6D608CB034B9EA1EB4DD31052A8F7230DA8173770",
+      "After": "E5B4AAA6655D576D3414474C474F9223A161F3B8B389161F71625836A5F8231D",
+      "Unchanged": false
+    }
+  ],
+  "TestedFiles": [
+    {
+      "Path": "Assets/HunterGrandma/Runtime/GrandmaDefense.cs",
+      "WorkspaceHash": "E5B4AAA6655D576D3414474C474F9223A161F3B8B389161F71625836A5F8231D",
+      "TestHash": "E5B4AAA6655D576D3414474C474F9223A161F3B8B389161F71625836A5F8231D",
+      "Identical": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Runtime/GrandmaDefense.cs.meta",
+      "WorkspaceHash": "43363CC6ECA5F4AF076F085E9C6AFAD81AE15CBAAD01261932BF118202C2263E",
+      "TestHash": "43363CC6ECA5F4AF076F085E9C6AFAD81AE15CBAAD01261932BF118202C2263E",
+      "Identical": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Runtime/GrandmaMovement.cs",
+      "WorkspaceHash": "7385597C323BA87D53BE1E142787FD0A457B06381D7B349302586944F6D60A66",
+      "TestHash": "7385597C323BA87D53BE1E142787FD0A457B06381D7B349302586944F6D60A66",
+      "Identical": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Runtime/GrandmaMovement.cs.meta",
+      "WorkspaceHash": "08F7C3CF8745D25EADC71F544DD8478AD1C371568A9A81083719F310786EDE7D",
+      "TestHash": "08F7C3CF8745D25EADC71F544DD8478AD1C371568A9A81083719F310786EDE7D",
+      "Identical": true
+    },
+    {
+      "Path": "Assets/HunterGrandma/Scenes/GrandmaDefense.unity",
+      "WorkspaceHash": "E03288A03713485B582EDCD1A8C9F70C186AEA42AF1270231519FD91C487DED6",
+      "TestHash": "E03288A03713485B582EDCD1A8C9F70C186AEA42AF1270231519FD91C487DED6",
+      "Identical": true
+    }
+  ],
+  "BaselineFile": "Docs/Backups/GameplayRefactor-20261031/baseline.json"
+}
