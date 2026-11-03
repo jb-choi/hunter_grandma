@@ -1,0 +1,22 @@
+{
+  "zipSha256": "cd275b87e08664590c25bf79dd043d1a402ddfae231f9a1678737973667f8bb0",
+  "sourceSheets": 10,
+  "nativeMasters": 10,
+  "runtimeFrames": 160,
+  "grid": "floor(n*1254/4), nearest at pixel centres",
+  "alphaThreshold": 128,
+  "binaryAlpha": true,
+  "files": {
+    "Assets\\Artsource\\Drafts\\PartySlime\\v001\\Originals\\README.txt": "7d828dd4624bbadd46408b65579fff5ab5e2d2c9c0d317824bbdae1bebec251e",
+    "Assets\\Artsource\\Drafts\\PartySlime\\v001\\Originals\\Z01_balloon_party_zombie_sheet.png": "a773fed0a714a0c87d8bf7ee59da19e7e7d37293b011a53a394edc5b0ac25828",
+    "Assets\\Artsource\\Drafts\\PartySlime\\v001\\Originals\\Z02_horn_party_zombie_sheet.png": "c4f6bb6acdd9bb675397830d3a26bf29593752b553ee9d6db3bcb0b4e8df7826",
+    "Assets\\Artsource\\Drafts\\PartySlime\\v001\\Originals\\Z03_confetti_zombie_sheet.png": "d82ea4e51d6269b0657274663c47efbfcbba5d359326f43b596c02497bcf72d0",
+    "Assets\\Artsource\\Drafts\\PartySlime\\v001\\Originals\\Z04_rhythm_step_zombie_sheet.png": "1df79ea4cfc5b0cda33539a9c4b78672cb093d3082377c87c132c7979e7062fa",
+    "Assets\\Artsource\\Drafts\\PartySlime\\v001\\Originals\\Z05_disco_slime_zombie_sheet.png": "c6cb8aacc8c38ef4ed7e8ccf0cd24612217e5f394b3c5addbd206d35c5cfc517",
+    "Assets\\Artsource\\Drafts\\PartySlime\\v001\\Originals\\Z06_dj_zombie_sheet.png": "284ad0c158bd063d8686c1e5c2b508346ca8ef9f2a56e83f2745c2722c925495",
+    "Assets\\Artsource\\Drafts\\PartySlime\\v001\\Originals\\Z07_mirrorball_brute_sheet.png": "6c251bfc1c8881b0ed8051eb534b23b3268f2f578f4431041f98fcd065a9d961",
+    "Assets\\Artsource\\Drafts\\PartySlime\\v001\\Originals\\Z08_parade_zombie_sheet.png": "259936874b9833ecbee71be7093e62844ccff8be45ca98c9f017cf52b5764ed1",
+    "Assets\\Artsource\\Drafts\\PartySlime\\v001\\Originals\\Z09_party_king_slime_sheet.png": "65396da4a75138a3e4b32ebef5a11720a45b414aff0107799fa986b5ecd104e8",
+    "Assets\\Artsource\\Drafts\\PartySlime\\v001\\Originals\\Z10_grand_festival_titan_sheet.png": "3b8e256d05f980970c0e87e8e90652b474907cde6aaa79d9700bc6094c11da72"
+  }
+}

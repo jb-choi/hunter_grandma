@@ -1,0 +1,9 @@
+{
+  "name": "impact-example",
+  "source": "pixelfx",
+  "effectId": "impacts/blunt-hit",
+  "seed": 42,
+  "fps": 30,
+  "pixelsPerUnit": 32,
+  "options": {}
+}

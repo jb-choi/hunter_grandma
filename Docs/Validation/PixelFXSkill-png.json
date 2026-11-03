@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "frames": 28,
+  "atlas_frame_pixel_matches": 28,
+  "nonempty_frames": 28,
+  "transparent_frames": 28,
+  "size": [
+    640,
+    528
+  ]
+}

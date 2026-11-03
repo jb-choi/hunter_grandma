@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace HunterGrandma
 {
-    public enum ZombieKind { Normal, Infected, Large }
+    public enum ZombieKind { Normal, Infected, Large, PartyBalloon, PartyHorn }
     public enum ZombieAction { Idle, Walk, Run, Attack, Dead }
 
     [Serializable] public sealed class ZombieAnimationClip
@@ -27,11 +27,14 @@ namespace HunterGrandma
     {
         public const float PixelsPerUnit = 32f;
         [SerializeField] private ZombieAnimationVariant[] variants;
+        [SerializeField] private ZombieAnimationClip partyPop;
+        public ZombieAnimationClip PartyPop => partyPop;
+        public void SetPartyPop(ZombieAnimationClip value) { partyPop = value; }
         public bool IsReady
         {
             get
             {
-                if (variants == null || variants.Length != 3) return false;
+                if (variants == null || variants.Length != 5) return false;
                 for (int k = 0; k < variants.Length; k++)
                 {
                     if (variants[k] == null || (int)variants[k].kind != k || variants[k].clips == null || variants[k].clips.Length != 5) return false;

@@ -319,7 +319,7 @@ namespace HunterGrandma.Editor
                     }
                     if (owner.Phase != DefensePhase.Clear) return;
                     int id = owner.CurrentStageId;
-                    Check(observedKinds[id] == (id == 0 ? 2 : id < 5 ? 3 : 7), "Stage " + id + ": natural runtime spawns contain exactly the requested zombie variants");
+                    Check(observedKinds[id] == (id == 0 ? 2 : id == 1 ? 11 : id < 5 ? 27 : 31), "Stage " + id + ": natural runtime spawns contain exactly the requested zombie variants");
                     Check(owner.Run.WavesCleared && owner.Run.Settled && !owner.Run.BossSubdued && !owner.Run.ReturnedToYard && !owner.AtYard, "Stage " + id + ": waves settle directly to CLEAR at the hunting location");
                     Check(owner.WaveNumber == owner.CurrentStage.WaveCount && owner.KillCount == owner.CurrentStage.WaveCount * owner.CurrentStage.EnemiesPerWave && owner.ActiveZombieCount == 0, "Stage " + id + ": every configured normal zombie is defeated before CLEAR");
                     Check(owner.Progress.CaptiveCount == 0 && owner.Progress.Stage(id).capturedCount == 0 && owner.LastCaptive == null && !owner.Boss.gameObject.activeSelf, "Stage " + id + ": no boss, cart settlement or fabricated captive");

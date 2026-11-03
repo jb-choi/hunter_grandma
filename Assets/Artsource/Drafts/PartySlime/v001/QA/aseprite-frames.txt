@@ -1,0 +1,10 @@
+Z01: 16 frames, saved/reopened PNG pixel identity PASS
+Z02: 16 frames, saved/reopened PNG pixel identity PASS
+Z03: 16 frames, saved/reopened PNG pixel identity PASS
+Z04: 16 frames, saved/reopened PNG pixel identity PASS
+Z05: 16 frames, saved/reopened PNG pixel identity PASS
+Z06: 16 frames, saved/reopened PNG pixel identity PASS
+Z07: 16 frames, saved/reopened PNG pixel identity PASS
+Z08: 16 frames, saved/reopened PNG pixel identity PASS
+Z09: 16 frames, saved/reopened PNG pixel identity PASS
+Z10: 16 frames, saved/reopened PNG pixel identity PASS

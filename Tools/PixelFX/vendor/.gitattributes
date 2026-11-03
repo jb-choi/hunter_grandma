@@ -1,0 +1,2 @@
+# Preserve pinned upstream bytes and hashes on Windows/worktree checkouts.
+pixelfx/** -text
