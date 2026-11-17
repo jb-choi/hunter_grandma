@@ -217,3 +217,154 @@ MonoBehaviour:
       - 0.14
       - 0.17
       - 0.4
+  - kind: 3
+    clips:
+    - frames:
+      - {fileID: 21300000, guid: f7d8fced1b4f8b94cb738d0acbae9181, type: 3}
+      - {fileID: 21300000, guid: 9cb02f28e933ff248930445d96414fd1, type: 3}
+      - {fileID: 21300000, guid: 465586c61f88a564f9bd9a0bdf40fc99, type: 3}
+      - {fileID: 21300000, guid: e141bf41445b788458fe6655a687d173, type: 3}
+      durations:
+      - 0.2
+      - 0.2
+      - 0.2
+      - 0.2
+    - frames:
+      - {fileID: 21300000, guid: d7ae1104dd3933b42b7ca5bc4aa4bc57, type: 3}
+      - {fileID: 21300000, guid: afde9d0cd43e8b348a0fbdbd475fe228, type: 3}
+      - {fileID: 21300000, guid: dd6538b6051f606438018508918e2ce7, type: 3}
+      - {fileID: 21300000, guid: cda8d2fd08b844048b495fca2cc35a12, type: 3}
+      durations:
+      - 0.13
+      - 0.13
+      - 0.13
+      - 0.13
+    - frames:
+      - {fileID: 21300000, guid: d7ae1104dd3933b42b7ca5bc4aa4bc57, type: 3}
+      - {fileID: 21300000, guid: afde9d0cd43e8b348a0fbdbd475fe228, type: 3}
+      - {fileID: 21300000, guid: dd6538b6051f606438018508918e2ce7, type: 3}
+      - {fileID: 21300000, guid: cda8d2fd08b844048b495fca2cc35a12, type: 3}
+      durations:
+      - 0.08
+      - 0.08
+      - 0.08
+      - 0.08
+    - frames:
+      - {fileID: 21300000, guid: 15a5b137fedccb449b5e6c2f5ec15cf5, type: 3}
+      - {fileID: 21300000, guid: 1e6d228e8f750c442a712c18502e2f71, type: 3}
+      - {fileID: 21300000, guid: 4bad9900ed0ffd44ab4204cbcac6cdde, type: 3}
+      - {fileID: 21300000, guid: bb2f951a384f95343848af19aa25dd0f, type: 3}
+      durations:
+      - 0.15
+      - 0.15
+      - 0.15
+      - 0.15
+    - frames:
+      - {fileID: 21300000, guid: 991ae41fce356874ab66b07fa73ce413, type: 3}
+      - {fileID: 21300000, guid: 1a3b88cc12619a64aada0896b5eb2635, type: 3}
+      - {fileID: 21300000, guid: 366899776e799e4469d8c929f82da998, type: 3}
+      - {fileID: 21300000, guid: 4961f512915af6742a1a5191fcc1e86d, type: 3}
+      durations:
+      - 0.09
+      - 0.12
+      - 0.16
+      - 0.35
+  - kind: 4
+    clips:
+    - frames:
+      - {fileID: 21300000, guid: 2b2ffeeba83682744bf9983cb04cf499, type: 3}
+      - {fileID: 21300000, guid: 220fa284c4cac2a41b3280eada5a7e2f, type: 3}
+      - {fileID: 21300000, guid: cf299c3d38592dc4ba7568f481bd07df, type: 3}
+      - {fileID: 21300000, guid: 3011eec338132b044b991873652c4910, type: 3}
+      durations:
+      - 0.2
+      - 0.2
+      - 0.2
+      - 0.2
+    - frames:
+      - {fileID: 21300000, guid: ac70ddf9e7e1bd6438f47d25752945de, type: 3}
+      - {fileID: 21300000, guid: 5ae681092c66d744589215fc5b82f24a, type: 3}
+      - {fileID: 21300000, guid: 69f8b508e24fedc4a8e159ddbc42f5d6, type: 3}
+      - {fileID: 21300000, guid: 2be89e74cf9ef664ea3265782261140d, type: 3}
+      durations:
+      - 0.13
+      - 0.13
+      - 0.13
+      - 0.13
+    - frames:
+      - {fileID: 21300000, guid: ac70ddf9e7e1bd6438f47d25752945de, type: 3}
+      - {fileID: 21300000, guid: 5ae681092c66d744589215fc5b82f24a, type: 3}
+      - {fileID: 21300000, guid: 69f8b508e24fedc4a8e159ddbc42f5d6, type: 3}
+      - {fileID: 21300000, guid: 2be89e74cf9ef664ea3265782261140d, type: 3}
+      durations:
+      - 0.08
+      - 0.08
+      - 0.08
+      - 0.08
+    - frames:
+      - {fileID: 21300000, guid: 7b055887a89f97241a88a79044d3cbc3, type: 3}
+      - {fileID: 21300000, guid: 4d4b7151502349845a4bb10f2a587777, type: 3}
+      - {fileID: 21300000, guid: 677f572f00cd32a458d051a33173e43d, type: 3}
+      - {fileID: 21300000, guid: 4a13dc5a7fe1e8548b8a50aec489f673, type: 3}
+      durations:
+      - 0.15
+      - 0.15
+      - 0.15
+      - 0.15
+    - frames:
+      - {fileID: 21300000, guid: fa011466eefd6404b9af0bffc7ade151, type: 3}
+      - {fileID: 21300000, guid: d27d4f7929c16424cb314e2898db29ab, type: 3}
+      - {fileID: 21300000, guid: 95b7d0abd6de11f4c82b4faeb733522b, type: 3}
+      - {fileID: 21300000, guid: b2021936faab7844cbc093cad32acdc1, type: 3}
+      durations:
+      - 0.09
+      - 0.12
+      - 0.16
+      - 0.35
+  partyPop:
+    frames:
+    - {fileID: 21300000, guid: 56614ed3b08d20f42b5e00ce91f8a90e, type: 3}
+    - {fileID: 21300000, guid: 52aee0b4f1b8f3c4c93e2a0adf1417a3, type: 3}
+    - {fileID: 21300000, guid: b009bcecf4f70da4dae6c9cb690c2fa8, type: 3}
+    - {fileID: 21300000, guid: 943edcecb102feb48bc76cdcc0592ac9, type: 3}
+    - {fileID: 21300000, guid: cd16f90275f3878478febc91b2a6ab3a, type: 3}
+    - {fileID: 21300000, guid: 0d71d459ddba6b3419c19fe2565e5f52, type: 3}
+    - {fileID: 21300000, guid: e0ac2371644756f438f2dcbc4b884fb4, type: 3}
+    - {fileID: 21300000, guid: c937c0217ea2c9c45942bf0b1eee3104, type: 3}
+    - {fileID: 21300000, guid: c0ee6449e34ee9547b3528956cc770c9, type: 3}
+    - {fileID: 21300000, guid: 1d68b48ee8cf2ca409fd0081b51926fd, type: 3}
+    - {fileID: 21300000, guid: 7188415aad6d89b4796edd25d82e042a, type: 3}
+    - {fileID: 21300000, guid: 923b02da638eba7459b0718fa041cdc9, type: 3}
+    - {fileID: 21300000, guid: 20202071c05ae674a8b4d0649176a76c, type: 3}
+    - {fileID: 21300000, guid: bcb99ab5b1b24874d9a9b9bb2ecc5277, type: 3}
+    - {fileID: 21300000, guid: cc350c43146b0e54cb764b8e7c594ef6, type: 3}
+    - {fileID: 21300000, guid: 4ebbc55345060684ead7eb35fa3ae56a, type: 3}
+    - {fileID: 21300000, guid: 2228e8dcc5f2c7d429c3278fc5367377, type: 3}
+    - {fileID: 21300000, guid: d3c6a631e0d5fe04b8815dd12dd2e01a, type: 3}
+    - {fileID: 21300000, guid: 4930780ae1f1e7049abea7fbc92319b6, type: 3}
+    - {fileID: 21300000, guid: 8245a34573f24384a90c29f24df20144, type: 3}
+    - {fileID: 21300000, guid: 78406e5cd6c97114e89b8d3739e648db, type: 3}
+    - {fileID: 21300000, guid: a6fd869dce759274b8f8507285ceb426, type: 3}
+    durations:
+    - 0.033333335
+    - 0.033333335
+    - 0.033333335
+    - 0.033333335
+    - 0.033333335
+    - 0.033333335
+    - 0.033333335
+    - 0.033333335
+    - 0.033333335
+    - 0.033333335
+    - 0.033333335
+    - 0.033333335
+    - 0.033333335
+    - 0.033333335
+    - 0.033333335
+    - 0.033333335
+    - 0.033333335
+    - 0.033333335
+    - 0.033333335
+    - 0.033333335
+    - 0.033333335
+    - 0.033333335

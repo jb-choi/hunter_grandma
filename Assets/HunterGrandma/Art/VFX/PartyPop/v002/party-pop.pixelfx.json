@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "name": "party-pop",
+  "effectId": "party/slime-pop",
+  "source": "custom",
+  "upstreamCommit": "a84159688af3ca37a4be05a0d422b94451b2e24e",
+  "moduleSha256": "b1381289ad8006c783685425170a033df3ae02b867e584e566353f9d0c32ffe3",
+  "seed": 21,
+  "fps": 30,
+  "loop": false,
+  "width": 112,
+  "height": 112,
+  "pixelsPerUnit": 32,
+  "pivot": {
+    "x": 0.5,
+    "y": 0.4285714285714286
+  },
+  "pivotTopLeftPx": {
+    "x": 56,
+    "y": 64
+  },
+  "frames": [
+    {
+      "file": "frames/frame_0000.png",
+      "duration": 0.03333333333333333
+    },
+    {
+      "file": "frames/frame_0001.png",
+      "duration": 0.03333333333333333
+    },
+    {
+      "file": "frames/frame_0002.png",
+      "duration": 0.03333333333333333
+    },
+    {
+      "file": "frames/frame_0003.png",
+      "duration": 0.03333333333333333
+    },
+    {
+      "file": "frames/frame_0004.png",
+      "duration": 0.03333333333333333
+    },
+    {
+      "file": "frames/frame_0005.png",
+      "duration": 0.03333333333333333
+    },
+    {
+      "file": "frames/frame_0006.png",
+      "duration": 0.03333333333333333
+    },
+    {
+      "file": "frames/frame_0007.png",
+      "duration": 0.03333333333333333
+    },
+    {
+      "file": "frames/frame_0008.png",
+      "duration": 0.03333333333333333
+    },
+    {
+      "file": "frames/frame_0009.png",
+      "duration": 0.03333333333333333
+    },
+    {
+      "file": "frames/frame_0010.png",
+      "duration": 0.03333333333333333
+    },
+    {
+      "file": "frames/frame_0011.png",
+      "duration": 0.03333333333333333
+    },
+    {
+      "file": "frames/frame_0012.png",
+      "duration": 0.03333333333333333
+    },
+    {
+      "file": "frames/frame_0013.png",
+      "duration": 0.03333333333333333
+    },
+    {
+      "file": "frames/frame_0014.png",
+      "duration": 0.03333333333333333
+    },
+    {
+      "file": "frames/frame_0015.png",
+      "duration": 0.03333333333333333
+    },
+    {
+      "file": "frames/frame_0016.png",
+      "duration": 0.03333333333333333
+    },
+    {
+      "file": "frames/frame_0017.png",
+      "duration": 0.03333333333333333
+    },
+    {
+      "file": "frames/frame_0018.png",
+      "duration": 0.03333333333333333
+    },
+    {
+      "file": "frames/frame_0019.png",
+      "duration": 0.03333333333333333
+    },
+    {
+      "file": "frames/frame_0020.png",
+      "duration": 0.03333333333333333
+    },
+    {
+      "file": "frames/frame_0021.png",
+      "duration": 0.03333333333333333
+    }
+  ]
+}

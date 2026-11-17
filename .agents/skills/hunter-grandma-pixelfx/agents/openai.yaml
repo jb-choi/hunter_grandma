@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hunter Grandma PixelFX"
+  short_description: "픽셀 이펙트 선택·제작·렌더·검수와 Unity 가져오기"
+  default_prompt: "$hunter-grandma-pixelfx로 요청한 픽셀 이펙트를 만들고 실제 크기의 밝고 어두운 배경에서 검수해줘."

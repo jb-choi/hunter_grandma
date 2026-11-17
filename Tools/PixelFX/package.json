@@ -1,0 +1,6 @@
+{
+  "name": "hunter-grandma-pixelfx-tools",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" }
+}

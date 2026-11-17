@@ -30,9 +30,9 @@ namespace HunterGrandma.Editor
         internal static void ModelChecks(Action<bool, string> check)
         {
             var art = AssetDatabase.LoadAssetAtPath<ZombieAnimationSet>(ZombieAnimationSetup.AssetPath);
-            check(art != null && art.IsReady, "Three authored zombie variants are assigned with every required action");
+            check(art != null && art.IsReady, "Original and party zombie variants are assigned with every required action");
             int total = 0;
-            foreach (ZombieKind kind in Enum.GetValues(typeof(ZombieKind)))
+            foreach (ZombieKind kind in new[] { ZombieKind.Normal, ZombieKind.Infected, ZombieKind.Large })
             {
                 int frames = 0; bool imported = true;
                 foreach (ZombieAction action in Enum.GetValues(typeof(ZombieAction)))
@@ -52,8 +52,8 @@ namespace HunterGrandma.Editor
             for (int id = 0; id < DefenseStages.Count; id++)
             {
                 DefenseStage stage = DefenseStages.Get(id); int normal = 0, infected = 0, large = 0;
-                for (int i = 0; i < 20; i++)
-                { ZombieKind kind = stage.EnemyKind(i, 1); if (kind == ZombieKind.Normal) normal++; else if (kind == ZombieKind.Infected) infected++; else large++; }
+                for (int i = 0; i < (id == 0 ? 20 : 30); i++)
+                { ZombieKind kind = stage.EnemyKind(i, 1); if (kind == ZombieKind.Normal) normal++; else if (kind == ZombieKind.Infected) infected++; else if (kind == ZombieKind.Large) large++; }
                 check(id == 0 ? infected == 20 : id < 5 ? normal > 0 && infected > 0 && large == 0 : normal > 0 && infected > 0 && large > 0, "Stage " + id + ": roster matches the requested early/late-stage enemy types");
                 if (id > 0 && id < previous.Length) check(stage.SpawnInterval < previous[id], "Stage " + id + ": timed enemies arrive more frequently than the previous version");
             }

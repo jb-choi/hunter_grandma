@@ -1,0 +1,247 @@
+# Party Slime validation
+
+Unity 6000.3.10f1 · Direct3D11 · PASS · 230 checks
+
+- PASS: Z01 frame 1: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z01 frame 2: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z01 frame 3: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z01 frame 4: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z01 frame 5: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z01 frame 6: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z01 frame 7: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z01 frame 8: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z01 frame 9: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z01 frame 10: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z01 frame 11: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z01 frame 12: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z01 frame 13: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z01 frame 14: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z01 frame 15: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z01 frame 16: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z02 frame 1: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z02 frame 2: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z02 frame 3: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z02 frame 4: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z02 frame 5: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z02 frame 6: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z02 frame 7: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z02 frame 8: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z02 frame 9: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z02 frame 10: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z02 frame 11: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z02 frame 12: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z02 frame 13: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z02 frame 14: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z02 frame 15: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z02 frame 16: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z03 frame 1: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z03 frame 2: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z03 frame 3: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z03 frame 4: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z03 frame 5: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z03 frame 6: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z03 frame 7: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z03 frame 8: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z03 frame 9: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z03 frame 10: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z03 frame 11: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z03 frame 12: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z03 frame 13: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z03 frame 14: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z03 frame 15: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z03 frame 16: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z04 frame 1: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z04 frame 2: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z04 frame 3: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z04 frame 4: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z04 frame 5: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z04 frame 6: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z04 frame 7: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z04 frame 8: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z04 frame 9: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z04 frame 10: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z04 frame 11: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z04 frame 12: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z04 frame 13: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z04 frame 14: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z04 frame 15: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z04 frame 16: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z05 frame 1: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z05 frame 2: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z05 frame 3: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z05 frame 4: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z05 frame 5: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z05 frame 6: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z05 frame 7: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z05 frame 8: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z05 frame 9: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z05 frame 10: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z05 frame 11: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z05 frame 12: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z05 frame 13: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z05 frame 14: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z05 frame 15: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z05 frame 16: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z06 frame 1: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z06 frame 2: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z06 frame 3: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z06 frame 4: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z06 frame 5: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z06 frame 6: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z06 frame 7: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z06 frame 8: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z06 frame 9: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z06 frame 10: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z06 frame 11: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z06 frame 12: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z06 frame 13: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z06 frame 14: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z06 frame 15: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z06 frame 16: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z07 frame 1: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z07 frame 2: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z07 frame 3: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z07 frame 4: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z07 frame 5: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z07 frame 6: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z07 frame 7: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z07 frame 8: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z07 frame 9: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z07 frame 10: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z07 frame 11: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z07 frame 12: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z07 frame 13: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z07 frame 14: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z07 frame 15: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z07 frame 16: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z08 frame 1: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z08 frame 2: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z08 frame 3: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z08 frame 4: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z08 frame 5: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z08 frame 6: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z08 frame 7: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z08 frame 8: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z08 frame 9: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z08 frame 10: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z08 frame 11: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z08 frame 12: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z08 frame 13: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z08 frame 14: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z08 frame 15: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z08 frame 16: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z09 frame 1: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z09 frame 2: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z09 frame 3: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z09 frame 4: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z09 frame 5: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z09 frame 6: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z09 frame 7: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z09 frame 8: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z09 frame 9: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z09 frame 10: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z09 frame 11: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z09 frame 12: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z09 frame 13: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z09 frame 14: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z09 frame 15: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z09 frame 16: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z10 frame 1: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z10 frame 2: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z10 frame 3: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z10 frame 4: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z10 frame 5: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z10 frame 6: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z10 frame 7: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z10 frame 8: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z10 frame 9: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z10 frame 10: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z10 frame 11: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z10 frame 12: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z10 frame 13: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z10 frame 14: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z10 frame 15: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: Z10 frame 16: full 120px canvas, foot pivot, PPU32, Point/uncompressed
+- PASS: The existing animation asset resolves all five active zombie kinds
+- PASS: Pool prefab resolves the same authored animation asset as scene actors
+- PASS: PartyBalloon Idle: ordered four-frame playback and one-shot ending
+- PASS: PartyBalloon Walk: ordered four-frame playback and one-shot ending
+- PASS: PartyBalloon Run: ordered four-frame playback and one-shot ending
+- PASS: PartyBalloon Attack: ordered four-frame playback and one-shot ending
+- PASS: PartyBalloon Dead: ordered four-frame playback and one-shot ending
+- PASS: PartyHorn Idle: ordered four-frame playback and one-shot ending
+- PASS: PartyHorn Walk: ordered four-frame playback and one-shot ending
+- PASS: PartyHorn Run: ordered four-frame playback and one-shot ending
+- PASS: PartyHorn Attack: ordered four-frame playback and one-shot ending
+- PASS: PartyHorn Dead: ordered four-frame playback and one-shot ending
+- PASS: The reviewed seeded pixelfx export resolves all 22 frames
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0000
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0001
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0002
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0003
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0004
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0005
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0006
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0007
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0008
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0009
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0010
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0011
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0012
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0013
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0014
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0015
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0016
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0017
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0018
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0019
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0020
+- PASS: PixelFX frame preserves 112px canvas, exact origin and PPU32: frame_0021
+- PASS: Stage 0: Z1 begins at 1, Z2 begins at 2
+- PASS: Stage 0: existing roster is retained
+- PASS: Stage 1: Z1 begins at 1, Z2 begins at 2
+- PASS: Stage 1: existing roster is retained
+- PASS: Stage 2: Z1 begins at 1, Z2 begins at 2
+- PASS: Stage 2: existing roster is retained
+- PASS: Stage 3: Z1 begins at 1, Z2 begins at 2
+- PASS: Stage 3: existing roster is retained
+- PASS: Stage 4: Z1 begins at 1, Z2 begins at 2
+- PASS: Stage 4: existing roster is retained
+- PASS: Stage 5: Z1 begins at 1, Z2 begins at 2
+- PASS: Stage 5: existing roster is retained
+- PASS: Stage 6: Z1 begins at 1, Z2 begins at 2
+- PASS: Stage 6: existing roster is retained
+- PASS: Stage 7: Z1 begins at 1, Z2 begins at 2
+- PASS: Stage 7: existing roster is retained
+- PASS: Isolated validation profile unlocks next district
+- PASS: Isolated validation profile unlocks next district
+- PASS: Actual entry scene enters Stage 2 with the isolated profile
+- PASS: Both party actors use their imported walk clock in the actual scene
+- PASS: Party characters face left toward Sundeok
+- PASS: Repeated lethal damage credits exactly one kill and one reward
+- PASS: Authored pop/death and pixelfx confetti play together after the lethal hit
+- PASS: Pop uses the actor's foot-depth group above the body
+- PASS: Pause freezes both pop presentation and actor position
+- PASS: One-shot pop clears itself after resuming
+- PASS: Z2 also triggers the shared party pop
+- PASS: Restart cancels visible and pending effects across the actor pool
+- PASS: A reused actor keeps ordinary zombie deaths free of party effects
+- PASS: Twenty repeated deaths reuse one persistent renderer without adding objects
+- PASS: Right-facing reused actor presents its pop correctly
+- PASS: Disabling the actor immediately resets its effect
+- PASS: Despawn also cancels a pop before its delayed first frame
+- PASS: Authored death, final hold and fade return the actor to its pool
+- PASS: No runtime errors, exceptions or assertions
+
+
+
+Editor environment messages (separate from runtime):
+ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+System.Collections.Generic.List`1[T].get_Item (System.Int32 index) (at <41d29b352f6a475ab1bf7c6628b82790>:0)
+UnityEditor.Search.SearchDatabase+<EnumerateAll>d__80.MoveNext () (at <e5e60b34d51d47fbbbfacfb81405fd89>:0)
+System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Boolean& found) (at <80564d689e48448fa2a7101993ee7201>:0)
+System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source) (at <80564d689e48448fa2a7101993ee7201>:0)
+UnityEditor.Search.SearchDatabase.GetDefaultSearchDatabase () (at <e5e60b34d51d47fbbbfacfb81405fd89>:0)
+UnityEditor.Search.SearchInit.IndexationOnStartup () (at <e5e60b34d51d47fbbbfacfb81405fd89>:0)
+UnityEditor.EditorApplication.Internal_CallDelayFunctions () (at <49fcb209645d4ccfb3e373da32345d37>:0)

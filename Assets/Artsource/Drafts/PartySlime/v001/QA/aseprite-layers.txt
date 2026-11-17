@@ -1,0 +1,10 @@
+Z01: default/solo composition, saved hidden state, empty hidden render, original visibility preserved PASS
+Z02: default/solo composition, saved hidden state, empty hidden render, original visibility preserved PASS
+Z03: default/solo composition, saved hidden state, empty hidden render, original visibility preserved PASS
+Z04: default/solo composition, saved hidden state, empty hidden render, original visibility preserved PASS
+Z05: default/solo composition, saved hidden state, empty hidden render, original visibility preserved PASS
+Z06: default/solo composition, saved hidden state, empty hidden render, original visibility preserved PASS
+Z07: default/solo composition, saved hidden state, empty hidden render, original visibility preserved PASS
+Z08: default/solo composition, saved hidden state, empty hidden render, original visibility preserved PASS
+Z09: default/solo composition, saved hidden state, empty hidden render, original visibility preserved PASS
+Z10: default/solo composition, saved hidden state, empty hidden render, original visibility preserved PASS

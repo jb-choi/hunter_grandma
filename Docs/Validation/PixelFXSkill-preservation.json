@@ -1,0 +1,660 @@
+{
+  "Checked": 109,
+  "Unchanged": 109,
+  "Files": [
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\BeltActorVisual.cs",
+      "Before": "647350298012042D77B8163CF42D93D78944200FE51973A41AC4855F9A7526C2",
+      "After": "647350298012042D77B8163CF42D93D78944200FE51973A41AC4855F9A7526C2",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\BeltActorVisual.cs.meta",
+      "Before": "A34E257FF4E65B8707B7E131A26AE9636A9BD33747A789F454870CF595B65E29",
+      "After": "A34E257FF4E65B8707B7E131A26AE9636A9BD33747A789F454870CF595B65E29",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\BeltSpace.cs",
+      "Before": "9D5E44BADB2B54F254B1033AADF4B0A788267D92EA8B36DC4E5615E40280E5C6",
+      "After": "9D5E44BADB2B54F254B1033AADF4B0A788267D92EA8B36DC4E5615E40280E5C6",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\BeltSpace.cs.meta",
+      "Before": "D1D609390F1813A9676CB588C4C9AC15A3E978A54E60994604618FFA6D584B4B",
+      "After": "D1D609390F1813A9676CB588C4C9AC15A3E978A54E60994604618FFA6D584B4B",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\BeltStageView.cs",
+      "Before": "08E4342E504D79E7EAE79AD04FA962B1160D923E22BB90D1B03E925FC0BCAFBA",
+      "After": "08E4342E504D79E7EAE79AD04FA962B1160D923E22BB90D1B03E925FC0BCAFBA",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\BeltStageView.cs.meta",
+      "Before": "E7D77CBC07C8AA1AF0DBE150DDAC6CE7178032A7D936B5B077391641CB784B7A",
+      "After": "E7D77CBC07C8AA1AF0DBE150DDAC6CE7178032A7D936B5B077391641CB784B7A",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\BossActor.cs",
+      "Before": "99D8BD37C6C0A2B377A243C91A92CC3CE6C0F6268C4BC16D1D350B40E7223C84",
+      "After": "99D8BD37C6C0A2B377A243C91A92CC3CE6C0F6268C4BC16D1D350B40E7223C84",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\BossActor.cs.meta",
+      "Before": "5818EB59FD9BDFAF6AF9502E68BD92F127B8DC58E897ED7C4A853B6FCD253C1D",
+      "After": "5818EB59FD9BDFAF6AF9502E68BD92F127B8DC58E897ED7C4A853B6FCD253C1D",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\DefenseHud.cs",
+      "Before": "A1949B4F510DDE22EDF1731C1F526F8014649C93A70D0DB09D8DE71FAF7C16A4",
+      "After": "A1949B4F510DDE22EDF1731C1F526F8014649C93A70D0DB09D8DE71FAF7C16A4",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\DefenseHud.cs.meta",
+      "Before": "1C862A44A2959EAC30DE2C929566C384DA71FB5070A8F347B88FFC5305F38C58",
+      "After": "1C862A44A2959EAC30DE2C929566C384DA71FB5070A8F347B88FFC5305F38C58",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\DefenseMapView.cs",
+      "Before": "A278E30AB623DE93DF1457A3A843453890A687702487FDEE7D249899D24DF631",
+      "After": "A278E30AB623DE93DF1457A3A843453890A687702487FDEE7D249899D24DF631",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\DefenseMapView.cs.meta",
+      "Before": "5017D537EC6C90F09626D09DABEBCD5A9042144EEEECD55BAC3C0D604D292747",
+      "After": "5017D537EC6C90F09626D09DABEBCD5A9042144EEEECD55BAC3C0D604D292747",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\DefenseProgress.cs",
+      "Before": "629F4CE6C287BB0531EA69EC575C34B2A732D33777240CB58BC5496674BA771D",
+      "After": "629F4CE6C287BB0531EA69EC575C34B2A732D33777240CB58BC5496674BA771D",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\DefenseProgress.cs.meta",
+      "Before": "7B2E65C82673AE7468FD8945ECB7ADE421949C83724E09B55EC432C9D1F87C5C",
+      "After": "7B2E65C82673AE7468FD8945ECB7ADE421949C83724E09B55EC432C9D1F87C5C",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\DefenseProgressStore.cs",
+      "Before": "3CAC75753A75CB18E1C7C49791AEFC64A68506114DF9A778800B09C10C16C312",
+      "After": "3CAC75753A75CB18E1C7C49791AEFC64A68506114DF9A778800B09C10C16C312",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\DefenseProgressStore.cs.meta",
+      "Before": "4B4546FE5306104A95EFBD4803EBA6A9AB6E2189AB72357720DCA7E15AFC42D8",
+      "After": "4B4546FE5306104A95EFBD4803EBA6A9AB6E2189AB72357720DCA7E15AFC42D8",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\DefenseRegions.cs",
+      "Before": "A5F6FBB62FF0A703301ED9D9E0B0E57AE20894B5F9D3C1880696449D2D218B0D",
+      "After": "A5F6FBB62FF0A703301ED9D9E0B0E57AE20894B5F9D3C1880696449D2D218B0D",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\DefenseRegions.cs.meta",
+      "Before": "0700B34BDDAB1DA134A018B3A1AF16027D509C076A522C86627846D53B2F8D8E",
+      "After": "0700B34BDDAB1DA134A018B3A1AF16027D509C076A522C86627846D53B2F8D8E",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\DefenseScenery.cs",
+      "Before": "22EFEC110855BFA9F4D0E0A72FD56C206ADDC6052844EBED225A47A26D042B9A",
+      "After": "22EFEC110855BFA9F4D0E0A72FD56C206ADDC6052844EBED225A47A26D042B9A",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\DefenseScenery.cs.meta",
+      "Before": "5CB1CACFEBA3F9790A359DDD5E84117BA2AD8E3057829ABF0EBB8305DF04142D",
+      "After": "5CB1CACFEBA3F9790A359DDD5E84117BA2AD8E3057829ABF0EBB8305DF04142D",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\DefenseStages.cs",
+      "Before": "9AF8628947513810447ECE567009F628484C03509D3E66986ADDF36111D92917",
+      "After": "9AF8628947513810447ECE567009F628484C03509D3E66986ADDF36111D92917",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\DefenseStages.cs.meta",
+      "Before": "0FC0ED8C4A210FD4C280F44DCCB23F44C8DE6BF748214578DAFE1FDB1D4080DE",
+      "After": "0FC0ED8C4A210FD4C280F44DCCB23F44C8DE6BF748214578DAFE1FDB1D4080DE",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\DefenseTarget.cs",
+      "Before": "3B696697FACD82907D2B7B761046826060F1935730C67DC657BF9E4A64D802B1",
+      "After": "3B696697FACD82907D2B7B761046826060F1935730C67DC657BF9E4A64D802B1",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\DefenseTarget.cs.meta",
+      "Before": "9D90B0BF992359B83C4B15B7EF6F576BFA0F844FF90BE2D0C33125ECF4C10ACC",
+      "After": "9D90B0BF992359B83C4B15B7EF6F576BFA0F844FF90BE2D0C33125ECF4C10ACC",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\DefenseUiBuilder.cs",
+      "Before": "0E0487664EDBCCA6FB9431F1145132A932724AF6EBC3E5BA4D1B66213C0C2607",
+      "After": "0E0487664EDBCCA6FB9431F1145132A932724AF6EBC3E5BA4D1B66213C0C2607",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\DefenseUiBuilder.cs.meta",
+      "Before": "F87EB67703E83897623E42C062D3E65FF4FF65B9F2E385F3D4CB2CB648884F4A",
+      "After": "F87EB67703E83897623E42C062D3E65FF4FF65B9F2E385F3D4CB2CB648884F4A",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\DefenseUpgradeView.cs",
+      "Before": "C8AC1CB6918CBFEAB912B06EFC4AE46E5DE1020B4A301E79047A82D8D0EA6587",
+      "After": "C8AC1CB6918CBFEAB912B06EFC4AE46E5DE1020B4A301E79047A82D8D0EA6587",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\DefenseUpgradeView.cs.meta",
+      "Before": "D6F8B3395542BCF4DFE9D455B005C5A0FF2850898C88F509D650E78F42B3F6CD",
+      "After": "D6F8B3395542BCF4DFE9D455B005C5A0FF2850898C88F509D650E78F42B3F6CD",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\GrandmaDefense.cs",
+      "Before": "E5B4AAA6655D576D3414474C474F9223A161F3B8B389161F71625836A5F8231D",
+      "After": "E5B4AAA6655D576D3414474C474F9223A161F3B8B389161F71625836A5F8231D",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\GrandmaDefense.cs.meta",
+      "Before": "43363CC6ECA5F4AF076F085E9C6AFAD81AE15CBAAD01261932BF118202C2263E",
+      "After": "43363CC6ECA5F4AF076F085E9C6AFAD81AE15CBAAD01261932BF118202C2263E",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\GrandmaMovement.cs",
+      "Before": "7385597C323BA87D53BE1E142787FD0A457B06381D7B349302586944F6D60A66",
+      "After": "7385597C323BA87D53BE1E142787FD0A457B06381D7B349302586944F6D60A66",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\GrandmaMovement.cs.meta",
+      "Before": "08F7C3CF8745D25EADC71F544DD8478AD1C371568A9A81083719F310786EDE7D",
+      "After": "08F7C3CF8745D25EADC71F544DD8478AD1C371568A9A81083719F310786EDE7D",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\GrandmaShadowSkill.cs",
+      "Before": "A68172FFB401FF311B676FD73CFF97896FB5A715889685FBEBFA0B277EECEFB9",
+      "After": "A68172FFB401FF311B676FD73CFF97896FB5A715889685FBEBFA0B277EECEFB9",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\GrandmaShadowSkill.cs.meta",
+      "Before": "31FF0D5778BB342976F24D4308CCC8981F2FCA2E678DC89DA1E660EB1539E7B6",
+      "After": "31FF0D5778BB342976F24D4308CCC8981F2FCA2E678DC89DA1E660EB1539E7B6",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\GrandmaShooter.cs",
+      "Before": "46D8BA7474025FC3CA171BD615D7BCB73ADFA631EE11695CC14F94696E579D21",
+      "After": "46D8BA7474025FC3CA171BD615D7BCB73ADFA631EE11695CC14F94696E579D21",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\GrandmaShooter.cs.meta",
+      "Before": "BB9F2E8F155FAB78313B16D5552EAFFCAB7193144F350DFDBCDF9B7B93FF01C9",
+      "After": "BB9F2E8F155FAB78313B16D5552EAFFCAB7193144F350DFDBCDF9B7B93FF01C9",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\ShotTracer.cs",
+      "Before": "EF3F94785BE0C16375BDBBF688D536331251BC07D325BA5D10061441D6E64AAC",
+      "After": "EF3F94785BE0C16375BDBBF688D536331251BC07D325BA5D10061441D6E64AAC",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\ShotTracer.cs.meta",
+      "Before": "9F9039C6FE39CEBB405079464E034D924840FCBEBB190DB73F754AB80DE9AC8E",
+      "After": "9F9039C6FE39CEBB405079464E034D924840FCBEBB190DB73F754AB80DE9AC8E",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\StageZeroOpeningView.cs",
+      "Before": "58B77D22158BB1305AC0D9016FE897DAD05E8A18733263EB6A6837F5216DF734",
+      "After": "58B77D22158BB1305AC0D9016FE897DAD05E8A18733263EB6A6837F5216DF734",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\StageZeroOpeningView.cs.meta",
+      "Before": "CB638A5DAA6EBB8457BC9480AF9684D97600904B630A1E576EDD69FCF6E66D6E",
+      "After": "CB638A5DAA6EBB8457BC9480AF9684D97600904B630A1E576EDD69FCF6E66D6E",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\SundeokAnimationPlayer.cs",
+      "Before": "33BCABBD30748508A1089559B8700666FD3CDE03AEF6B6AE8FB8F202F7487AB8",
+      "After": "33BCABBD30748508A1089559B8700666FD3CDE03AEF6B6AE8FB8F202F7487AB8",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\SundeokAnimationPlayer.cs.meta",
+      "Before": "7BFB833EC2F0B956D49793B2A2BD1214DC224405012982514AAC99A3E6DDD6D4",
+      "After": "7BFB833EC2F0B956D49793B2A2BD1214DC224405012982514AAC99A3E6DDD6D4",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\SundeokAnimationSet.cs",
+      "Before": "CA4606786F708CB3792E0159DCF2C1F1D58EFD2A1A417B16B4B6EB30E2D693FE",
+      "After": "CA4606786F708CB3792E0159DCF2C1F1D58EFD2A1A417B16B4B6EB30E2D693FE",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\SundeokAnimationSet.cs.meta",
+      "Before": "FCE345E5A4389F391B23C12E7D3DDB74E34720C6F64C4AD82BC20F86D5A68D96",
+      "After": "FCE345E5A4389F391B23C12E7D3DDB74E34720C6F64C4AD82BC20F86D5A68D96",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\ZombieActor.cs",
+      "Before": "032D47DC6556E268373190A2FB372ED5936AF876408C879913CAF26AAAD91174",
+      "After": "032D47DC6556E268373190A2FB372ED5936AF876408C879913CAF26AAAD91174",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\ZombieActor.cs.meta",
+      "Before": "89D95E62BEA3D701C356EAECE03E2B75FE1EEDC1076FF7A950EE43AB448F049E",
+      "After": "89D95E62BEA3D701C356EAECE03E2B75FE1EEDC1076FF7A950EE43AB448F049E",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\ZombieAnimationSet.cs",
+      "Before": "46D170AC35B0AF9B168E1F3D0822B02E4C39C9E3E65845AD12366D0B62B4E6BB",
+      "After": "46D170AC35B0AF9B168E1F3D0822B02E4C39C9E3E65845AD12366D0B62B4E6BB",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Runtime\\ZombieAnimationSet.cs.meta",
+      "Before": "1E1C7230DF60C1ECC2FAFA2F05A32838251DD51D28E5C582B00D4F897045E8B7",
+      "After": "1E1C7230DF60C1ECC2FAFA2F05A32838251DD51D28E5C582B00D4F897045E8B7",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaCombatValidation.cs",
+      "Before": "61237B5CB2E2DC84450A8519DEEA50D80E765BF148FECB36BB09C4A737875428",
+      "After": "61237B5CB2E2DC84450A8519DEEA50D80E765BF148FECB36BB09C4A737875428",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaCombatValidation.cs.meta",
+      "Before": "371865D11CD246D2B5363673A86070C0561DDD965B7335CC8E35B66E2570B9D2",
+      "After": "371865D11CD246D2B5363673A86070C0561DDD965B7335CC8E35B66E2570B9D2",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaMapSetup.cs",
+      "Before": "002865BE0EB340D18C121496FF5602D4A9B349ECB0A571B1B38934CBC32496D4",
+      "After": "002865BE0EB340D18C121496FF5602D4A9B349ECB0A571B1B38934CBC32496D4",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaMapSetup.cs.meta",
+      "Before": "AD691E85C200DB5D524317EF13AB752948F13A15BBB0E3A16A6C8DDCA6849745",
+      "After": "AD691E85C200DB5D524317EF13AB752948F13A15BBB0E3A16A6C8DDCA6849745",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaMapValidation.cs",
+      "Before": "8FA4C09D849FFB1A061C286092640A4A7A166ABAE680AB5C95DDE3EF841BBD50",
+      "After": "8FA4C09D849FFB1A061C286092640A4A7A166ABAE680AB5C95DDE3EF841BBD50",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaMapValidation.cs.meta",
+      "Before": "B193B6B73DD698C25CE5BBB68D84F5A5C5A07F85E643A0E2E68E173434072CEE",
+      "After": "B193B6B73DD698C25CE5BBB68D84F5A5C5A07F85E643A0E2E68E173434072CEE",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaOpeningValidation.cs",
+      "Before": "20E4E2BC014FD20190A751C13BF16413F29252D4B3189D3573067F99916634EE",
+      "After": "20E4E2BC014FD20190A751C13BF16413F29252D4B3189D3573067F99916634EE",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaOpeningValidation.cs.meta",
+      "Before": "C1D3E88C58CCDC28D5D7EE10F3CBA2A11270C81BB8D0E908234A1C836E67B8F3",
+      "After": "C1D3E88C58CCDC28D5D7EE10F3CBA2A11270C81BB8D0E908234A1C836E67B8F3",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaProjectSetup.cs",
+      "Before": "75251A770EDA2406638F4D9C3AF4E453AE00F87DB1D3750A92A0FAF17EA7F297",
+      "After": "75251A770EDA2406638F4D9C3AF4E453AE00F87DB1D3750A92A0FAF17EA7F297",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaProjectSetup.cs.meta",
+      "Before": "351DC156684F596B518AF2D6371561E03246000B3828105E8D138CC6EB72ECD0",
+      "After": "351DC156684F596B518AF2D6371561E03246000B3828105E8D138CC6EB72ECD0",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaReloadAudioValidation.cs",
+      "Before": "461B8F5EA5A6EAB3F80A885FCAA79E5D70B536DE7AD67DF7EE0B1F8E41039D3F",
+      "After": "461B8F5EA5A6EAB3F80A885FCAA79E5D70B536DE7AD67DF7EE0B1F8E41039D3F",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaReloadAudioValidation.cs.meta",
+      "Before": "4B12E44771D447921F1F51E11825800FCEC5CF0C0FF25823B07E56CE2101D5FF",
+      "After": "4B12E44771D447921F1F51E11825800FCEC5CF0C0FF25823B07E56CE2101D5FF",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaShadowSkillValidation.cs",
+      "Before": "DB39B5B725FA6110752F3B1598FE37C43F374557D6A7A05608C37A6177BA6F54",
+      "After": "DB39B5B725FA6110752F3B1598FE37C43F374557D6A7A05608C37A6177BA6F54",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaShadowSkillValidation.cs.meta",
+      "Before": "08BCDB687D24ECD2E58F33862B80CE984CB53453FE4B693C42809F1567FFA325",
+      "After": "08BCDB687D24ECD2E58F33862B80CE984CB53453FE4B693C42809F1567FFA325",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaSkillInvestigation.cs",
+      "Before": "EAE59440E4506CBDAF5E7DBED671C71EA26B64B77F4007FCDD7505AC1204DA0B",
+      "After": "EAE59440E4506CBDAF5E7DBED671C71EA26B64B77F4007FCDD7505AC1204DA0B",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaSkillInvestigation.cs.meta",
+      "Before": "B6F999845B584185CBE8AFB1BA2BD7B010CDBDDF2EC468F90A83C688AD48F260",
+      "After": "B6F999845B584185CBE8AFB1BA2BD7B010CDBDDF2EC468F90A83C688AD48F260",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaStageSetup.cs",
+      "Before": "2FC91EBFFF09659DCB582001A760E6CFE44E5D669E2923F96099C13E5B682F4B",
+      "After": "2FC91EBFFF09659DCB582001A760E6CFE44E5D669E2923F96099C13E5B682F4B",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaStageSetup.cs.meta",
+      "Before": "66584FE693B8E290F9193EC0844A1787F8174AD395D9E5DC71F2C19FA7E3912E",
+      "After": "66584FE693B8E290F9193EC0844A1787F8174AD395D9E5DC71F2C19FA7E3912E",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaStageValidation.cs",
+      "Before": "DEFCDD36576A1F68491AB39F70F0167EE7A1B84856D31505C3FC8CBD280A0E6C",
+      "After": "DEFCDD36576A1F68491AB39F70F0167EE7A1B84856D31505C3FC8CBD280A0E6C",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaStageValidation.cs.meta",
+      "Before": "C26879F00C7E2F61302125C713660FE617208BE3E5AC1878DD2A91008B3E0B30",
+      "After": "C26879F00C7E2F61302125C713660FE617208BE3E5AC1878DD2A91008B3E0B30",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaUiValidation.cs",
+      "Before": "BA96B9D1E103CCDAA467B12A5FF5F6FA4C6B0BB7C9C061E5B6BFC9BCC72241A8",
+      "After": "BA96B9D1E103CCDAA467B12A5FF5F6FA4C6B0BB7C9C061E5B6BFC9BCC72241A8",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\GrandmaUiValidation.cs.meta",
+      "Before": "BEAE7EAE2798F0DBFCBBF51F8DBB2D5AF566F37088241A1E0B4357B4EA2FC535",
+      "After": "BEAE7EAE2798F0DBFCBBF51F8DBB2D5AF566F37088241A1E0B4357B4EA2FC535",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\SundeokAnimationSetup.cs",
+      "Before": "78A6885EE14C22DD54FCCCA6015924B7462A1B06585D4CDF9F90DA33C2D61D3D",
+      "After": "78A6885EE14C22DD54FCCCA6015924B7462A1B06585D4CDF9F90DA33C2D61D3D",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\SundeokAnimationSetup.cs.meta",
+      "Before": "D5816665DE0251D6D38722C0C59C271ADE733BB1CACC02BA0222C3E6A5A34471",
+      "After": "D5816665DE0251D6D38722C0C59C271ADE733BB1CACC02BA0222C3E6A5A34471",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\SundeokAnimationValidation.cs",
+      "Before": "62501E2AA046D8A07BC03C48E4DC42AD0DEEA39C59F1A3D3F49A68FC24F31395",
+      "After": "62501E2AA046D8A07BC03C48E4DC42AD0DEEA39C59F1A3D3F49A68FC24F31395",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\SundeokAnimationValidation.cs.meta",
+      "Before": "B20CBD003D218034073FE2A819F85F1DE913327C3EE30F62719258A22626D927",
+      "After": "B20CBD003D218034073FE2A819F85F1DE913327C3EE30F62719258A22626D927",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\ZombieAnimationSetup.cs",
+      "Before": "50C69CF534430DD5C05B54B1E4B6F2FD7395C29EBF4C367E5BCEB9F8EFECCC88",
+      "After": "50C69CF534430DD5C05B54B1E4B6F2FD7395C29EBF4C367E5BCEB9F8EFECCC88",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\ZombieAnimationSetup.cs.meta",
+      "Before": "6534AEBBF662AD9E5CFE70666EDDE6B67151B4F4A2F95099258B2D672984CA5B",
+      "After": "6534AEBBF662AD9E5CFE70666EDDE6B67151B4F4A2F95099258B2D672984CA5B",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\ZombieRosterValidation.cs",
+      "Before": "500F07C2CFBCB66C069E9E5097C400778862FD2CED7F837AE9ECB69C461B01DA",
+      "After": "500F07C2CFBCB66C069E9E5097C400778862FD2CED7F837AE9ECB69C461B01DA",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Editor\\ZombieRosterValidation.cs.meta",
+      "Before": "3AD5FC0635FDA96D523E8B1715BD9E916DA0DE46C8D038032222CD9027EA485A",
+      "After": "3AD5FC0635FDA96D523E8B1715BD9E916DA0DE46C8D038032222CD9027EA485A",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Scenes\\GrandmaDefense.unity",
+      "Before": "E03288A03713485B582EDCD1A8C9F70C186AEA42AF1270231519FD91C487DED6",
+      "After": "E03288A03713485B582EDCD1A8C9F70C186AEA42AF1270231519FD91C487DED6",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\HunterGrandma\\Scenes\\GrandmaDefense.unity.meta",
+      "Before": "A3E5670962E46FE3BF66E19CC610B4936382038F4FA300CB5ED2D6AC0CDF829C",
+      "After": "A3E5670962E46FE3BF66E19CC610B4936382038F4FA300CB5ED2D6AC0CDF829C",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\AudioManager.asset",
+      "Before": "AEEDEB3243F07B61DBBE854AA08B5EF6F0B5274DD9852AD9F6129DDE3E105A31",
+      "After": "AEEDEB3243F07B61DBBE854AA08B5EF6F0B5274DD9852AD9F6129DDE3E105A31",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\ClusterInputManager.asset",
+      "Before": "40E65DD214BF254955D2C8829CA8CE2130FD3510485560CE012E9A1DDD93E623",
+      "After": "40E65DD214BF254955D2C8829CA8CE2130FD3510485560CE012E9A1DDD93E623",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\DynamicsManager.asset",
+      "Before": "B7C9A9DC08B98990109D4346F68745E15E238DE400F96C583E53E1C83C743A78",
+      "After": "B7C9A9DC08B98990109D4346F68745E15E238DE400F96C583E53E1C83C743A78",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\EditorBuildSettings.asset",
+      "Before": "F740E5E08068D756B1838E970176A1BC95003D1B2A75CDB5556353742BE25153",
+      "After": "F740E5E08068D756B1838E970176A1BC95003D1B2A75CDB5556353742BE25153",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\EditorSettings.asset",
+      "Before": "0B5C614BA2B24AB6BD1853F450EF8CC44B84C2D084493F8B5BBA0C9F3213F680",
+      "After": "0B5C614BA2B24AB6BD1853F450EF8CC44B84C2D084493F8B5BBA0C9F3213F680",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\GraphicsSettings.asset",
+      "Before": "BCDB6EE570B5EDC137B79E48F860495035136E494030E214FE39C151D16FE993",
+      "After": "BCDB6EE570B5EDC137B79E48F860495035136E494030E214FE39C151D16FE993",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\InputManager.asset",
+      "Before": "7A1BB836A1008D26D0860D143E9D9DF7CA41731D30A72901B518063819C62DF2",
+      "After": "7A1BB836A1008D26D0860D143E9D9DF7CA41731D30A72901B518063819C62DF2",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\MemorySettings.asset",
+      "Before": "1E8379A461B10AE09F3F696911088C16875D63E87ED5F2D95DF9E1892703F9FD",
+      "After": "1E8379A461B10AE09F3F696911088C16875D63E87ED5F2D95DF9E1892703F9FD",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\MultiplayerManager.asset",
+      "Before": "ABA89FD1A1DDAD182727AD82727E536D27372E90328A8196DA2A4560398983DD",
+      "After": "ABA89FD1A1DDAD182727AD82727E536D27372E90328A8196DA2A4560398983DD",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\NavMeshAreas.asset",
+      "Before": "80106CFA7E6181A1928B142C075F3E510D527441E3D79BC83590E4AC91E7CD66",
+      "After": "80106CFA7E6181A1928B142C075F3E510D527441E3D79BC83590E4AC91E7CD66",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\NetworkManager.asset",
+      "Before": "46395DEF99A6B5AE38EBB19B3E18F75215A9D4172C219361521A5A51E051F386",
+      "After": "46395DEF99A6B5AE38EBB19B3E18F75215A9D4172C219361521A5A51E051F386",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\PackageManagerSettings.asset",
+      "Before": "B6801EE33298097F67FE42A6C8A2FBB0A9BB0E74A3B9AD5B7BDB04A4FD148CAF",
+      "After": "B6801EE33298097F67FE42A6C8A2FBB0A9BB0E74A3B9AD5B7BDB04A4FD148CAF",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\Physics2DSettings.asset",
+      "Before": "50E61D70BC38C632CB0E6EFE364A9C5BCFD9A8DBCF4E7B5ECFB06A2030C4518F",
+      "After": "50E61D70BC38C632CB0E6EFE364A9C5BCFD9A8DBCF4E7B5ECFB06A2030C4518F",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\PresetManager.asset",
+      "Before": "29C125923FE6E29F90190D4FCE1C82D660E7051546E2C9D02908D18C9CF2436C",
+      "After": "29C125923FE6E29F90190D4FCE1C82D660E7051546E2C9D02908D18C9CF2436C",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\ProjectSettings.asset",
+      "Before": "51CC2ECE34ADA65AE535FF1B315B6B7A49C10CFF83D7F0049CE99524B2E3DFC1",
+      "After": "51CC2ECE34ADA65AE535FF1B315B6B7A49C10CFF83D7F0049CE99524B2E3DFC1",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\ProjectVersion.txt",
+      "Before": "A606BB0B7A7FB3761CB9A8613E27FD904CA9D4AC9551AAE20C224D707AD82C19",
+      "After": "A606BB0B7A7FB3761CB9A8613E27FD904CA9D4AC9551AAE20C224D707AD82C19",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\QualitySettings.asset",
+      "Before": "E7DC185B977703EC43789F2E73CF2F44F31A73BB42BD594F69D5A799D65B2883",
+      "After": "E7DC185B977703EC43789F2E73CF2F44F31A73BB42BD594F69D5A799D65B2883",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\SceneTemplateSettings.json",
+      "Before": "BB9098B3BFCDE78D93E264B96F7B77B5430E64E8C57A7AAD7F5A5D9C3945E16A",
+      "After": "BB9098B3BFCDE78D93E264B96F7B77B5430E64E8C57A7AAD7F5A5D9C3945E16A",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\ShaderGraphSettings.asset",
+      "Before": "5C432C9C73FDF73FEE91C8823EA02AB98E3B7A8EDF341B5AE6901D699CCE52A7",
+      "After": "5C432C9C73FDF73FEE91C8823EA02AB98E3B7A8EDF341B5AE6901D699CCE52A7",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\TagManager.asset",
+      "Before": "8E18B1C820E9C09E16BBD1F1B7842E9FB3B0158A0921B0964E0B8FA12C6E2C01",
+      "After": "8E18B1C820E9C09E16BBD1F1B7842E9FB3B0158A0921B0964E0B8FA12C6E2C01",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\TimeManager.asset",
+      "Before": "1A83E54ADBBDA7C9F4851103A0C6AB7F6448A3343D4EA5B7620452FA08416ECD",
+      "After": "1A83E54ADBBDA7C9F4851103A0C6AB7F6448A3343D4EA5B7620452FA08416ECD",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\UnityConnectSettings.asset",
+      "Before": "B7DD1E8290598F5CE86919BA1C98B42B766C8C42191A30FA2C4D12195C4ECD00",
+      "After": "B7DD1E8290598F5CE86919BA1C98B42B766C8C42191A30FA2C4D12195C4ECD00",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\URPProjectSettings.asset",
+      "Before": "C317FE22B9488785C0611F0642429922E5D324430D929BFFB41648130F30C218",
+      "After": "C317FE22B9488785C0611F0642429922E5D324430D929BFFB41648130F30C218",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\VersionControlSettings.asset",
+      "Before": "E199CDFA6A8F2BF33CFD47E549198F13E3EB2A5099E908FDB4E0F14D939CCC6B",
+      "After": "E199CDFA6A8F2BF33CFD47E549198F13E3EB2A5099E908FDB4E0F14D939CCC6B",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\VFXManager.asset",
+      "Before": "F066C6483919961332415EE64204F74FE52F38C02E82892EB02B7A5B2E381F0E",
+      "After": "F066C6483919961332415EE64204F74FE52F38C02E82892EB02B7A5B2E381F0E",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\ProjectSettings\\XRSettings.asset",
+      "Before": "EDD2BEB4A2E388312B4B7DA241AA51070434005D82C59363F1237DD2E567585F",
+      "After": "EDD2BEB4A2E388312B4B7DA241AA51070434005D82C59363F1237DD2E567585F",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Packages\\manifest.json",
+      "Before": "EADB2409E74E98314259257A36E15BE39D62670F2C8E7B3DCD6FE80EB6388242",
+      "After": "EADB2409E74E98314259257A36E15BE39D62670F2C8E7B3DCD6FE80EB6388242",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Packages\\packages-lock.json",
+      "Before": "C318703EE2F7354834FF18CC3242DB326C0EB0263444C31E1B17AB3A9C422A02",
+      "After": "C318703EE2F7354834FF18CC3242DB326C0EB0263444C31E1B17AB3A9C422A02",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\Users\\Junbeom_Choi\\AppData\\LocalLow\\DefaultCompany\\Hunter_grandma\\HunterGrandma\\stage-progress-v1.json",
+      "Before": "C7141020DFCB4B0157725E2A3FA95E3CE6D20E9715D0D02D05EA00DC597C322E",
+      "After": "C7141020DFCB4B0157725E2A3FA95E3CE6D20E9715D0D02D05EA00DC597C322E",
+      "Unchanged": true
+    }
+  ]
+}

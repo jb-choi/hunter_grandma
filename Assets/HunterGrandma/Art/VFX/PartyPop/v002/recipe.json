@@ -1,0 +1,9 @@
+{
+  "name": "party-pop",
+  "source": "custom",
+  "effectId": "party/slime-pop",
+  "seed": 21,
+  "fps": 30,
+  "pixelsPerUnit": 32,
+  "options": {}
+}

@@ -22,6 +22,7 @@ namespace HunterGrandma
         private Vector2 fenceFoot;
         private int lastFenceStrike;
         private bool authored;
+        private ZombiePopVisual pop;
         public ZombieAnimationSet AnimationSet => animationSet;
         public ZombieKind Kind { get; private set; }
         public ZombieAction AnimationAction { get; private set; }
@@ -45,6 +46,8 @@ namespace HunterGrandma
             encounter = owner;
             Kind = kind; authored = animationSet != null && animationSet.IsReady;
             if (visual == null) { visual = gameObject.AddComponent<BeltActorVisual>(); visual.Initialize(spriteRenderer, owner.ShadowSprite, .8f); spriteRenderer = visual.Body; }
+            if (pop == null) pop = new ZombiePopVisual(transform, spriteRenderer.sharedMaterial);
+            pop.Reset();
             speed = walkSpeed; phase = animationPhase; health = hp; reward = gold; size = scale;
             age = deathAge = flash = attackCooldown = 0f; alive = true; contacted = false;
             attackAge = -1; attackResolved = false; bangingFence = false;
@@ -63,9 +66,11 @@ namespace HunterGrandma
             transform.position = encounter.MoveActor(transform.position, Vector2.right * (-direction*.20f)); flash = .10f;
             if (health > 0) return;
             alive = false; bangingFence = false; ReleaseShot(); deathAge = 0f; encounter.OnZombieKilled(reward, HitPoint);
+            if (authored && (Kind == ZombieKind.PartyBalloon || Kind == ZombieKind.PartyHorn)) pop.Play(animationSet.PartyPop, size);
             if (authored) Present(ZombieAction.Dead, 0, false);
         }
-        public void Despawn() { alive = false; bangingFence = false; attackAge = -1; ReleaseShot(); gameObject.SetActive(false); }
+        public void Despawn() { alive = false; bangingFence = false; attackAge = -1; pop?.Reset(); ReleaseShot(); gameObject.SetActive(false); }
+        private void OnDisable() { pop?.Reset(); }
         public void HoldAtFence()
         {
             bangingFence = true; fenceFoot = transform.position;
@@ -94,6 +99,7 @@ namespace HunterGrandma
         {
             if (encounter == null) return;
             float dt = encounter.CombatDeltaTime; if (dt <= 0f) return;
+            pop?.Tick(dt);
             if (alive)
             {
                 age += dt; flash = Mathf.Max(0f, flash - dt); attackCooldown-=dt;

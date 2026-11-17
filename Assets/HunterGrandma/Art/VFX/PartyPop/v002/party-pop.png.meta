@@ -1,0 +1,4524 @@
+fileFormatVersion: 2
+guid: 99c8646b254c4f044bbc59b55944e721
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5233235608358479129
+    second: party-pop_0
+  - first:
+      213: -4096282796197079359
+    second: party-pop_1
+  - first:
+      213: 5101751511317769458
+    second: party-pop_2
+  - first:
+      213: -5799903411176091106
+    second: party-pop_3
+  - first:
+      213: -8246019107291417351
+    second: party-pop_4
+  - first:
+      213: 12661392695596258
+    second: party-pop_5
+  - first:
+      213: -82055542876737007
+    second: party-pop_6
+  - first:
+      213: 5590403694254503153
+    second: party-pop_7
+  - first:
+      213: 5172249007033842583
+    second: party-pop_8
+  - first:
+      213: -1149996686963790255
+    second: party-pop_9
+  - first:
+      213: 7360239906164154923
+    second: party-pop_10
+  - first:
+      213: -3199516359687150132
+    second: party-pop_11
+  - first:
+      213: 5324359480860854295
+    second: party-pop_12
+  - first:
+      213: -6987718007267616472
+    second: party-pop_13
+  - first:
+      213: 5293972421489876206
+    second: party-pop_14
+  - first:
+      213: -4059603388492008660
+    second: party-pop_15
+  - first:
+      213: 1132938356487483324
+    second: party-pop_16
+  - first:
+      213: -3982445766039880042
+    second: party-pop_17
+  - first:
+      213: -8467656761743829466
+    second: party-pop_18
+  - first:
+      213: 7130535029012702232
+    second: party-pop_19
+  - first:
+      213: -6805836246265604584
+    second: party-pop_20
+  - first:
+      213: 5516732765709798619
+    second: party-pop_21
+  - first:
+      213: -1298729787269377289
+    second: party-pop_22
+  - first:
+      213: -63125960630696003
+    second: party-pop_23
+  - first:
+      213: -216807184131448728
+    second: party-pop_24
+  - first:
+      213: 7263870052503285667
+    second: party-pop_25
+  - first:
+      213: 8453794724335326711
+    second: party-pop_26
+  - first:
+      213: 7158622110178020482
+    second: party-pop_27
+  - first:
+      213: 3121049782820206995
+    second: party-pop_28
+  - first:
+      213: -1653623517679194128
+    second: party-pop_29
+  - first:
+      213: -4621679814147777920
+    second: party-pop_30
+  - first:
+      213: -425895261117311127
+    second: party-pop_31
+  - first:
+      213: 3514159698832223674
+    second: party-pop_32
+  - first:
+      213: 1238700105292003704
+    second: party-pop_33
+  - first:
+      213: 5633600271467398189
+    second: party-pop_34
+  - first:
+      213: 5383144428355648597
+    second: party-pop_35
+  - first:
+      213: 5477062617345104351
+    second: party-pop_36
+  - first:
+      213: 2474308734772087931
+    second: party-pop_37
+  - first:
+      213: -4363379656678266690
+    second: party-pop_38
+  - first:
+      213: -7066839644625115832
+    second: party-pop_39
+  - first:
+      213: -6687283884095748459
+    second: party-pop_40
+  - first:
+      213: 6661568143390480746
+    second: party-pop_41
+  - first:
+      213: -2811623432233171528
+    second: party-pop_42
+  - first:
+      213: -8407885619761789221
+    second: party-pop_43
+  - first:
+      213: -8156908659617249667
+    second: party-pop_44
+  - first:
+      213: 3376219856974823295
+    second: party-pop_45
+  - first:
+      213: 5464181247878097291
+    second: party-pop_46
+  - first:
+      213: -4527114522450522969
+    second: party-pop_47
+  - first:
+      213: -4117042573926474431
+    second: party-pop_48
+  - first:
+      213: -7979356572136206933
+    second: party-pop_49
+  - first:
+      213: 5047284995375555080
+    second: party-pop_50
+  - first:
+      213: -3218673412273351296
+    second: party-pop_51
+  - first:
+      213: 8445761577278551150
+    second: party-pop_52
+  - first:
+      213: 1974319859447351036
+    second: party-pop_53
+  - first:
+      213: 9029924282865502876
+    second: party-pop_54
+  - first:
+      213: 8841240605424593207
+    second: party-pop_55
+  - first:
+      213: 7832524750695861161
+    second: party-pop_56
+  - first:
+      213: -8783316352293498587
+    second: party-pop_57
+  - first:
+      213: 1173029604665420738
+    second: party-pop_58
+  - first:
+      213: -3643527399006387303
+    second: party-pop_59
+  - first:
+      213: -7883315965079384007
+    second: party-pop_60
+  - first:
+      213: 890762913288109661
+    second: party-pop_61
+  - first:
+      213: -4353148831890182205
+    second: party-pop_62
+  - first:
+      213: -1217838711183739044
+    second: party-pop_63
+  - first:
+      213: 4891896500675774047
+    second: party-pop_64
+  - first:
+      213: 4444517307625696167
+    second: party-pop_65
+  - first:
+      213: -3574688746331848315
+    second: party-pop_66
+  - first:
+      213: 2829539820026992253
+    second: party-pop_67
+  - first:
+      213: -2516071675841913406
+    second: party-pop_68
+  - first:
+      213: -2724897577598967586
+    second: party-pop_69
+  - first:
+      213: -1677312844702108714
+    second: party-pop_70
+  - first:
+      213: -8018238242807323769
+    second: party-pop_71
+  - first:
+      213: -283555276179421196
+    second: party-pop_72
+  - first:
+      213: 3579185081507035121
+    second: party-pop_73
+  - first:
+      213: -1089490684397646052
+    second: party-pop_74
+  - first:
+      213: -1425739242867529244
+    second: party-pop_75
+  - first:
+      213: -1816814712009436425
+    second: party-pop_76
+  - first:
+      213: 1009022059358240605
+    second: party-pop_77
+  - first:
+      213: -5359579626295871807
+    second: party-pop_78
+  - first:
+      213: -8208115229201406614
+    second: party-pop_79
+  - first:
+      213: 7365748354259926453
+    second: party-pop_80
+  - first:
+      213: -8048719804330812862
+    second: party-pop_81
+  - first:
+      213: -5517350721180669515
+    second: party-pop_82
+  - first:
+      213: -2929094696025100271
+    second: party-pop_83
+  - first:
+      213: 378092347567235028
+    second: party-pop_84
+  - first:
+      213: 2408727107765189524
+    second: party-pop_85
+  - first:
+      213: -6514739470864742097
+    second: party-pop_86
+  - first:
+      213: 8419856735121365910
+    second: party-pop_87
+  - first:
+      213: -5844165343118166234
+    second: party-pop_88
+  - first:
+      213: -4779657286494425011
+    second: party-pop_89
+  - first:
+      213: 893961620141461567
+    second: party-pop_90
+  - first:
+      213: -1549591273111710490
+    second: party-pop_91
+  - first:
+      213: 6777542222018599545
+    second: party-pop_92
+  - first:
+      213: 9077072489258098880
+    second: party-pop_93
+  - first:
+      213: -7727827975941946796
+    second: party-pop_94
+  - first:
+      213: 574548704381622101
+    second: party-pop_95
+  - first:
+      213: -8019631214365635251
+    second: party-pop_96
+  - first:
+      213: 4163931031532629100
+    second: party-pop_97
+  - first:
+      213: 1967714585347551483
+    second: party-pop_98
+  - first:
+      213: 5019059442242486394
+    second: party-pop_99
+  - first:
+      213: -9107762930082418142
+    second: party-pop_100
+  - first:
+      213: -2044702122172993365
+    second: party-pop_101
+  - first:
+      213: 7923517636020413294
+    second: party-pop_102
+  - first:
+      213: -5547492485822242416
+    second: party-pop_103
+  - first:
+      213: -3342674270385880189
+    second: party-pop_104
+  - first:
+      213: 741158668549190787
+    second: party-pop_105
+  - first:
+      213: -4970950350290906868
+    second: party-pop_106
+  - first:
+      213: -7835363222974342590
+    second: party-pop_107
+  - first:
+      213: -8021285058868692790
+    second: party-pop_108
+  - first:
+      213: -1329769122466859950
+    second: party-pop_109
+  - first:
+      213: 4300986239804094611
+    second: party-pop_110
+  - first:
+      213: 2321718772267901219
+    second: party-pop_111
+  - first:
+      213: -7545900120162352502
+    second: party-pop_112
+  - first:
+      213: -2707209610674752943
+    second: party-pop_113
+  - first:
+      213: 5857375074963806088
+    second: party-pop_114
+  - first:
+      213: 8233952777327069507
+    second: party-pop_115
+  - first:
+      213: 5517474177893041289
+    second: party-pop_116
+  - first:
+      213: 7785727868584128952
+    second: party-pop_117
+  - first:
+      213: 6531057774728628140
+    second: party-pop_118
+  - first:
+      213: -8103394120696109532
+    second: party-pop_119
+  - first:
+      213: -7386145467346186547
+    second: party-pop_120
+  - first:
+      213: 8232644537855953645
+    second: party-pop_121
+  - first:
+      213: 442214993969695434
+    second: party-pop_122
+  - first:
+      213: 8336198886617437145
+    second: party-pop_123
+  - first:
+      213: -8744564578686428444
+    second: party-pop_124
+  - first:
+      213: -2332077253241704829
+    second: party-pop_125
+  - first:
+      213: 7056734627426937510
+    second: party-pop_126
+  - first:
+      213: 3628540393078316557
+    second: party-pop_127
+  - first:
+      213: 7386963034229374896
+    second: party-pop_128
+  - first:
+      213: -8556604112658306715
+    second: party-pop_129
+  - first:
+      213: 878079945874147131
+    second: party-pop_130
+  - first:
+      213: -2838000569803148381
+    second: party-pop_131
+  - first:
+      213: 412186823388032227
+    second: party-pop_132
+  - first:
+      213: -9024648880612341045
+    second: party-pop_133
+  - first:
+      213: 2897395797383409282
+    second: party-pop_134
+  - first:
+      213: 3193866930218055038
+    second: party-pop_135
+  - first:
+      213: 5285419244112605700
+    second: party-pop_136
+  - first:
+      213: 5735567276306683804
+    second: party-pop_137
+  - first:
+      213: 7603865474717823886
+    second: party-pop_138
+  - first:
+      213: 3685866313644302253
+    second: party-pop_139
+  - first:
+      213: 6149074397351799056
+    second: party-pop_140
+  - first:
+      213: 467395052639387034
+    second: party-pop_141
+  - first:
+      213: 501491797114010286
+    second: party-pop_142
+  - first:
+      213: 6659392334765288806
+    second: party-pop_143
+  - first:
+      213: 6018479471588765034
+    second: party-pop_144
+  - first:
+      213: -8410092469084546257
+    second: party-pop_145
+  - first:
+      213: 6740943498512608373
+    second: party-pop_146
+  - first:
+      213: 5417729708973811649
+    second: party-pop_147
+  - first:
+      213: -467452415559124363
+    second: party-pop_148
+  - first:
+      213: 8379958773591125982
+    second: party-pop_149
+  - first:
+      213: 4307890300955002646
+    second: party-pop_150
+  - first:
+      213: -2686016654221628811
+    second: party-pop_151
+  - first:
+      213: 388531399643803842
+    second: party-pop_152
+  - first:
+      213: -2426492212241051350
+    second: party-pop_153
+  - first:
+      213: -2477055377683796642
+    second: party-pop_154
+  - first:
+      213: -7609904785318550879
+    second: party-pop_155
+  - first:
+      213: -8408005560912254527
+    second: party-pop_156
+  - first:
+      213: -9188539895410003784
+    second: party-pop_157
+  - first:
+      213: -3797161386078039
+    second: party-pop_158
+  - first:
+      213: -6650287360138610121
+    second: party-pop_159
+  - first:
+      213: -3107267119923256189
+    second: party-pop_160
+  - first:
+      213: 2417744982259365410
+    second: party-pop_161
+  - first:
+      213: -6857602253497753599
+    second: party-pop_162
+  - first:
+      213: 911587328513727614
+    second: party-pop_163
+  - first:
+      213: 2998259293885378034
+    second: party-pop_164
+  - first:
+      213: -7695736237065581804
+    second: party-pop_165
+  - first:
+      213: 1782710306194120168
+    second: party-pop_166
+  - first:
+      213: 8603070526132163348
+    second: party-pop_167
+  - first:
+      213: -5593755682144103486
+    second: party-pop_168
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: party-pop_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 491
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915e1261f0030a840800000000000000
+      internalID: 5233235608358479129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 483
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c61129ff741727c0800000000000000
+      internalID: -4096282796197079359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_2
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 478
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc686428ff0dc640800000000000000
+      internalID: 5101751511317769458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_3
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12d545a39a928fa0800000000000000
+      internalID: -5799903411176091106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_4
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 488
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4bfcaaf41409d80800000000000000
+      internalID: -8246019107291417351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 395
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e49bf5387bfc2000800000000000000
+      internalID: 12661392695596258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_6
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 397
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112faf22bea7cdef0800000000000000
+      internalID: -82055542876737007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_7
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 387
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4321b6a8a159d40800000000000000
+      internalID: 5590403694254503153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_8
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 399
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b7e12711587c740800000000000000
+      internalID: 5172249007033842583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_9
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 388
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ea5ac2b146a00f0800000000000000
+      internalID: -1149996686963790255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_10
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 400
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22a19cc233d42660800000000000000
+      internalID: 7360239906164154923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_11
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 368
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5ebc792d80993d0800000000000000
+      internalID: -3199516359687150132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_12
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 374
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718c139fcbce3e940800000000000000
+      internalID: 5324359480860854295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_13
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 375
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8299632be73a60f90800000000000000
+      internalID: -6987718007267616472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_14
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 386
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec5e916ed7f77940800000000000000
+      internalID: 5293972421489876206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_15
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 373
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2336f31a3469a7c0800000000000000
+      internalID: -4059603388492008660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_16
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 387
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbfe9d2ce6109bf00800000000000000
+      internalID: 1132938356487483324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_17
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 371
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e3fe9fca28bb8c0800000000000000
+      internalID: -3982445766039880042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_18
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 369
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626135ce907dc7a80800000000000000
+      internalID: -8467656761743829466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_19
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 374
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81428c664dfb4f260800000000000000
+      internalID: 7130535029012702232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_20
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 371
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8165cdd2effcc81a0800000000000000
+      internalID: -6805836246265604584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_21
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 372
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc04e4b83f5f8c40800000000000000
+      internalID: 5516732765709798619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 369
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f21792b32cf9fde0800000000000000
+      internalID: -1298729787269377289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_23
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 367
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db78084f54bbf1ff0800000000000000
+      internalID: -63125960630696003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_24
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 290
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860a715c30fbdfcf0800000000000000
+      internalID: -216807184131448728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_25
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 282
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af6e0eb3537ec460800000000000000
+      internalID: 7263870052503285667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_26
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 293
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5141cf289e15570800000000000000
+      internalID: 8453794724335326711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_27
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 294
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c0b6691e8885360800000000000000
+      internalID: 7158622110178020482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_28
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 295
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399fe4fcd32305b20800000000000000
+      internalID: 3121049782820206995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_29
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 280
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffef740c262d09e0800000000000000
+      internalID: -1653623517679194128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_30
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 271
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ad02c12be7cdfb0800000000000000
+      internalID: -4621679814147777920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_31
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 281
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9679499348ae61af0800000000000000
+      internalID: -425895261117311127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_32
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 279
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd63e490adc4c030800000000000000
+      internalID: 3514159698832223674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_33
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 284
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8793b2fce2fb03110800000000000000
+      internalID: 1238700105292003704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_34
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 282
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24cb5b49919e2e40800000000000000
+      internalID: 5633600271467398189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_35
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 286
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55cf2c22655c4ba40800000000000000
+      internalID: 5383144428355648597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_36
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 283
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd91d678e6f620c40800000000000000
+      internalID: 5477062617345104351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_37
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 279
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c8cb05fa2865220800000000000000
+      internalID: 2474308734772087931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_38
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 284
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8a68702592273c0800000000000000
+      internalID: -4363379656678266690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_39
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 282
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845e871f8ca8ded90800000000000000
+      internalID: -7066839644625115832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_40
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 283
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5964748fcbef133a0800000000000000
+      internalID: -6687283884095748459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_41
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 279
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6919d19ee4a27c50800000000000000
+      internalID: 6661568143390480746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_42
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 285
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5c39f826b1bf8d0800000000000000
+      internalID: -2811623432233171528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_43
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 283
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6cbf16390315b80800000000000000
+      internalID: -8407885619761789221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_44
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 283
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76c43e8ac6dcce80800000000000000
+      internalID: -8156908659617249667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_45
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 279
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7fba9a621ebade20800000000000000
+      internalID: 3376219856974823295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_46
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 285
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89ef1cf4eba4db40800000000000000
+      internalID: 5464181247878097291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_47
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 276
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac03d7d3557c21c0800000000000000
+      internalID: -4527114522450522969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_48
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 276
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14dd3ff87935dd6c0800000000000000
+      internalID: -4117042573926474431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_49
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 271
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad84ad5971a34190800000000000000
+      internalID: -7979356572136206933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_50
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 277
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802e48d26fe8b0640800000000000000
+      internalID: 5047284995375555080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_51
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 270
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085d375b599f453d0800000000000000
+      internalID: -3218673412273351296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_52
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 277
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64b45f286f553570800000000000000
+      internalID: 8445761577278551150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_53
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 270
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6cb57a371366b10800000000000000
+      internalID: 1974319859447351036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_54
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 277
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a4fdcea4cb05d70800000000000000
+      internalID: 9029924282865502876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_55
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 269
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739a71cdc7562ba70800000000000000
+      internalID: 8841240605424593207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_56
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 257
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab8ea323c7b2bc60800000000000000
+      internalID: 7832524750695861161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_57
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 255
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5219aa740546b1680800000000000000
+      internalID: -8783316352293498587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_58
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 256
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb6911e530774010800000000000000
+      internalID: 1173029604665420738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_59
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 261
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99342d482279f6dc0800000000000000
+      internalID: -3643527399006387303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_60
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 253
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9301749b5e5d89290800000000000000
+      internalID: -7883315965079384007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_61
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 260
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e31a17620ac5c00800000000000000
+      internalID: 890762913288109661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_62
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 265
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf67cc83328693c0800000000000000
+      internalID: -4353148831890182205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_63
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 261
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c577c22052e591fe0800000000000000
+      internalID: -1217838711183739044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_64
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 252
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5681c0f2f183e340800000000000000
+      internalID: 4891896500675774047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_65
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 260
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abea1771f81ead30800000000000000
+      internalID: 4444517307625696167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_66
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 257
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581cd445687246ec0800000000000000
+      internalID: -3574688746331848315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_67
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 259
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76188a897b844720800000000000000
+      internalID: 2829539820026992253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_68
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 253
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd550c342e151dd0800000000000000
+      internalID: -2516071675841913406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_69
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 254
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed024ed17183f2ad0800000000000000
+      internalID: -2724897577598967586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_70
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 251
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3b452cadcf8b8e0800000000000000
+      internalID: -1677312844702108714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_71
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 251
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7836405fcce79b090800000000000000
+      internalID: -8018238242807323769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_72
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 254
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f743298afb901cf0800000000000000
+      internalID: -283555276179421196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_73
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 249
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7ba984ed1dba130800000000000000
+      internalID: 3579185081507035121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_74
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 249
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f8162bef951e0f0800000000000000
+      internalID: -1089490684397646052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_75
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 250
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9eb8666b1c63ce0800000000000000
+      internalID: -1425739242867529244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_76
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 255
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f259f335a069c6e0800000000000000
+      internalID: -1816814712009436425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_77
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 247
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5fb49a8734c00e00800000000000000
+      internalID: 1009022059358240605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_78
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 253
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6b635e9b2fe95b0800000000000000
+      internalID: -5359579626295871807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_79
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 250
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65e9ffffaae61e80800000000000000
+      internalID: -8208115229201406614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_80
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 251
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdb4905a15683660800000000000000
+      internalID: 7365748354259926453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_81
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 246
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ad53e5bf33d4090800000000000000
+      internalID: -8048719804330812862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_82
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 244
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9e7c250ce6e63b0800000000000000
+      internalID: -5517350721180669515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_83
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 244
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11071f994e3c957d0800000000000000
+      internalID: -2929094696025100271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_84
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 246
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfd905acf04f3500800000000000000
+      internalID: 378092347567235028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_85
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 184
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bb233ea848d6120800000000000000
+      internalID: 2408727107765189524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_86
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 185
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2904e2c7fef695a0800000000000000
+      internalID: -6514739470864742097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_87
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 172
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bd69c171759d470800000000000000
+      internalID: 8419856735121365910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_88
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 187
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627faca859a55eea0800000000000000
+      internalID: -5844165343118166234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_89
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 187
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40746a850f3badb0800000000000000
+      internalID: -4779657286494425011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_90
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 171
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f305d5b6b5df76c00800000000000000
+      internalID: 893961620141461567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_91
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 172
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4912b72febe7ae0800000000000000
+      internalID: -1549591273111710490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_92
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 172
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a51a1fdbaae0e50800000000000000
+      internalID: 6777542222018599545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_93
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 174
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c023ba265d38fd70800000000000000
+      internalID: 9077072489258098880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_94
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 164
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45287a0566d31c490800000000000000
+      internalID: -7727827975941946796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_95
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 176
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557d3d6a00539f700800000000000000
+      internalID: 574548704381622101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_96
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 172
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d0a1e76eb84b090800000000000000
+      internalID: -8019631214365635251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_97
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 172
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c6ab3363149c930800000000000000
+      internalID: 4163931031532629100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_98
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 174
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0fefe6df9be4b10800000000000000
+      internalID: 1967714585347551483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_99
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 171
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a700f6978f747a540800000000000000
+      internalID: 5019059442242486394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_100
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 176
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22277fdbed9ba9180800000000000000
+      internalID: -9107762930082418142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_101
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 172
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba03460d042cf93e0800000000000000
+      internalID: -2044702122172993365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_102
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 175
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e632a823f4df5fd60800000000000000
+      internalID: 7923517636020413294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_103
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 174
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091aa6cd9f85303b0800000000000000
+      internalID: -5547492485822242416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_104
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 171
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383cfc9167f6c91d0800000000000000
+      internalID: -3342674270385880189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_105
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 176
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3847319d1ef194a00800000000000000
+      internalID: 741158668549190787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_106
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 171
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c019ece5ef2a30bb0800000000000000
+      internalID: -4970950350290906868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_107
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 172
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a547889a2334390800000000000000
+      internalID: -7835363222974342590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_108
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 175
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8bbffccbbaea090800000000000000
+      internalID: -8021285058868692790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_109
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 174
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254741e4706bb8de0800000000000000
+      internalID: -1329769122466859950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_110
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 170
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398bd5f823c20bb30800000000000000
+      internalID: 4300986239804094611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_111
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 171
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32162612ce6683020800000000000000
+      internalID: 2321718772267901219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_112
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 165
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82452312d3974790800000000000000
+      internalID: -7545900120162352502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_113
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 174
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1523537d33f0e6ad0800000000000000
+      internalID: -2707209610674752943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_114
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 165
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887d173d893994150800000000000000
+      internalID: 5857375074963806088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_115
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 167
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349cbe5fc60e44270800000000000000
+      internalID: 8233952777327069507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_116
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 167
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98484be2881029c40800000000000000
+      internalID: 5517474177893041289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_117
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 164
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1f0d4fe367c0c60800000000000000
+      internalID: 7785727868584128952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_118
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 166
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7c04e617af2aa50800000000000000
+      internalID: 6531057774728628140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_119
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 163
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4266be81bf5fa8f80800000000000000
+      internalID: -8103394120696109532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_120
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 166
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce0877b4d32f7990800000000000000
+      internalID: -7386145467346186547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_121
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 162
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deac6f8b69a304270800000000000000
+      internalID: 8232644537855953645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_122
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 156
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca4aeda130132600800000000000000
+      internalID: 442214993969695434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_123
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 155
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3d6d568b020b370800000000000000
+      internalID: 8336198886617437145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_124
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 154
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea9eeba8d015a680800000000000000
+      internalID: -8744564578686428444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_125
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 153
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e62c3181cc2afd0800000000000000
+      internalID: -2332077253241704829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_126
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 156
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa2bf561ce8ee160800000000000000
+      internalID: 7056734627426937510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_127
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 151
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ed69e334a2b5230800000000000000
+      internalID: 3628540393078316557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_128
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 143
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bffe28edb3c38660800000000000000
+      internalID: 7386963034229374896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_129
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 145
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569ea55f4e5d04980800000000000000
+      internalID: -8556604112658306715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_130
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 141
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37093afe019f2c00800000000000000
+      internalID: 878079945874147131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_131
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 147
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3f684a4856d98d0800000000000000
+      internalID: -2838000569803148381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_132
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 143
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ece3256bb168b500800000000000000
+      internalID: 412186823388032227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_133
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 139
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca897068a102c280800000000000000
+      internalID: -9024648880612341045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_134
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 146
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e6fbc602e953820800000000000000
+      internalID: 2897395797383409282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_135
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 141
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75b38b1d05e25c20800000000000000
+      internalID: 3193866930218055038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_136
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 141
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40278569cc4995940800000000000000
+      internalID: 5285419244112605700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_137
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 139
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c975d99ac04d89f40800000000000000
+      internalID: 5735567276306683804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_138
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 142
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83b96cbc5b568960800000000000000
+      internalID: 7603865474717823886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_139
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 136
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafd85a32e3d62330800000000000000
+      internalID: 3685866313644302253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_140
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 134
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0196a9fc596e55550800000000000000
+      internalID: 6149074397351799056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_141
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 137
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d7852f2558c7600800000000000000
+      internalID: 467395052639387034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_142
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 134
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaab0c8e128a5f600800000000000000
+      internalID: 501491797114010286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_143
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 135
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66de4a5ab0aea6c50800000000000000
+      internalID: 6659392334765288806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_144
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 137
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d6700313fe58350800000000000000
+      internalID: 6018479471588765034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_145
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 135
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b170c3579594b80800000000000000
+      internalID: -8410092469084546257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_146
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 139
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ca2d79564ac8d50800000000000000
+      internalID: 6740943498512608373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_147
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 137
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7e6784774af2b40800000000000000
+      internalID: 5417729708973811649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_148
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2
+        width: 75
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a333531864389f0800000000000000
+      internalID: -467452415559124363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_149
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 129
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf215c0b189b4470800000000000000
+      internalID: 8379958773591125982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_150
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 131
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61706cf8763b8cb30800000000000000
+      internalID: 4307890300955002646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_151
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 127
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a2658851a59bad0800000000000000
+      internalID: -2686016654221628811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_152
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 127
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0badbdf37546500800000000000000
+      internalID: 388531399643803842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_153
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 129
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21de17603e535ed0800000000000000
+      internalID: -2426492212241051350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_154
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 131
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5daf2c024bbf9dd0800000000000000
+      internalID: -2477055377683796642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_155
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 124
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2ea80baef246690800000000000000
+      internalID: -7609904785318550879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_156
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 126
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9e0586d73c05b80800000000000000
+      internalID: -8408005560912254527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_157
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 129
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0f499e5afbb7080800000000000000
+      internalID: -9188539895410003784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_158
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 126
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a09d68708282fff0800000000000000
+      internalID: -3797161386078039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_159
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 130
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73afaa471ee65b3a0800000000000000
+      internalID: -6650287360138610121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_160
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 126
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38429b67405c0e4d0800000000000000
+      internalID: -3107267119923256189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_161
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 120
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2267d09604e8d8120800000000000000
+      internalID: 2417744982259365410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_162
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 124
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10029556517e4d0a0800000000000000
+      internalID: -6857602253497753599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_163
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 121
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7cdec178db96ac00800000000000000
+      internalID: 911587328513727614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_164
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 121
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd2d8c31f4fb9920800000000000000
+      internalID: 2998259293885378034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_165
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 123
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bca988aa0433590800000000000000
+      internalID: -7695736237065581804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_166
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 118
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8edd02a04957db810800000000000000
+      internalID: 1782710306194120168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_167
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 124
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4139dbfff0f346770800000000000000
+      internalID: 8603070526132163348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pop_168
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 117
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c35a7518dcfe52b0800000000000000
+      internalID: -5593755682144103486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      party-pop_0: 5233235608358479129
+      party-pop_1: -4096282796197079359
+      party-pop_10: 7360239906164154923
+      party-pop_100: -9107762930082418142
+      party-pop_101: -2044702122172993365
+      party-pop_102: 7923517636020413294
+      party-pop_103: -5547492485822242416
+      party-pop_104: -3342674270385880189
+      party-pop_105: 741158668549190787
+      party-pop_106: -4970950350290906868
+      party-pop_107: -7835363222974342590
+      party-pop_108: -8021285058868692790
+      party-pop_109: -1329769122466859950
+      party-pop_11: -3199516359687150132
+      party-pop_110: 4300986239804094611
+      party-pop_111: 2321718772267901219
+      party-pop_112: -7545900120162352502
+      party-pop_113: -2707209610674752943
+      party-pop_114: 5857375074963806088
+      party-pop_115: 8233952777327069507
+      party-pop_116: 5517474177893041289
+      party-pop_117: 7785727868584128952
+      party-pop_118: 6531057774728628140
+      party-pop_119: -8103394120696109532
+      party-pop_12: 5324359480860854295
+      party-pop_120: -7386145467346186547
+      party-pop_121: 8232644537855953645
+      party-pop_122: 442214993969695434
+      party-pop_123: 8336198886617437145
+      party-pop_124: -8744564578686428444
+      party-pop_125: -2332077253241704829
+      party-pop_126: 7056734627426937510
+      party-pop_127: 3628540393078316557
+      party-pop_128: 7386963034229374896
+      party-pop_129: -8556604112658306715
+      party-pop_13: -6987718007267616472
+      party-pop_130: 878079945874147131
+      party-pop_131: -2838000569803148381
+      party-pop_132: 412186823388032227
+      party-pop_133: -9024648880612341045
+      party-pop_134: 2897395797383409282
+      party-pop_135: 3193866930218055038
+      party-pop_136: 5285419244112605700
+      party-pop_137: 5735567276306683804
+      party-pop_138: 7603865474717823886
+      party-pop_139: 3685866313644302253
+      party-pop_14: 5293972421489876206
+      party-pop_140: 6149074397351799056
+      party-pop_141: 467395052639387034
+      party-pop_142: 501491797114010286
+      party-pop_143: 6659392334765288806
+      party-pop_144: 6018479471588765034
+      party-pop_145: -8410092469084546257
+      party-pop_146: 6740943498512608373
+      party-pop_147: 5417729708973811649
+      party-pop_148: -467452415559124363
+      party-pop_149: 8379958773591125982
+      party-pop_15: -4059603388492008660
+      party-pop_150: 4307890300955002646
+      party-pop_151: -2686016654221628811
+      party-pop_152: 388531399643803842
+      party-pop_153: -2426492212241051350
+      party-pop_154: -2477055377683796642
+      party-pop_155: -7609904785318550879
+      party-pop_156: -8408005560912254527
+      party-pop_157: -9188539895410003784
+      party-pop_158: -3797161386078039
+      party-pop_159: -6650287360138610121
+      party-pop_16: 1132938356487483324
+      party-pop_160: -3107267119923256189
+      party-pop_161: 2417744982259365410
+      party-pop_162: -6857602253497753599
+      party-pop_163: 911587328513727614
+      party-pop_164: 2998259293885378034
+      party-pop_165: -7695736237065581804
+      party-pop_166: 1782710306194120168
+      party-pop_167: 8603070526132163348
+      party-pop_168: -5593755682144103486
+      party-pop_17: -3982445766039880042
+      party-pop_18: -8467656761743829466
+      party-pop_19: 7130535029012702232
+      party-pop_2: 5101751511317769458
+      party-pop_20: -6805836246265604584
+      party-pop_21: 5516732765709798619
+      party-pop_22: -1298729787269377289
+      party-pop_23: -63125960630696003
+      party-pop_24: -216807184131448728
+      party-pop_25: 7263870052503285667
+      party-pop_26: 8453794724335326711
+      party-pop_27: 7158622110178020482
+      party-pop_28: 3121049782820206995
+      party-pop_29: -1653623517679194128
+      party-pop_3: -5799903411176091106
+      party-pop_30: -4621679814147777920
+      party-pop_31: -425895261117311127
+      party-pop_32: 3514159698832223674
+      party-pop_33: 1238700105292003704
+      party-pop_34: 5633600271467398189
+      party-pop_35: 5383144428355648597
+      party-pop_36: 5477062617345104351
+      party-pop_37: 2474308734772087931
+      party-pop_38: -4363379656678266690
+      party-pop_39: -7066839644625115832
+      party-pop_4: -8246019107291417351
+      party-pop_40: -6687283884095748459
+      party-pop_41: 6661568143390480746
+      party-pop_42: -2811623432233171528
+      party-pop_43: -8407885619761789221
+      party-pop_44: -8156908659617249667
+      party-pop_45: 3376219856974823295
+      party-pop_46: 5464181247878097291
+      party-pop_47: -4527114522450522969
+      party-pop_48: -4117042573926474431
+      party-pop_49: -7979356572136206933
+      party-pop_5: 12661392695596258
+      party-pop_50: 5047284995375555080
+      party-pop_51: -3218673412273351296
+      party-pop_52: 8445761577278551150
+      party-pop_53: 1974319859447351036
+      party-pop_54: 9029924282865502876
+      party-pop_55: 8841240605424593207
+      party-pop_56: 7832524750695861161
+      party-pop_57: -8783316352293498587
+      party-pop_58: 1173029604665420738
+      party-pop_59: -3643527399006387303
+      party-pop_6: -82055542876737007
+      party-pop_60: -7883315965079384007
+      party-pop_61: 890762913288109661
+      party-pop_62: -4353148831890182205
+      party-pop_63: -1217838711183739044
+      party-pop_64: 4891896500675774047
+      party-pop_65: 4444517307625696167
+      party-pop_66: -3574688746331848315
+      party-pop_67: 2829539820026992253
+      party-pop_68: -2516071675841913406
+      party-pop_69: -2724897577598967586
+      party-pop_7: 5590403694254503153
+      party-pop_70: -1677312844702108714
+      party-pop_71: -8018238242807323769
+      party-pop_72: -283555276179421196
+      party-pop_73: 3579185081507035121
+      party-pop_74: -1089490684397646052
+      party-pop_75: -1425739242867529244
+      party-pop_76: -1816814712009436425
+      party-pop_77: 1009022059358240605
+      party-pop_78: -5359579626295871807
+      party-pop_79: -8208115229201406614
+      party-pop_8: 5172249007033842583
+      party-pop_80: 7365748354259926453
+      party-pop_81: -8048719804330812862
+      party-pop_82: -5517350721180669515
+      party-pop_83: -2929094696025100271
+      party-pop_84: 378092347567235028
+      party-pop_85: 2408727107765189524
+      party-pop_86: -6514739470864742097
+      party-pop_87: 8419856735121365910
+      party-pop_88: -5844165343118166234
+      party-pop_89: -4779657286494425011
+      party-pop_9: -1149996686963790255
+      party-pop_90: 893961620141461567
+      party-pop_91: -1549591273111710490
+      party-pop_92: 6777542222018599545
+      party-pop_93: 9077072489258098880
+      party-pop_94: -7727827975941946796
+      party-pop_95: 574548704381622101
+      party-pop_96: -8019631214365635251
+      party-pop_97: 4163931031532629100
+      party-pop_98: 1967714585347551483
+      party-pop_99: 5019059442242486394
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

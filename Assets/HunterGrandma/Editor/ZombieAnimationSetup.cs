@@ -11,9 +11,9 @@ namespace HunterGrandma.Editor
         internal static ZombieAnimationSet Configure()
         {
             if (!File.Exists(Root + "Infected/frame_01.png")) return null;
-            var variants = new ZombieAnimationVariant[3];
+            var variants = new ZombieAnimationVariant[5];
             int[] counts = { 4, 6, 6, 6, 6 };
-            for (int k = 0; k < variants.Length; k++)
+            for (int k = 0; k < 3; k++)
             {
                 var clips = new ZombieAnimationClip[5]; int frame = 1;
                 for (int a = 0; a < clips.Length; a++)
@@ -28,11 +28,32 @@ namespace HunterGrandma.Editor
                 }
                 variants[k] = new ZombieAnimationVariant { kind = (ZombieKind)k, clips = clips };
             }
+            for (int k = 3; k < variants.Length; k++)
+                variants[k] = PartySlimeSetup.Variant((ZombieKind)k, k == 3 ? "Z01" : "Z02");
             var asset = AssetDatabase.LoadAssetAtPath<ZombieAnimationSet>(AssetPath);
             if (asset == null) { asset = ScriptableObject.CreateInstance<ZombieAnimationSet>(); AssetDatabase.CreateAsset(asset, AssetPath); }
             string before = EditorJsonUtility.ToJson(asset); asset.SetVariants(variants);
+            asset.SetPartyPop(PartySlimeSetup.ImportPop());
             if (before != EditorJsonUtility.ToJson(asset)) { EditorUtility.SetDirty(asset); AssetDatabase.SaveAssetIfDirty(asset); }
+            BindPoolPrefab(asset);
             return asset;
+        }
+        private static void BindPoolPrefab(ZombieAnimationSet asset)
+        {
+            // Pool expansion instantiates the prefab, not the three scene overrides.
+            const string path = "Assets/HunterGrandma/Prefabs/Zombie.prefab";
+            var contents = PrefabUtility.LoadPrefabContents(path);
+            try
+            {
+                var actor = new SerializedObject(contents.GetComponent<ZombieActor>());
+                var reference = actor.FindProperty("animationSet");
+                if (reference.objectReferenceValue == asset) return;
+                reference.objectReferenceValue = asset; actor.ApplyModifiedPropertiesWithoutUndo();
+                var renderer = contents.GetComponent<SpriteRenderer>();
+                renderer.sprite = asset.Clip(ZombieKind.Infected, ZombieAction.Idle).frames[0]; renderer.flipX = true;
+                PrefabUtility.SaveAsPrefabAsset(contents, path);
+            }
+            finally { PrefabUtility.UnloadPrefabContents(contents); }
         }
         private static Sprite Import(string path)
         {
