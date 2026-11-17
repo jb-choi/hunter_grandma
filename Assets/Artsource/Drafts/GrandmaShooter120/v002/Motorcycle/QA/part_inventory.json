@@ -1,0 +1,42 @@
+[
+  {
+    "layer": "BackArm",
+    "png_slots": 18,
+    "unique_pngs": 15
+  },
+  {
+    "layer": "Body",
+    "png_slots": 18,
+    "unique_pngs": 18
+  },
+  {
+    "layer": "FrontArm",
+    "png_slots": 18,
+    "unique_pngs": 18
+  },
+  {
+    "layer": "FrontWheel",
+    "png_slots": 18,
+    "unique_pngs": 6
+  },
+  {
+    "layer": "MotionFX",
+    "png_slots": 14,
+    "unique_pngs": 4
+  },
+  {
+    "layer": "Pickup",
+    "png_slots": 7,
+    "unique_pngs": 1
+  },
+  {
+    "layer": "RearWheel",
+    "png_slots": 18,
+    "unique_pngs": 6
+  },
+  {
+    "layer": "Vehicle",
+    "png_slots": 18,
+    "unique_pngs": 1
+  }
+]

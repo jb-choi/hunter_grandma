@@ -1,0 +1,178 @@
+[
+  {
+    "file": "Export\\Gifs\\sundeok_aim.gif",
+    "frames": 3,
+    "durations_ms": [
+      140,
+      140,
+      140
+    ],
+    "duration_match": true
+  },
+  {
+    "file": "Export\\Gifs\\sundeok_collect.gif",
+    "frames": 4,
+    "durations_ms": [
+      170,
+      170,
+      170,
+      170
+    ],
+    "duration_match": true
+  },
+  {
+    "file": "Export\\Gifs\\sundeok_fire.gif",
+    "frames": 4,
+    "durations_ms": [
+      100,
+      70,
+      110,
+      150
+    ],
+    "duration_match": true
+  },
+  {
+    "file": "Export\\Gifs\\sundeok_idle.gif",
+    "frames": 4,
+    "durations_ms": [
+      220,
+      220,
+      220,
+      220
+    ],
+    "duration_match": true
+  },
+  {
+    "file": "Export\\Gifs\\sundeok_reload.gif",
+    "frames": 6,
+    "durations_ms": [
+      150,
+      150,
+      150,
+      150,
+      150,
+      150
+    ],
+    "duration_match": true
+  },
+  {
+    "file": "Export\\Gifs\\sundeok_walk_aim_fire.gif",
+    "frames": 12,
+    "durations_ms": [
+      110,
+      110,
+      110,
+      110,
+      110,
+      110,
+      110,
+      110,
+      110,
+      110,
+      110,
+      110
+    ],
+    "duration_match": true
+  },
+  {
+    "file": "Export\\Gifs\\sundeok_walk.gif",
+    "frames": 6,
+    "durations_ms": [
+      110,
+      110,
+      110,
+      110,
+      110,
+      110
+    ],
+    "duration_match": true
+  },
+  {
+    "file": "Previews\\Aim_3x.gif",
+    "frames": 3,
+    "durations_ms": [
+      140,
+      140,
+      140
+    ],
+    "duration_match": true
+  },
+  {
+    "file": "Previews\\Collect_3x.gif",
+    "frames": 4,
+    "durations_ms": [
+      170,
+      170,
+      170,
+      170
+    ],
+    "duration_match": true
+  },
+  {
+    "file": "Previews\\Fire_3x.gif",
+    "frames": 4,
+    "durations_ms": [
+      100,
+      70,
+      110,
+      150
+    ],
+    "duration_match": true
+  },
+  {
+    "file": "Previews\\Idle_3x.gif",
+    "frames": 4,
+    "durations_ms": [
+      220,
+      220,
+      220,
+      220
+    ],
+    "duration_match": true
+  },
+  {
+    "file": "Previews\\Reload_3x.gif",
+    "frames": 6,
+    "durations_ms": [
+      150,
+      150,
+      150,
+      150,
+      150,
+      150
+    ],
+    "duration_match": true
+  },
+  {
+    "file": "Previews\\Walk_3x.gif",
+    "frames": 6,
+    "durations_ms": [
+      110,
+      110,
+      110,
+      110,
+      110,
+      110
+    ],
+    "duration_match": true
+  },
+  {
+    "file": "Previews\\Walk_Aim_Fire_3x.gif",
+    "frames": 12,
+    "durations_ms": [
+      110,
+      110,
+      110,
+      110,
+      110,
+      110,
+      110,
+      110,
+      110,
+      110,
+      110,
+      110
+    ],
+    "duration_match": true
+  }
+]

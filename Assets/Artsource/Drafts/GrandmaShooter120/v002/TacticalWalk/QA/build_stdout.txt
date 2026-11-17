@@ -1,0 +1,1 @@
+Built6 new tactical poses and33-frame candidate; original27 cels retained. Native tag ranges explicitly bounded.

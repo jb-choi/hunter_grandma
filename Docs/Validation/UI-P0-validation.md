@@ -1,8 +1,8 @@
 # UI P0 validation
 
-Unity 6000.3.10f1 · 2026-10-28 01:55 KST
+Unity 6000.3.10f1 · 2026-10-28 22:23 KST
 
-Status: PASS
+Status: FAIL
 
 Isolated profile: Library/UI-P0-validation.json. Synthetic funds and one synthetic kill are used only in this UI test profile; the ordinary player save is never reset.
 
@@ -16,6 +16,25 @@ Isolated profile: Library/UI-P0-validation.json. Synthetic funds and one synthet
 - PASS: Capture restores Canvas state: hunt
 - PASS: Capture restores Canvas state: hunt-small
 - PASS: U opens upgrades without changing the existing pause state
+- PASS: Upgrade entry opens the roster connection view before the detail controls
+- PASS: Connection roster contains the five grandma slots from the KRA
+- PASS: Unlocked Sundeok card uses her existing portrait sprite
+- PASS: Unreleased grandma slot 1 stays locked without new unlock rules
+- PASS: Unreleased grandma slot 2 stays locked without new unlock rules
+- PASS: Unreleased grandma slot 3 stays locked without new unlock rules
+- PASS: Unreleased grandma slot 4 stays locked without new unlock rules
+- PASS: Capture restores Canvas state: upgrade-roster
+- PASS: Capture restores Canvas state: upgrade-roster-4x3
+- PASS: Capture restores Canvas state: upgrade-roster-small
+- PASS: Pointer wheel events scroll the clipped five-card roster
+- PASS: Capture restores Canvas state: upgrade-roster-locked
+- PASS: Sundeok arrow receives pointer raycasts above the modal curtain
+- PASS: Interactable UI: Open Sundeok upgrades
+- PASS: Sundeok arrow connects to the actual existing shotgun upgrades
+- PASS: Interactable UI: Back to upgrade roster
+- PASS: Detail back action returns to the connection view without changing pause
+- PASS: Interactable UI: Open Sundeok upgrades
+- PASS: Opening details and returning to the roster never spends currency
 - PASS: Insufficient currency disables both purchase buttons
 - PASS: Insufficient state has a text explanation
 - PASS: Both upgrade images carry temporary identifiers
@@ -41,6 +60,7 @@ Isolated profile: Library/UI-P0-validation.json. Synthetic funds and one synthet
 - PASS: Interactable UI: Close upgrades
 - PASS: Repeated opening does not leave hidden blocking UI
 - PASS: Interactable UI: Upgrade panel toggle
+- PASS: Interactable UI: Open Sundeok upgrades
 - PASS: Interactable UI: Attack upgrade
 - PASS: Attack button spends exactly its displayed cost and applies the previewed damage
 - PASS: Interactable UI: Fire rate upgrade
@@ -58,6 +78,7 @@ Isolated profile: Library/UI-P0-validation.json. Synthetic funds and one synthet
 - PASS: Resource flights return to their fixed-size pool after arrival
 - PASS: Flight arrival does not grant currency again
 - PASS: Interactable UI: Upgrade panel toggle
+- PASS: Connection window preserves running combat rather than taking ownership of pause
 - PASS: M replaces upgrades with the modal map and pauses running combat
 - PASS: Interactable UI: Region 0
 - PASS: Locked district travel remains disabled
@@ -65,15 +86,6 @@ Isolated profile: Library/UI-P0-validation.json. Synthetic funds and one synthet
 - PASS: Capture restores Canvas state: map
 - PASS: Capture restores Canvas state: map-4x3
 - PASS: Capture restores Canvas state: map-small
-- PASS: Live Game View modal reviewed separately from camera-mode captures
-- PASS: Escape closes the map and restores running combat (map=False, paused=False, keyboard=UI validation keyboard, frames=2, escape=False, pressed=False, mode=ProcessEventsInDynamicUpdate, editorPause=False, focused=False, hud=True)
-- PASS: Interactable UI: Upgrade panel toggle
-- PASS: Both maximum upgrade buttons are disabled
-- PASS: Maximum state uses an explicit label
-- PASS: Preview remains at the maximum rather than promising an unavailable upgrade
-- PASS: Capture restores Canvas state: upgrades-max
-- PASS: Interactable UI: Close upgrades
-- PASS: UI purchases remain valid after isolated-profile disk reload
-- PASS: Upgrade entry is visibly disabled after the run ends
-- PASS: Ended runs cannot reopen the upgrade panel through its keyboard action
-- PASS: No runtime errors, exceptions or assertions in the UI suite
+
+Failure: UI validation timeout at step 6
+  at HunterGrandma.Editor.GrandmaUiValidation.Tick () [0x0023f] in E:\unity_project\project10_hunter_grandma\Hunter_grandma\Assets\HunterGrandma\Editor\GrandmaUiValidation.cs:103 

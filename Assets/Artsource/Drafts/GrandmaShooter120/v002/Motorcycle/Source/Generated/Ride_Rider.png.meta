@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: 9d9dfe35ac3037b4bb37508419315a4a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5336921808893208768
+    second: Ride_Rider_0
+  - first:
+      213: 3188487517366127672
+    second: Ride_Rider_1
+  - first:
+      213: 2483597714371759603
+    second: Ride_Rider_2
+  - first:
+      213: -2402479968419681032
+    second: Ride_Rider_3
+  - first:
+      213: 3478174717555248316
+    second: Ride_Rider_4
+  - first:
+      213: 1157002192486266023
+    second: Ride_Rider_5
+  - first:
+      213: 1541581263919571516
+    second: Ride_Rider_6
+  - first:
+      213: -8683985205069078812
+    second: Ride_Rider_7
+  - first:
+      213: 6078435936141154635
+    second: Ride_Rider_8
+  - first:
+      213: -6264133001329747103
+    second: Ride_Rider_9
+  - first:
+      213: -105914338569113267
+    second: Ride_Rider_10
+  - first:
+      213: 5153593677545821709
+    second: Ride_Rider_11
+  - first:
+      213: 4496123046263941193
+    second: Ride_Rider_12
+  - first:
+      213: -8317262531580354709
+    second: Ride_Rider_13
+  - first:
+      213: 8110038394765137884
+    second: Ride_Rider_14
+  - first:
+      213: -6530487640872337212
+    second: Ride_Rider_15
+  - first:
+      213: -3710084445523906487
+    second: Ride_Rider_16
+  - first:
+      213: 8923167201215294452
+    second: Ride_Rider_17
+  - first:
+      213: 8419554125773606434
+    second: Ride_Rider_18
+  - first:
+      213: -4379545160995843109
+    second: Ride_Rider_19
+  - first:
+      213: 239884354256236322
+    second: Ride_Rider_20
+  - first:
+      213: 7062229467043464374
+    second: Ride_Rider_21
+  - first:
+      213: 6012303161763679849
+    second: Ride_Rider_22
+  - first:
+      213: -3438595585188815677
+    second: Ride_Rider_23
+  - first:
+      213: 877089969590265087
+    second: Ride_Rider_24
+  - first:
+      213: -3527185330179756441
+    second: Ride_Rider_25
+  - first:
+      213: -2374085103192554507
+    second: Ride_Rider_26
+  - first:
+      213: 2732481564856534389
+    second: Ride_Rider_27
+  - first:
+      213: 279496196484523539
+    second: Ride_Rider_28
+  - first:
+      213: -6306130403588551947
+    second: Ride_Rider_29
+  - first:
+      213: 3700663366423386080
+    second: Ride_Rider_30
+  - first:
+      213: -6524832659386576881
+    second: Ride_Rider_31
+  - first:
+      213: -8738416440321479186
+    second: Ride_Rider_32
+  - first:
+      213: 5440148571900979834
+    second: Ride_Rider_33
+  - first:
+      213: -3228131063163452755
+    second: Ride_Rider_34
+  - first:
+      213: -5979995049120515379
+    second: Ride_Rider_35
+  - first:
+      213: 4138990193365766210
+    second: Ride_Rider_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ride_Rider_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 451
+        width: 523
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04792ea14e17fe5b0800000000000000
+      internalID: -5336921808893208768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 968
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c0063f088cf3c20800000000000000
+      internalID: 3188487517366127672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_2
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 449
+        width: 521
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fdc91a66f2877220800000000000000
+      internalID: 2483597714371759603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_3
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 961
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc6a56923da8aed0800000000000000
+      internalID: -2402479968419681032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_4
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 462
+        width: 498
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc00aa3a75f44030800000000000000
+      internalID: 3478174717555248316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_5
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 975
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4fd7f2d5f7e0010800000000000000
+      internalID: 1157002192486266023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 589
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32e25cedfbc46510800000000000000
+      internalID: 1541581263919571516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_7
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 542
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee1c1937794c7780800000000000000
+      internalID: -8683985205069078812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_8
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 526
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4999ab6741fa5450800000000000000
+      internalID: 6078435936141154635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_9
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 517
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b50fd59345119a0800000000000000
+      internalID: -6264133001329747103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_10
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 509
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41b7f06877b78ef0800000000000000
+      internalID: -105914338569113267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_11
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 495
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0651d2152e358740800000000000000
+      internalID: 5153593677545821709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_12
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 478
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948620fc610756e30800000000000000
+      internalID: 4496123046263941193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_13
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 475
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f9c755bc5239c80800000000000000
+      internalID: -8317262531580354709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_14
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 460
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd751c283f4ac8070800000000000000
+      internalID: 8110038394765137884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_15
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 460
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0c9b3371c0f55a0800000000000000
+      internalID: -6530487640872337212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_16
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 479
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94078d98ad1238cc0800000000000000
+      internalID: -3710084445523906487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_17
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 465
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbaad3ea4575db70800000000000000
+      internalID: 8923167201215294452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_18
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 465
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e09e16ed348d470800000000000000
+      internalID: 8419554125773606434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_19
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 463
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3df0141eab833c0800000000000000
+      internalID: -4379545160995843109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_20
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 465
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fed9a9c8d345300800000000000000
+      internalID: 239884354256236322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_21
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 457
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b40c617844120260800000000000000
+      internalID: 7062229467043464374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_22
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 465
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ec1eefeddff6350800000000000000
+      internalID: 6012303161763679849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_23
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 463
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc1892a887a740d0800000000000000
+      internalID: -3438595585188815677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 531
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff46c792eac0c2c00800000000000000
+      internalID: 877089969590265087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_25
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 0
+        width: 489
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76eaaa941abec0fc0800000000000000
+      internalID: -3527185330179756441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_26
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 285
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f349a55d2e8d0fd0800000000000000
+      internalID: -2374085103192554507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_27
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 0
+        width: 475
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575c3948189bbe520800000000000000
+      internalID: 2732481564856534389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_28
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 261
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31668835f48f0e300800000000000000
+      internalID: 279496196484523539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_29
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 221
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa40da2fcf1c78a0800000000000000
+      internalID: -6306130403588551947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_30
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 223
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e797fc89b56b5330800000000000000
+      internalID: 3700663366423386080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_31
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 184
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00556e24432375a0800000000000000
+      internalID: -6524832659386576881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_32
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 197
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed643fab88eab680800000000000000
+      internalID: -8738416440321479186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_33
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 199
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7aa1819d4a4f7b40800000000000000
+      internalID: 5440148571900979834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_34
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 191
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da20db3c6ef5333d0800000000000000
+      internalID: -3228131063163452755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_35
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 163
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcab39aaf2ac20da0800000000000000
+      internalID: -5979995049120515379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ride_Rider_36
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 161
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240546cc6a5a07930800000000000000
+      internalID: 4138990193365766210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ride_Rider_0: -5336921808893208768
+      Ride_Rider_1: 3188487517366127672
+      Ride_Rider_10: -105914338569113267
+      Ride_Rider_11: 5153593677545821709
+      Ride_Rider_12: 4496123046263941193
+      Ride_Rider_13: -8317262531580354709
+      Ride_Rider_14: 8110038394765137884
+      Ride_Rider_15: -6530487640872337212
+      Ride_Rider_16: -3710084445523906487
+      Ride_Rider_17: 8923167201215294452
+      Ride_Rider_18: 8419554125773606434
+      Ride_Rider_19: -4379545160995843109
+      Ride_Rider_2: 2483597714371759603
+      Ride_Rider_20: 239884354256236322
+      Ride_Rider_21: 7062229467043464374
+      Ride_Rider_22: 6012303161763679849
+      Ride_Rider_23: -3438595585188815677
+      Ride_Rider_24: 877089969590265087
+      Ride_Rider_25: -3527185330179756441
+      Ride_Rider_26: -2374085103192554507
+      Ride_Rider_27: 2732481564856534389
+      Ride_Rider_28: 279496196484523539
+      Ride_Rider_29: -6306130403588551947
+      Ride_Rider_3: -2402479968419681032
+      Ride_Rider_30: 3700663366423386080
+      Ride_Rider_31: -6524832659386576881
+      Ride_Rider_32: -8738416440321479186
+      Ride_Rider_33: 5440148571900979834
+      Ride_Rider_34: -3228131063163452755
+      Ride_Rider_35: -5979995049120515379
+      Ride_Rider_36: 4138990193365766210
+      Ride_Rider_4: 3478174717555248316
+      Ride_Rider_5: 1157002192486266023
+      Ride_Rider_6: 1541581263919571516
+      Ride_Rider_7: -8683985205069078812
+      Ride_Rider_8: 6078435936141154635
+      Ride_Rider_9: -6264133001329747103
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

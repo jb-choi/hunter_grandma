@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-29",
+  "character": "01 Sundeok",
+  "version": "v002",
+  "base_version": "v001",
+  "canvas_px": [
+    120,
+    120
+  ],
+  "palette_opaque_rgb_union": 26,
+  "alpha_values": [
+    0,
+    255
+  ],
+  "master": "grandma_01_sundeok_120.aseprite",
+  "layer_order": [
+    "Body",
+    "BackArm",
+    "Weapon",
+    "FrontArm",
+    "Ammo",
+    "Pickup",
+    "FX"
+  ],
+  "actions": [
+    {
+      "name": "Idle",
+      "frames": 4,
+      "durations_ms": [
+        220,
+        220,
+        220,
+        220
+      ],
+      "native": "Clips/sundeok_idle.aseprite",
+      "sheet": "Export/Sheets/sundeok_idle.png",
+      "gif": "Export/Gifs/sundeok_idle.gif",
+      "preview_gif": "Previews/Idle_3x.gif"
+    },
+    {
+      "name": "walk_v1_normal",
+      "frames": 6,
+      "durations_ms": [
+        110,
+        110,
+        110,
+        110,
+        110,
+        110
+      ],
+      "native": "Clips/sundeok_walk_v1_normal.aseprite",
+      "sheet": "Export/Sheets/sundeok_walk.png",
+      "gif": "Export/Gifs/sundeok_walk.gif",
+      "preview_gif": "Previews/Walk_3x.gif"
+    },
+    {
+      "name": "Reload",
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "native": "Clips/sundeok_reload.aseprite",
+      "sheet": "Export/Sheets/sundeok_reload.png",
+      "gif": "Export/Gifs/sundeok_reload.gif",
+      "preview_gif": "Previews/Reload_3x.gif"
+    },
+    {
+      "name": "Aim",
+      "frames": 3,
+      "durations_ms": [
+        140,
+        140,
+        140
+      ],
+      "native": "Clips/sundeok_aim.aseprite",
+      "sheet": "Export/Sheets/sundeok_aim.png",
+      "gif": "Export/Gifs/sundeok_aim.gif",
+      "preview_gif": "Previews/Aim_3x.gif"
+    },
+    {
+      "name": "Fire",
+      "frames": 4,
+      "durations_ms": [
+        100,
+        70,
+        110,
+        150
+      ],
+      "native": "Clips/sundeok_fire.aseprite",
+      "sheet": "Export/Sheets/sundeok_fire.png",
+      "gif": "Export/Gifs/sundeok_fire.gif",
+      "preview_gif": "Previews/Fire_3x.gif"
+    },
+    {
+      "name": "Collect",
+      "frames": 4,
+      "durations_ms": [
+        170,
+        170,
+        170,
+        170
+      ],
+      "native": "Clips/sundeok_collect.aseprite",
+      "sheet": "Export/Sheets/sundeok_collect.png",
+      "gif": "Export/Gifs/sundeok_collect.gif",
+      "preview_gif": "Previews/Collect_3x.gif"
+    },
+    {
+      "frames": 6,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "name": "walk_v2_tactical",
+      "native": "Clips/sundeok_walk_v2_tactical.aseprite",
+      "sheet": "TacticalWalk/Export/Sheets/sundeok_walk_v2_tactical.png",
+      "preview_gif": "TacticalWalk/Previews/walk_v2_tactical_3x.gif",
+      "gif": "TacticalWalk/Export/sundeok_walk_v2_tactical.gif"
+    }
+  ],
+  "total_action_frames": 33,
+  "cropped_part_png_slots": 140,
+  "part_metadata": "Export/sundeok_parts.json",
+  "part_inventory": "QA/part_inventory.json",
+  "independent_part_libraries": 7,
+  "part_library_frame_slots": 231,
+  "shotgun": {
+    "canvas_px": [
+      78,
+      17
+    ],
+    "native": "Weapons/Shotgun/sundeok_shotgun.aseprite",
+    "png": "Weapons/Shotgun/sundeok_shotgun.png",
+    "unchanged_from_base": true
+  },
+  "ui": [
+    "UI/sundeok_portrait.aseprite",
+    "UI/sundeok_portrait_locked.aseprite"
+  ],
+  "walk_aim_fire_demo": {
+    "frames": 12,
+    "native": "sundeok_walk_aim_fire_demo.aseprite",
+    "preview": "Previews/Walk_Aim_Fire_3x.gif"
+  },
+  "generation": {
+    "tool": "Built-in ImageGen",
+    "calls": 13,
+    "prompts": "Source/generation_prompts.json",
+    "native_processing": "Aseprite Lua: nearest sampling, shared palette mapping, pose registration, independent arm/weapon assembly and occlusion repaint"
+  },
+  "validation": {
+    "native_visibility_states": 54,
+    "png_composite_difference": 0,
+    "part_reassembly_difference": 0,
+    "library_master_difference": 0,
+    "base_files_preserved": 5
+  },
+  "unity_runtime_connected": true,
+  "tactical_part_metadata": "TacticalWalk/Export/parts.json",
+  "tactical_validation": "TacticalWalk/QA/validation.json",
+  "tactical_generation_prompts": "TacticalWalk/Source/generation_prompts.json",
+  "runtime_walk_version": "walk_v1_normal",
+  "runtime_connected_frame_count": 27,
+  "tactical_runtime_connected": false
+}

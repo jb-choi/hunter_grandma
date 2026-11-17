@@ -1,0 +1,111 @@
+{
+  "alpha": [
+    0,
+    255
+  ],
+  "native_master_count": 3,
+  "gif_qa": "QA/gif_validation.json",
+  "material_form": "slime material, human zombie anatomy",
+  "native_libraries": 9,
+  "max_opaque_rgb_per_character": 26,
+  "human_face_coating": "one facial half including one eye/cheek covered; other half exposed",
+  "notion_page": "https://app.notion.com/p/4047313398e0818db924d95c5c455419",
+  "native_library_frame_slots": 252,
+  "previous_art_preserved": "../Monsters",
+  "notion_section": "2.3 슬라임 좀비·구조 대상 120px 캐릭터 디자인",
+  "root_pivot_left": [
+    68,
+    118
+  ],
+  "characters": [
+    {
+      "frames": 28,
+      "ending": "dissolved_slime_puddle",
+      "master": "zombie_01_normal_120.aseprite",
+      "previews_folder": "z01_normal/Previews",
+      "folder": "z01_normal",
+      "id": "z01_normal",
+      "pose_metadata": "z01_normal/pose_metadata.json",
+      "rgb_union": 26,
+      "role": "hunt",
+      "parts_metadata": "z01_normal/Export/parts.json",
+      "name": "좀비1_일반좀비",
+      "sheets_folder": "z01_normal/Export/Sheets",
+      "body_without_slime": null,
+      "clips_folder": "z01_normal/Clips",
+      "clips": 5
+    },
+    {
+      "frames": 28,
+      "ending": "dissolved_slime_puddle",
+      "master": "zombie_02_large_120.aseprite",
+      "previews_folder": "z02_large/Previews",
+      "folder": "z02_large",
+      "id": "z02_large",
+      "pose_metadata": "z02_large/pose_metadata.json",
+      "rgb_union": 26,
+      "role": "hunt",
+      "parts_metadata": "z02_large/Export/parts.json",
+      "name": "좀비2_큰좀비",
+      "sheets_folder": "z02_large/Export/Sheets",
+      "body_without_slime": null,
+      "clips_folder": "z02_large/Clips",
+      "clips": 5
+    },
+    {
+      "frames": 28,
+      "ending": "shot_hit_fall_prone_partial_slime_peel",
+      "master": "zombie_03_rescue_human_120.aseprite",
+      "previews_folder": "z03_human/Previews",
+      "folder": "z03_human",
+      "id": "z03_human",
+      "pose_metadata": "z03_human/pose_metadata.json",
+      "rgb_union": 26,
+      "role": "rescue",
+      "parts_metadata": "z03_human/Export/parts.json",
+      "name": "슬라임을 뒤집어쓴 일반 사람",
+      "sheets_folder": "z03_human/Export/Sheets",
+      "body_without_slime": "z03_human/human_without_slime_120.aseprite",
+      "clips_folder": "z03_human/Clips",
+      "clips": 5
+    }
+  ],
+  "root_pivot_right": [
+    52,
+    118
+  ],
+  "native_action_clips": 15,
+  "human_coating_revision": "Connected full-body cyan coating with one half-face covered; Dead retains most coating while lying down with a small peeled shoulder/chest patch",
+  "qa": "QA/validation.json",
+  "gifs": 31,
+  "version": "v002",
+  "animation_poses": 84,
+  "date": "2026-10-30",
+  "human_dead_revision": "shot_hit_fall_prone_partial_slime_peel",
+  "actions": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Attack",
+    "Dead"
+  ],
+  "cropped_part_png_slots": 176,
+  "source_generation": {
+    "calls": 9,
+    "derived_action_sheets": 20,
+    "prompts": "Source/generation_prompts.json",
+    "method": "Built-in ImageGen cute lineup, action boards and restored human board; Aseprite cell extraction, native nearest sampling, palette limiting and material/body separation",
+    "delivered_poses_per_actor": 28,
+    "unused_idle_cells_per_actor": 2,
+    "atlas_grid": [
+      6,
+      5
+    ]
+  },
+  "unity_runtime_connected": false,
+  "canvas": [
+    120,
+    120
+  ],
+  "art_direction": "Cute chibi human forms; rounded faces and soft limbs; pastel slime material"
+}

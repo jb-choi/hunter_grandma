@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: 0d152bb651f8c6540b4c68f632e0c80a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3501278298600405577
+    second: sundeok_redesign_body_0
+  - first:
+      213: -6391652808880358776
+    second: sundeok_redesign_body_1
+  - first:
+      213: -3596439812921146931
+    second: sundeok_redesign_body_2
+  - first:
+      213: 2614101051327344820
+    second: sundeok_redesign_body_3
+  - first:
+      213: 6657737430390404136
+    second: sundeok_redesign_body_4
+  - first:
+      213: -6783919672965171455
+    second: sundeok_redesign_body_5
+  - first:
+      213: -706704178769335041
+    second: sundeok_redesign_body_6
+  - first:
+      213: 3233403713515174270
+    second: sundeok_redesign_body_7
+  - first:
+      213: -423813181987077428
+    second: sundeok_redesign_body_8
+  - first:
+      213: 5642745073006611267
+    second: sundeok_redesign_body_9
+  - first:
+      213: -6044438434989907771
+    second: sundeok_redesign_body_10
+  - first:
+      213: 9096800224818418086
+    second: sundeok_redesign_body_11
+  - first:
+      213: 3441157270367589669
+    second: sundeok_redesign_body_12
+  - first:
+      213: 4424080571198159823
+    second: sundeok_redesign_body_13
+  - first:
+      213: 5296474238351689786
+    second: sundeok_redesign_body_14
+  - first:
+      213: -1026695013459332588
+    second: sundeok_redesign_body_15
+  - first:
+      213: -8845736621343133533
+    second: sundeok_redesign_body_16
+  - first:
+      213: 7901290968702620707
+    second: sundeok_redesign_body_17
+  - first:
+      213: -7307223781021137597
+    second: sundeok_redesign_body_18
+  - first:
+      213: -7261249555843293003
+    second: sundeok_redesign_body_19
+  - first:
+      213: -3907463639559307071
+    second: sundeok_redesign_body_20
+  - first:
+      213: 2263413659878097107
+    second: sundeok_redesign_body_21
+  - first:
+      213: 531823781211590057
+    second: sundeok_redesign_body_22
+  - first:
+      213: 3297095293163478984
+    second: sundeok_redesign_body_23
+  - first:
+      213: -955042335911629885
+    second: sundeok_redesign_body_24
+  - first:
+      213: 836692284765613133
+    second: sundeok_redesign_body_25
+  - first:
+      213: -1010300168951594646
+    second: sundeok_redesign_body_26
+  - first:
+      213: 2892684145526723859
+    second: sundeok_redesign_body_27
+  - first:
+      213: 7160085262141060063
+    second: sundeok_redesign_body_28
+  - first:
+      213: -2664639731671594454
+    second: sundeok_redesign_body_29
+  - first:
+      213: -2833708072957558705
+    second: sundeok_redesign_body_30
+  - first:
+      213: 4530196815206393010
+    second: sundeok_redesign_body_31
+  - first:
+      213: 5362665295119211337
+    second: sundeok_redesign_body_32
+  - first:
+      213: -3172631384806893289
+    second: sundeok_redesign_body_33
+  - first:
+      213: -8999410171487445122
+    second: sundeok_redesign_body_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sundeok_redesign_body_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1062
+        height: 1226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a7cdfdf0a079030800000000000000
+      internalID: 3501278298600405577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_1
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1188
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88afe0f72a94c47a0800000000000000
+      internalID: -6391652808880358776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_2
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 570
+        width: 188
+        height: 631
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc143ce7b01e61ec0800000000000000
+      internalID: -3596439812921146931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_3
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1066
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0775b5e07274420800000000000000
+      internalID: 2614101051327344820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1063
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824fd323be8056c50800000000000000
+      internalID: 6657737430390404136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1031
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107702c000daad1a0800000000000000
+      internalID: -6783919672965171455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1028
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc6b2f2b484136f0800000000000000
+      internalID: -706704178769335041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_7
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1026
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79308fcb8b5fdc20800000000000000
+      internalID: 3233403713515174270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_8
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1016
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2488c08205e1af0800000000000000
+      internalID: -423813181987077428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_9
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1028
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b05a25fbe0f4e40800000000000000
+      internalID: 5642745073006611267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_10
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 964
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c065b7a447dd1ca0800000000000000
+      internalID: -6044438434989907771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_11
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 905
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1def88b935e3e70800000000000000
+      internalID: 9096800224818418086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_12
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 939
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525538c2e4271cf20800000000000000
+      internalID: 3441157270367589669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_13
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 795
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb39f7f6dd756d30800000000000000
+      internalID: 4424080571198159823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_14
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 570
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38c5f2024bd08940800000000000000
+      internalID: 5296474238351689786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 521
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412771e235270c1f0800000000000000
+      internalID: -1026695013459332588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_16
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 524
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0bd2cd861ad3580800000000000000
+      internalID: -8845736621343133533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_17
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 298
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3249580f54607ad60800000000000000
+      internalID: 7901290968702620707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 282
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345c2fdbfa6879a90800000000000000
+      internalID: -7307223781021137597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_19
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 497
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b06f7e200cda3b90800000000000000
+      internalID: -7261249555843293003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_20
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 310
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0005fb586e5c9c0800000000000000
+      internalID: -3907463639559307071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_21
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 308
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d00dc84bb2496f10800000000000000
+      internalID: 2263413659878097107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_22
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 377
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9adc83a49ea616700800000000000000
+      internalID: 531823781211590057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_23
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 238
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf1f9b43b2a1cd20800000000000000
+      internalID: 3297095293163478984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_24
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 241
+        width: 148
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb27863e020fb2f0800000000000000
+      internalID: -955042335911629885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_25
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 208
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ca3c333378c9b00800000000000000
+      internalID: 836692284765613133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_26
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 145
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a618f116951baf1f0800000000000000
+      internalID: -1010300168951594646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_27
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 87
+        width: 34
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315568d77e0e42820800000000000000
+      internalID: 2892684145526723859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_28
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 23
+        width: 74
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd37d633c9bbd5360800000000000000
+      internalID: 7160085262141060063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_29
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 62
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a825b284c450bd0800000000000000
+      internalID: -2664639731671594454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_30
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 63
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4045327585aca8d0800000000000000
+      internalID: -2833708072957558705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_31
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 47
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4abfc500e7ede30800000000000000
+      internalID: 4530196815206393010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_32
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 55
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b55ec5ca30c6a40800000000000000
+      internalID: 5362665295119211337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_33
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7195459909c88f3d0800000000000000
+      internalID: -3172631384806893289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_redesign_body_34
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f1474412cab1380800000000000000
+      internalID: -8999410171487445122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sundeok_redesign_body_0: 3501278298600405577
+      sundeok_redesign_body_1: -6391652808880358776
+      sundeok_redesign_body_10: -6044438434989907771
+      sundeok_redesign_body_11: 9096800224818418086
+      sundeok_redesign_body_12: 3441157270367589669
+      sundeok_redesign_body_13: 4424080571198159823
+      sundeok_redesign_body_14: 5296474238351689786
+      sundeok_redesign_body_15: -1026695013459332588
+      sundeok_redesign_body_16: -8845736621343133533
+      sundeok_redesign_body_17: 7901290968702620707
+      sundeok_redesign_body_18: -7307223781021137597
+      sundeok_redesign_body_19: -7261249555843293003
+      sundeok_redesign_body_2: -3596439812921146931
+      sundeok_redesign_body_20: -3907463639559307071
+      sundeok_redesign_body_21: 2263413659878097107
+      sundeok_redesign_body_22: 531823781211590057
+      sundeok_redesign_body_23: 3297095293163478984
+      sundeok_redesign_body_24: -955042335911629885
+      sundeok_redesign_body_25: 836692284765613133
+      sundeok_redesign_body_26: -1010300168951594646
+      sundeok_redesign_body_27: 2892684145526723859
+      sundeok_redesign_body_28: 7160085262141060063
+      sundeok_redesign_body_29: -2664639731671594454
+      sundeok_redesign_body_3: 2614101051327344820
+      sundeok_redesign_body_30: -2833708072957558705
+      sundeok_redesign_body_31: 4530196815206393010
+      sundeok_redesign_body_32: 5362665295119211337
+      sundeok_redesign_body_33: -3172631384806893289
+      sundeok_redesign_body_34: -8999410171487445122
+      sundeok_redesign_body_4: 6657737430390404136
+      sundeok_redesign_body_5: -6783919672965171455
+      sundeok_redesign_body_6: -706704178769335041
+      sundeok_redesign_body_7: 3233403713515174270
+      sundeok_redesign_body_8: -423813181987077428
+      sundeok_redesign_body_9: 5642745073006611267
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

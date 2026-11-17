@@ -1,0 +1,1 @@
+PASS:43frames/9tags; first27 unchanged;16 revised/new poses;26color binary alpha; independent shotgun;42 saved/reopened visibility states;301+112 library slots; cropped parts 68; footprint ratio 0.52731092436975

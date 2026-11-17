@@ -1,0 +1,22 @@
+[
+  {
+    "path": "grandma_01_sundeok_120.aseprite",
+    "sha256": "8574DF44ED8C86FA38172F4334C61FC54B19083F1DAE0F0E8673ABC4102AD4D5"
+  },
+  {
+    "path": "Scripts__build_sundeok.lua",
+    "sha256": "8C0844EABEB829A52698B44E05C9EF21CE2C7971960D1E574B288D04FA2C76DD"
+  },
+  {
+    "path": "Scripts__export_validate.lua",
+    "sha256": "4EADB0AB29A745F49D4A964BDBDE81007D40BA203B6D39677374ACFC003DEF0D"
+  },
+  {
+    "path": "Source__pose_metadata.json",
+    "sha256": "1DFDEF86B2EAAC579F4AA5F8041D2CE3D588021326E1CE6D480DBC8C2DC8C9F3"
+  },
+  {
+    "path": "sundeok_walk_aim_fire_demo.aseprite",
+    "sha256": "4869C8468A2E4C75B3032C466054F325300F7E05B0F99B04F07025EDC6878C09"
+  }
+]

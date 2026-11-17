@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: d8638cf196f660f4da914d6716456962
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5687032831948260000
+    second: z03_human_0
+  - first:
+      213: -4026095498764647963
+    second: z03_human_1
+  - first:
+      213: -6717205823335942314
+    second: z03_human_2
+  - first:
+      213: 1879111639521605486
+    second: z03_human_3
+  - first:
+      213: 4691808606989367876
+    second: z03_human_4
+  - first:
+      213: -236290886194808833
+    second: z03_human_5
+  - first:
+      213: 3124007983733495275
+    second: z03_human_6
+  - first:
+      213: 7155162177880943658
+    second: z03_human_7
+  - first:
+      213: 725570588541686936
+    second: z03_human_8
+  - first:
+      213: -9210550888338166079
+    second: z03_human_9
+  - first:
+      213: -986076272393729713
+    second: z03_human_10
+  - first:
+      213: -2525290678312669716
+    second: z03_human_11
+  - first:
+      213: 1713084585628526469
+    second: z03_human_12
+  - first:
+      213: -1385719647342799522
+    second: z03_human_13
+  - first:
+      213: 8466168980116978514
+    second: z03_human_14
+  - first:
+      213: 5444283341345845061
+    second: z03_human_15
+  - first:
+      213: -5071531604653758197
+    second: z03_human_16
+  - first:
+      213: -3640947325355831953
+    second: z03_human_17
+  - first:
+      213: -1206777336472232280
+    second: z03_human_18
+  - first:
+      213: -9214010800960626279
+    second: z03_human_19
+  - first:
+      213: 4188310234731124394
+    second: z03_human_20
+  - first:
+      213: 6224341295652356983
+    second: z03_human_21
+  - first:
+      213: -504562484625727944
+    second: z03_human_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: z03_human_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 664
+        width: 153
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d7db145c99311b0800000000000000
+      internalID: -5687032831948260000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 443
+        width: 190
+        height: 688
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1855c997f6028c0800000000000000
+      internalID: -4026095498764647963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_2
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 667
+        width: 153
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65730e894e0b7c2a0800000000000000
+      internalID: -6717205823335942314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_3
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 662
+        width: 161
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67bcf68412f31a10800000000000000
+      internalID: 1879111639521605486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_4
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 900
+        width: 144
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ab8bdd117ac1140800000000000000
+      internalID: 4691808606989367876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_5
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 900
+        width: 147
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff732b0e0b688bcf0800000000000000
+      internalID: -236290886194808833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_6
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 443
+        width: 192
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be55be1a5b4ba5b20800000000000000
+      internalID: 3124007983733495275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_7
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 670
+        width: 155
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c67e2571e3c4360800000000000000
+      internalID: 7155162177880943658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_8
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 667
+        width: 158
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8949f752b9eb11a00800000000000000
+      internalID: 725570588541686936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_9
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 443
+        width: 182
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cee1f244cc8d2080800000000000000
+      internalID: -9210550888338166079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_10
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 449
+        width: 197
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49c78ecad0c052f0800000000000000
+      internalID: -986076272393729713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_11
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 435
+        width: 195
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced6194f18d54fcd0800000000000000
+      internalID: -2525290678312669716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_12
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 440
+        width: 178
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587e594ba5916c710800000000000000
+      internalID: 1713084585628526469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_13
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 9
+        width: 143
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e555ad5925fe4cce0800000000000000
+      internalID: -1385719647342799522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_14
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 215
+        width: 178
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25bbd4ce4dfdd7570800000000000000
+      internalID: 8466168980116978514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_15
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 9
+        width: 148
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54fee799adafd8b40800000000000000
+      internalID: 5444283341345845061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_16
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 215
+        width: 259
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09227d20ec4e99b0800000000000000
+      internalID: -5071531604653758197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_17
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 211
+        width: 227
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6dc14ab2b1c87dc0800000000000000
+      internalID: -3640947325355831953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_18
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 14
+        width: 201
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae9490086aa04fe0800000000000000
+      internalID: -1206777336472232280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_19
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 211
+        width: 142
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99121249ef1412080800000000000000
+      internalID: -9214010800960626279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_20
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 13
+        width: 189
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa61846c7fddf1a30800000000000000
+      internalID: 4188310234731124394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_21
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 13
+        width: 200
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77347203e6d416650800000000000000
+      internalID: 6224341295652356983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_22
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 15
+        width: 184
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e15e0f71f6ff8f0800000000000000
+      internalID: -504562484625727944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      z03_human_0: -5687032831948260000
+      z03_human_1: -4026095498764647963
+      z03_human_10: -986076272393729713
+      z03_human_11: -2525290678312669716
+      z03_human_12: 1713084585628526469
+      z03_human_13: -1385719647342799522
+      z03_human_14: 8466168980116978514
+      z03_human_15: 5444283341345845061
+      z03_human_16: -5071531604653758197
+      z03_human_17: -3640947325355831953
+      z03_human_18: -1206777336472232280
+      z03_human_19: -9214010800960626279
+      z03_human_2: -6717205823335942314
+      z03_human_20: 4188310234731124394
+      z03_human_21: 6224341295652356983
+      z03_human_22: -504562484625727944
+      z03_human_3: 1879111639521605486
+      z03_human_4: 4691808606989367876
+      z03_human_5: -236290886194808833
+      z03_human_6: 3124007983733495275
+      z03_human_7: 7155162177880943658
+      z03_human_8: 725570588541686936
+      z03_human_9: -9210550888338166079
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

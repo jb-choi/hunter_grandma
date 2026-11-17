@@ -1,0 +1,305 @@
+{
+  "date": "2026-10-30",
+  "method": "Built-in ImageGen",
+  "user_clarification": "Slime MATERIAL / HUMAN ZOMBIE FORM",
+  "assets": [
+    {
+      "character": "z01_normal",
+      "action": "Idle",
+      "frames": 4,
+      "grid": [
+        2,
+        2
+      ],
+      "prompt": "Use case: stylized-concept. Create a NEW enemy animation sprite sheet for the same warm, readable pixel-art game style as the supplied grandmother sprite (STYLE reference ONLY, do not copy any human/grandma face/clothes/weapon). Character Z01: a SMALL NORMAL SLIME ZOMBIE, a completely alien jelly creature mimicking a hunched zombie silhouette. Entire body is translucent mint/lime green gelatin with broad wet highlights, 2-3 internal bubbles, narrow hunched torso, lopsided head, asymmetrical dark eye sockets with little pale luminous eyes, simple ragged goo mouth, one slightly longer floppy goo arm, two short squishy legs. No real human inside; NO clothes, hair, bones, skin, blood, gore or equipment. Dark teal/plum outline, clean limited-color PIXEL ART around26 opaque RGB colors, large coherent shade clusters; NO smooth painterly shading, gradients, anti-aliasing or noisy dithering. EXACTLY FOUR sequential IDLE frames, strict 2 COLUMNS x 2 ROWS of equal SQUARE cells, read left-to-right top-to-bottom. Each logical cell120x120; this normal enemy should occupy about60px width and80px height, smaller than the heroine. Facing RIGHT in a side/three-quarter belt-scroll game view. Same camera, same scale, same root x60 and ground y117 throughout. Frame1neutral hunch; frame2gelatin gently expands/breathes; frame3soft squash and eye blink; frame4returns to neutral. Feet stay on ground. Full bodies wholly inside their individual cells with wide transparent margin. Genuine TRANSPARENT BACKGROUND, including between limbs/cells, no shadows, floor/scenery, labels, captions, numbers, HUD or text. This is a registered game sprite sheet, not a concept-board illustration.",
+      "discarded": true,
+      "project_output": "Source/Generated/Early/z01_Idle_before_human_form.png",
+      "status": "superseded"
+    },
+    {
+      "character": "z01_normal",
+      "action": "Idle",
+      "frames": 4,
+      "grid": [
+        2,
+        2
+      ],
+      "prompt": "Professional crisp limited-color pixel-art game sprites, coherent broad shading and dark colored outlines, translucent slime suggested by hard highlights and internal colors. Genuine transparent background, no anti-aliasing/gradients/noisy dithering, no ground/shadow/text/labels/numbers. Every pose entirely within its registered equally sized square cell, right-facing side/three-quarter belt-scroll view, logical120x120 cell with stable root x60 and ground y117. Preserve exact character identity, palette, proportions and camera throughout; no gore, blood, bones, weapons or equipment.\nUSER CLARIFICATION: SLIME is the MATERIAL; HUMAN ZOMBIE is the ANATOMICAL FORM. Correct the supplied four-frame sheet to an ADULT HUMAN-SHAPED ZOMBIE in all FOUR 2x2 cells. Keep mint/lime gelatin material, same professional pixel game style and 4 idle phases, but replace the toy/blob proportions with a recognizable adult human silhouette about5.5heads tall: a smaller normal human head with brow, nose, ears and jaw; visible neck; chest, waist and pelvis; two long upper arms and forearms with elbows/wrists and human-shaped hands/fingers; two long thighs/shins with knees/ankles and human-shaped feet. A mildly hunched walking-dead posture, blank zombie expression, dark eye sockets with small pale eyes and an ordinary mouth made of the same gel. NO giant skull head, rounded jelly blob, short stubby legs, tentacles or floating limbs. Not an actual human under a coating: the entire anatomically human-form body is made of jelly. No exposed real bones, blood, clothes, hair or equipment. About60px wide and96px high inside each120x120 logical square cell. Four Idle phases, breathing material wobble and blink, feet planted. Keep generous transparent margins and same floor in all cells. Deliver only the corrected registered transparent 2 columns x2 rows sprite sheet.",
+      "user_correction": "Slime material / human zombie anatomy",
+      "project_output": "Source/Generated/z01_normal/Idle.png",
+      "status": "final_source"
+    },
+    {
+      "character": "z02_large",
+      "action": "Idle",
+      "frames": 4,
+      "grid": [
+        2,
+        2
+      ],
+      "prompt": "Professional crisp limited-color pixel-art game sprites, coherent broad shading and dark colored outlines, translucent slime suggested by hard highlights and internal colors. Genuine transparent background, no anti-aliasing/gradients/noisy dithering, no ground/shadow/text/labels/numbers. Every pose entirely within its registered equally sized square cell, right-facing side/three-quarter belt-scroll view, logical120x120 cell with stable root x60 and ground y117. Preserve exact character identity, palette, proportions and camera throughout; no gore, blood, bones, weapons or equipment.\nCharacter Z02: A LARGE HUMAN-SHAPED ZOMBIE made of thick dark moss/olive slime material. A tall broad heavy adult human build: human-sized head with brow/nose/ears/jaw, clear neck/shoulders/chest/belly/pelvis, two massive upper arms/forearms with elbows and hands/fingers, two thick thighs/shins with knees and feet. One forearm heavier, but preserve human joints/anatomy and two-legged silhouette. Dense layered gelatin, amber internal nucleus, broad highlights. Much larger in mass than normal human slime zombie. Not a blob, tentacle creature, oversized-head mascot, actual person inside, or boss.\nUse the reference ONLY to preserve shared slime-zombie species and pixel-art rendering; design a DIFFERENT heavyset human anatomy, not just scaling up the thin normal one. Huge slumped shoulders, broad barrel chest and heavy belly, thick long human legs, big human hands with fingers and elbows/knees. Readable human head/face proportions; no oversized mascot head or amorphous blob. Dark olive/moss gelatin with mint highlights and restrained amber inner core. Body about94px wide and108px tall in each120px cell, clearly bulkier than normal. EXACTLY FOUR Idle frames in a strict2 columns x2rows equal-square grid: neutral weight, heavy inhale/suspension wobble, slow exhale with blink, return. Same ground in all cells, no extra props, complete body and hands/feet within margins.",
+      "project_output": "Source/Generated/z02_large/Idle.png",
+      "status": "final_source"
+    },
+    {
+      "character": "z03_human",
+      "action": "Idle",
+      "frames": 4,
+      "grid": [
+        2,
+        2
+      ],
+      "prompt": "Professional crisp limited-color pixel-art game sprites, coherent broad shading and dark colored outlines, translucent slime suggested by hard highlights and internal colors. Genuine transparent background, no anti-aliasing/gradients/noisy dithering, no ground/shadow/text/labels/numbers. Every pose entirely within its registered equally sized square cell, right-facing side/three-quarter belt-scroll view, logical120x120 cell with stable root x60 and ground y117. Preserve exact character identity, palette, proportions and camera throughout; no gore, blood, bones, weapons or equipment.\nNEW CHARACTER Z03: An ordinary living adult civilian human, normal proportions, short brown hair, mustard casual sweatshirt, navy trousers, cream/white sneakers. Turquoise/cyan slime is draped OVER the still-visible fully clothed person, hanging from one side of the head, shoulders, forearms and torso; clear warm human face, anxious expressive eyes, one bare hand visible. Slime is a separate coating, NOT the person's flesh. No special profession/uniform/weapon or gore. The person looks frightened and pulled involuntarily by the coating, readable as somebody to rescue.\nUse the supplied pure-slime-zombie sheet ONLY for the coherent pixel-art rendering and wet slime look. This character is DIFFERENT: a REAL ORDINARY HUMAN wearing recognizable casual clothes, not a body entirely made of slime. The slime is a turquoise translucent membrane and uneven globs ON TOP of his mustard sweatshirt, navy pants and skin, not replacing human anatomy. About half the face, short brown hair, chest/clothing and a bare hand remain clearly visible. Adult human head/neck/torso/pelvis, two arms/hands, two legs/feet, about5.5heads tall. No skeleton, missing flesh, blood, gore, uniform or weapon. Frightened face, hunched shoulders, slightly involuntary zombie-like stance; still somebody to save. EXACTLY FOUR Idle frames, strict2 columns x2rows equal square cells: anxious breath, small flinch as gel shifts on shoulders, blink, settle. Keep the same person/clothing/slime coverage/camera in all frames, fixed floor and stable scale, full108px-high human inside120px logical cell with ample transparent margins. No giant goo head, fully gelatinous skin or amorphous monster silhouette.",
+      "project_output": "Source/Generated/z03_human/Idle.png",
+      "status": "final_source"
+    },
+    {
+      "character": "z01_normal",
+      "action": "Walk",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Professional crisp limited-color pixel-art game sprites, coherent broad shading and dark colored outlines, translucent slime suggested by hard highlights and internal colors. Genuine transparent background, no anti-aliasing/gradients/noisy dithering, no ground/shadow/text/labels/numbers. Every pose entirely within its registered equally sized square cell, right-facing side/three-quarter belt-scroll view, logical120x120 cell with stable root x60 and ground y117. Preserve exact character identity, palette, proportions and camera throughout; no gore, blood, bones, weapons or equipment.\nEXACT SAME CHARACTER as reference: Normal-sized adult HUMAN-SHAPED ZOMBIE made of mint/lime translucent slime material. Human anatomical silhouette: smaller normal human head with recognizable brow/nose/ears/jaw, neck, narrow adult torso and pelvis, two long upper arms/forearms with elbows/wrists and human-shaped hands/fingers, two long thighs/shins with knees/ankles and human-shaped feet. Slightly hunched zombie posture. Adult proportions about5.5heads tall, NOT a large round head or small jelly/blob mascot. Wet surface highlights and few internal bubbles; no actual human inside, no bones or gore.\nEXACTLY SIX frames of a SLOW WALK CYCLE in a strict3 columns x2rows grid. Draw proper alternating HUMAN legs/feet and shoulders:1 near-leg forward contact,2 weight/down,3 opposite-leg passing,4 far-leg forward contact,5 opposite weight/down,6 near-leg passing returning to frame1. Human head/neck/chest/pelvis and two arms/elbows/hands and two thighs/knees/shins/feet remain distinct. Same root, stable floor and body size; don't simply repeat or translate an idle pose. Slight hunched zombie shuffle and wet material lag, not a blob hopping or crawling. Keep all limbs entirely inside each cell and every cell registered.\nPreserve slim adult human proportions; mint slime material, long human legs, normal-sized human head.",
+      "reference": "Source/Generated/z01_normal/Idle.png",
+      "project_output": "Source/Generated/z01_normal/Walk.png",
+      "status": "final_source"
+    },
+    {
+      "character": "z02_large",
+      "action": "Walk",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Professional crisp limited-color pixel-art game sprites, coherent broad shading and dark colored outlines, translucent slime suggested by hard highlights and internal colors. Genuine transparent background, no anti-aliasing/gradients/noisy dithering, no ground/shadow/text/labels/numbers. Every pose entirely within its registered equally sized square cell, right-facing side/three-quarter belt-scroll view, logical120x120 cell with stable root x60 and ground y117. Preserve exact character identity, palette, proportions and camera throughout; no gore, blood, bones, weapons or equipment.\nEXACT SAME CHARACTER as reference: A LARGE HUMAN-SHAPED ZOMBIE made of thick dark moss/olive slime material. A tall broad heavy adult human build: human-sized head with brow/nose/ears/jaw, clear neck/shoulders/chest/belly/pelvis, two massive upper arms/forearms with elbows and hands/fingers, two thick thighs/shins with knees and feet. One forearm heavier, but preserve human joints/anatomy and two-legged silhouette. Dense layered gelatin, amber internal nucleus, broad highlights. Much larger in mass than normal human slime zombie. Not a blob, tentacle creature, oversized-head mascot, actual person inside, or boss.\nEXACTLY SIX frames of a SLOW WALK CYCLE in a strict3 columns x2rows grid. Draw proper alternating HUMAN legs/feet and shoulders:1 near-leg forward contact,2 weight/down,3 opposite-leg passing,4 far-leg forward contact,5 opposite weight/down,6 near-leg passing returning to frame1. Human head/neck/chest/pelvis and two arms/elbows/hands and two thighs/knees/shins/feet remain distinct. Same root, stable floor and body size; don't simply repeat or translate an idle pose. Slight hunched zombie shuffle and wet material lag, not a blob hopping or crawling. Keep all limbs entirely inside each cell and every cell registered.\nEmphasize heavy human weight transfers, broad shoulders and belly, thick human legs and hands; dark olive material and amber core.",
+      "reference": "Source/Generated/z02_large/Idle.png",
+      "project_output": "Source/Generated/z02_large/Walk.png",
+      "status": "final_source"
+    },
+    {
+      "character": "z03_human",
+      "action": "Walk",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Professional crisp limited-color pixel-art game sprites, coherent broad shading and dark colored outlines, translucent slime suggested by hard highlights and internal colors. Genuine transparent background, no anti-aliasing/gradients/noisy dithering, no ground/shadow/text/labels/numbers. Every pose entirely within its registered equally sized square cell, right-facing side/three-quarter belt-scroll view, logical120x120 cell with stable root x60 and ground y117. Preserve exact character identity, palette, proportions and camera throughout; no gore, blood, bones, weapons or equipment.\nEXACT SAME CHARACTER as reference: An ordinary living adult civilian human, normal proportions, short brown hair, mustard casual sweatshirt, navy trousers, cream/white sneakers. Turquoise/cyan slime is draped OVER the still-visible fully clothed person, hanging from one side of the head, shoulders, forearms and torso; clear warm human face, anxious expressive eyes, one bare hand visible. Slime is a separate coating, NOT the person's flesh. No special profession/uniform/weapon or gore. The person looks frightened and pulled involuntarily by the coating, readable as somebody to rescue.\nEXACTLY SIX frames of a SLOW WALK CYCLE in a strict3 columns x2rows grid. Draw proper alternating HUMAN legs/feet and shoulders:1 near-leg forward contact,2 weight/down,3 opposite-leg passing,4 far-leg forward contact,5 opposite weight/down,6 near-leg passing returning to frame1. Human head/neck/chest/pelvis and two arms/elbows/hands and two thighs/knees/shins/feet remain distinct. Same root, stable floor and body size; don't simply repeat or translate an idle pose. Slight hunched zombie shuffle and wet material lag, not a blob hopping or crawling. Keep all limbs entirely inside each cell and every cell registered.\nKeep the actual clothed human, human face and mustard sweatshirt/navy pants/sneakers, with cyan slime OVER the human. The steps are reluctant, dragged by the coating, and he looks frightened. No pure-slime body.",
+      "reference": "Source/Generated/z03_human/Idle.png",
+      "project_output": "Source/Generated/z03_human/Walk.png",
+      "status": "final_source"
+    },
+    {
+      "character": "z01_normal",
+      "action": "Run",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Professional crisp limited-color pixel-art game sprites, coherent broad shading and dark colored outlines, translucent slime suggested by hard highlights and internal colors. Genuine transparent background, no anti-aliasing/gradients/noisy dithering, no ground/shadow/text/labels/numbers. Every pose entirely within its registered equally sized square cell, right-facing side/three-quarter belt-scroll view, logical120x120 cell with stable root x60 and ground y117. Preserve exact character identity, palette, proportions and camera throughout; no gore, blood, bones, weapons or equipment.\nEXACT SAME CHARACTER as reference: Normal-sized adult HUMAN-SHAPED ZOMBIE made of mint/lime translucent slime material. Human anatomical silhouette: smaller normal human head with recognizable brow/nose/ears/jaw, neck, narrow adult torso and pelvis, two long upper arms/forearms with elbows/wrists and human-shaped hands/fingers, two long thighs/shins with knees/ankles and human-shaped feet. Slightly hunched zombie posture. Adult proportions about5.5heads tall, NOT a large round head or small jelly/blob mascot. Wet surface highlights and few internal bubbles; no actual human inside, no bones or gore.\nEXACTLY SIX frames of a FAST RUN CYCLE in a strict3 columns x2rows grid. Draw a different motion from Walk: stronger forward torso lean, long alternating HUMAN strides, higher knees and bent human elbows swinging opposite legs. Frames1contact,2compression/push,3passing/flight,4oppositecontact,5oppositepush,6oppositepassing closing the cycle. Preserve human anatomy and same body mass; slime surface stretches/settles around the human-form joints. Do not turn legs into tentacles or a slug. Same camera/scale/root and stable reference ground. No scenery/speed lines baked in; only small material droplets if useful.\nMake a long-legged HUMAN-form fast sprint, clearly different from the slow hunched shuffle; preserve the smaller human head and mint material.",
+      "reference": "Source/Generated/z01_normal/Idle.png",
+      "project_output": "Source/Generated/z01_normal/Run.png",
+      "status": "final_source"
+    },
+    {
+      "character": "z02_large",
+      "action": "Run",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Professional crisp limited-color pixel-art game sprites, coherent broad shading and dark colored outlines, translucent slime suggested by hard highlights and internal colors. Genuine transparent background, no anti-aliasing/gradients/noisy dithering, no ground/shadow/text/labels/numbers. Every pose entirely within its registered equally sized square cell, right-facing side/three-quarter belt-scroll view, logical120x120 cell with stable root x60 and ground y117. Preserve exact character identity, palette, proportions and camera throughout; no gore, blood, bones, weapons or equipment.\nEXACT SAME CHARACTER as reference: A LARGE HUMAN-SHAPED ZOMBIE made of thick dark moss/olive slime material. A tall broad heavy adult human build: human-sized head with brow/nose/ears/jaw, clear neck/shoulders/chest/belly/pelvis, two massive upper arms/forearms with elbows and hands/fingers, two thick thighs/shins with knees and feet. One forearm heavier, but preserve human joints/anatomy and two-legged silhouette. Dense layered gelatin, amber internal nucleus, broad highlights. Much larger in mass than normal human slime zombie. Not a blob, tentacle creature, oversized-head mascot, actual person inside, or boss.\nEXACTLY SIX frames of a FAST RUN CYCLE in a strict3 columns x2rows grid. Draw a different motion from Walk: stronger forward torso lean, long alternating HUMAN strides, higher knees and bent human elbows swinging opposite legs. Frames1contact,2compression/push,3passing/flight,4oppositecontact,5oppositepush,6oppositepassing closing the cycle. Preserve human anatomy and same body mass; slime surface stretches/settles around the human-form joints. Do not turn legs into tentacles or a slug. Same camera/scale/root and stable reference ground. No scenery/speed lines baked in; only small material droplets if useful.\nMake a heavy muscular HUMAN-form charge with thick legs, strong planted push and bouncing heavy belly/shoulders; keep olive material.",
+      "reference": "Source/Generated/z02_large/Idle.png",
+      "project_output": "Source/Generated/z02_large/Run.png",
+      "status": "final_source"
+    },
+    {
+      "character": "z03_human",
+      "action": "Run",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Professional crisp limited-color pixel-art game sprites, coherent broad shading and dark colored outlines, translucent slime suggested by hard highlights and internal colors. Genuine transparent background, no anti-aliasing/gradients/noisy dithering, no ground/shadow/text/labels/numbers. Every pose entirely within its registered equally sized square cell, right-facing side/three-quarter belt-scroll view, logical120x120 cell with stable root x60 and ground y117. Preserve exact character identity, palette, proportions and camera throughout; no gore, blood, bones, weapons or equipment.\nEXACT SAME CHARACTER as reference: An ordinary living adult civilian human, normal proportions, short brown hair, mustard casual sweatshirt, navy trousers, cream/white sneakers. Turquoise/cyan slime is draped OVER the still-visible fully clothed person, hanging from one side of the head, shoulders, forearms and torso; clear warm human face, anxious expressive eyes, one bare hand visible. Slime is a separate coating, NOT the person's flesh. No special profession/uniform/weapon or gore. The person looks frightened and pulled involuntarily by the coating, readable as somebody to rescue.\nEXACTLY SIX frames of a FAST RUN CYCLE in a strict3 columns x2rows grid. Draw a different motion from Walk: stronger forward torso lean, long alternating HUMAN strides, higher knees and bent human elbows swinging opposite legs. Frames1contact,2compression/push,3passing/flight,4oppositecontact,5oppositepush,6oppositepassing closing the cycle. Preserve human anatomy and same body mass; slime surface stretches/settles around the human-form joints. Do not turn legs into tentacles or a slug. Same camera/scale/root and stable reference ground. No scenery/speed lines baked in; only small material droplets if useful.\nKeep actual fully clothed HUMAN under the cyan coating, same brown hair/mustard top/navy pants/cream sneakers and frightened face. His run is a panicked human sprint dragged by the slime.",
+      "reference": "Source/Generated/z03_human/Idle.png",
+      "project_output": "Source/Generated/z03_human/Run.png",
+      "status": "final_source"
+    },
+    {
+      "character": "z01_normal",
+      "action": "Attack",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Professional crisp limited-color pixel-art game sprites, coherent broad shading and dark colored outlines, translucent slime suggested by hard highlights and internal colors. Genuine transparent background, no anti-aliasing/gradients/noisy dithering, no ground/shadow/text/labels/numbers. Every pose entirely within its registered equally sized square cell, right-facing side/three-quarter belt-scroll view, logical120x120 cell with stable root x60 and ground y117. Preserve exact character identity, palette, proportions and camera throughout; no gore, blood, bones, weapons or equipment.\nEXACT SAME CHARACTER as reference: Normal-sized adult HUMAN-SHAPED ZOMBIE made of mint/lime translucent slime material. Human anatomical silhouette: smaller normal human head with recognizable brow/nose/ears/jaw, neck, narrow adult torso and pelvis, two long upper arms/forearms with elbows/wrists and human-shaped hands/fingers, two long thighs/shins with knees/ankles and human-shaped feet. Slightly hunched zombie posture. Adult proportions about5.5heads tall, NOT a large round head or small jelly/blob mascot. Wet surface highlights and few internal bubbles; no actual human inside, no bones or gore.\nEXACTLY SIX frames of ONE ATTACK in a strict3 columns x2rows grid, NOT a looping march. 1readable ready pose,2wind-up,3strike begins,4full active impact pose,5follow-through,6recover toward ready. The motion must use anatomically HUMAN arms/elbows/hands and body weight. Keep human head/torso/pelvis and two human legs, no new arms or long tentacles. Source character and proportions stay locked. Entire attack and small slime splashes fit inside120px logical cell with margins.\nA short right-facing HUMAN ARM SWIPE/lunge: wind elbow/shoulder, swing the long human forearm/hand forward, follow-through, recover. Gel skin trails subtly but the arm retains elbow/wrist/fingers and human length.",
+      "reference": "Source/Generated/z01_normal/Idle.png",
+      "project_output": "Source/Generated/z01_normal/Attack.png",
+      "status": "final_source"
+    },
+    {
+      "character": "z02_large",
+      "action": "Attack",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Professional crisp limited-color pixel-art game sprites, coherent broad shading and dark colored outlines, translucent slime suggested by hard highlights and internal colors. Genuine transparent background, no anti-aliasing/gradients/noisy dithering, no ground/shadow/text/labels/numbers. Every pose entirely within its registered equally sized square cell, right-facing side/three-quarter belt-scroll view, logical120x120 cell with stable root x60 and ground y117. Preserve exact character identity, palette, proportions and camera throughout; no gore, blood, bones, weapons or equipment.\nEXACT SAME CHARACTER as reference: A LARGE HUMAN-SHAPED ZOMBIE made of thick dark moss/olive slime material. A tall broad heavy adult human build: human-sized head with brow/nose/ears/jaw, clear neck/shoulders/chest/belly/pelvis, two massive upper arms/forearms with elbows and hands/fingers, two thick thighs/shins with knees and feet. One forearm heavier, but preserve human joints/anatomy and two-legged silhouette. Dense layered gelatin, amber internal nucleus, broad highlights. Much larger in mass than normal human slime zombie. Not a blob, tentacle creature, oversized-head mascot, actual person inside, or boss.\nEXACTLY SIX frames of ONE ATTACK in a strict3 columns x2rows grid, NOT a looping march. 1readable ready pose,2wind-up,3strike begins,4full active impact pose,5follow-through,6recover toward ready. The motion must use anatomically HUMAN arms/elbows/hands and body weight. Keep human head/torso/pelvis and two human legs, no new arms or long tentacles. Source character and proportions stay locked. Entire attack and small slime splashes fit inside120px logical cell with margins.\nHeavy human-form TWO-HANDED DOWNWARD SLAM: wind human elbows/arms up, drive huge human hands down with torso weight, then recover. Small olive slime splats at impact only, all within cell. Keep two human legs/feet and human joint structure.",
+      "reference": "Source/Generated/z02_large/Idle.png",
+      "discarded": true,
+      "project_output": "Source/Generated/Early/z02_Attack_before_lower_windup.png",
+      "status": "superseded"
+    },
+    {
+      "character": "z03_human",
+      "action": "Attack",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Professional crisp limited-color pixel-art game sprites, coherent broad shading and dark colored outlines, translucent slime suggested by hard highlights and internal colors. Genuine transparent background, no anti-aliasing/gradients/noisy dithering, no ground/shadow/text/labels/numbers. Every pose entirely within its registered equally sized square cell, right-facing side/three-quarter belt-scroll view, logical120x120 cell with stable root x60 and ground y117. Preserve exact character identity, palette, proportions and camera throughout; no gore, blood, bones, weapons or equipment.\nEXACT SAME CHARACTER as reference: An ordinary living adult civilian human, normal proportions, short brown hair, mustard casual sweatshirt, navy trousers, cream/white sneakers. Turquoise/cyan slime is draped OVER the still-visible fully clothed person, hanging from one side of the head, shoulders, forearms and torso; clear warm human face, anxious expressive eyes, one bare hand visible. Slime is a separate coating, NOT the person's flesh. No special profession/uniform/weapon or gore. The person looks frightened and pulled involuntarily by the coating, readable as somebody to rescue.\nEXACTLY SIX frames of ONE ATTACK in a strict3 columns x2rows grid, NOT a looping march. 1readable ready pose,2wind-up,3strike begins,4full active impact pose,5follow-through,6recover toward ready. The motion must use anatomically HUMAN arms/elbows/hands and body weight. Keep human head/torso/pelvis and two human legs, no new arms or long tentacles. Source character and proportions stay locked. Entire attack and small slime splashes fit inside120px logical cell with margins.\nThe frightened actual human does not deliberately fight: the cyan coating drags ONE human arm forward in an involuntary short sweep, while his other bare hand tries to resist. Preserve the normal person's face and all clothes; no new tentacle limb or weapon.",
+      "reference": "Source/Generated/z03_human/Idle.png",
+      "project_output": "Source/Generated/z03_human/Attack.png",
+      "status": "final_source"
+    },
+    {
+      "character": "z01_normal",
+      "action": "Dead",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Professional crisp limited-color pixel-art game sprites, coherent broad shading and dark colored outlines, translucent slime suggested by hard highlights and internal colors. Genuine transparent background, no anti-aliasing/gradients/noisy dithering, no ground/shadow/text/labels/numbers. Every pose entirely within its registered equally sized square cell, right-facing side/three-quarter belt-scroll view, logical120x120 cell with stable root x60 and ground y117. Preserve exact character identity, palette, proportions and camera throughout; no gore, blood, bones, weapons or equipment.\nEXACT SAME CHARACTER as reference: Normal-sized adult HUMAN-SHAPED ZOMBIE made of mint/lime translucent slime material. Human anatomical silhouette: smaller normal human head with recognizable brow/nose/ears/jaw, neck, narrow adult torso and pelvis, two long upper arms/forearms with elbows/wrists and human-shaped hands/fingers, two long thighs/shins with knees/ankles and human-shaped feet. Slightly hunched zombie posture. Adult proportions about5.5heads tall, NOT a large round head or small jelly/blob mascot. Wet surface highlights and few internal bubbles; no actual human inside, no bones or gore.\nEXACTLY SIX sequential DEFEAT frames in a strict3 columns x2rows grid. First frame retains a full-height human-form silhouette; each following frame clearly changes state. Keep the same logical pixel scale and stable floor: never enlarge the smaller collapsed state to refill a cell. No gore/blood/bones or text. Last frame must contain a readable final held state, not an empty cell.\nSix stages:1full-height slim HUMAN-form slime zombie reeling,2human knees buckle/arms droop,3human torso and limbs slump to abouthalf height,4head/shoulders sink into a low mint puddle,5mostly flattened goo and small bubbles,6flat stable mint gel puddle at the SAME floor. No real human/bones/corpse remains: this body was entirely jelly. Maintain identical logical pixel scale while height collapses.",
+      "reference": "Source/Generated/z01_normal/Idle.png",
+      "project_output": "Source/Generated/z01_normal/Dead.png",
+      "status": "final_source"
+    },
+    {
+      "character": "z02_large",
+      "action": "Dead",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Professional crisp limited-color pixel-art game sprites, coherent broad shading and dark colored outlines, translucent slime suggested by hard highlights and internal colors. Genuine transparent background, no anti-aliasing/gradients/noisy dithering, no ground/shadow/text/labels/numbers. Every pose entirely within its registered equally sized square cell, right-facing side/three-quarter belt-scroll view, logical120x120 cell with stable root x60 and ground y117. Preserve exact character identity, palette, proportions and camera throughout; no gore, blood, bones, weapons or equipment.\nEXACT SAME CHARACTER as reference: A LARGE HUMAN-SHAPED ZOMBIE made of thick dark moss/olive slime material. A tall broad heavy adult human build: human-sized head with brow/nose/ears/jaw, clear neck/shoulders/chest/belly/pelvis, two massive upper arms/forearms with elbows and hands/fingers, two thick thighs/shins with knees and feet. One forearm heavier, but preserve human joints/anatomy and two-legged silhouette. Dense layered gelatin, amber internal nucleus, broad highlights. Much larger in mass than normal human slime zombie. Not a blob, tentacle creature, oversized-head mascot, actual person inside, or boss.\nEXACTLY SIX sequential DEFEAT frames in a strict3 columns x2rows grid. First frame retains a full-height human-form silhouette; each following frame clearly changes state. Keep the same logical pixel scale and stable floor: never enlarge the smaller collapsed state to refill a cell. No gore/blood/bones or text. Last frame must contain a readable final held state, not an empty cell.\nSix stages:1full-height heavy HUMAN-form slime zombie reeling,2human knees buckle and huge belly/arms sag,3torso/legs melt down to about70%height,4only low torso/head remains in a wide olive puddle,5low gel mass with bubbles,6a small-height wide olive puddle at the SAME floor. No human/bones/corpse remains: the body was entirely gelatin. Keep the first frame full-size and gradually reduce HEIGHT, not pixel scale.",
+      "reference": "Source/Generated/z02_large/Idle.png",
+      "project_output": "Source/Generated/z02_large/Dead.png",
+      "status": "final_source"
+    },
+    {
+      "character": "z03_human",
+      "action": "Dead",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Professional crisp limited-color pixel-art game sprites, coherent broad shading and dark colored outlines, translucent slime suggested by hard highlights and internal colors. Genuine transparent background, no anti-aliasing/gradients/noisy dithering, no ground/shadow/text/labels/numbers. Every pose entirely within its registered equally sized square cell, right-facing side/three-quarter belt-scroll view, logical120x120 cell with stable root x60 and ground y117. Preserve exact character identity, palette, proportions and camera throughout; no gore, blood, bones, weapons or equipment.\nEXACT SAME CHARACTER as reference: An ordinary living adult civilian human, normal proportions, short brown hair, mustard casual sweatshirt, navy trousers, cream/white sneakers. Turquoise/cyan slime is draped OVER the still-visible fully clothed person, hanging from one side of the head, shoulders, forearms and torso; clear warm human face, anxious expressive eyes, one bare hand visible. Slime is a separate coating, NOT the person's flesh. No special profession/uniform/weapon or gore. The person looks frightened and pulled involuntarily by the coating, readable as somebody to rescue.\nEXACTLY SIX sequential DEFEAT frames in a strict3 columns x2rows grid. First frame retains a full-height human-form silhouette; each following frame clearly changes state. Keep the same logical pixel scale and stable floor: never enlarge the smaller collapsed state to refill a cell. No gore/blood/bones or text. Last frame must contain a readable final held state, not an empty cell.\nThis is NOT HUMAN DEATH. Six stages:1still upright, frightened, coating begins loosening;2knees buckle and slime slides off shoulders;3human drops to knees as the cyan shell peels off his head and arms;4fully clothed human kneels with short brown hair/face and mustard shirt clearly exposed;5slime puddle beside him, alive human raises an open hand asking for help;6alive clothed human kneeling/sitting upright breathing, stable RESCUE WAITING pose, visible uncovered face and one raised open palm. Human body/clothes MUST remain intact and substantial in frames4-6. No corpse, disappearing human or total body melting.",
+      "reference": "Source/Generated/z03_human/Idle.png",
+      "project_output": "Source/Generated/z03_human/Dead.png",
+      "status": "final_source"
+    },
+    {
+      "character": "z03_human",
+      "action": "Idle_RestoredBody",
+      "frames": 4,
+      "grid": [
+        2,
+        2
+      ],
+      "prompt": "Technical HUMAN BODY restoration from this exact pixel-art animation sprite sheet. Preserve EXACT original image dimensions, rectangular grid layout, number/order of cells, camera, logical pixel scale and ALL person positions/poses/facial expressions/hand gestures. REMOVE ALL turquoise/cyan SLIME, including head/shoulder/arm/leg coatings, trails, puddles and droplets. Reconstruct the ordinary intact HUMAN underneath: same short brown hair, frightened/relieved human face as in each cell, same mustard sweatshirt including sleeves, navy pants, cream sneakers, normal human arms/hands/fingers/legs. Do not change sex, age, clothes, proportions, frame size or any pose. Do NOT recenter, zoom, stand up a kneeling pose, normalize a run to an idle, or change limb positions. Restore the parts of skin/clothing covered by the slime. All vacated coating/puddle background becomes genuinely transparent. Keep existing human body, not a corpse or pure slime form. Same crisp hard-edged limited-color pixel-art style, no color halos, shadows, ground, text or labels. This is an aligned under-layer; animation poses must match the source exactly.\nTarget: Idle, 4 cells, 2 columns x2 rows.",
+      "references": [
+        "E:/unity_project/project10_hunter_grandma/Hunter_grandma/Assets/Artsource/Drafts/GrandmaShooter120/v002/Monsters/Source/Generated/z03_human/Idle.png"
+      ],
+      "project_output": "Source/Generated/z03_human/Idle_Body.png",
+      "status": "final_source"
+    },
+    {
+      "character": "z03_human",
+      "action": "Walk_RestoredBody",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Technical HUMAN BODY restoration from this exact pixel-art animation sprite sheet. Preserve EXACT original image dimensions, rectangular grid layout, number/order of cells, camera, logical pixel scale and ALL person positions/poses/facial expressions/hand gestures. REMOVE ALL turquoise/cyan SLIME, including head/shoulder/arm/leg coatings, trails, puddles and droplets. Reconstruct the ordinary intact HUMAN underneath: same short brown hair, frightened/relieved human face as in each cell, same mustard sweatshirt including sleeves, navy pants, cream sneakers, normal human arms/hands/fingers/legs. Do not change sex, age, clothes, proportions, frame size or any pose. Do NOT recenter, zoom, stand up a kneeling pose, normalize a run to an idle, or change limb positions. Restore the parts of skin/clothing covered by the slime. All vacated coating/puddle background becomes genuinely transparent. Keep existing human body, not a corpse or pure slime form. Same crisp hard-edged limited-color pixel-art style, no color halos, shadows, ground, text or labels. This is an aligned under-layer; animation poses must match the source exactly.\nTarget: Walk, 6 cells, 3 columns x2 rows.",
+      "references": [
+        "E:/unity_project/project10_hunter_grandma/Hunter_grandma/Assets/Artsource/Drafts/GrandmaShooter120/v002/Monsters/Source/Generated/z03_human/Walk.png"
+      ],
+      "project_output": "Source/Generated/z03_human/Walk_Body.png",
+      "status": "final_source"
+    },
+    {
+      "character": "z03_human",
+      "action": "Run_RestoredBody",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Technical HUMAN BODY restoration from this exact pixel-art animation sprite sheet. Preserve EXACT original image dimensions, rectangular grid layout, number/order of cells, camera, logical pixel scale and ALL person positions/poses/facial expressions/hand gestures. REMOVE ALL turquoise/cyan SLIME, including head/shoulder/arm/leg coatings, trails, puddles and droplets. Reconstruct the ordinary intact HUMAN underneath: same short brown hair, frightened/relieved human face as in each cell, same mustard sweatshirt including sleeves, navy pants, cream sneakers, normal human arms/hands/fingers/legs. Do not change sex, age, clothes, proportions, frame size or any pose. Do NOT recenter, zoom, stand up a kneeling pose, normalize a run to an idle, or change limb positions. Restore the parts of skin/clothing covered by the slime. All vacated coating/puddle background becomes genuinely transparent. Keep existing human body, not a corpse or pure slime form. Same crisp hard-edged limited-color pixel-art style, no color halos, shadows, ground, text or labels. This is an aligned under-layer; animation poses must match the source exactly.\nTarget: Run, 6 cells, 3 columns x2 rows.",
+      "references": [
+        "E:/unity_project/project10_hunter_grandma/Hunter_grandma/Assets/Artsource/Drafts/GrandmaShooter120/v002/Monsters/Source/Generated/z03_human/Run.png"
+      ],
+      "project_output": "Source/Generated/z03_human/Run_Body.png",
+      "status": "final_source"
+    },
+    {
+      "character": "z03_human",
+      "action": "Attack_RestoredBody",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Technical HUMAN BODY restoration from this exact pixel-art animation sprite sheet. Preserve EXACT original image dimensions, rectangular grid layout, number/order of cells, camera, logical pixel scale and ALL person positions/poses/facial expressions/hand gestures. REMOVE ALL turquoise/cyan SLIME, including head/shoulder/arm/leg coatings, trails, puddles and droplets. Reconstruct the ordinary intact HUMAN underneath: same short brown hair, frightened/relieved human face as in each cell, same mustard sweatshirt including sleeves, navy pants, cream sneakers, normal human arms/hands/fingers/legs. Do not change sex, age, clothes, proportions, frame size or any pose. Do NOT recenter, zoom, stand up a kneeling pose, normalize a run to an idle, or change limb positions. Restore the parts of skin/clothing covered by the slime. All vacated coating/puddle background becomes genuinely transparent. Keep existing human body, not a corpse or pure slime form. Same crisp hard-edged limited-color pixel-art style, no color halos, shadows, ground, text or labels. This is an aligned under-layer; animation poses must match the source exactly.\nTarget: Attack, 6 cells, 3 columns x2 rows.",
+      "references": [
+        "E:/unity_project/project10_hunter_grandma/Hunter_grandma/Assets/Artsource/Drafts/GrandmaShooter120/v002/Monsters/Source/Generated/z03_human/Attack.png"
+      ],
+      "project_output": "Source/Generated/z03_human/Attack_Body.png",
+      "status": "final_source"
+    },
+    {
+      "character": "z03_human",
+      "action": "Dead_RestoredBody",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Technical HUMAN BODY restoration from this exact pixel-art animation sprite sheet. Preserve EXACT original image dimensions, rectangular grid layout, number/order of cells, camera, logical pixel scale and ALL person positions/poses/facial expressions/hand gestures. REMOVE ALL turquoise/cyan SLIME, including head/shoulder/arm/leg coatings, trails, puddles and droplets. Reconstruct the ordinary intact HUMAN underneath: same short brown hair, frightened/relieved human face as in each cell, same mustard sweatshirt including sleeves, navy pants, cream sneakers, normal human arms/hands/fingers/legs. Do not change sex, age, clothes, proportions, frame size or any pose. Do NOT recenter, zoom, stand up a kneeling pose, normalize a run to an idle, or change limb positions. Restore the parts of skin/clothing covered by the slime. All vacated coating/puddle background becomes genuinely transparent. Keep existing human body, not a corpse or pure slime form. Same crisp hard-edged limited-color pixel-art style, no color halos, shadows, ground, text or labels. This is an aligned under-layer; animation poses must match the source exactly.\nTarget: Dead, 6 cells, 3 columns x2 rows.",
+      "references": [
+        "E:/unity_project/project10_hunter_grandma/Hunter_grandma/Assets/Artsource/Drafts/GrandmaShooter120/v002/Monsters/Source/Generated/z03_human/Dead.png"
+      ],
+      "project_output": "Source/Generated/z03_human/Dead_Body.png",
+      "status": "final_source"
+    },
+    {
+      "character": "z02_large",
+      "action": "Attack_Correction",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Professional crisp limited-color pixel-art game sprites, coherent broad shading and dark colored outlines, translucent slime suggested by hard highlights and internal colors. Genuine transparent background, no anti-aliasing/gradients/noisy dithering, no ground/shadow/text/labels/numbers. Every pose entirely within its registered equally sized square cell, right-facing side/three-quarter belt-scroll view, logical120x120 cell with stable root x60 and ground y117. Preserve exact character identity, palette, proportions and camera throughout; no gore, blood, bones, weapons or equipment.\nEDIT the FIRST provided six-frame large human-form slime-zombie ATTACK sheet. Keep its exact image dimensions, 3 columns x2 rows, character proportions, camera, and all six stages. Keep frames1,3,4,5,6 as close as possible. CHANGE FRAME2 (top-middle) WIND-UP: CROUCH THE HUMAN KNEES slightly and draw thick human elbows bent BACK at shoulder level, with BOTH HANDS BELOW THE TOP OF HIS HEAD. Do NOT lift arms overhead, do not lengthen the cell, do not shrink the body to fit. He winds up at chest/shoulder height then slams the two human hands down in frames3/4. The whole attack must stay inside120x120 logical canvas at the SAME body scale as the second provided idle reference. Human head/neck/chest/pelvis, normal human joints and two human legs/hands must remain clear. Dark olive gelatin material and amber core unchanged. No extra arms/tentacles/weapons/labels/background.",
+      "references": [
+        "E:/unity_project/project10_hunter_grandma/Hunter_grandma/Assets/Artsource/Drafts/GrandmaShooter120/v002/Monsters/Source/Generated/z02_large/Attack.png",
+        "E:/unity_project/project10_hunter_grandma/Hunter_grandma/Assets/Artsource/Drafts/GrandmaShooter120/v002/Monsters/Source/Generated/z02_large/Idle.png"
+      ],
+      "project_output": "Source/Generated/z02_large/Attack.png",
+      "status": "final_source"
+    }
+  ]
+}

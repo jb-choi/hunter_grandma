@@ -1,0 +1,44 @@
+[
+  {
+    "path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter64\\v002\\grandma_08_motorcycle.aseprite",
+    "before": "0F2A3011DA28A03EC074AAD78FCD487CD423A28897E76EE034AF7EA94932911C",
+    "after": "0F2A3011DA28A03EC074AAD78FCD487CD423A28897E76EE034AF7EA94932911C",
+    "match": true,
+    "purpose": "protected art source"
+  },
+  {
+    "path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter64\\v002\\Export\\grandma_08_motorcycle.png",
+    "before": "71D0F7DD593AA3ED45499CF978A5FE03886784F6493FF6AE3F64AC7AAE5D8631",
+    "after": "71D0F7DD593AA3ED45499CF978A5FE03886784F6493FF6AE3F64AC7AAE5D8631",
+    "match": true,
+    "purpose": "protected art source"
+  },
+  {
+    "path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter64\\v002\\Source\\Generated\\grandma_08_wildrose_generated.png",
+    "before": "5E0C470A3CE013C4499654561BFC4DA33C99F0C372E9D23111758DF491C2B5F4",
+    "after": "5E0C470A3CE013C4499654561BFC4DA33C99F0C372E9D23111758DF491C2B5F4",
+    "match": true,
+    "purpose": "protected art source"
+  },
+  {
+    "path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\grandma_01_sundeok_120.aseprite",
+    "before": "791A4674097B0ED5DF8498832F4C1366DBCC56408749491BF587EA2D0E389E5E",
+    "after": "791A4674097B0ED5DF8498832F4C1366DBCC56408749491BF587EA2D0E389E5E",
+    "match": true,
+    "purpose": "protected art source"
+  },
+  {
+    "path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\README.md",
+    "before": "E46FCA99DF10ED84E427802CC83C25DC19BA9F0F189AD50ADC950B6A2E8BDA47",
+    "after": "78BEE4B4A2F7493054E08D2C7222E7FC8884C83F981BEADC05A1BBE3E996E1B9",
+    "match": false,
+    "purpose": "README updated; previous copy in QA"
+  },
+  {
+    "path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\README.md",
+    "before": "98507B77679859875477F6F44DA0B9C4D3E657C9660488F639233B9BB2CA3758",
+    "after": "5CBD526AC3AAC08FAEB590B7CB9ADD2137DDAB8A8E0421CD9F85996034BA9A68",
+    "match": false,
+    "purpose": "README updated; previous copy in QA"
+  }
+]

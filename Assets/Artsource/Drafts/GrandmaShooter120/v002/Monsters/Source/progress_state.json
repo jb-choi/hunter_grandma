@@ -1,0 +1,12 @@
+{
+  "state": "completed_art_assets",
+  "action_clips": 15,
+  "superseded_generated_sheets": 2,
+  "generation_calls": 22,
+  "characters": 3,
+  "native_validation": "QA/validation.json",
+  "unity_runtime_connected": false,
+  "poses": 84,
+  "final_generated_sheets": 20,
+  "date": "2026-10-30"
+}

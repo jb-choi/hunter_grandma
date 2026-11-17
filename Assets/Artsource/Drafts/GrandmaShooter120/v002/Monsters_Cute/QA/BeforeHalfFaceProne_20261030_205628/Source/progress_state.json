@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-30",
+  "state": "completed_art_assets",
+  "art_direction": "Cute chibi humans with slime material",
+  "characters": 3,
+  "action_clips": 15,
+  "poses": 84,
+  "generation_calls": 7,
+  "native_validation": "QA/validation.json",
+  "unity_runtime_connected": false,
+  "human_coating_revision": "full_body_coating_completed_and_verified"
+}

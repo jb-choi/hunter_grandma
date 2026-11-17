@@ -1,0 +1,170 @@
+[
+  {
+    "sha256": "89CD7542F7C6CC23EFFB199DDBF46B28A6FA67EBB5ECD06BBA2DF89114587754",
+    "path": "asset_manifest.json"
+  },
+  {
+    "sha256": "791A4674097B0ED5DF8498832F4C1366DBCC56408749491BF587EA2D0E389E5E",
+    "path": "grandma_01_sundeok_120.aseprite"
+  },
+  {
+    "sha256": "2B9A4674B1CA1E13B13A2DE81A64FB5EA633758B86ACEC067C8610D864F215A7",
+    "path": "protected_hashes.json"
+  },
+  {
+    "sha256": "C5F3847027C440D47D07EAF25C71D198287FCF5ABEE45EC50DD47C0DEBFC9E59",
+    "path": "README.md"
+  },
+  {
+    "sha256": "6B57814DD4CA83B3301DCEF6440B50E72299DD97428EB9F685770A51C38A6C85",
+    "path": "Clips\\sundeok_aim.aseprite"
+  },
+  {
+    "sha256": "DD4651FB507A3E1A9E61E01D00D7118327FC433E774C33064DA648F09BEAFA7D",
+    "path": "Clips\\sundeok_aim.aseprite.meta"
+  },
+  {
+    "sha256": "D9F7B2740F0BD822A1624483C0F482F5678F034ECBF2A3BBF6E7FD6C5DAFC13A",
+    "path": "Clips\\sundeok_collect.aseprite"
+  },
+  {
+    "sha256": "75A433820565C9C6737DF233BF0A731770E3DE50938E0BDB649BA18939034542",
+    "path": "Clips\\sundeok_collect.aseprite.meta"
+  },
+  {
+    "sha256": "36EF7014EEA6B2D6115447F1A8211DABA39C75F6A61FCEF755ECC44D8CD31089",
+    "path": "Clips\\sundeok_fire.aseprite"
+  },
+  {
+    "sha256": "E16A7C5286C4BAA1EE5FAED08CE380DF40BBDE8DE96E70A9BD6BF9D9061E8CD3",
+    "path": "Clips\\sundeok_fire.aseprite.meta"
+  },
+  {
+    "sha256": "036A12210D32A6FC10B4EB5B9BEBF1CC75E8F54D36AC49BA5AF8DC5E6C52092A",
+    "path": "Clips\\sundeok_idle.aseprite"
+  },
+  {
+    "sha256": "2D22694CC9751805738B3904B09CACC273208D3636A4775C5A2A9206D550205E",
+    "path": "Clips\\sundeok_idle.aseprite.meta"
+  },
+  {
+    "sha256": "DECB23203E876305860E9077A2D17F71E3138DC98DBDBF2886EF8E0D7E2EF2FD",
+    "path": "Clips\\sundeok_reload.aseprite"
+  },
+  {
+    "sha256": "D00FE915E1FCEE9B88697B4FDC74F723AB72B8A4F0C30934666B58E07A74A77E",
+    "path": "Clips\\sundeok_reload.aseprite.meta"
+  },
+  {
+    "sha256": "142C54931371BB76854D4CB8C90638978D6E4F21C45765B7BB6856AB38907A5D",
+    "path": "Clips\\sundeok_walk.aseprite"
+  },
+  {
+    "sha256": "72E8CFA587909A28FC649A03EEA4B6DBE97159FB4F40D5E0B5FAD8769CCA899E",
+    "path": "Clips\\sundeok_walk.aseprite.meta"
+  },
+  {
+    "sha256": "DC67534214F7C2F20F2ECDE8BF7B15B9DAD1F57215D25B0C50F4023979CCE85F",
+    "path": "Parts\\Native\\sundeok_ammo.aseprite"
+  },
+  {
+    "sha256": "40B85E574C9880FC428E3E34F3CF000C8B9BF20C7C510C1B87ACFB3061245059",
+    "path": "Parts\\Native\\sundeok_ammo.aseprite.meta"
+  },
+  {
+    "sha256": "D2BFFD514C29B65CFAAA5DE80B6EF9509B4B5A2647B5F22DA05BD262D2FD3D8E",
+    "path": "Parts\\Native\\sundeok_backarm.aseprite"
+  },
+  {
+    "sha256": "22BD05CA1BA1278FF93B09E50762AC141E51A5B0FB324FC084BA8D8A58F6944F",
+    "path": "Parts\\Native\\sundeok_backarm.aseprite.meta"
+  },
+  {
+    "sha256": "66BB9C89F6C17E1EE4903E88597CD4B7D5440C901D33DD97434B3CD13601DD07",
+    "path": "Parts\\Native\\sundeok_body.aseprite"
+  },
+  {
+    "sha256": "8CA227791216922FFC71C35E0ADA6F718AD88F290D34FF642A333568FD3DD98D",
+    "path": "Parts\\Native\\sundeok_body.aseprite.meta"
+  },
+  {
+    "sha256": "6C9E51BAE1698C46BD400D9238684D5A20ACC550161189EA3B8504E57E9F9B94",
+    "path": "Parts\\Native\\sundeok_frontarm.aseprite"
+  },
+  {
+    "sha256": "1078EB0A6AEA0257B2E858A0A7572A0C2A77A83F44A7988872F03B3DB14C6871",
+    "path": "Parts\\Native\\sundeok_frontarm.aseprite.meta"
+  },
+  {
+    "sha256": "84E724B94A498C8EFBEE65A54053E211ACCA21DA4AD2D6D70F0E4336246636F6",
+    "path": "Parts\\Native\\sundeok_fx.aseprite"
+  },
+  {
+    "sha256": "6D0C147FD6FDB73463D44D6ECDA4A292536F75D7D9236E743E6C86EAF65892E7",
+    "path": "Parts\\Native\\sundeok_fx.aseprite.meta"
+  },
+  {
+    "sha256": "EF2BEA80BBC1B7B1F0BE6D1F474AF399DC1AC92258C0BEFB76CBE009875831EA",
+    "path": "Parts\\Native\\sundeok_pickup.aseprite"
+  },
+  {
+    "sha256": "10CB917750136169701D385708DDB9D04C6001C1B6286935FF5B3B1EAFD3F54B",
+    "path": "Parts\\Native\\sundeok_pickup.aseprite.meta"
+  },
+  {
+    "sha256": "3A02367928CF5B2FEB531566FAF5163BA1786A14A0086F97C4C4CF7C0E41B72A",
+    "path": "Parts\\Native\\sundeok_weapon.aseprite"
+  },
+  {
+    "sha256": "B9ED2D2167E354287512E1004AE8B402A982EEFE92178C42962445CFC5BA41A1",
+    "path": "Parts\\Native\\sundeok_weapon.aseprite.meta"
+  },
+  {
+    "sha256": "93CF13456ADB6039B04E316B6A62A07E4B981CCBACE83FD4B6F4B3CDBA0F2376",
+    "path": "QA\\review.md"
+  },
+  {
+    "sha256": "1F5606F82DEA37B1CDA6D3CF9D0754369DD87363B525D34BCCEB65179D09DDEB",
+    "path": "Scripts\\build_asset_pack.lua"
+  },
+  {
+    "sha256": "A7DF2766C0CC5AF8C806414C323385FAF66D9DAE26AE2B6E6EE8834CCD000292",
+    "path": "Scripts\\build_asset_pack.lua.meta"
+  },
+  {
+    "sha256": "87045AD058C8AC648059CEAC93EEB05EE37FD32D6B79AF5091B91C1938C34670",
+    "path": "Scripts\\export_ui.lua"
+  },
+  {
+    "sha256": "D2F7BB290E380290A425FFD205C9A9B916143D0F667B4E99F8E4674B97883283",
+    "path": "Scripts\\export_ui.lua.meta"
+  },
+  {
+    "sha256": "2F1A61DEE948485B997C2A9BD397F3CBEDCC4CAAD0E410CC2807B764A4BC4E72",
+    "path": "Scripts\\export_validate.lua"
+  },
+  {
+    "sha256": "285AEECCAB61EA761CB4BEF554E703CB6C89A8FEF9FB2B026E2C222A97219026",
+    "path": "Scripts\\export_validate.lua.meta"
+  },
+  {
+    "sha256": "1908B1BAD3BEC89B012329C10B830C7CE4F613691BC4B70131B41FACD888ABB8",
+    "path": "Scripts\\sample_actions.lua"
+  },
+  {
+    "sha256": "BD1B07FE6112946C85FBBA9D8D2EC89F237B25E313C52276777179175CE9B38F",
+    "path": "Scripts\\sample_actions.lua.meta"
+  },
+  {
+    "sha256": "380EC7182F22F4152E2C4CEF9D2D3082B357BD9D79EBC4878767E9AE7DF5E7CB",
+    "path": "Scripts\\validate_packages.lua"
+  },
+  {
+    "sha256": "C94A907DAE892B48114BFCE9936AD809B6D1AC9D83A3D94CC27EC90B4B0369EE",
+    "path": "Scripts\\validate_packages.lua.meta"
+  },
+  {
+    "sha256": "B1CD3C7EFD0270005DC13D2787E719A47528CB7E8C1BB53EB7A0862847E8976C",
+    "path": "Source\\pose_metadata.json"
+  }
+]

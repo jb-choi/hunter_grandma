@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-30",
+  "files": [
+    {
+      "after_sha256": "791A4674097B0ED5DF8498832F4C1366DBCC56408749491BF587EA2D0E389E5E",
+      "before_sha256": "791A4674097B0ED5DF8498832F4C1366DBCC56408749491BF587EA2D0E389E5E",
+      "path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\grandma_01_sundeok_120.aseprite",
+      "status": "unchanged"
+    },
+    {
+      "after_sha256": "17EC55D60C9E8AF0832A3DD85BF8F5EE04D541C846DA065FE3D205FA1A934169",
+      "before_sha256": "17EC55D60C9E8AF0832A3DD85BF8F5EE04D541C846DA065FE3D205FA1A934169",
+      "path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\grandma_05_motorcycle_120.aseprite",
+      "status": "unchanged"
+    },
+    {
+      "after_sha256": "BE2AEB9649176904B17339C879897DBE4315BDC1207C6E6A862B5006F8BA8601",
+      "before_sha256": "78BEE4B4A2F7493054E08D2C7222E7FC8884C83F981BEADC05A1BBE3E996E1B9",
+      "path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\README.md",
+      "status": "existing content preserved; monster links appended"
+    },
+    {
+      "after_sha256": "CCADCE0BF7F0DE4CDD801B2276DABAE0CE60893C23256BFA53D54ABD2CBB4A77",
+      "before_sha256": "5CBD526AC3AAC08FAEB590B7CB9ADD2137DDAB8A8E0421CD9F85996034BA9A68",
+      "path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\..\\README.md",
+      "status": "existing content preserved; monster links appended"
+    }
+  ],
+  "passed": true
+}

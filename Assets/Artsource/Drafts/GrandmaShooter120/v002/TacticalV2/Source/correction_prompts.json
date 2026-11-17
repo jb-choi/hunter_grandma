@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-02",
+  "mode": "Built-in ImageGen",
+  "assets": [
+    {
+      "name": "WalkToeCorrection",
+      "prompt": "Use case: precise-object-edit. Edit the provided6-frame3columns x2rows armless Sundeok body atlas. Keep EXACT canvas size and all6 cell positions. Keep the head/face/gray curls, forward-lean torso, complete mustard jacket, colors/style/character scale EXACTLY as supplied. Change ONLY the lower legs/feet to make the gait clearly VERY SHORT QUIET TIPTOE/FOREFOOT walking. The current reference is still too wide and the support/front shoe looks too flat: bring both feet much closer directly under the hips, reducing the total horizontal footprint span by ANOTHER25-30percent. Each frame should have foot centers only about one shoe-length apart, a very narrow compact stance. On the support/front foot, the TOE/BALL touches the floor while the HEEL is VISIBLY RAISED with a CLEAR TRANSPARENT AIR GAP underneath the back half of the sole, around3-5 logical pixels at120px character scale. Tilt the entire existing wine shoe toe-down/heel-up about15-25degrees. Do not redraw it as a flat planted horizontal sole or pointy ballet shoe. The back/swing foot also has heel lifted, toes tucked downward, and stays close to the other ankle; bent knees cushion the small steps. Six genuine alternating near/far steps: front toe touch, weight shift, rear toe passing under hips, opposite toe touch, opposite transfer, other toe passing; close and controlled all the way through. No long reaching leg, no wide lunge, no exaggerated high-knee skipping. Head and torso unchanged and steady; clear wine slip-on shoes/pale soles, loose plum floral pants unchanged except small ankle/knee bends needed. Both arms/hands/weapon still absent. Full bodies wholly inside6cells, no overlap/crop. Maintain genuine transparent alpha incl gaps between shoes and underneath raised heels. No added shadow/ground/glow/grid/text. Crisp warm pixel-art clusters, no smooth airbrush. The result must look like careful forefoot/tiptoe steps rather than ordinary heel-to-toe walking.",
+      "output": "Source/walk_v2_tiptoe_body_pre_extraction.png",
+      "references": [
+        "Source/walk_v2_tiptoe_body_initial.png"
+      ],
+      "status": "Pose refinement; alpha repaired in next tool edit"
+    },
+    {
+      "name": "WalkAlphaExtraction",
+      "prompt": "Use case: background-extraction. Edit target: the attached six-pose grandmother body sprite atlas. Remove ONLY the dark purple/black background and all surrounding haze/glow. Return a PNG with genuine zero-alpha empty background and opaque character pixels. Preserve the six characters exactly, in the same 3-column by 2-row grid, with the same expressions, forward lean, golden yellow quilted vest, floral pants, raised heels, small alternating toe steps and red shoes. Preserve all poses, all outlines and every character detail, including dark clothing and hair. No new shadows, no gradients, no color backdrop, no checkerboard drawn into the image. This is an alpha cutout for an editable game sprite; empty corners and all space between figures must have alpha=0.",
+      "output": "Source/walk_v2_tiptoe_body.png",
+      "references": [
+        "Source/walk_v2_tiptoe_body_pre_extraction.png"
+      ],
+      "status": "Selected final body atlas"
+    }
+  ]
+}

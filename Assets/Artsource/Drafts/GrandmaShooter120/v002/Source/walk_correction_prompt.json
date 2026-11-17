@@ -1,0 +1,14 @@
+{
+  "name": "Walk_Correction",
+  "cols": 3,
+  "rows": 2,
+  "frames": 6,
+  "refs": [
+    "Source/Generated/Walk_initial.png",
+    "Source/Base/sundeok_redesign_body.png"
+  ],
+  "prompt": "EDIT/DERIVE the supplied Sundeok base into a production game animation sprite sheet. This is the EXACT SAME character, not a redesign: Korean elderly grandmother, stocky short build, expressive elderly round cheeks, small low-set oval glasses, the SAME voluminous curled gray perm, mustard diamond-quilted padded jacket, the SAME loose plum floral trousers and wine slip-on shoes. Preserve the base face, hair silhouette, proportions, color palette, outfit design and intricate coherent pixel-art style throughout. Facing RIGHT, full body, single side/three-quarter game view, genuine transparent background. Each pose has a 120x120 logical-pixel frame, rendered as a crisp large nearest-neighbor enlargement. Uniform logical pixel scale and shared approximately 26 opaque-color palette, plum dark contours, no blur, no gradients, no noisy dithering. No words, labels, borders, numbers, drop shadows or scenery. Every sprite must fit entirely inside its own equally-sized rectangular cell with comfortable transparent margin, same character size, same camera and consistent floor baseline. Positions within a cell must register for animation: do not recenter, rescale, or change camera from frame to frame.\nEdit the FIRST provided six-cell WALK body sprite sheet. Keep its 3 columns x 2 rows, its EXACT same grandmother face, hair, jacket, trousers and shoe design and scale, RIGHT-facing orientation. Remove every trace of colored glow: the entire surrounding canvas must be truly transparent. This is a legged walk CYCLE, not three repeated poses. TOP ROW (frames 1–3): near leg steps forward, knees settle, far leg passes. BOTTOM ROW (frames 4–6) MUST SHOW THE OPPOSITE STRIDE: far leg forward and near leg back; then compressed passing with near heel lifting; then near leg swinging forward to close the cycle. In particular, do NOT copy top-row leg positions into the bottom row. Smooth hip-to-knee-to-shoe anatomy, TWO connected legs and TWO shoes in each cell, all toes continue pointing RIGHT. No flat cut seams, disconnected feet or mirrored shoe orientation. Keep upper torso almost fixed with at most 1–2 logical pixels of natural bob. BODY ONLY: no arms, hands, gun or weapon. Fill all of the jacket torso beneath removed arms. All six cells same ground plane, generous equal transparent margins. Use the SECOND reference only to reinforce character identity. Crisp coherent pixel art, same palette, no smoothing. Deliver only this corrected six-cell transparent sprite sheet.",
+  "generated_file": "C:/Users/Junbeom_Choi/.codex/generated_images/01a17ddd-b07b-7932-bc5f-24664771d242/exec-1c2984b9-9d0f-4e2b-a92b-69c88d6d81ea.png",
+  "destination": "Source/Generated/Walk.png",
+  "method": "Built-in ImageGen, transparent background"
+}

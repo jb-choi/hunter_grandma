@@ -1,0 +1,1 @@
+Verified 27 clip frames, 189 independent part-library frames, and 2 UI native/PNG pairs exactly.

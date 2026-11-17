@@ -1,0 +1,77 @@
+{
+  "total_native_library_slots": 252,
+  "note": "Slot counts are not counts of unique drawings. PNG byte hashes measure identical saved cropped images.",
+  "total_nonempty_cropped_png_slots": 176,
+  "characters": [
+    {
+      "native_library_slots": 84,
+      "layers": [
+        {
+          "layer": "GelBody",
+          "library_frame_slots": 28,
+          "nonempty_png_slots": 28,
+          "unique_png_files": 28
+        },
+        {
+          "layer": "SurfaceHighlights",
+          "library_frame_slots": 28,
+          "nonempty_png_slots": 28,
+          "unique_png_files": 28
+        }
+      ],
+      "character": "z01_normal",
+      "nonempty_png_slots": 56
+    },
+    {
+      "native_library_slots": 84,
+      "layers": [
+        {
+          "layer": "DripsFX",
+          "library_frame_slots": 28,
+          "nonempty_png_slots": 1,
+          "unique_png_files": 1
+        },
+        {
+          "layer": "GelBody",
+          "library_frame_slots": 28,
+          "nonempty_png_slots": 28,
+          "unique_png_files": 28
+        },
+        {
+          "layer": "SurfaceHighlights",
+          "library_frame_slots": 28,
+          "nonempty_png_slots": 28,
+          "unique_png_files": 28
+        }
+      ],
+      "character": "z02_large",
+      "nonempty_png_slots": 57
+    },
+    {
+      "native_library_slots": 84,
+      "layers": [
+        {
+          "layer": "DripsFX",
+          "library_frame_slots": 28,
+          "nonempty_png_slots": 7,
+          "unique_png_files": 7
+        },
+        {
+          "layer": "HumanBody",
+          "library_frame_slots": 28,
+          "nonempty_png_slots": 28,
+          "unique_png_files": 28
+        },
+        {
+          "layer": "SlimeCoat",
+          "library_frame_slots": 28,
+          "nonempty_png_slots": 28,
+          "unique_png_files": 28
+        }
+      ],
+      "character": "z03_human",
+      "nonempty_png_slots": 63
+    }
+  ],
+  "date": "2026-10-30"
+}

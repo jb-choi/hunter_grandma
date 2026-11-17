@@ -1,0 +1,1573 @@
+{
+  "canvas": [
+    120,
+    120
+  ],
+  "clips": [
+    {
+      "count": 4,
+      "ms": 220,
+      "name": "Idle"
+    },
+    {
+      "count": 6,
+      "ms": 110,
+      "name": "walk_v1_normal",
+      "runtime_action_alias": "Walk"
+    },
+    {
+      "count": 6,
+      "ms": 150,
+      "name": "Reload"
+    },
+    {
+      "count": 3,
+      "ms": 140,
+      "name": "Aim"
+    },
+    {
+      "count": 4,
+      "ms": 100,
+      "name": "Fire"
+    },
+    {
+      "count": 4,
+      "ms": 170,
+      "name": "Collect"
+    },
+    {
+      "name": "walk_v2_tactical",
+      "loop": true,
+      "ms": 140,
+      "count": 6
+    }
+  ],
+  "frames": [
+    {
+      "action": "Idle",
+      "duration_ms": 220,
+      "floor_boundary_y": 118,
+      "frame": 1,
+      "hand_back": [
+        91,
+        56
+      ],
+      "hand_front": [
+        59,
+        57
+      ],
+      "local_frame": 1,
+      "muzzle": [
+        109,
+        48
+      ],
+      "registration": "metal_axis",
+      "shoulder_back": [
+        72,
+        47
+      ],
+      "shoulder_front": [
+        22,
+        47
+      ],
+      "source": "Source/Sampled/Idle/Full_01.png",
+      "support_grip": [
+        88,
+        56
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 1,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        64,
+        56
+      ]
+    },
+    {
+      "action": "Idle",
+      "duration_ms": 220,
+      "floor_boundary_y": 118,
+      "frame": 2,
+      "hand_back": [
+        91,
+        56
+      ],
+      "hand_front": [
+        59,
+        56
+      ],
+      "local_frame": 2,
+      "muzzle": [
+        109,
+        47
+      ],
+      "registration": "metal_axis",
+      "shoulder_back": [
+        72,
+        47
+      ],
+      "shoulder_front": [
+        20,
+        47
+      ],
+      "source": "Source/Sampled/Idle/Full_02.png",
+      "support_grip": [
+        88,
+        55
+      ],
+      "support_skin_distance": 1,
+      "trigger_skin_distance": 0,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        64,
+        55
+      ]
+    },
+    {
+      "action": "Idle",
+      "duration_ms": 220,
+      "floor_boundary_y": 118,
+      "frame": 3,
+      "hand_back": [
+        91,
+        56
+      ],
+      "hand_front": [
+        59,
+        57
+      ],
+      "local_frame": 3,
+      "muzzle": [
+        109,
+        48
+      ],
+      "registration": "metal_axis",
+      "shoulder_back": [
+        72,
+        47
+      ],
+      "shoulder_front": [
+        21,
+        47
+      ],
+      "source": "Source/Sampled/Idle/Full_03.png",
+      "support_grip": [
+        88,
+        56
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 1,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        64,
+        56
+      ]
+    },
+    {
+      "action": "Idle",
+      "duration_ms": 220,
+      "floor_boundary_y": 118,
+      "frame": 4,
+      "hand_back": [
+        91,
+        55
+      ],
+      "hand_front": [
+        59,
+        57
+      ],
+      "local_frame": 4,
+      "muzzle": [
+        109,
+        48
+      ],
+      "registration": "metal_axis",
+      "shoulder_back": [
+        73,
+        47
+      ],
+      "shoulder_front": [
+        22,
+        47
+      ],
+      "source": "Source/Sampled/Idle/Full_04.png",
+      "support_grip": [
+        88,
+        56
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 1,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        64,
+        56
+      ]
+    },
+    {
+      "action": "Walk",
+      "duration_ms": 110,
+      "floor_boundary_y": 118,
+      "frame": 5,
+      "hand_back": [
+        94,
+        55
+      ],
+      "hand_front": [
+        62,
+        56
+      ],
+      "local_frame": 1,
+      "muzzle": [
+        112,
+        47
+      ],
+      "registration": "Independent Idle carried arms on head-registered generated Walk body",
+      "shoulder_back": [
+        69,
+        45
+      ],
+      "shoulder_front": [
+        23,
+        45
+      ],
+      "source": "Source/Sampled/Walk/Full_01.png",
+      "support_grip": [
+        91,
+        55
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 1,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        67,
+        55
+      ],
+      "aseprite_tag": "walk_v1_normal"
+    },
+    {
+      "action": "Walk",
+      "duration_ms": 110,
+      "floor_boundary_y": 118,
+      "frame": 6,
+      "hand_back": [
+        92,
+        55
+      ],
+      "hand_front": [
+        60,
+        56
+      ],
+      "local_frame": 2,
+      "muzzle": [
+        110,
+        47
+      ],
+      "registration": "Independent Idle carried arms on head-registered generated Walk body",
+      "shoulder_back": [
+        69,
+        45
+      ],
+      "shoulder_front": [
+        24,
+        45
+      ],
+      "source": "Source/Sampled/Walk/Full_02.png",
+      "support_grip": [
+        89,
+        55
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 1,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        65,
+        55
+      ],
+      "aseprite_tag": "walk_v1_normal"
+    },
+    {
+      "action": "Walk",
+      "duration_ms": 110,
+      "floor_boundary_y": 118,
+      "frame": 7,
+      "hand_back": [
+        92,
+        55
+      ],
+      "hand_front": [
+        60,
+        56
+      ],
+      "local_frame": 3,
+      "muzzle": [
+        110,
+        47
+      ],
+      "registration": "Independent Idle carried arms on head-registered generated Walk body",
+      "shoulder_back": [
+        68,
+        46
+      ],
+      "shoulder_front": [
+        22,
+        46
+      ],
+      "source": "Source/Sampled/Walk/Full_03.png",
+      "support_grip": [
+        89,
+        55
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 1,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        65,
+        55
+      ],
+      "aseprite_tag": "walk_v1_normal"
+    },
+    {
+      "action": "Walk",
+      "duration_ms": 110,
+      "floor_boundary_y": 118,
+      "frame": 8,
+      "hand_back": [
+        93,
+        57
+      ],
+      "hand_front": [
+        61,
+        58
+      ],
+      "local_frame": 4,
+      "muzzle": [
+        111,
+        49
+      ],
+      "registration": "Independent Idle carried arms on head-registered generated Walk body",
+      "shoulder_back": [
+        70,
+        47
+      ],
+      "shoulder_front": [
+        23,
+        47
+      ],
+      "source": "Source/Sampled/Walk/Full_04.png",
+      "support_grip": [
+        90,
+        57
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 1,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        66,
+        57
+      ],
+      "aseprite_tag": "walk_v1_normal"
+    },
+    {
+      "action": "Walk",
+      "duration_ms": 110,
+      "floor_boundary_y": 118,
+      "frame": 9,
+      "hand_back": [
+        91,
+        56
+      ],
+      "hand_front": [
+        59,
+        57
+      ],
+      "local_frame": 5,
+      "muzzle": [
+        109,
+        48
+      ],
+      "registration": "Independent Idle carried arms on head-registered generated Walk body",
+      "shoulder_back": [
+        67,
+        46
+      ],
+      "shoulder_front": [
+        21,
+        46
+      ],
+      "source": "Source/Sampled/Walk/Full_05.png",
+      "support_grip": [
+        88,
+        56
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 1,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        64,
+        56
+      ],
+      "aseprite_tag": "walk_v1_normal"
+    },
+    {
+      "action": "Walk",
+      "duration_ms": 110,
+      "floor_boundary_y": 118,
+      "frame": 10,
+      "hand_back": [
+        92,
+        56
+      ],
+      "hand_front": [
+        60,
+        57
+      ],
+      "local_frame": 6,
+      "muzzle": [
+        110,
+        48
+      ],
+      "registration": "Independent Idle carried arms on head-registered generated Walk body",
+      "shoulder_back": [
+        68,
+        47
+      ],
+      "shoulder_front": [
+        22,
+        47
+      ],
+      "source": "Source/Sampled/Walk/Full_06.png",
+      "support_grip": [
+        89,
+        56
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 1,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        65,
+        56
+      ],
+      "aseprite_tag": "walk_v1_normal"
+    },
+    {
+      "action": "Reload",
+      "duration_ms": 150,
+      "floor_boundary_y": 118,
+      "frame": 11,
+      "hand_back": [
+        91,
+        55
+      ],
+      "hand_front": [
+        54,
+        56
+      ],
+      "local_frame": 1,
+      "muzzle": [
+        104,
+        47
+      ],
+      "registration": "metal_axis",
+      "shoulder_back": [
+        65,
+        46
+      ],
+      "shoulder_front": [
+        21,
+        46
+      ],
+      "source": "Source/Sampled/Reload/Full_01.png",
+      "support_grip": [
+        83,
+        55
+      ],
+      "support_skin_distance": 2.23606797749979,
+      "trigger_skin_distance": 0,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        59,
+        55
+      ]
+    },
+    {
+      "action": "Reload",
+      "duration_ms": 150,
+      "floor_boundary_y": 118,
+      "frame": 12,
+      "hand_back": [
+        54,
+        56
+      ],
+      "hand_front": [
+        31,
+        62
+      ],
+      "local_frame": 2,
+      "muzzle": [
+        104,
+        47
+      ],
+      "registration": "Manually reviewed drawn hand registration",
+      "shoulder_back": [
+        64,
+        46
+      ],
+      "shoulder_front": [
+        21,
+        46
+      ],
+      "source": "Source/Sampled/Reload/Full_02.png",
+      "support_grip": [
+        83,
+        55
+      ],
+      "support_skin_distance": 21,
+      "trigger_skin_distance": 22.80350850198276,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        59,
+        55
+      ]
+    },
+    {
+      "action": "Reload",
+      "duration_ms": 150,
+      "floor_boundary_y": 118,
+      "frame": 13,
+      "hand_back": [
+        63,
+        54
+      ],
+      "hand_front": [
+        51,
+        56
+      ],
+      "local_frame": 3,
+      "muzzle": [
+        101,
+        47
+      ],
+      "registration": "Manually reviewed drawn hand registration",
+      "shoulder_back": [
+        64,
+        46
+      ],
+      "shoulder_front": [
+        21,
+        46
+      ],
+      "source": "Source/Sampled/Reload/Full_03.png",
+      "support_grip": [
+        80,
+        55
+      ],
+      "support_skin_distance": 13,
+      "trigger_skin_distance": 0,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        56,
+        55
+      ]
+    },
+    {
+      "action": "Reload",
+      "duration_ms": 150,
+      "floor_boundary_y": 118,
+      "frame": 14,
+      "hand_back": [
+        63,
+        54
+      ],
+      "hand_front": [
+        55,
+        56
+      ],
+      "local_frame": 4,
+      "muzzle": [
+        105,
+        47
+      ],
+      "registration": "Manually reviewed drawn hand registration",
+      "shoulder_back": [
+        65,
+        47
+      ],
+      "shoulder_front": [
+        21,
+        47
+      ],
+      "source": "Source/Sampled/Reload/Full_04.png",
+      "support_grip": [
+        84,
+        55
+      ],
+      "support_skin_distance": 17,
+      "trigger_skin_distance": 0,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        60,
+        55
+      ]
+    },
+    {
+      "action": "Reload",
+      "duration_ms": 150,
+      "floor_boundary_y": 118,
+      "frame": 15,
+      "hand_back": [
+        91,
+        56
+      ],
+      "hand_front": [
+        51,
+        55
+      ],
+      "local_frame": 5,
+      "muzzle": [
+        101,
+        46
+      ],
+      "registration": "Manually reviewed drawn hand registration",
+      "shoulder_back": [
+        64,
+        47
+      ],
+      "shoulder_front": [
+        20,
+        47
+      ],
+      "source": "Source/Sampled/Reload/Full_05.png",
+      "support_grip": [
+        80,
+        54
+      ],
+      "support_skin_distance": 11.40175425099138,
+      "trigger_skin_distance": 0,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        56,
+        54
+      ]
+    },
+    {
+      "action": "Reload",
+      "duration_ms": 150,
+      "floor_boundary_y": 118,
+      "frame": 16,
+      "hand_back": [
+        89,
+        55
+      ],
+      "hand_front": [
+        52,
+        56
+      ],
+      "local_frame": 6,
+      "muzzle": [
+        102,
+        47
+      ],
+      "registration": "metal_axis",
+      "shoulder_back": [
+        64,
+        45
+      ],
+      "shoulder_front": [
+        21,
+        45
+      ],
+      "source": "Source/Sampled/Reload/Full_06.png",
+      "support_grip": [
+        81,
+        55
+      ],
+      "support_skin_distance": 3.1622776601683795,
+      "trigger_skin_distance": 0,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        57,
+        55
+      ]
+    },
+    {
+      "action": "Aim",
+      "duration_ms": 140,
+      "floor_boundary_y": 118,
+      "frame": 17,
+      "hand_back": [
+        84,
+        73
+      ],
+      "hand_front": [
+        50,
+        61
+      ],
+      "local_frame": 1,
+      "muzzle": [
+        99,
+        72
+      ],
+      "registration": "metal_axis",
+      "shoulder_back": [
+        67,
+        47
+      ],
+      "shoulder_front": [
+        27,
+        47
+      ],
+      "source": "Source/Sampled/Aim/Full_01.png",
+      "support_grip": [
+        77,
+        70
+      ],
+      "support_skin_distance": 2.23606797749979,
+      "trigger_skin_distance": 0,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 25,
+      "weapon_pivot": [
+        55,
+        60
+      ]
+    },
+    {
+      "action": "Aim",
+      "duration_ms": 140,
+      "floor_boundary_y": 118,
+      "frame": 18,
+      "hand_back": [
+        93,
+        50
+      ],
+      "hand_front": [
+        54,
+        54
+      ],
+      "local_frame": 2,
+      "muzzle": [
+        103,
+        41
+      ],
+      "registration": "Manually reviewed drawn hand registration",
+      "shoulder_back": [
+        70,
+        46
+      ],
+      "shoulder_front": [
+        25,
+        46
+      ],
+      "source": "Source/Sampled/Aim/Full_02.png",
+      "support_grip": [
+        83,
+        51
+      ],
+      "support_skin_distance": 2,
+      "trigger_skin_distance": 1,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": -5,
+      "weapon_pivot": [
+        59,
+        53
+      ]
+    },
+    {
+      "action": "Aim",
+      "duration_ms": 140,
+      "floor_boundary_y": 118,
+      "frame": 19,
+      "hand_back": [
+        84,
+        49
+      ],
+      "hand_front": [
+        56,
+        47
+      ],
+      "local_frame": 3,
+      "muzzle": [
+        106,
+        38
+      ],
+      "registration": "Manually reviewed drawn hand registration",
+      "shoulder_back": [
+        68,
+        49
+      ],
+      "shoulder_front": [
+        25,
+        49
+      ],
+      "source": "Source/Sampled/Aim/Full_03.png",
+      "support_grip": [
+        85,
+        46
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 3.1622776601683795,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        61,
+        46
+      ]
+    },
+    {
+      "action": "Fire",
+      "duration_ms": 100,
+      "floor_boundary_y": 118,
+      "frame": 20,
+      "hand_back": [
+        89,
+        57
+      ],
+      "hand_front": [
+        56,
+        58
+      ],
+      "local_frame": 1,
+      "muzzle": [
+        106,
+        49
+      ],
+      "registration": "metal_axis",
+      "shoulder_back": [
+        68,
+        50
+      ],
+      "shoulder_front": [
+        25,
+        50
+      ],
+      "source": "Source/Sampled/Fire/Full_01.png",
+      "support_grip": [
+        85,
+        57
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 0,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        61,
+        57
+      ]
+    },
+    {
+      "action": "Fire",
+      "duration_ms": 70,
+      "floor_boundary_y": 118,
+      "frame": 21,
+      "hand_back": [
+        78,
+        53
+      ],
+      "hand_front": [
+        44,
+        60
+      ],
+      "local_frame": 2,
+      "muzzle": [
+        92,
+        45
+      ],
+      "registration": "Manually reviewed drawn hand registration",
+      "shoulder_back": [
+        61,
+        52
+      ],
+      "shoulder_front": [
+        19,
+        52
+      ],
+      "source": "Source/Sampled/Fire/Full_02.png",
+      "support_grip": [
+        73,
+        56
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 0,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": -8,
+      "weapon_pivot": [
+        49,
+        59
+      ]
+    },
+    {
+      "action": "Fire",
+      "duration_ms": 110,
+      "floor_boundary_y": 118,
+      "frame": 22,
+      "hand_back": [
+        89,
+        73
+      ],
+      "hand_front": [
+        59,
+        66
+      ],
+      "local_frame": 3,
+      "muzzle": [
+        109,
+        70
+      ],
+      "registration": "metal_axis",
+      "shoulder_back": [
+        75,
+        56
+      ],
+      "shoulder_front": [
+        28,
+        56
+      ],
+      "source": "Source/Sampled/Fire/Full_03.png",
+      "support_grip": [
+        87,
+        72
+      ],
+      "support_skin_distance": 0,
+      "trigger_skin_distance": 0,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 16,
+      "weapon_pivot": [
+        64,
+        65
+      ]
+    },
+    {
+      "action": "Fire",
+      "duration_ms": 150,
+      "floor_boundary_y": 118,
+      "frame": 23,
+      "hand_back": [
+        90,
+        57
+      ],
+      "hand_front": [
+        55,
+        58
+      ],
+      "local_frame": 4,
+      "muzzle": [
+        105,
+        47
+      ],
+      "registration": "metal_axis",
+      "shoulder_back": [
+        66,
+        51
+      ],
+      "shoulder_front": [
+        22,
+        51
+      ],
+      "source": "Source/Sampled/Fire/Full_04.png",
+      "support_grip": [
+        84,
+        56
+      ],
+      "support_skin_distance": 2,
+      "trigger_skin_distance": 0,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": -3,
+      "weapon_pivot": [
+        60,
+        57
+      ]
+    },
+    {
+      "action": "Collect",
+      "duration_ms": 170,
+      "floor_boundary_y": 118,
+      "frame": 24,
+      "hand_back": [
+        93,
+        81
+      ],
+      "hand_front": [
+        46,
+        60
+      ],
+      "local_frame": 1,
+      "muzzle": [
+        95,
+        71
+      ],
+      "registration": "metal_axis",
+      "shoulder_back": [
+        76,
+        43
+      ],
+      "shoulder_front": [
+        31,
+        43
+      ],
+      "source": "Source/Sampled/Collect/Full_01.png",
+      "support_grip": [
+        73,
+        69
+      ],
+      "support_skin_distance": 18.867962264113206,
+      "trigger_skin_distance": 0,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 25,
+      "weapon_pivot": [
+        51,
+        59
+      ]
+    },
+    {
+      "action": "Collect",
+      "duration_ms": 170,
+      "floor_boundary_y": 118,
+      "frame": 25,
+      "hand_back": [
+        100,
+        97
+      ],
+      "hand_front": [
+        45,
+        72
+      ],
+      "local_frame": 2,
+      "muzzle": [
+        93,
+        87
+      ],
+      "registration": "metal_axis",
+      "shoulder_back": [
+        82,
+        69
+      ],
+      "shoulder_front": [
+        30,
+        69
+      ],
+      "source": "Source/Sampled/Collect/Full_02.png",
+      "support_grip": [
+        71,
+        83
+      ],
+      "support_skin_distance": 26.832815729997478,
+      "trigger_skin_distance": 1,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 30,
+      "weapon_pivot": [
+        50,
+        71
+      ]
+    },
+    {
+      "action": "Collect",
+      "duration_ms": 170,
+      "floor_boundary_y": 118,
+      "frame": 26,
+      "hand_back": [
+        99,
+        77
+      ],
+      "hand_front": [
+        43,
+        72
+      ],
+      "local_frame": 3,
+      "muzzle": [
+        91,
+        85
+      ],
+      "registration": "metal_axis",
+      "shoulder_back": [
+        82,
+        66
+      ],
+      "shoulder_front": [
+        30,
+        66
+      ],
+      "source": "Source/Sampled/Collect/Full_03.png",
+      "support_grip": [
+        69,
+        82
+      ],
+      "support_skin_distance": 25.317977802344327,
+      "trigger_skin_distance": 0,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 28,
+      "weapon_pivot": [
+        48,
+        71
+      ]
+    },
+    {
+      "action": "Collect",
+      "duration_ms": 170,
+      "floor_boundary_y": 118,
+      "frame": 27,
+      "hand_back": [
+        90,
+        57
+      ],
+      "hand_front": [
+        46,
+        61
+      ],
+      "local_frame": 4,
+      "muzzle": [
+        96,
+        68
+      ],
+      "registration": "metal_axis",
+      "shoulder_back": [
+        72,
+        44
+      ],
+      "shoulder_front": [
+        27,
+        44
+      ],
+      "source": "Source/Sampled/Collect/Full_04.png",
+      "support_grip": [
+        74,
+        68
+      ],
+      "support_skin_distance": 15.556349186104045,
+      "trigger_skin_distance": 0,
+      "upper_offset_xy": [
+        0,
+        0
+      ],
+      "weapon_angle": 20,
+      "weapon_pivot": [
+        51,
+        60
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "aseprite_tag": "walk_v2_tactical",
+      "duration_ms": 140,
+      "floor_boundary_y": 118,
+      "frame": 28,
+      "hand_back": [
+        96,
+        52
+      ],
+      "hand_front": [
+        68,
+        50
+      ],
+      "head_ahead_of_hip_px": 19.756533700137553,
+      "head_center": [
+        70,
+        27.5
+      ],
+      "hip_center_x": 50.24346629986245,
+      "local_frame": 1,
+      "muzzle": [
+        118,
+        41
+      ],
+      "registration": "New generated inclined tactical body; independent authored Aim arms and immutable shotgun, head and cheek registration",
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalWalk/Source/Sampled/Body_01.png",
+      "source_scale": 0.2314410480349345,
+      "support_grip": [
+        97,
+        49
+      ],
+      "upper_offset_xy": [
+        12,
+        3
+      ],
+      "upper_source_action": "Aim",
+      "upper_source_frame": 19,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        73,
+        49
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "aseprite_tag": "walk_v2_tactical",
+      "duration_ms": 140,
+      "floor_boundary_y": 118,
+      "frame": 29,
+      "hand_back": [
+        96,
+        54
+      ],
+      "hand_front": [
+        68,
+        52
+      ],
+      "head_ahead_of_hip_px": 22.29953917050691,
+      "head_center": [
+        69.5,
+        29.5
+      ],
+      "hip_center_x": 47.20046082949309,
+      "local_frame": 2,
+      "muzzle": [
+        118,
+        43
+      ],
+      "registration": "New generated inclined tactical body; independent authored Aim arms and immutable shotgun, head and cheek registration",
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalWalk/Source/Sampled/Body_02.png",
+      "source_scale": 0.2314410480349345,
+      "support_grip": [
+        97,
+        51
+      ],
+      "upper_offset_xy": [
+        12,
+        5
+      ],
+      "upper_source_action": "Aim",
+      "upper_source_frame": 19,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        73,
+        51
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "aseprite_tag": "walk_v2_tactical",
+      "duration_ms": 140,
+      "floor_boundary_y": 118,
+      "frame": 30,
+      "hand_back": [
+        96,
+        53
+      ],
+      "hand_front": [
+        68,
+        51
+      ],
+      "head_ahead_of_hip_px": 24.56148867313916,
+      "head_center": [
+        69.5,
+        28.5
+      ],
+      "hip_center_x": 44.93851132686084,
+      "local_frame": 3,
+      "muzzle": [
+        118,
+        42
+      ],
+      "registration": "New generated inclined tactical body; independent authored Aim arms and immutable shotgun, head and cheek registration",
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalWalk/Source/Sampled/Body_03.png",
+      "source_scale": 0.2314410480349345,
+      "support_grip": [
+        97,
+        50
+      ],
+      "upper_offset_xy": [
+        12,
+        4
+      ],
+      "upper_source_action": "Aim",
+      "upper_source_frame": 19,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        73,
+        50
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "aseprite_tag": "walk_v2_tactical",
+      "duration_ms": 140,
+      "floor_boundary_y": 118,
+      "frame": 31,
+      "hand_back": [
+        96,
+        53
+      ],
+      "hand_front": [
+        68,
+        51
+      ],
+      "head_ahead_of_hip_px": 24.35735735735736,
+      "head_center": [
+        70,
+        28.5
+      ],
+      "hip_center_x": 45.64264264264264,
+      "local_frame": 4,
+      "muzzle": [
+        118,
+        42
+      ],
+      "registration": "New generated inclined tactical body; independent authored Aim arms and immutable shotgun, head and cheek registration",
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalWalk/Source/Sampled/Body_04.png",
+      "source_scale": 0.2314410480349345,
+      "support_grip": [
+        97,
+        50
+      ],
+      "upper_offset_xy": [
+        12,
+        4
+      ],
+      "upper_source_action": "Aim",
+      "upper_source_frame": 19,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        73,
+        50
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "aseprite_tag": "walk_v2_tactical",
+      "duration_ms": 140,
+      "floor_boundary_y": 118,
+      "frame": 32,
+      "hand_back": [
+        96,
+        53
+      ],
+      "hand_front": [
+        68,
+        51
+      ],
+      "head_ahead_of_hip_px": 20.347524752475245,
+      "head_center": [
+        69.5,
+        28.5
+      ],
+      "hip_center_x": 49.152475247524755,
+      "local_frame": 5,
+      "muzzle": [
+        118,
+        42
+      ],
+      "registration": "New generated inclined tactical body; independent authored Aim arms and immutable shotgun, head and cheek registration",
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalWalk/Source/Sampled/Body_05.png",
+      "source_scale": 0.2314410480349345,
+      "support_grip": [
+        97,
+        50
+      ],
+      "upper_offset_xy": [
+        12,
+        4
+      ],
+      "upper_source_action": "Aim",
+      "upper_source_frame": 19,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        73,
+        50
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "aseprite_tag": "walk_v2_tactical",
+      "duration_ms": 140,
+      "floor_boundary_y": 118,
+      "frame": 33,
+      "hand_back": [
+        96,
+        54
+      ],
+      "hand_front": [
+        68,
+        52
+      ],
+      "head_ahead_of_hip_px": 19.885772913816687,
+      "head_center": [
+        69.5,
+        29.5
+      ],
+      "hip_center_x": 49.61422708618331,
+      "local_frame": 6,
+      "muzzle": [
+        118,
+        43
+      ],
+      "registration": "New generated inclined tactical body; independent authored Aim arms and immutable shotgun, head and cheek registration",
+      "root_pivot": [
+        60,
+        118
+      ],
+      "source": "TacticalWalk/Source/Sampled/Body_06.png",
+      "source_scale": 0.2314410480349345,
+      "support_grip": [
+        97,
+        51
+      ],
+      "upper_offset_xy": [
+        12,
+        5
+      ],
+      "upper_source_action": "Aim",
+      "upper_source_frame": 19,
+      "weapon_angle": 0,
+      "weapon_pivot": [
+        73,
+        51
+      ]
+    }
+  ],
+  "layer_order": [
+    "Body",
+    "BackArm",
+    "Weapon",
+    "FrontArm",
+    "Ammo",
+    "Pickup",
+    "FX"
+  ],
+  "logical_floor_boundary_y": 118,
+  "method": "Base-locked built-in ImageGen action sheets + restored bodies; native Aseprite palette mapping, drawn arm masks, immutable independent shotgun",
+  "palette": [
+    "281e32",
+    "47243e",
+    "6d2949",
+    "ae615b",
+    "d98b77",
+    "f4bf9f",
+    "ffe1b4",
+    "fff5d7",
+    "57475f",
+    "7d6c86",
+    "aa9ba9",
+    "d7ccc8",
+    "744632",
+    "a7663a",
+    "d3934d",
+    "efb34a",
+    "ffdc78",
+    "4a5034",
+    "a1455e",
+    "d66b6e",
+    "ee403d",
+    "7b874f",
+    "30334d",
+    "424a61",
+    "7c8d9e",
+    "5f627a"
+  ],
+  "weapon_separate_in_idle": true,
+  "runtime_action_aliases": {
+    "Walk": "walk_v1_normal"
+  },
+  "tactical_runtime_connected": false
+}

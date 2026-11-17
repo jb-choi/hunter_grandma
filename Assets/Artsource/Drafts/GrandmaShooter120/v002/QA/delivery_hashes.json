@@ -1,0 +1,1752 @@
+[
+  {
+    "path": "asset_manifest.json",
+    "sha256": "89CD7542F7C6CC23EFFB199DDBF46B28A6FA67EBB5ECD06BBA2DF89114587754",
+    "bytes": 3578
+  },
+  {
+    "path": "grandma_01_sundeok_120.aseprite",
+    "sha256": "791A4674097B0ED5DF8498832F4C1366DBCC56408749491BF587EA2D0E389E5E",
+    "bytes": 146812
+  },
+  {
+    "path": "README.md",
+    "sha256": "E46FCA99DF10ED84E427802CC83C25DC19BA9F0F189AD50ADC950B6A2E8BDA47",
+    "bytes": 6959
+  },
+  {
+    "path": "sundeok_walk_aim_fire_demo.aseprite",
+    "sha256": "3F14EC425882518A9F85B86F65A50C834326C07E014CAF8DFC80FA0E95634185",
+    "bytes": 64922
+  },
+  {
+    "path": "Clips\\sundeok_aim.aseprite",
+    "sha256": "6B57814DD4CA83B3301DCEF6440B50E72299DD97428EB9F685770A51C38A6C85",
+    "bytes": 16785
+  },
+  {
+    "path": "Clips\\sundeok_collect.aseprite",
+    "sha256": "D9F7B2740F0BD822A1624483C0F482F5678F034ECBF2A3BBF6E7FD6C5DAFC13A",
+    "bytes": 22166
+  },
+  {
+    "path": "Clips\\sundeok_fire.aseprite",
+    "sha256": "36EF7014EEA6B2D6115447F1A8211DABA39C75F6A61FCEF755ECC44D8CD31089",
+    "bytes": 21405
+  },
+  {
+    "path": "Clips\\sundeok_idle.aseprite",
+    "sha256": "036A12210D32A6FC10B4EB5B9BEBF1CC75E8F54D36AC49BA5AF8DC5E6C52092A",
+    "bytes": 22716
+  },
+  {
+    "path": "Clips\\sundeok_reload.aseprite",
+    "sha256": "DECB23203E876305860E9077A2D17F71E3138DC98DBDBF2886EF8E0D7E2EF2FD",
+    "bytes": 33505
+  },
+  {
+    "path": "Clips\\sundeok_walk.aseprite",
+    "sha256": "142C54931371BB76854D4CB8C90638978D6E4F21C45765B7BB6856AB38907A5D",
+    "bytes": 33030
+  },
+  {
+    "path": "Export\\sundeok_26.gpl",
+    "sha256": "7AA90C550B0B9ADEA600CC301ED1D0B09DE94C8C6D848A939F038258DD6D963F",
+    "bytes": 607
+  },
+  {
+    "path": "Export\\sundeok_fire.png",
+    "sha256": "735FA6CD854BA47051CD21FA702103885246E50C9D0F8A28354F3FA50FE5A163",
+    "bytes": 6812
+  },
+  {
+    "path": "Export\\sundeok_idle.png",
+    "sha256": "C09A8245EE4DC61DD6DAB6FBF30C194A4359BAB04956AC70E48FF5BD349D8DB9",
+    "bytes": 7543
+  },
+  {
+    "path": "Export\\sundeok_locked.png",
+    "sha256": "A18E5117CCCBE4814368EA61D15EE95C182A2D7EBDC35ED7D0613F23A28D4A83",
+    "bytes": 880
+  },
+  {
+    "path": "Export\\sundeok_parts.json",
+    "sha256": "5454D5A611D77F2AEBE8F459EEA3E144BB166D5FA39E1DE37BE0839A71A77003",
+    "bytes": 49002
+  },
+  {
+    "path": "Export\\sundeok_portrait.png",
+    "sha256": "20CC492C60F9480EFF69B48B5D15C2207F2E2B5228BD3942E1A7BE79213902E4",
+    "bytes": 5243
+  },
+  {
+    "path": "Export\\Frames\\Aim\\sundeok_aim_01.png",
+    "sha256": "468D5805F7D7A1598A7D6CB8397A23A54F6BB254E2EB10AF20D7179B69DCC0F0",
+    "bytes": 7078
+  },
+  {
+    "path": "Export\\Frames\\Aim\\sundeok_aim_02.png",
+    "sha256": "42A670754A9A6E3F204DEF5154D608575D62365B7D753A52A6E8D0BB2A215EF8",
+    "bytes": 7080
+  },
+  {
+    "path": "Export\\Frames\\Aim\\sundeok_aim_03.png",
+    "sha256": "86369CB4521256801C43627E7FE1BF419DD472A95930796DBBEA3E58D16B3806",
+    "bytes": 6715
+  },
+  {
+    "path": "Export\\Frames\\Collect\\sundeok_collect_01.png",
+    "sha256": "7D77A4A79BD7BDF9C44DB151FFA68EB4E17DA430E2CF838B6156A8808525413C",
+    "bytes": 7453
+  },
+  {
+    "path": "Export\\Frames\\Collect\\sundeok_collect_02.png",
+    "sha256": "86505911542CEF6AB2247A5E79501DB4351AD756F4168C7BDD157025D954DAC6",
+    "bytes": 6473
+  },
+  {
+    "path": "Export\\Frames\\Collect\\sundeok_collect_03.png",
+    "sha256": "A4A17D255CE12A341A360618D0F8A11CCF2AC0BC1058CEF681FE6BE4ED9D7AFB",
+    "bytes": 6556
+  },
+  {
+    "path": "Export\\Frames\\Collect\\sundeok_collect_04.png",
+    "sha256": "7BAB792E3D20BF81077FAD3C1E7443E3D06D0D0E851EB74F020F4C4ED1B089A5",
+    "bytes": 7134
+  },
+  {
+    "path": "Export\\Frames\\Fire\\sundeok_fire_01.png",
+    "sha256": "735FA6CD854BA47051CD21FA702103885246E50C9D0F8A28354F3FA50FE5A163",
+    "bytes": 6812
+  },
+  {
+    "path": "Export\\Frames\\Fire\\sundeok_fire_02.png",
+    "sha256": "ECB9A8CEA0DD661F502A45F8822CC0426489C25473B23DF4DAD25A2AAD5855B8",
+    "bytes": 6919
+  },
+  {
+    "path": "Export\\Frames\\Fire\\sundeok_fire_03.png",
+    "sha256": "6B8EA8FB3CFC7280D02AB31BD503ECC909480297DCD37443242E71B6E55FF000",
+    "bytes": 6579
+  },
+  {
+    "path": "Export\\Frames\\Fire\\sundeok_fire_04.png",
+    "sha256": "D28FC07EF8BF5253FBDF4FC78C5FA903DA5B8E6EB7EA6614D57D5173590A5727",
+    "bytes": 6863
+  },
+  {
+    "path": "Export\\Frames\\Idle\\sundeok_idle_01.png",
+    "sha256": "C09A8245EE4DC61DD6DAB6FBF30C194A4359BAB04956AC70E48FF5BD349D8DB9",
+    "bytes": 7543
+  },
+  {
+    "path": "Export\\Frames\\Idle\\sundeok_idle_02.png",
+    "sha256": "55529F8AC2D95A8C1B13E771B2827079D81AE1CAFE1725BDDA36468A330BE8EF",
+    "bytes": 7446
+  },
+  {
+    "path": "Export\\Frames\\Idle\\sundeok_idle_03.png",
+    "sha256": "5272EB051D6B367126CD45108B83C52C29DEB9ADEB22A0DD9D283917880BF3A4",
+    "bytes": 7337
+  },
+  {
+    "path": "Export\\Frames\\Idle\\sundeok_idle_04.png",
+    "sha256": "76235520E9E71B7EB8A60278A427447CE0CAE9A2ABE6C8821BE30D4EA228976E",
+    "bytes": 7555
+  },
+  {
+    "path": "Export\\Frames\\Reload\\sundeok_reload_01.png",
+    "sha256": "D04CF77997C7BA08024E87020234C5353FFA29EC4E8EF19ECF1C2D1537C024E7",
+    "bytes": 7664
+  },
+  {
+    "path": "Export\\Frames\\Reload\\sundeok_reload_02.png",
+    "sha256": "97DA082A552AC3339169C048805210744926609D4F27B748B3DA015868E00E4E",
+    "bytes": 7403
+  },
+  {
+    "path": "Export\\Frames\\Reload\\sundeok_reload_03.png",
+    "sha256": "29FA7E3689ED46CB92379129AB6EC33FDDB9889A0A17BA0F31413248F369600A",
+    "bytes": 6981
+  },
+  {
+    "path": "Export\\Frames\\Reload\\sundeok_reload_04.png",
+    "sha256": "9B3B09250D54B637C642556D7AE9E04F2EA12688BD354FA2DFDF4A7A2DD29A8E",
+    "bytes": 7187
+  },
+  {
+    "path": "Export\\Frames\\Reload\\sundeok_reload_05.png",
+    "sha256": "91DA73980560752918DDD5CF6F3EC0A11E152DF23F9E631C2417499D900D723A",
+    "bytes": 7163
+  },
+  {
+    "path": "Export\\Frames\\Reload\\sundeok_reload_06.png",
+    "sha256": "9A678A9DDBABA9BB297F2CB0EBE88C72991E81CBBB9CF4C433FFB2CE18C4F6E3",
+    "bytes": 7208
+  },
+  {
+    "path": "Export\\Frames\\Walk\\sundeok_walk_01.png",
+    "sha256": "4EA6E439E54E26DC5E47D5DD87F49E32678FB997F8840266FC41FEA4AE04F20A",
+    "bytes": 7638
+  },
+  {
+    "path": "Export\\Frames\\Walk\\sundeok_walk_02.png",
+    "sha256": "33EA65D666FFD2CEED14429A6442B2C7A479259EBDC9F35B79315AA25CE173BD",
+    "bytes": 7153
+  },
+  {
+    "path": "Export\\Frames\\Walk\\sundeok_walk_03.png",
+    "sha256": "69346CE4923024D002AAC67DC993AEB3C6E67D28578768D0385ACA1A48BDFCF5",
+    "bytes": 7513
+  },
+  {
+    "path": "Export\\Frames\\Walk\\sundeok_walk_04.png",
+    "sha256": "05CD4B26E2C38D3A9B6B307A4DE781786EF44D6BB7DA5A096832A27BCDCD6A88",
+    "bytes": 7434
+  },
+  {
+    "path": "Export\\Frames\\Walk\\sundeok_walk_05.png",
+    "sha256": "774DE0E14F13DC310392ECBBB086FAE53AD798048C2AA91237EC5470270F1039",
+    "bytes": 7519
+  },
+  {
+    "path": "Export\\Frames\\Walk\\sundeok_walk_06.png",
+    "sha256": "AF77E4DF6241A9CE71E2248126490976E54E37E877E0E08A0044E8036A3D4B77",
+    "bytes": 7468
+  },
+  {
+    "path": "Export\\Gifs\\sundeok_aim.gif",
+    "sha256": "06AD49DF229DF276492FFEF62026B8322D942E13D0034AE0E71032F030AB912D",
+    "bytes": 8208
+  },
+  {
+    "path": "Export\\Gifs\\sundeok_collect.gif",
+    "sha256": "D07C81D1DE11A5FDF16369DF25D340F1975D305AE22C711B872950E30A2E17C0",
+    "bytes": 10326
+  },
+  {
+    "path": "Export\\Gifs\\sundeok_fire.gif",
+    "sha256": "AB24B5A0DAA72D88DA6C5F161577BD46FC6118BB5BCB1EB37A76D70947C09A8C",
+    "bytes": 10192
+  },
+  {
+    "path": "Export\\Gifs\\sundeok_idle.gif",
+    "sha256": "C077B041ADF29D2C90F3702C6906A7BE39B426A4DAC51EDFA4846CC9CF6D5D76",
+    "bytes": 11146
+  },
+  {
+    "path": "Export\\Gifs\\sundeok_reload.gif",
+    "sha256": "9C30CD85EA191C606DE5535BFB373726320951CC3262A32F34C9ADEB2CDC2CCA",
+    "bytes": 16489
+  },
+  {
+    "path": "Export\\Gifs\\sundeok_walk_aim_fire.gif",
+    "sha256": "2A8C687BB0EB54CE53D32AA5C8FDDBE7F35B1277D1C677471C76A59F2A588968",
+    "bytes": 32263
+  },
+  {
+    "path": "Export\\Gifs\\sundeok_walk.gif",
+    "sha256": "ED6C3C8A706EC487ED1EEAE3CB1E5C4CD001AFDA50F4D33429A3A403CC0CA1A1",
+    "bytes": 16424
+  },
+  {
+    "path": "Export\\Left\\Aim\\sundeok_aim_01.png",
+    "sha256": "12A5336409FF263F8D85E0E3DA0016A2C03C729500D60FF3BE5D269298CA1066",
+    "bytes": 7083
+  },
+  {
+    "path": "Export\\Left\\Aim\\sundeok_aim_02.png",
+    "sha256": "48ECA6542DD4EDDF5FC7F323982CCBD865515AA72A01E211B644CCD5AE3AB444",
+    "bytes": 7122
+  },
+  {
+    "path": "Export\\Left\\Aim\\sundeok_aim_03.png",
+    "sha256": "9FDA72D3E964B808E1EA9F15B95BA58EA84F6224004EBB6E7C728A07373FD4C4",
+    "bytes": 6769
+  },
+  {
+    "path": "Export\\Left\\Collect\\sundeok_collect_01.png",
+    "sha256": "8100BF24241F49D56AE3EEA3B6ABB17C44D665B7571D02BA9DDF9E20AA371E93",
+    "bytes": 7376
+  },
+  {
+    "path": "Export\\Left\\Collect\\sundeok_collect_02.png",
+    "sha256": "21BCFAE24106818101E35E2E8562AF92006B71132EF5629CCCC521746D30BD4B",
+    "bytes": 6562
+  },
+  {
+    "path": "Export\\Left\\Collect\\sundeok_collect_03.png",
+    "sha256": "243BEC2FC277467ACF1CE32DD5A10C55723B3D3982BFCE41440F1124F469AED6",
+    "bytes": 6709
+  },
+  {
+    "path": "Export\\Left\\Collect\\sundeok_collect_04.png",
+    "sha256": "2B3472F3F044C42EBABEF5446180E5304016EC33F2F7556480D68D6C47114E18",
+    "bytes": 7072
+  },
+  {
+    "path": "Export\\Left\\Fire\\sundeok_fire_01.png",
+    "sha256": "BC52A889FAF91D73A5D67D026917FCDE546912AE5857C240BE5E067463C32432",
+    "bytes": 6825
+  },
+  {
+    "path": "Export\\Left\\Fire\\sundeok_fire_02.png",
+    "sha256": "6B84A7607E6595B62943635313387BA54868B56F2D494F71234ADF8A2EBBFFE4",
+    "bytes": 6721
+  },
+  {
+    "path": "Export\\Left\\Fire\\sundeok_fire_03.png",
+    "sha256": "EE5B7AE6E46EB6B80CD8F0AFEAAA7C40C77A69E2ED605CBC6E03BCA755212C86",
+    "bytes": 6725
+  },
+  {
+    "path": "Export\\Left\\Fire\\sundeok_fire_04.png",
+    "sha256": "1E6E2E64B40D497A4229513A4CEBC2366642E18C45E29FA7F30BD7D395EAB433",
+    "bytes": 6991
+  },
+  {
+    "path": "Export\\Left\\Idle\\sundeok_idle_01.png",
+    "sha256": "78305DF82B390FAE101DAA30404DD5F1D2962DB09785CD78703043E1039B2D13",
+    "bytes": 7471
+  },
+  {
+    "path": "Export\\Left\\Idle\\sundeok_idle_02.png",
+    "sha256": "7A0F76E15EFABD01BFBFDCC1026FCE9D27BE3C9FF31AA7AE8FE689F152CF3FA8",
+    "bytes": 7378
+  },
+  {
+    "path": "Export\\Left\\Idle\\sundeok_idle_03.png",
+    "sha256": "651BCBA32079508D8E023263A307E2A5D8D06F213A10E64C36A473510C768AFA",
+    "bytes": 7081
+  },
+  {
+    "path": "Export\\Left\\Idle\\sundeok_idle_04.png",
+    "sha256": "F9B3E15F5A5DEC2AAD4848E0E128AA3C000DC11476CC01C76B370962F95A5DF1",
+    "bytes": 7458
+  },
+  {
+    "path": "Export\\Left\\Reload\\sundeok_reload_01.png",
+    "sha256": "F6A45EF294E252F3FC66236E02B297E9E348721F7535614E21E8A95AC5E6188C",
+    "bytes": 7705
+  },
+  {
+    "path": "Export\\Left\\Reload\\sundeok_reload_02.png",
+    "sha256": "4C97D7B742ADEF70F8D015E54102DD2B4AFDBB54FAE76DC923654BA46648E3BA",
+    "bytes": 7334
+  },
+  {
+    "path": "Export\\Left\\Reload\\sundeok_reload_03.png",
+    "sha256": "BF7BA4F9664E6446A482A7F274D87E8372D6C0569BB605F22F4515F7C249B87F",
+    "bytes": 7207
+  },
+  {
+    "path": "Export\\Left\\Reload\\sundeok_reload_04.png",
+    "sha256": "725BCF6DAA87F51798830792E037598C5421E65581BEF16DDAF9408375CBD48F",
+    "bytes": 7270
+  },
+  {
+    "path": "Export\\Left\\Reload\\sundeok_reload_05.png",
+    "sha256": "92D093BF4F41CE18DC0E6CDFB3E8FA5978812A66AD9C96CAA8F391979F3FC87B",
+    "bytes": 7355
+  },
+  {
+    "path": "Export\\Left\\Reload\\sundeok_reload_06.png",
+    "sha256": "8B7F91190AAFEABD1A31033F57FDC1FC475C42F46A863E043800C0C5A5E89B77",
+    "bytes": 7450
+  },
+  {
+    "path": "Export\\Left\\Walk\\sundeok_walk_01.png",
+    "sha256": "4FF2ABAA74CDFC5D0273791F28A6303E5A7259A7982FF0CFDEA03BA8DB055998",
+    "bytes": 7372
+  },
+  {
+    "path": "Export\\Left\\Walk\\sundeok_walk_02.png",
+    "sha256": "B6A0A1A27B5C49DEE9244CBE28651ECFBC95B95DE2296D63D3472E6B53E25C04",
+    "bytes": 7088
+  },
+  {
+    "path": "Export\\Left\\Walk\\sundeok_walk_03.png",
+    "sha256": "63AE83D158A8E0F02C852AC9515E37CB56049725D82613F998E1AC7D4B135E1C",
+    "bytes": 7324
+  },
+  {
+    "path": "Export\\Left\\Walk\\sundeok_walk_04.png",
+    "sha256": "E89DC583C86C4A2D9A4892E466521D0D132B23BA37DE184AA31A2F03566FAEF5",
+    "bytes": 7330
+  },
+  {
+    "path": "Export\\Left\\Walk\\sundeok_walk_05.png",
+    "sha256": "0ED04DBA1114C98309B183472CA30DBB52F7634DB3E7D859D0941AAEFE5E1EE9",
+    "bytes": 7347
+  },
+  {
+    "path": "Export\\Left\\Walk\\sundeok_walk_06.png",
+    "sha256": "572706F2EE96C0D5C8EB868F2933C948E4B75196D45E05B0CAEF25B69A6CF218",
+    "bytes": 7381
+  },
+  {
+    "path": "Export\\Sheets\\sundeok_aim.json",
+    "sha256": "5BE28D72C6347D664E25F64827C5F6C7B4BFD2FCE3A453AA98FE4A83157C75FA",
+    "bytes": 611
+  },
+  {
+    "path": "Export\\Sheets\\sundeok_aim.png",
+    "sha256": "F9583BC941AFB4DA6F2DE81265D932D6A21C3C103F57228DAFD9427066AFE7AA",
+    "bytes": 17975
+  },
+  {
+    "path": "Export\\Sheets\\sundeok_collect.json",
+    "sha256": "8D64A0FE641D2BE73492C90D671AE3B6257385B96AC37EC8D84E3847C2D87DE5",
+    "bytes": 806
+  },
+  {
+    "path": "Export\\Sheets\\sundeok_collect.png",
+    "sha256": "1CE7529E4E57BCA07F4253041FC68B7232955264B8142CBBCF94B515CA218C33",
+    "bytes": 22754
+  },
+  {
+    "path": "Export\\Sheets\\sundeok_fire.json",
+    "sha256": "D9C87F15845B7A148C8C985F5CF3541EAD66E7BA4FB9DC9D0F7BA19069AC8C6E",
+    "bytes": 781
+  },
+  {
+    "path": "Export\\Sheets\\sundeok_fire.png",
+    "sha256": "2BF6C78A989C0A4935F63FA0520270E87619DD5D44FD94916A774D8FF94D62C1",
+    "bytes": 22311
+  },
+  {
+    "path": "Export\\Sheets\\sundeok_idle.json",
+    "sha256": "6D1CFF726A324A50666EE870C42CB8CE1653AC92C35E88842564C24839C67465",
+    "bytes": 782
+  },
+  {
+    "path": "Export\\Sheets\\sundeok_idle.png",
+    "sha256": "1983F3BB649488CADADBB511D13F13DF1D083C51815C8B8B12A4131AAEABC9AC",
+    "bytes": 21986
+  },
+  {
+    "path": "Export\\Sheets\\sundeok_reload.json",
+    "sha256": "A915629CDDE1F7BDAE1C954D457314950944EEA46923E9E32A5ED8C45F466F89",
+    "bytes": 1136
+  },
+  {
+    "path": "Export\\Sheets\\sundeok_reload.png",
+    "sha256": "91924776B479D5DCCAB5B0194136F1DCCB8E6CA67463EC01E02803A0B53C54E3",
+    "bytes": 31888
+  },
+  {
+    "path": "Export\\Sheets\\sundeok_walk.json",
+    "sha256": "EBD0A3317EA81D5126D747BE10ED8BA257F2A4E494676EF901B42B87744C4214",
+    "bytes": 1112
+  },
+  {
+    "path": "Export\\Sheets\\sundeok_walk.png",
+    "sha256": "1833E5328A0556ABF274B8E0353AB7271D813BEEDCA70399F8B58863033863D2",
+    "bytes": 28221
+  },
+  {
+    "path": "Parts\\Aim\\BackArm_01.png",
+    "sha256": "0EE909658B5C56E5B6524EA63C25380367BF415F6764EA814BA928D1D29C6192",
+    "bytes": 965
+  },
+  {
+    "path": "Parts\\Aim\\BackArm_02.png",
+    "sha256": "A0B086E8C77EFA14A1BAB7C3F5FABD5BC497DB1A16BB31229D0ED8754B57DE5B",
+    "bytes": 864
+  },
+  {
+    "path": "Parts\\Aim\\BackArm_03.png",
+    "sha256": "4F7F28CDE43F9EC8701C1B8FBFC2A9E23F1DC7DFDF521BDFE862D94B5DB8FB8B",
+    "bytes": 825
+  },
+  {
+    "path": "Parts\\Aim\\Body_01.png",
+    "sha256": "9C095BB0FA8F78419AD2CC26E0F8EB495E219687C43FFE780F698EF9A5C69273",
+    "bytes": 6040
+  },
+  {
+    "path": "Parts\\Aim\\Body_02.png",
+    "sha256": "B18A2E41B904813DF8442EE943304CFBE92AD92C1D5C15770579B4CBD85BDF60",
+    "bytes": 5943
+  },
+  {
+    "path": "Parts\\Aim\\Body_03.png",
+    "sha256": "A0EE9E796C7739C993BC72D3560B38B18044A0AFD7117F6853FC2BD8DDA319D6",
+    "bytes": 5838
+  },
+  {
+    "path": "Parts\\Aim\\FrontArm_01.png",
+    "sha256": "386B7EA2737EB2FEE38C63B64C42B3CE38E02AFDD407468253134E006412CC1E",
+    "bytes": 1104
+  },
+  {
+    "path": "Parts\\Aim\\FrontArm_02.png",
+    "sha256": "265DB3E6A06E5B309CDBCB535A95CB8A9BF3AC8BFC4F6AF680E185B2EE76708F",
+    "bytes": 1078
+  },
+  {
+    "path": "Parts\\Aim\\FrontArm_03.png",
+    "sha256": "9EC0229FA49661A7A7CB1F2D38DEBD7DB6313C23B57FDFD1BD8E320778481CBF",
+    "bytes": 1028
+  },
+  {
+    "path": "Parts\\Aim\\Weapon_01.png",
+    "sha256": "EE80FBE1FF83E4C6C0705AACD8627192452A860971F2FFDAA2F643BE7CA1F26C",
+    "bytes": 1240
+  },
+  {
+    "path": "Parts\\Aim\\Weapon_02.png",
+    "sha256": "F43E24D7ACEA9D28627F687A2272108A5BC35A524CDCEB3F8B6316FB8DD515EB",
+    "bytes": 1107
+  },
+  {
+    "path": "Parts\\Aim\\Weapon_03.png",
+    "sha256": "EDA6A3A3054585E3330E970F4F72B27CADA7799C521F501108EE6B9DA82E9B70",
+    "bytes": 1010
+  },
+  {
+    "path": "Parts\\Collect\\BackArm_01.png",
+    "sha256": "AACB9FA8D5C827BC939AD3C8AF3DAE71CE3AC613DB6499CD16503190F7DD6454",
+    "bytes": 1110
+  },
+  {
+    "path": "Parts\\Collect\\BackArm_02.png",
+    "sha256": "D17EEB0BB65FAF5ED462914C034BABDB625B3F1D9322010F3830C5DE85803807",
+    "bytes": 1009
+  },
+  {
+    "path": "Parts\\Collect\\BackArm_03.png",
+    "sha256": "5EB59DFA85F5D58035FD2EE26CD5FB40ADE19D083D2AB1B52BAF771CD944E644",
+    "bytes": 947
+  },
+  {
+    "path": "Parts\\Collect\\BackArm_04.png",
+    "sha256": "C4E68B4E7D5BC2AA4A868EFBCCE43D0A6E55662D01CF42ACB6E605F3A48AC36C",
+    "bytes": 982
+  },
+  {
+    "path": "Parts\\Collect\\Body_01.png",
+    "sha256": "AB8D87D62D1B3901A406D6A81BE0E4EA7D334BD5914D2DC9C3A815F7578A00A2",
+    "bytes": 5882
+  },
+  {
+    "path": "Parts\\Collect\\Body_02.png",
+    "sha256": "E906400983E04399F055526E81E771FE300B1160EA627B7153BDDBA6B37977A2",
+    "bytes": 5297
+  },
+  {
+    "path": "Parts\\Collect\\Body_03.png",
+    "sha256": "4FE1EBDD28FE8A839053CC1A61E541A97C29035A7979EC43A47F57FF395E85B7",
+    "bytes": 5507
+  },
+  {
+    "path": "Parts\\Collect\\Body_04.png",
+    "sha256": "E618DFAB0A0BA5CA4F88771D9D55640459ACD5E781E16C649E1AF5BA0668D464",
+    "bytes": 5617
+  },
+  {
+    "path": "Parts\\Collect\\FrontArm_01.png",
+    "sha256": "27F6C2A22914EDC12F5158EBC79DE8D768B60B7609CFAAAC0BF9137C1D69DCF2",
+    "bytes": 984
+  },
+  {
+    "path": "Parts\\Collect\\FrontArm_02.png",
+    "sha256": "B3336BEF9EAFF4E281C3C9274687BAC2F6098C0E3E0A00614A475F3D6D04A50C",
+    "bytes": 867
+  },
+  {
+    "path": "Parts\\Collect\\FrontArm_03.png",
+    "sha256": "C74CDA255FD07C7B7D38A43314461E5DAB81E46C2936A9FB1F5F7A88B286DFBB",
+    "bytes": 922
+  },
+  {
+    "path": "Parts\\Collect\\FrontArm_04.png",
+    "sha256": "738A3B5F40AAFB7373287C91B26B21AA9FDA6E8D299A7EE723D57209C8BE3C17",
+    "bytes": 993
+  },
+  {
+    "path": "Parts\\Collect\\Pickup_01.png",
+    "sha256": "A16954DC8B9204037DA178E492B3899CECEE382E452938B65054D3F1358F2F18",
+    "bytes": 362
+  },
+  {
+    "path": "Parts\\Collect\\Pickup_02.png",
+    "sha256": "38741389EDCCB9C4120D76F26F9CA9B6C5664C2084DB1A95B626116D2E371B4A",
+    "bytes": 371
+  },
+  {
+    "path": "Parts\\Collect\\Pickup_03.png",
+    "sha256": "37D245B1DAF500B530332BD891E8B1552B349BBE52F5DC36E4FCEA04698CBC6B",
+    "bytes": 398
+  },
+  {
+    "path": "Parts\\Collect\\Pickup_04.png",
+    "sha256": "AFF0FBE49D7497F85CC2D91DA54CBC42E72B7118D3AE17211D653B38116EC8DE",
+    "bytes": 386
+  },
+  {
+    "path": "Parts\\Collect\\Weapon_01.png",
+    "sha256": "ECC86B20BE085F34EB148E347FFC2C137BB43C8E922E790EB28F7BCD5590A1FB",
+    "bytes": 1265
+  },
+  {
+    "path": "Parts\\Collect\\Weapon_02.png",
+    "sha256": "8B9E80C6F70C3FE630F553A912301C14BA0BD6F7484FCF1778D062122F159E89",
+    "bytes": 1319
+  },
+  {
+    "path": "Parts\\Collect\\Weapon_03.png",
+    "sha256": "4856B4458AE90029C9DF418C6EEFCB6CD75625A6C13D38387A88D385AF320D66",
+    "bytes": 1261
+  },
+  {
+    "path": "Parts\\Collect\\Weapon_04.png",
+    "sha256": "13DB7623EB45110D1646AD3225F5A33F94149992BA5943F460B8AE7DB2E5FB31",
+    "bytes": 1266
+  },
+  {
+    "path": "Parts\\Fire\\BackArm_01.png",
+    "sha256": "1F49C6EDBAF44106F8C492C4189859DFF2BDBB86ADD54371C9A5439797EC2521",
+    "bytes": 813
+  },
+  {
+    "path": "Parts\\Fire\\BackArm_02.png",
+    "sha256": "172749788DB0A50C4934EC846F4A1867A83EF6BC12D1E73FF688A78B103A846D",
+    "bytes": 855
+  },
+  {
+    "path": "Parts\\Fire\\BackArm_03.png",
+    "sha256": "24A93A0DE4994E5D4D8CE377DA5A6F5BF53D7F97D8D65061E2AD722B01514D1C",
+    "bytes": 933
+  },
+  {
+    "path": "Parts\\Fire\\BackArm_04.png",
+    "sha256": "77FFD9D8DEBECB993CC2AFDA8A0F93303F146AAE121A86DA4241754EE98CD003",
+    "bytes": 827
+  },
+  {
+    "path": "Parts\\Fire\\Body_01.png",
+    "sha256": "48A53F9B903A60BC423B0D165ACD9CDA1FDECF792E00BFE4F4F005D5DE3229B9",
+    "bytes": 5980
+  },
+  {
+    "path": "Parts\\Fire\\Body_02.png",
+    "sha256": "DDDD131914A8FF52F7AA4FD6BDAB917E06EA6C6A69FC4D5ACE729520DE7AA850",
+    "bytes": 5988
+  },
+  {
+    "path": "Parts\\Fire\\Body_03.png",
+    "sha256": "E6ED5D6B24987A2B4740F37680808B6872C6D6301DBB2B5D6F0B36A8B47D920D",
+    "bytes": 5576
+  },
+  {
+    "path": "Parts\\Fire\\Body_04.png",
+    "sha256": "2994C8954878074CCE8E3D6F93E86F88A3DE5BE67358F66C48F6BBEC7B96444D",
+    "bytes": 5904
+  },
+  {
+    "path": "Parts\\Fire\\FrontArm_01.png",
+    "sha256": "F127C644C86F268018AC7C076F25C3A827B2EBF87B45E971276BE1741E817BFE",
+    "bytes": 1036
+  },
+  {
+    "path": "Parts\\Fire\\FrontArm_02.png",
+    "sha256": "68B872B8567A7497C2487A391BC084D30290DA40BB9EF50307B247B788A52051",
+    "bytes": 1023
+  },
+  {
+    "path": "Parts\\Fire\\FrontArm_03.png",
+    "sha256": "4741BE2DBB063B01E61C2EE07F5D79AC2365DFCBB34E57A22A5498A5AF5E2E3F",
+    "bytes": 1078
+  },
+  {
+    "path": "Parts\\Fire\\FrontArm_04.png",
+    "sha256": "78D64A5C5A742C85B7283391E73DDB54EFE0409A50C28432EF6896E5B01EDE6A",
+    "bytes": 990
+  },
+  {
+    "path": "Parts\\Fire\\FX_02.png",
+    "sha256": "B38EA8F80094527F2B177F2A2504244434E1CB620FDD2CF52CB96C3F902BCF88",
+    "bytes": 136
+  },
+  {
+    "path": "Parts\\Fire\\Weapon_01.png",
+    "sha256": "EDA6A3A3054585E3330E970F4F72B27CADA7799C521F501108EE6B9DA82E9B70",
+    "bytes": 1010
+  },
+  {
+    "path": "Parts\\Fire\\Weapon_02.png",
+    "sha256": "EBEFE255C1E2C6D4D3BDD23C62DD5744653C5BCC1FB3FB9A151C916C7B14F2F6",
+    "bytes": 1151
+  },
+  {
+    "path": "Parts\\Fire\\Weapon_03.png",
+    "sha256": "33B93DA507CF95FDECDEB95519A816BCB77B34B6EE7A0BCEB8614C6CCB204EAC",
+    "bytes": 1160
+  },
+  {
+    "path": "Parts\\Fire\\Weapon_04.png",
+    "sha256": "265F0DC8D883BCA7029263D8ED76BB0A68822C302E37A220E919932B7A3F8135",
+    "bytes": 1077
+  },
+  {
+    "path": "Parts\\Idle\\BackArm_01.png",
+    "sha256": "016251F83263858EF0E4C6E2B1ECA4C8E20B32A0D2CFF3CAB5AFA8E6C5E39D89",
+    "bytes": 859
+  },
+  {
+    "path": "Parts\\Idle\\BackArm_02.png",
+    "sha256": "F74242E0D1107FB0CB203AC3086C87969C901DB72F949AE3F245F01E6CB44B65",
+    "bytes": 901
+  },
+  {
+    "path": "Parts\\Idle\\BackArm_03.png",
+    "sha256": "E50C2BC1C0F686509F8DC63013DFB5419D4BFFD37F196CAA0B4C0E3625465484",
+    "bytes": 867
+  },
+  {
+    "path": "Parts\\Idle\\BackArm_04.png",
+    "sha256": "61FE7F38B96E1F938D1F3C9CDFDF3357F0D4ADB22C8A962B2E8E7225D3D5A67E",
+    "bytes": 899
+  },
+  {
+    "path": "Parts\\Idle\\Body_01.png",
+    "sha256": "43F17018D1DAC39C53042410443D532EAF867C102468B3872970339B4D63F1E2",
+    "bytes": 6561
+  },
+  {
+    "path": "Parts\\Idle\\Body_02.png",
+    "sha256": "A3574B9E4BF40D7DD852A541D292F96B8A9B979EB88B1C7B5B57ED88E0172659",
+    "bytes": 6371
+  },
+  {
+    "path": "Parts\\Idle\\Body_03.png",
+    "sha256": "142570BD8E7AF85402117E96B5314E99D0364B26368735F88DB592113BCB660D",
+    "bytes": 6330
+  },
+  {
+    "path": "Parts\\Idle\\Body_04.png",
+    "sha256": "D948A82A689FCB9D6E0C988F6C719423F0480DAD81F53738969D71253023E3F2",
+    "bytes": 6556
+  },
+  {
+    "path": "Parts\\Idle\\FrontArm_01.png",
+    "sha256": "AD9D5B605D1DA27F9A155151B4E26EDCD48F7B8A9057CF96218C3237F630578B",
+    "bytes": 1189
+  },
+  {
+    "path": "Parts\\Idle\\FrontArm_02.png",
+    "sha256": "14C7C91378DEE244C1ED684802BAE6E55FC9F31E010EE984342099D76840E993",
+    "bytes": 1167
+  },
+  {
+    "path": "Parts\\Idle\\FrontArm_03.png",
+    "sha256": "73424D2C0FBBBF8B9FED8C6964941ED4523A74EB6EB4041F1CC4DE440B37F8F2",
+    "bytes": 1186
+  },
+  {
+    "path": "Parts\\Idle\\FrontArm_04.png",
+    "sha256": "A4B86CB86361BCE25CCF36912255070A9DAD17A27E906B8C0F4A866D5F14EC66",
+    "bytes": 1189
+  },
+  {
+    "path": "Parts\\Idle\\Weapon_01.png",
+    "sha256": "EDA6A3A3054585E3330E970F4F72B27CADA7799C521F501108EE6B9DA82E9B70",
+    "bytes": 1010
+  },
+  {
+    "path": "Parts\\Idle\\Weapon_02.png",
+    "sha256": "EDA6A3A3054585E3330E970F4F72B27CADA7799C521F501108EE6B9DA82E9B70",
+    "bytes": 1010
+  },
+  {
+    "path": "Parts\\Idle\\Weapon_03.png",
+    "sha256": "EDA6A3A3054585E3330E970F4F72B27CADA7799C521F501108EE6B9DA82E9B70",
+    "bytes": 1010
+  },
+  {
+    "path": "Parts\\Idle\\Weapon_04.png",
+    "sha256": "EDA6A3A3054585E3330E970F4F72B27CADA7799C521F501108EE6B9DA82E9B70",
+    "bytes": 1010
+  },
+  {
+    "path": "Parts\\Native\\sundeok_ammo.aseprite",
+    "sha256": "DC67534214F7C2F20F2ECDE8BF7B15B9DAD1F57215D25B0C50F4023979CCE85F",
+    "bytes": 4005
+  },
+  {
+    "path": "Parts\\Native\\sundeok_backarm.aseprite",
+    "sha256": "D2BFFD514C29B65CFAAA5DE80B6EF9509B4B5A2647B5F22DA05BD262D2FD3D8E",
+    "bytes": 16297
+  },
+  {
+    "path": "Parts\\Native\\sundeok_body.aseprite",
+    "sha256": "66BB9C89F6C17E1EE4903E88597CD4B7D5440C901D33DD97434B3CD13601DD07",
+    "bytes": 84610
+  },
+  {
+    "path": "Parts\\Native\\sundeok_frontarm.aseprite",
+    "sha256": "6C9E51BAE1698C46BD400D9238684D5A20ACC550161189EA3B8504E57E9F9B94",
+    "bytes": 20598
+  },
+  {
+    "path": "Parts\\Native\\sundeok_fx.aseprite",
+    "sha256": "84E724B94A498C8EFBEE65A54053E211ACCA21DA4AD2D6D70F0E4336246636F6",
+    "bytes": 3925
+  },
+  {
+    "path": "Parts\\Native\\sundeok_pickup.aseprite",
+    "sha256": "EF2BEA80BBC1B7B1F0BE6D1F474AF399DC1AC92258C0BEFB76CBE009875831EA",
+    "bytes": 4738
+  },
+  {
+    "path": "Parts\\Native\\sundeok_weapon.aseprite",
+    "sha256": "3A02367928CF5B2FEB531566FAF5163BA1786A14A0086F97C4C4CF7C0E41B72A",
+    "bytes": 18711
+  },
+  {
+    "path": "Parts\\Reload\\Ammo_02.png",
+    "sha256": "44204C90C5838D55E15537A4A8EB61C41DEB940AAD3A42BD476E083D2478D4EC",
+    "bytes": 93
+  },
+  {
+    "path": "Parts\\Reload\\Ammo_03.png",
+    "sha256": "44204C90C5838D55E15537A4A8EB61C41DEB940AAD3A42BD476E083D2478D4EC",
+    "bytes": 93
+  },
+  {
+    "path": "Parts\\Reload\\Ammo_04.png",
+    "sha256": "44204C90C5838D55E15537A4A8EB61C41DEB940AAD3A42BD476E083D2478D4EC",
+    "bytes": 93
+  },
+  {
+    "path": "Parts\\Reload\\BackArm_01.png",
+    "sha256": "0B287C1CE29F76617704614BE036B3CC0C5F97BC842DAFAD99EDAF135BB4CEC1",
+    "bytes": 967
+  },
+  {
+    "path": "Parts\\Reload\\BackArm_02.png",
+    "sha256": "84745DE68EED03054166005D8B8B628A662F7501ED6A074E15BFCE1DF04267F3",
+    "bytes": 734
+  },
+  {
+    "path": "Parts\\Reload\\BackArm_03.png",
+    "sha256": "E39702715AA3186B04122803ED01948BA1C811B2A63288DD09FFDA29489926EF",
+    "bytes": 608
+  },
+  {
+    "path": "Parts\\Reload\\BackArm_04.png",
+    "sha256": "AA0E885B02C2A5F1A2F999B5BD4467E2D356DBE0A7596C5008BAAC9EA232A0F9",
+    "bytes": 617
+  },
+  {
+    "path": "Parts\\Reload\\BackArm_05.png",
+    "sha256": "790F39BD0D89E2017C75C047058EA974E3D0454E84DA70BEFCDB8A99E89C7008",
+    "bytes": 807
+  },
+  {
+    "path": "Parts\\Reload\\BackArm_06.png",
+    "sha256": "6D9B9863EF29B1F27FC1400535C4B601B67AD859B5C8264D43DAD1F440A126DA",
+    "bytes": 1008
+  },
+  {
+    "path": "Parts\\Reload\\Body_01.png",
+    "sha256": "4B058C0F39122CAD0E52F397F95AF00566340F3692D076A32D0C1CCB42E53241",
+    "bytes": 6485
+  },
+  {
+    "path": "Parts\\Reload\\Body_02.png",
+    "sha256": "6F685EFF241B55D9E0BA65283D93D9CFDAE2907564B78B8E4F464F8DD88436AF",
+    "bytes": 6426
+  },
+  {
+    "path": "Parts\\Reload\\Body_03.png",
+    "sha256": "31C472FADA258F15023428418277C524A12E10599FCBC9B73144DF2C543EEE9B",
+    "bytes": 6168
+  },
+  {
+    "path": "Parts\\Reload\\Body_04.png",
+    "sha256": "05C91FDC4B9A6DAA92997A1C39C761E7E38040A05BC8C70A3467D2F91BA70F18",
+    "bytes": 6426
+  },
+  {
+    "path": "Parts\\Reload\\Body_05.png",
+    "sha256": "0D56B08FE420D9B7761192E7DDD0E7BACE94FA6244B2D904E57C17C86207392B",
+    "bytes": 6172
+  },
+  {
+    "path": "Parts\\Reload\\Body_06.png",
+    "sha256": "94C8FE1B35CAA2C70CC3FD08516E6CEE2EABF7EE852C77B38C33B10F1DBBD280",
+    "bytes": 6191
+  },
+  {
+    "path": "Parts\\Reload\\FrontArm_01.png",
+    "sha256": "44F3445C0CCBD19797835A75329DF5EE84E4F480C9B3C7E9695B21F825C03419",
+    "bytes": 1170
+  },
+  {
+    "path": "Parts\\Reload\\FrontArm_02.png",
+    "sha256": "5F6AE28C19CC4A15514835361F679AFF00D326C9F50799FEE0CB7EAD937DE3F0",
+    "bytes": 1084
+  },
+  {
+    "path": "Parts\\Reload\\FrontArm_03.png",
+    "sha256": "B057EC4A93EC6E6704572E9E7E5B3D77074D9792E3EECFEBFFB1363DAABD88D2",
+    "bytes": 1093
+  },
+  {
+    "path": "Parts\\Reload\\FrontArm_04.png",
+    "sha256": "A8AD8F521E23971676F5C6B5F145D06EE130E1566D86159FB58DBAEC8984FFCA",
+    "bytes": 1082
+  },
+  {
+    "path": "Parts\\Reload\\FrontArm_05.png",
+    "sha256": "8BAF9EB9B67AE29DC5DFCD1404D0995D4A89CAB06A8D8870A28D55EFF5C2E974",
+    "bytes": 1093
+  },
+  {
+    "path": "Parts\\Reload\\FrontArm_06.png",
+    "sha256": "472E8D66AFC7908012A7CEE35046060EB4CC1AD72D3DBFE9F1F88A5E89454459",
+    "bytes": 1114
+  },
+  {
+    "path": "Parts\\Reload\\Weapon_01.png",
+    "sha256": "EDA6A3A3054585E3330E970F4F72B27CADA7799C521F501108EE6B9DA82E9B70",
+    "bytes": 1010
+  },
+  {
+    "path": "Parts\\Reload\\Weapon_02.png",
+    "sha256": "EDA6A3A3054585E3330E970F4F72B27CADA7799C521F501108EE6B9DA82E9B70",
+    "bytes": 1010
+  },
+  {
+    "path": "Parts\\Reload\\Weapon_03.png",
+    "sha256": "EDA6A3A3054585E3330E970F4F72B27CADA7799C521F501108EE6B9DA82E9B70",
+    "bytes": 1010
+  },
+  {
+    "path": "Parts\\Reload\\Weapon_04.png",
+    "sha256": "EDA6A3A3054585E3330E970F4F72B27CADA7799C521F501108EE6B9DA82E9B70",
+    "bytes": 1010
+  },
+  {
+    "path": "Parts\\Reload\\Weapon_05.png",
+    "sha256": "EDA6A3A3054585E3330E970F4F72B27CADA7799C521F501108EE6B9DA82E9B70",
+    "bytes": 1010
+  },
+  {
+    "path": "Parts\\Reload\\Weapon_06.png",
+    "sha256": "EDA6A3A3054585E3330E970F4F72B27CADA7799C521F501108EE6B9DA82E9B70",
+    "bytes": 1010
+  },
+  {
+    "path": "Parts\\Walk\\BackArm_01.png",
+    "sha256": "016251F83263858EF0E4C6E2B1ECA4C8E20B32A0D2CFF3CAB5AFA8E6C5E39D89",
+    "bytes": 859
+  },
+  {
+    "path": "Parts\\Walk\\BackArm_02.png",
+    "sha256": "016251F83263858EF0E4C6E2B1ECA4C8E20B32A0D2CFF3CAB5AFA8E6C5E39D89",
+    "bytes": 859
+  },
+  {
+    "path": "Parts\\Walk\\BackArm_03.png",
+    "sha256": "016251F83263858EF0E4C6E2B1ECA4C8E20B32A0D2CFF3CAB5AFA8E6C5E39D89",
+    "bytes": 859
+  },
+  {
+    "path": "Parts\\Walk\\BackArm_04.png",
+    "sha256": "016251F83263858EF0E4C6E2B1ECA4C8E20B32A0D2CFF3CAB5AFA8E6C5E39D89",
+    "bytes": 859
+  },
+  {
+    "path": "Parts\\Walk\\BackArm_05.png",
+    "sha256": "016251F83263858EF0E4C6E2B1ECA4C8E20B32A0D2CFF3CAB5AFA8E6C5E39D89",
+    "bytes": 859
+  },
+  {
+    "path": "Parts\\Walk\\BackArm_06.png",
+    "sha256": "016251F83263858EF0E4C6E2B1ECA4C8E20B32A0D2CFF3CAB5AFA8E6C5E39D89",
+    "bytes": 859
+  },
+  {
+    "path": "Parts\\Walk\\Body_01.png",
+    "sha256": "EBFE75706ECF62AAC16721998BB456213AB6C31DDD6E198504E1F694C15B3407",
+    "bytes": 6490
+  },
+  {
+    "path": "Parts\\Walk\\Body_02.png",
+    "sha256": "3853D5ACDE71C3F231F21396DE06C34095D0A7DBEF6C40BC2079ED032394FB46",
+    "bytes": 5927
+  },
+  {
+    "path": "Parts\\Walk\\Body_03.png",
+    "sha256": "BDECE2934B070F7ACC4A17D1C767A261E6E78762B2DDC2D7A24D187191E2C323",
+    "bytes": 6322
+  },
+  {
+    "path": "Parts\\Walk\\Body_04.png",
+    "sha256": "2004ED0BE9A99C28F9928EC576CD87DCC37FA76D409A2C64EB98FF54644E2227",
+    "bytes": 6238
+  },
+  {
+    "path": "Parts\\Walk\\Body_05.png",
+    "sha256": "B872F523FB41E438D3A88791A9CD8AFF4C3BBFEB36DC9FE7B4A97523C45ADAA4",
+    "bytes": 6023
+  },
+  {
+    "path": "Parts\\Walk\\Body_06.png",
+    "sha256": "BB8273D711E9A45DFC1E6D37148B6D618D029536149C510323D02D30F54C2D08",
+    "bytes": 6286
+  },
+  {
+    "path": "Parts\\Walk\\FrontArm_01.png",
+    "sha256": "AD9D5B605D1DA27F9A155151B4E26EDCD48F7B8A9057CF96218C3237F630578B",
+    "bytes": 1189
+  },
+  {
+    "path": "Parts\\Walk\\FrontArm_02.png",
+    "sha256": "AD9D5B605D1DA27F9A155151B4E26EDCD48F7B8A9057CF96218C3237F630578B",
+    "bytes": 1189
+  },
+  {
+    "path": "Parts\\Walk\\FrontArm_03.png",
+    "sha256": "AD9D5B605D1DA27F9A155151B4E26EDCD48F7B8A9057CF96218C3237F630578B",
+    "bytes": 1189
+  },
+  {
+    "path": "Parts\\Walk\\FrontArm_04.png",
+    "sha256": "AD9D5B605D1DA27F9A155151B4E26EDCD48F7B8A9057CF96218C3237F630578B",
+    "bytes": 1189
+  },
+  {
+    "path": "Parts\\Walk\\FrontArm_05.png",
+    "sha256": "AD9D5B605D1DA27F9A155151B4E26EDCD48F7B8A9057CF96218C3237F630578B",
+    "bytes": 1189
+  },
+  {
+    "path": "Parts\\Walk\\FrontArm_06.png",
+    "sha256": "AD9D5B605D1DA27F9A155151B4E26EDCD48F7B8A9057CF96218C3237F630578B",
+    "bytes": 1189
+  },
+  {
+    "path": "Parts\\Walk\\Weapon_01.png",
+    "sha256": "EDA6A3A3054585E3330E970F4F72B27CADA7799C521F501108EE6B9DA82E9B70",
+    "bytes": 1010
+  },
+  {
+    "path": "Parts\\Walk\\Weapon_02.png",
+    "sha256": "EDA6A3A3054585E3330E970F4F72B27CADA7799C521F501108EE6B9DA82E9B70",
+    "bytes": 1010
+  },
+  {
+    "path": "Parts\\Walk\\Weapon_03.png",
+    "sha256": "EDA6A3A3054585E3330E970F4F72B27CADA7799C521F501108EE6B9DA82E9B70",
+    "bytes": 1010
+  },
+  {
+    "path": "Parts\\Walk\\Weapon_04.png",
+    "sha256": "EDA6A3A3054585E3330E970F4F72B27CADA7799C521F501108EE6B9DA82E9B70",
+    "bytes": 1010
+  },
+  {
+    "path": "Parts\\Walk\\Weapon_05.png",
+    "sha256": "EDA6A3A3054585E3330E970F4F72B27CADA7799C521F501108EE6B9DA82E9B70",
+    "bytes": 1010
+  },
+  {
+    "path": "Parts\\Walk\\Weapon_06.png",
+    "sha256": "EDA6A3A3054585E3330E970F4F72B27CADA7799C521F501108EE6B9DA82E9B70",
+    "bytes": 1010
+  },
+  {
+    "path": "Previews\\Aim_3x.gif",
+    "sha256": "69BCDC0BB78B4B0CDEBE79007DD3B3A371866BEC802AA4B042E0C0A50D960E7A",
+    "bytes": 34390
+  },
+  {
+    "path": "Previews\\Aim_strip_2x.png",
+    "sha256": "832B7447E5738823E86B023B15AEF45ED0055EDF8A0DFB1889741D58F8B3E009",
+    "bytes": 20989
+  },
+  {
+    "path": "Previews\\all_poses_2x.png",
+    "sha256": "6AE528CE3B5210952EA25264A61C3C4034159AC11332F3EAD3336F1EB380ADF5",
+    "bytes": 178276
+  },
+  {
+    "path": "Previews\\all_poses_native.png",
+    "sha256": "0A2F6051D3DC28752DFB58C837857E9C381A3D79DFF635B441DC52B31AC34495",
+    "bytes": 147299
+  },
+  {
+    "path": "Previews\\Collect_3x.gif",
+    "sha256": "F0312A4E15E33741885B056351E6CB96445D2EA46568EF831EEE7F12E7F7D9E2",
+    "bytes": 44907
+  },
+  {
+    "path": "Previews\\Collect_strip_2x.png",
+    "sha256": "B5D77AEE25E36FDD7CC4CB8766BE3B2C63ACE70D9CC768F8263E30F0B8640BFC",
+    "bytes": 27105
+  },
+  {
+    "path": "Previews\\Fire_3x.gif",
+    "sha256": "5E5B24B82BBC0AB42F013ADFFD2E25DC92B3A6BD419422EA233984DD263486CD",
+    "bytes": 44335
+  },
+  {
+    "path": "Previews\\Fire_strip_2x.png",
+    "sha256": "D408E917C3F8FB5DDA189C5838C30E66D94BE3F6BEA173054343D9E6821FCAB4",
+    "bytes": 25955
+  },
+  {
+    "path": "Previews\\generated_poses_2x.png",
+    "sha256": "619048DE3A7734DF4BA40E7693D53F73692779714B219C1BFA913EF03CDBF7B0",
+    "bytes": 184536
+  },
+  {
+    "path": "Previews\\generated_poses_native.png",
+    "sha256": "C3D6D2BFF5499B4603E9A88B53EAE82DF8F6556C0E35A22CFA9447BA628E3AE0",
+    "bytes": 153311
+  },
+  {
+    "path": "Previews\\Idle_3x.gif",
+    "sha256": "A9452098ECCC9603A86C1E51DFA1A04B1D0D2B2CF6579E931FC1DBE82F8C3FB1",
+    "bytes": 38408
+  },
+  {
+    "path": "Previews\\Idle_strip_2x.png",
+    "sha256": "FE11B8DC470022BABDE2E8557D7F32BF0D48F4EBBC314793B702E867B01C4DE3",
+    "bytes": 24675
+  },
+  {
+    "path": "Previews\\Reload_3x.gif",
+    "sha256": "63201F55D66DA39B451FE302A6F06D08BF722086C7173319E5641BAFB8672BFA",
+    "bytes": 63960
+  },
+  {
+    "path": "Previews\\Reload_strip_2x.png",
+    "sha256": "1CA774B1E59D3CC5E566AF76441618CAF55E42F955ECF4A95670E3BD115BB9E7",
+    "bytes": 37165
+  },
+  {
+    "path": "Previews\\six_actions_3x.png",
+    "sha256": "8887E493B6E71E16E0838A5469CBE0794809DB4174D4701E2D07766F16D24E7E",
+    "bytes": 48997
+  },
+  {
+    "path": "Previews\\sundeok_idle_4x.png",
+    "sha256": "746230ABEB9FBFF49C0B6D7D8FD08D5D021B50BEA2AD36AACBBA9A4964543769",
+    "bytes": 11313
+  },
+  {
+    "path": "Previews\\sundeok_light_dark_3x.png",
+    "sha256": "F47043CE07BEAFFFE24C57091D155FA09730A617A402F585CA40A1E6CA768FBA",
+    "bytes": 13465
+  },
+  {
+    "path": "Previews\\Walk_3x.gif",
+    "sha256": "F63ADB9DBE22222231EE97C99187FA1243F7F7DFBED440AF428833428465413F",
+    "bytes": 69449
+  },
+  {
+    "path": "Previews\\Walk_Aim_Fire_3x.gif",
+    "sha256": "8535E4D711539C255CB26BBABA2CA30ABEEE3F28C8F20196C3CA6519AD60BA91",
+    "bytes": 145140
+  },
+  {
+    "path": "Previews\\Walk_Aim_Fire_strip_2x.png",
+    "sha256": "2E61521689A2265E87C465B0D706EED9E1B19D3C40C998FFCB3DD55D2C8C400B",
+    "bytes": 72901
+  },
+  {
+    "path": "Previews\\Walk_strip_2x.png",
+    "sha256": "961E024A694898D02EBE36FD28DAB4878D995597B3619A7C8432C5482347AF52",
+    "bytes": 33384
+  },
+  {
+    "path": "Scripts\\build_asset_pack.lua",
+    "sha256": "1F5606F82DEA37B1CDA6D3CF9D0754369DD87363B525D34BCCEB65179D09DDEB",
+    "bytes": 17081
+  },
+  {
+    "path": "Scripts\\export_ui.lua",
+    "sha256": "87045AD058C8AC648059CEAC93EEB05EE37FD32D6B79AF5091B91C1938C34670",
+    "bytes": 1141
+  },
+  {
+    "path": "Scripts\\export_validate.lua",
+    "sha256": "2F1A61DEE948485B997C2A9BD397F3CBEDCC4CAAD0E410CC2807B764A4BC4E72",
+    "bytes": 12989
+  },
+  {
+    "path": "Scripts\\sample_actions.lua",
+    "sha256": "1908B1BAD3BEC89B012329C10B830C7CE4F613691BC4B70131B41FACD888ABB8",
+    "bytes": 7221
+  },
+  {
+    "path": "Scripts\\validate_packages.lua",
+    "sha256": "380EC7182F22F4152E2C4CEF9D2D3082B357BD9D79EBC4878767E9AE7DF5E7CB",
+    "bytes": 2027
+  },
+  {
+    "path": "Source\\demo_metadata.json",
+    "sha256": "6CCE7B872C1FF79D6598CFAE1798F6D56D1C50FF3793A7A5FC09C69B0F2175B7",
+    "bytes": 1281
+  },
+  {
+    "path": "Source\\generation_prompts.json",
+    "sha256": "4A960818920989E59A447D669C0B7219451B1F415B6162F0974E695B4D9C47C8",
+    "bytes": 30485
+  },
+  {
+    "path": "Source\\notion_02_snapshot.md",
+    "sha256": "B63668333C070239FEB942A94A22FDF680413FDD956462FE8B4E24B5AB3DDCB9",
+    "bytes": 44524
+  },
+  {
+    "path": "Source\\pose_metadata.json",
+    "sha256": "B1CD3C7EFD0270005DC13D2787E719A47528CB7E8C1BB53EB7A0862847E8976C",
+    "bytes": 13742
+  },
+  {
+    "path": "Source\\sampling.json",
+    "sha256": "21707E079ED8A820B77A1006985D715383003BB8C275812185D11BB8C8724653",
+    "bytes": 4809
+  },
+  {
+    "path": "Source\\walk_correction_prompt.json",
+    "sha256": "F8A9D4FEFFA58C6A36D51E8F693B6FE96EAC3D11A9A98539C31348295108AFCC",
+    "bytes": 2941
+  },
+  {
+    "path": "Source\\Base\\sundeok_26.gpl",
+    "sha256": "7AA90C550B0B9ADEA600CC301ED1D0B09DE94C8C6D848A939F038258DD6D963F",
+    "bytes": 607
+  },
+  {
+    "path": "Source\\Base\\sundeok_backarm_base.png",
+    "sha256": "136AEACC86C55DE4D7570E0079FC0722D848C79394FDCEB42782C885A86148BE",
+    "bytes": 949
+  },
+  {
+    "path": "Source\\Base\\sundeok_body_base.png",
+    "sha256": "8EE6392409158CC2430A4B17251A9CDF29BBF8DD345D4CBF77AD18DFC3F6F3D0",
+    "bytes": 6113
+  },
+  {
+    "path": "Source\\Base\\sundeok_frontarm_base.png",
+    "sha256": "D7C884312D573F63C2EC404C71472F00EE3D83F8B9835BD8A87DE4F6C16935C8",
+    "bytes": 1284
+  },
+  {
+    "path": "Source\\Base\\sundeok_redesign_body.png",
+    "sha256": "4BCCE686032E1468D195706BAE2FA55F19F3DBB99661C26FECBDC6817300D88D",
+    "bytes": 747097
+  },
+  {
+    "path": "Source\\Base\\sundeok_redesign_full.png",
+    "sha256": "BC4E72E2A1B273781D89E0929C9FBE73A8CD3FF4B7D6EA49BCC248203A64A3C6",
+    "bytes": 835415
+  },
+  {
+    "path": "Source\\Generated\\Aim_Body.png",
+    "sha256": "989A3626880831175EDF4F5344D49DCB3D494B26BA52B75207CBDAE55CEFA720",
+    "bytes": 1080721
+  },
+  {
+    "path": "Source\\Generated\\Aim.png",
+    "sha256": "3B1D806153EEA3FA49AE0574F6CF1EDC6432F06B8C7EDC63DB1DC8930F4D4AEE",
+    "bytes": 1230703
+  },
+  {
+    "path": "Source\\Generated\\Collect_Body.png",
+    "sha256": "4AE001B4E75E67C02C151887AA77E539278438EB110825445FE79403BC8DAB77",
+    "bytes": 1021702
+  },
+  {
+    "path": "Source\\Generated\\Collect.png",
+    "sha256": "798C1724284F982BD799D38358AC6AB696CC95933E666AE7472A7DC6A7DBE56F",
+    "bytes": 1183946
+  },
+  {
+    "path": "Source\\Generated\\Fire_Body.png",
+    "sha256": "F6A835951A834A1B33C6BBF5306EC6EDC3399CE9C85D9F5AAEDB6207222FA566",
+    "bytes": 1199236
+  },
+  {
+    "path": "Source\\Generated\\Fire.png",
+    "sha256": "AE41C1ECE87FEE844F2D58D613D4CC9AD860ED493E6844DD748F5846DFC98AC1",
+    "bytes": 1295302
+  },
+  {
+    "path": "Source\\Generated\\Idle_Body.png",
+    "sha256": "E584C4E625A981B03806D6860BCB5FFF9EB5FEA033E9F9D630C95064D3EA7EB0",
+    "bytes": 1268847
+  },
+  {
+    "path": "Source\\Generated\\Idle.png",
+    "sha256": "B2C5DB579F285A0DFF88D8DC0E77367F1DE7891CEEC3FA9DA6F93E5A5C7AD06D",
+    "bytes": 1326686
+  },
+  {
+    "path": "Source\\Generated\\Reload_Body.png",
+    "sha256": "B4009A83C2DFC3FA0D7C9079B0254CCCF739230BC03B261B75B6B05D131D8C28",
+    "bytes": 2042628
+  },
+  {
+    "path": "Source\\Generated\\Reload.png",
+    "sha256": "96FE7AABD832C9CD5062F8EB6E6A4D2164D349DACD373E57876A2A019AC1C1A9",
+    "bytes": 2120251
+  },
+  {
+    "path": "Source\\Generated\\Walk_initial.png",
+    "sha256": "4A289F245A477437F914AD6587AB22B7CB8E7B194FD95319A910107E320C5871",
+    "bytes": 2002008
+  },
+  {
+    "path": "Source\\Generated\\Walk.png",
+    "sha256": "8446EC9B0104602BE5470BBACCC954547F599FB630750CF03FCE7E0AD2B8951B",
+    "bytes": 2034570
+  },
+  {
+    "path": "Source\\Sampled\\Aim\\Body_01.png",
+    "sha256": "85B69B44878A000EC975E0EA3BE984EEC3751BD708B670B31E1E2EBB33EC2639",
+    "bytes": 6216
+  },
+  {
+    "path": "Source\\Sampled\\Aim\\Body_02.png",
+    "sha256": "A5A7D2B4B49CA36CB8396C6286AEB1CB47F78C9F5CCF329F93A2CB7F0B49D2E6",
+    "bytes": 6095
+  },
+  {
+    "path": "Source\\Sampled\\Aim\\Body_03.png",
+    "sha256": "ABA8C329AF604D6B9C79FA78EE9BC13EB94B35C42AF23D8AB8B66EC26FC53D31",
+    "bytes": 5992
+  },
+  {
+    "path": "Source\\Sampled\\Aim\\Full_01.aseprite",
+    "sha256": "C24453846B40D5016D423D6F024DAF484D1B641718CD1C7A02FFF9CF007D901B",
+    "bytes": 3984
+  },
+  {
+    "path": "Source\\Sampled\\Aim\\Full_01.png",
+    "sha256": "FC1747D70B7F527EBFB9AA1AAE268FD6D53A41158B2E3EB292C289C5D722D8F0",
+    "bytes": 7395
+  },
+  {
+    "path": "Source\\Sampled\\Aim\\Full_02.aseprite",
+    "sha256": "1D66DEA153159334D0778FEA45C8AFA587D0D6A716F373C3E55B1A5540960279",
+    "bytes": 3965
+  },
+  {
+    "path": "Source\\Sampled\\Aim\\Full_02.png",
+    "sha256": "10A2FBBA648EF4693855ADB4F2BC957B41963B499D44313479798E2FB7BEEF23",
+    "bytes": 7110
+  },
+  {
+    "path": "Source\\Sampled\\Aim\\Full_03.aseprite",
+    "sha256": "C99E1A27E677BECA79F5EB3E95B38DDB8001661FDC499D3CA8408F3EECED70C8",
+    "bytes": 3868
+  },
+  {
+    "path": "Source\\Sampled\\Aim\\Full_03.png",
+    "sha256": "59744DA9B88E0CFE8BEDFF5E2F129FDC170B0FC2A26D7BA90788FE5F3F20206F",
+    "bytes": 7054
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Body_01.png",
+    "sha256": "1E48E7DDD81327F0A854EBBD3AC2CA6A0E82D4EA765A65B89977B08ACA0442B3",
+    "bytes": 6184
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Body_02.png",
+    "sha256": "CF7CB756D4614741D9A312B7C74FC531B5CD812688307BB085146BCB51648D8F",
+    "bytes": 5566
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Body_03.png",
+    "sha256": "78897F5CC2AA2746B07CED72110D511225DC73AB6FC77D1999CC86867F112850",
+    "bytes": 5757
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Body_04.png",
+    "sha256": "10CAD5BE93D850AAAACC9CC4B3238CCF7BA85077694CB69486BE0FC32F1674B9",
+    "bytes": 5887
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Full_01.aseprite",
+    "sha256": "2236E86FFE4364C14780C0546CEB23A49B339489B7E585E5E205F1D708DB0611",
+    "bytes": 4039
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Full_01.png",
+    "sha256": "11F60671C60772DB06A299E5C1F78B3977A067980989AD23984721D005615BAF",
+    "bytes": 7542
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Full_02.aseprite",
+    "sha256": "EB4DF7C4B94CF935F3DD95F82FD4C666206EC92B611EC8C5B9D5F29E3E1AB76C",
+    "bytes": 3610
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Full_02.png",
+    "sha256": "B592F865C65B8B016A845F85BF023BA8128C292DC1E636689FC76AD1A4057312",
+    "bytes": 6836
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Full_03.aseprite",
+    "sha256": "497247D28173D2118C390AC59B7F984CBB708C21796989D325328504AA56231D",
+    "bytes": 3610
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Full_03.png",
+    "sha256": "41CBF0B840C98200EA687B298931A398C6CE80947F25C0BB1B7BF39BC95CAAFF",
+    "bytes": 6817
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Full_04.aseprite",
+    "sha256": "F8FD187FD8957200F2D8F854F4B3FD8B20825C3A88CC0D5653523235D6A3DCFF",
+    "bytes": 3848
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Full_04.png",
+    "sha256": "2F80DAEC810A579D30978F518A73EF399E8DEBE7A8AD1C2093DBDFC02790D2D2",
+    "bytes": 7094
+  },
+  {
+    "path": "Source\\Sampled\\Fire\\Body_01.png",
+    "sha256": "7204EA9301736EB2AA0DEDEE3474647FBEAE65222EF689F8E3C01668096F4DC3",
+    "bytes": 6180
+  },
+  {
+    "path": "Source\\Sampled\\Fire\\Body_02.png",
+    "sha256": "3914B1B4A44F3E36E8D3B158994A590D5BF9A70741A63B0A74B6FFA5906F2C19",
+    "bytes": 6147
+  },
+  {
+    "path": "Source\\Sampled\\Fire\\Body_03.png",
+    "sha256": "9D96AA8584968E03A9CDE13A3AFC87EA5B193CD307DE58F5DE71D018C88AEA87",
+    "bytes": 5770
+  },
+  {
+    "path": "Source\\Sampled\\Fire\\Body_04.png",
+    "sha256": "7EE8E739E6472B23F4C9C4147D890AB37FFB8A00F344D3AAF77FC9A4B66C05C1",
+    "bytes": 6123
+  },
+  {
+    "path": "Source\\Sampled\\Fire\\Full_01.aseprite",
+    "sha256": "7641876D5F0268866BF897D51DB4A0AFF88C593529652929AD901CF5332B32F5",
+    "bytes": 3688
+  },
+  {
+    "path": "Source\\Sampled\\Fire\\Full_01.png",
+    "sha256": "339B8F66658AC6C0C49A315E58CE5FA4D972F920F387F59A9E353A8ABBAD9416",
+    "bytes": 6571
+  },
+  {
+    "path": "Source\\Sampled\\Fire\\Full_02.aseprite",
+    "sha256": "F3D40B40F23E0CBA1F43BC6C2871EE53DF13654425874D3337A68C82B90EBA6E",
+    "bytes": 3705
+  },
+  {
+    "path": "Source\\Sampled\\Fire\\Full_02.png",
+    "sha256": "F9E212036E632DED8E38AB207B19AD856F2EC3BAFB9C723096C9794CE2F56D8E",
+    "bytes": 6959
+  },
+  {
+    "path": "Source\\Sampled\\Fire\\Full_03.aseprite",
+    "sha256": "BDAF8901743A1C26A4C7DF5FE52D49D22EC1A9FEAE214CBEBFF3A378FCD064EC",
+    "bytes": 3656
+  },
+  {
+    "path": "Source\\Sampled\\Fire\\Full_03.png",
+    "sha256": "62281696812BFE2EE9BCA2D4EE81B90D38FA1E8CBF2F638E8B9123B67965F003",
+    "bytes": 6862
+  },
+  {
+    "path": "Source\\Sampled\\Fire\\Full_04.aseprite",
+    "sha256": "3681F20D20227B271E724A3CB9BBA5DD4A695B6D26E8C52BBEE5AE91E9FB2AF3",
+    "bytes": 3689
+  },
+  {
+    "path": "Source\\Sampled\\Fire\\Full_04.png",
+    "sha256": "77FFC427D216755F064F56B00DB1394B828D6F66FC1CE9FC88B24D66ACD9CC97",
+    "bytes": 6860
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Body_01.png",
+    "sha256": "54F7C61FBAC1DEE2E6A958C1905964C0A990B601C118ABE1AAF88EE8C50A8F09",
+    "bytes": 6737
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Body_02.png",
+    "sha256": "F8263E089202280896323288E8D9D5D7C385F44B674D65D678A66DF57EDD706D",
+    "bytes": 6564
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Body_03.png",
+    "sha256": "C1B0C7A145CF46F1039EE5E62C1BD57A6DEF401DD1CF7804FB112013C600492E",
+    "bytes": 6550
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Body_04.png",
+    "sha256": "63EBDFC1DF447CFC742BBAD090C236EAF0596C77CFF27D9519C6219512650618",
+    "bytes": 6725
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Full_01.aseprite",
+    "sha256": "A7CC42C7D316806B8C7267224A73F834E97C0A63AD5D1270976596B98BABB3EC",
+    "bytes": 3942
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Full_01.png",
+    "sha256": "CDA75D80CABFEF21B9175939BB51F3C626AED2A25ECD9628A642A67E14E5F392",
+    "bytes": 7248
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Full_02.aseprite",
+    "sha256": "EA2809DB5F244EA639E16B68C227568CDEF0181190680078AA232439B0B37264",
+    "bytes": 4000
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Full_02.png",
+    "sha256": "513EC426F1E552226BF7EFB46AA13C72ED91FB8CFFDBCF4EE0B63223CF8290DA",
+    "bytes": 7432
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Full_03.aseprite",
+    "sha256": "EF2FA5DB4EFBCA19A634F92836A72C7926374EB5DA5E733FC3DA3A0C4A376D1F",
+    "bytes": 3976
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Full_03.png",
+    "sha256": "FB1B7A633659E6F73F2CB0693B573B8755664AE6AF29C032835A63DD35338975",
+    "bytes": 7591
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Full_04.aseprite",
+    "sha256": "E3A99E5F9DC5D65CD19B2AF6CCC82F501D0905E7DA61DAD38701D6EC77586E71",
+    "bytes": 3957
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Full_04.png",
+    "sha256": "D5C390D760E3D6CD3B9DB1D5532B64D3A0DC5EFA4595A80FE571D98288C498A5",
+    "bytes": 7506
+  },
+  {
+    "path": "Source\\Sampled\\Reload\\Body_01.png",
+    "sha256": "CDE4BB5C67E9779F05B9F0E966A48E433E958722D118BA62AF43B6B40D6E3D44",
+    "bytes": 6637
+  },
+  {
+    "path": "Source\\Sampled\\Reload\\Body_02.png",
+    "sha256": "0A7D56890EB87D42EDC85CCD2BB27AA2515DF2F1EFECDA776FC91A2E2ED0AD9F",
+    "bytes": 6594
+  },
+  {
+    "path": "Source\\Sampled\\Reload\\Body_03.png",
+    "sha256": "48DF42D3A8494BBC1AE419FE6D104DB23EA69D2AA96FD4F57F93838C67C01B24",
+    "bytes": 6310
+  },
+  {
+    "path": "Source\\Sampled\\Reload\\Body_04.png",
+    "sha256": "9C303AF72F662C8F8FAECB6BFEA4E7A89E23961A742C576180188CF314B461E8",
+    "bytes": 6587
+  },
+  {
+    "path": "Source\\Sampled\\Reload\\Body_05.png",
+    "sha256": "3E3218F8F1E98A9C1F23F84E8FDB3EAE48AA39BA5865631BA51AD8E00704A6A2",
+    "bytes": 6339
+  },
+  {
+    "path": "Source\\Sampled\\Reload\\Body_06.png",
+    "sha256": "D2B14FEA396707E012338CDC335A86CB063DBBD8FE092FC1333CE9B9712CA382",
+    "bytes": 6376
+  },
+  {
+    "path": "Source\\Sampled\\Reload\\Full_01.aseprite",
+    "sha256": "64B184CB7FBE474EF0D0FA3F66255D59A7A6BEF2B6DC4D3E13A0279640A325E8",
+    "bytes": 4154
+  },
+  {
+    "path": "Source\\Sampled\\Reload\\Full_01.png",
+    "sha256": "D96ED452C708AEFE9D88E887D30AE81B1A588AA0CDF44E2660AB9BB01F2A9A4B",
+    "bytes": 7641
+  },
+  {
+    "path": "Source\\Sampled\\Reload\\Full_02.aseprite",
+    "sha256": "D828C4A706DAA50DB1DB683B64B564D07A132B1EFD4B810D3C7136462260A686",
+    "bytes": 4085
+  },
+  {
+    "path": "Source\\Sampled\\Reload\\Full_02.png",
+    "sha256": "23C480483A18DFAC14DA17D96AE423CB34F830ED922D9768DAC2E3F6F8985A91",
+    "bytes": 7381
+  },
+  {
+    "path": "Source\\Sampled\\Reload\\Full_03.aseprite",
+    "sha256": "7739D96CFA243D7CCAD9E4C826B8BC6D591956EA605AC578753E4EA64FA32C24",
+    "bytes": 3989
+  },
+  {
+    "path": "Source\\Sampled\\Reload\\Full_03.png",
+    "sha256": "208D088B288E68A95BCC60F59A89FD49300C166993249AF2D705E2CC26E4D498",
+    "bytes": 6929
+  },
+  {
+    "path": "Source\\Sampled\\Reload\\Full_04.aseprite",
+    "sha256": "D44ACABB937A49B20B664CFAD4CF8D475FDCB2DF0E64DCC1946ED340C0AF0413",
+    "bytes": 3900
+  },
+  {
+    "path": "Source\\Sampled\\Reload\\Full_04.png",
+    "sha256": "2D167302EA332D12D8CF6B8EEA8E39F7A63B0B82F4FFCBA9FA0AA66701FB5602",
+    "bytes": 7008
+  },
+  {
+    "path": "Source\\Sampled\\Reload\\Full_05.aseprite",
+    "sha256": "547026ECF3547BAE71DC7621530DC6F5F9DFD4505621850464A56C1A9CC7193A",
+    "bytes": 4113
+  },
+  {
+    "path": "Source\\Sampled\\Reload\\Full_05.png",
+    "sha256": "C58762A03AE95B0F71AD117A789F3D2C4F5E381C766F1D0C72DCF641B15E9B9A",
+    "bytes": 7360
+  },
+  {
+    "path": "Source\\Sampled\\Reload\\Full_06.aseprite",
+    "sha256": "FD578802D11886B22D3585379BD4AE3624393926C1A17CD4589AC1C3858047AA",
+    "bytes": 4063
+  },
+  {
+    "path": "Source\\Sampled\\Reload\\Full_06.png",
+    "sha256": "23CBC495F37BEEB02B74CE89A05D5BCD52D1C3AF9BC9F538263DD7E138DB1CFB",
+    "bytes": 7091
+  },
+  {
+    "path": "Source\\Sampled\\Walk\\Body_01.png",
+    "sha256": "967E7E79442720D3FEC0B34694A10067414D6FB24EF68E0AD7D7DA1065FE67F7",
+    "bytes": 6705
+  },
+  {
+    "path": "Source\\Sampled\\Walk\\Body_02.png",
+    "sha256": "F0E585362B86E6BCC36BDA72D427FB8598DDF30EC0B59436DAF4DEE53BBFA40E",
+    "bytes": 6243
+  },
+  {
+    "path": "Source\\Sampled\\Walk\\Body_03.png",
+    "sha256": "D8177A5C673AA2B243ADE81A24ADAA62FB4BFFC4B5D19D0B562C43C602A25393",
+    "bytes": 6494
+  },
+  {
+    "path": "Source\\Sampled\\Walk\\Body_04.png",
+    "sha256": "54DAF37D51A3C699B5F1F7D835602557B566BCCE48D9DEAF35E924D59389968B",
+    "bytes": 6440
+  },
+  {
+    "path": "Source\\Sampled\\Walk\\Body_05.png",
+    "sha256": "D9B54C73DAFCC7BF89A74FA3E9CBD5DDFF06BBC88335DD2413B3ECB1235B023A",
+    "bytes": 6364
+  },
+  {
+    "path": "Source\\Sampled\\Walk\\Body_06.png",
+    "sha256": "2018BFAA2EEFE59B59C7F98E6D09CE44FA0DC62B31953E804F13845C03B3EA3D",
+    "bytes": 6494
+  },
+  {
+    "path": "Source\\Sampled\\Walk\\Full_01.aseprite",
+    "sha256": "B9F238CB52467B549632281E217BDA155B066F8F1CE77127468FE2B3E2AB5C56",
+    "bytes": 3599
+  },
+  {
+    "path": "Source\\Sampled\\Walk\\Full_01.png",
+    "sha256": "967E7E79442720D3FEC0B34694A10067414D6FB24EF68E0AD7D7DA1065FE67F7",
+    "bytes": 6705
+  },
+  {
+    "path": "Source\\Sampled\\Walk\\Full_02.aseprite",
+    "sha256": "60E86D5BED5DBF3B3D7414FDE56A77A0EA0D0C2E9E750F53620C2BDB5CC6C177",
+    "bytes": 3429
+  },
+  {
+    "path": "Source\\Sampled\\Walk\\Full_02.png",
+    "sha256": "F0E585362B86E6BCC36BDA72D427FB8598DDF30EC0B59436DAF4DEE53BBFA40E",
+    "bytes": 6243
+  },
+  {
+    "path": "Source\\Sampled\\Walk\\Full_03.aseprite",
+    "sha256": "ADD711A5DED011E81B3500077D36A1C7C84BF993152A35B0275F0AA171B0BEE2",
+    "bytes": 3581
+  },
+  {
+    "path": "Source\\Sampled\\Walk\\Full_03.png",
+    "sha256": "D8177A5C673AA2B243ADE81A24ADAA62FB4BFFC4B5D19D0B562C43C602A25393",
+    "bytes": 6494
+  },
+  {
+    "path": "Source\\Sampled\\Walk\\Full_04.aseprite",
+    "sha256": "3B2C2BAD310C4EA01F86EA5ED0944B4BFA60A2D07A6C4719F7EFD229A4CC7456",
+    "bytes": 3528
+  },
+  {
+    "path": "Source\\Sampled\\Walk\\Full_04.png",
+    "sha256": "54DAF37D51A3C699B5F1F7D835602557B566BCCE48D9DEAF35E924D59389968B",
+    "bytes": 6440
+  },
+  {
+    "path": "Source\\Sampled\\Walk\\Full_05.aseprite",
+    "sha256": "AEBCBD718B3B94B779930F3BD3F40E9BB7029CA4ACE0B363CA93975514FD6D11",
+    "bytes": 3503
+  },
+  {
+    "path": "Source\\Sampled\\Walk\\Full_05.png",
+    "sha256": "D9B54C73DAFCC7BF89A74FA3E9CBD5DDFF06BBC88335DD2413B3ECB1235B023A",
+    "bytes": 6364
+  },
+  {
+    "path": "Source\\Sampled\\Walk\\Full_06.aseprite",
+    "sha256": "0D8396BA2EDAB2ED9B6025BC28E4C034D15B0A88DF42E971BF7FB85C7DEEC6EB",
+    "bytes": 3523
+  },
+  {
+    "path": "Source\\Sampled\\Walk\\Full_06.png",
+    "sha256": "2018BFAA2EEFE59B59C7F98E6D09CE44FA0DC62B31953E804F13845C03B3EA3D",
+    "bytes": 6494
+  },
+  {
+    "path": "UI\\sundeok_portrait_locked.aseprite",
+    "sha256": "362C7D2B32907673782675372D953AB54EB782B028F5EAA69E029E7B18B05858",
+    "bytes": 818
+  },
+  {
+    "path": "UI\\sundeok_portrait_locked.png",
+    "sha256": "076F0E2733304DC58FA28CE817B6B46D49CD8174E6B74CA459C28FC39C755D01",
+    "bytes": 632
+  },
+  {
+    "path": "UI\\sundeok_portrait.aseprite",
+    "sha256": "1029F0D4CDE3296E91C40CE6F87FE1C3C26A417EECD35E23415373017A3FCEAD",
+    "bytes": 2882
+  },
+  {
+    "path": "UI\\sundeok_portrait.png",
+    "sha256": "20CC492C60F9480EFF69B48B5D15C2207F2E2B5228BD3942E1A7BE79213902E4",
+    "bytes": 5243
+  },
+  {
+    "path": "Weapons\\Shotgun\\sundeok_shotgun.aseprite",
+    "sha256": "E916E3D7B757B50FF77609AD67FC646A24DFAE6426CBE053DE152C1CCC12BEDC",
+    "bytes": 899
+  },
+  {
+    "path": "Weapons\\Shotgun\\sundeok_shotgun.json",
+    "sha256": "2241529C749A1D192AEE40E17D35F50151387C5D1F813D63F719B1A9BFE59EDA",
+    "bytes": 334
+  },
+  {
+    "path": "Weapons\\Shotgun\\sundeok_shotgun.png",
+    "sha256": "FC4CDC2D88E6CAFEBE729CABECEF6374063CDA2F886FB55CD02C7D52CD21D07C",
+    "bytes": 1023
+  }
+]

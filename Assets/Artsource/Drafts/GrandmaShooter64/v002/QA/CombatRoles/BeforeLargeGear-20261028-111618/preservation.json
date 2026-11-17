@@ -1,0 +1,230 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "6FBF74499879B3C0ED16B8894726DD28E708259F0F4E047339981D1633B7BC50",
+    "matches_previous_delivery": true,
+    "backup": "README.md"
+  },
+  {
+    "path": "Scripts\\create_combat_roles.lua",
+    "sha256": "D75C19762D1702420F4590582FF3A8AB343248429C77CD3B4EC341CBB43586B6",
+    "matches_previous_delivery": true,
+    "backup": "Scripts__create_combat_roles.lua"
+  },
+  {
+    "path": "Scripts\\validate_combat_roles.lua",
+    "sha256": "A10EB85C6D71D99EC3B51709343C82DFD7F19913F1AFA332E035996A00BF52E9",
+    "matches_previous_delivery": true,
+    "backup": "Scripts__validate_combat_roles.lua"
+  },
+  {
+    "path": "QA\\CombatRoles\\review.md",
+    "sha256": "CFBFD2B95B214D9BD6CA0E51427123005F27BA0A5CFAD4D4500DF1B610BCD985",
+    "matches_previous_delivery": true,
+    "backup": "QA__CombatRoles__review.md"
+  },
+  {
+    "path": "QA\\CombatRoles\\validation.json",
+    "sha256": "2D9BD8F94F3A0CB5F23296964B9A720FC929D8850EC04B66FFD0E42B9D5166FF",
+    "matches_previous_delivery": true,
+    "backup": "QA__CombatRoles__validation.json"
+  },
+  {
+    "path": "Previews\\combat_lineup_04-08_4x.png",
+    "sha256": "A5226C46D88E84D8222F1562047A9CE73FE953F520AC168076DFA85A87F7B724",
+    "matches_previous_delivery": true,
+    "backup": "Previews__combat_lineup_04-08_4x.png"
+  },
+  {
+    "path": "Previews\\combat_roles_05-08_native.png",
+    "sha256": "E566BDC2C5D098383C88E80D23807D08F52D3CB89CE796E3DADBD83290777C66",
+    "matches_previous_delivery": true,
+    "backup": "Previews__combat_roles_05-08_native.png"
+  },
+  {
+    "path": "Previews\\combat_roles_05-08_4x.png",
+    "sha256": "5287715E1422529F15E4A210E17C98753B921C5258B571756AEC54AD5DFCD2DC",
+    "matches_previous_delivery": true,
+    "backup": "Previews__combat_roles_05-08_4x.png"
+  },
+  {
+    "path": "Previews\\combat_roles_05-08_silhouettes_4x.png",
+    "sha256": "0008ABB7BD9CAD09FC02BEF1064F96ADC3FF2DEB99A2BF32BC688524959B50D7",
+    "matches_previous_delivery": true,
+    "backup": "Previews__combat_roles_05-08_silhouettes_4x.png"
+  },
+  {
+    "path": "Previews\\combat_roles_before_after_4x.png",
+    "sha256": "835C0A2429BFC3D60FBCA7D5F25A69304F1C51236915641F99313CDB7BC9EB71",
+    "matches_previous_delivery": true,
+    "backup": "Previews__combat_roles_before_after_4x.png"
+  },
+  {
+    "path": "grandma_05_flamethrower.aseprite",
+    "sha256": "53CC2B18643CBE3DF2C9F91B2DAD3A3287B5596B58537EE2D07CB5E89D553A04",
+    "matches_previous_delivery": true,
+    "backup": "grandma_05_flamethrower.aseprite"
+  },
+  {
+    "path": "Export\\grandma_05_flamethrower.png",
+    "sha256": "32CC73E18B2F66E7F9E83C9D81BCF820788FD37907C05D6BF2BF710E3F882CCD",
+    "matches_previous_delivery": true,
+    "backup": "Export__grandma_05_flamethrower.png"
+  },
+  {
+    "path": "Export\\grandma_05_flamethrower_no_fx.png",
+    "sha256": "21FE85D41E4F54F2B10A8CD965D1E4B176C1A91AB48A895857B40EDE3DEC61BB",
+    "matches_previous_delivery": true,
+    "backup": "Export__grandma_05_flamethrower_no_fx.png"
+  },
+  {
+    "path": "Export\\grandma_05_flamethrower_silhouette.png",
+    "sha256": "42CEC74BCA9C34D0148AD788D1E65BFFBC51D46EDD7A79919C55400CB6D06D44",
+    "matches_previous_delivery": true,
+    "backup": "Export__grandma_05_flamethrower_silhouette.png"
+  },
+  {
+    "path": "Export\\grandma_05_flamethrower.json",
+    "sha256": "B0C6054F1D96D1C665F0BA8A661E294BE4F3A1250933F4806FBE185E08717B1F",
+    "matches_previous_delivery": true,
+    "backup": "Export__grandma_05_flamethrower.json"
+  },
+  {
+    "path": "Previews\\grandma_05_flamethrower_8x.png",
+    "sha256": "33455CE43B0D5492FAE9F74880D635FE390798D368EB535225C8A793B7674CC5",
+    "matches_previous_delivery": true,
+    "backup": "Previews__grandma_05_flamethrower_8x.png"
+  },
+  {
+    "path": "Previews\\grandma_05_flamethrower_dark_8x.png",
+    "sha256": "E80F96A42E1ACF2D146EE053812867D1D0E6D6F2D830D1D813A4A0350F57F0C4",
+    "matches_previous_delivery": true,
+    "backup": "Previews__grandma_05_flamethrower_dark_8x.png"
+  },
+  {
+    "path": "grandma_06_machinegun.aseprite",
+    "sha256": "FDFFEA538BD8F60A5627F4ECAC74203AE46E83C050E8153F2797A75CB576B7F1",
+    "matches_previous_delivery": true,
+    "backup": "grandma_06_machinegun.aseprite"
+  },
+  {
+    "path": "Export\\grandma_06_machinegun.png",
+    "sha256": "EDA03E6A7D927F9A042CA3248202D51B07A66628D910BC22D5D85E8C59A3AA32",
+    "matches_previous_delivery": true,
+    "backup": "Export__grandma_06_machinegun.png"
+  },
+  {
+    "path": "Export\\grandma_06_machinegun_no_fx.png",
+    "sha256": "2831E2ADDBBC5CD9B8C3592EC7045E89BC52B8912ED31403E6E9AAC7CA1ED419",
+    "matches_previous_delivery": true,
+    "backup": "Export__grandma_06_machinegun_no_fx.png"
+  },
+  {
+    "path": "Export\\grandma_06_machinegun_silhouette.png",
+    "sha256": "AF3D0ED72D8A970859F01621082886584369A03F8DFEC1322F2FFD6FA338944E",
+    "matches_previous_delivery": true,
+    "backup": "Export__grandma_06_machinegun_silhouette.png"
+  },
+  {
+    "path": "Export\\grandma_06_machinegun.json",
+    "sha256": "9C3B480349FBDDEB6717ECBAED7ED6960E385AC816C40CDCE4E590BD86654F6E",
+    "matches_previous_delivery": true,
+    "backup": "Export__grandma_06_machinegun.json"
+  },
+  {
+    "path": "Previews\\grandma_06_machinegun_8x.png",
+    "sha256": "D91AD77577EB8A018E2E9647174C2FD96730A767CE6C078B8A32A2392A7A736C",
+    "matches_previous_delivery": true,
+    "backup": "Previews__grandma_06_machinegun_8x.png"
+  },
+  {
+    "path": "Previews\\grandma_06_machinegun_dark_8x.png",
+    "sha256": "D36DA865ABD532832CBBF87CCAE6CC9B1F30070F8408CB368F87704C2F8B8BEF",
+    "matches_previous_delivery": true,
+    "backup": "Previews__grandma_06_machinegun_dark_8x.png"
+  },
+  {
+    "path": "grandma_07_sniper.aseprite",
+    "sha256": "4C827180F26E031E7266D26B7A9CEE36875456DC4312FABCAF1E4F87CBED7109",
+    "matches_previous_delivery": true,
+    "backup": "grandma_07_sniper.aseprite"
+  },
+  {
+    "path": "Export\\grandma_07_sniper.png",
+    "sha256": "54AD19BD5E0404DC61ABF5959D781E0E87B36DC56957ABCD7232F7867BF44BA2",
+    "matches_previous_delivery": true,
+    "backup": "Export__grandma_07_sniper.png"
+  },
+  {
+    "path": "Export\\grandma_07_sniper_no_fx.png",
+    "sha256": "6E2124FFF5D913C730DCA95B69635DDE9999E269ADDE5425C0CBC6AA2CD7A517",
+    "matches_previous_delivery": true,
+    "backup": "Export__grandma_07_sniper_no_fx.png"
+  },
+  {
+    "path": "Export\\grandma_07_sniper_silhouette.png",
+    "sha256": "260C826B7A9887D13B9B532B66ACD46F4849B954EB5756364955FE7242962F39",
+    "matches_previous_delivery": true,
+    "backup": "Export__grandma_07_sniper_silhouette.png"
+  },
+  {
+    "path": "Export\\grandma_07_sniper.json",
+    "sha256": "BB9798728DEE503D3A9EFF591E44DAA7DF140779657F844599E7792AE6EABC1D",
+    "matches_previous_delivery": true,
+    "backup": "Export__grandma_07_sniper.json"
+  },
+  {
+    "path": "Previews\\grandma_07_sniper_8x.png",
+    "sha256": "34D70A801BE509C9E9F9175543FBB7CF5805482DFDB2DE395D2020F0B3ED95B7",
+    "matches_previous_delivery": true,
+    "backup": "Previews__grandma_07_sniper_8x.png"
+  },
+  {
+    "path": "Previews\\grandma_07_sniper_dark_8x.png",
+    "sha256": "CC40F3C7722532C88486A2C43E5FFE3A5C6653F97B8DD43CC46856DB2DDAA7F7",
+    "matches_previous_delivery": true,
+    "backup": "Previews__grandma_07_sniper_dark_8x.png"
+  },
+  {
+    "path": "grandma_08_motorcycle.aseprite",
+    "sha256": "D5E84F44997733CD0FBB79AD2DFB823DD5A26E6C02D4C93A5C1FDF2F155BD625",
+    "matches_previous_delivery": true,
+    "backup": "grandma_08_motorcycle.aseprite"
+  },
+  {
+    "path": "Export\\grandma_08_motorcycle.png",
+    "sha256": "EE39C9BB1B491D7A61BD79975EB505F4E5A14E51C4818BE55D89C8B5D3EB72BD",
+    "matches_previous_delivery": true,
+    "backup": "Export__grandma_08_motorcycle.png"
+  },
+  {
+    "path": "Export\\grandma_08_motorcycle_no_fx.png",
+    "sha256": "3F24714455AA5F74A758ADE9065D0B8FDEEFCA6FE295B1E32F6179036A299B2F",
+    "matches_previous_delivery": true,
+    "backup": "Export__grandma_08_motorcycle_no_fx.png"
+  },
+  {
+    "path": "Export\\grandma_08_motorcycle_silhouette.png",
+    "sha256": "6BECB15C95EB5F5471792DE4A9B879FAF8670BFCF930E1F30BB9663BC6CFD29E",
+    "matches_previous_delivery": true,
+    "backup": "Export__grandma_08_motorcycle_silhouette.png"
+  },
+  {
+    "path": "Export\\grandma_08_motorcycle.json",
+    "sha256": "861BC02960F639967937CA278292BF981E437EA5FF0A05D0962CC3818957B215",
+    "matches_previous_delivery": true,
+    "backup": "Export__grandma_08_motorcycle.json"
+  },
+  {
+    "path": "Previews\\grandma_08_motorcycle_8x.png",
+    "sha256": "6A32B32B258080CC8B2D22503D56B137B50290A4B2D3F2E138F31D9245324269",
+    "matches_previous_delivery": true,
+    "backup": "Previews__grandma_08_motorcycle_8x.png"
+  },
+  {
+    "path": "Previews\\grandma_08_motorcycle_dark_8x.png",
+    "sha256": "07AAED5ACC103391F48BD4ED407897F9F2AA05A2C47566EA194FF6E850BC8E3F",
+    "matches_previous_delivery": true,
+    "backup": "Previews__grandma_08_motorcycle_dark_8x.png"
+  }
+]

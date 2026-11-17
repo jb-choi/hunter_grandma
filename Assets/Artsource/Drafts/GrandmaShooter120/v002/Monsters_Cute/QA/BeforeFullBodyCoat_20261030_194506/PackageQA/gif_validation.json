@@ -1,0 +1,483 @@
+{
+  "count": 31,
+  "passed": true,
+  "files": [
+    {
+      "width": 120,
+      "timing_exact": true,
+      "path": "z01_normal/Export/Gifs/z01_normal_idle.gif",
+      "durations_ms": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "frames": 4,
+      "height": 120
+    },
+    {
+      "width": 360,
+      "timing_exact": true,
+      "path": "z01_normal/Previews/Idle_3x.gif",
+      "durations_ms": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "frames": 4,
+      "height": 360
+    },
+    {
+      "width": 120,
+      "timing_exact": true,
+      "path": "z01_normal/Export/Gifs/z01_normal_walk.gif",
+      "durations_ms": [
+        130,
+        130,
+        130,
+        130,
+        130,
+        130
+      ],
+      "frames": 6,
+      "height": 120
+    },
+    {
+      "width": 360,
+      "timing_exact": true,
+      "path": "z01_normal/Previews/Walk_3x.gif",
+      "durations_ms": [
+        130,
+        130,
+        130,
+        130,
+        130,
+        130
+      ],
+      "frames": 6,
+      "height": 360
+    },
+    {
+      "width": 120,
+      "timing_exact": true,
+      "path": "z01_normal/Export/Gifs/z01_normal_run.gif",
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "frames": 6,
+      "height": 120
+    },
+    {
+      "width": 360,
+      "timing_exact": true,
+      "path": "z01_normal/Previews/Run_3x.gif",
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "frames": 6,
+      "height": 360
+    },
+    {
+      "width": 120,
+      "timing_exact": true,
+      "path": "z01_normal/Export/Gifs/z01_normal_attack.gif",
+      "durations_ms": [
+        120,
+        90,
+        70,
+        80,
+        100,
+        140
+      ],
+      "frames": 6,
+      "height": 120
+    },
+    {
+      "width": 360,
+      "timing_exact": true,
+      "path": "z01_normal/Previews/Attack_3x.gif",
+      "durations_ms": [
+        120,
+        90,
+        70,
+        80,
+        100,
+        140
+      ],
+      "frames": 6,
+      "height": 360
+    },
+    {
+      "width": 120,
+      "timing_exact": true,
+      "path": "z01_normal/Export/Gifs/z01_normal_dead.gif",
+      "durations_ms": [
+        90,
+        100,
+        120,
+        140,
+        170,
+        400
+      ],
+      "frames": 6,
+      "height": 120
+    },
+    {
+      "width": 360,
+      "timing_exact": true,
+      "path": "z01_normal/Previews/Dead_3x.gif",
+      "durations_ms": [
+        90,
+        100,
+        120,
+        140,
+        170,
+        400
+      ],
+      "frames": 6,
+      "height": 360
+    },
+    {
+      "width": 120,
+      "timing_exact": true,
+      "path": "z02_large/Export/Gifs/z02_large_idle.gif",
+      "durations_ms": [
+        230,
+        230,
+        230,
+        230
+      ],
+      "frames": 4,
+      "height": 120
+    },
+    {
+      "width": 360,
+      "timing_exact": true,
+      "path": "z02_large/Previews/Idle_3x.gif",
+      "durations_ms": [
+        230,
+        230,
+        230,
+        230
+      ],
+      "frames": 4,
+      "height": 360
+    },
+    {
+      "width": 120,
+      "timing_exact": true,
+      "path": "z02_large/Export/Gifs/z02_large_walk.gif",
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "frames": 6,
+      "height": 120
+    },
+    {
+      "width": 360,
+      "timing_exact": true,
+      "path": "z02_large/Previews/Walk_3x.gif",
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "frames": 6,
+      "height": 360
+    },
+    {
+      "width": 120,
+      "timing_exact": true,
+      "path": "z02_large/Export/Gifs/z02_large_run.gif",
+      "durations_ms": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "frames": 6,
+      "height": 120
+    },
+    {
+      "width": 360,
+      "timing_exact": true,
+      "path": "z02_large/Previews/Run_3x.gif",
+      "durations_ms": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "frames": 6,
+      "height": 360
+    },
+    {
+      "width": 120,
+      "timing_exact": true,
+      "path": "z02_large/Export/Gifs/z02_large_attack.gif",
+      "durations_ms": [
+        120,
+        90,
+        70,
+        80,
+        100,
+        140
+      ],
+      "frames": 6,
+      "height": 120
+    },
+    {
+      "width": 360,
+      "timing_exact": true,
+      "path": "z02_large/Previews/Attack_3x.gif",
+      "durations_ms": [
+        120,
+        90,
+        70,
+        80,
+        100,
+        140
+      ],
+      "frames": 6,
+      "height": 360
+    },
+    {
+      "width": 120,
+      "timing_exact": true,
+      "path": "z02_large/Export/Gifs/z02_large_dead.gif",
+      "durations_ms": [
+        90,
+        100,
+        120,
+        140,
+        170,
+        400
+      ],
+      "frames": 6,
+      "height": 120
+    },
+    {
+      "width": 360,
+      "timing_exact": true,
+      "path": "z02_large/Previews/Dead_3x.gif",
+      "durations_ms": [
+        90,
+        100,
+        120,
+        140,
+        170,
+        400
+      ],
+      "frames": 6,
+      "height": 360
+    },
+    {
+      "width": 120,
+      "timing_exact": true,
+      "path": "z03_human/Export/Gifs/z03_human_idle.gif",
+      "durations_ms": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "frames": 4,
+      "height": 120
+    },
+    {
+      "width": 360,
+      "timing_exact": true,
+      "path": "z03_human/Previews/Idle_3x.gif",
+      "durations_ms": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "frames": 4,
+      "height": 360
+    },
+    {
+      "width": 120,
+      "timing_exact": true,
+      "path": "z03_human/Export/Gifs/z03_human_walk.gif",
+      "durations_ms": [
+        130,
+        130,
+        130,
+        130,
+        130,
+        130
+      ],
+      "frames": 6,
+      "height": 120
+    },
+    {
+      "width": 360,
+      "timing_exact": true,
+      "path": "z03_human/Previews/Walk_3x.gif",
+      "durations_ms": [
+        130,
+        130,
+        130,
+        130,
+        130,
+        130
+      ],
+      "frames": 6,
+      "height": 360
+    },
+    {
+      "width": 120,
+      "timing_exact": true,
+      "path": "z03_human/Export/Gifs/z03_human_run.gif",
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "frames": 6,
+      "height": 120
+    },
+    {
+      "width": 360,
+      "timing_exact": true,
+      "path": "z03_human/Previews/Run_3x.gif",
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "frames": 6,
+      "height": 360
+    },
+    {
+      "width": 120,
+      "timing_exact": true,
+      "path": "z03_human/Export/Gifs/z03_human_attack.gif",
+      "durations_ms": [
+        120,
+        90,
+        70,
+        80,
+        100,
+        140
+      ],
+      "frames": 6,
+      "height": 120
+    },
+    {
+      "width": 360,
+      "timing_exact": true,
+      "path": "z03_human/Previews/Attack_3x.gif",
+      "durations_ms": [
+        120,
+        90,
+        70,
+        80,
+        100,
+        140
+      ],
+      "frames": 6,
+      "height": 360
+    },
+    {
+      "width": 120,
+      "timing_exact": true,
+      "path": "z03_human/Export/Gifs/z03_human_dead.gif",
+      "durations_ms": [
+        90,
+        100,
+        120,
+        140,
+        170,
+        400
+      ],
+      "frames": 6,
+      "height": 120
+    },
+    {
+      "width": 360,
+      "timing_exact": true,
+      "path": "z03_human/Previews/Dead_3x.gif",
+      "durations_ms": [
+        90,
+        100,
+        120,
+        140,
+        170,
+        400
+      ],
+      "frames": 6,
+      "height": 360
+    },
+    {
+      "width": 1080,
+      "timing_exact": true,
+      "path": "Previews/three_characters_all_actions_3x.gif",
+      "durations_ms": [
+        200,
+        200,
+        200,
+        200,
+        130,
+        130,
+        130,
+        130,
+        130,
+        130,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        120,
+        90,
+        70,
+        80,
+        100,
+        140,
+        90,
+        100,
+        120,
+        140,
+        170,
+        400
+      ],
+      "frames": 28,
+      "height": 360,
+      "note": "Uses z01 timings for simultaneous comparison; each native actor clip retains its own timing."
+    }
+  ],
+  "date": "2026-10-30"
+}

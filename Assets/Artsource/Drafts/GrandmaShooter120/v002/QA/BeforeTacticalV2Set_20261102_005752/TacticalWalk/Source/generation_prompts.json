@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-02",
+  "method": "Built-in ImageGen armless tactical walk body; native reuse of independent Aim arms and shotgun",
+  "assets": [
+    {
+      "name": "walk_v2_tactical_body",
+      "prompt": "Use case: stylized-concept. Asset type: SIX-FRAME tactical walk BODY layer sprite sheet for the SAME Sundeok grandma. Input1 is the EXACT body-only design reference; input2 shows same character's separate ready shotgun/arms ONLY as pose/style context, do NOT paint that gun or arms into output. Preserve her identity: short stocky KOREAN ELDERLY WOMAN with round elderly cheeks, small low-set oval glasses, voluminous curly GRAY PERM, mustard diamond-quilted padded jacket, loose dark PLUM trousers with tiny coral/red flowers and green leaf motifs, WINE slip-on shoes with pale soles. Same warm clean pixel-art style, same detailed clothes and proportions; do NOT turn her into a younger thin soldier, John Wick's face, suit, armor or other character. New movement: controlled cinema-style TACTICAL WALK to the RIGHT, body slightly leaning FORWARD about10-15degrees from the hips, head/chin slightly tucked and focused forward, center of gravity lowered a little, continuously softly bent knees, short deliberate heel-to-toe steps, compact profile with hips BEHIND shoulders/head. Clearly different from upright relaxed walking; NOT running, extreme deep crouching, crawling or a rotated copy. Keep neck/spine natural and elderly stocky belly volume. Her independently added arms will keep a shotgun tight to the shoulder/cheek with elbows tucked, but BOTH ARMS AND HANDS MUST BE COMPLETELY ABSENT FROM THIS BODY-LAYER OUTPUT. Restore the jacket's complete torso/shoulders under the missing arms so later arm layers can be hidden cleanly. No weapon, ammo or effects anywhere. EXACTLY SIX genuine sequential alternating-leg tactical-walk poses, strict3COLUMNS x2ROWS, row-major. F1front/right foot forward controlled contact, rear/left heel lifting; F2weight lowered/transfer; F3left leg passing/knee advances, right foot supports; F4opposite/left foot forward contact, right heel lifting; F5opposite weight transfer; F6right leg passing/knee advances, left foot supports, loop toF1. Distinguish actual near/far legs and cloth overlap; no sliding or mirroring the same legs. Torso stays inclined in ALL six poses, head and hips nearly locked horizontally within each cell, maximum1-2 logical-pixel head bob, no camera changes or character resizing. Each sprite intended for120x120 logical canvas, native silhouette about106px tall, consistent floor and comfortable transparent margins. Pixel art with crisp stepped pixels, large coherent shade clusters, about26 opaque colors, dark plum contours, no antialias blur/gradients/noisy dither. Genuine TRANSPARENT background incl between legs/cells, no floor/shadows/text/grid/numbers/props. Fill ONE cell with ONE complete armless body, preserve top-of-hair and entire shoes, all six cells well separated.",
+      "references": [
+        "Source/body_reference_4x.png",
+        "Source/aim_reference_4x.png"
+      ],
+      "output": "Source/walk_v2_tactical_body_generated.png"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "height": 120,
+    "width": 120,
+    "durations_ms": [
+      140,
+      140,
+      140,
+      140,
+      140,
+      140
+    ],
+    "path": "Export/sundeok_walk_v2_tactical.gif",
+    "frames": 6,
+    "passed": true
+  },
+  {
+    "height": 360,
+    "width": 360,
+    "durations_ms": [
+      140,
+      140,
+      140,
+      140,
+      140,
+      140
+    ],
+    "path": "Previews/walk_v2_tactical_3x.gif",
+    "frames": 6,
+    "passed": true
+  },
+  {
+    "height": 360,
+    "width": 720,
+    "durations_ms": [
+      140,
+      140,
+      140,
+      140,
+      140,
+      140
+    ],
+    "path": "Previews/normal_vs_tactical_3x.gif",
+    "frames": 6,
+    "passed": true
+  }
+]

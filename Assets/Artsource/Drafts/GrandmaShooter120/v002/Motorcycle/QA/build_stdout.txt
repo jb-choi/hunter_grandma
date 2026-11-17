@@ -1,0 +1,1 @@
+Built 18 frames / Idle,Ride,Collect; 8 layers, separate vehicle and rider; 24-frame continuous moving pickup demo.

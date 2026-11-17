@@ -1,0 +1,3224 @@
+fileFormatVersion: 2
+guid: 398944adbe007df46b70c0a562d3e2d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8226639883163135120
+    second: cute_lineup_0
+  - first:
+      213: -1435072920252848671
+    second: cute_lineup_1
+  - first:
+      213: -799933777739567826
+    second: cute_lineup_2
+  - first:
+      213: -2451683838949750305
+    second: cute_lineup_3
+  - first:
+      213: 5838465361505794992
+    second: cute_lineup_4
+  - first:
+      213: -1448904410430021763
+    second: cute_lineup_5
+  - first:
+      213: -6370369465921482139
+    second: cute_lineup_6
+  - first:
+      213: -3839389708560358204
+    second: cute_lineup_7
+  - first:
+      213: 5761083644624903842
+    second: cute_lineup_8
+  - first:
+      213: -4326086625798792552
+    second: cute_lineup_9
+  - first:
+      213: 3570319472910808400
+    second: cute_lineup_10
+  - first:
+      213: 6536940354409966909
+    second: cute_lineup_11
+  - first:
+      213: -1328932226424036324
+    second: cute_lineup_12
+  - first:
+      213: 3567388708259218561
+    second: cute_lineup_13
+  - first:
+      213: 791329600971497440
+    second: cute_lineup_14
+  - first:
+      213: 1457687631936710407
+    second: cute_lineup_15
+  - first:
+      213: 9136172143746945388
+    second: cute_lineup_16
+  - first:
+      213: 6006550579184081917
+    second: cute_lineup_17
+  - first:
+      213: 5811959673877495955
+    second: cute_lineup_18
+  - first:
+      213: 1066135882415439671
+    second: cute_lineup_19
+  - first:
+      213: -4310320412892663653
+    second: cute_lineup_20
+  - first:
+      213: 9199279719958355454
+    second: cute_lineup_21
+  - first:
+      213: 802705651036939629
+    second: cute_lineup_22
+  - first:
+      213: 738305171028062276
+    second: cute_lineup_23
+  - first:
+      213: -7206756608115252844
+    second: cute_lineup_24
+  - first:
+      213: -9009048112706883667
+    second: cute_lineup_25
+  - first:
+      213: -3472937542220908620
+    second: cute_lineup_26
+  - first:
+      213: -462673366423049264
+    second: cute_lineup_27
+  - first:
+      213: 951692632547322202
+    second: cute_lineup_28
+  - first:
+      213: 8561531890155551360
+    second: cute_lineup_29
+  - first:
+      213: -6158237384822024967
+    second: cute_lineup_30
+  - first:
+      213: 7454253672614761450
+    second: cute_lineup_31
+  - first:
+      213: 8576752715813200552
+    second: cute_lineup_32
+  - first:
+      213: -8927465516392226116
+    second: cute_lineup_33
+  - first:
+      213: -3169382710790063271
+    second: cute_lineup_34
+  - first:
+      213: 7550274592704141590
+    second: cute_lineup_35
+  - first:
+      213: -3203644622261464260
+    second: cute_lineup_36
+  - first:
+      213: 5201819738876234153
+    second: cute_lineup_37
+  - first:
+      213: -3516337640357871748
+    second: cute_lineup_38
+  - first:
+      213: 7008024166710791676
+    second: cute_lineup_39
+  - first:
+      213: 5599260172425517841
+    second: cute_lineup_40
+  - first:
+      213: 4308739860041218964
+    second: cute_lineup_41
+  - first:
+      213: -4130969838282332352
+    second: cute_lineup_42
+  - first:
+      213: 5017457028856391308
+    second: cute_lineup_43
+  - first:
+      213: -6496136052599270157
+    second: cute_lineup_44
+  - first:
+      213: 6077696434500185367
+    second: cute_lineup_45
+  - first:
+      213: -7393964507417164842
+    second: cute_lineup_46
+  - first:
+      213: 8216502067722570064
+    second: cute_lineup_47
+  - first:
+      213: 3421062781720314698
+    second: cute_lineup_48
+  - first:
+      213: -3825190412823309336
+    second: cute_lineup_49
+  - first:
+      213: 2227163141943362760
+    second: cute_lineup_50
+  - first:
+      213: -5556505219187785418
+    second: cute_lineup_51
+  - first:
+      213: 8571927026456043595
+    second: cute_lineup_52
+  - first:
+      213: -149447483787164201
+    second: cute_lineup_53
+  - first:
+      213: -4178477864276293103
+    second: cute_lineup_54
+  - first:
+      213: -7099617404869226467
+    second: cute_lineup_55
+  - first:
+      213: -5435616324595707207
+    second: cute_lineup_56
+  - first:
+      213: -8952057626511554658
+    second: cute_lineup_57
+  - first:
+      213: 6181462399500798065
+    second: cute_lineup_58
+  - first:
+      213: -5208452055588296797
+    second: cute_lineup_59
+  - first:
+      213: -8319540535488633944
+    second: cute_lineup_60
+  - first:
+      213: 7599650940788591076
+    second: cute_lineup_61
+  - first:
+      213: 1426541547729999986
+    second: cute_lineup_62
+  - first:
+      213: -1898004261452001636
+    second: cute_lineup_63
+  - first:
+      213: -7895241647628927924
+    second: cute_lineup_64
+  - first:
+      213: -794131773937976778
+    second: cute_lineup_65
+  - first:
+      213: 8726195827047129335
+    second: cute_lineup_66
+  - first:
+      213: -1752044489369131905
+    second: cute_lineup_67
+  - first:
+      213: 5541353971119649532
+    second: cute_lineup_68
+  - first:
+      213: -8978558001351689109
+    second: cute_lineup_69
+  - first:
+      213: 6900857970963213250
+    second: cute_lineup_70
+  - first:
+      213: -4653595827722240613
+    second: cute_lineup_71
+  - first:
+      213: -3478762156215475960
+    second: cute_lineup_72
+  - first:
+      213: 102473843955475740
+    second: cute_lineup_73
+  - first:
+      213: -6386376276489841394
+    second: cute_lineup_74
+  - first:
+      213: 582086436679023875
+    second: cute_lineup_75
+  - first:
+      213: -2092293316276029230
+    second: cute_lineup_76
+  - first:
+      213: -7566122456128532214
+    second: cute_lineup_77
+  - first:
+      213: -1184679652733760552
+    second: cute_lineup_78
+  - first:
+      213: 1506191856222509777
+    second: cute_lineup_79
+  - first:
+      213: 4079787105065161492
+    second: cute_lineup_80
+  - first:
+      213: 3181839317147083087
+    second: cute_lineup_81
+  - first:
+      213: 7535736181485927512
+    second: cute_lineup_82
+  - first:
+      213: 5398916277403614590
+    second: cute_lineup_83
+  - first:
+      213: 7964335022570190708
+    second: cute_lineup_84
+  - first:
+      213: 9134034601610688722
+    second: cute_lineup_85
+  - first:
+      213: 4482042831907797102
+    second: cute_lineup_86
+  - first:
+      213: -7502900397949605919
+    second: cute_lineup_87
+  - first:
+      213: 259964274995475315
+    second: cute_lineup_88
+  - first:
+      213: -367549322754205297
+    second: cute_lineup_89
+  - first:
+      213: -1707235765559504751
+    second: cute_lineup_90
+  - first:
+      213: 4569579772052752930
+    second: cute_lineup_91
+  - first:
+      213: 1811201737030942303
+    second: cute_lineup_92
+  - first:
+      213: -2658970370017074863
+    second: cute_lineup_93
+  - first:
+      213: 2267743571128701139
+    second: cute_lineup_94
+  - first:
+      213: 3930260435442475648
+    second: cute_lineup_95
+  - first:
+      213: 5887198076230413906
+    second: cute_lineup_96
+  - first:
+      213: 5183432858863462378
+    second: cute_lineup_97
+  - first:
+      213: -3092846400917780469
+    second: cute_lineup_98
+  - first:
+      213: 294011315408787916
+    second: cute_lineup_99
+  - first:
+      213: -2820971118064830865
+    second: cute_lineup_100
+  - first:
+      213: 7336456137960952242
+    second: cute_lineup_101
+  - first:
+      213: 5745999653833294552
+    second: cute_lineup_102
+  - first:
+      213: 3401891060483285392
+    second: cute_lineup_103
+  - first:
+      213: 6458031574326476576
+    second: cute_lineup_104
+  - first:
+      213: 3412725042779793610
+    second: cute_lineup_105
+  - first:
+      213: 2681219169457837354
+    second: cute_lineup_106
+  - first:
+      213: 8097736964938447764
+    second: cute_lineup_107
+  - first:
+      213: -2964960661828371212
+    second: cute_lineup_108
+  - first:
+      213: 9061596411545276338
+    second: cute_lineup_109
+  - first:
+      213: -1105263257924725514
+    second: cute_lineup_110
+  - first:
+      213: 9025255986206388138
+    second: cute_lineup_111
+  - first:
+      213: 6389958638162434368
+    second: cute_lineup_112
+  - first:
+      213: -7493426909862162217
+    second: cute_lineup_113
+  - first:
+      213: 4850741935182780466
+    second: cute_lineup_114
+  - first:
+      213: 5076281282764840968
+    second: cute_lineup_115
+  - first:
+      213: 464893154482425198
+    second: cute_lineup_116
+  - first:
+      213: -6186894698694243322
+    second: cute_lineup_117
+  - first:
+      213: -5911825347438969211
+    second: cute_lineup_118
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cute_lineup_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 558
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0731005ec9a15dd80800000000000000
+      internalID: -8226639883163135120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 552
+        width: 102
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5eb8948c8951ce0800000000000000
+      internalID: -1435072920252848671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_2
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 632
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d2ff5a77016e4f0800000000000000
+      internalID: -799933777739567826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 639
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd985ddb98ed9fdd0800000000000000
+      internalID: -2451683838949750305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_4
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 665
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbb9f11055660150800000000000000
+      internalID: 5838465361505794992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_5
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 634
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f52d68d1574ebe0800000000000000
+      internalID: -1448904410430021763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_6
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 646
+        width: 40
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56251cfe8b6e797a0800000000000000
+      internalID: -6370369465921482139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_7
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 675
+        width: 92
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c428fae66fb7bac0800000000000000
+      internalID: -3839389708560358204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_8
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 630
+        width: 49
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae1e2f1d0b73ff40800000000000000
+      internalID: 5761083644624903842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_9
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 640
+        width: 100
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ad1b96227a6f3c0800000000000000
+      internalID: -4326086625798792552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_10
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 622
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055328de4a25c8130800000000000000
+      internalID: 3570319472910808400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_11
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 522
+        width: 98
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3da58e3e90e7ba50800000000000000
+      internalID: 6536940354409966909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_12
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 0
+        width: 912
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c142d695e2fae8de0800000000000000
+      internalID: -1328932226424036324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_13
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 0
+        width: 591
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184c78b1129e18130800000000000000
+      internalID: 3567388708259218561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_14
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 675
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef5826541e5bfa00800000000000000
+      internalID: 791329600971497440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_15
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 677
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70761179d2fba3410800000000000000
+      internalID: 1457687631936710407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_16
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 661
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c611bd2c8243ace70800000000000000
+      internalID: 9136172143746945388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_17
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 642
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb1fad7ded8b5350800000000000000
+      internalID: 6006550579184081917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_18
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 661
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3900d52c78a38a050800000000000000
+      internalID: 5811959673877495955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_19
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 670
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f7ba9bfecabce00800000000000000
+      internalID: 1066135882415439671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_20
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 409
+        width: 93
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90fa69eb6aae24c0800000000000000
+      internalID: -4310320412892663653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_21
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 608
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd92995a286aaf70800000000000000
+      internalID: 9199279719958355454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_22
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 578
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6561456988c32b00800000000000000
+      internalID: 802705651036939629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_23
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 580
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44036fe24acfe3a00800000000000000
+      internalID: 738305171028062276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_24
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 568
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49167964c057cfb90800000000000000
+      internalID: -7206756608115252844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_25
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 550
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafe3b5397e69f280800000000000000
+      internalID: -9009048112706883667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_26
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 530
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7fdcca4b5adcfc0800000000000000
+      internalID: -3472937542220908620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_27
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 546
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbe15b46014499f0800000000000000
+      internalID: -462673366423049264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_28
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 524
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59e6523867153d00800000000000000
+      internalID: 951692632547322202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_29
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 465
+        width: 61
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a76e5a4eba0d670800000000000000
+      internalID: 8561531890155551360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_30
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 520
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4172be9bb898aa0800000000000000
+      internalID: -6158237384822024967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_31
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 531
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae39add8834d27760800000000000000
+      internalID: 7454253672614761450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_32
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 530
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2a968472fb60770800000000000000
+      internalID: 8576752715813200552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_33
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 423
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb264ee99654b1480800000000000000
+      internalID: -8927465516392226116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_34
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 474
+        width: 58
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95bf71677371404d0800000000000000
+      internalID: -3169382710790063271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_35
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 435
+        width: 39
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61999ce2db6f7c860800000000000000
+      internalID: 7550274592704141590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_36
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 470
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33d38f803e5a83d0800000000000000
+      internalID: -3203644622261464260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_37
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 455
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a94559fd73903840800000000000000
+      internalID: 5201819738876234153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_38
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 449
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f3224eb85733fc0800000000000000
+      internalID: -3516337640357871748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_39
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 480
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd462a79d0814160800000000000000
+      internalID: 7008024166710791676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_40
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 457
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b5a6ee57194bd40800000000000000
+      internalID: 5599260172425517841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_41
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 449
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bb253f218bbcb30800000000000000
+      internalID: 4308739860041218964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_42
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 435
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0472453a1d8dba6c0800000000000000
+      internalID: -4130969838282332352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_43
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 441
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86a5c8859691a540800000000000000
+      internalID: 5017457028856391308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_44
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 439
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4563c9da619d5a0800000000000000
+      internalID: -6496136052599270157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_45
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 427
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71daa07c4b0585450800000000000000
+      internalID: 6077696434500185367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_46
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 447
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3cd85947c536990800000000000000
+      internalID: -7393964507417164842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_47
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 437
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059cdd20911e60270800000000000000
+      internalID: 8216502067722570064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_48
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 437
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43cfb2797e0a7f20800000000000000
+      internalID: 3421062781720314698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_49
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 433
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3df6516913aeac0800000000000000
+      internalID: -3825190412823309336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_50
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 423
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4806cd31978ee10800000000000000
+      internalID: 2227163141943362760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 387
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63145b951f353e2b0800000000000000
+      internalID: -5556505219187785418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_52
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 403
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40ab7ce63a95f670800000000000000
+      internalID: 8571927026456043595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_53
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 383
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d54a482e4e0dedf0800000000000000
+      internalID: -149447483787164201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_54
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 384
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a8afd55801306c0800000000000000
+      internalID: -4178477864276293103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_55
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 375
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10d69de597197d90800000000000000
+      internalID: -7099617404869226467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2982d70cfc094b0800000000000000
+      internalID: -5435616324595707207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_57
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 368
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e97c3fac407e3c380800000000000000
+      internalID: -8952057626511554658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_58
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 373
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178cda23d47f8c550800000000000000
+      internalID: 6181462399500798065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_59
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 388
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7a105737cd7b7b0800000000000000
+      internalID: -5208452055588296797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_60
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 184
+        width: 78
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3acb736fd0b8c80800000000000000
+      internalID: -8319540535488633944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_61
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 371
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9caa61442677960800000000000000
+      internalID: 7599650940788591076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_62
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 353
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27858c1caf71cc310800000000000000
+      internalID: 1426541547729999986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_63
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 226
+        width: 100
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ec9f52e2fe8a5e0800000000000000
+      internalID: -1898004261452001636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_64
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 356
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c35316d877e6290800000000000000
+      internalID: -7895241647628927924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_65
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 339
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a739deb5daaf4f0800000000000000
+      internalID: -794131773937976778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_66
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 337
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0e3af0fdca91970800000000000000
+      internalID: 8726195827047129335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_67
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 329
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74e874d1dc7fa7e0800000000000000
+      internalID: -1752044489369131905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_68
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 313
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2794fc318d6ec40800000000000000
+      internalID: 5541353971119649532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_69
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 294
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cf0367111c56380800000000000000
+      internalID: -8978558001351689109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_70
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 295
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb6fa423c5c4cf50800000000000000
+      internalID: 6900857970963213250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 33
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d3060204b1b6fb0800000000000000
+      internalID: -4653595827722240613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_72
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 278
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80164bc0044f8bfc0800000000000000
+      internalID: -3478762156215475960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_73
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 271
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c152cbb0b6f0c6100800000000000000
+      internalID: 102473843955475740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_74
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 274
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0557ddec980f57a0800000000000000
+      internalID: -6386376276489841394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_75
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 275
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d73d6b78cf31800800000000000000
+      internalID: 582086436679023875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_76
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 271
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d87175705ea6f2e0800000000000000
+      internalID: -2092293316276029230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_77
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 278
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a015a5396bbbff690800000000000000
+      internalID: -7566122456128532214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_78
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 258
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dbcb2ee12c2f8fe0800000000000000
+      internalID: -1184679652733760552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_79
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 264
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da9ab9538117e410800000000000000
+      internalID: 1506191856222509777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_80
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 232
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413d0a4a1c05e9830800000000000000
+      internalID: 4079787105065161492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_81
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 244
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f416ce6300a282c20800000000000000
+      internalID: 3181839317147083087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_82
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 244
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85cf68a8120549860800000000000000
+      internalID: 7535736181485927512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_83
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 224
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d77b6efbdccea40800000000000000
+      internalID: 5398916277403614590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_84
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 230
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477bf749180078e60800000000000000
+      internalID: 7964335022570190708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_85
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 226
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8b123731c92ce70800000000000000
+      internalID: 9134034601610688722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_86
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 224
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6833ff653a633e30800000000000000
+      internalID: 4482042831907797102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_87
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 192
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7a31317d750e790800000000000000
+      internalID: -7502900397949605919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_88
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 206
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373b56971249b9300800000000000000
+      internalID: 259964274995475315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_89
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 208
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89dccb96d336eaf0800000000000000
+      internalID: -367549322754205297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_90
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 218
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190dbf5dd1eae48e0800000000000000
+      internalID: -1707235765559504751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 89
+        width: 33
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ac30e87986a6f30800000000000000
+      internalID: 4569579772052752930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_92
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 190
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ebc48326ea22910800000000000000
+      internalID: 1811201737030942303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_93
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 146
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151e7da4980791bd0800000000000000
+      internalID: -2658970370017074863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_94
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 146
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d05dce43c4a87f10800000000000000
+      internalID: 2267743571128701139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_95
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 166
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0822259ea071b8630800000000000000
+      internalID: 3930260435442475648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_96
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 160
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ea318657783b150800000000000000
+      internalID: 5887198076230413906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_97
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 144
+        width: 60
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7e4add8b04fe740800000000000000
+      internalID: 5183432858863462378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_98
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 144
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b084370c5900415d0800000000000000
+      internalID: -3092846400917780469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_99
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 126
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9d2eecbb9841400800000000000000
+      internalID: 294011315408787916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_100
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 53
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66fb1ad6b5e9d8d0800000000000000
+      internalID: -2820971118064830865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_101
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 99
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1956dbcf350d560800000000000000
+      internalID: 7336456137960952242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_102
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 11
+        width: 47
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d24046dd34edbf40800000000000000
+      internalID: 5745999653833294552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_103
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 103
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091eea045e1f53f20800000000000000
+      internalID: 3401891060483285392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_104
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 85
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f7cff20898f9950800000000000000
+      internalID: 6458031574326476576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_105
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 62
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac828f2585f6c5f20800000000000000
+      internalID: 3412725042779793610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 5
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25908001aa953520800000000000000
+      internalID: 2681219169457837354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_107
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 45
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bb4bfadd0f06070800000000000000
+      internalID: 8097736964938447764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_108
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 7
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc76b2bcf75ad6d0800000000000000
+      internalID: -2964960661828371212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_109
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 55
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf4c180de141cd70800000000000000
+      internalID: 9061596411545276338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_110
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 15
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f41b104ce059a0f0800000000000000
+      internalID: -1105263257924725514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_111
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 42
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafacc86086204d70800000000000000
+      internalID: 9025255986206388138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_112
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 47
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0495c15a681bda850800000000000000
+      internalID: 6389958638162434368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_113
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 55
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d010576deff10890800000000000000
+      internalID: -7493426909862162217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_114
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 35
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23819a7f61c415340800000000000000
+      internalID: 4850741935182780466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_115
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 37
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800a92f6ee2927640800000000000000
+      internalID: 5076281282764840968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_116
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 38
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d8f636cd1a37600800000000000000
+      internalID: 464893154482425198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_117
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 39
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c05951d0cb32aa0800000000000000
+      internalID: -6186894698694243322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cute_lineup_118
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 33
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58effbf2b2af4fda0800000000000000
+      internalID: -5911825347438969211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cute_lineup_0: -8226639883163135120
+      cute_lineup_1: -1435072920252848671
+      cute_lineup_10: 3570319472910808400
+      cute_lineup_100: -2820971118064830865
+      cute_lineup_101: 7336456137960952242
+      cute_lineup_102: 5745999653833294552
+      cute_lineup_103: 3401891060483285392
+      cute_lineup_104: 6458031574326476576
+      cute_lineup_105: 3412725042779793610
+      cute_lineup_106: 2681219169457837354
+      cute_lineup_107: 8097736964938447764
+      cute_lineup_108: -2964960661828371212
+      cute_lineup_109: 9061596411545276338
+      cute_lineup_11: 6536940354409966909
+      cute_lineup_110: -1105263257924725514
+      cute_lineup_111: 9025255986206388138
+      cute_lineup_112: 6389958638162434368
+      cute_lineup_113: -7493426909862162217
+      cute_lineup_114: 4850741935182780466
+      cute_lineup_115: 5076281282764840968
+      cute_lineup_116: 464893154482425198
+      cute_lineup_117: -6186894698694243322
+      cute_lineup_118: -5911825347438969211
+      cute_lineup_12: -1328932226424036324
+      cute_lineup_13: 3567388708259218561
+      cute_lineup_14: 791329600971497440
+      cute_lineup_15: 1457687631936710407
+      cute_lineup_16: 9136172143746945388
+      cute_lineup_17: 6006550579184081917
+      cute_lineup_18: 5811959673877495955
+      cute_lineup_19: 1066135882415439671
+      cute_lineup_2: -799933777739567826
+      cute_lineup_20: -4310320412892663653
+      cute_lineup_21: 9199279719958355454
+      cute_lineup_22: 802705651036939629
+      cute_lineup_23: 738305171028062276
+      cute_lineup_24: -7206756608115252844
+      cute_lineup_25: -9009048112706883667
+      cute_lineup_26: -3472937542220908620
+      cute_lineup_27: -462673366423049264
+      cute_lineup_28: 951692632547322202
+      cute_lineup_29: 8561531890155551360
+      cute_lineup_3: -2451683838949750305
+      cute_lineup_30: -6158237384822024967
+      cute_lineup_31: 7454253672614761450
+      cute_lineup_32: 8576752715813200552
+      cute_lineup_33: -8927465516392226116
+      cute_lineup_34: -3169382710790063271
+      cute_lineup_35: 7550274592704141590
+      cute_lineup_36: -3203644622261464260
+      cute_lineup_37: 5201819738876234153
+      cute_lineup_38: -3516337640357871748
+      cute_lineup_39: 7008024166710791676
+      cute_lineup_4: 5838465361505794992
+      cute_lineup_40: 5599260172425517841
+      cute_lineup_41: 4308739860041218964
+      cute_lineup_42: -4130969838282332352
+      cute_lineup_43: 5017457028856391308
+      cute_lineup_44: -6496136052599270157
+      cute_lineup_45: 6077696434500185367
+      cute_lineup_46: -7393964507417164842
+      cute_lineup_47: 8216502067722570064
+      cute_lineup_48: 3421062781720314698
+      cute_lineup_49: -3825190412823309336
+      cute_lineup_5: -1448904410430021763
+      cute_lineup_50: 2227163141943362760
+      cute_lineup_51: -5556505219187785418
+      cute_lineup_52: 8571927026456043595
+      cute_lineup_53: -149447483787164201
+      cute_lineup_54: -4178477864276293103
+      cute_lineup_55: -7099617404869226467
+      cute_lineup_56: -5435616324595707207
+      cute_lineup_57: -8952057626511554658
+      cute_lineup_58: 6181462399500798065
+      cute_lineup_59: -5208452055588296797
+      cute_lineup_6: -6370369465921482139
+      cute_lineup_60: -8319540535488633944
+      cute_lineup_61: 7599650940788591076
+      cute_lineup_62: 1426541547729999986
+      cute_lineup_63: -1898004261452001636
+      cute_lineup_64: -7895241647628927924
+      cute_lineup_65: -794131773937976778
+      cute_lineup_66: 8726195827047129335
+      cute_lineup_67: -1752044489369131905
+      cute_lineup_68: 5541353971119649532
+      cute_lineup_69: -8978558001351689109
+      cute_lineup_7: -3839389708560358204
+      cute_lineup_70: 6900857970963213250
+      cute_lineup_71: -4653595827722240613
+      cute_lineup_72: -3478762156215475960
+      cute_lineup_73: 102473843955475740
+      cute_lineup_74: -6386376276489841394
+      cute_lineup_75: 582086436679023875
+      cute_lineup_76: -2092293316276029230
+      cute_lineup_77: -7566122456128532214
+      cute_lineup_78: -1184679652733760552
+      cute_lineup_79: 1506191856222509777
+      cute_lineup_8: 5761083644624903842
+      cute_lineup_80: 4079787105065161492
+      cute_lineup_81: 3181839317147083087
+      cute_lineup_82: 7535736181485927512
+      cute_lineup_83: 5398916277403614590
+      cute_lineup_84: 7964335022570190708
+      cute_lineup_85: 9134034601610688722
+      cute_lineup_86: 4482042831907797102
+      cute_lineup_87: -7502900397949605919
+      cute_lineup_88: 259964274995475315
+      cute_lineup_89: -367549322754205297
+      cute_lineup_9: -4326086625798792552
+      cute_lineup_90: -1707235765559504751
+      cute_lineup_91: 4569579772052752930
+      cute_lineup_92: 1811201737030942303
+      cute_lineup_93: -2658970370017074863
+      cute_lineup_94: 2267743571128701139
+      cute_lineup_95: 3930260435442475648
+      cute_lineup_96: 5887198076230413906
+      cute_lineup_97: 5183432858863462378
+      cute_lineup_98: -3092846400917780469
+      cute_lineup_99: 294011315408787916
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

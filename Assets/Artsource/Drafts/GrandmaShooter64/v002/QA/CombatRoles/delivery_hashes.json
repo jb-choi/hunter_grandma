@@ -1,0 +1,170 @@
+[
+  {
+    "path": "Export\\grandma_05_flamethrower_no_fx.png",
+    "sha256": "28D2A1F30EDE95F59B6028F526555ACC14E0EEFDBDF768EEA4FC0F9D031EFD8E"
+  },
+  {
+    "path": "Export\\grandma_05_flamethrower_silhouette.png",
+    "sha256": "44DE22C9773F313B51F60C8BBF4AE1612233995B10EEDBCB11F904EF2BE94516"
+  },
+  {
+    "path": "Export\\grandma_05_flamethrower.json",
+    "sha256": "45E704B8D1A96D2989411D9709AC8286C36BDACEDF7C9F7183AD24DA5CC8C5A3"
+  },
+  {
+    "path": "Export\\grandma_05_flamethrower.png",
+    "sha256": "3E29C26B54FCEB4205E12EC1E523505DE711507EA9F13025506E3E82A48BB444"
+  },
+  {
+    "path": "Export\\grandma_06_machinegun_no_fx.png",
+    "sha256": "0C30B37F5549FE82D5CDC2AA8E8512C9BBD7C6AAB2CE0F061F5AC3A07B7CBFC2"
+  },
+  {
+    "path": "Export\\grandma_06_machinegun_silhouette.png",
+    "sha256": "41FF5D47A6C2E6ECEB576C17297D1E4CE1750A77675E11BC03C31CEAAAB47E97"
+  },
+  {
+    "path": "Export\\grandma_06_machinegun.json",
+    "sha256": "545028905B1C7840FABE84419FC88474184FCDCA55E77DC757260D19833ECEAD"
+  },
+  {
+    "path": "Export\\grandma_06_machinegun.png",
+    "sha256": "B0A6905D2F9B1743A2CA21253D70830403E15364A7A374B6049A7C4891400AE7"
+  },
+  {
+    "path": "Export\\grandma_07_sniper_no_fx.png",
+    "sha256": "2FC988025A83C07CBD3291F9540F1D96CDF72DE627A7BFE0883A749AEE1270DC"
+  },
+  {
+    "path": "Export\\grandma_07_sniper_silhouette.png",
+    "sha256": "1CDE12ECE1EBBF182371F69236E634B03ABC51C40DCD12FDAEDFB934B15C3471"
+  },
+  {
+    "path": "Export\\grandma_07_sniper.json",
+    "sha256": "8B2D53D5F3535174C635075FEAED19E06B28FA1CF25D240A7A7E15BCC6C386D0"
+  },
+  {
+    "path": "Export\\grandma_07_sniper.png",
+    "sha256": "C876519C447D74C64DA4AEEB5605DEB3FB4DF82BD94B29ED39C8EA4E0EC1C43D"
+  },
+  {
+    "path": "Export\\grandma_08_motorcycle_no_fx.png",
+    "sha256": "7AC99F82A939BD3DD51E318DFF9C4826105D4EAB984B2EBD1FA6BD5701FC1340"
+  },
+  {
+    "path": "Export\\grandma_08_motorcycle_silhouette.png",
+    "sha256": "747C3B37B0857823A546B4B5570C58AA09476AA5753BD6F8065EB74859A4FE0B"
+  },
+  {
+    "path": "Export\\grandma_08_motorcycle.json",
+    "sha256": "057878404AA6F237ADC41214155FCEE89C4F96EB543155F1E131065BEBAB8B7A"
+  },
+  {
+    "path": "Export\\grandma_08_motorcycle.png",
+    "sha256": "71D0F7DD593AA3ED45499CF978A5FE03886784F6493FF6AE3F64AC7AAE5D8631"
+  },
+  {
+    "path": "grandma_05_flamethrower.aseprite",
+    "sha256": "B9CF6D81DB244E043672B1A415C2BA33CC8ACBC55BD8A3810B0ECADAEC1CB65F"
+  },
+  {
+    "path": "grandma_06_machinegun.aseprite",
+    "sha256": "13F6E2913C840ED3AC5A7891C60D563033361E53AD6ADCDF48E7BD3041ECEDE2"
+  },
+  {
+    "path": "grandma_07_sniper.aseprite",
+    "sha256": "A2FF1D8EF9872B8142AB26D3C9558218F8AB9D409ECE8B69B842778201AB80AE"
+  },
+  {
+    "path": "grandma_08_motorcycle.aseprite",
+    "sha256": "0F2A3011DA28A03EC074AAD78FCD487CD423A28897E76EE034AF7EA94932911C"
+  },
+  {
+    "path": "Previews\\combat_lineup_04-08_4x.png",
+    "sha256": "220BB9398D90EEE909553BF1935B410CE098CE2BBBD9BF925D3303DA0E9714B8"
+  },
+  {
+    "path": "Previews\\combat_roles_05-08_4x.png",
+    "sha256": "671965B4A6440001DFA52C451BB89B33B52D176EC17767C1CBB5C4BAE522F715"
+  },
+  {
+    "path": "Previews\\combat_roles_05-08_native.png",
+    "sha256": "D70DCAAA20201E2F8E83EAD681C810E681780AE23B6F946DB761339579086CE2"
+  },
+  {
+    "path": "Previews\\combat_roles_05-08_silhouettes_4x.png",
+    "sha256": "AB409189909221DA1285D0F0004AE469D88A48F0554AF15D3374A1A2BADDD23B"
+  },
+  {
+    "path": "Previews\\combat_roles_before_after_4x.png",
+    "sha256": "A14C222D4B72315B0D528398A94B94F49C188033F623C42467B833974E0601AD"
+  },
+  {
+    "path": "Previews\\combat_roles_weapon_size_before_after_4x.png",
+    "sha256": "6790F5D052B49754E251A986B3CD00FE1E1990FA927C986EF0AE865E608CB863"
+  },
+  {
+    "path": "Previews\\grandma_05_flamethrower_8x.png",
+    "sha256": "5528DFB343D95A9168227518C05A0A1D25B5DB6D3177C405A36DF0F0324DCE35"
+  },
+  {
+    "path": "Previews\\grandma_05_flamethrower_dark_8x.png",
+    "sha256": "BBAD382AF69132950467C53772D6E3AB7ED6B08E7EA5444CFAB69A669D104D3C"
+  },
+  {
+    "path": "Previews\\grandma_06_machinegun_8x.png",
+    "sha256": "897C47AFF8143048F5EDA9F959C2F1FC1C58C804E2AEA1EE7DFA97BB760B390D"
+  },
+  {
+    "path": "Previews\\grandma_06_machinegun_dark_8x.png",
+    "sha256": "96D33EB967D640BA61C95952D9027D7C2B9B674B3FE7D6879B9E98C9CD594E17"
+  },
+  {
+    "path": "Previews\\grandma_07_sniper_8x.png",
+    "sha256": "6A6C68DFCDF42DB2D151B2DDD16657AC950AE7C9143F8D0F0DF0627EAFFCBB7E"
+  },
+  {
+    "path": "Previews\\grandma_07_sniper_dark_8x.png",
+    "sha256": "269FBCA1B96690E21A1C4957A36EE4DCAC1FF8E68CBC9BCBF67FAE830E3C3978"
+  },
+  {
+    "path": "Previews\\grandma_08_motorcycle_8x.png",
+    "sha256": "BB599C672C61E808869A57BB41FC3156510B898CFD3118700E8C578DDECF772D"
+  },
+  {
+    "path": "Previews\\grandma_08_motorcycle_dark_8x.png",
+    "sha256": "3C0B0BCAFB48113537B4300852EEB5A46707BF10CC65CD35D4E4F6C99A4FA5B3"
+  },
+  {
+    "path": "QA\\CombatRoles\\gear_size_metrics.json",
+    "sha256": "B6BC51044F67A1DCB83BCD72835BC0A3D4B93EC45CD5C011DDCB20F4B9EB48E3"
+  },
+  {
+    "path": "QA\\CombatRoles\\review.md",
+    "sha256": "95D3AFFA5EC949E23F6A263734C9797BBB099C0F0126E6C2D6EB598A89AD0FD5"
+  },
+  {
+    "path": "QA\\CombatRoles\\role_specs.json",
+    "sha256": "CBDA9AB86CF7A23588EE0BA4BC3788D716146E5FF3BAACD948C29FC537769C34"
+  },
+  {
+    "path": "QA\\CombatRoles\\validation.json",
+    "sha256": "27203DB9B44D43A75496E085DCCEA3BBCE50483EE8A37D4E304F072296484F0D"
+  },
+  {
+    "path": "README.md",
+    "sha256": "AEE25110E1A926D5ECD93E2FB439BA34E324B0891A3CF09D2836356E805988F7"
+  },
+  {
+    "path": "Scripts\\create_combat_roles.lua",
+    "sha256": "D75C19762D1702420F4590582FF3A8AB343248429C77CD3B4EC341CBB43586B6"
+  },
+  {
+    "path": "Scripts\\enlarge_combat_gear.lua",
+    "sha256": "A243985C5B2424D94D9A2425C544F52B2AF27D6D48CEB0DFDA9D582DB617FAAA"
+  },
+  {
+    "path": "Scripts\\validate_combat_roles.lua",
+    "sha256": "0BBF47081852C4F637A5C169BAE27B67DFBAEC915DC2DDA6732AE5038CC48E9E"
+  }
+]

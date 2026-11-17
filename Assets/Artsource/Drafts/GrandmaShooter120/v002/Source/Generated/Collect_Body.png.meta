@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: 71315c7c51968ac409ab3e3e68617019
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -488213962749958271
+    second: Collect_Body_0
+  - first:
+      213: 5620801079211915249
+    second: Collect_Body_1
+  - first:
+      213: -2963421486229353380
+    second: Collect_Body_2
+  - first:
+      213: -7669569645447545238
+    second: Collect_Body_3
+  - first:
+      213: -2750039110072214836
+    second: Collect_Body_4
+  - first:
+      213: 5936161945416537124
+    second: Collect_Body_5
+  - first:
+      213: 546210407285744709
+    second: Collect_Body_6
+  - first:
+      213: 2910916917284886741
+    second: Collect_Body_7
+  - first:
+      213: 2049668509085237569
+    second: Collect_Body_8
+  - first:
+      213: -326238940895776683
+    second: Collect_Body_9
+  - first:
+      213: -2196261464736875810
+    second: Collect_Body_10
+  - first:
+      213: 2833386429946043883
+    second: Collect_Body_11
+  - first:
+      213: -6257568202648624474
+    second: Collect_Body_12
+  - first:
+      213: -6576783784313527691
+    second: Collect_Body_13
+  - first:
+      213: 7276174334860981096
+    second: Collect_Body_14
+  - first:
+      213: 7519148024635349290
+    second: Collect_Body_15
+  - first:
+      213: 7873942218108117013
+    second: Collect_Body_16
+  - first:
+      213: -7664917782501310325
+    second: Collect_Body_17
+  - first:
+      213: -5205847426578066007
+    second: Collect_Body_18
+  - first:
+      213: 4819544512646853009
+    second: Collect_Body_19
+  - first:
+      213: 972078369056980030
+    second: Collect_Body_20
+  - first:
+      213: 209684255207254331
+    second: Collect_Body_21
+  - first:
+      213: 7612866549732727540
+    second: Collect_Body_22
+  - first:
+      213: -4527493278277696178
+    second: Collect_Body_23
+  - first:
+      213: -6541416033884284074
+    second: Collect_Body_24
+  - first:
+      213: 3104896110004797621
+    second: Collect_Body_25
+  - first:
+      213: 7150918779589465418
+    second: Collect_Body_26
+  - first:
+      213: 7660952876527349304
+    second: Collect_Body_27
+  - first:
+      213: 852108414063507185
+    second: Collect_Body_28
+  - first:
+      213: -2163829422645090748
+    second: Collect_Body_29
+  - first:
+      213: -4592550778940228496
+    second: Collect_Body_30
+  - first:
+      213: 661495044796910418
+    second: Collect_Body_31
+  - first:
+      213: -5307540289337216772
+    second: Collect_Body_32
+  - first:
+      213: 8532985104599474301
+    second: Collect_Body_33
+  - first:
+      213: 8484661295065438810
+    second: Collect_Body_34
+  - first:
+      213: 5744323212483554388
+    second: Collect_Body_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Collect_Body_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 485
+        height: 587
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18727efccf38939f0800000000000000
+      internalID: -488213962749958271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_1
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1132
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7fe8f1dc8110e40800000000000000
+      internalID: 5620801079211915249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_2
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 304
+        width: 515
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c0a81fbdfcfd6d0800000000000000
+      internalID: -2963421486229353380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_3
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1215
+        width: 170
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6efaf6ea07309590800000000000000
+      internalID: -7669569645447545238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_4
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1198
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccad6bdeff5e5d9d0800000000000000
+      internalID: -2750039110072214836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_5
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1205
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4249eb596db716250800000000000000
+      internalID: 5936161945416537124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_6
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1124
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54463e2b877849700800000000000000
+      internalID: 546210407285744709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_7
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 635
+        width: 186
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8d0797387a56820800000000000000
+      internalID: 2910916917284886741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_8
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 947
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141845f36a2e17c10800000000000000
+      internalID: 2049668509085237569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_9
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 706
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550f1086967f87bf0800000000000000
+      internalID: -326238940895776683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_10
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 722
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edaba7885df4581e0800000000000000
+      internalID: -2196261464736875810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_11
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 890
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed985432f5325720800000000000000
+      internalID: 2833386429946043883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_12
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 810
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2695bafd6a829a0800000000000000
+      internalID: -6257568202648624474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_13
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 875
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57261735ef19ab4a0800000000000000
+      internalID: -6576783784313527691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_14
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 819
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863f339b10a2af460800000000000000
+      internalID: 7276174334860981096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 528
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2958fd4a41695860800000000000000
+      internalID: 7519148024635349290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_16
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 564
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510294cbabcd54d60800000000000000
+      internalID: 7873942218108117013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_17
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 521
+        width: 71
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b804f6523edb0a590800000000000000
+      internalID: -7664917782501310325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_18
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 31
+        width: 390
+        height: 583
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5dee7e85d11c7b0800000000000000
+      internalID: -5205847426578066007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_19
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 531
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191bf7ff23672e240800000000000000
+      internalID: 4819544512646853009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_20
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 369
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c7b7950248d7d00800000000000000
+      internalID: 972078369056980030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_21
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 324
+        width: 85
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39ee9a18b2f8e200800000000000000
+      internalID: 209684255207254331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_22
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 361
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fad543dac556a960800000000000000
+      internalID: 7612866549732727540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_23
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 210
+        width: 85
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e450a41e9dc1b21c0800000000000000
+      internalID: -4527493278277696178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_24
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 63
+        width: 106
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b584c66c83835a0800000000000000
+      internalID: -6541416033884284074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_25
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 300
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b00455cf8ec61b20800000000000000
+      internalID: 3104896110004797621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_26
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 188
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45991b2eba2d3360800000000000000
+      internalID: 7150918779589465418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_27
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 151
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e6b6e3d0c215a60800000000000000
+      internalID: 7660952876527349304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_28
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 192
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f67062861c43db00800000000000000
+      internalID: 852108414063507185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_29
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 168
+        width: 88
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44663b4ca9888f1e0800000000000000
+      internalID: -2163829422645090748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_30
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 184
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cf250266bf340c0800000000000000
+      internalID: -4592550778940228496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_31
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 193
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b0dcd0d3a1e2900800000000000000
+      internalID: 661495044796910418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_32
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 164
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf03bf63a34d756b0800000000000000
+      internalID: -5307540289337216772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_33
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 164
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70e9513eb04b6670800000000000000
+      internalID: 8532985104599474301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_34
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 155
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a91e38e729fb570800000000000000
+      internalID: 8484661295065438810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collect_Body_35
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 23
+        width: 65
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45cec1be68fe7bf40800000000000000
+      internalID: 5744323212483554388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Collect_Body_0: -488213962749958271
+      Collect_Body_1: 5620801079211915249
+      Collect_Body_10: -2196261464736875810
+      Collect_Body_11: 2833386429946043883
+      Collect_Body_12: -6257568202648624474
+      Collect_Body_13: -6576783784313527691
+      Collect_Body_14: 7276174334860981096
+      Collect_Body_15: 7519148024635349290
+      Collect_Body_16: 7873942218108117013
+      Collect_Body_17: -7664917782501310325
+      Collect_Body_18: -5205847426578066007
+      Collect_Body_19: 4819544512646853009
+      Collect_Body_2: -2963421486229353380
+      Collect_Body_20: 972078369056980030
+      Collect_Body_21: 209684255207254331
+      Collect_Body_22: 7612866549732727540
+      Collect_Body_23: -4527493278277696178
+      Collect_Body_24: -6541416033884284074
+      Collect_Body_25: 3104896110004797621
+      Collect_Body_26: 7150918779589465418
+      Collect_Body_27: 7660952876527349304
+      Collect_Body_28: 852108414063507185
+      Collect_Body_29: -2163829422645090748
+      Collect_Body_3: -7669569645447545238
+      Collect_Body_30: -4592550778940228496
+      Collect_Body_31: 661495044796910418
+      Collect_Body_32: -5307540289337216772
+      Collect_Body_33: 8532985104599474301
+      Collect_Body_34: 8484661295065438810
+      Collect_Body_35: 5744323212483554388
+      Collect_Body_4: -2750039110072214836
+      Collect_Body_5: 5936161945416537124
+      Collect_Body_6: 546210407285744709
+      Collect_Body_7: 2910916917284886741
+      Collect_Body_8: 2049668509085237569
+      Collect_Body_9: -326238940895776683
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

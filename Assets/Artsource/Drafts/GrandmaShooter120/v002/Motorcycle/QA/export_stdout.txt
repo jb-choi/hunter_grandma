@@ -1,0 +1,1 @@
+Validated 18 poses / 26 colors / 129 cropped part slots / 42 saved visibility states; native-PNG, clip, part, sheet, left, rider, vehicle and UI equality exact. Continuous moving demo:24.

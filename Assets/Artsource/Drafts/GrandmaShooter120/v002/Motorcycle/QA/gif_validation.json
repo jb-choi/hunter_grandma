@@ -1,0 +1,191 @@
+[
+  {
+    "file": "Export\\Gifs\\motorcycle_collect.gif",
+    "width": 120,
+    "height": 120,
+    "frames": 8,
+    "durations_ms": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    "frame_count_match": true
+  },
+  {
+    "file": "Export\\Gifs\\motorcycle_drive_by_pickup.gif",
+    "width": 120,
+    "height": 120,
+    "frames": 24,
+    "durations_ms": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    "frame_count_match": true
+  },
+  {
+    "file": "Export\\Gifs\\motorcycle_idle.gif",
+    "width": 120,
+    "height": 120,
+    "frames": 4,
+    "durations_ms": [
+      180,
+      180,
+      180,
+      180
+    ],
+    "frame_count_match": true
+  },
+  {
+    "file": "Export\\Gifs\\motorcycle_ride.gif",
+    "width": 120,
+    "height": 120,
+    "frames": 6,
+    "durations_ms": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    "frame_count_match": true
+  },
+  {
+    "file": "Previews\\Collect_3x.gif",
+    "width": 360,
+    "height": 360,
+    "frames": 8,
+    "durations_ms": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    "frame_count_match": true
+  },
+  {
+    "file": "Previews\\drive_by_pickup_3x.gif",
+    "width": 360,
+    "height": 360,
+    "frames": 24,
+    "durations_ms": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    "frame_count_match": true
+  },
+  {
+    "file": "Previews\\drive_by_pickup_world_2x.gif",
+    "width": 720,
+    "height": 320,
+    "frames": 24,
+    "durations_ms": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    "frame_count_match": true
+  },
+  {
+    "file": "Previews\\Idle_3x.gif",
+    "width": 360,
+    "height": 360,
+    "frames": 4,
+    "durations_ms": [
+      180,
+      180,
+      180,
+      180
+    ],
+    "frame_count_match": true
+  },
+  {
+    "file": "Previews\\Ride_3x.gif",
+    "width": 360,
+    "height": 360,
+    "frames": 6,
+    "durations_ms": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    "frame_count_match": true
+  }
+]

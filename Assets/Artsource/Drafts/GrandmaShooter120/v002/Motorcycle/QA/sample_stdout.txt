@@ -1,0 +1,1 @@
+Sampled 18 rider and 18 restored-body frames; independent motorcycle, 26-color palette.

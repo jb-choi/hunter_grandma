@@ -1,0 +1,37 @@
+[
+  {
+    "layer": "Ammo",
+    "nonempty_png_slots": 3,
+    "unique_png_images": 1
+  },
+  {
+    "layer": "BackArm",
+    "nonempty_png_slots": 27,
+    "unique_png_images": 21
+  },
+  {
+    "layer": "Body",
+    "nonempty_png_slots": 27,
+    "unique_png_images": 27
+  },
+  {
+    "layer": "FrontArm",
+    "nonempty_png_slots": 27,
+    "unique_png_images": 21
+  },
+  {
+    "layer": "FX",
+    "nonempty_png_slots": 1,
+    "unique_png_images": 1
+  },
+  {
+    "layer": "Pickup",
+    "nonempty_png_slots": 4,
+    "unique_png_images": 4
+  },
+  {
+    "layer": "Weapon",
+    "nonempty_png_slots": 27,
+    "unique_png_images": 10
+  }
+]

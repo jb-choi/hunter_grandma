@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "backup": "E:/unity_project/project10_hunter_grandma/Hunter_grandma/Assets/Artsource/Drafts/GrandmaShooter120/v002/QA/BeforeTacticalWalk_20261102_003156",
+  "protected": [
+    {
+      "before_sha256": "17EC55D60C9E8AF0832A3DD85BF8F5EE04D541C846DA065FE3D205FA1A934169",
+      "after_sha256": "17EC55D60C9E8AF0832A3DD85BF8F5EE04D541C846DA065FE3D205FA1A934169",
+      "path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\grandma_05_motorcycle_120.aseprite",
+      "unchanged": true
+    },
+    {
+      "before_sha256": "E916E3D7B757B50FF77609AD67FC646A24DFAE6426CBE053DE152C1CCC12BEDC",
+      "after_sha256": "E916E3D7B757B50FF77609AD67FC646A24DFAE6426CBE053DE152C1CCC12BEDC",
+      "path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Weapons\\Shotgun\\sundeok_shotgun.aseprite",
+      "unchanged": true
+    },
+    {
+      "before_sha256": "FC4CDC2D88E6CAFEBE729CABECEF6374063CDA2F886FB55CD02C7D52CD21D07C",
+      "after_sha256": "FC4CDC2D88E6CAFEBE729CABECEF6374063CDA2F886FB55CD02C7D52CD21D07C",
+      "path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v002\\Weapons\\Shotgun\\sundeok_shotgun.png",
+      "unchanged": true
+    }
+  ],
+  "original27_native_cel_and_duration_difference": 0,
+  "original_walk_pixel_difference": 0,
+  "date": "2026-11-02"
+}

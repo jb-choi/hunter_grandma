@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: ba6301bcba97e4c4394199ff16030743
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5945720181924095074
+    second: sundeok_shotgun_generated_0
+  - first:
+      213: -3565291025741949556
+    second: sundeok_shotgun_generated_1
+  - first:
+      213: 2361582529208988630
+    second: sundeok_shotgun_generated_2
+  - first:
+      213: 7485567555419207128
+    second: sundeok_shotgun_generated_3
+  - first:
+      213: -4431591751447988764
+    second: sundeok_shotgun_generated_4
+  - first:
+      213: 8250884724000541337
+    second: sundeok_shotgun_generated_5
+  - first:
+      213: 3021661326386507999
+    second: sundeok_shotgun_generated_6
+  - first:
+      213: -7407542420684355893
+    second: sundeok_shotgun_generated_7
+  - first:
+      213: 6719536161898421649
+    second: sundeok_shotgun_generated_8
+  - first:
+      213: 514203585671773111
+    second: sundeok_shotgun_generated_9
+  - first:
+      213: 4579679665281454642
+    second: sundeok_shotgun_generated_10
+  - first:
+      213: 561839225228788028
+    second: sundeok_shotgun_generated_11
+  - first:
+      213: -1383184742170090585
+    second: sundeok_shotgun_generated_12
+  - first:
+      213: -3987381612944650209
+    second: sundeok_shotgun_generated_13
+  - first:
+      213: 141255725042083500
+    second: sundeok_shotgun_generated_14
+  - first:
+      213: -2105312544693310545
+    second: sundeok_shotgun_generated_15
+  - first:
+      213: 6724494778824079137
+    second: sundeok_shotgun_generated_16
+  - first:
+      213: 7664238702787126825
+    second: sundeok_shotgun_generated_17
+  - first:
+      213: -1856795276132299948
+    second: sundeok_shotgun_generated_18
+  - first:
+      213: 8070137893750122674
+    second: sundeok_shotgun_generated_19
+  - first:
+      213: -7929583010308264853
+    second: sundeok_shotgun_generated_20
+  - first:
+      213: -6737414630310714289
+    second: sundeok_shotgun_generated_21
+  - first:
+      213: 3068655291180719353
+    second: sundeok_shotgun_generated_22
+  - first:
+      213: 8289360874661607046
+    second: sundeok_shotgun_generated_23
+  - first:
+      213: 5439782915455888970
+    second: sundeok_shotgun_generated_24
+  - first:
+      213: -5952113341154685942
+    second: sundeok_shotgun_generated_25
+  - first:
+      213: 8012290357974982449
+    second: sundeok_shotgun_generated_26
+  - first:
+      213: -1892976602885090150
+    second: sundeok_shotgun_generated_27
+  - first:
+      213: -88136136434658565
+    second: sundeok_shotgun_generated_28
+  - first:
+      213: -6453795633894162043
+    second: sundeok_shotgun_generated_29
+  - first:
+      213: -5020598707424966555
+    second: sundeok_shotgun_generated_30
+  - first:
+      213: 5056815355086880790
+    second: sundeok_shotgun_generated_31
+  - first:
+      213: -3141745591739007467
+    second: sundeok_shotgun_generated_32
+  - first:
+      213: -5964399091473136430
+    second: sundeok_shotgun_generated_33
+  - first:
+      213: -4109872393940778033
+    second: sundeok_shotgun_generated_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 27
+        width: 2045
+        height: 631
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264e471f001738250800000000000000
+      internalID: 5945720181924095074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_1
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 632
+        width: 119
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8553c9a3ba858ec0800000000000000
+      internalID: -3565291025741949556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_2
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 608
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d335415cc606c020800000000000000
+      internalID: 2361582529208988630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_3
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 646
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d573fa080412e760800000000000000
+      internalID: 7485567555419207128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_4
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 610
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5346918c2df72c0800000000000000
+      internalID: -4431591751447988764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_5
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 624
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99acfb001f7018270800000000000000
+      internalID: 8250884724000541337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_6
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 626
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0bdc687f81fe920800000000000000
+      internalID: 3021661326386507999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_7
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 634
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6c87c4a6f133990800000000000000
+      internalID: -7407542420684355893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_8
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 616
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19dd851a986904d50800000000000000
+      internalID: 6719536161898421649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_9
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 617
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbb232df61d22700800000000000000
+      internalID: 514203585671773111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_10
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 603
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2325e22346a4e8f30800000000000000
+      internalID: 4579679665281454642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_11
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 602
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3184a07ccd0cc700800000000000000
+      internalID: 561839225228788028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_12
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 554
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a326303ec0fdcce0800000000000000
+      internalID: -1383184742170090585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_13
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 554
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1092809c89f9a8c0800000000000000
+      internalID: -3987381612944650209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_14
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 536
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6af916557d5f100800000000000000
+      internalID: 141255725042083500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_15
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 451
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faba160256d68c2e0800000000000000
+      internalID: -2105312544693310545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_16
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 225
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12737c99f54325d50800000000000000
+      internalID: 6724494778824079137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_17
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 232
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9266d694e78dc5a60800000000000000
+      internalID: 7664238702787126825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_18
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 83
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45bc289b8865b36e0800000000000000
+      internalID: -1856795276132299948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_19
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 79
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8256d28a3eeff60800000000000000
+      internalID: 8070137893750122674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_20
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 79
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c6a9dc34674f190800000000000000
+      internalID: -7929583010308264853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_21
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 59
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f446fcf0715ef72a0800000000000000
+      internalID: -6737414630310714289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_22
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 53
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc13f89abd069a20800000000000000
+      internalID: 3068655291180719353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_23
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 60
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686f93debc9b90370800000000000000
+      internalID: 8289360874661607046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_24
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 23
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4eacfa8dbdfd7b40800000000000000
+      internalID: 5439782915455888970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_25
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 47
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c8c9da378d56da0800000000000000
+      internalID: -5952113341154685942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_26
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 53
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13fd26031af513f60800000000000000
+      internalID: 8012290357974982449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_27
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 66
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9498e02fcbcab5e0800000000000000
+      internalID: -1892976602885090150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_28
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 67
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2dfef96a0e6cef0800000000000000
+      internalID: -88136136434658565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_29
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 63
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58185cc80138f66a0800000000000000
+      internalID: -6453795633894162043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_30
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 29
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568462c6310435ab0800000000000000
+      internalID: -5020598707424966555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 31
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610c1b6f5ca6d2640800000000000000
+      internalID: 5056815355086880790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_32
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 37
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e3fbda7074664d0800000000000000
+      internalID: -3141745591739007467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_33
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 39
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4c41680a23a3da0800000000000000
+      internalID: -5964399091473136430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sundeok_shotgun_generated_34
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 45
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3c9fe25dcc6f6c0800000000000000
+      internalID: -4109872393940778033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sundeok_shotgun_generated_0: 5945720181924095074
+      sundeok_shotgun_generated_1: -3565291025741949556
+      sundeok_shotgun_generated_10: 4579679665281454642
+      sundeok_shotgun_generated_11: 561839225228788028
+      sundeok_shotgun_generated_12: -1383184742170090585
+      sundeok_shotgun_generated_13: -3987381612944650209
+      sundeok_shotgun_generated_14: 141255725042083500
+      sundeok_shotgun_generated_15: -2105312544693310545
+      sundeok_shotgun_generated_16: 6724494778824079137
+      sundeok_shotgun_generated_17: 7664238702787126825
+      sundeok_shotgun_generated_18: -1856795276132299948
+      sundeok_shotgun_generated_19: 8070137893750122674
+      sundeok_shotgun_generated_2: 2361582529208988630
+      sundeok_shotgun_generated_20: -7929583010308264853
+      sundeok_shotgun_generated_21: -6737414630310714289
+      sundeok_shotgun_generated_22: 3068655291180719353
+      sundeok_shotgun_generated_23: 8289360874661607046
+      sundeok_shotgun_generated_24: 5439782915455888970
+      sundeok_shotgun_generated_25: -5952113341154685942
+      sundeok_shotgun_generated_26: 8012290357974982449
+      sundeok_shotgun_generated_27: -1892976602885090150
+      sundeok_shotgun_generated_28: -88136136434658565
+      sundeok_shotgun_generated_29: -6453795633894162043
+      sundeok_shotgun_generated_3: 7485567555419207128
+      sundeok_shotgun_generated_30: -5020598707424966555
+      sundeok_shotgun_generated_31: 5056815355086880790
+      sundeok_shotgun_generated_32: -3141745591739007467
+      sundeok_shotgun_generated_33: -5964399091473136430
+      sundeok_shotgun_generated_34: -4109872393940778033
+      sundeok_shotgun_generated_4: -4431591751447988764
+      sundeok_shotgun_generated_5: 8250884724000541337
+      sundeok_shotgun_generated_6: 3021661326386507999
+      sundeok_shotgun_generated_7: -7407542420684355893
+      sundeok_shotgun_generated_8: 6719536161898421649
+      sundeok_shotgun_generated_9: 514203585671773111
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

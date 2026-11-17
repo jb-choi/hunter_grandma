@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: da974b186797a044597e0ed36f71da9a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3909908409563688511
+    second: walk_v2_tiptoe_body_0
+  - first:
+      213: 3440316510211102705
+    second: walk_v2_tiptoe_body_1
+  - first:
+      213: 319438611752332130
+    second: walk_v2_tiptoe_body_2
+  - first:
+      213: -6911048710360885141
+    second: walk_v2_tiptoe_body_3
+  - first:
+      213: -7905017005831181636
+    second: walk_v2_tiptoe_body_4
+  - first:
+      213: -8644924652066079052
+    second: walk_v2_tiptoe_body_5
+  - first:
+      213: -1986386748889463587
+    second: walk_v2_tiptoe_body_6
+  - first:
+      213: 8690675492907688736
+    second: walk_v2_tiptoe_body_7
+  - first:
+      213: 9056632930646719186
+    second: walk_v2_tiptoe_body_8
+  - first:
+      213: 4916696040962650257
+    second: walk_v2_tiptoe_body_9
+  - first:
+      213: 3080258997273834642
+    second: walk_v2_tiptoe_body_10
+  - first:
+      213: 7821047274065752084
+    second: walk_v2_tiptoe_body_11
+  - first:
+      213: -473325266376258296
+    second: walk_v2_tiptoe_body_12
+  - first:
+      213: -2011192516069768764
+    second: walk_v2_tiptoe_body_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: walk_v2_tiptoe_body_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 577
+        height: 979
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e2b50abf8c24630800000000000000
+      internalID: 3909908409563688511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_v2_tiptoe_body_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 893
+        width: 93
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f75b0273a57ebf20800000000000000
+      internalID: 3440316510211102705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_v2_tiptoe_body_2
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 489
+        width: 389
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26baa0599bfde6400800000000000000
+      internalID: 319438611752332130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_v2_tiptoe_body_3
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 469
+        width: 513
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68948170d50710a0800000000000000
+      internalID: -6911048710360885141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_v2_tiptoe_body_4
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 831
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbaa2007aecbb4290800000000000000
+      internalID: -7905017005831181636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_v2_tiptoe_body_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 783
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be759be4de070880800000000000000
+      internalID: -8644924652066079052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_v2_tiptoe_body_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 791
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd486e5b6cfee64e0800000000000000
+      internalID: -1986386748889463587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_v2_tiptoe_body_7
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 606
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023a4fcc05b7b9870800000000000000
+      internalID: 8690675492907688736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_v2_tiptoe_body_8
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 595
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da7d449aaf9fad70800000000000000
+      internalID: 9056632930646719186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_v2_tiptoe_body_9
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 592
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190f52edffc9b3440800000000000000
+      internalID: 4916696040962650257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_v2_tiptoe_body_10
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 46
+        width: 303
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29435b4fc374fba20800000000000000
+      internalID: 3080258997273834642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_v2_tiptoe_body_11
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 0
+        width: 448
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410f93ede01f98c60800000000000000
+      internalID: 7821047274065752084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_v2_tiptoe_body_12
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 46
+        width: 409
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d0d629d296e69f0800000000000000
+      internalID: -473325266376258296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_v2_tiptoe_body_13
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1ccb8ff0fc614e0800000000000000
+      internalID: -2011192516069768764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      walk_v2_tiptoe_body_0: 3909908409563688511
+      walk_v2_tiptoe_body_1: 3440316510211102705
+      walk_v2_tiptoe_body_10: 3080258997273834642
+      walk_v2_tiptoe_body_11: 7821047274065752084
+      walk_v2_tiptoe_body_12: -473325266376258296
+      walk_v2_tiptoe_body_13: -2011192516069768764
+      walk_v2_tiptoe_body_2: 319438611752332130
+      walk_v2_tiptoe_body_3: -6911048710360885141
+      walk_v2_tiptoe_body_4: -7905017005831181636
+      walk_v2_tiptoe_body_5: -8644924652066079052
+      walk_v2_tiptoe_body_6: -1986386748889463587
+      walk_v2_tiptoe_body_7: 8690675492907688736
+      walk_v2_tiptoe_body_8: 9056632930646719186
+      walk_v2_tiptoe_body_9: 4916696040962650257
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

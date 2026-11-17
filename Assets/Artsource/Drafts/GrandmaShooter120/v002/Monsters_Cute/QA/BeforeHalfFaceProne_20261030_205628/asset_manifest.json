@@ -1,0 +1,109 @@
+{
+  "previous_art_preserved": "../Monsters",
+  "animation_poses": 84,
+  "native_library_frame_slots": 252,
+  "native_libraries": 9,
+  "notion_page": "https://app.notion.com/p/4047313398e0818db924d95c5c455419",
+  "actions": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Attack",
+    "Dead"
+  ],
+  "notion_section": "2.3 슬라임 좀비·구조 대상 120px 캐릭터 디자인",
+  "gif_qa": "QA/gif_validation.json",
+  "version": "v002",
+  "date": "2026-10-30",
+  "unity_runtime_connected": false,
+  "human_coating_revision": "Full-body cyan coating in the existing v002; chest, waist, both arms and legs including shoes; preserve cute style and release ending",
+  "qa": "QA/validation.json",
+  "characters": [
+    {
+      "role": "hunt",
+      "clips": 5,
+      "id": "z01_normal",
+      "body_without_slime": null,
+      "clips_folder": "z01_normal/Clips",
+      "frames": 28,
+      "folder": "z01_normal",
+      "master": "zombie_01_normal_120.aseprite",
+      "pose_metadata": "z01_normal/pose_metadata.json",
+      "rgb_union": 26,
+      "parts_metadata": "z01_normal/Export/parts.json",
+      "name": "좀비1_일반좀비",
+      "previews_folder": "z01_normal/Previews",
+      "ending": "dissolved_slime_puddle",
+      "sheets_folder": "z01_normal/Export/Sheets"
+    },
+    {
+      "role": "hunt",
+      "clips": 5,
+      "id": "z02_large",
+      "body_without_slime": null,
+      "clips_folder": "z02_large/Clips",
+      "frames": 28,
+      "folder": "z02_large",
+      "master": "zombie_02_large_120.aseprite",
+      "pose_metadata": "z02_large/pose_metadata.json",
+      "rgb_union": 26,
+      "parts_metadata": "z02_large/Export/parts.json",
+      "name": "좀비2_큰좀비",
+      "previews_folder": "z02_large/Previews",
+      "ending": "dissolved_slime_puddle",
+      "sheets_folder": "z02_large/Export/Sheets"
+    },
+    {
+      "role": "rescue",
+      "clips": 5,
+      "id": "z03_human",
+      "body_without_slime": "z03_human/human_without_slime_120.aseprite",
+      "clips_folder": "z03_human/Clips",
+      "frames": 28,
+      "folder": "z03_human",
+      "master": "zombie_03_rescue_human_120.aseprite",
+      "pose_metadata": "z03_human/pose_metadata.json",
+      "rgb_union": 26,
+      "parts_metadata": "z03_human/Export/parts.json",
+      "name": "슬라임을 뒤집어쓴 일반 사람",
+      "previews_folder": "z03_human/Previews",
+      "ending": "human_alive_kneeling_rescue_wait",
+      "sheets_folder": "z03_human/Export/Sheets"
+    }
+  ],
+  "root_pivot_right": [
+    52,
+    118
+  ],
+  "art_direction": "Cute chibi human forms; rounded faces and soft limbs; pastel slime material",
+  "native_action_clips": 15,
+  "gifs": 31,
+  "native_master_count": 3,
+  "canvas": [
+    120,
+    120
+  ],
+  "material_form": "slime material, human zombie anatomy",
+  "root_pivot_left": [
+    68,
+    118
+  ],
+  "max_opaque_rgb_per_character": 26,
+  "cropped_part_png_slots": 173,
+  "source_generation": {
+    "delivered_poses_per_actor": 28,
+    "atlas_grid": [
+      6,
+      5
+    ],
+    "prompts": "Source/generation_prompts.json",
+    "derived_action_sheets": 20,
+    "calls": 7,
+    "method": "Built-in ImageGen cute lineup, action boards and restored human board; Aseprite cell extraction, native nearest sampling, palette limiting and material/body separation",
+    "unused_idle_cells_per_actor": 2
+  },
+  "alpha": [
+    0,
+    255
+  ]
+}

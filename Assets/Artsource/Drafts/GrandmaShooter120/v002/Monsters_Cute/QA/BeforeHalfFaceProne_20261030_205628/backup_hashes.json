@@ -1,0 +1,1270 @@
+[
+  {
+    "path": "asset_manifest.json",
+    "sha256": "E752CD7D5025E01204F8C5223C2BB1B92C12B3515778580A2BECC3C7034E2D7D"
+  },
+  {
+    "path": "before_native_hashes.json",
+    "sha256": "FE6E6920FCD8DC649050B8B05CD4826EBC7DF6669A3098F596A91E46969DC54C"
+  },
+  {
+    "path": "README.md",
+    "sha256": "FE7F75F6FD75FF0C4FD6C7C7C50DA09F8738A3471EB358532E68D7E05C251A86"
+  },
+  {
+    "path": "zombie_03_rescue_human_120.aseprite",
+    "sha256": "2A99840914375756052E6ADCF8E4F2D008C0D760A4835E7EA2655499515DC6B8"
+  },
+  {
+    "path": "PackageQA\\delivery_hashes.json",
+    "sha256": "90BAD578C3D04D6E7B7812A6412B71BEDF2062F1CEB0B90DD014AE0591D8C197"
+  },
+  {
+    "path": "PackageQA\\full_body_coverage.json",
+    "sha256": "8BCAA301CA691FE1E243204B7CCBFC4F3124BAEA05D7A54E896E1CC6C3C9BD1E"
+  },
+  {
+    "path": "PackageQA\\full_body_revision.json",
+    "sha256": "6E32BE1B7659076400BC4698D9FAAC3C3FFA4D4ABAB8ED188196BBA806609D0D"
+  },
+  {
+    "path": "PackageQA\\gif_validation.json",
+    "sha256": "2F1AB52B63DE2DA5F2AEE106417F08289451E66FED575B77861FC760D7FD9C01"
+  },
+  {
+    "path": "PackageQA\\part_inventory.json",
+    "sha256": "19248B14049637F43FA9F41F726C2B47A0390D12AE800AF48435FEBB19AA1E88"
+  },
+  {
+    "path": "PackageQA\\restored_human_validation.json",
+    "sha256": "EF37D870E5B05A78C7E92E5AE13246FC5BFF35C6F3CC646C24B2C9238195729A"
+  },
+  {
+    "path": "PackageQA\\review.md",
+    "sha256": "D98CD1F1B3469848BBA9DABBB9D7E0C76E56291579673D29E0E0C1E3DC989EA8"
+  },
+  {
+    "path": "PackageQA\\validation.json",
+    "sha256": "BF2E44801C9555885BE6AAC77036F62B96E521145442400D611B3E4A10FBEF3C"
+  },
+  {
+    "path": "Previews\\action_summary_2x.png",
+    "sha256": "57B7C7E5049D802BA7EF10155E3740027ECA209737F16A1615FDB79FD484EB6C"
+  },
+  {
+    "path": "Previews\\lineup_3x.png",
+    "sha256": "2BF42717109906FE9D1688B311D08F56E32650E5FD99091BADF3867374F75D40"
+  },
+  {
+    "path": "Previews\\lineup_native.png",
+    "sha256": "526D0CB925246409B36EADBAC8898F14A0FBB6DB413CF3BB1C38E5A022B8E893"
+  },
+  {
+    "path": "Previews\\three_characters_all_actions_3x.gif",
+    "sha256": "6D67D15C1D4ABC6A20AB4A58A846C55C7485AE0B857921A58075B5F6F2A0F74E"
+  },
+  {
+    "path": "Scripts\\build_monsters.lua",
+    "sha256": "98AF2E4E549CCD799D53BB7B613901628C25A428E38531F5799A0EF144391C50"
+  },
+  {
+    "path": "Scripts\\check_full_body_coating.lua",
+    "sha256": "C95992ED17406E6D6F1C888D68A08AB388337BF7C0A870928B16423500338162"
+  },
+  {
+    "path": "Scripts\\check_restored_human.lua",
+    "sha256": "3F495F8EFA4159D6857D120DA620ED65E736C2DD15E00A66ECED6EA826650ABE"
+  },
+  {
+    "path": "Scripts\\export_validate_monsters.lua",
+    "sha256": "CD3D5726F4876157F1D1040587F7591ABD4D824B2E5E29056E998F6494ED4B62"
+  },
+  {
+    "path": "Scripts\\finalize_package.ps1",
+    "sha256": "37BC420BE8E46CE18F1447C75C607823F8F23D9339D60FC0CCB4DB039A59B66E"
+  },
+  {
+    "path": "Scripts\\qa_overviews.lua",
+    "sha256": "EE9583E1571CF6A158A39B6D89A23B3878E8F2B6AAB4869EEF0A5E094CCE4CC6"
+  },
+  {
+    "path": "Scripts\\split_boards.lua",
+    "sha256": "336F1E666550768C82D2719041980561B92AC874B9BE82978895E746569B359C"
+  },
+  {
+    "path": "Source\\art_direction.md",
+    "sha256": "8F80FD29F02D6CF797802A82E598A723968262F64D7E7A5E84E4B65D7EEDC4EB"
+  },
+  {
+    "path": "Source\\board_splitting.json",
+    "sha256": "3B451723BB9C92EC0AD662CCE82C64CC1057B4F3FE7644F24D133A0C15228A2D"
+  },
+  {
+    "path": "Source\\config.json",
+    "sha256": "639F28D6810B756C7778239D189360E783B4F772FF038A28B251E7D2A654A609"
+  },
+  {
+    "path": "Source\\generation_prompts.json",
+    "sha256": "D074F84037EA66A7162B6DF7BFAC9A7B3471F32BCED6CDFC3CD42B3CD7C414BE"
+  },
+  {
+    "path": "Source\\pose_metadata.json",
+    "sha256": "C0915463127756337A51486BB456983433C16E087A44DCE5209C44FD18D13284"
+  },
+  {
+    "path": "Source\\progress_state.json",
+    "sha256": "678A0B1E0ED4FC865CB32E38D1085D99F398CA5A8A0CC2DEE263B6592122F01B"
+  },
+  {
+    "path": "Source\\Generated\\Boards\\z03_human_Body.png",
+    "sha256": "417317E5C309FAC625BF4703477EA94AD4E63224D26B5C5BA7B070D6BCC70E26"
+  },
+  {
+    "path": "Source\\Generated\\Boards\\z03_human.png",
+    "sha256": "4544016901917278590C4F0C451B65CFF6BCC53C066C2CE978038BA6E8DC5BDF"
+  },
+  {
+    "path": "Source\\Generated\\z03_human\\Attack_Body.png",
+    "sha256": "A7B6252A2A68170934778A2F46E9BEF2844E8CC5DB6EBAFFCBFEC728084FED48"
+  },
+  {
+    "path": "Source\\Generated\\z03_human\\Attack.png",
+    "sha256": "CECBCA69A5CC5281069F37F7E39021C4784DBDE1A1ECD4DFC79B9C2523D06819"
+  },
+  {
+    "path": "Source\\Generated\\z03_human\\Dead_Body.png",
+    "sha256": "C3C12B0CA65C68C18708966B2C6C1C225EF763186B47F1B390B24E9BA3F3CBE6"
+  },
+  {
+    "path": "Source\\Generated\\z03_human\\Dead.png",
+    "sha256": "0E4485FC051036D58AD29D3EEC069483435A877339EA362CE2FA7DD9C6EA0280"
+  },
+  {
+    "path": "Source\\Generated\\z03_human\\Idle_Body.png",
+    "sha256": "365687B410BDE19FE327B6F85C85C30A3FEFE81179E4C2DC2FD43D6EE4C57273"
+  },
+  {
+    "path": "Source\\Generated\\z03_human\\Idle.png",
+    "sha256": "05C5EF30348CB13FA0FB5F2F16CA96BDD9B32AC1597D7BE899CD1EAD048D15AC"
+  },
+  {
+    "path": "Source\\Generated\\z03_human\\Run_Body.png",
+    "sha256": "1BF71F3B9C54D9D250941AA57D9F670DEE80FBE572A4CA5FBB49CBFF036974FC"
+  },
+  {
+    "path": "Source\\Generated\\z03_human\\Run.png",
+    "sha256": "636658795EEE0EDD5C06857CE1A126E63C3BBC0E11933FDE78157884539136C3"
+  },
+  {
+    "path": "Source\\Generated\\z03_human\\Walk_Body.png",
+    "sha256": "37ECEDCAFE9DDBCBFDDA27594CD85E51D019A0983B2CF85AAA0B989C5C170237"
+  },
+  {
+    "path": "Source\\Generated\\z03_human\\Walk.png",
+    "sha256": "39B790F2944EFCE19A955359F2C75D462519F73F618D021686CA490034B6CF2F"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Attack\\Full_01.png",
+    "sha256": "AE57DCC29A30D96AB30CD0BBDB28CB0A53ACF2FAEF2F398C74DF2D88BC21291A"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Attack\\Full_02.png",
+    "sha256": "F2CB0A9070036F6D38D09E0D87163D4A17A0E7F091A2B1F3850A7D069C340F64"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Attack\\Full_03.png",
+    "sha256": "2BC8A9EA8B461B7D0502EE41A37EC034583F38989408B78C4FAFA24626EDBAAC"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Attack\\Full_04.png",
+    "sha256": "959C23F435618DEFB2E22D55D695797C941F96CB6F221B08CF670E247F6524C4"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Attack\\Full_05.png",
+    "sha256": "04C6CCEA5192F1D3E41F11F4EB936384F16A8841DF016DAEF14E86E02C5D900A"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Attack\\Full_06.png",
+    "sha256": "C28439F0A95BAC0A2D7B12265ED09DD9D4D770C860B700E186B610EF1EB28BBE"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Attack\\Restored_01.png",
+    "sha256": "78D6FCE32A63D3A704C166117C0E2748B8404D18C6DBA31BB04B3AB2FC5772DB"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Attack\\Restored_02.png",
+    "sha256": "CCAFBD0CDB819CD1B246A94C663C3CE8A439B077DEF96782496CB40E1299B2D3"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Attack\\Restored_03.png",
+    "sha256": "F81122BA7C1B0D5264EB4263768FB52CC3144126628DA190E9BB1D6A6F6F1255"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Attack\\Restored_04.png",
+    "sha256": "2A333BE25F001C425954F07124B1047721B6C7BDFADC3804571E220656FF9BA1"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Attack\\Restored_05.png",
+    "sha256": "4757AFA1F1A60F9769E5C2B8859FD15C69A09B9CE6838EAEE27B5FB1F9CAA99C"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Attack\\Restored_06.png",
+    "sha256": "2CF44263BB198988F64145D0F42C3EDE063460647A719D714D3DD512D23DE07B"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Dead\\Full_01.png",
+    "sha256": "6777A38511CC546A5C1213987C2221E32CF507E75695A7399A48D1020E7D328D"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Dead\\Full_02.png",
+    "sha256": "B3A4B63A0017008B7263FFDCAA4B10AF7372F8936CB59A16E899CEF579906D4D"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Dead\\Full_03.png",
+    "sha256": "ABCB9A150ABBAA8A4F4E4180870B2DA50B2CCE713047155F2967DE29C723B4D0"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Dead\\Full_04.png",
+    "sha256": "5BC5810557D8EAAAE8238160D424C1694DE6ED4E84EE58733CB869AF1808BA36"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Dead\\Full_05.png",
+    "sha256": "F2EDEF7036F7A0A28008D065567E2D50C8EC02D2B306B78F2A23A0AD415D9477"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Dead\\Full_06.png",
+    "sha256": "FBE7FFC1BBAF9F36AC0699298B8F8B45EE98E2716D269F9B7440F1D48D401FCC"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Dead\\Restored_01.png",
+    "sha256": "9485C704491D29B2DF98257C8032F4EB1357D4E45E5E540288E1E9E6BB01B39C"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Dead\\Restored_02.png",
+    "sha256": "3A7F709DC291BF9CBB1292184C2267BEC7D6E847CF26202E198C6D7FB3DF5F94"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Dead\\Restored_03.png",
+    "sha256": "E8C84653E7FEC0687E81F1AEB8B25157615A80108554D18D6FD0E1ECEBCC3E0F"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Dead\\Restored_04.png",
+    "sha256": "8E1005397C646A9991DDE5B5F3A79674A80335272CEBF381E7334BB7F754C0F1"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Dead\\Restored_05.png",
+    "sha256": "120DF48BB355D831A6DC169B99E7EA3ED83249E76CB520FA64DB00F1F07EF244"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Dead\\Restored_06.png",
+    "sha256": "A1122C1F242B2A2E88259FE6A92E678A0F8AF99024455BB68585A28A2FF8C740"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Idle\\Full_01.png",
+    "sha256": "7A70033D7F6EB330013BA7B2C0D605F55017DE13EE984653A7E128F5A7A30F12"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Idle\\Full_02.png",
+    "sha256": "139CDF80C01A42758F92CCEB59B97CD48CB1BDBB2FCA2920AF2DE0F66279FD6B"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Idle\\Full_03.png",
+    "sha256": "4D2C5A569E60C59C19F3E7B2B7CC5B20A98D573482E0133446DA86897D351F06"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Idle\\Full_04.png",
+    "sha256": "23264191E2E482C9A5E41D6764D2B404188FF35D31809440D924F82C2D68CFCE"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Idle\\Restored_01.png",
+    "sha256": "DA4974FE11113F520361B01F09096E2E005B7CD6A68FBED33F4F1FAAB44D9FBF"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Idle\\Restored_02.png",
+    "sha256": "D7B5131762A8C6DFF4F2DD0DCA01565DF56E8608D847E680BCDA775C20DDB032"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Idle\\Restored_03.png",
+    "sha256": "6413C2847D85DE0E36BEC123684C213C544DC233EBB16AA8B660D5D154E6D31D"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Idle\\Restored_04.png",
+    "sha256": "6609D48AA9024A6463BDBA8F7F7A6220C865091A62E388F22C58DC067C37F375"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Run\\Full_01.png",
+    "sha256": "E982CA4FE862A4076F0AC0B49C5153B34C403EA03E3BFF1F03CE81FA060E47E7"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Run\\Full_02.png",
+    "sha256": "6A2A63C78292782BFEA7A04095B68D81C864C63562889DE0FE002C6C0BF6165C"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Run\\Full_03.png",
+    "sha256": "A5FFECF784F80A124C456B79B73FC752CDFDB9FE37C915EB0059E62B33A2109C"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Run\\Full_04.png",
+    "sha256": "AC8696D04EAD26F1B6C60019F6B80225C3751AE359AAE59288BE6C384040D423"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Run\\Full_05.png",
+    "sha256": "13CF28E78EAD724AC55810ADA29FFF8C4EEBC02EBF8AE4A524F54F44ECED5D30"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Run\\Full_06.png",
+    "sha256": "6B1EF2156ED9E3F92858E3CF9F131E1FB3BF468C34D42E1C2337323929A4DA76"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Run\\Restored_01.png",
+    "sha256": "A2B1B3D52F47D6CADF41009FD952C659BE7986AFA51BD2985B83CF62080B0CB5"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Run\\Restored_02.png",
+    "sha256": "EDA289502FF54882D1C8E476600D0C82F9A5452B9B9AAAAF4E987FAE41CFD155"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Run\\Restored_03.png",
+    "sha256": "487E0DEEDE3D2683B68B9CB67C62894A2258341298B46E53C39EFD31F0B83C2F"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Run\\Restored_04.png",
+    "sha256": "D03833BE7D5F7CFD9A33A964BDEC1559F2C28C81C83130DCF224E29288102D6C"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Run\\Restored_05.png",
+    "sha256": "85B6DA091B95BE0A8D6D4245606B1E72352D383CFBD0FBD1B5A5B6B8546C91E1"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Run\\Restored_06.png",
+    "sha256": "7047FAD0CFB8A0EA120613ECAA14BEFDCA3622D9D3EFC9CDB3B99539594BF893"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Walk\\Full_01.png",
+    "sha256": "881FD0E758DAFB300E8758F22283FED02EE16AFF79FA69BB852E79A71CD6984D"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Walk\\Full_02.png",
+    "sha256": "681661266B18CE2084016D8451413AF482F5783C80BE4660A35E6170E2F25C5A"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Walk\\Full_03.png",
+    "sha256": "3D17FA37D03118B3A86EF7874CC0BD46EE53F492D12E0A2539E18D6CC9D8DB19"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Walk\\Full_04.png",
+    "sha256": "2C74626EBDD5E33D5BD2091296E5BD89A0964DE882DB1F4B3823B730AFB2438B"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Walk\\Full_05.png",
+    "sha256": "751FF88A163C5A1785ACF312977497480C658DA3E70489B9BA5029B35B0CB834"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Walk\\Full_06.png",
+    "sha256": "A38DE786E16D740FE8A0D3A3D681B5D014A5DA30A295AED6B408E0DAF252BAFC"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Walk\\Restored_01.png",
+    "sha256": "FDB65C32685023B9E3C6C95E2F392B502D9FA97B822284A68D5C5C343B426276"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Walk\\Restored_02.png",
+    "sha256": "F27ECFDF308FD07759C9DA7DD051BA4B4E983EEC1AB1481A86DF689B3A12461E"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Walk\\Restored_03.png",
+    "sha256": "F2733FEF78461BCB8722F2A7DEE7AD4B91B54E85A0B5267628536848DF7FD27C"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Walk\\Restored_04.png",
+    "sha256": "408E9F18FD58B68757230CC8E7C675D62592F2F1B13E2DCF05C72CF625E6A85B"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Walk\\Restored_05.png",
+    "sha256": "6C0E1FC5C9AA00ABA3D968A02D47B7BF72492B51CD56F7E12DE06CB1745E65DB"
+  },
+  {
+    "path": "Source\\Sampled\\z03_human\\Walk\\Restored_06.png",
+    "sha256": "E21A13B2D5E8EDDEFCEB1F6D4AA9747C88B019137549D7D6633140EDD7E0E6C5"
+  },
+  {
+    "path": "z03_human\\human_without_slime_120.aseprite",
+    "sha256": "EE570B7F7F4318D569A97DB8E134A1E5B563EC6D73DE0CBEA7C13263B5C13B01"
+  },
+  {
+    "path": "z03_human\\pose_metadata.json",
+    "sha256": "D503E61751E87DEDAA7625521FCF3FF0FA396B21DDB3E3062D5BD9597A45A694"
+  },
+  {
+    "path": "z03_human\\Clips\\z03_human_attack.aseprite",
+    "sha256": "7572146603920E1CAC02EF4FF0297F94FE40C795CDB871E797D3E618B1B31F8E"
+  },
+  {
+    "path": "z03_human\\Clips\\z03_human_dead.aseprite",
+    "sha256": "D85AC0AA6C8EBA537B1D52DFD626EE86AE92F5BB43488017AC1ADD6E186007C3"
+  },
+  {
+    "path": "z03_human\\Clips\\z03_human_idle.aseprite",
+    "sha256": "8FD4A66FCF3ED8C6BF02E69030A8F14402291844DA09B9367748A322BBA5D645"
+  },
+  {
+    "path": "z03_human\\Clips\\z03_human_run.aseprite",
+    "sha256": "6A0ABE08E934AF96101FF18473F308CF68161424F6DAD7494F6C7797622902C6"
+  },
+  {
+    "path": "z03_human\\Clips\\z03_human_walk.aseprite",
+    "sha256": "663142C7D23ABD40D96E9B4A4A09B04C1AF98D3DA4A86AD055ED8A9887D36DE5"
+  },
+  {
+    "path": "z03_human\\Export\\parts.json",
+    "sha256": "AA8583E55F5B13F1C9457D52979E2F32BF91486EB31EB81926CBE6E67885EBB2"
+  },
+  {
+    "path": "z03_human\\Export\\z03_human_26.gpl",
+    "sha256": "D12A3D925CDAB57057D2323A166755F3E33C3111B94EA66DA04FC2B5251A858A"
+  },
+  {
+    "path": "z03_human\\Export\\z03_human_dead_end.png",
+    "sha256": "96AD66B83CDCC49BF7717995C21B058B515A5F7A18F13BAC6BD4478E84390269"
+  },
+  {
+    "path": "z03_human\\Export\\z03_human_idle.png",
+    "sha256": "D86C6A774DA9FCFF84F9400EB8649D5BB2A091357A0B57C910DAF06DB9E02275"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Attack\\z03_human_attack_01.png",
+    "sha256": "67F21858D72C83F3BFF4EEA850B9EF5896BDF03066057D6418B6557FF539C11F"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Attack\\z03_human_attack_02.png",
+    "sha256": "6DBFBC390053797365E2EAB15907B4AD905BE79384936051586421ADDAE5E37B"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Attack\\z03_human_attack_03.png",
+    "sha256": "D07B0C835828C59B9698E5DA5B36B4A3C97DEFC840E91BE28004AC766CEFBD9A"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Attack\\z03_human_attack_04.png",
+    "sha256": "CBDE56D842D024934BC1ECFCBF4BB33EC75269AF294076ABF8725FC780A4060B"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Attack\\z03_human_attack_05.png",
+    "sha256": "187743D6ECAD6DEB6764758B83207196B0C91EC2318B5C348D5C8240B35D352D"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Attack\\z03_human_attack_06.png",
+    "sha256": "31AFE4EB0071876B1EA25472142D7CA12709A260B777FB6EC7BE80E9554DF70D"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Dead\\z03_human_dead_01.png",
+    "sha256": "E0EBEA12FD91AF3DFCA0E48EBE589F611FB7794193D3EB4766AAD7F1ABDF9A95"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Dead\\z03_human_dead_02.png",
+    "sha256": "6B1068F7F7E77B7CC211F8DAA6B2899287EB0F84A1A0E13C2AFFF84A7FDCC4AA"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Dead\\z03_human_dead_03.png",
+    "sha256": "B9967855348A7995CF0EBC6112B09E78D274C51913856D481B7A692ADD55B0AD"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Dead\\z03_human_dead_04.png",
+    "sha256": "CE1461E645E145FD69C4829704774EAD34595989B0B27AD5E749DA87BF8FD071"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Dead\\z03_human_dead_05.png",
+    "sha256": "9207E263E3559A52A575879DD03F2DB7AB77EBE6755E04F82180552A03C3EBF9"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Dead\\z03_human_dead_06.png",
+    "sha256": "96AD66B83CDCC49BF7717995C21B058B515A5F7A18F13BAC6BD4478E84390269"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Idle\\z03_human_idle_01.png",
+    "sha256": "D86C6A774DA9FCFF84F9400EB8649D5BB2A091357A0B57C910DAF06DB9E02275"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Idle\\z03_human_idle_02.png",
+    "sha256": "11F001F9FBE850B918B356A7B88A73E23FEBBA0197DD98F0E7F650FBF49D4D61"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Idle\\z03_human_idle_03.png",
+    "sha256": "85547CAB1B54E77FE26D5A14B5EF97F36131DE67523546CF94F6FAB769846AAA"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Idle\\z03_human_idle_04.png",
+    "sha256": "22E5D6F8B6F0188BF78E16B48DBC1B1E9998AACCB8871F1CE5C16F8D865D7DBA"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Run\\z03_human_run_01.png",
+    "sha256": "62943F5D0671B95D7AE88561FD348C2B590C30BA40EBBFD5BD9CD32880EB4BAB"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Run\\z03_human_run_02.png",
+    "sha256": "99CD0A0666EAA4726B0B8CF5E239C32D27E3C9B963D001BDC6BCF2DB26E1C478"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Run\\z03_human_run_03.png",
+    "sha256": "B64F496714767892582986CD38ADACD41CF4AC15C43E3E77B7432FEF19D5B8A5"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Run\\z03_human_run_04.png",
+    "sha256": "F372A0F8FFCF994D27A3A39F0C35DE0A802541E7705F8941FD07328FAFD96F5E"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Run\\z03_human_run_05.png",
+    "sha256": "4B2CA6F072343BAECCE4D1E48942732B1DECB409097BF5D288EF3EAA279D5DC9"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Run\\z03_human_run_06.png",
+    "sha256": "76A56DD358541E5C90C6DB56788DAC1B102DF2E1A86C20B5907DF0B8FF82F63F"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Walk\\z03_human_walk_01.png",
+    "sha256": "81B0E6B799B336B2EF5B91FB3B3E2735DC1C164E162FF4470C08CEDB18918CB1"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Walk\\z03_human_walk_02.png",
+    "sha256": "A6B62FD8C741C2A1D567B5CD38F571AADBFA4EACB5A163C9383924B4A87F26CB"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Walk\\z03_human_walk_03.png",
+    "sha256": "884B614F0E398CDF080BF7D16CF335A14F6FE946A7A288366F8FDCF4F65E85FE"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Walk\\z03_human_walk_04.png",
+    "sha256": "B44D2140839E1EDA6F3D58FFF25147F3DA3C120B5AF131D0694BB65DA08F2818"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Walk\\z03_human_walk_05.png",
+    "sha256": "B97F5DB31C23DA6121AABC0329945EA126A308DEA259B2C082D19AD87B66A7F8"
+  },
+  {
+    "path": "z03_human\\Export\\Frames\\Walk\\z03_human_walk_06.png",
+    "sha256": "F3F56E29A7150B4CBCD530DE162DF2C65F8FDB91494846BC78C74E3A3D4F0616"
+  },
+  {
+    "path": "z03_human\\Export\\Gifs\\z03_human_attack.gif",
+    "sha256": "B06447A8DB48A434511E7BA86EB0F70A7495DE1B3DBCCCF98C7FE34B8FD012FB"
+  },
+  {
+    "path": "z03_human\\Export\\Gifs\\z03_human_dead.gif",
+    "sha256": "FE6D16CCABDA9320866390C7C3C576A0FB8A501789A0997BCDFFC8521C14E4D1"
+  },
+  {
+    "path": "z03_human\\Export\\Gifs\\z03_human_idle.gif",
+    "sha256": "DA09EDE8C5E6F88F391D9F54672DAE4A6DCDB5E266B1504734D453C37D452A7C"
+  },
+  {
+    "path": "z03_human\\Export\\Gifs\\z03_human_run.gif",
+    "sha256": "78C42D30C523FEAFC4B6A1A4E2BE77979489FDEC6FBF22F38B56870CD2C53B50"
+  },
+  {
+    "path": "z03_human\\Export\\Gifs\\z03_human_walk.gif",
+    "sha256": "0C449EA6810D335ECBDAAC276AEFE87AB2D0B3F2C4857C15154378E03ADC3594"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Attack\\z03_human_attack_01.png",
+    "sha256": "5C734F639AD5868CEE3C5D6626F9CC5B843F0CEB53388363610472409EB09441"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Attack\\z03_human_attack_02.png",
+    "sha256": "CA0400FEA7D2389F4630D234E65C61D86FD40EEDB54FF6678F0E5933E4907F4A"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Attack\\z03_human_attack_03.png",
+    "sha256": "D48C361B27C6F4AE5591C92C140D69E7C6181853A54C9879ACE273FE17DE0428"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Attack\\z03_human_attack_04.png",
+    "sha256": "CC6E194CCCB1C21F4A5BBA55973FCC9C6E5168E1AADA9B70F3592FA7BE3F1DD8"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Attack\\z03_human_attack_05.png",
+    "sha256": "35A4039081E7A652DB15362F032EE94233E5F03448EDE302C46182AE654B84FF"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Attack\\z03_human_attack_06.png",
+    "sha256": "6316893B33D4B527AA4B17C3A07020930DBC42330B99DFEE96ABD0DB10FEE359"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Dead\\z03_human_dead_01.png",
+    "sha256": "81CB3FF85E73139D83E9038E01A4580808201D181A89D86C79459B61CEC1755E"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Dead\\z03_human_dead_02.png",
+    "sha256": "E97A9544494ED1687AB80FB6DEDC705CEA2D2C0E9F97908D6853A2692FA67B4F"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Dead\\z03_human_dead_03.png",
+    "sha256": "D8D4C744DB1744D1774869D4971FCE7347A850BE45C741D738D63B64067D64C5"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Dead\\z03_human_dead_04.png",
+    "sha256": "A3359B91C908C861D187A8F3FFA5CE44480EE45238D238B8BDD96B979DF1BBFF"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Dead\\z03_human_dead_05.png",
+    "sha256": "B666C03FA109FBAA0C855B812324CC8E0FD87040ABE2F0B81AD75C0974334502"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Dead\\z03_human_dead_06.png",
+    "sha256": "E5A973CF493475863C39F74CC17AF04AFB70221088F6D985F7F95BB7E2D72B76"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Idle\\z03_human_idle_01.png",
+    "sha256": "01D57159178E65CA7C0EEDC06C94F69C7D127951B41DC0102C243F4076268267"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Idle\\z03_human_idle_02.png",
+    "sha256": "B5DC0B4AB304DC1680894DE69994664127D72410E63B8ECCFE0F3EDA860FE99B"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Idle\\z03_human_idle_03.png",
+    "sha256": "BEC7C3DAB40269FE7F9EC1877DCD961F78854A3AEFD1AD34C2BFD61BBDC6BE48"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Idle\\z03_human_idle_04.png",
+    "sha256": "B1F8EB725AAD9047E1E39FE2CB7051C5A9BC84AAE76BBD94E83C1962BF1056EB"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Run\\z03_human_run_01.png",
+    "sha256": "4160CB0304D0CBD6FDFEDA3ADE7FF3E78D9861558147686BEEFE0D8922DE9F62"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Run\\z03_human_run_02.png",
+    "sha256": "7E877293090D4B47F966C8C891EF6D8F5542655FA552D4A6D8EA12962C0FB957"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Run\\z03_human_run_03.png",
+    "sha256": "99972BBB3C332147C329928C313EB1917757DF56C992C246FACD232EFA00E335"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Run\\z03_human_run_04.png",
+    "sha256": "FC09C4F3A3C2AE55219A6629430F2CCF2BC9EA51CD88AC1991E43D6EB933F2F8"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Run\\z03_human_run_05.png",
+    "sha256": "37A669F73A2108FBEFFB8516BCA0493FEFF970CE8182F5B8742A96BF9D7D30B5"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Run\\z03_human_run_06.png",
+    "sha256": "0CA5D6B59EB1BCF75B901A9915B4ACF950EBF8E0344A724AB0769409CD53112C"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Walk\\z03_human_walk_01.png",
+    "sha256": "F71A74B03E4B9FF15621626934557A727A1BA14D6E02F28BC0DFB2D5CB1CFDD5"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Walk\\z03_human_walk_02.png",
+    "sha256": "7E0E2D6AD35036FD3514CD4999560A78A2130A0B40D4AD3DD415A8FE14B4C588"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Walk\\z03_human_walk_03.png",
+    "sha256": "348889238EE7E1C30D96EA8DFD1014E527DF285A8F975FC173D22AE0749BF502"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Walk\\z03_human_walk_04.png",
+    "sha256": "834831023D87BBE65D15684433C5085D1D1A026E7F10011C6EA65925A0AF993D"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Walk\\z03_human_walk_05.png",
+    "sha256": "A2CF0F7F6FCEDCD1527E1270BA2878CA4647269FB6E4ED16B461E3EF7DFAAF4A"
+  },
+  {
+    "path": "z03_human\\Export\\Left\\Walk\\z03_human_walk_06.png",
+    "sha256": "249685E8E03536E174349BA3882B9B4E2C76230EAFFDB06135A6EBD2C6FDDCE9"
+  },
+  {
+    "path": "z03_human\\Export\\Sheets\\z03_human_attack.json",
+    "sha256": "1D76CB5E3155D5F4815B2B3A9485C2723B0A3C0112A129B9F6D3923795BC9086"
+  },
+  {
+    "path": "z03_human\\Export\\Sheets\\z03_human_attack.png",
+    "sha256": "57123E753AFE86DD501F2AAE1B12052F96DFD59383F04540F0A12A66973E6763"
+  },
+  {
+    "path": "z03_human\\Export\\Sheets\\z03_human_dead.json",
+    "sha256": "2932CEDCC4DC23FF5741B6820222F81E90DBE7D2A364B9152189B9F540490EF3"
+  },
+  {
+    "path": "z03_human\\Export\\Sheets\\z03_human_dead.png",
+    "sha256": "52787EAE2D975CB62246A55667604B1AB96972141A19CB5C9FEC3A22DA549C70"
+  },
+  {
+    "path": "z03_human\\Export\\Sheets\\z03_human_idle.json",
+    "sha256": "33FBB962CF6BB1B8FDA7E64BA3B386239C0E33857B687CFE946DBEED682F62CE"
+  },
+  {
+    "path": "z03_human\\Export\\Sheets\\z03_human_idle.png",
+    "sha256": "90F95DD2A818A8B13554CDF916F2A13E622D15C7AC6E6D26E4F14D4AD9172076"
+  },
+  {
+    "path": "z03_human\\Export\\Sheets\\z03_human_run.json",
+    "sha256": "30CC457C097F0ACF0069746540B5AD7585A497607ECA0575FD5D149CA6C6CFC7"
+  },
+  {
+    "path": "z03_human\\Export\\Sheets\\z03_human_run.png",
+    "sha256": "DFC01AC9EFBF48582482144A9920AF0C66F092E41238E90B0E3BE9932974A3BB"
+  },
+  {
+    "path": "z03_human\\Export\\Sheets\\z03_human_walk.json",
+    "sha256": "FCB9BB604E2B2C3F30BBA954CC40B7BA253ED8D05A9D72310ED524F3A039AFA6"
+  },
+  {
+    "path": "z03_human\\Export\\Sheets\\z03_human_walk.png",
+    "sha256": "B116E94C929F4E15598AD7BD448306BB96F54A3C447D21B156ACF4A45CF2CBBF"
+  },
+  {
+    "path": "z03_human\\Parts\\Attack\\DripsFX_02.png",
+    "sha256": "C824062324E284667EA6B408BEDB555AA92A1F8D7B08406FB81A34031D799F7F"
+  },
+  {
+    "path": "z03_human\\Parts\\Attack\\DripsFX_03.png",
+    "sha256": "CEAA1A07F5704D9F16066447D2D5C8CFC9BC3179775FB99059F3AF42392EE94F"
+  },
+  {
+    "path": "z03_human\\Parts\\Attack\\DripsFX_04.png",
+    "sha256": "B1581751D67A708B6A5D142156118B787AE2B4C8B553A0DB3B563038CA50D3B0"
+  },
+  {
+    "path": "z03_human\\Parts\\Attack\\HumanBody_01.png",
+    "sha256": "B97C3E778F5C9BBCF64CECFE66742024973CC05594638375FFBC377961C12964"
+  },
+  {
+    "path": "z03_human\\Parts\\Attack\\HumanBody_02.png",
+    "sha256": "BA40743938E8DEDEBDDD79C5D8B2EDE1F91123D370D815D29FB32721A84136BB"
+  },
+  {
+    "path": "z03_human\\Parts\\Attack\\HumanBody_03.png",
+    "sha256": "EBD6741FE72AE49562F26ACD5E59F2E48827AAC178DF76D8D60F6ACBE7E772EF"
+  },
+  {
+    "path": "z03_human\\Parts\\Attack\\HumanBody_04.png",
+    "sha256": "679ADBBA827DD6F7CFB9249523EF28701CB0C940E012E89BDF72C8C81BE9737E"
+  },
+  {
+    "path": "z03_human\\Parts\\Attack\\HumanBody_05.png",
+    "sha256": "EC7FBFF045F33FDDCC9FA7C06F1B9BAA0CB99D68D44ADDAD5DD6DF8EF09B0066"
+  },
+  {
+    "path": "z03_human\\Parts\\Attack\\HumanBody_06.png",
+    "sha256": "22294F5F297B6A6137A8630843B3F7AA94F4BFA90D4323262A29C0BEF4C4EF23"
+  },
+  {
+    "path": "z03_human\\Parts\\Attack\\SlimeCoat_01.png",
+    "sha256": "9A239D3D3F942C66B1191068FDDC67D8A5225D36061FDA703AF49E85AF267167"
+  },
+  {
+    "path": "z03_human\\Parts\\Attack\\SlimeCoat_02.png",
+    "sha256": "A8EA1AB2E8D92D392CD7B26CB557DE70F64D65CB8147B62C36E07E69E8D61C7A"
+  },
+  {
+    "path": "z03_human\\Parts\\Attack\\SlimeCoat_03.png",
+    "sha256": "8A8E18AAA110AA4DCC0C2B699755162702F9E57E48C763D076C0D8A0B45A5D23"
+  },
+  {
+    "path": "z03_human\\Parts\\Attack\\SlimeCoat_04.png",
+    "sha256": "0807136F6E013B82D3C440F965249CC11A2EB8AC313DE8B4E1E60F657A0877CF"
+  },
+  {
+    "path": "z03_human\\Parts\\Attack\\SlimeCoat_05.png",
+    "sha256": "7F964CF0EE451BA85845D8C5080D73268F25AA46263A5E3CF1FAD3D19CA3E470"
+  },
+  {
+    "path": "z03_human\\Parts\\Attack\\SlimeCoat_06.png",
+    "sha256": "9CB6A78E7BF92E038A2B09D1AA7BC47F8041E4F4ECE83CD7FF8FD08EEB88B084"
+  },
+  {
+    "path": "z03_human\\Parts\\Dead\\DripsFX_03.png",
+    "sha256": "0BC48C5E69CDA40A2EE58C66F2F8EF29F36FF87D79957663B6C8665B29BBAD1E"
+  },
+  {
+    "path": "z03_human\\Parts\\Dead\\HumanBody_01.png",
+    "sha256": "F4933AC7B60B886C5BC89061E0B408E5F0120B234772A52B4BA1E122AAADA6A1"
+  },
+  {
+    "path": "z03_human\\Parts\\Dead\\HumanBody_02.png",
+    "sha256": "8E04FFCD6BB528DFDD4FDACBF9F89EBD25968DD5BD63620A9335D0AA5710AA3B"
+  },
+  {
+    "path": "z03_human\\Parts\\Dead\\HumanBody_03.png",
+    "sha256": "480AEDFE1B683D0081D9DC63126D08D50476AD88BE0DC9647EC8EED18C194316"
+  },
+  {
+    "path": "z03_human\\Parts\\Dead\\HumanBody_04.png",
+    "sha256": "01AEA7C1E815FCA4DA8544FB10F9C38C3DCA03BDDECFA71A3469AE6A885BEEA4"
+  },
+  {
+    "path": "z03_human\\Parts\\Dead\\HumanBody_05.png",
+    "sha256": "CAF181AFC73525CB94A011FC58B542DD6DFCDFCC13090D686E604D370A56133E"
+  },
+  {
+    "path": "z03_human\\Parts\\Dead\\HumanBody_06.png",
+    "sha256": "1E3A07316F582D3DFA5B6A65573783FE2B7D7D2379B0B34C12610D94526215E0"
+  },
+  {
+    "path": "z03_human\\Parts\\Dead\\SlimeCoat_01.png",
+    "sha256": "EB35FDC85989E5264A32519D423B7C4B2FDEB01BB731822A928CCCEE634BA60F"
+  },
+  {
+    "path": "z03_human\\Parts\\Dead\\SlimeCoat_02.png",
+    "sha256": "50A97E4CD9C213C64DCAEBDD73E45E8D432C5A0D76479400E16F1B61A21145D3"
+  },
+  {
+    "path": "z03_human\\Parts\\Dead\\SlimeCoat_03.png",
+    "sha256": "14CE694BDAB6DB3EB8975073A978ED628B8AF3F881F1A575364B99221D2C00B5"
+  },
+  {
+    "path": "z03_human\\Parts\\Dead\\SlimeCoat_04.png",
+    "sha256": "9B1C4BCA0CDFF8986B841921B8A70A98B6B1A419680B8BAD1816D0CC7267889E"
+  },
+  {
+    "path": "z03_human\\Parts\\Dead\\SlimeCoat_05.png",
+    "sha256": "E62E4099C42FDA07570C9B7FC1C2ACCDADF976B1D57168E7478DE6A3262076BA"
+  },
+  {
+    "path": "z03_human\\Parts\\Dead\\SlimeCoat_06.png",
+    "sha256": "01B20204D3DD52C386E562D91D1C7BE8510EBC5F65E1FA7F5DE858F6544833AD"
+  },
+  {
+    "path": "z03_human\\Parts\\Idle\\HumanBody_01.png",
+    "sha256": "3E1153D3E4C71F77A4ACC34ECC2DC19479C3B58DE8170878FEA03D5104BF0D83"
+  },
+  {
+    "path": "z03_human\\Parts\\Idle\\HumanBody_02.png",
+    "sha256": "3467AF328D61591F99465EF41F0A58AD1ABA9D86B1B43D1F56FE174B4E027CC8"
+  },
+  {
+    "path": "z03_human\\Parts\\Idle\\HumanBody_03.png",
+    "sha256": "409DB64A9639CA875B155A1F90D6AF635DC00F3A21A67149CB6FABE4059C18CC"
+  },
+  {
+    "path": "z03_human\\Parts\\Idle\\HumanBody_04.png",
+    "sha256": "FF9AC6D45FE38D92306B24912C6FFB20841647A54CBF27D08028F45D3EFF506C"
+  },
+  {
+    "path": "z03_human\\Parts\\Idle\\SlimeCoat_01.png",
+    "sha256": "F9BED513767417AF3F0B451E47E872B919DFC5AFE1BA0FBA60FA78C7CF23A34A"
+  },
+  {
+    "path": "z03_human\\Parts\\Idle\\SlimeCoat_02.png",
+    "sha256": "709EF5BED6F4EEA4154DA5CA3E77416540D1B06E8125EB06E6F8AC04B0A63EE2"
+  },
+  {
+    "path": "z03_human\\Parts\\Idle\\SlimeCoat_03.png",
+    "sha256": "4D0BB415331FF59FDDCD91068BF6B1771480CED9BF748B3132A75C44B3911617"
+  },
+  {
+    "path": "z03_human\\Parts\\Idle\\SlimeCoat_04.png",
+    "sha256": "EDB3D44301EDFCE761A3B46F9D348357D5E1C980FCAE7944099972543ADDA3C9"
+  },
+  {
+    "path": "z03_human\\Parts\\Native\\DripsFX.aseprite",
+    "sha256": "82BB1EE40E5A5623937D3BD4098B3855C9AB002AF8925127A43C1A4F426E37AA"
+  },
+  {
+    "path": "z03_human\\Parts\\Native\\HumanBody.aseprite",
+    "sha256": "EE570B7F7F4318D569A97DB8E134A1E5B563EC6D73DE0CBEA7C13263B5C13B01"
+  },
+  {
+    "path": "z03_human\\Parts\\Native\\SlimeCoat.aseprite",
+    "sha256": "330C0A5D586CABBE68A81EAE55DCF0E0A222BA8822318BF9713D8EBDE7E4974D"
+  },
+  {
+    "path": "z03_human\\Parts\\Run\\HumanBody_01.png",
+    "sha256": "2FA8D34A7C6099BB3AAF5241250FCD7D383C0E53EF82E9BC1D84CFF3366AFA53"
+  },
+  {
+    "path": "z03_human\\Parts\\Run\\HumanBody_02.png",
+    "sha256": "89EBAE39A114775F436C801EF6A967CA5627826BEFAECC142D707E851971B207"
+  },
+  {
+    "path": "z03_human\\Parts\\Run\\HumanBody_03.png",
+    "sha256": "97233B1CE62A8CDEEE2C42A155F1E2327C4E4491A989FCD538485544822D1277"
+  },
+  {
+    "path": "z03_human\\Parts\\Run\\HumanBody_04.png",
+    "sha256": "63327DD1D6C71F9F4C96FBC6200716154408020C1AE2B7BBAC75D93B9D0A738C"
+  },
+  {
+    "path": "z03_human\\Parts\\Run\\HumanBody_05.png",
+    "sha256": "279B2E6F69814242E209B7218905AA512C84BF0089181B177D03C56462F7EBD1"
+  },
+  {
+    "path": "z03_human\\Parts\\Run\\HumanBody_06.png",
+    "sha256": "C1750BE50B0FE114158EC20B738779FB2C13C342719914C83BD08563A0B0DEBE"
+  },
+  {
+    "path": "z03_human\\Parts\\Run\\SlimeCoat_01.png",
+    "sha256": "C8C346BCDBDF2F970055A5223615D814C44C57A8757634F22C608C9C887EE003"
+  },
+  {
+    "path": "z03_human\\Parts\\Run\\SlimeCoat_02.png",
+    "sha256": "7A6FA1823F08366D2A319D1DFBBA60B4A853BE766562A8CECB59C1B6DD8D54BC"
+  },
+  {
+    "path": "z03_human\\Parts\\Run\\SlimeCoat_03.png",
+    "sha256": "ABA7FAC16C2BF145B0AC8760A20158212646154EDB60C22DB2CA6E83B22E859B"
+  },
+  {
+    "path": "z03_human\\Parts\\Run\\SlimeCoat_04.png",
+    "sha256": "0D28BC3BFD41095B2E5BEF02A536694C665B7BDEB811CCAEA3B4FF384733D726"
+  },
+  {
+    "path": "z03_human\\Parts\\Run\\SlimeCoat_05.png",
+    "sha256": "BC8478F6FDA5AAE995CF57BD1B9BC48B426AEBEA0F421966578AB672A320C062"
+  },
+  {
+    "path": "z03_human\\Parts\\Run\\SlimeCoat_06.png",
+    "sha256": "D2F103337AE1958AE01FBFD9CE8A4EDA5E0365A5CD65FFE4BB00F05A066D9269"
+  },
+  {
+    "path": "z03_human\\Parts\\Walk\\HumanBody_01.png",
+    "sha256": "1CB0AFEF5AC20DB3BF55B22361AAD96EE88521006483AA6C537778B20C20B74E"
+  },
+  {
+    "path": "z03_human\\Parts\\Walk\\HumanBody_02.png",
+    "sha256": "CA74737F672E355A8971163B06258337624780234E9B201386BACBDA926582FB"
+  },
+  {
+    "path": "z03_human\\Parts\\Walk\\HumanBody_03.png",
+    "sha256": "FF2F66A934AB0501EEBF069E7A1255086B946845E5C7F90BC7628FA4A0324EAF"
+  },
+  {
+    "path": "z03_human\\Parts\\Walk\\HumanBody_04.png",
+    "sha256": "1EBAB589FE7D4A5189E528BE1E0D0DDFC0C1E2949B9B321CE3AD95890083C1BC"
+  },
+  {
+    "path": "z03_human\\Parts\\Walk\\HumanBody_05.png",
+    "sha256": "199038E43F5D0C1BE3088171AEF4FA732E26FB154C44952983A612DB8DF22D2E"
+  },
+  {
+    "path": "z03_human\\Parts\\Walk\\HumanBody_06.png",
+    "sha256": "6F878D5E88A372913A95D98ACCAFE2FA6575B18744AD904CD28D5D8204A4F53C"
+  },
+  {
+    "path": "z03_human\\Parts\\Walk\\SlimeCoat_01.png",
+    "sha256": "EA692578D7514E1100CCB971A4D58FB7752D276C49949254DEFCFEFB1EE728EC"
+  },
+  {
+    "path": "z03_human\\Parts\\Walk\\SlimeCoat_02.png",
+    "sha256": "F84802B4F1AD22D3DCF4F54B704EB47C74830187182BFE4D7474A0F25048CAB6"
+  },
+  {
+    "path": "z03_human\\Parts\\Walk\\SlimeCoat_03.png",
+    "sha256": "21312DA76831EB20DBA7023258AEE2CDC3C87E5C77417009AB45648EA7E8FDF7"
+  },
+  {
+    "path": "z03_human\\Parts\\Walk\\SlimeCoat_04.png",
+    "sha256": "008CD68238E3AE7E1999F189238E1146EC37EA581A5857DEF1498B87868C5E3F"
+  },
+  {
+    "path": "z03_human\\Parts\\Walk\\SlimeCoat_05.png",
+    "sha256": "7C0C846EA70B58615FF5EE208EA0BFFC329AEC9491E5D2BF5590DCFCA66C61C4"
+  },
+  {
+    "path": "z03_human\\Parts\\Walk\\SlimeCoat_06.png",
+    "sha256": "E7AD19F69E956A3D99BC2F9285E16433440E4501CFB9B6B24542240EC3AF86B5"
+  },
+  {
+    "path": "z03_human\\Previews\\all_actions_2x.png",
+    "sha256": "EA7F782F922C135EFA3D9899E2D849E32CA5A7CD565A7703623ECB190602F482"
+  },
+  {
+    "path": "z03_human\\Previews\\all_actions_native.png",
+    "sha256": "158DD79320A1429154AFBEF959858046A077943270D83F61C331CDD20EFA0DA1"
+  },
+  {
+    "path": "z03_human\\Previews\\Attack_3x.gif",
+    "sha256": "CD00BB849140B38D1267688F23B0EE2AE79B8C33B06AD83D1F16189A6256CE6F"
+  },
+  {
+    "path": "z03_human\\Previews\\Attack_strip_2x.png",
+    "sha256": "684CFECF1D307F17D7B6B87E55E94E26C97E92463265B06080492FD86C272E0A"
+  },
+  {
+    "path": "z03_human\\Previews\\Dead_3x.gif",
+    "sha256": "C17B4E798640B7449C1CA406AAA0D44FE54B803B9E8814D418153354CB7446D9"
+  },
+  {
+    "path": "z03_human\\Previews\\Dead_strip_2x.png",
+    "sha256": "DE844C1CBD12CF252668F6073C298A7904B497D732769CE56F68438088433AD0"
+  },
+  {
+    "path": "z03_human\\Previews\\Idle_3x.gif",
+    "sha256": "B22FF01BCCA9060155EDA68A53861B1BA8C4FF6EC79DC42C01AA9970C4AC05A6"
+  },
+  {
+    "path": "z03_human\\Previews\\idle_4x.png",
+    "sha256": "860E2FD90B076B54B46709082EDE0FE8E8F1FD95D9C8F7804FAA1402FCF28E44"
+  },
+  {
+    "path": "z03_human\\Previews\\Idle_strip_2x.png",
+    "sha256": "66228C84AB3FBFC81174D36927C0D70F632BF58168E1CA0ABB431993D3BCB955"
+  },
+  {
+    "path": "z03_human\\Previews\\light_dark_3x.png",
+    "sha256": "D956F997631504EA04EB9371A2E0EB855386B30A078DE9EEB14730D44DC99C12"
+  },
+  {
+    "path": "z03_human\\Previews\\Run_3x.gif",
+    "sha256": "08AA163F123E14134257638B2D6F6668A0862B4BF16C0336FA846F43AE12B778"
+  },
+  {
+    "path": "z03_human\\Previews\\Run_strip_2x.png",
+    "sha256": "E1F47F921AC0D1932127C2E04424D8E0A96D45D4C7DA3C6F78E45A6471311B67"
+  },
+  {
+    "path": "z03_human\\Previews\\Walk_3x.gif",
+    "sha256": "6AFE9DED9B3BFA92BFACC70B4A1FEE2F133D8C13CE7AE7D7E5A30DD54C0D34B4"
+  },
+  {
+    "path": "z03_human\\Previews\\Walk_strip_2x.png",
+    "sha256": "E4A803618C373E6EA9FDA7A48851C307BCD1A39F8F51F5C88BE256E91DD2395A"
+  },
+  {
+    "path": "z03_human\\QA\\Attack_hidden_2x.png",
+    "sha256": "0F2E1EE0453EC2A4076BA81FBFB34AE0B877D730B800AA6E1B4A66BC6A659EAA"
+  },
+  {
+    "path": "z03_human\\QA\\Attack_solo_2x.png",
+    "sha256": "4B749CB951D390193D164CEFD5DBA7DF54A71E193A4119AD11DA98CFF22C5C27"
+  },
+  {
+    "path": "z03_human\\QA\\Dead_hidden_2x.png",
+    "sha256": "C33114DC563DA186D34A9287B3314D8BB3A511B344EF887186051EEAE3717223"
+  },
+  {
+    "path": "z03_human\\QA\\Dead_solo_2x.png",
+    "sha256": "2AF7386569FB770550B330F87C95B9DC4ED0A6815FFB0032AFBA7181FB8A8D88"
+  },
+  {
+    "path": "z03_human\\QA\\Idle_hidden_2x.png",
+    "sha256": "1339484B4C8559003E1B51FC99E1DF346CF7E47B1F3EDD65E9128CCE0A857DC2"
+  },
+  {
+    "path": "z03_human\\QA\\Idle_solo_2x.png",
+    "sha256": "E4EE489CCA7E1F673F661CCA7A1C0CB6387AD749D53DFE8A643520256A7E7EE2"
+  },
+  {
+    "path": "z03_human\\QA\\material_states_overview_2x.png",
+    "sha256": "C57065272A7F35625A9CB90098FB6ABC5DD0FAD7359AFCFBC4153661E1AB4D77"
+  },
+  {
+    "path": "z03_human\\QA\\Run_hidden_2x.png",
+    "sha256": "28074846C599D10B0E4056B4FCDB83A8B3987319C03A9A16504DCB3BD4F786F7"
+  },
+  {
+    "path": "z03_human\\QA\\Run_solo_2x.png",
+    "sha256": "5281CFFFD18F5D28297574DB9A3A0EE085B801D0150C9967947637119AEDE522"
+  },
+  {
+    "path": "z03_human\\QA\\validation.json",
+    "sha256": "5B90690E2448D089703DBC98C25701F8E2FC46EE52C031159FB63FA1E71898DE"
+  },
+  {
+    "path": "z03_human\\QA\\Walk_hidden_2x.png",
+    "sha256": "F9AB2AE81B743D5ABECB49E2A729310833FDA2FF633DCBFF35BF39937DD16260"
+  },
+  {
+    "path": "z03_human\\QA\\Walk_solo_2x.png",
+    "sha256": "AD52F6CD60842D1BB731B2A1F364DD33EC1FC018E3D2C3CF6C6BB62BC9CA8CAB"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Attack_hidden_1.aseprite",
+    "sha256": "6D6CA280B3C0335812E5950A7FA3E6E7FB3C1E07A5ED8608BDD873E8ECA0E3A3"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Attack_hidden_1.png",
+    "sha256": "7C193D6708CFB22CC6230CF987FB2CEA69A3BC1B53BCA1021E262C7A0C8307BF"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Attack_hidden_2.aseprite",
+    "sha256": "18B29A7400D7876D4EEA6C075FA70E4F2E552836951F8BCA0F649347DCD37962"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Attack_hidden_2.png",
+    "sha256": "371D48245350E8CACB7268D2E66329EEB8AAEAEDFB02DCD8301C3DE7188AD27D"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Attack_hidden_3.aseprite",
+    "sha256": "8954295AA2772B5D6E7D6615EE4E09FC5E080119A8E0E4BDD2271E42CEE2043B"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Attack_hidden_3.png",
+    "sha256": "F5561913AACD7EBA12885E46BF8EAB5098DB4C03C89AB0A8950A68C9F28E3182"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Attack_solo_1.aseprite",
+    "sha256": "AE0EEDFCE64267753E351AC939C4403630A84C7321D7B152A8536BAA18A2BA9C"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Attack_solo_1.png",
+    "sha256": "3A8F1AD7668DA2072B037DCB87D19CD220E5BD09C39297AAA54C5994C3471306"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Attack_solo_2.aseprite",
+    "sha256": "550036579BDBBA883921EB6FF683DBD8B73400857EACC41771350C6BFA0EAE7C"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Attack_solo_2.png",
+    "sha256": "69855FABC195609C57EE3A1510387BC0FE99F67E974B57FCA0257010EB3548B6"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Attack_solo_3.aseprite",
+    "sha256": "D91789BA88E915A036788722D8F477D68B91F4C024C760E6ECF289508A210A66"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Attack_solo_3.png",
+    "sha256": "8F11DE7D8AFBB8882EA6DE561562A875E53294BFFC8EFE87D06E576B6DBCFDBF"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Dead_hidden_1.aseprite",
+    "sha256": "6D6CA280B3C0335812E5950A7FA3E6E7FB3C1E07A5ED8608BDD873E8ECA0E3A3"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Dead_hidden_1.png",
+    "sha256": "B95FA9BA1A47AFF7A17F5EF25E4D88D769156E11A9B6D77242FCE712F094624E"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Dead_hidden_2.aseprite",
+    "sha256": "18B29A7400D7876D4EEA6C075FA70E4F2E552836951F8BCA0F649347DCD37962"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Dead_hidden_2.png",
+    "sha256": "B444F9A5479EA6CA48FB486332557C795D922E7E029964318FFB9B028C62E527"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Dead_solo_1.aseprite",
+    "sha256": "AE0EEDFCE64267753E351AC939C4403630A84C7321D7B152A8536BAA18A2BA9C"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Dead_solo_1.png",
+    "sha256": "B444F9A5479EA6CA48FB486332557C795D922E7E029964318FFB9B028C62E527"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Dead_solo_2.aseprite",
+    "sha256": "550036579BDBBA883921EB6FF683DBD8B73400857EACC41771350C6BFA0EAE7C"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Dead_solo_2.png",
+    "sha256": "B95FA9BA1A47AFF7A17F5EF25E4D88D769156E11A9B6D77242FCE712F094624E"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Idle_hidden_1.aseprite",
+    "sha256": "6D6CA280B3C0335812E5950A7FA3E6E7FB3C1E07A5ED8608BDD873E8ECA0E3A3"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Idle_hidden_1.png",
+    "sha256": "0A21AC5AA4DD2658A29FEAD980F0938D6F35DF09768FCCA4AB25A3C2860217D2"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Idle_hidden_2.aseprite",
+    "sha256": "18B29A7400D7876D4EEA6C075FA70E4F2E552836951F8BCA0F649347DCD37962"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Idle_hidden_2.png",
+    "sha256": "BEBC76D46AF7C87C7977C1CB4006FCD01A3988FADEF069DEF249F9B42A46C998"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Idle_solo_1.aseprite",
+    "sha256": "AE0EEDFCE64267753E351AC939C4403630A84C7321D7B152A8536BAA18A2BA9C"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Idle_solo_1.png",
+    "sha256": "BEBC76D46AF7C87C7977C1CB4006FCD01A3988FADEF069DEF249F9B42A46C998"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Idle_solo_2.aseprite",
+    "sha256": "550036579BDBBA883921EB6FF683DBD8B73400857EACC41771350C6BFA0EAE7C"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Idle_solo_2.png",
+    "sha256": "0A21AC5AA4DD2658A29FEAD980F0938D6F35DF09768FCCA4AB25A3C2860217D2"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Run_hidden_1.aseprite",
+    "sha256": "6D6CA280B3C0335812E5950A7FA3E6E7FB3C1E07A5ED8608BDD873E8ECA0E3A3"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Run_hidden_1.png",
+    "sha256": "BAF57C86159805BFEB767674100053CCE6AB6E21C53C610B358E5FB9F7641982"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Run_hidden_2.aseprite",
+    "sha256": "18B29A7400D7876D4EEA6C075FA70E4F2E552836951F8BCA0F649347DCD37962"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Run_hidden_2.png",
+    "sha256": "6A4700A54D3D372E1808605AEE1F81E4E4679E62E457EB09AA5F9D00DF0380BE"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Run_solo_1.aseprite",
+    "sha256": "AE0EEDFCE64267753E351AC939C4403630A84C7321D7B152A8536BAA18A2BA9C"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Run_solo_1.png",
+    "sha256": "6A4700A54D3D372E1808605AEE1F81E4E4679E62E457EB09AA5F9D00DF0380BE"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Run_solo_2.aseprite",
+    "sha256": "550036579BDBBA883921EB6FF683DBD8B73400857EACC41771350C6BFA0EAE7C"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Run_solo_2.png",
+    "sha256": "BAF57C86159805BFEB767674100053CCE6AB6E21C53C610B358E5FB9F7641982"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Walk_hidden_1.aseprite",
+    "sha256": "6D6CA280B3C0335812E5950A7FA3E6E7FB3C1E07A5ED8608BDD873E8ECA0E3A3"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Walk_hidden_1.png",
+    "sha256": "7D2F379F0E0D4B2E3D0E9AF47800D03FD56069CB9765B15529A598E31863D9A3"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Walk_hidden_2.aseprite",
+    "sha256": "18B29A7400D7876D4EEA6C075FA70E4F2E552836951F8BCA0F649347DCD37962"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Walk_hidden_2.png",
+    "sha256": "49EEAE8C5E60D2025FDD532DF3C9E3F8A7CA2E85FD73570C569A8A726EDA4B18"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Walk_solo_1.aseprite",
+    "sha256": "AE0EEDFCE64267753E351AC939C4403630A84C7321D7B152A8536BAA18A2BA9C"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Walk_solo_1.png",
+    "sha256": "49EEAE8C5E60D2025FDD532DF3C9E3F8A7CA2E85FD73570C569A8A726EDA4B18"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Walk_solo_2.aseprite",
+    "sha256": "550036579BDBBA883921EB6FF683DBD8B73400857EACC41771350C6BFA0EAE7C"
+  },
+  {
+    "path": "z03_human\\QA\\LayerStates\\Walk_solo_2.png",
+    "sha256": "7D2F379F0E0D4B2E3D0E9AF47800D03FD56069CB9765B15529A598E31863D9A3"
+  },
+  {
+    "path": "z03_human\\QA\\PreviewSources\\Attack_3x.aseprite",
+    "sha256": "40ADD645E838CCDF6A1310A260EDFDC0EC8B71320E835D905C0651B6D4F733E3"
+  },
+  {
+    "path": "z03_human\\QA\\PreviewSources\\Dead_3x.aseprite",
+    "sha256": "9A6D450F67D33323C9D45FB3ED2C781BE0CBEF4AD5ACDB883541D43B32B0EFC9"
+  },
+  {
+    "path": "z03_human\\QA\\PreviewSources\\Idle_3x.aseprite",
+    "sha256": "1DF9C89B57EC1BE2FAB43A253F74FD3E68E79CA5E8DC864071F506296B0B4166"
+  },
+  {
+    "path": "z03_human\\QA\\PreviewSources\\Run_3x.aseprite",
+    "sha256": "2A5ADCE098F6B2A392F32E69E5E4EF2589CE91A219BB6FBA307E44A25FBD6991"
+  },
+  {
+    "path": "z03_human\\QA\\PreviewSources\\Walk_3x.aseprite",
+    "sha256": "F8C9DF9170BCDDA7577BA7F43F0C8E59B7C132AB696FAEFA46849F17D653197D"
+  }
+]

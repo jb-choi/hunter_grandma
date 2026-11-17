@@ -1,0 +1,161 @@
+{
+  "parts": 184,
+  "files": [
+    {
+      "path": "asset_manifest.json",
+      "sha256": "09E9730AA3347C6677B19ACD48343FD3E0F54F49CB9BD3A0128E6E6F11067624"
+    },
+    {
+      "path": "Export/sundeok_parts.json",
+      "sha256": "C22DACBAA53289DA468E6681AE82F0E5005F5B809555F0BC2077E01A614D5DA0"
+    },
+    {
+      "path": "grandma_01_sundeok_120.aseprite",
+      "sha256": "84547DD9AC475885A0C8F22EEEA240E96634B31208F103658319CA6F54875210"
+    },
+    {
+      "path": "Source/generation_prompts.json",
+      "sha256": "9B3DF6F7C274983397F90099C9FB7E8AB66BE81B7029AC8FFAFAB22E40A20AAA"
+    },
+    {
+      "path": "Source/pose_metadata.json",
+      "sha256": "5AFDF1A99B47B3822491AB9A19F9930E1181C71F51C81CC78D71CF908CEB9829"
+    },
+    {
+      "path": "Clips\\sundeok_aim.aseprite",
+      "sha256": "6B57814DD4CA83B3301DCEF6440B50E72299DD97428EB9F685770A51C38A6C85"
+    },
+    {
+      "path": "Clips\\sundeok_collect.aseprite",
+      "sha256": "D9F7B2740F0BD822A1624483C0F482F5678F034ECBF2A3BBF6E7FD6C5DAFC13A"
+    },
+    {
+      "path": "Clips\\sundeok_fire_v1_normal.aseprite",
+      "sha256": "7299EE3B41D2CB5F180C016E47AC1A6A0B4114DCEB1267AA26CD5EF15782B975"
+    },
+    {
+      "path": "Clips\\sundeok_fire_v2_tactical.aseprite",
+      "sha256": "3FEF97D5BF8809D82D2979FA51B83E87412ABC73338D3C91E07D4C6D96373757"
+    },
+    {
+      "path": "Clips\\sundeok_fire.aseprite",
+      "sha256": "7299EE3B41D2CB5F180C016E47AC1A6A0B4114DCEB1267AA26CD5EF15782B975"
+    },
+    {
+      "path": "Clips\\sundeok_idle.aseprite",
+      "sha256": "036A12210D32A6FC10B4EB5B9BEBF1CC75E8F54D36AC49BA5AF8DC5E6C52092A"
+    },
+    {
+      "path": "Clips\\sundeok_reload_v1_normal.aseprite",
+      "sha256": "57D5CBC5B559F4ADAD7E6F589ACCF7182AEF93AEEF13800538045B6592E076FB"
+    },
+    {
+      "path": "Clips\\sundeok_reload_v2_tactical.aseprite",
+      "sha256": "155B38D8F3CF27A8C91F09EB765B3DD2F63D92C668A9F5C1719EAFA1A95E94AC"
+    },
+    {
+      "path": "Clips\\sundeok_reload.aseprite",
+      "sha256": "57D5CBC5B559F4ADAD7E6F589ACCF7182AEF93AEEF13800538045B6592E076FB"
+    },
+    {
+      "path": "Clips\\sundeok_walk_v1_normal.aseprite",
+      "sha256": "7DEA15F71FD9ED36FDF3570FDE3F2B1FCCE3B6022561E3C9478F37C4DE547928"
+    },
+    {
+      "path": "Clips\\sundeok_walk_v2_tactical.aseprite",
+      "sha256": "9C34AC946F3670F00C30D20DD36B844E7F6D698D238415B46BA875FB3765CB65"
+    },
+    {
+      "path": "Clips\\sundeok_walk.aseprite",
+      "sha256": "7DEA15F71FD9ED36FDF3570FDE3F2B1FCCE3B6022561E3C9478F37C4DE547928"
+    },
+    {
+      "path": "Parts\\Native\\sundeok_ammo.aseprite",
+      "sha256": "55ECB88CE996ED902EE56F719A0A3831728BF5C8A451512420787A76BC44CA78"
+    },
+    {
+      "path": "Parts\\Native\\sundeok_backarm.aseprite",
+      "sha256": "22908BE0E373C3FC80327B019219E25D30AF35FABB7EC5A31A70F0455E420415"
+    },
+    {
+      "path": "Parts\\Native\\sundeok_body.aseprite",
+      "sha256": "E6B5EF42670A6C12BEF4E9D4AE26A7690E39CCA8527C41C03D3DEDD16CAD6932"
+    },
+    {
+      "path": "Parts\\Native\\sundeok_frontarm.aseprite",
+      "sha256": "267ABC68C7B66C977D879BC4969DAF1D320C4200CE12567061D006795392BAA0"
+    },
+    {
+      "path": "Parts\\Native\\sundeok_fx.aseprite",
+      "sha256": "9FAB1B3A1D51240276AD650376DD0A26487A83C36033031CC7CB60AA6F6DD3FD"
+    },
+    {
+      "path": "Parts\\Native\\sundeok_pickup.aseprite",
+      "sha256": "23116221B46DA83944F68F7F081255FC96D28A4CB8A051B8FC9D8EF8B70B3B3B"
+    },
+    {
+      "path": "Parts\\Native\\sundeok_weapon.aseprite",
+      "sha256": "AA4A7524FB119966672C5DE57EE18790FC22BCF61BD211386CBACC5BEB014B7A"
+    },
+    {
+      "path": "TacticalV2\\Parts\\Native\\Ammo.aseprite",
+      "sha256": "483283F0539A5E9388CA12A4EDCA959026E0D71D43CB9896D4D25EF5D669BDFD"
+    },
+    {
+      "path": "TacticalV2\\Parts\\Native\\BackArm.aseprite",
+      "sha256": "87E5D760B8C244376EC9AC88589B2C727AE3FD1A3303E6CC8D7317DB12C520D8"
+    },
+    {
+      "path": "TacticalV2\\Parts\\Native\\Body.aseprite",
+      "sha256": "F3458540D4D2A6FA96E30AC2419FB84290820E5CDA75FDF6435D96FCADCFCED5"
+    },
+    {
+      "path": "TacticalV2\\Parts\\Native\\FrontArm.aseprite",
+      "sha256": "69818D4A661F7E7819A2BEB7D5C73CFF3E4B3D0281F0E94B3E68EB5D8EFE7916"
+    },
+    {
+      "path": "TacticalV2\\Parts\\Native\\FX.aseprite",
+      "sha256": "E8FF73988B4725F58FB98053EFFE5C7455F98DAEA9976974EB15968BDAD27154"
+    },
+    {
+      "path": "TacticalV2\\Parts\\Native\\Pickup.aseprite",
+      "sha256": "EBE4E45E3F19F9C34166880C05E92C88DE25CC20AD12460FC98DE2D297D66D5A"
+    },
+    {
+      "path": "TacticalV2\\Parts\\Native\\Weapon.aseprite",
+      "sha256": "945394C69783B6E41FF074837631F83A5B32DFC91C0C6D37936E9C487B4251AA"
+    },
+    {
+      "path": "TacticalV2\\Previews\\fire_v2_tactical_3x.gif",
+      "sha256": "FD6D0FD437C85406A3F93E7E92CADC58C0F1AC6706129942AB08F7EE43502431"
+    },
+    {
+      "path": "TacticalV2\\Previews\\fire_v2_tactical_comparison_3x.gif",
+      "sha256": "F7B79BBD29399A0EBFFD81B675ACE850AE13AF0187BB61FFA75222F837CCA0ED"
+    },
+    {
+      "path": "TacticalV2\\Previews\\reload_v2_tactical_3x.gif",
+      "sha256": "80DD4385C5F508EABA434BCF566C3F47D17A049F252421CBEF5658F0C9E4F228"
+    },
+    {
+      "path": "TacticalV2\\Previews\\reload_v2_tactical_comparison_3x.gif",
+      "sha256": "14BEF947BBAAE91F337646BF8DB786EAECC1A0B77291463CBBDC1C4205A003EB"
+    },
+    {
+      "path": "TacticalV2\\Previews\\tactical_v2_set_3x.gif",
+      "sha256": "BC88B083D653661717E2278C0123B1AEE337142B161AE73781558F127E425CCB"
+    },
+    {
+      "path": "TacticalV2\\Previews\\walk_v2_tactical_3x.gif",
+      "sha256": "D6D447B53C37286F24A2F7115A1E47351C5D99E1E9F66CAFF6F12DBE11262BF9"
+    },
+    {
+      "path": "TacticalV2\\Previews\\walk_v2_tactical_comparison_3x.gif",
+      "sha256": "1CA943C53AC9309D3BBC4FD4E53AD5089326FB8DE9C7EAEEB548A76D8210B87A"
+    }
+  ],
+  "frames": 43,
+  "tags": 9,
+  "passed": true,
+  "date": "2026-11-02"
+}

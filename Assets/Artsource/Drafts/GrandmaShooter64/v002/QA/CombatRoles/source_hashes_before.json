@@ -1,0 +1,26 @@
+[
+  {
+    "path": "grandma_05_redhood.aseprite",
+    "sha256": "F623DA171B5D695C7E8BF0027DE720BF28793C4558ACDB4CEBA282062E515375"
+  },
+  {
+    "path": "grandma_06_teatime.aseprite",
+    "sha256": "9A70886821D8D2BBAB20AE7DF2A7DD4A08F5631D3E22A29C1879B7B2B7469D63"
+  },
+  {
+    "path": "grandma_07_mosswitch.aseprite",
+    "sha256": "C4A591CDF39508BA30710DBAF2584CC7CC9B8B48604DA33E8E3B539BB551538F"
+  },
+  {
+    "path": "grandma_08_wildrose.aseprite",
+    "sha256": "9B6F2C449EE969DEC041A09276A7CF7AF8099CD4D97D1F4A5E22E5F612D85F72"
+  },
+  {
+    "path": "grandma_04_sundeok.aseprite",
+    "sha256": "2F65F1CF2E176B79BAE85E238E4490277A712E92CC90524648590342CB767F47"
+  },
+  {
+    "path": "grandma_04_sundeok_tea.aseprite",
+    "sha256": "37F0D2DA1A8BB54FC224A0A11457D11D787A050B20C87076AC9EF7331488C6EF"
+  }
+]

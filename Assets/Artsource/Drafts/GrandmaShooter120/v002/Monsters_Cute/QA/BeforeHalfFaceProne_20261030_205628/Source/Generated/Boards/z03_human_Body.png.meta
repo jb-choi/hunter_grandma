@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 95d9b8f484a147445b49a54cd35cdc69
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4521274182314537748
+    second: z03_human_Body_0
+  - first:
+      213: -3640176030542714635
+    second: z03_human_Body_1
+  - first:
+      213: -5680742634013134790
+    second: z03_human_Body_2
+  - first:
+      213: 5907545273915948560
+    second: z03_human_Body_3
+  - first:
+      213: -6128019924107175404
+    second: z03_human_Body_4
+  - first:
+      213: 1913448003223422261
+    second: z03_human_Body_5
+  - first:
+      213: -1580386298440856606
+    second: z03_human_Body_6
+  - first:
+      213: -4285396189818570169
+    second: z03_human_Body_7
+  - first:
+      213: -5303710379917917622
+    second: z03_human_Body_8
+  - first:
+      213: -7029782919030480972
+    second: z03_human_Body_9
+  - first:
+      213: 5552648029930024983
+    second: z03_human_Body_10
+  - first:
+      213: -7806692185370358755
+    second: z03_human_Body_11
+  - first:
+      213: -2200658365180120294
+    second: z03_human_Body_12
+  - first:
+      213: -6089339033612867179
+    second: z03_human_Body_13
+  - first:
+      213: 2332406053057545943
+    second: z03_human_Body_14
+  - first:
+      213: -8904964740116997295
+    second: z03_human_Body_15
+  - first:
+      213: 9084851325810950289
+    second: z03_human_Body_16
+  - first:
+      213: -9188832284883978972
+    second: z03_human_Body_17
+  - first:
+      213: 4132184728710754170
+    second: z03_human_Body_18
+  - first:
+      213: 5556885300374754683
+    second: z03_human_Body_19
+  - first:
+      213: -9084725895818552058
+    second: z03_human_Body_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: z03_human_Body_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 7
+        width: 195
+        height: 1124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec4ffef5153141c0800000000000000
+      internalID: -4521274182314537748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_Body_1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 440
+        width: 229
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f82c9bcf2f7b7dc0800000000000000
+      internalID: -3640176030542714635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_Body_2
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 666
+        width: 193
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30fa371ca2f921b0800000000000000
+      internalID: -5680742634013134790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_Body_3
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 902
+        width: 172
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e3c4a8021dbf150800000000000000
+      internalID: 5907545273915948560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_Body_4
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 901
+        width: 135
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a531fb856e4faa0800000000000000
+      internalID: -6128019924107175404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_Body_5
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 893
+        width: 136
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535005032deed8a10800000000000000
+      internalID: 1913448003223422261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_Body_6
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 666
+        width: 157
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebc989e807511ae0800000000000000
+      internalID: -1580386298440856606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_Body_7
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 442
+        width: 216
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a3d00ded63784c0800000000000000
+      internalID: -4285396189818570169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_Body_8
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 668
+        width: 163
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42c07d728f6566b0800000000000000
+      internalID: -5303710379917917622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_Body_9
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 449
+        width: 199
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf54173ea1317e90800000000000000
+      internalID: -7029782919030480972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_Body_10
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 439
+        width: 181
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71070cac6f7fe0d40800000000000000
+      internalID: 5552648029930024983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_Body_11
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 207
+        width: 209
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c8e2ca1de09a390800000000000000
+      internalID: -7806692185370358755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_Body_12
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 392
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13727f50e0b571e0800000000000000
+      internalID: -2200658365180120294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_Body_13
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 394
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599a59069625e7ba0800000000000000
+      internalID: -6089339033612867179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_Body_14
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 0
+        width: 165
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6477892fe5e5020800000000000000
+      internalID: 2332406053057545943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_Body_15
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 14
+        width: 225
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b92f7dfb53b6480800000000000000
+      internalID: -8904964740116997295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_Body_16
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 213
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190c230b520e31e70800000000000000
+      internalID: 9084851325810950289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_Body_17
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 15
+        width: 156
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42579dea8b5ba7080800000000000000
+      internalID: -9188832284883978972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_Body_18
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 136
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f29151e18785930800000000000000
+      internalID: 4132184728710754170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_Body_19
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 14
+        width: 205
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b755d623db50e1d40800000000000000
+      internalID: 5556885300374754683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z03_human_Body_20
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 15
+        width: 177
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d51f14ee19ce180800000000000000
+      internalID: -9084725895818552058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      z03_human_Body_0: -4521274182314537748
+      z03_human_Body_1: -3640176030542714635
+      z03_human_Body_10: 5552648029930024983
+      z03_human_Body_11: -7806692185370358755
+      z03_human_Body_12: -2200658365180120294
+      z03_human_Body_13: -6089339033612867179
+      z03_human_Body_14: 2332406053057545943
+      z03_human_Body_15: -8904964740116997295
+      z03_human_Body_16: 9084851325810950289
+      z03_human_Body_17: -9188832284883978972
+      z03_human_Body_18: 4132184728710754170
+      z03_human_Body_19: 5556885300374754683
+      z03_human_Body_2: -5680742634013134790
+      z03_human_Body_20: -9084725895818552058
+      z03_human_Body_3: 5907545273915948560
+      z03_human_Body_4: -6128019924107175404
+      z03_human_Body_5: 1913448003223422261
+      z03_human_Body_6: -1580386298440856606
+      z03_human_Body_7: -4285396189818570169
+      z03_human_Body_8: -5303710379917917622
+      z03_human_Body_9: -7029782919030480972
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,4 @@
+Verified z01_normal:28 poses, 26 colors, 56 parts, 20 native visibility states.
+Verified z02_large:28 poses, 26 colors, 57 parts, 22 native visibility states.
+Verified z03_human:28 poses, 26 colors, 63 parts, 22 native visibility states.
+All 3 characters / 15 clips /84 poses verified; 176 cropped part slots and 64 saved/reopened material states.

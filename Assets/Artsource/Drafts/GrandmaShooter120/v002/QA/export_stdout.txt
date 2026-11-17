@@ -1,0 +1,1 @@
+Validated 27 frames, 26 RGB union, 116 cropped parts, 54 native visibility states; PNG/parts/left/sheet roundtrips exact.

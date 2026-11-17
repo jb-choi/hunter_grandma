@@ -1,0 +1,1 @@
+Sampled 27 generated pose cells and 27 restored body cells to 120px.

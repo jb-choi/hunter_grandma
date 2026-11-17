@@ -1,0 +1,1462 @@
+[
+  {
+    "path": "asset_manifest.json",
+    "sha256": "A9F12A80F65D9CC7CFAF1C285BA134B218DEA5F0044A70234BF10B4BF40E5C30",
+    "bytes": 1804
+  },
+  {
+    "path": "motorcycle_drive_by_pickup.aseprite",
+    "sha256": "5BDD030FA10B0D6BDB05F38BA2E647080770903F0D7ECC10BAA3E8FD5D203519",
+    "bytes": 133912
+  },
+  {
+    "path": "motorcycle_rider_120.aseprite",
+    "sha256": "AB6BB18F285BAB71E3DAF35B1FF6048DBED344E01B01E1B93D924BB87B9FA50F",
+    "bytes": 44307
+  },
+  {
+    "path": "README.md",
+    "sha256": "CB4A399B1A6E91795A0F3F9CBE42B7F126654EE77853ABE76607526CD1A8492C",
+    "bytes": 6441
+  },
+  {
+    "path": "Clips\\motorcycle_collect.aseprite",
+    "sha256": "9722AA9CBBC61F681769DD84622D7C3F9238C34D0FFA7C37860BBF92C07B4080",
+    "bytes": 44885
+  },
+  {
+    "path": "Clips\\motorcycle_idle.aseprite",
+    "sha256": "52C27E2D50D3B49303CB96600F8A21A00ACDDDDA1ECD7DD17D9B61920E17AF0C",
+    "bytes": 23000
+  },
+  {
+    "path": "Clips\\motorcycle_ride.aseprite",
+    "sha256": "345B8E2F0BF411BBA8FE3047D64FE225179B6DC52E01B8515ABACB3EDB950745",
+    "bytes": 34057
+  },
+  {
+    "path": "Export\\motorcycle_26.gpl",
+    "sha256": "3A49D5DC2A348DE66D7667DEFDFE7BF790A95000C9660AAC671D276FEB5074A9",
+    "bytes": 631
+  },
+  {
+    "path": "Export\\motorcycle_idle.png",
+    "sha256": "35C8F4028B71EBB099713F95DB2839449DB88B45878BC1898900252FF50D3333",
+    "bytes": 7654
+  },
+  {
+    "path": "Export\\motorcycle_parts.json",
+    "sha256": "6ED1D508287B44EBAA08ACF44A3D12D2D95A293268A99D901894AE4ECC004E74",
+    "bytes": 33795
+  },
+  {
+    "path": "Export\\Frames\\Collect\\motorcycle_collect_01.png",
+    "sha256": "A4DA1DEDA0278346E948C8C680A8A488AD8D0C0A2354699A2CB0208E841E2121",
+    "bytes": 6976
+  },
+  {
+    "path": "Export\\Frames\\Collect\\motorcycle_collect_02.png",
+    "sha256": "157556C42ED907859BA5E09C6CDB4FE7F66A27A5D28996162B5CBA3F04FE403E",
+    "bytes": 6818
+  },
+  {
+    "path": "Export\\Frames\\Collect\\motorcycle_collect_03.png",
+    "sha256": "8E1A6FBDD4C4CB18A7BC70F84958201EB0367AB35C4D6C82BED7AE7073CE13FA",
+    "bytes": 6109
+  },
+  {
+    "path": "Export\\Frames\\Collect\\motorcycle_collect_04.png",
+    "sha256": "2B9102E8A754C7F3408FA4D73BB11284A177232F65A5A12E08CB48B00316AE2E",
+    "bytes": 5936
+  },
+  {
+    "path": "Export\\Frames\\Collect\\motorcycle_collect_05.png",
+    "sha256": "0ECCFE6673C3C702DFF534F9E3CC4BA3ADB8DE05F87E644C43EE0304BD62FC14",
+    "bytes": 6714
+  },
+  {
+    "path": "Export\\Frames\\Collect\\motorcycle_collect_06.png",
+    "sha256": "BC52E28568DB5B69AAC4007D6863ECE69079EBEF42BB7E9600B480EDDA1CBE0A",
+    "bytes": 7188
+  },
+  {
+    "path": "Export\\Frames\\Collect\\motorcycle_collect_07.png",
+    "sha256": "F6B358E39DA3DB2FFFDF3789ED1B7B849D5856DBA58B50D35A19C23DF18FC7A0",
+    "bytes": 7229
+  },
+  {
+    "path": "Export\\Frames\\Collect\\motorcycle_collect_08.png",
+    "sha256": "311BCAE2C40F175C5BBA1B14DF45CEA54B22CEA55BA113BF960A2A750EC9E154",
+    "bytes": 6964
+  },
+  {
+    "path": "Export\\Frames\\Idle\\motorcycle_idle_01.png",
+    "sha256": "35C8F4028B71EBB099713F95DB2839449DB88B45878BC1898900252FF50D3333",
+    "bytes": 7654
+  },
+  {
+    "path": "Export\\Frames\\Idle\\motorcycle_idle_02.png",
+    "sha256": "C8664CEFA7A15D8D00C0814D6A8860D0EA2C8BFD9CFF83E17C66BB217A56FDA9",
+    "bytes": 7433
+  },
+  {
+    "path": "Export\\Frames\\Idle\\motorcycle_idle_03.png",
+    "sha256": "A15791EFA7574A1F44CBA9643867036373A015E8E5E56CC5A0265AB466955214",
+    "bytes": 7334
+  },
+  {
+    "path": "Export\\Frames\\Idle\\motorcycle_idle_04.png",
+    "sha256": "92FFFE1C5A37F860080CD81E5247EBF6AD6CB0EE9B8D7D664EB7ABFD38EF26B5",
+    "bytes": 7608
+  },
+  {
+    "path": "Export\\Frames\\Ride\\motorcycle_ride_01.png",
+    "sha256": "C18D420AC4BF9FE048BC4CF163892210EB1720E1ACD193AC1B1C37C723A7A686",
+    "bytes": 7390
+  },
+  {
+    "path": "Export\\Frames\\Ride\\motorcycle_ride_02.png",
+    "sha256": "599BBCFBCE425D0028C7BC999B7CBD7BFBD86A8B8BA0C9A7B9E7BAD398A460DE",
+    "bytes": 7145
+  },
+  {
+    "path": "Export\\Frames\\Ride\\motorcycle_ride_03.png",
+    "sha256": "FF6FCC73C5EDB12F1303F2668482FC33CE56AEB5C34CDC7F191F4012EC9EEA01",
+    "bytes": 7301
+  },
+  {
+    "path": "Export\\Frames\\Ride\\motorcycle_ride_04.png",
+    "sha256": "F1FE2FD981FDD00ECBE4F1656FDE0A7EA39FA1D6673CDDD41DAE0A548F65ED8B",
+    "bytes": 7288
+  },
+  {
+    "path": "Export\\Frames\\Ride\\motorcycle_ride_05.png",
+    "sha256": "B01F79BC5DCFBA3AF9E36B05CE285A5A90CCE3BB4F5BC21CAAE5BD5A8B31E3D2",
+    "bytes": 7153
+  },
+  {
+    "path": "Export\\Frames\\Ride\\motorcycle_ride_06.png",
+    "sha256": "ABA9BF4032C6D586492DF9DE912F83E850427B0977A0FC074244464DD6BA4412",
+    "bytes": 7355
+  },
+  {
+    "path": "Export\\Gifs\\motorcycle_collect.gif",
+    "sha256": "27D87298B4E28C9F2BBFC6658209837475B8C28DF3410237D780CE12C25E1EB0",
+    "bytes": 19630
+  },
+  {
+    "path": "Export\\Gifs\\motorcycle_drive_by_pickup.gif",
+    "sha256": "6050F4C78EF0D72B1EA3DDACCE920F2CBA931A9C4DFF4A56F5DD04C5ACDBA5F6",
+    "bytes": 61338
+  },
+  {
+    "path": "Export\\Gifs\\motorcycle_idle.gif",
+    "sha256": "5909BCC936D3BF52E0DA76C98442179C225DB6CFCA9BFB8FEB4F6C64713F5F1F",
+    "bytes": 10463
+  },
+  {
+    "path": "Export\\Gifs\\motorcycle_ride.gif",
+    "sha256": "9E12BAA0CD706D01782864A333A469F68588C4B85B03CD93F129F47462C112BD",
+    "bytes": 15680
+  },
+  {
+    "path": "Export\\Left\\Collect\\motorcycle_collect_01.png",
+    "sha256": "66E1A82716750BB343EADA385D411DB0FFC6A4C88F692A776138B1A582AACC15",
+    "bytes": 6918
+  },
+  {
+    "path": "Export\\Left\\Collect\\motorcycle_collect_02.png",
+    "sha256": "046EAA940DC5B2E74880D084124C07F59D9133CCE3B8E7FF030729E1DB562E6E",
+    "bytes": 6842
+  },
+  {
+    "path": "Export\\Left\\Collect\\motorcycle_collect_03.png",
+    "sha256": "47DD1B87933ADC97838E9E9B219AE4EF25894D3E257193F407D8B965B0A7A2D8",
+    "bytes": 6464
+  },
+  {
+    "path": "Export\\Left\\Collect\\motorcycle_collect_04.png",
+    "sha256": "26DC4EA7E45C4EE4EACE4E840163732F2FC147608D45ABCB095C48E260CA6D6E",
+    "bytes": 5874
+  },
+  {
+    "path": "Export\\Left\\Collect\\motorcycle_collect_05.png",
+    "sha256": "60FB7918128A314078D0097F089C80A62D0860F3A876E8D5089894C3CDBDE37E",
+    "bytes": 6817
+  },
+  {
+    "path": "Export\\Left\\Collect\\motorcycle_collect_06.png",
+    "sha256": "A898C69552A82BF82D4937BB12F1B08C5B548261FDF48D8556B94F5088A02236",
+    "bytes": 6999
+  },
+  {
+    "path": "Export\\Left\\Collect\\motorcycle_collect_07.png",
+    "sha256": "495BA156C2D244E992D7C3B9C46BBC02A4ED67A1D8103670F83813B5F6AA61A5",
+    "bytes": 7160
+  },
+  {
+    "path": "Export\\Left\\Collect\\motorcycle_collect_08.png",
+    "sha256": "B68633DF06589B2DB47C024FE6F24C7060EF21CCE563E16763FEE35AE8FA9E83",
+    "bytes": 6901
+  },
+  {
+    "path": "Export\\Left\\Idle\\motorcycle_idle_01.png",
+    "sha256": "608071307F43320766DD7DC288D5410FFA38101A8C96DBEF68044833CC310EF4",
+    "bytes": 7300
+  },
+  {
+    "path": "Export\\Left\\Idle\\motorcycle_idle_02.png",
+    "sha256": "0311516699CF674EA0B79846999473FC99B61E1D053B2A84C195D3C01E5857E3",
+    "bytes": 7252
+  },
+  {
+    "path": "Export\\Left\\Idle\\motorcycle_idle_03.png",
+    "sha256": "BE181CBCA843C2EBBC338F4920ADA3D88D248507F0592FA26F80AA45AB265CB9",
+    "bytes": 7362
+  },
+  {
+    "path": "Export\\Left\\Idle\\motorcycle_idle_04.png",
+    "sha256": "05A362C7B42B7A477FD3136C65F6D0D185D64F1E96842324EFFB7A8AF50427BB",
+    "bytes": 7341
+  },
+  {
+    "path": "Export\\Left\\Ride\\motorcycle_ride_01.png",
+    "sha256": "F169A612C3DBD7772AA1C4D4510673AD07CB3B452BB42AE1C41165F339314575",
+    "bytes": 7291
+  },
+  {
+    "path": "Export\\Left\\Ride\\motorcycle_ride_02.png",
+    "sha256": "FAC273123F2E5A8DA1D8E0ABA82B62AD06769BF4B2536E3FFA339E4BE2105133",
+    "bytes": 7290
+  },
+  {
+    "path": "Export\\Left\\Ride\\motorcycle_ride_03.png",
+    "sha256": "430225C5E68BCBD6994DEB026CF92125EC54CD912D278E2834385690B537656C",
+    "bytes": 7275
+  },
+  {
+    "path": "Export\\Left\\Ride\\motorcycle_ride_04.png",
+    "sha256": "A643086F65D098C12E05A116374E5131ABB1D69549AE0A24690B4DF159534ED2",
+    "bytes": 7216
+  },
+  {
+    "path": "Export\\Left\\Ride\\motorcycle_ride_05.png",
+    "sha256": "F8A883F6E0FBA92F8B7C0B856B7357677E87676D176BCE1B466923BD23E3CDF8",
+    "bytes": 7073
+  },
+  {
+    "path": "Export\\Left\\Ride\\motorcycle_ride_06.png",
+    "sha256": "94A12B8150689DF38AECFE70C9CAE239C7BD3FF27132F2951C0B688DA7C823E6",
+    "bytes": 7198
+  },
+  {
+    "path": "Export\\Sheets\\motorcycle_collect.json",
+    "sha256": "92F3714A8CF5F27B9008B162B705F0984701833BA29D313E6B566ED39FC424BB",
+    "bytes": 989
+  },
+  {
+    "path": "Export\\Sheets\\motorcycle_collect.png",
+    "sha256": "4CE350108D94E9F308FB7D87F0EB6CF93F43A3349BD3F20E9E89F40799345BD5",
+    "bytes": 26140
+  },
+  {
+    "path": "Export\\Sheets\\motorcycle_idle.json",
+    "sha256": "AD6B5922501B29908C635031F809D30CFDBFA1B8B0E46482C569801EF7AEB92F",
+    "bytes": 533
+  },
+  {
+    "path": "Export\\Sheets\\motorcycle_idle.png",
+    "sha256": "FE0B97CCA145CF499918DA16DCC132B7D661FC654EC3FC0F5913CD3305EB52F4",
+    "bytes": 15783
+  },
+  {
+    "path": "Export\\Sheets\\motorcycle_ride.json",
+    "sha256": "58F8AFEBA5764E474A48A27F2F32ED50602069422E8E510CEE8423AD19C400C8",
+    "bytes": 758
+  },
+  {
+    "path": "Export\\Sheets\\motorcycle_ride.png",
+    "sha256": "0F41F88852B348DACB9B07A0395236DCF2DE17D1B356BBB298631B05366A72A8",
+    "bytes": 20573
+  },
+  {
+    "path": "Parts\\Collect\\BackArm_01.png",
+    "sha256": "9FDFED50B9E5EC388320ED4957711885852D25CE827B8AB7D0424B3117DB815E",
+    "bytes": 534
+  },
+  {
+    "path": "Parts\\Collect\\BackArm_02.png",
+    "sha256": "686968DB9A785F7FE8574D799FC2BF58F45B2C3F1BD0DBD890CF41AEE353BE9F",
+    "bytes": 463
+  },
+  {
+    "path": "Parts\\Collect\\BackArm_03.png",
+    "sha256": "D89D4247C88459777BD7D182C99259F80A115ED429A76FC1A977A2206017BF5C",
+    "bytes": 424
+  },
+  {
+    "path": "Parts\\Collect\\BackArm_04.png",
+    "sha256": "FF0CCF0A6CDD4C887608CA68785BCD4CABC933405F89454792458653233798C4",
+    "bytes": 440
+  },
+  {
+    "path": "Parts\\Collect\\BackArm_05.png",
+    "sha256": "D89D4247C88459777BD7D182C99259F80A115ED429A76FC1A977A2206017BF5C",
+    "bytes": 424
+  },
+  {
+    "path": "Parts\\Collect\\BackArm_06.png",
+    "sha256": "DEC051D82F18452E0156719E9A6C8F3E3B48D6D9C69F4127F980B86B92096F05",
+    "bytes": 509
+  },
+  {
+    "path": "Parts\\Collect\\BackArm_07.png",
+    "sha256": "48EC07D6872FEC49A6A8C75968C81AE54FD776D59EE54520DFBB5D8E6BED49F2",
+    "bytes": 492
+  },
+  {
+    "path": "Parts\\Collect\\BackArm_08.png",
+    "sha256": "28FDDED749C14335D152D7F33BEA1D5A5ABB9BD30801F151F2992C7D59D939C7",
+    "bytes": 515
+  },
+  {
+    "path": "Parts\\Collect\\Body_01.png",
+    "sha256": "8070381212B11D16E9B6F5669C6391FA7113568EC93E2E02ECCCBE5ECF5991FA",
+    "bytes": 2654
+  },
+  {
+    "path": "Parts\\Collect\\Body_02.png",
+    "sha256": "87E8D158A22F71FD63A73ACEEC62A643B20E2441D563CE6ED3BFB4284F734452",
+    "bytes": 2634
+  },
+  {
+    "path": "Parts\\Collect\\Body_03.png",
+    "sha256": "A698CC7AD202BC10C1635D417CC2A1D3D9B15E594CFFD5C07396923CDCB495F5",
+    "bytes": 2409
+  },
+  {
+    "path": "Parts\\Collect\\Body_04.png",
+    "sha256": "74B6768BC922AC515FD17270AE83677B7DA2E25C97F8CD04D46C12522C688222",
+    "bytes": 2398
+  },
+  {
+    "path": "Parts\\Collect\\Body_05.png",
+    "sha256": "13617A686EC2D26BD980180FDA3FEAD64DBB18677D59C71572B19969D06517E3",
+    "bytes": 2767
+  },
+  {
+    "path": "Parts\\Collect\\Body_06.png",
+    "sha256": "1EDE57DF2A16233FDC35DCF33190BBC6DF5E68A1906E7BABC66244BA9F1951E4",
+    "bytes": 2890
+  },
+  {
+    "path": "Parts\\Collect\\Body_07.png",
+    "sha256": "E7BBC92858915D913DAB1E0DCCF967DA90205AF6C49C35F6DA34DB0811B0992C",
+    "bytes": 2808
+  },
+  {
+    "path": "Parts\\Collect\\Body_08.png",
+    "sha256": "3E7ADB70FACE5B8F524F3666B7E0AB3E089940B9E8471435B827D9FA0F17AF79",
+    "bytes": 2842
+  },
+  {
+    "path": "Parts\\Collect\\FrontArm_01.png",
+    "sha256": "B4BCDEFAC653561B19428C8794DAB7F5837A9A5E75370C0438200EBA5AFBEEB7",
+    "bytes": 662
+  },
+  {
+    "path": "Parts\\Collect\\FrontArm_02.png",
+    "sha256": "FFE15FB5CF2607EA1E420B20529B6BAF4C8A8B2892E92416A5F611E0FB13494E",
+    "bytes": 829
+  },
+  {
+    "path": "Parts\\Collect\\FrontArm_03.png",
+    "sha256": "3FA570D6F830475FF1FF8E1ADDB09836907ED29C758847B737D5C7F9D194C7C3",
+    "bytes": 697
+  },
+  {
+    "path": "Parts\\Collect\\FrontArm_04.png",
+    "sha256": "536A8B78C1B07BF56566CC4B84890602911EBDB3139F37DBF241364793AB4DA7",
+    "bytes": 718
+  },
+  {
+    "path": "Parts\\Collect\\FrontArm_05.png",
+    "sha256": "D4DAAA7E5FEDC212336AE95144AB0A470FC81201F1E09AA1B59F7B4A090CC2E6",
+    "bytes": 775
+  },
+  {
+    "path": "Parts\\Collect\\FrontArm_06.png",
+    "sha256": "6D057E7BCB10C5424A4BBD0000C0893F50EFBB316C38BA612EC76DECEC0A4A8F",
+    "bytes": 676
+  },
+  {
+    "path": "Parts\\Collect\\FrontArm_07.png",
+    "sha256": "10773768C7450B9D4958D8439202F1DFDC69AAC84C9676723D43C6D9F15EC7E1",
+    "bytes": 634
+  },
+  {
+    "path": "Parts\\Collect\\FrontArm_08.png",
+    "sha256": "03F67C581897199E7654AE8F225290C259E5EDA3BB504D17FBE732B2D70EDE32",
+    "bytes": 664
+  },
+  {
+    "path": "Parts\\Collect\\FrontWheel_01.png",
+    "sha256": "55DCDCD94EF9E995D7E3FF1899FA28617759B1691531BF98FFE445E613877AF2",
+    "bytes": 492
+  },
+  {
+    "path": "Parts\\Collect\\FrontWheel_02.png",
+    "sha256": "3D40655CB26E72E6B58FBFB34D453B75BA486488AE5211263E1BECAE4BEE7B35",
+    "bytes": 525
+  },
+  {
+    "path": "Parts\\Collect\\FrontWheel_03.png",
+    "sha256": "D01F15485D02A80F6B2F651EB6F104873FB0E08B3BF4A72858817B18A878E6CE",
+    "bytes": 546
+  },
+  {
+    "path": "Parts\\Collect\\FrontWheel_04.png",
+    "sha256": "07CA190666475C341C9EC012E0568CC7B65ECA0B99D7652635C4CDED0A0A2298",
+    "bytes": 542
+  },
+  {
+    "path": "Parts\\Collect\\FrontWheel_05.png",
+    "sha256": "24859CCB2BBEF97C97B74E2A87571992DAE603976C8954E93B1ED0329EBD6CC2",
+    "bytes": 553
+  },
+  {
+    "path": "Parts\\Collect\\FrontWheel_06.png",
+    "sha256": "487A63815971839E9FEF4097FCE01BAA5A562576ACBB6B7B14542CC90676F6A9",
+    "bytes": 525
+  },
+  {
+    "path": "Parts\\Collect\\FrontWheel_07.png",
+    "sha256": "55DCDCD94EF9E995D7E3FF1899FA28617759B1691531BF98FFE445E613877AF2",
+    "bytes": 492
+  },
+  {
+    "path": "Parts\\Collect\\FrontWheel_08.png",
+    "sha256": "3D40655CB26E72E6B58FBFB34D453B75BA486488AE5211263E1BECAE4BEE7B35",
+    "bytes": 525
+  },
+  {
+    "path": "Parts\\Collect\\MotionFX_01.png",
+    "sha256": "233F9BAFCBB3D080A515A18C61C63DA5B42677F3707D27587789D716762A40F8",
+    "bytes": 135
+  },
+  {
+    "path": "Parts\\Collect\\MotionFX_02.png",
+    "sha256": "233F9BAFCBB3D080A515A18C61C63DA5B42677F3707D27587789D716762A40F8",
+    "bytes": 135
+  },
+  {
+    "path": "Parts\\Collect\\MotionFX_03.png",
+    "sha256": "8207ADDEB5C735FDFB881D1A061E51197995DD6BBFDE5765056B2F3E8966CF01",
+    "bytes": 137
+  },
+  {
+    "path": "Parts\\Collect\\MotionFX_04.png",
+    "sha256": "8207ADDEB5C735FDFB881D1A061E51197995DD6BBFDE5765056B2F3E8966CF01",
+    "bytes": 137
+  },
+  {
+    "path": "Parts\\Collect\\MotionFX_05.png",
+    "sha256": "8207ADDEB5C735FDFB881D1A061E51197995DD6BBFDE5765056B2F3E8966CF01",
+    "bytes": 137
+  },
+  {
+    "path": "Parts\\Collect\\MotionFX_06.png",
+    "sha256": "3F820FB450081D5FDD5613F01E6AD0715365BCD308B661F6F4F0163B8C3F4E12",
+    "bytes": 136
+  },
+  {
+    "path": "Parts\\Collect\\MotionFX_07.png",
+    "sha256": "3F820FB450081D5FDD5613F01E6AD0715365BCD308B661F6F4F0163B8C3F4E12",
+    "bytes": 136
+  },
+  {
+    "path": "Parts\\Collect\\MotionFX_08.png",
+    "sha256": "3F820FB450081D5FDD5613F01E6AD0715365BCD308B661F6F4F0163B8C3F4E12",
+    "bytes": 136
+  },
+  {
+    "path": "Parts\\Collect\\Pickup_01.png",
+    "sha256": "911BA2B63CB6D17DD646C8D13BC6CBF33D9B05CB7DF6D6097EF074519316E883",
+    "bytes": 192
+  },
+  {
+    "path": "Parts\\Collect\\Pickup_02.png",
+    "sha256": "911BA2B63CB6D17DD646C8D13BC6CBF33D9B05CB7DF6D6097EF074519316E883",
+    "bytes": 192
+  },
+  {
+    "path": "Parts\\Collect\\Pickup_03.png",
+    "sha256": "911BA2B63CB6D17DD646C8D13BC6CBF33D9B05CB7DF6D6097EF074519316E883",
+    "bytes": 192
+  },
+  {
+    "path": "Parts\\Collect\\Pickup_04.png",
+    "sha256": "911BA2B63CB6D17DD646C8D13BC6CBF33D9B05CB7DF6D6097EF074519316E883",
+    "bytes": 192
+  },
+  {
+    "path": "Parts\\Collect\\Pickup_05.png",
+    "sha256": "911BA2B63CB6D17DD646C8D13BC6CBF33D9B05CB7DF6D6097EF074519316E883",
+    "bytes": 192
+  },
+  {
+    "path": "Parts\\Collect\\Pickup_06.png",
+    "sha256": "911BA2B63CB6D17DD646C8D13BC6CBF33D9B05CB7DF6D6097EF074519316E883",
+    "bytes": 192
+  },
+  {
+    "path": "Parts\\Collect\\Pickup_07.png",
+    "sha256": "911BA2B63CB6D17DD646C8D13BC6CBF33D9B05CB7DF6D6097EF074519316E883",
+    "bytes": 192
+  },
+  {
+    "path": "Parts\\Collect\\RearWheel_01.png",
+    "sha256": "55DCDCD94EF9E995D7E3FF1899FA28617759B1691531BF98FFE445E613877AF2",
+    "bytes": 492
+  },
+  {
+    "path": "Parts\\Collect\\RearWheel_02.png",
+    "sha256": "3D40655CB26E72E6B58FBFB34D453B75BA486488AE5211263E1BECAE4BEE7B35",
+    "bytes": 525
+  },
+  {
+    "path": "Parts\\Collect\\RearWheel_03.png",
+    "sha256": "D01F15485D02A80F6B2F651EB6F104873FB0E08B3BF4A72858817B18A878E6CE",
+    "bytes": 546
+  },
+  {
+    "path": "Parts\\Collect\\RearWheel_04.png",
+    "sha256": "07CA190666475C341C9EC012E0568CC7B65ECA0B99D7652635C4CDED0A0A2298",
+    "bytes": 542
+  },
+  {
+    "path": "Parts\\Collect\\RearWheel_05.png",
+    "sha256": "24859CCB2BBEF97C97B74E2A87571992DAE603976C8954E93B1ED0329EBD6CC2",
+    "bytes": 553
+  },
+  {
+    "path": "Parts\\Collect\\RearWheel_06.png",
+    "sha256": "487A63815971839E9FEF4097FCE01BAA5A562576ACBB6B7B14542CC90676F6A9",
+    "bytes": 525
+  },
+  {
+    "path": "Parts\\Collect\\RearWheel_07.png",
+    "sha256": "55DCDCD94EF9E995D7E3FF1899FA28617759B1691531BF98FFE445E613877AF2",
+    "bytes": 492
+  },
+  {
+    "path": "Parts\\Collect\\RearWheel_08.png",
+    "sha256": "3D40655CB26E72E6B58FBFB34D453B75BA486488AE5211263E1BECAE4BEE7B35",
+    "bytes": 525
+  },
+  {
+    "path": "Parts\\Collect\\Vehicle_01.png",
+    "sha256": "7134729493DA504D26D8C5F27C25367946B933D9B4BA96FAB742E43C2012E08E",
+    "bytes": 4123
+  },
+  {
+    "path": "Parts\\Collect\\Vehicle_02.png",
+    "sha256": "7134729493DA504D26D8C5F27C25367946B933D9B4BA96FAB742E43C2012E08E",
+    "bytes": 4123
+  },
+  {
+    "path": "Parts\\Collect\\Vehicle_03.png",
+    "sha256": "7134729493DA504D26D8C5F27C25367946B933D9B4BA96FAB742E43C2012E08E",
+    "bytes": 4123
+  },
+  {
+    "path": "Parts\\Collect\\Vehicle_04.png",
+    "sha256": "7134729493DA504D26D8C5F27C25367946B933D9B4BA96FAB742E43C2012E08E",
+    "bytes": 4123
+  },
+  {
+    "path": "Parts\\Collect\\Vehicle_05.png",
+    "sha256": "7134729493DA504D26D8C5F27C25367946B933D9B4BA96FAB742E43C2012E08E",
+    "bytes": 4123
+  },
+  {
+    "path": "Parts\\Collect\\Vehicle_06.png",
+    "sha256": "7134729493DA504D26D8C5F27C25367946B933D9B4BA96FAB742E43C2012E08E",
+    "bytes": 4123
+  },
+  {
+    "path": "Parts\\Collect\\Vehicle_07.png",
+    "sha256": "7134729493DA504D26D8C5F27C25367946B933D9B4BA96FAB742E43C2012E08E",
+    "bytes": 4123
+  },
+  {
+    "path": "Parts\\Collect\\Vehicle_08.png",
+    "sha256": "7134729493DA504D26D8C5F27C25367946B933D9B4BA96FAB742E43C2012E08E",
+    "bytes": 4123
+  },
+  {
+    "path": "Parts\\Idle\\BackArm_01.png",
+    "sha256": "693FCD47B9E7CBF34A42B53C021144C2D01115A91AEB901DF3E4B52C72B540DD",
+    "bytes": 597
+  },
+  {
+    "path": "Parts\\Idle\\BackArm_02.png",
+    "sha256": "C9F860B2CC1A4989AEF11A289FEFD911CC4AFEDD95E433275135217BC64EBF46",
+    "bytes": 592
+  },
+  {
+    "path": "Parts\\Idle\\BackArm_03.png",
+    "sha256": "C9F860B2CC1A4989AEF11A289FEFD911CC4AFEDD95E433275135217BC64EBF46",
+    "bytes": 592
+  },
+  {
+    "path": "Parts\\Idle\\BackArm_04.png",
+    "sha256": "F980973E8D46EA3D189AD67156A276A46EC00BCDB9BAD12542A8539BAED9F50B",
+    "bytes": 598
+  },
+  {
+    "path": "Parts\\Idle\\Body_01.png",
+    "sha256": "2E9AD915990B7ED74B6059C1344023980FB9F14DAFB7C99FA459CE96727F0BF3",
+    "bytes": 3151
+  },
+  {
+    "path": "Parts\\Idle\\Body_02.png",
+    "sha256": "34AA8CF04AC51E9673B64CC90670F04BDB9400A9ABF6BD58206C683053E5B90C",
+    "bytes": 3096
+  },
+  {
+    "path": "Parts\\Idle\\Body_03.png",
+    "sha256": "6EEF5DB3BA9B3E857E3C1CCEDB93E02AFDA75C5F008D03D289BFAE3C748FE093",
+    "bytes": 3050
+  },
+  {
+    "path": "Parts\\Idle\\Body_04.png",
+    "sha256": "7D29BEF100028248174043803DD0B23A4F0C1E269206A8C1028B6B5E921035D4",
+    "bytes": 3192
+  },
+  {
+    "path": "Parts\\Idle\\FrontArm_01.png",
+    "sha256": "59FF8912371D34D523ABD82393D83757CB61BE2585BE0E4900CF9D3FBB933292",
+    "bytes": 782
+  },
+  {
+    "path": "Parts\\Idle\\FrontArm_02.png",
+    "sha256": "05B660C48D16DC82ACE650C8D5F8B8DD957FCEB6638722711984FD97936D7859",
+    "bytes": 784
+  },
+  {
+    "path": "Parts\\Idle\\FrontArm_03.png",
+    "sha256": "176180366C91214B952DE86E459C2AC7087EFA5C67BF45835E003EF62D4E7D3B",
+    "bytes": 732
+  },
+  {
+    "path": "Parts\\Idle\\FrontArm_04.png",
+    "sha256": "18A4BBDF6ACCFB33FD7B6D9FEE6C4F46F1166CA2403FB8637A16F84E38E5E3D3",
+    "bytes": 845
+  },
+  {
+    "path": "Parts\\Idle\\FrontWheel_01.png",
+    "sha256": "55DCDCD94EF9E995D7E3FF1899FA28617759B1691531BF98FFE445E613877AF2",
+    "bytes": 492
+  },
+  {
+    "path": "Parts\\Idle\\FrontWheel_02.png",
+    "sha256": "55DCDCD94EF9E995D7E3FF1899FA28617759B1691531BF98FFE445E613877AF2",
+    "bytes": 492
+  },
+  {
+    "path": "Parts\\Idle\\FrontWheel_03.png",
+    "sha256": "55DCDCD94EF9E995D7E3FF1899FA28617759B1691531BF98FFE445E613877AF2",
+    "bytes": 492
+  },
+  {
+    "path": "Parts\\Idle\\FrontWheel_04.png",
+    "sha256": "55DCDCD94EF9E995D7E3FF1899FA28617759B1691531BF98FFE445E613877AF2",
+    "bytes": 492
+  },
+  {
+    "path": "Parts\\Idle\\RearWheel_01.png",
+    "sha256": "55DCDCD94EF9E995D7E3FF1899FA28617759B1691531BF98FFE445E613877AF2",
+    "bytes": 492
+  },
+  {
+    "path": "Parts\\Idle\\RearWheel_02.png",
+    "sha256": "55DCDCD94EF9E995D7E3FF1899FA28617759B1691531BF98FFE445E613877AF2",
+    "bytes": 492
+  },
+  {
+    "path": "Parts\\Idle\\RearWheel_03.png",
+    "sha256": "55DCDCD94EF9E995D7E3FF1899FA28617759B1691531BF98FFE445E613877AF2",
+    "bytes": 492
+  },
+  {
+    "path": "Parts\\Idle\\RearWheel_04.png",
+    "sha256": "55DCDCD94EF9E995D7E3FF1899FA28617759B1691531BF98FFE445E613877AF2",
+    "bytes": 492
+  },
+  {
+    "path": "Parts\\Idle\\Vehicle_01.png",
+    "sha256": "7134729493DA504D26D8C5F27C25367946B933D9B4BA96FAB742E43C2012E08E",
+    "bytes": 4123
+  },
+  {
+    "path": "Parts\\Idle\\Vehicle_02.png",
+    "sha256": "7134729493DA504D26D8C5F27C25367946B933D9B4BA96FAB742E43C2012E08E",
+    "bytes": 4123
+  },
+  {
+    "path": "Parts\\Idle\\Vehicle_03.png",
+    "sha256": "7134729493DA504D26D8C5F27C25367946B933D9B4BA96FAB742E43C2012E08E",
+    "bytes": 4123
+  },
+  {
+    "path": "Parts\\Idle\\Vehicle_04.png",
+    "sha256": "7134729493DA504D26D8C5F27C25367946B933D9B4BA96FAB742E43C2012E08E",
+    "bytes": 4123
+  },
+  {
+    "path": "Parts\\Native\\motorcycle_backarm.aseprite",
+    "sha256": "D9DD91C54AF6D9EE4067F23E094D8612654D274DAD11A5B79D7E0671918FFCA9",
+    "bytes": 7960
+  },
+  {
+    "path": "Parts\\Native\\motorcycle_body.aseprite",
+    "sha256": "3E2FD642EFB3620A730E5D3942514038C8C74DE5C5F4072D35AB36D21445401D",
+    "bytes": 28000
+  },
+  {
+    "path": "Parts\\Native\\motorcycle_frontarm.aseprite",
+    "sha256": "CD591F4485B32F1909F38CBD8BD9EAB6D19CDEAC74C28B0ED842B4B731E2BA51",
+    "bytes": 9859
+  },
+  {
+    "path": "Parts\\Native\\motorcycle_frontwheel.aseprite",
+    "sha256": "910AD9F0B946145D021E6A9BE400B0BBC8807F0D3C531B5AAD001D775A2431CD",
+    "bytes": 7512
+  },
+  {
+    "path": "Parts\\Native\\motorcycle_motionfx.aseprite",
+    "sha256": "E3F71575459FC8159C5F9081546047D727B72385C8D0D4DACB2936AED3F6AE3D",
+    "bytes": 3102
+  },
+  {
+    "path": "Parts\\Native\\motorcycle_pickup.aseprite",
+    "sha256": "CD76E08CB464CF5723DBA1688BD611126D62D59CE4CC05FEE176D6664BF29E36",
+    "bytes": 3277
+  },
+  {
+    "path": "Parts\\Native\\motorcycle_rearwheel.aseprite",
+    "sha256": "445686EEB46769549828AE373C46DDC074A21D3A4B476E39F328165C7A00C425",
+    "bytes": 7529
+  },
+  {
+    "path": "Parts\\Native\\motorcycle_vehicle.aseprite",
+    "sha256": "C168FA45F0BE267F1CD413500DEA28507D2132090DBAA2B8CE58D59C43753853",
+    "bytes": 38785
+  },
+  {
+    "path": "Parts\\Ride\\BackArm_01.png",
+    "sha256": "B9C9DBBA4FFAAC238D5B0FB11FFBBB66929793F5977EAC2181BF44444A6C5F03",
+    "bytes": 546
+  },
+  {
+    "path": "Parts\\Ride\\BackArm_02.png",
+    "sha256": "3D0CA46F238321D856FE33BB9407F1132923E1ECD86014FB93F7EC262926B79B",
+    "bytes": 560
+  },
+  {
+    "path": "Parts\\Ride\\BackArm_03.png",
+    "sha256": "5F7091782EA05EC03FCBBCB9C65ECBC25A025212701AF06BD9BC24A14F86C700",
+    "bytes": 535
+  },
+  {
+    "path": "Parts\\Ride\\BackArm_04.png",
+    "sha256": "3F331D00CD0EE7E533491BADC6DCD9B4B074858C3542B6673BA4E0CAED3809EC",
+    "bytes": 494
+  },
+  {
+    "path": "Parts\\Ride\\BackArm_05.png",
+    "sha256": "3F331D00CD0EE7E533491BADC6DCD9B4B074858C3542B6673BA4E0CAED3809EC",
+    "bytes": 494
+  },
+  {
+    "path": "Parts\\Ride\\BackArm_06.png",
+    "sha256": "EB7D11CEFC769698211333074D4B82F0ADBF451B2DC2F1DACC4B86197EBA0151",
+    "bytes": 528
+  },
+  {
+    "path": "Parts\\Ride\\Body_01.png",
+    "sha256": "1177639E01A8607C537196F87386439064563A02E466024DF86A32AD16D2C218",
+    "bytes": 2951
+  },
+  {
+    "path": "Parts\\Ride\\Body_02.png",
+    "sha256": "DCD5F8BF9911FC71694626642A1B99F41BCE62D1488AFBFFD85B61D5113CD8CF",
+    "bytes": 2831
+  },
+  {
+    "path": "Parts\\Ride\\Body_03.png",
+    "sha256": "C9B15D2D54F872BC8BBC42E8D591FB5A4FFD75F0690643837FB7DAA3242827BA",
+    "bytes": 3084
+  },
+  {
+    "path": "Parts\\Ride\\Body_04.png",
+    "sha256": "4C94ECF67B29636AE08FFAD6AC5779D36B18FDE2372C6960736F1B3194B70268",
+    "bytes": 2958
+  },
+  {
+    "path": "Parts\\Ride\\Body_05.png",
+    "sha256": "E32E8421F4705DEB79CAD513FE518CC9D1A38AACF0886F047FEB1CED80F02316",
+    "bytes": 2930
+  },
+  {
+    "path": "Parts\\Ride\\Body_06.png",
+    "sha256": "230B040020B26FDAAEC209A709E50609941AA4CCE37A0A7710B2CF4D9305D624",
+    "bytes": 2882
+  },
+  {
+    "path": "Parts\\Ride\\FrontArm_01.png",
+    "sha256": "E2C47881C0C5DADAD1389AD9D1AAD30E314AD65064E5D0A61BA69922158F1988",
+    "bytes": 643
+  },
+  {
+    "path": "Parts\\Ride\\FrontArm_02.png",
+    "sha256": "AFB6638F391544E2328CE78D2C1B12C6B7E7EFF220A49758B943D9AD0CF75D46",
+    "bytes": 686
+  },
+  {
+    "path": "Parts\\Ride\\FrontArm_03.png",
+    "sha256": "76D436F5DA32497A8E32285430ACBEA3D32BB7F77FF9AAABAF490408DB48B57C",
+    "bytes": 648
+  },
+  {
+    "path": "Parts\\Ride\\FrontArm_04.png",
+    "sha256": "ADCC6BFE3F5474EA0A152286F17D31E61CA0A1094CB0E4A82EB4FF82A2ED99D9",
+    "bytes": 616
+  },
+  {
+    "path": "Parts\\Ride\\FrontArm_05.png",
+    "sha256": "62AC67CFE7E217495C2AFA91F979EE0DFAC6838949835A5F722B948672B1FDB3",
+    "bytes": 636
+  },
+  {
+    "path": "Parts\\Ride\\FrontArm_06.png",
+    "sha256": "231FEE873109735E450648CECEF58A6D8DCC37354F7BDD1CD206271A1DFDDCD8",
+    "bytes": 534
+  },
+  {
+    "path": "Parts\\Ride\\FrontWheel_01.png",
+    "sha256": "55DCDCD94EF9E995D7E3FF1899FA28617759B1691531BF98FFE445E613877AF2",
+    "bytes": 492
+  },
+  {
+    "path": "Parts\\Ride\\FrontWheel_02.png",
+    "sha256": "3D40655CB26E72E6B58FBFB34D453B75BA486488AE5211263E1BECAE4BEE7B35",
+    "bytes": 525
+  },
+  {
+    "path": "Parts\\Ride\\FrontWheel_03.png",
+    "sha256": "D01F15485D02A80F6B2F651EB6F104873FB0E08B3BF4A72858817B18A878E6CE",
+    "bytes": 546
+  },
+  {
+    "path": "Parts\\Ride\\FrontWheel_04.png",
+    "sha256": "07CA190666475C341C9EC012E0568CC7B65ECA0B99D7652635C4CDED0A0A2298",
+    "bytes": 542
+  },
+  {
+    "path": "Parts\\Ride\\FrontWheel_05.png",
+    "sha256": "24859CCB2BBEF97C97B74E2A87571992DAE603976C8954E93B1ED0329EBD6CC2",
+    "bytes": 553
+  },
+  {
+    "path": "Parts\\Ride\\FrontWheel_06.png",
+    "sha256": "487A63815971839E9FEF4097FCE01BAA5A562576ACBB6B7B14542CC90676F6A9",
+    "bytes": 525
+  },
+  {
+    "path": "Parts\\Ride\\MotionFX_01.png",
+    "sha256": "3F820FB450081D5FDD5613F01E6AD0715365BCD308B661F6F4F0163B8C3F4E12",
+    "bytes": 136
+  },
+  {
+    "path": "Parts\\Ride\\MotionFX_02.png",
+    "sha256": "3F820FB450081D5FDD5613F01E6AD0715365BCD308B661F6F4F0163B8C3F4E12",
+    "bytes": 136
+  },
+  {
+    "path": "Parts\\Ride\\MotionFX_03.png",
+    "sha256": "AB2F0902DA309164663C5DA0FCC64D07C16C05C4299C122B77D31E1CA8BEFAC2",
+    "bytes": 134
+  },
+  {
+    "path": "Parts\\Ride\\MotionFX_04.png",
+    "sha256": "AB2F0902DA309164663C5DA0FCC64D07C16C05C4299C122B77D31E1CA8BEFAC2",
+    "bytes": 134
+  },
+  {
+    "path": "Parts\\Ride\\MotionFX_05.png",
+    "sha256": "AB2F0902DA309164663C5DA0FCC64D07C16C05C4299C122B77D31E1CA8BEFAC2",
+    "bytes": 134
+  },
+  {
+    "path": "Parts\\Ride\\MotionFX_06.png",
+    "sha256": "233F9BAFCBB3D080A515A18C61C63DA5B42677F3707D27587789D716762A40F8",
+    "bytes": 135
+  },
+  {
+    "path": "Parts\\Ride\\RearWheel_01.png",
+    "sha256": "55DCDCD94EF9E995D7E3FF1899FA28617759B1691531BF98FFE445E613877AF2",
+    "bytes": 492
+  },
+  {
+    "path": "Parts\\Ride\\RearWheel_02.png",
+    "sha256": "3D40655CB26E72E6B58FBFB34D453B75BA486488AE5211263E1BECAE4BEE7B35",
+    "bytes": 525
+  },
+  {
+    "path": "Parts\\Ride\\RearWheel_03.png",
+    "sha256": "D01F15485D02A80F6B2F651EB6F104873FB0E08B3BF4A72858817B18A878E6CE",
+    "bytes": 546
+  },
+  {
+    "path": "Parts\\Ride\\RearWheel_04.png",
+    "sha256": "07CA190666475C341C9EC012E0568CC7B65ECA0B99D7652635C4CDED0A0A2298",
+    "bytes": 542
+  },
+  {
+    "path": "Parts\\Ride\\RearWheel_05.png",
+    "sha256": "24859CCB2BBEF97C97B74E2A87571992DAE603976C8954E93B1ED0329EBD6CC2",
+    "bytes": 553
+  },
+  {
+    "path": "Parts\\Ride\\RearWheel_06.png",
+    "sha256": "487A63815971839E9FEF4097FCE01BAA5A562576ACBB6B7B14542CC90676F6A9",
+    "bytes": 525
+  },
+  {
+    "path": "Parts\\Ride\\Vehicle_01.png",
+    "sha256": "7134729493DA504D26D8C5F27C25367946B933D9B4BA96FAB742E43C2012E08E",
+    "bytes": 4123
+  },
+  {
+    "path": "Parts\\Ride\\Vehicle_02.png",
+    "sha256": "7134729493DA504D26D8C5F27C25367946B933D9B4BA96FAB742E43C2012E08E",
+    "bytes": 4123
+  },
+  {
+    "path": "Parts\\Ride\\Vehicle_03.png",
+    "sha256": "7134729493DA504D26D8C5F27C25367946B933D9B4BA96FAB742E43C2012E08E",
+    "bytes": 4123
+  },
+  {
+    "path": "Parts\\Ride\\Vehicle_04.png",
+    "sha256": "7134729493DA504D26D8C5F27C25367946B933D9B4BA96FAB742E43C2012E08E",
+    "bytes": 4123
+  },
+  {
+    "path": "Parts\\Ride\\Vehicle_05.png",
+    "sha256": "7134729493DA504D26D8C5F27C25367946B933D9B4BA96FAB742E43C2012E08E",
+    "bytes": 4123
+  },
+  {
+    "path": "Parts\\Ride\\Vehicle_06.png",
+    "sha256": "7134729493DA504D26D8C5F27C25367946B933D9B4BA96FAB742E43C2012E08E",
+    "bytes": 4123
+  },
+  {
+    "path": "Previews\\all_poses_2x.png",
+    "sha256": "BE78ED393869EA016A1D5D7042B92B8C538D4A655F46869C5652426E2CA0CAB2",
+    "bytes": 79914
+  },
+  {
+    "path": "Previews\\all_poses_native.png",
+    "sha256": "00057BAC7073DEB962B286BF2F65A1441BAE1850D38C6C34B90D2FC008AFF7CF",
+    "bytes": 63935
+  },
+  {
+    "path": "Previews\\Collect_3x.gif",
+    "sha256": "DE87A599A692B18DFCDEE9B479192EDD104B91622627B3CB0534D312229D5EC4",
+    "bytes": 49565
+  },
+  {
+    "path": "Previews\\Collect_strip_2x.png",
+    "sha256": "B606B83B257689EF704E363616C0DD734EC184D3B7DAC7C07FAD418102592F03",
+    "bytes": 32274
+  },
+  {
+    "path": "Previews\\drive_by_pickup_3x.gif",
+    "sha256": "A4829E52E9E0A839C693446452C50362C1114F672FA045AEC97428724ED40C94",
+    "bytes": 136267
+  },
+  {
+    "path": "Previews\\drive_by_pickup_strip_2x.png",
+    "sha256": "F3048441E3054F3980349B9722FEF80A2E8C9397DE5D5F804347FDBA4EE8DF51",
+    "bytes": 87150
+  },
+  {
+    "path": "Previews\\drive_by_pickup_world_2x.gif",
+    "sha256": "4DFF72DB6637900DE42ACA600DE47D51205A2C96DE868F05D2183693795E7F29",
+    "bytes": 100143
+  },
+  {
+    "path": "Previews\\Idle_3x.gif",
+    "sha256": "5B784B0AB976319717292D02D1CD6E5548F7A024F1EA7186F97A1345034F0BA1",
+    "bytes": 24625
+  },
+  {
+    "path": "Previews\\Idle_strip_2x.png",
+    "sha256": "B8CD9E88257926979C6A169C007D6F332CF725CB138DAFD6A656C79E08A44CA0",
+    "bytes": 18769
+  },
+  {
+    "path": "Previews\\light_dark_3x.png",
+    "sha256": "DFC818B260F85CA540C71D8A624F3DC1EFB6FBBF559DAD4440336AAC1240C534",
+    "bytes": 13370
+  },
+  {
+    "path": "Previews\\motorcycle_idle_4x.png",
+    "sha256": "FA32675D3667B4D3284CA40ECCB8AEFB980AF46884BE90527AF23789A55E0783",
+    "bytes": 11282
+  },
+  {
+    "path": "Previews\\Ride_3x.gif",
+    "sha256": "E6DAB64B36B6CFD620E07084A2BF87908DB1C4DDAB18BE39B0F2774CE12C9562",
+    "bytes": 37199
+  },
+  {
+    "path": "Previews\\Ride_strip_2x.png",
+    "sha256": "C0E096A08F93F435422BEE6A89897D02656815CF345FAB70C1E830691A4FEA20",
+    "bytes": 25317
+  },
+  {
+    "path": "Previews\\rider_samples_2x.png",
+    "sha256": "760AE2181FED88A121860D580BD0BA411326F642DBC94123B564DA50C9812694",
+    "bytes": 58874
+  },
+  {
+    "path": "Previews\\rider_samples_native.png",
+    "sha256": "CD1872C42597C27AAA7C0AFB719C844816B70E3C8072FF0902BAF429221174A8",
+    "bytes": 46594
+  },
+  {
+    "path": "Previews\\three_actions_3x.png",
+    "sha256": "8D4242ABE194BCBDD729BE4DDB341FAEDD63BFF47012067321435CB376E4598A",
+    "bytes": 19877
+  },
+  {
+    "path": "Scripts\\build_motorcycle.lua",
+    "sha256": "FD190040948343D937A51E8D61BE691A87696CBEB9EAE7F5F07B8D10D3215C1F",
+    "bytes": 11747
+  },
+  {
+    "path": "Scripts\\export_validate_motorcycle.lua",
+    "sha256": "403A38190B85F22109D4E4E7F8446FD91F56273D1CA2BC96AA5F8F0C274A70C3",
+    "bytes": 11712
+  },
+  {
+    "path": "Scripts\\sample_motorcycle.lua",
+    "sha256": "C324D4603E2E082CB50D9B96B04A96294095C7184814D48AECF26ED119AD7A8F",
+    "bytes": 7041
+  },
+  {
+    "path": "Source\\demo_metadata.json",
+    "sha256": "C427811A17C473291253DD9C0FF23389AB2CE21F41D0BDF889779058AA6B5DA8",
+    "bytes": 2958
+  },
+  {
+    "path": "Source\\generation_prompts.json",
+    "sha256": "90199E8E8A0010CE9E0E6145CDA8E38D9A1F39F71032D1C4E65E811B32FA4F3E",
+    "bytes": 16790
+  },
+  {
+    "path": "Source\\notion_02_snapshot.md",
+    "sha256": "CA35BB669F5B5B52B6E7CC52CD34F44DF99E5C5B57BA66C22AA47CFC82BEEFFB",
+    "bytes": 52401
+  },
+  {
+    "path": "Source\\pose_metadata.json",
+    "sha256": "7F2C03F024D29D952FBD54515F7A96D0454D4147F68D3D56EE322CDBB9AD3A60",
+    "bytes": 8851
+  },
+  {
+    "path": "Source\\sampling.json",
+    "sha256": "10D265552C414E322FF1B3C03F1E4454B190456D92B2DE4EF0AFE7ABA7665F3E",
+    "bytes": 7378
+  },
+  {
+    "path": "Source\\Base\\grandma_08_motorcycle.aseprite",
+    "sha256": "0F2A3011DA28A03EC074AAD78FCD487CD423A28897E76EE034AF7EA94932911C",
+    "bytes": 3493
+  },
+  {
+    "path": "Source\\Base\\grandma_08_motorcycle.png",
+    "sha256": "71D0F7DD593AA3ED45499CF978A5FE03886784F6493FF6AE3F64AC7AAE5D8631",
+    "bytes": 3011
+  },
+  {
+    "path": "Source\\Base\\grandma_08_wildrose_generated.png",
+    "sha256": "5E0C470A3CE013C4499654561BFC4DA33C99F0C372E9D23111758DF491C2B5F4",
+    "bytes": 1068926
+  },
+  {
+    "path": "Source\\Generated\\Collect_Body.png",
+    "sha256": "CA53037A58EEE4CF94AF2FF344036774F5ECA6041CF5441A1DD92E1DAD190D85",
+    "bytes": 1029827
+  },
+  {
+    "path": "Source\\Generated\\Collect_Rider.png",
+    "sha256": "18F63719C17FB8FA9529CD01D0298D820FC959F033EC9BCEC662056D11ADD6A9",
+    "bytes": 1042068
+  },
+  {
+    "path": "Source\\Generated\\Collect.png",
+    "sha256": "4611B76258CCA85F9B512054646374EA6461A5432D887C720398E73ECFE39392",
+    "bytes": 1790146
+  },
+  {
+    "path": "Source\\Generated\\Idle_Body.png",
+    "sha256": "22C5033B52C992216125CCB786EC7A7E2A9A2610ADE7C7015191907DBD55BE83",
+    "bytes": 785596
+  },
+  {
+    "path": "Source\\Generated\\Idle_Rider.png",
+    "sha256": "8B63C3E3F8CACB71494D2DA5B71AFD93CD206F6183C9B4A244B7883E4A3E3E72",
+    "bytes": 694649
+  },
+  {
+    "path": "Source\\Generated\\Idle.png",
+    "sha256": "37042662970C485C7C71B6359FF2C7AA4A63D9A50987D678804F12DD906A53A4",
+    "bytes": 1595372
+  },
+  {
+    "path": "Source\\Generated\\Ride_Body.png",
+    "sha256": "E2C97F60844297F277B97C66ED8B2CE39624CBB3DAF6A48E1B73EBF1C8B8142C",
+    "bytes": 1843153
+  },
+  {
+    "path": "Source\\Generated\\Ride_Rider.png",
+    "sha256": "C9A980F42725900F819C432E496D131B74D5D6CD430A1401430A215E6B1B2818",
+    "bytes": 1945015
+  },
+  {
+    "path": "Source\\Generated\\Ride.png",
+    "sha256": "14027C1B28BD0D8C485FE8D5E29DB8108FAC8E887D57D4075D675314C541D99E",
+    "bytes": 2335062
+  },
+  {
+    "path": "Source\\Generated\\Vehicle.png",
+    "sha256": "7B1C483D8FEF34F8F7C724F6B930659550212A8EE94BE6D3F318F012C90B3906",
+    "bytes": 1187109
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Body_01.png",
+    "sha256": "5E7ABBADA699EF5EE0A44BADE40FB776726C50C42F21C50C839BF0E1B22E40F6",
+    "bytes": 2915
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Body_02.png",
+    "sha256": "C94F0C3FA83484A9862F669D5FCBF5A71E99D4323F65DC6FC93C45385B9394BB",
+    "bytes": 2868
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Body_03.png",
+    "sha256": "C96FB39DF6E311DE4572D75DB4DF9C00FBE72455195A98C762A76199DFFEA495",
+    "bytes": 2702
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Body_04.png",
+    "sha256": "B62E1D30F8A07A410C096167D700FEB2C758E56368BC4F4246A5CC0F4F81A263",
+    "bytes": 2643
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Body_05.png",
+    "sha256": "89BC797A269B717A206070EF2722ADE63EAC9859BA05BF8A57DD602FF2AD28BE",
+    "bytes": 2985
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Body_06.png",
+    "sha256": "73CB883A7A24A82610593F42706F5583AB22F0A2BA6315B2F1B5A63B4E3BF302",
+    "bytes": 3110
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Body_07.png",
+    "sha256": "02C103382953FD9B987CB6FE4BB0A5AC50358DE684FCD1F5AEA918D0C2C9A80F",
+    "bytes": 3063
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Body_08.png",
+    "sha256": "EFE79CCB6493508BDC1B156E4C50DBCCFF2D0575D507A9072F10065679FE9FCC",
+    "bytes": 3096
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Rider_01.aseprite",
+    "sha256": "289E4D45A359149F658232B5A6F17285315A0112897BE040A5AD62B67DB1D9C2",
+    "bytes": 1943
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Rider_01.png",
+    "sha256": "C06D1A5D52DFE9631A54FFD640B89FBA25D009CC4381D50D80AF6CBB9167670C",
+    "bytes": 3167
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Rider_02.aseprite",
+    "sha256": "8ED10E426110DAD25F03777891157EA2C9FCE21B1FC366AD5E6A8493C40718D6",
+    "bytes": 2084
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Rider_02.png",
+    "sha256": "71C2727049095D11A9F55A2423DCAD77BFFB29C790B2C4AD1001E81A4D58D3FC",
+    "bytes": 3574
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Rider_03.aseprite",
+    "sha256": "9B3E810931AD976CD98A3586F58DE1FA9C6F571494E866DC1ACCD069524161F0",
+    "bytes": 1953
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Rider_03.png",
+    "sha256": "537353CE14BFA3B7D1D9C409D59BD751344CB06B2A54B556CB8BA18D5DCD5BD8",
+    "bytes": 3379
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Rider_04.aseprite",
+    "sha256": "4052BF733CE8DFA78005FA6362F214FDD6E3AB04D016C3F5FA375CC0F4F1AA44",
+    "bytes": 1922
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Rider_04.png",
+    "sha256": "1C5883750E28111AB49E6CB3C54376B09E3D0296DB66ABFA7F468C0DCA705474",
+    "bytes": 3161
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Rider_05.aseprite",
+    "sha256": "6421D214A539D265066E69990EEAC913467D5677B8BC9FDF976CB1FB478C6AEC",
+    "bytes": 1960
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Rider_05.png",
+    "sha256": "5B8F07FED1BC434AEE287C68F1555ED688BD6CD65A60DAAD5A2C07B605FDA8A2",
+    "bytes": 3214
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Rider_06.aseprite",
+    "sha256": "E0CD7E3A1E2003CAA534CA29161BAA896B50E7926FB30491E74716E6C727584A",
+    "bytes": 2090
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Rider_06.png",
+    "sha256": "A21110C9856ABC241ACBE8F46B754635117F1FD6EAA8E0CBE7BE2CA43020023E",
+    "bytes": 3691
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Rider_07.aseprite",
+    "sha256": "D229728E6B73AF6891AD566058E5199B63E0309C42CF541492BFD468CB4B2A87",
+    "bytes": 2053
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Rider_07.png",
+    "sha256": "9164EE68A888EE2960A8D4E22BB30F68CD41078588C25496BB2ED50FAD6DA8DE",
+    "bytes": 3563
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Rider_08.aseprite",
+    "sha256": "A5712DC4968118F87773D1D4B5BA9D1C5029CAC35EFFD286E74562C952A5588C",
+    "bytes": 2018
+  },
+  {
+    "path": "Source\\Sampled\\Collect\\Rider_08.png",
+    "sha256": "E984CD097180360288BFF0CE0F9B1CCFBD8776C975997818B330753967A1B507",
+    "bytes": 3373
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Body_01.png",
+    "sha256": "BFCAFC376553C0EDFFE78310EAFB6C8BD72C972B7A2CCF726FF0D5B6596E5CFB",
+    "bytes": 3439
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Body_02.png",
+    "sha256": "79DC3B21C34905C49B11FDDED0A09728E6CFAFD85697C9AD59B2F9CDFFF6417D",
+    "bytes": 3402
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Body_03.png",
+    "sha256": "87FA232AFB11EDE4EBBB1BFE25BC8904B275412769E489D31171ED9FF076D7ED",
+    "bytes": 3336
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Body_04.png",
+    "sha256": "FFCC6FCB391D832F89C7618FDADC657A9C79E83EC0021EAA6E2E421AA13043AA",
+    "bytes": 3504
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Rider_01.aseprite",
+    "sha256": "5615924EE8EB4A09C93DE140E79AF95171E6D21C5DA3EB92A5D1C938BEE428C5",
+    "bytes": 2133
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Rider_01.png",
+    "sha256": "AD9EA73F0E02E2923A402E63EDF8BDA77179A5C9352306520DFC2396CC9C8F6A",
+    "bytes": 3556
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Rider_02.aseprite",
+    "sha256": "986AE8F70106983BB6D809BAD3401C3EDA4CD54018AF3FA6213D04AC6D15A7A1",
+    "bytes": 2166
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Rider_02.png",
+    "sha256": "FB2F652642D70C45778A52D3267874DF17EDEEDF749CBCAF36AC00AAE76C7E00",
+    "bytes": 3643
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Rider_03.aseprite",
+    "sha256": "738966B2324CA3F335DC88AD0AEE3A648A92F3E9726EB240C6AAC107BEBC22BA",
+    "bytes": 2135
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Rider_03.png",
+    "sha256": "614FB73C20DEDDEB8A5C0C5B55F814C54E0DAF438C44729E05C032683776B7F5",
+    "bytes": 3698
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Rider_04.aseprite",
+    "sha256": "CDB744E78775D3B198866BCB52AD240B39C379A36EB26FDA14677358B35FB738",
+    "bytes": 2145
+  },
+  {
+    "path": "Source\\Sampled\\Idle\\Rider_04.png",
+    "sha256": "7AC62C5AFBC80518570FFACBD03A417F0B9894B3862781ECBA99EA31DF7E037D",
+    "bytes": 3786
+  },
+  {
+    "path": "Source\\Sampled\\Ride\\Body_01.png",
+    "sha256": "2CC8FE0CAA07BD821D2697C8106AC717049E7C6F49DA70ABDB1878229F05F51E",
+    "bytes": 3212
+  },
+  {
+    "path": "Source\\Sampled\\Ride\\Body_02.png",
+    "sha256": "DF1025A2631FE2A43E186AC3A7290865DA9C1B809622512A6ED2BBC0232F17BF",
+    "bytes": 3097
+  },
+  {
+    "path": "Source\\Sampled\\Ride\\Body_03.png",
+    "sha256": "44E53473239A4D930417FA6C604C0D9F9BB3DA8F50082374640798B0204C7D9E",
+    "bytes": 3345
+  },
+  {
+    "path": "Source\\Sampled\\Ride\\Body_04.png",
+    "sha256": "5EE65738EF65D16B7DDA58D5A56C7D09332469945F24787D312C0B35ACC325EB",
+    "bytes": 3237
+  },
+  {
+    "path": "Source\\Sampled\\Ride\\Body_05.png",
+    "sha256": "5B77C06DBE5D725D85E89C2136169EE4EA11B4B95AE51CAE97ADFB5321D25446",
+    "bytes": 3139
+  },
+  {
+    "path": "Source\\Sampled\\Ride\\Body_06.png",
+    "sha256": "A65A69C6A18DE42418B14F0E9EDC30B2204D1DEC7E2418FBFEF2B9B1E1851D8A",
+    "bytes": 3156
+  },
+  {
+    "path": "Source\\Sampled\\Ride\\Rider_01.aseprite",
+    "sha256": "96A5BE61619FD20F46FE924F23DC517E68F8F78F8B697F80310F1205C157E4E2",
+    "bytes": 2074
+  },
+  {
+    "path": "Source\\Sampled\\Ride\\Rider_01.png",
+    "sha256": "A4733CC93A1294C15889DD5C3B15829C614BA02D904F648BD5BA0CE2075A6D7C",
+    "bytes": 3558
+  },
+  {
+    "path": "Source\\Sampled\\Ride\\Rider_02.aseprite",
+    "sha256": "48C1821094C022A43B10E8FA08AB99E3FA07F11DF589809F71144D294E68D345",
+    "bytes": 2077
+  },
+  {
+    "path": "Source\\Sampled\\Ride\\Rider_02.png",
+    "sha256": "2437534CBCB0B2933F81261F13883A36D68E17DB58FB88C69234FE6E21688BF2",
+    "bytes": 3490
+  },
+  {
+    "path": "Source\\Sampled\\Ride\\Rider_03.aseprite",
+    "sha256": "50AC7249713EE5EE95FB2069588C90C8374DF761180CF6C9AA8DA5F73DBEC018",
+    "bytes": 2113
+  },
+  {
+    "path": "Source\\Sampled\\Ride\\Rider_03.png",
+    "sha256": "A18A00747D4F2B09C559E47CB49CB0ABB53DF114D7A6712AABCB4F74689EB107",
+    "bytes": 3684
+  },
+  {
+    "path": "Source\\Sampled\\Ride\\Rider_04.aseprite",
+    "sha256": "B454277D2663454AE3D61181BDDE94D8D1A2DC660B048DD6E4D40CE6D9E16926",
+    "bytes": 2146
+  },
+  {
+    "path": "Source\\Sampled\\Ride\\Rider_04.png",
+    "sha256": "8172ACA6A42ABABC5BE960D6ED2FACED17DF957C7146DA42012C201C972235D0",
+    "bytes": 3609
+  },
+  {
+    "path": "Source\\Sampled\\Ride\\Rider_05.aseprite",
+    "sha256": "5C207A572F529CD6F0DF7F92BEC042B154D509A4805C1890E74C963F473485A7",
+    "bytes": 2122
+  },
+  {
+    "path": "Source\\Sampled\\Ride\\Rider_05.png",
+    "sha256": "FA34B6F8BEC0FE30BD33AEFC265738B0AD7A429A94EF3C16B158DC5E57C669B2",
+    "bytes": 3487
+  },
+  {
+    "path": "Source\\Sampled\\Ride\\Rider_06.aseprite",
+    "sha256": "430DBD7EE853889D75D00079D1DD8BE3AD150E0D1D1A80DAADD6B32B4BFC45ED",
+    "bytes": 2079
+  },
+  {
+    "path": "Source\\Sampled\\Ride\\Rider_06.png",
+    "sha256": "73B2F01C3DBAABC3D7F920E1FCCA28358D8113146F4CBDEC287B1222CAB30958",
+    "bytes": 3496
+  },
+  {
+    "path": "UI\\motorcycle_portrait_locked.aseprite",
+    "sha256": "0FED86CE786B8BAFAF8B31F5D44AC5D6B37B74A04C9822569CF7FFDFA3184DC7",
+    "bytes": 843
+  },
+  {
+    "path": "UI\\motorcycle_portrait_locked.png",
+    "sha256": "269026816BDFC6035DD93F634DA36BF1936B609B8B31C212E71AED385D21F0E5",
+    "bytes": 528
+  },
+  {
+    "path": "UI\\motorcycle_portrait.aseprite",
+    "sha256": "B2C3B5DF5EC296DBFB1AFE796748DDB7F418EB9906859385FD214382FFADB7E6",
+    "bytes": 1621
+  },
+  {
+    "path": "UI\\motorcycle_portrait.png",
+    "sha256": "A82438282B66DFEB651031B26437E4A2C70ADD7348D749C281B31DB0DE835C8B",
+    "bytes": 2336
+  },
+  {
+    "path": "Vehicle\\motorcycle_raw.png",
+    "sha256": "06032C465E4B56C2D6499D1921873548B03CE24B1F7AE97F15A97CBCE5BECDD0",
+    "bytes": 4735
+  },
+  {
+    "path": "Vehicle\\motorcycle.aseprite",
+    "sha256": "0BA29B610574BA8CEEACDB319CC4E5EC1C0162084E47BA8F8A682FCB1948EB70",
+    "bytes": 3254
+  },
+  {
+    "path": "Vehicle\\motorcycle.png",
+    "sha256": "B3595AFA9FB7675245BDCF876E9485CE1057BFDFAFC4AFB77567656C66CDCEA6",
+    "bytes": 4550
+  },
+  {
+    "path": "../grandma_05_motorcycle_120.aseprite",
+    "sha256": "17EC55D60C9E8AF0832A3DD85BF8F5EE04D541C846DA065FE3D205FA1A934169",
+    "bytes": 100732
+  }
+]

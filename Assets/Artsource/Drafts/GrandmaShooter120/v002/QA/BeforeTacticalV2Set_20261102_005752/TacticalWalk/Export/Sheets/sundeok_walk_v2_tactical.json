@@ -1,0 +1,74 @@
+{
+  "canvas": [
+    120,
+    120
+  ],
+  "root_pivot": [
+    60,
+    118
+  ],
+  "action": "walk_v2_tactical",
+  "loop": true,
+  "frames": [
+    {
+      "duration_ms": 140,
+      "frame": 1,
+      "rect_xywh": [
+        0,
+        0,
+        120,
+        120
+      ]
+    },
+    {
+      "duration_ms": 140,
+      "frame": 2,
+      "rect_xywh": [
+        120,
+        0,
+        120,
+        120
+      ]
+    },
+    {
+      "duration_ms": 140,
+      "frame": 3,
+      "rect_xywh": [
+        240,
+        0,
+        120,
+        120
+      ]
+    },
+    {
+      "duration_ms": 140,
+      "frame": 4,
+      "rect_xywh": [
+        360,
+        0,
+        120,
+        120
+      ]
+    },
+    {
+      "duration_ms": 140,
+      "frame": 5,
+      "rect_xywh": [
+        480,
+        0,
+        120,
+        120
+      ]
+    },
+    {
+      "duration_ms": 140,
+      "frame": 6,
+      "rect_xywh": [
+        600,
+        0,
+        120,
+        120
+      ]
+    }
+  ]
+}

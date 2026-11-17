@@ -1,0 +1,1 @@
+PASS: installed33 frames/7 exact tags; original27 frames unchanged; new6 poses26-color/binary alpha, independent shotgun and24 saved/reopened layer states; 7 libraries231 slots.

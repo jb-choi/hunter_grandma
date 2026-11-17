@@ -1,0 +1,101 @@
+{
+  "actions": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Attack",
+    "Dead"
+  ],
+  "version": "v002",
+  "root_pivot_left": [
+    68,
+    118
+  ],
+  "cropped_part_png_slots": 188,
+  "animation_poses": 84,
+  "root_pivot_right": [
+    52,
+    118
+  ],
+  "notion_section": "2.3 슬라임 좀비·구조 대상 120px 캐릭터 디자인",
+  "characters": [
+    {
+      "body_without_slime": null,
+      "master": "zombie_01_normal_120.aseprite",
+      "previews_folder": "z01_normal/Previews",
+      "sheets_folder": "z01_normal/Export/Sheets",
+      "id": "z01_normal",
+      "frames": 28,
+      "name": "좀비1_일반좀비",
+      "clips": 5,
+      "ending": "dissolved_slime_puddle",
+      "role": "hunt",
+      "clips_folder": "z01_normal/Clips",
+      "parts_metadata": "z01_normal/Export/parts.json",
+      "pose_metadata": "z01_normal/pose_metadata.json",
+      "rgb_union": 26,
+      "folder": "z01_normal"
+    },
+    {
+      "body_without_slime": null,
+      "master": "zombie_02_large_120.aseprite",
+      "previews_folder": "z02_large/Previews",
+      "sheets_folder": "z02_large/Export/Sheets",
+      "id": "z02_large",
+      "frames": 28,
+      "name": "좀비2_큰좀비",
+      "clips": 5,
+      "ending": "dissolved_slime_puddle",
+      "role": "hunt",
+      "clips_folder": "z02_large/Clips",
+      "parts_metadata": "z02_large/Export/parts.json",
+      "pose_metadata": "z02_large/pose_metadata.json",
+      "rgb_union": 25,
+      "folder": "z02_large"
+    },
+    {
+      "body_without_slime": "z03_human/human_without_slime_120.aseprite",
+      "master": "zombie_03_rescue_human_120.aseprite",
+      "previews_folder": "z03_human/Previews",
+      "sheets_folder": "z03_human/Export/Sheets",
+      "id": "z03_human",
+      "frames": 28,
+      "name": "슬라임을 뒤집어쓴 일반 사람",
+      "clips": 5,
+      "ending": "human_alive_kneeling_rescue_wait",
+      "role": "rescue",
+      "clips_folder": "z03_human/Clips",
+      "parts_metadata": "z03_human/Export/parts.json",
+      "pose_metadata": "z03_human/pose_metadata.json",
+      "rgb_union": 26,
+      "folder": "z03_human"
+    }
+  ],
+  "gifs": 31,
+  "date": "2026-10-30",
+  "max_opaque_rgb_per_character": 26,
+  "gif_qa": "QA/gif_validation.json",
+  "unity_runtime_connected": false,
+  "material_form": "slime material, human zombie anatomy",
+  "native_library_frame_slots": 252,
+  "native_action_clips": 15,
+  "native_libraries": 9,
+  "source_generation": {
+    "method": "Built-in ImageGen, then Aseprite native nearest sampling, palette limiting, registration and material/body separation",
+    "calls": 22,
+    "superseded": 2,
+    "prompts": "Source/generation_prompts.json",
+    "final_sheets": 20
+  },
+  "qa": "QA/validation.json",
+  "notion_page": "https://app.notion.com/p/4047313398e0818db924d95c5c455419",
+  "native_master_count": 3,
+  "canvas": [
+    120,
+    120
+  ],
+  "alpha": [
+    0,
+    255
+  ]
+}

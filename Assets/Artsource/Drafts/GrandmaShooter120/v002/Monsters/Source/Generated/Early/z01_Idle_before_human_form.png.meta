@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: 80680eb7d8e09514da455add4f7ba5ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9213079776653086601
+    second: z01_Idle_before_human_form_0
+  - first:
+      213: -3336839799287456766
+    second: z01_Idle_before_human_form_1
+  - first:
+      213: 1204972728366865962
+    second: z01_Idle_before_human_form_2
+  - first:
+      213: 1693383663532873476
+    second: z01_Idle_before_human_form_3
+  - first:
+      213: 7620804667793045175
+    second: z01_Idle_before_human_form_4
+  - first:
+      213: 1671123852863621052
+    second: z01_Idle_before_human_form_5
+  - first:
+      213: 2352609500136490416
+    second: z01_Idle_before_human_form_6
+  - first:
+      213: -6989643862782961775
+    second: z01_Idle_before_human_form_7
+  - first:
+      213: -2920723752011548879
+    second: z01_Idle_before_human_form_8
+  - first:
+      213: 5223751400771269849
+    second: z01_Idle_before_human_form_9
+  - first:
+      213: 7556819587821793881
+    second: z01_Idle_before_human_form_10
+  - first:
+      213: -5983801850490243251
+    second: z01_Idle_before_human_form_11
+  - first:
+      213: 8728881777102740949
+    second: z01_Idle_before_human_form_12
+  - first:
+      213: -7880989545441969999
+    second: z01_Idle_before_human_form_13
+  - first:
+      213: -6814263360886226398
+    second: z01_Idle_before_human_form_14
+  - first:
+      213: -6917547205582667869
+    second: z01_Idle_before_human_form_15
+  - first:
+      213: 7995282404520275630
+    second: z01_Idle_before_human_form_16
+  - first:
+      213: 6349853417816410108
+    second: z01_Idle_before_human_form_17
+  - first:
+      213: 3531626466785763312
+    second: z01_Idle_before_human_form_18
+  - first:
+      213: -1972312937110091131
+    second: z01_Idle_before_human_form_19
+  - first:
+      213: -8862908802133510407
+    second: z01_Idle_before_human_form_20
+  - first:
+      213: -988881952863937115
+    second: z01_Idle_before_human_form_21
+  - first:
+      213: -3153992818419665596
+    second: z01_Idle_before_human_form_22
+  - first:
+      213: 4353244961563366667
+    second: z01_Idle_before_human_form_23
+  - first:
+      213: -9077979000297778754
+    second: z01_Idle_before_human_form_24
+  - first:
+      213: -7555082866491669707
+    second: z01_Idle_before_human_form_25
+  - first:
+      213: -2209569658545411810
+    second: z01_Idle_before_human_form_26
+  - first:
+      213: -5976833260942232677
+    second: z01_Idle_before_human_form_27
+  - first:
+      213: 1313029497053439103
+    second: z01_Idle_before_human_form_28
+  - first:
+      213: -3749557823980280140
+    second: z01_Idle_before_human_form_29
+  - first:
+      213: -3586584868803568128
+    second: z01_Idle_before_human_form_30
+  - first:
+      213: 3820567131224335695
+    second: z01_Idle_before_human_form_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 387
+        width: 598
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770f14191c0942080800000000000000
+      internalID: -9213079776653086601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1173
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20cd513c1e921b1d0800000000000000
+      internalID: -3336839799287456766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_2
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 556
+        width: 632
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e175eef4ce8b010800000000000000
+      internalID: 1204972728366865962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_3
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1124
+        width: 156
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4079355587b108710800000000000000
+      internalID: 1693383663532873476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_4
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1124
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b67176f77982c960800000000000000
+      internalID: 7620804667793045175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_5
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1075
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb74e994a46013710800000000000000
+      internalID: 1671123852863621052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_6
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 1034
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b548de20e526a020800000000000000
+      internalID: 2352609500136490416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_7
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 923
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197155480fbcffe90800000000000000
+      internalID: -6989643862782961775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_8
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 829
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1373e42e8318777d0800000000000000
+      internalID: -2920723752011548879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_9
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 777
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4bbede83e7e7840800000000000000
+      internalID: 5223751400771269849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_10
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 658
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952f4db90673fd860800000000000000
+      internalID: 7556819587821793881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_11
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 628
+        width: 111
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d473437abe345fca0800000000000000
+      internalID: -5983801850490243251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_12
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 626
+        width: 112
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ddd69a8ab7332970800000000000000
+      internalID: 8728881777102740949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_13
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 532
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b83d5183c911a290800000000000000
+      internalID: -7880989545441969999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_14
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 536
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222ca68a39fde61a0800000000000000
+      internalID: -6814263360886226398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_15
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 531
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3afbf3e977fefff90800000000000000
+      internalID: -6917547205582667869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_16
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 514
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaeac507cf2f4fe60800000000000000
+      internalID: 7995282404520275630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_17
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 520
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf74fb06a063f1850800000000000000
+      internalID: 6349853417816410108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_18
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 520
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff12286f8bd20130800000000000000
+      internalID: 3531626466785763312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_19
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 521
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a45ad55dfe0a4e0800000000000000
+      internalID: -1972312937110091131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_20
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 19
+        width: 530
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f63624f66f900580800000000000000
+      internalID: -8862908802133510407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_21
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 507
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad10ca6a19c642f0800000000000000
+      internalID: -988881952863937115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_22
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 23
+        width: 594
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44576f10e34ca34d0800000000000000
+      internalID: -3153992818419665596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_23
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 439
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b055e326a35d96c30800000000000000
+      internalID: 4353244961563366667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_24
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 312
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb19bc8423a840280800000000000000
+      internalID: -9077979000297778754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_25
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 314
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533cf165924f62790800000000000000
+      internalID: -7555082866491669707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_26
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 252
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e196be33a180651e0800000000000000
+      internalID: -2209569658545411810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_27
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 250
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b937cc7d0d50e0da0800000000000000
+      internalID: -5976833260942232677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_28
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 250
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74ea7fee51d83210800000000000000
+      internalID: 1313029497053439103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_29
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 120
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b66edc6605e6fbc0800000000000000
+      internalID: -3749557823980280140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_30
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 31
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e1c2a7014e93ec0800000000000000
+      internalID: -3586584868803568128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z01_Idle_before_human_form_31
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 47
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45e8294091650530800000000000000
+      internalID: 3820567131224335695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      z01_Idle_before_human_form_0: -9213079776653086601
+      z01_Idle_before_human_form_1: -3336839799287456766
+      z01_Idle_before_human_form_10: 7556819587821793881
+      z01_Idle_before_human_form_11: -5983801850490243251
+      z01_Idle_before_human_form_12: 8728881777102740949
+      z01_Idle_before_human_form_13: -7880989545441969999
+      z01_Idle_before_human_form_14: -6814263360886226398
+      z01_Idle_before_human_form_15: -6917547205582667869
+      z01_Idle_before_human_form_16: 7995282404520275630
+      z01_Idle_before_human_form_17: 6349853417816410108
+      z01_Idle_before_human_form_18: 3531626466785763312
+      z01_Idle_before_human_form_19: -1972312937110091131
+      z01_Idle_before_human_form_2: 1204972728366865962
+      z01_Idle_before_human_form_20: -8862908802133510407
+      z01_Idle_before_human_form_21: -988881952863937115
+      z01_Idle_before_human_form_22: -3153992818419665596
+      z01_Idle_before_human_form_23: 4353244961563366667
+      z01_Idle_before_human_form_24: -9077979000297778754
+      z01_Idle_before_human_form_25: -7555082866491669707
+      z01_Idle_before_human_form_26: -2209569658545411810
+      z01_Idle_before_human_form_27: -5976833260942232677
+      z01_Idle_before_human_form_28: 1313029497053439103
+      z01_Idle_before_human_form_29: -3749557823980280140
+      z01_Idle_before_human_form_3: 1693383663532873476
+      z01_Idle_before_human_form_30: -3586584868803568128
+      z01_Idle_before_human_form_31: 3820567131224335695
+      z01_Idle_before_human_form_4: 7620804667793045175
+      z01_Idle_before_human_form_5: 1671123852863621052
+      z01_Idle_before_human_form_6: 2352609500136490416
+      z01_Idle_before_human_form_7: -6989643862782961775
+      z01_Idle_before_human_form_8: -2920723752011548879
+      z01_Idle_before_human_form_9: 5223751400771269849
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

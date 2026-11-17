@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-30",
+  "method": "Built-in ImageGen",
+  "user_override": "Olive rounded level-1-style motorcycle helmet; continuous moving drive-by pickup; no dismounting",
+  "assets": [
+    {
+      "name": "Idle",
+      "frames": 4,
+      "grid": [
+        2,
+        2
+      ],
+      "prompt": "Use case: identity-preserve. Asset: pixel-art game animation sprite sheet for a Korean grandmother biker, 120x120 logical pixels per frame. Use image 1 (the old 64px motorcycle grandma) for the motorcycle, side-view composition, red scarf, long silver braid, dark teal coat, elderly face and burgundy motorcycle with large black tires, chrome V-twin engine, twin exhaust and brown rear travel saddlebags. Use image 2 ONLY to clarify the same grandma's face, braid, red neckerchief and teal clothes; REMOVE THE GUN, HOLSTER AND COWBOY HAT completely. USER CHANGE: replace the hat with a PUBG level-1-like simple rounded olive-drab military half-shell MOTORCYCLE HELMET with chin strap, open face, no visor, no goggles, no emblem or text. She must unmistakably be an elderly short stocky Korean woman, wrinkled smiling face, silver braid trailing from under helmet; dark teal riding coat, cream blouse, blue-gray trousers, brown boots. No weapons. Crisp coherent professional PIXEL ART at a readable 120px game scale, plum/charcoal outlines, broad clean shade clusters, around 26 shared opaque colors. Genuine TRANSPARENT background. Create EXACTLY FOUR IDLE ON THE MOTORCYCLE frames, strict 2 COLUMNS x 2 ROWS grid. Each cell square and same camera, character/bike size, registration, wheels ground line, right-facing near-side profile with a slight three-quarter face. Both tires, handlebars and braid fully within each cell, wide transparent margins, no clipping. Rider seated astride the bike with both feet on pegs, both hands holding bars. Small engine idling vibration, gentle breathing and scarf movement across the four frames, wheel hubs stay in exactly the same positions. Bike spans about 108 of the 120 logical pixels; helmet top around y7, tire bottom y117. No text, numbers, labels, scenery, roadway, ground shadow, smoke, painterly gradients, anti-aliasing or background color. Keep each frame registered instead of recentering it."
+    },
+    {
+      "name": "Ride",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Same elderly Korean grandma as the provided NEW HELMET motorcycle reference: rounded olive-drab level-1-style military half-shell motorcycle helmet with chinstrap, open wrinkled face, long silver braid, bright red scarf, dark teal long riding coat, cream blouse, blue-gray trousers, brown riding boots. Same burgundy classic motorcycle, black tires, chrome V-twin, two exhausts, brown rear saddlebags. No guns or holsters. Strict crisp limited-color pixel art, approximately26 shared opaque colors, genuine transparent background, right-facing side game view, same registered 120x120 logical cell canvas, same motorcycle wheel centers/ground y117 and stable character scale. No text/labels/numbers/scenery/ground shadows.\nCreate SIX distinct fast RIDING cycle frames, strict 3 COLUMNS x 2 ROWS sprite sheet. Same character and motorcycle as the supplied NEW HELMET reference, no redesign. Rider remains seated on the motorcycle, feet on pegs and both hands firmly on the handlebars. Small bike suspension compression, weight shift, coat/scarf and long silver braid flowing vigorously backwards (left). Sequential wheel-spoke phases turning forwards, looking like fast continuous travel. Chassis, wheel hubs, registration and ground height stay fixed across frames. No road or background, no dust in the primary sprite. All six poses on genuinely transparent background, entire wheels and helmet inside their own equally sized cells with comfortable margins. Keep same proportions, base visual quality, sharp pixel-art clusters and 120px logical detail; no smooth painting, high-frequency grit or fake opaque checkerboard. Motion must be drawn, not a repeated unchanged image."
+    },
+    {
+      "name": "Collect",
+      "frames": 8,
+      "grid": [
+        4,
+        2
+      ],
+      "prompt": "Same elderly Korean grandma as the provided NEW HELMET motorcycle reference: rounded olive-drab level-1-style military half-shell motorcycle helmet with chinstrap, open wrinkled face, long silver braid, bright red scarf, dark teal long riding coat, cream blouse, blue-gray trousers, brown riding boots. Same burgundy classic motorcycle, black tires, chrome V-twin, two exhausts, brown rear saddlebags. No guns or holsters. Strict crisp limited-color pixel art, approximately26 shared opaque colors, genuine transparent background, right-facing side game view, same registered 120x120 logical cell canvas, same motorcycle wheel centers/ground y117 and stable character scale. No text/labels/numbers/scenery/ground shadows.\nCreate EIGHT sequential frames of ONE continuous DRIVE-BY PICKUP action, strict 4 COLUMNS x 2 ROWS, order left-to-right then top-to-bottom. This is the user's key action: she is SPEEDING FORWARDS ON THE MOTORCYCLE the entire time, picks up a small brown supply pouch with one hand, and CONTINUES RIDING without stopping, dismounting or putting a foot on the road. The other hand stays on the handlebars, boots stay on pegs. Frames: 1 normal fast cruise, pouch ahead near the road; 2 near hand releases bar and torso begins leaning down on the near side; 3 she leans much lower from the saddle and extends the free arm down beside the bike; 4 deepest lean, open fingers a few pixels above the road on the near side BETWEEN THE WHEELS; 5 clearly grasping the small pouch from the road at that hand location while wheels keep turning; 6 lifts pouch alongside her knee and begins rising back; 7 upright again, tucks pouch toward the rear saddlebag; 8 both hands back on handlebars in the original fast cruising pose. The pickup pouch must be small enough to grasp, not a big suitcase. Helmet and face remain visible in every frame. Make the crouched frames genuinely different with torso, elbow and hand positions actually drawn; do not just bob the normal riding pose. Hands must reach the ground, NOT the fuel tank. Keep bike chassis and wheel centers stationary in local frame coordinates for animation registration; movement is communicated by forward-spinning wheel phases, braid/scarf streaming left, rider lean and continuous action. Same scale and shape as reference, complete motorcycle and character inside each equally sized cell with ample transparent margin. GENUINELY TRANSPARENT background including between wheels. No road, motion lines, dust or shadows baked into primary sprite; these are added separately later. No labels/text/numbering."
+    },
+    {
+      "name": "Vehicle",
+      "frames": 4,
+      "grid": [
+        2,
+        2
+      ],
+      "prompt": "Technical layer extraction from this EXACT pixel-art animation sprite sheet. Preserve the entire original image dimensions, EXACT 2 columns x 2 rows grid, camera, pixel scale, bike positions, wheel hubs and tire baseline in all FOUR cells. REMOVE ALL FOUR GRANDMOTHERS COMPLETELY: no helmet, face, hair, scarf, body, arms, hands, legs or boots remain. Restore the COMPLETE unobstructed burgundy motorcycle underneath where the rider and boots covered it: whole brown saddle, fuel tank, side panels, frame, engine covers, chrome pipes, foot pegs and grips, preserving the same classic motorcycle design. Keep the brown rear travel saddlebags and full handlebars. This sheet must contain ONLY FOUR registered complete motorcycles on genuine transparent background, one per unchanged original cell. No people, body parts, shadows, labels, text, extra props, color gradients or changed vehicle proportions. This is removal/restoration for independent game vehicle layers; do not recenter or resize the motorcycles."
+    },
+    {
+      "name": "Idle_Rider",
+      "frames": 4,
+      "grid": [
+        2,
+        2
+      ],
+      "prompt": "Technical sprite-layer extraction, not a redesign. From the supplied exact animation sheet, REMOVE EVERY MOTORCYCLE COMPLETELY, including all tires, wheel hubs, frame, saddle, fuel tank, grips/bars, lamps, engine, exhaust, saddlebags and any pickup pouches. KEEP ONLY the complete elderly HELMET grandmother in EACH original cell: whole helmet, face, long silver braid, red scarf, teal coat, torso, BOTH ARMS AND ALL HAND/FINGER POSES, trousers and boots. Reconstruct the small hidden portions of her legs/clothing formerly covered by the bike, in the same seated astride position. Keep feet posed on imaginary foot pegs and fingers around imaginary grips. Preserve EXACT original image dimensions, grid layout, number/order of cells, scale, camera and the position/angle of the helmet, torso, arms, hands and boots in every cell. DO NOT recenter, zoom, rescale, stand her up, change any poses or fill the cell with a larger character. Where a cell leans over and reaches down, preserve that exact lean and hand location. This is a REGISTERED RIDER-ONLY layer used later on the original bike. Genuine transparent background in all vacated bike pixels. No part of the bike/props, no duplicates, labels, shadows, scenery or gradient background. Same hard-edged limited-color pixel art.",
+      "reference": "Idle.png"
+    },
+    {
+      "name": "Ride_Rider",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Technical sprite-layer extraction, not a redesign. From the supplied exact animation sheet, REMOVE EVERY MOTORCYCLE COMPLETELY, including all tires, wheel hubs, frame, saddle, fuel tank, grips/bars, lamps, engine, exhaust, saddlebags and any pickup pouches. KEEP ONLY the complete elderly HELMET grandmother in EACH original cell: whole helmet, face, long silver braid, red scarf, teal coat, torso, BOTH ARMS AND ALL HAND/FINGER POSES, trousers and boots. Reconstruct the small hidden portions of her legs/clothing formerly covered by the bike, in the same seated astride position. Keep feet posed on imaginary foot pegs and fingers around imaginary grips. Preserve EXACT original image dimensions, grid layout, number/order of cells, scale, camera and the position/angle of the helmet, torso, arms, hands and boots in every cell. DO NOT recenter, zoom, rescale, stand her up, change any poses or fill the cell with a larger character. Where a cell leans over and reaches down, preserve that exact lean and hand location. This is a REGISTERED RIDER-ONLY layer used later on the original bike. Genuine transparent background in all vacated bike pixels. No part of the bike/props, no duplicates, labels, shadows, scenery or gradient background. Same hard-edged limited-color pixel art.\nThe target has SIX cells in 3 columns x 2 rows. Keep all six different riding poses, exact original canvas/cell registration, braid flow and hand positions. Remove all vehicle parts.",
+      "reference": "Ride.png"
+    },
+    {
+      "name": "Collect_Rider",
+      "frames": 8,
+      "grid": [
+        4,
+        2
+      ],
+      "prompt": "Technical sprite-layer extraction, not a redesign. From the supplied exact animation sheet, REMOVE EVERY MOTORCYCLE COMPLETELY, including all tires, wheel hubs, frame, saddle, fuel tank, grips/bars, lamps, engine, exhaust, saddlebags and any pickup pouches. KEEP ONLY the complete elderly HELMET grandmother in EACH original cell: whole helmet, face, long silver braid, red scarf, teal coat, torso, BOTH ARMS AND ALL HAND/FINGER POSES, trousers and boots. Reconstruct the small hidden portions of her legs/clothing formerly covered by the bike, in the same seated astride position. Keep feet posed on imaginary foot pegs and fingers around imaginary grips. Preserve EXACT original image dimensions, grid layout, number/order of cells, scale, camera and the position/angle of the helmet, torso, arms, hands and boots in every cell. DO NOT recenter, zoom, rescale, stand her up, change any poses or fill the cell with a larger character. Where a cell leans over and reaches down, preserve that exact lean and hand location. This is a REGISTERED RIDER-ONLY layer used later on the original bike. Genuine transparent background in all vacated bike pixels. No part of the bike/props, no duplicates, labels, shadows, scenery or gradient background. Same hard-edged limited-color pixel art.\nThe target has EIGHT cells in 4 columns x 2 rows: cruise, lean, reach, grab, lift, rise, stow, cruise. Remove the small pouch along with the bike, but keep the exact fingers and arm pose where she grips the pouch. Critically preserve the deep torso lean, reaching hand position, seated hip and boots on the imaginary pegs. Do NOT normalize the pickup poses into normal riding. Keep the exact original image and cell registration.",
+      "reference": "Collect.png"
+    },
+    {
+      "name": "Idle_Body",
+      "frames": 4,
+      "grid": [
+        2,
+        2
+      ],
+      "prompt": "Technical restoration of registered BODY animation layers from this exact RIDER-ONLY sprite sheet. Preserve original image dimensions, grid, cell count/order, pixel scale and exact positions of helmet, face, braid, scarf, torso center, hips, trousers and boots in EVERY cell. REMOVE BOTH ARMS AND ALL HANDS completely at the shoulder, and fill the missing teal coat torso/chest underneath them with the same coat texture and folds. Preserve the exact seated riding posture or low leaned pickup posture of each cell. Do not stand her up, recenter, enlarge or normalize poses. This output is ONLY the armless full body: helmeted head + hair + scarf + completely restored teal torso/coat + seated legs/boots. No arms, hands, bike, grips, weapon, pouch or scenery remains. Genuine transparent background throughout, no color halo or shadow. No text, labels, extra limbs or clothing redesign. Same crisp professional pixel-art clusters and palette as input. The blank arms will be layered separately later.",
+      "reference": "Idle_Rider.png"
+    },
+    {
+      "name": "Ride_Body",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Technical restoration of registered BODY animation layers from this exact RIDER-ONLY sprite sheet. Preserve original image dimensions, grid, cell count/order, pixel scale and exact positions of helmet, face, braid, scarf, torso center, hips, trousers and boots in EVERY cell. REMOVE BOTH ARMS AND ALL HANDS completely at the shoulder, and fill the missing teal coat torso/chest underneath them with the same coat texture and folds. Preserve the exact seated riding posture or low leaned pickup posture of each cell. Do not stand her up, recenter, enlarge or normalize poses. This output is ONLY the armless full body: helmeted head + hair + scarf + completely restored teal torso/coat + seated legs/boots. No arms, hands, bike, grips, weapon, pouch or scenery remains. Genuine transparent background throughout, no color halo or shadow. No text, labels, extra limbs or clothing redesign. Same crisp professional pixel-art clusters and palette as input. The blank arms will be layered separately later.\nThere are SIX cells, 3 columns x 2 rows. Keep the six seated riding bodies and the EXACT head/boot positions in each cell. Do not increase their size.",
+      "reference": "Ride_Rider.png"
+    },
+    {
+      "name": "Collect_Body",
+      "frames": 8,
+      "grid": [
+        4,
+        2
+      ],
+      "prompt": "Technical restoration of registered BODY animation layers from this exact RIDER-ONLY sprite sheet. Preserve original image dimensions, grid, cell count/order, pixel scale and exact positions of helmet, face, braid, scarf, torso center, hips, trousers and boots in EVERY cell. REMOVE BOTH ARMS AND ALL HANDS completely at the shoulder, and fill the missing teal coat torso/chest underneath them with the same coat texture and folds. Preserve the exact seated riding posture or low leaned pickup posture of each cell. Do not stand her up, recenter, enlarge or normalize poses. This output is ONLY the armless full body: helmeted head + hair + scarf + completely restored teal torso/coat + seated legs/boots. No arms, hands, bike, grips, weapon, pouch or scenery remains. Genuine transparent background throughout, no color halo or shadow. No text, labels, extra limbs or clothing redesign. Same crisp professional pixel-art clusters and palette as input. The blank arms will be layered separately later.\nThere are EIGHT cells, 4 columns x 2 rows. CRITICAL: preserve each different torso lean and helmet position, particularly cells 3,4,5 where she hangs down over the side of the motorcycle. Remove the reaching arm/hand but restore the lean body's coat underneath it. Keep boots and hips exactly in their original locations.",
+      "reference": "Collect_Rider.png"
+    }
+  ]
+}

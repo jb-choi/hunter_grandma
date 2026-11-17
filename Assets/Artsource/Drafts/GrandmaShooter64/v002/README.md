@@ -1,5 +1,30 @@
 # HG-BASE64 · 추가 베이스 후보 04–08 · v002
 
+## 역할 변경 버전 · 05–08 · 2026-10-28
+
+![샷건·화방·기관총·저격·오토바이 라인업](Previews/combat_lineup_04-08_4x.png)
+
+사용자 요청과 [기획서_02](https://app.notion.com/p/4067313398e08130965aebafbb62a76d)의 역할에 맞춘 추가 편집 정본이다. 04 순덕은 기존 샷건을 유지하고, 05–08은 아래 역할 버전을 사용한다. 기획서의 운송 장비는 수레이지만, 이번 사용자 요청에 따라 08은 **오토바이 + 운송 가방**으로 표현했다. 원래 이름의 05–08 및 v003은 보존했다.
+
+**최신 수정 — 무기 확대·역할 특징 보강:** 화방은 큰 연료통·압력계·나팔형 노즐과 넓어지는 지속 화염, 기관총은 다중 총열·대형 드럼 탄창·급탄 벨트, 저격총은 큰 청록 렌즈 조준경·긴 총열·양각대로 구별했다. 오토바이는 바퀴를 반지름 8px로 키우고 V형 엔진·이중 배기구·운송 가방을 보강했다. 몸통/머리/양팔 레이어는 수정 전과 픽셀 차이 0이다. [이번 확대 전후](Previews/combat_roles_weapon_size_before_after_4x.png) · [수정 전 보존본/해시](QA/CombatRoles/BeforeLargeGear-20261028-111618/preservation.json) · [확대 재현 스크립트](Scripts/enlarge_combat_gear.lua). 현재 원본을 재현하려면 보존본을 `backup` 매개변수로 이 확대 스크립트를 실행한다. 최초 제작 스크립트만 다시 실행하면 확대 전 형태가 된다.
+
+| 번호 | 역할 / 유지한 캐릭터 특징 | 새 Aseprite 편집 정본 | PNG |
+| --- | --- | --- | --- |
+| 05 | 화방 / 빨간 두건·은색 땋은 머리·망토 | [grandma_05_flamethrower.aseprite](grandma_05_flamethrower.aseprite) | [발사](Export/grandma_05_flamethrower.png) · [효과 없음](Export/grandma_05_flamethrower_no_fx.png) · [잠금 실루엣](Export/grandma_05_flamethrower_silhouette.png) |
+| 06 | 기관총 / 흰 올림머리·청록 가디건·꽃무늬 앞치마 | [grandma_06_machinegun.aseprite](grandma_06_machinegun.aseprite) | [발사](Export/grandma_06_machinegun.png) · [효과 없음](Export/grandma_06_machinegun_no_fx.png) · [잠금 실루엣](Export/grandma_06_machinegun_silhouette.png) |
+| 07 | 저격수 / 보라 마녀 모자·은발·이끼색 망토 | [grandma_07_sniper.aseprite](grandma_07_sniper.aseprite) | [발사](Export/grandma_07_sniper.png) · [효과 없음](Export/grandma_07_sniper_no_fx.png) · [잠금 실루엣](Export/grandma_07_sniper_silhouette.png) |
+| 08 | 오토바이 운송 / 카우보이 모자·은색 땋은 머리·빨간 스카프 | [grandma_08_motorcycle.aseprite](grandma_08_motorcycle.aseprite) | [기본](Export/grandma_08_motorcycle.png) · [효과 없음](Export/grandma_08_motorcycle_no_fx.png) · [잠금 실루엣](Export/grandma_08_motorcycle_silhouette.png) |
+
+- **제작 방법:** 기존 v002 native의 머리·의상 픽셀을 가져와 총·팔·손을 정리하고, 역할별 장비·팔·손·효과를 Aseprite Lua로 직접 작화했다. 08의 몸통·앉은 하체·오토바이는 신규 픽셀 작화다. 새 고해상도 이미지 생성/축소는 사용하지 않았다.
+- **규격:** 전부 64×64, RGB 편집/RGBA 출력, 정적 1프레임(100ms). 33슬롯 팔레트(투명 1 + 불투명 32)를 유지했다. 순서대로 실제 사용색 26/30/30/28개다. 발 또는 바퀴 마지막 행 y60, 바닥 경계 y61.
+- **레이어 아래→위:** `01_Rear_Gear_Vehicle`, `02_Body_Legs`, `03_Head_Hair`, `04_Far_Arm`, `05_Weapon_Vehicle`, `06_Near_Arm`, `07_Hands_Details`, `08_Role_FX`. 기본 8개 표시/Normal/opacity 255. 재사용 의상에는 기존 베이스의 통합 픽셀이 남아 있으며 완성 애니메이션 리그가 아니다.
+- **출력:** 기본 PNG는 전체 합성, `_no_fx`는 08번 레이어만 숨김, `_silhouette`는 효과 없는 합성의 불투명 영역을 검정으로 치환한다. 실루엣에는 자물쇠나 UI 프레임을 넣지 않았다. 자동 trim 없이 64×64를 유지한다.
+- **접점 좌표:** 05 총구 `(48,26)`, 손 `(31,30)/(43,31)`; 06 총구 `(58,26)`, 손 `(31,33)/(47,33)`; 07 총구 `(60,29)`, 손 `(33,34)/(46,33)`; 08 손–핸들 `(44,32)/(46,32)`, 바퀴 중심 `(13,52)/(51,52)`, 반지름 8px. 좌상단 `(0,0)`, x 오른쪽/y 아래. 역할별 bounds·태그·팔레트·레이어는 `Export/grandma_0*_*.json`에 기록했다.
+- [역할 4명 비교](Previews/combat_roles_05-08_4x.png) · [실제 64px 시트](Previews/combat_roles_05-08_native.png) · [변경 전후](Previews/combat_roles_before_after_4x.png) · [실루엣](Previews/combat_roles_05-08_silhouettes_4x.png)
+- [검수 기록](QA/CombatRoles/review.md) · [규격/64개 표시 상태](QA/CombatRoles/validation.json) · [제작 스크립트](Scripts/create_combat_roles.lua) · [검수 스크립트](Scripts/validate_combat_roles.lua)
+
+이번 변경은 원본 아트와 PNG 추가이며, Unity 씬/전투 기능/애니메이션 연결은 포함하지 않는다.
+
 ## 추가 포즈 · 순덕 할매 앉아서 차 마시기 · 2026-10-28
 
 - 편집 정본: [grandma_04_sundeok_tea.aseprite](grandma_04_sundeok_tea.aseprite)

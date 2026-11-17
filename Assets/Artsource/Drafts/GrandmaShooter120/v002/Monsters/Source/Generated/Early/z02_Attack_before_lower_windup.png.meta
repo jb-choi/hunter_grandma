@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 2a29cf4de57de42418470766d07207b0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9192526156938114827
+    second: z02_Attack_before_lower_windup_0
+  - first:
+      213: -7497408591502263347
+    second: z02_Attack_before_lower_windup_1
+  - first:
+      213: 2586803586580135190
+    second: z02_Attack_before_lower_windup_2
+  - first:
+      213: -6755663982282207898
+    second: z02_Attack_before_lower_windup_3
+  - first:
+      213: 8825295646609381861
+    second: z02_Attack_before_lower_windup_4
+  - first:
+      213: 3225277887949741560
+    second: z02_Attack_before_lower_windup_5
+  - first:
+      213: 7550648616120278368
+    second: z02_Attack_before_lower_windup_6
+  - first:
+      213: -2046243297515688123
+    second: z02_Attack_before_lower_windup_7
+  - first:
+      213: -485792935572978817
+    second: z02_Attack_before_lower_windup_8
+  - first:
+      213: -4543850343806469073
+    second: z02_Attack_before_lower_windup_9
+  - first:
+      213: -1439139647480750814
+    second: z02_Attack_before_lower_windup_10
+  - first:
+      213: 9066850767641367420
+    second: z02_Attack_before_lower_windup_11
+  - first:
+      213: 8390947319866796874
+    second: z02_Attack_before_lower_windup_12
+  - first:
+      213: 416705563478986900
+    second: z02_Attack_before_lower_windup_13
+  - first:
+      213: 4052188787120902458
+    second: z02_Attack_before_lower_windup_14
+  - first:
+      213: 5803813844966094418
+    second: z02_Attack_before_lower_windup_15
+  - first:
+      213: 6947261673710507277
+    second: z02_Attack_before_lower_windup_16
+  - first:
+      213: -5169118477790081808
+    second: z02_Attack_before_lower_windup_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: z02_Attack_before_lower_windup_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 489
+        width: 445
+        height: 757
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f887331a269d6080800000000000000
+      internalID: -9192526156938114827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z02_Attack_before_lower_windup_1
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 473
+        width: 646
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbbb87eb9ad3f790800000000000000
+      internalID: -7497408591502263347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z02_Attack_before_lower_windup_2
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 1205
+        width: 92
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61db0d1182c26e320800000000000000
+      internalID: 2586803586580135190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z02_Attack_before_lower_windup_3
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 1130
+        width: 76
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d0b22b66f0f32a0800000000000000
+      internalID: -6755663982282207898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z02_Attack_before_lower_windup_4
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 1189
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e914f5d1afb97a70800000000000000
+      internalID: 8825295646609381861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z02_Attack_before_lower_windup_5
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1156
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd9a2d962d72cc20800000000000000
+      internalID: 3225277887949741560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z02_Attack_before_lower_windup_6
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1132
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06dd4ab49ea49c860800000000000000
+      internalID: 7550648616120278368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z02_Attack_before_lower_windup_7
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 610
+        width: 391
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54fad87ff884a93e0800000000000000
+      internalID: -2046243297515688123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z02_Attack_before_lower_windup_8
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1069
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7347c026ed1249f0800000000000000
+      internalID: -485792935572978817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z02_Attack_before_lower_windup_9
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 575
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2cf0e8cf2001f0c0800000000000000
+      internalID: -4543850343806469073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z02_Attack_before_lower_windup_10
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 521
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d9ab19d16270ce0800000000000000
+      internalID: -1439139647480750814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z02_Attack_before_lower_windup_11
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 529
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73ddb42cbce3dd70800000000000000
+      internalID: 9066850767641367420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z02_Attack_before_lower_windup_12
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 0
+        width: 367
+        height: 541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b2da95122a27470800000000000000
+      internalID: 8390947319866796874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z02_Attack_before_lower_windup_13
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 513
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490181f808f68c500800000000000000
+      internalID: 416705563478986900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z02_Attack_before_lower_windup_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 497
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3199238b344c3830800000000000000
+      internalID: 4052188787120902458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z02_Attack_before_lower_windup_15
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 493
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256b2bb21f94b8050800000000000000
+      internalID: 5803813844966094418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z02_Attack_before_lower_windup_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 851
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05533f1fa1a96060800000000000000
+      internalID: 6947261673710507277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z02_Attack_before_lower_windup_17
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 128
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc0a61b12a9348b0800000000000000
+      internalID: -5169118477790081808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      z02_Attack_before_lower_windup_0: -9192526156938114827
+      z02_Attack_before_lower_windup_1: -7497408591502263347
+      z02_Attack_before_lower_windup_10: -1439139647480750814
+      z02_Attack_before_lower_windup_11: 9066850767641367420
+      z02_Attack_before_lower_windup_12: 8390947319866796874
+      z02_Attack_before_lower_windup_13: 416705563478986900
+      z02_Attack_before_lower_windup_14: 4052188787120902458
+      z02_Attack_before_lower_windup_15: 5803813844966094418
+      z02_Attack_before_lower_windup_16: 6947261673710507277
+      z02_Attack_before_lower_windup_17: -5169118477790081808
+      z02_Attack_before_lower_windup_2: 2586803586580135190
+      z02_Attack_before_lower_windup_3: -6755663982282207898
+      z02_Attack_before_lower_windup_4: 8825295646609381861
+      z02_Attack_before_lower_windup_5: 3225277887949741560
+      z02_Attack_before_lower_windup_6: 7550648616120278368
+      z02_Attack_before_lower_windup_7: -2046243297515688123
+      z02_Attack_before_lower_windup_8: -485792935572978817
+      z02_Attack_before_lower_windup_9: -4543850343806469073
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

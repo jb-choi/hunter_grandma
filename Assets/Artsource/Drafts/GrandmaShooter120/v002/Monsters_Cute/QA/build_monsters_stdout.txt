@@ -1,0 +1,2 @@
+Built z03_human: 28 poses, 5 clips, 3 material/FX layers.
+Built z03_human:5 clips /28 frames; shared index includes3 actors.

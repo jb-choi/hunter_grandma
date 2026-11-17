@@ -1,0 +1,32 @@
+[
+  {
+    "path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v001\\grandma_01_sundeok_120.aseprite",
+    "before": "E45F8B4A9136052B445D48ACE7F83A06A5C5B850B2B0399B16F76FFBCD86611C",
+    "after": "E45F8B4A9136052B445D48ACE7F83A06A5C5B850B2B0399B16F76FFBCD86611C",
+    "match": true
+  },
+  {
+    "path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v001\\Source\\Generated\\sundeok_redesign_full.png",
+    "before": "BC4E72E2A1B273781D89E0929C9FBE73A8CD3FF4B7D6EA49BCC248203A64A3C6",
+    "after": "BC4E72E2A1B273781D89E0929C9FBE73A8CD3FF4B7D6EA49BCC248203A64A3C6",
+    "match": true
+  },
+  {
+    "path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v001\\Source\\Generated\\sundeok_redesign_body.png",
+    "before": "4BCCE686032E1468D195706BAE2FA55F19F3DBB99661C26FECBDC6817300D88D",
+    "after": "4BCCE686032E1468D195706BAE2FA55F19F3DBB99661C26FECBDC6817300D88D",
+    "match": true
+  },
+  {
+    "path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v001\\Weapons\\Shotgun\\sundeok_shotgun.aseprite",
+    "before": "E916E3D7B757B50FF77609AD67FC646A24DFAE6426CBE053DE152C1CCC12BEDC",
+    "after": "E916E3D7B757B50FF77609AD67FC646A24DFAE6426CBE053DE152C1CCC12BEDC",
+    "match": true
+  },
+  {
+    "path": "E:\\unity_project\\project10_hunter_grandma\\Hunter_grandma\\Assets\\Artsource\\Drafts\\GrandmaShooter120\\v001\\Weapons\\Shotgun\\sundeok_shotgun.png",
+    "before": "FC4CDC2D88E6CAFEBE729CABECEF6374063CDA2F886FB55CD02C7D52CD21D07C",
+    "after": "FC4CDC2D88E6CAFEBE729CABECEF6374063CDA2F886FB55CD02C7D52CD21D07C",
+    "match": true
+  }
+]

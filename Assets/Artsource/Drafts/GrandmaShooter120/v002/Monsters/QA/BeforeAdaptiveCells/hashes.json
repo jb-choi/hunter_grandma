@@ -1,0 +1,14 @@
+[
+  {
+    "file": "zombie_01_normal_120.aseprite",
+    "sha256": "9D6E4A5ED19C3F58E2427911D027D2FE7A2A5150C13D3B1B721F9B68471596FD"
+  },
+  {
+    "file": "zombie_02_large_120.aseprite",
+    "sha256": "15CFC5951A45B4027CDE74823BAAA154C46CCD3E10ED812EA3FB03DAA0EF46C3"
+  },
+  {
+    "file": "zombie_03_rescue_human_120.aseprite",
+    "sha256": "7C7E6D6F36D1E52D3717554BE2BEFFDC5FAFEFC8EB17C4614D72F88DEC6C70F5"
+  }
+]

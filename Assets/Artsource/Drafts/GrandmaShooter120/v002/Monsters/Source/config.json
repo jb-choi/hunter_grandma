@@ -1,0 +1,211 @@
+{
+  "date": "2026-10-30",
+  "canvas": [
+    120,
+    120
+  ],
+  "root_pivot": [
+    52,
+    118
+  ],
+  "max_opaque_rgb": 26,
+  "notion_page": "40473133-98e0-818d-b924-d95c5c455419",
+  "characters": [
+    {
+      "id": "z01_normal",
+      "name": "좀비1_일반좀비",
+      "height": 96,
+      "role": "hunt",
+      "design": "Normal-sized adult HUMAN-SHAPED ZOMBIE made of mint/lime translucent slime material. Human anatomical silhouette: smaller normal human head with recognizable brow/nose/ears/jaw, neck, narrow adult torso and pelvis, two long upper arms/forearms with elbows/wrists and human-shaped hands/fingers, two long thighs/shins with knees/ankles and human-shaped feet. Slightly hunched zombie posture. Adult proportions about5.5heads tall, NOT a large round head or small jelly/blob mascot. Wet surface highlights and few internal bubbles; no actual human inside, no bones or gore.",
+      "native": "zombie_01_normal_120.aseprite",
+      "palette": [
+        "241b34",
+        "253e46",
+        "28533f",
+        "327052",
+        "459268",
+        "60b77d",
+        "83d58e",
+        "a9eca0",
+        "d8f6b3",
+        "f6ffdc",
+        "255d60",
+        "357c7a",
+        "55a39b",
+        "8ac9b0",
+        "b7c459",
+        "d7df74",
+        "f0ef9b",
+        "3c2a4c",
+        "614365",
+        "151d2a",
+        "435868",
+        "6b7b7a",
+        "a9b9a9",
+        "d6dbc5",
+        "6eaa4e",
+        "98c76a"
+      ]
+    },
+    {
+      "id": "z02_large",
+      "name": "좀비2_큰좀비",
+      "height": 108,
+      "role": "hunt",
+      "design": "A LARGE HUMAN-SHAPED ZOMBIE made of thick dark moss/olive slime material. A tall broad heavy adult human build: human-sized head with brow/nose/ears/jaw, clear neck/shoulders/chest/belly/pelvis, two massive upper arms/forearms with elbows and hands/fingers, two thick thighs/shins with knees and feet. One forearm heavier, but preserve human joints/anatomy and two-legged silhouette. Dense layered gelatin, amber internal nucleus, broad highlights. Much larger in mass than normal human slime zombie. Not a blob, tentacle creature, oversized-head mascot, actual person inside, or boss.",
+      "native": "zombie_02_large_120.aseprite",
+      "palette": [
+        "241c2a",
+        "2d3829",
+        "3d512b",
+        "506e30",
+        "709438",
+        "94b444",
+        "bfd87a",
+        "e1eeaa",
+        "f8ffd7",
+        "364b3c",
+        "4c6a46",
+        "72955b",
+        "9fba78",
+        "ba8f37",
+        "ecba53",
+        "ffdf80",
+        "624e2c",
+        "876d36",
+        "392f3c",
+        "5b4651",
+        "214546",
+        "3b6661",
+        "73948a",
+        "afc3a4",
+        "cfe2c0",
+        "151d20"
+      ]
+    },
+    {
+      "id": "z03_human",
+      "name": "슬라임을 뒤집어쓴 일반 사람",
+      "height": 108,
+      "role": "rescue",
+      "design": "An ordinary living adult civilian human, normal proportions, short brown hair, mustard casual sweatshirt, navy trousers, cream/white sneakers. Turquoise/cyan slime is draped OVER the still-visible fully clothed person, hanging from one side of the head, shoulders, forearms and torso; clear warm human face, anxious expressive eyes, one bare hand visible. Slime is a separate coating, NOT the person's flesh. No special profession/uniform/weapon or gore. The person looks frightened and pulled involuntarily by the coating, readable as somebody to rescue.",
+      "native": "zombie_03_rescue_human_120.aseprite",
+      "palette": [
+        "191e2b",
+        "32283d",
+        "194b51",
+        "236f73",
+        "339b99",
+        "54c9b6",
+        "88ead2",
+        "c5ffe9",
+        "f2fff2",
+        "ad674e",
+        "dc9671",
+        "ffd0a0",
+        "fff0c9",
+        "54362b",
+        "80513a",
+        "b07648",
+        "94622f",
+        "c5953a",
+        "ebc356",
+        "24374f",
+        "3b5476",
+        "657594",
+        "b4b5ad",
+        "e4dfcf",
+        "446462",
+        "f2d299"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Idle",
+      "count": 4,
+      "grid": [
+        2,
+        2
+      ],
+      "durations": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": true
+    },
+    {
+      "name": "Walk",
+      "count": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "durations": [
+        130,
+        130,
+        130,
+        130,
+        130,
+        130
+      ],
+      "loop": true
+    },
+    {
+      "name": "Run",
+      "count": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "durations": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true
+    },
+    {
+      "name": "Attack",
+      "count": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "durations": [
+        120,
+        90,
+        70,
+        80,
+        100,
+        140
+      ],
+      "loop": false
+    },
+    {
+      "name": "Dead",
+      "count": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "durations": [
+        90,
+        100,
+        120,
+        140,
+        170,
+        400
+      ],
+      "loop": false,
+      "hold_last": true
+    }
+  ],
+  "user_clarification": "Slime MATERIAL / HUMAN ZOMBIE ANATOMY; rescue humans are actual people covered by slime",
+  "version": "v002"
+}

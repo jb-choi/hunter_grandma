@@ -1,0 +1,83 @@
+{
+  "total_native_library_slots": 252,
+  "total_nonempty_cropped_png_slots": 188,
+  "note": "Slot counts are not counts of unique drawings. PNG byte hashes measure identical saved cropped images.",
+  "characters": [
+    {
+      "character": "z01_normal",
+      "native_library_slots": 84,
+      "layers": [
+        {
+          "nonempty_png_slots": 4,
+          "unique_png_files": 4,
+          "library_frame_slots": 28,
+          "layer": "DripsFX"
+        },
+        {
+          "nonempty_png_slots": 28,
+          "unique_png_files": 28,
+          "library_frame_slots": 28,
+          "layer": "GelBody"
+        },
+        {
+          "nonempty_png_slots": 28,
+          "unique_png_files": 28,
+          "library_frame_slots": 28,
+          "layer": "SurfaceHighlights"
+        }
+      ],
+      "nonempty_png_slots": 60
+    },
+    {
+      "character": "z02_large",
+      "native_library_slots": 84,
+      "layers": [
+        {
+          "nonempty_png_slots": 4,
+          "unique_png_files": 4,
+          "library_frame_slots": 28,
+          "layer": "DripsFX"
+        },
+        {
+          "nonempty_png_slots": 28,
+          "unique_png_files": 28,
+          "library_frame_slots": 28,
+          "layer": "GelBody"
+        },
+        {
+          "nonempty_png_slots": 28,
+          "unique_png_files": 28,
+          "library_frame_slots": 28,
+          "layer": "SurfaceHighlights"
+        }
+      ],
+      "nonempty_png_slots": 60
+    },
+    {
+      "character": "z03_human",
+      "native_library_slots": 84,
+      "layers": [
+        {
+          "nonempty_png_slots": 12,
+          "unique_png_files": 12,
+          "library_frame_slots": 28,
+          "layer": "DripsFX"
+        },
+        {
+          "nonempty_png_slots": 28,
+          "unique_png_files": 28,
+          "library_frame_slots": 28,
+          "layer": "HumanBody"
+        },
+        {
+          "nonempty_png_slots": 28,
+          "unique_png_files": 28,
+          "library_frame_slots": 28,
+          "layer": "SlimeCoat"
+        }
+      ],
+      "nonempty_png_slots": 68
+    }
+  ],
+  "date": "2026-10-30"
+}

@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 419df8a2d70452d45a3aca8eb08fd780
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7147204061172995044
+    second: SurfaceHighlights_04_0
+  - first:
+      213: 9050734614828367685
+    second: SurfaceHighlights_04_1
+  - first:
+      213: 6130373133107961232
+    second: SurfaceHighlights_04_2
+  - first:
+      213: -2052622259478167872
+    second: SurfaceHighlights_04_3
+  - first:
+      213: -7939371944515536745
+    second: SurfaceHighlights_04_4
+  - first:
+      213: -103646368585623365
+    second: SurfaceHighlights_04_5
+  - first:
+      213: 8997073543228047784
+    second: SurfaceHighlights_04_6
+  - first:
+      213: -5006625073062209262
+    second: SurfaceHighlights_04_7
+  - first:
+      213: 2530220710925501708
+    second: SurfaceHighlights_04_8
+  - first:
+      213: 629471239851276473
+    second: SurfaceHighlights_04_9
+  - first:
+      213: 6687442662618212034
+    second: SurfaceHighlights_04_10
+  - first:
+      213: -3607041117071913380
+    second: SurfaceHighlights_04_11
+  - first:
+      213: 2877790796152621340
+    second: SurfaceHighlights_04_12
+  - first:
+      213: 604948283592108583
+    second: SurfaceHighlights_04_13
+  - first:
+      213: -6579460474537721393
+    second: SurfaceHighlights_04_14
+  - first:
+      213: -5730569214417701821
+    second: SurfaceHighlights_04_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SurfaceHighlights_04_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 55
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ced8c16c700dc90800000000000000
+      internalID: -7147204061172995044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SurfaceHighlights_04_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 23
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f3d29ed2baa9d70800000000000000
+      internalID: 9050734614828367685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SurfaceHighlights_04_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 45
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d9f7b62e5731550800000000000000
+      internalID: 6130373133107961232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SurfaceHighlights_04_3
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 41
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce7eb52eee9383e0800000000000000
+      internalID: -2052622259478167872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SurfaceHighlights_04_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798f273f74fa1d190800000000000000
+      internalID: -7939371944515536745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SurfaceHighlights_04_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 23
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8d13a4d26cf8ef0800000000000000
+      internalID: -103646368585623365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SurfaceHighlights_04_6
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 8
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a14c2218b60cdc70800000000000000
+      internalID: 8997073543228047784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SurfaceHighlights_04_7
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 14
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2191094b505e48ab0800000000000000
+      internalID: -5006625073062209262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SurfaceHighlights_04_8
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 25
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c050d06b4562d1320800000000000000
+      internalID: 2530220710925501708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SurfaceHighlights_04_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 13
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8f8afe1c45cb800800000000000000
+      internalID: 629471239851276473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SurfaceHighlights_04_10
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 10
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6a6298ba19ecc50800000000000000
+      internalID: 6687442662618212034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SurfaceHighlights_04_11
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 14
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e43b6073731fdc0800000000000000
+      internalID: -3607041117071913380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SurfaceHighlights_04_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19c09e5b77ffe720800000000000000
+      internalID: 2877790796152621340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SurfaceHighlights_04_13
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a6dfe3245356800800000000000000
+      internalID: 604948283592108583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SurfaceHighlights_04_14
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1c471de8f01b4a0800000000000000
+      internalID: -6579460474537721393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SurfaceHighlights_04_15
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344f7dd49ade870b0800000000000000
+      internalID: -5730569214417701821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SurfaceHighlights_04_0: -7147204061172995044
+      SurfaceHighlights_04_1: 9050734614828367685
+      SurfaceHighlights_04_10: 6687442662618212034
+      SurfaceHighlights_04_11: -3607041117071913380
+      SurfaceHighlights_04_12: 2877790796152621340
+      SurfaceHighlights_04_13: 604948283592108583
+      SurfaceHighlights_04_14: -6579460474537721393
+      SurfaceHighlights_04_15: -5730569214417701821
+      SurfaceHighlights_04_2: 6130373133107961232
+      SurfaceHighlights_04_3: -2052622259478167872
+      SurfaceHighlights_04_4: -7939371944515536745
+      SurfaceHighlights_04_5: -103646368585623365
+      SurfaceHighlights_04_6: 8997073543228047784
+      SurfaceHighlights_04_7: -5006625073062209262
+      SurfaceHighlights_04_8: 2530220710925501708
+      SurfaceHighlights_04_9: 629471239851276473
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1 @@
+Verified four 64px natives, eight PNG comparisons and 64 saved/reopened visibility states.

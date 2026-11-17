@@ -1,0 +1,3208 @@
+{
+  "canvas": [
+    120,
+    120
+  ],
+  "parts": [
+    {
+      "action": "walk_v2_tactical",
+      "frame": 28,
+      "layer": "Body",
+      "local_frame": 1,
+      "origin_xy": [
+        20,
+        12
+      ],
+      "pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "pivot_crop_xy": [
+        40,
+        106
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/Body_01.png",
+      "size": [
+        67,
+        106
+      ],
+      "size_px": [
+        67,
+        106
+      ],
+      "left_origin_xy": [
+        33,
+        12
+      ],
+      "left_pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        55
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 28,
+      "layer": "BackArm",
+      "local_frame": 1,
+      "origin_xy": [
+        66,
+        48
+      ],
+      "pivot_canvas_xy": [
+        73,
+        55
+      ],
+      "pivot_crop_xy": [
+        7,
+        7
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/BackArm_01.png",
+      "size": [
+        31,
+        25
+      ],
+      "size_px": [
+        31,
+        25
+      ],
+      "left_origin_xy": [
+        23,
+        48
+      ],
+      "left_pivot_canvas_xy": [
+        46,
+        55
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        55
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 28,
+      "layer": "Weapon",
+      "local_frame": 1,
+      "origin_xy": [
+        34,
+        40
+      ],
+      "pivot_canvas_xy": [
+        66,
+        52
+      ],
+      "pivot_crop_xy": [
+        32,
+        12
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/Weapon_01.png",
+      "size": [
+        78,
+        17
+      ],
+      "size_px": [
+        78,
+        17
+      ],
+      "left_origin_xy": [
+        8,
+        40
+      ],
+      "left_pivot_canvas_xy": [
+        53,
+        52
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        55
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 28,
+      "layer": "FrontArm",
+      "local_frame": 1,
+      "origin_xy": [
+        20,
+        48
+      ],
+      "pivot_canvas_xy": [
+        30,
+        55
+      ],
+      "pivot_crop_xy": [
+        10,
+        7
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/FrontArm_01.png",
+      "size": [
+        45,
+        29
+      ],
+      "size_px": [
+        45,
+        29
+      ],
+      "left_origin_xy": [
+        55,
+        48
+      ],
+      "left_pivot_canvas_xy": [
+        89,
+        55
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        55
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 29,
+      "layer": "Body",
+      "local_frame": 2,
+      "origin_xy": [
+        20,
+        12
+      ],
+      "pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "pivot_crop_xy": [
+        40,
+        106
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/Body_02.png",
+      "size": [
+        67,
+        106
+      ],
+      "size_px": [
+        67,
+        106
+      ],
+      "left_origin_xy": [
+        33,
+        12
+      ],
+      "left_pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        41
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        50
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        52
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 29,
+      "layer": "BackArm",
+      "local_frame": 2,
+      "origin_xy": [
+        66,
+        45
+      ],
+      "pivot_canvas_xy": [
+        73,
+        52
+      ],
+      "pivot_crop_xy": [
+        7,
+        7
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/BackArm_02.png",
+      "size": [
+        31,
+        25
+      ],
+      "size_px": [
+        31,
+        25
+      ],
+      "left_origin_xy": [
+        23,
+        45
+      ],
+      "left_pivot_canvas_xy": [
+        46,
+        52
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        41
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        50
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        52
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 29,
+      "layer": "Weapon",
+      "local_frame": 2,
+      "origin_xy": [
+        34,
+        37
+      ],
+      "pivot_canvas_xy": [
+        66,
+        49
+      ],
+      "pivot_crop_xy": [
+        32,
+        12
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/Weapon_02.png",
+      "size": [
+        78,
+        17
+      ],
+      "size_px": [
+        78,
+        17
+      ],
+      "left_origin_xy": [
+        8,
+        37
+      ],
+      "left_pivot_canvas_xy": [
+        53,
+        49
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        41
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        50
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        52
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 29,
+      "layer": "FrontArm",
+      "local_frame": 2,
+      "origin_xy": [
+        20,
+        45
+      ],
+      "pivot_canvas_xy": [
+        30,
+        52
+      ],
+      "pivot_crop_xy": [
+        10,
+        7
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/FrontArm_02.png",
+      "size": [
+        45,
+        29
+      ],
+      "size_px": [
+        45,
+        29
+      ],
+      "left_origin_xy": [
+        55,
+        45
+      ],
+      "left_pivot_canvas_xy": [
+        89,
+        52
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        41
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        50
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        52
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 30,
+      "layer": "Body",
+      "local_frame": 3,
+      "origin_xy": [
+        20,
+        12
+      ],
+      "pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "pivot_crop_xy": [
+        40,
+        106
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/Body_03.png",
+      "size": [
+        67,
+        106
+      ],
+      "size_px": [
+        67,
+        106
+      ],
+      "left_origin_xy": [
+        33,
+        12
+      ],
+      "left_pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        41
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        50
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        52
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 30,
+      "layer": "BackArm",
+      "local_frame": 3,
+      "origin_xy": [
+        66,
+        45
+      ],
+      "pivot_canvas_xy": [
+        73,
+        52
+      ],
+      "pivot_crop_xy": [
+        7,
+        7
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/BackArm_03.png",
+      "size": [
+        31,
+        25
+      ],
+      "size_px": [
+        31,
+        25
+      ],
+      "left_origin_xy": [
+        23,
+        45
+      ],
+      "left_pivot_canvas_xy": [
+        46,
+        52
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        41
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        50
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        52
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 30,
+      "layer": "Weapon",
+      "local_frame": 3,
+      "origin_xy": [
+        34,
+        37
+      ],
+      "pivot_canvas_xy": [
+        66,
+        49
+      ],
+      "pivot_crop_xy": [
+        32,
+        12
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/Weapon_03.png",
+      "size": [
+        78,
+        17
+      ],
+      "size_px": [
+        78,
+        17
+      ],
+      "left_origin_xy": [
+        8,
+        37
+      ],
+      "left_pivot_canvas_xy": [
+        53,
+        49
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        41
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        50
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        52
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 30,
+      "layer": "FrontArm",
+      "local_frame": 3,
+      "origin_xy": [
+        20,
+        45
+      ],
+      "pivot_canvas_xy": [
+        30,
+        52
+      ],
+      "pivot_crop_xy": [
+        10,
+        7
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/FrontArm_03.png",
+      "size": [
+        45,
+        29
+      ],
+      "size_px": [
+        45,
+        29
+      ],
+      "left_origin_xy": [
+        55,
+        45
+      ],
+      "left_pivot_canvas_xy": [
+        89,
+        52
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        41
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        50
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        52
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 31,
+      "layer": "Body",
+      "local_frame": 4,
+      "origin_xy": [
+        20,
+        12
+      ],
+      "pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "pivot_crop_xy": [
+        40,
+        106
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/Body_04.png",
+      "size": [
+        67,
+        106
+      ],
+      "size_px": [
+        67,
+        106
+      ],
+      "left_origin_xy": [
+        33,
+        12
+      ],
+      "left_pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        41
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        50
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        52
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 31,
+      "layer": "BackArm",
+      "local_frame": 4,
+      "origin_xy": [
+        66,
+        45
+      ],
+      "pivot_canvas_xy": [
+        73,
+        52
+      ],
+      "pivot_crop_xy": [
+        7,
+        7
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/BackArm_04.png",
+      "size": [
+        31,
+        25
+      ],
+      "size_px": [
+        31,
+        25
+      ],
+      "left_origin_xy": [
+        23,
+        45
+      ],
+      "left_pivot_canvas_xy": [
+        46,
+        52
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        41
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        50
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        52
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 31,
+      "layer": "Weapon",
+      "local_frame": 4,
+      "origin_xy": [
+        34,
+        37
+      ],
+      "pivot_canvas_xy": [
+        66,
+        49
+      ],
+      "pivot_crop_xy": [
+        32,
+        12
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/Weapon_04.png",
+      "size": [
+        78,
+        17
+      ],
+      "size_px": [
+        78,
+        17
+      ],
+      "left_origin_xy": [
+        8,
+        37
+      ],
+      "left_pivot_canvas_xy": [
+        53,
+        49
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        41
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        50
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        52
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 31,
+      "layer": "FrontArm",
+      "local_frame": 4,
+      "origin_xy": [
+        20,
+        45
+      ],
+      "pivot_canvas_xy": [
+        30,
+        52
+      ],
+      "pivot_crop_xy": [
+        10,
+        7
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/FrontArm_04.png",
+      "size": [
+        45,
+        29
+      ],
+      "size_px": [
+        45,
+        29
+      ],
+      "left_origin_xy": [
+        55,
+        45
+      ],
+      "left_pivot_canvas_xy": [
+        89,
+        52
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        41
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        50
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        52
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 32,
+      "layer": "Body",
+      "local_frame": 5,
+      "origin_xy": [
+        20,
+        12
+      ],
+      "pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "pivot_crop_xy": [
+        40,
+        106
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/Body_05.png",
+      "size": [
+        67,
+        106
+      ],
+      "size_px": [
+        67,
+        106
+      ],
+      "left_origin_xy": [
+        33,
+        12
+      ],
+      "left_pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        41
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        50
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        52
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 32,
+      "layer": "BackArm",
+      "local_frame": 5,
+      "origin_xy": [
+        66,
+        45
+      ],
+      "pivot_canvas_xy": [
+        73,
+        52
+      ],
+      "pivot_crop_xy": [
+        7,
+        7
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/BackArm_05.png",
+      "size": [
+        31,
+        25
+      ],
+      "size_px": [
+        31,
+        25
+      ],
+      "left_origin_xy": [
+        23,
+        45
+      ],
+      "left_pivot_canvas_xy": [
+        46,
+        52
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        41
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        50
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        52
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 32,
+      "layer": "Weapon",
+      "local_frame": 5,
+      "origin_xy": [
+        34,
+        37
+      ],
+      "pivot_canvas_xy": [
+        66,
+        49
+      ],
+      "pivot_crop_xy": [
+        32,
+        12
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/Weapon_05.png",
+      "size": [
+        78,
+        17
+      ],
+      "size_px": [
+        78,
+        17
+      ],
+      "left_origin_xy": [
+        8,
+        37
+      ],
+      "left_pivot_canvas_xy": [
+        53,
+        49
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        41
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        50
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        52
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 32,
+      "layer": "FrontArm",
+      "local_frame": 5,
+      "origin_xy": [
+        20,
+        45
+      ],
+      "pivot_canvas_xy": [
+        30,
+        52
+      ],
+      "pivot_crop_xy": [
+        10,
+        7
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/FrontArm_05.png",
+      "size": [
+        45,
+        29
+      ],
+      "size_px": [
+        45,
+        29
+      ],
+      "left_origin_xy": [
+        55,
+        45
+      ],
+      "left_pivot_canvas_xy": [
+        89,
+        52
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        41
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        50
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        52
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 33,
+      "layer": "Body",
+      "local_frame": 6,
+      "origin_xy": [
+        20,
+        12
+      ],
+      "pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "pivot_crop_xy": [
+        40,
+        106
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/Body_06.png",
+      "size": [
+        67,
+        106
+      ],
+      "size_px": [
+        67,
+        106
+      ],
+      "left_origin_xy": [
+        33,
+        12
+      ],
+      "left_pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        41
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        50
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        52
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 33,
+      "layer": "BackArm",
+      "local_frame": 6,
+      "origin_xy": [
+        66,
+        45
+      ],
+      "pivot_canvas_xy": [
+        73,
+        52
+      ],
+      "pivot_crop_xy": [
+        7,
+        7
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/BackArm_06.png",
+      "size": [
+        31,
+        25
+      ],
+      "size_px": [
+        31,
+        25
+      ],
+      "left_origin_xy": [
+        23,
+        45
+      ],
+      "left_pivot_canvas_xy": [
+        46,
+        52
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        41
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        50
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        52
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 33,
+      "layer": "Weapon",
+      "local_frame": 6,
+      "origin_xy": [
+        34,
+        37
+      ],
+      "pivot_canvas_xy": [
+        66,
+        49
+      ],
+      "pivot_crop_xy": [
+        32,
+        12
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/Weapon_06.png",
+      "size": [
+        78,
+        17
+      ],
+      "size_px": [
+        78,
+        17
+      ],
+      "left_origin_xy": [
+        8,
+        37
+      ],
+      "left_pivot_canvas_xy": [
+        53,
+        49
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        41
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        50
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        52
+      ]
+    },
+    {
+      "action": "walk_v2_tactical",
+      "frame": 33,
+      "layer": "FrontArm",
+      "local_frame": 6,
+      "origin_xy": [
+        20,
+        45
+      ],
+      "pivot_canvas_xy": [
+        30,
+        52
+      ],
+      "pivot_crop_xy": [
+        10,
+        7
+      ],
+      "png": "Parts/Frames/walk_v2_tactical/FrontArm_06.png",
+      "size": [
+        45,
+        29
+      ],
+      "size_px": [
+        45,
+        29
+      ],
+      "left_origin_xy": [
+        55,
+        45
+      ],
+      "left_pivot_canvas_xy": [
+        89,
+        52
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        41
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        50
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        52
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 34,
+      "layer": "Body",
+      "local_frame": 1,
+      "origin_xy": [
+        20,
+        12
+      ],
+      "pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "pivot_crop_xy": [
+        40,
+        106
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/Body_01.png",
+      "size": [
+        67,
+        106
+      ],
+      "size_px": [
+        67,
+        106
+      ],
+      "left_origin_xy": [
+        33,
+        12
+      ],
+      "left_pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        98,
+        52
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 34,
+      "layer": "BackArm",
+      "local_frame": 1,
+      "origin_xy": [
+        65,
+        41
+      ],
+      "pivot_canvas_xy": [
+        72,
+        43
+      ],
+      "pivot_crop_xy": [
+        7,
+        2
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/BackArm_01.png",
+      "size": [
+        41,
+        26
+      ],
+      "size_px": [
+        41,
+        26
+      ],
+      "left_origin_xy": [
+        14,
+        41
+      ],
+      "left_pivot_canvas_xy": [
+        47,
+        43
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        98,
+        52
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 34,
+      "layer": "Weapon",
+      "local_frame": 1,
+      "origin_xy": [
+        34,
+        40
+      ],
+      "pivot_canvas_xy": [
+        66,
+        52
+      ],
+      "pivot_crop_xy": [
+        32,
+        12
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/Weapon_01.png",
+      "size": [
+        78,
+        17
+      ],
+      "size_px": [
+        78,
+        17
+      ],
+      "left_origin_xy": [
+        8,
+        40
+      ],
+      "left_pivot_canvas_xy": [
+        53,
+        52
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        98,
+        52
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 34,
+      "layer": "FrontArm",
+      "local_frame": 1,
+      "origin_xy": [
+        21,
+        36
+      ],
+      "pivot_canvas_xy": [
+        28,
+        43
+      ],
+      "pivot_crop_xy": [
+        7,
+        7
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/FrontArm_01.png",
+      "size": [
+        48,
+        34
+      ],
+      "size_px": [
+        48,
+        34
+      ],
+      "left_origin_xy": [
+        51,
+        36
+      ],
+      "left_pivot_canvas_xy": [
+        91,
+        43
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        98,
+        52
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 35,
+      "layer": "Body",
+      "local_frame": 2,
+      "origin_xy": [
+        20,
+        13
+      ],
+      "pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "pivot_crop_xy": [
+        40,
+        105
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/Body_02.png",
+      "size": [
+        67,
+        105
+      ],
+      "size_px": [
+        67,
+        105
+      ],
+      "left_origin_xy": [
+        33,
+        13
+      ],
+      "left_pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        45
+      ],
+      "hand_front_canvas_xy": [
+        38,
+        60
+      ],
+      "hand_back_canvas_xy": [
+        61,
+        54
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 35,
+      "layer": "BackArm",
+      "local_frame": 2,
+      "origin_xy": [
+        54,
+        42
+      ],
+      "pivot_canvas_xy": [
+        71,
+        44
+      ],
+      "pivot_crop_xy": [
+        17,
+        2
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/BackArm_02.png",
+      "size": [
+        25,
+        29
+      ],
+      "size_px": [
+        25,
+        29
+      ],
+      "left_origin_xy": [
+        41,
+        42
+      ],
+      "left_pivot_canvas_xy": [
+        48,
+        44
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        45
+      ],
+      "hand_front_canvas_xy": [
+        38,
+        60
+      ],
+      "hand_back_canvas_xy": [
+        61,
+        54
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 35,
+      "layer": "Weapon",
+      "local_frame": 2,
+      "origin_xy": [
+        34,
+        41
+      ],
+      "pivot_canvas_xy": [
+        66,
+        53
+      ],
+      "pivot_crop_xy": [
+        32,
+        12
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/Weapon_02.png",
+      "size": [
+        78,
+        17
+      ],
+      "size_px": [
+        78,
+        17
+      ],
+      "left_origin_xy": [
+        8,
+        41
+      ],
+      "left_pivot_canvas_xy": [
+        53,
+        53
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        45
+      ],
+      "hand_front_canvas_xy": [
+        38,
+        60
+      ],
+      "hand_back_canvas_xy": [
+        61,
+        54
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 35,
+      "layer": "FrontArm",
+      "local_frame": 2,
+      "origin_xy": [
+        18,
+        37
+      ],
+      "pivot_canvas_xy": [
+        28,
+        44
+      ],
+      "pivot_crop_xy": [
+        10,
+        7
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/FrontArm_02.png",
+      "size": [
+        28,
+        40
+      ],
+      "size_px": [
+        28,
+        40
+      ],
+      "left_origin_xy": [
+        74,
+        37
+      ],
+      "left_pivot_canvas_xy": [
+        91,
+        44
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        45
+      ],
+      "hand_front_canvas_xy": [
+        38,
+        60
+      ],
+      "hand_back_canvas_xy": [
+        61,
+        54
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 35,
+      "layer": "Ammo",
+      "local_frame": 2,
+      "origin_xy": [
+        40,
+        56
+      ],
+      "pivot_canvas_xy": [
+        66,
+        53
+      ],
+      "pivot_crop_xy": [
+        26,
+        -3
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/Ammo_02.png",
+      "size": [
+        3,
+        6
+      ],
+      "size_px": [
+        3,
+        6
+      ],
+      "left_origin_xy": [
+        77,
+        56
+      ],
+      "left_pivot_canvas_xy": [
+        53,
+        53
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        45
+      ],
+      "hand_front_canvas_xy": [
+        38,
+        60
+      ],
+      "hand_back_canvas_xy": [
+        61,
+        54
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 36,
+      "layer": "Body",
+      "local_frame": 3,
+      "origin_xy": [
+        20,
+        14
+      ],
+      "pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "pivot_crop_xy": [
+        40,
+        104
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/Body_03.png",
+      "size": [
+        67,
+        104
+      ],
+      "size_px": [
+        67,
+        104
+      ],
+      "left_origin_xy": [
+        33,
+        14
+      ],
+      "left_pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        46
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        55
+      ],
+      "hand_back_canvas_xy": [
+        73,
+        53
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 36,
+      "layer": "BackArm",
+      "local_frame": 3,
+      "origin_xy": [
+        66,
+        43
+      ],
+      "pivot_canvas_xy": [
+        74,
+        45
+      ],
+      "pivot_crop_xy": [
+        8,
+        2
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/BackArm_03.png",
+      "size": [
+        16,
+        26
+      ],
+      "size_px": [
+        16,
+        26
+      ],
+      "left_origin_xy": [
+        38,
+        43
+      ],
+      "left_pivot_canvas_xy": [
+        45,
+        45
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        46
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        55
+      ],
+      "hand_back_canvas_xy": [
+        73,
+        53
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 36,
+      "layer": "Weapon",
+      "local_frame": 3,
+      "origin_xy": [
+        34,
+        42
+      ],
+      "pivot_canvas_xy": [
+        66,
+        54
+      ],
+      "pivot_crop_xy": [
+        32,
+        12
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/Weapon_03.png",
+      "size": [
+        78,
+        17
+      ],
+      "size_px": [
+        78,
+        17
+      ],
+      "left_origin_xy": [
+        8,
+        42
+      ],
+      "left_pivot_canvas_xy": [
+        53,
+        54
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        46
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        55
+      ],
+      "hand_back_canvas_xy": [
+        73,
+        53
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 36,
+      "layer": "FrontArm",
+      "local_frame": 3,
+      "origin_xy": [
+        23,
+        38
+      ],
+      "pivot_canvas_xy": [
+        31,
+        45
+      ],
+      "pivot_crop_xy": [
+        8,
+        7
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/FrontArm_03.png",
+      "size": [
+        46,
+        34
+      ],
+      "size_px": [
+        46,
+        34
+      ],
+      "left_origin_xy": [
+        51,
+        38
+      ],
+      "left_pivot_canvas_xy": [
+        88,
+        45
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        46
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        55
+      ],
+      "hand_back_canvas_xy": [
+        73,
+        53
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 36,
+      "layer": "Ammo",
+      "local_frame": 3,
+      "origin_xy": [
+        70,
+        50
+      ],
+      "pivot_canvas_xy": [
+        66,
+        54
+      ],
+      "pivot_crop_xy": [
+        -4,
+        4
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/Ammo_03.png",
+      "size": [
+        3,
+        6
+      ],
+      "size_px": [
+        3,
+        6
+      ],
+      "left_origin_xy": [
+        47,
+        50
+      ],
+      "left_pivot_canvas_xy": [
+        53,
+        54
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        46
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        55
+      ],
+      "hand_back_canvas_xy": [
+        73,
+        53
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 37,
+      "layer": "Body",
+      "local_frame": 4,
+      "origin_xy": [
+        20,
+        14
+      ],
+      "pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "pivot_crop_xy": [
+        40,
+        104
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/Body_04.png",
+      "size": [
+        67,
+        104
+      ],
+      "size_px": [
+        67,
+        104
+      ],
+      "left_origin_xy": [
+        33,
+        14
+      ],
+      "left_pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        46
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        55
+      ],
+      "hand_back_canvas_xy": [
+        69,
+        53
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 37,
+      "layer": "BackArm",
+      "local_frame": 4,
+      "origin_xy": [
+        62,
+        44
+      ],
+      "pivot_canvas_xy": [
+        71,
+        46
+      ],
+      "pivot_crop_xy": [
+        9,
+        2
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/BackArm_04.png",
+      "size": [
+        17,
+        26
+      ],
+      "size_px": [
+        17,
+        26
+      ],
+      "left_origin_xy": [
+        41,
+        44
+      ],
+      "left_pivot_canvas_xy": [
+        48,
+        46
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        46
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        55
+      ],
+      "hand_back_canvas_xy": [
+        69,
+        53
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 37,
+      "layer": "Weapon",
+      "local_frame": 4,
+      "origin_xy": [
+        34,
+        42
+      ],
+      "pivot_canvas_xy": [
+        66,
+        54
+      ],
+      "pivot_crop_xy": [
+        32,
+        12
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/Weapon_04.png",
+      "size": [
+        78,
+        17
+      ],
+      "size_px": [
+        78,
+        17
+      ],
+      "left_origin_xy": [
+        8,
+        42
+      ],
+      "left_pivot_canvas_xy": [
+        53,
+        54
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        46
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        55
+      ],
+      "hand_back_canvas_xy": [
+        69,
+        53
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 37,
+      "layer": "FrontArm",
+      "local_frame": 4,
+      "origin_xy": [
+        21,
+        39
+      ],
+      "pivot_canvas_xy": [
+        27,
+        46
+      ],
+      "pivot_crop_xy": [
+        6,
+        7
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/FrontArm_04.png",
+      "size": [
+        47,
+        33
+      ],
+      "size_px": [
+        47,
+        33
+      ],
+      "left_origin_xy": [
+        52,
+        39
+      ],
+      "left_pivot_canvas_xy": [
+        92,
+        46
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        46
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        55
+      ],
+      "hand_back_canvas_xy": [
+        69,
+        53
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 37,
+      "layer": "Ammo",
+      "local_frame": 4,
+      "origin_xy": [
+        70,
+        50
+      ],
+      "pivot_canvas_xy": [
+        66,
+        54
+      ],
+      "pivot_crop_xy": [
+        -4,
+        4
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/Ammo_04.png",
+      "size": [
+        3,
+        6
+      ],
+      "size_px": [
+        3,
+        6
+      ],
+      "left_origin_xy": [
+        47,
+        50
+      ],
+      "left_pivot_canvas_xy": [
+        53,
+        54
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        46
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        55
+      ],
+      "hand_back_canvas_xy": [
+        69,
+        53
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 38,
+      "layer": "Body",
+      "local_frame": 5,
+      "origin_xy": [
+        20,
+        13
+      ],
+      "pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "pivot_crop_xy": [
+        40,
+        105
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/Body_05.png",
+      "size": [
+        67,
+        105
+      ],
+      "size_px": [
+        67,
+        105
+      ],
+      "left_origin_xy": [
+        33,
+        13
+      ],
+      "left_pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        45
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        54
+      ],
+      "hand_back_canvas_xy": [
+        101,
+        55
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 38,
+      "layer": "BackArm",
+      "local_frame": 5,
+      "origin_xy": [
+        67,
+        44
+      ],
+      "pivot_canvas_xy": [
+        74,
+        46
+      ],
+      "pivot_crop_xy": [
+        7,
+        2
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/BackArm_05.png",
+      "size": [
+        42,
+        24
+      ],
+      "size_px": [
+        42,
+        24
+      ],
+      "left_origin_xy": [
+        11,
+        44
+      ],
+      "left_pivot_canvas_xy": [
+        45,
+        46
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        45
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        54
+      ],
+      "hand_back_canvas_xy": [
+        101,
+        55
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 38,
+      "layer": "Weapon",
+      "local_frame": 5,
+      "origin_xy": [
+        34,
+        41
+      ],
+      "pivot_canvas_xy": [
+        66,
+        53
+      ],
+      "pivot_crop_xy": [
+        32,
+        12
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/Weapon_05.png",
+      "size": [
+        78,
+        17
+      ],
+      "size_px": [
+        78,
+        17
+      ],
+      "left_origin_xy": [
+        8,
+        41
+      ],
+      "left_pivot_canvas_xy": [
+        53,
+        53
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        45
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        54
+      ],
+      "hand_back_canvas_xy": [
+        101,
+        55
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 38,
+      "layer": "FrontArm",
+      "local_frame": 5,
+      "origin_xy": [
+        21,
+        39
+      ],
+      "pivot_canvas_xy": [
+        30,
+        46
+      ],
+      "pivot_crop_xy": [
+        9,
+        7
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/FrontArm_05.png",
+      "size": [
+        48,
+        32
+      ],
+      "size_px": [
+        48,
+        32
+      ],
+      "left_origin_xy": [
+        51,
+        39
+      ],
+      "left_pivot_canvas_xy": [
+        89,
+        46
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        45
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        54
+      ],
+      "hand_back_canvas_xy": [
+        101,
+        55
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 39,
+      "layer": "Body",
+      "local_frame": 6,
+      "origin_xy": [
+        20,
+        12
+      ],
+      "pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "pivot_crop_xy": [
+        40,
+        106
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/Body_06.png",
+      "size": [
+        67,
+        106
+      ],
+      "size_px": [
+        67,
+        106
+      ],
+      "left_origin_xy": [
+        33,
+        12
+      ],
+      "left_pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        98,
+        52
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 39,
+      "layer": "BackArm",
+      "local_frame": 6,
+      "origin_xy": [
+        66,
+        35
+      ],
+      "pivot_canvas_xy": [
+        73,
+        42
+      ],
+      "pivot_crop_xy": [
+        7,
+        7
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/BackArm_06.png",
+      "size": [
+        40,
+        32
+      ],
+      "size_px": [
+        40,
+        32
+      ],
+      "left_origin_xy": [
+        14,
+        35
+      ],
+      "left_pivot_canvas_xy": [
+        46,
+        42
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        98,
+        52
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 39,
+      "layer": "Weapon",
+      "local_frame": 6,
+      "origin_xy": [
+        34,
+        40
+      ],
+      "pivot_canvas_xy": [
+        66,
+        52
+      ],
+      "pivot_crop_xy": [
+        32,
+        12
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/Weapon_06.png",
+      "size": [
+        78,
+        17
+      ],
+      "size_px": [
+        78,
+        17
+      ],
+      "left_origin_xy": [
+        8,
+        40
+      ],
+      "left_pivot_canvas_xy": [
+        53,
+        52
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        98,
+        52
+      ]
+    },
+    {
+      "action": "reload_v2_tactical",
+      "frame": 39,
+      "layer": "FrontArm",
+      "local_frame": 6,
+      "origin_xy": [
+        22,
+        35
+      ],
+      "pivot_canvas_xy": [
+        30,
+        42
+      ],
+      "pivot_crop_xy": [
+        8,
+        7
+      ],
+      "png": "Parts/Frames/reload_v2_tactical/FrontArm_06.png",
+      "size": [
+        47,
+        35
+      ],
+      "size_px": [
+        47,
+        35
+      ],
+      "left_origin_xy": [
+        51,
+        35
+      ],
+      "left_pivot_canvas_xy": [
+        89,
+        42
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        98,
+        52
+      ]
+    },
+    {
+      "action": "fire_v2_tactical",
+      "frame": 40,
+      "layer": "Body",
+      "local_frame": 1,
+      "origin_xy": [
+        20,
+        12
+      ],
+      "pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "pivot_crop_xy": [
+        40,
+        106
+      ],
+      "png": "Parts/Frames/fire_v2_tactical/Body_01.png",
+      "size": [
+        67,
+        106
+      ],
+      "size_px": [
+        67,
+        106
+      ],
+      "left_origin_xy": [
+        33,
+        12
+      ],
+      "left_pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        55
+      ]
+    },
+    {
+      "action": "fire_v2_tactical",
+      "frame": 40,
+      "layer": "BackArm",
+      "local_frame": 1,
+      "origin_xy": [
+        66,
+        48
+      ],
+      "pivot_canvas_xy": [
+        73,
+        55
+      ],
+      "pivot_crop_xy": [
+        7,
+        7
+      ],
+      "png": "Parts/Frames/fire_v2_tactical/BackArm_01.png",
+      "size": [
+        31,
+        25
+      ],
+      "size_px": [
+        31,
+        25
+      ],
+      "left_origin_xy": [
+        23,
+        48
+      ],
+      "left_pivot_canvas_xy": [
+        46,
+        55
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        55
+      ]
+    },
+    {
+      "action": "fire_v2_tactical",
+      "frame": 40,
+      "layer": "Weapon",
+      "local_frame": 1,
+      "origin_xy": [
+        34,
+        40
+      ],
+      "pivot_canvas_xy": [
+        66,
+        52
+      ],
+      "pivot_crop_xy": [
+        32,
+        12
+      ],
+      "png": "Parts/Frames/fire_v2_tactical/Weapon_01.png",
+      "size": [
+        78,
+        17
+      ],
+      "size_px": [
+        78,
+        17
+      ],
+      "left_origin_xy": [
+        8,
+        40
+      ],
+      "left_pivot_canvas_xy": [
+        53,
+        52
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        55
+      ]
+    },
+    {
+      "action": "fire_v2_tactical",
+      "frame": 40,
+      "layer": "FrontArm",
+      "local_frame": 1,
+      "origin_xy": [
+        20,
+        48
+      ],
+      "pivot_canvas_xy": [
+        30,
+        55
+      ],
+      "pivot_crop_xy": [
+        10,
+        7
+      ],
+      "png": "Parts/Frames/fire_v2_tactical/FrontArm_01.png",
+      "size": [
+        45,
+        29
+      ],
+      "size_px": [
+        45,
+        29
+      ],
+      "left_origin_xy": [
+        55,
+        48
+      ],
+      "left_pivot_canvas_xy": [
+        89,
+        55
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        55
+      ]
+    },
+    {
+      "action": "fire_v2_tactical",
+      "frame": 41,
+      "layer": "Body",
+      "local_frame": 2,
+      "origin_xy": [
+        19,
+        13
+      ],
+      "pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "pivot_crop_xy": [
+        41,
+        105
+      ],
+      "png": "Parts/Frames/fire_v2_tactical/Body_02.png",
+      "size": [
+        66,
+        105
+      ],
+      "size_px": [
+        66,
+        105
+      ],
+      "left_origin_xy": [
+        35,
+        13
+      ],
+      "left_pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "muzzle_canvas_xy": [
+        108,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        58,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        86,
+        55
+      ]
+    },
+    {
+      "action": "fire_v2_tactical",
+      "frame": 41,
+      "layer": "BackArm",
+      "local_frame": 2,
+      "origin_xy": [
+        63,
+        48
+      ],
+      "pivot_canvas_xy": [
+        70,
+        55
+      ],
+      "pivot_crop_xy": [
+        7,
+        7
+      ],
+      "png": "Parts/Frames/fire_v2_tactical/BackArm_02.png",
+      "size": [
+        31,
+        25
+      ],
+      "size_px": [
+        31,
+        25
+      ],
+      "left_origin_xy": [
+        26,
+        48
+      ],
+      "left_pivot_canvas_xy": [
+        49,
+        55
+      ],
+      "muzzle_canvas_xy": [
+        108,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        58,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        86,
+        55
+      ]
+    },
+    {
+      "action": "fire_v2_tactical",
+      "frame": 41,
+      "layer": "Weapon",
+      "local_frame": 2,
+      "origin_xy": [
+        31,
+        40
+      ],
+      "pivot_canvas_xy": [
+        63,
+        52
+      ],
+      "pivot_crop_xy": [
+        32,
+        12
+      ],
+      "png": "Parts/Frames/fire_v2_tactical/Weapon_02.png",
+      "size": [
+        78,
+        17
+      ],
+      "size_px": [
+        78,
+        17
+      ],
+      "left_origin_xy": [
+        11,
+        40
+      ],
+      "left_pivot_canvas_xy": [
+        56,
+        52
+      ],
+      "muzzle_canvas_xy": [
+        108,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        58,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        86,
+        55
+      ]
+    },
+    {
+      "action": "fire_v2_tactical",
+      "frame": 41,
+      "layer": "FrontArm",
+      "local_frame": 2,
+      "origin_xy": [
+        17,
+        48
+      ],
+      "pivot_canvas_xy": [
+        27,
+        55
+      ],
+      "pivot_crop_xy": [
+        10,
+        7
+      ],
+      "png": "Parts/Frames/fire_v2_tactical/FrontArm_02.png",
+      "size": [
+        45,
+        29
+      ],
+      "size_px": [
+        45,
+        29
+      ],
+      "left_origin_xy": [
+        58,
+        48
+      ],
+      "left_pivot_canvas_xy": [
+        92,
+        55
+      ],
+      "muzzle_canvas_xy": [
+        108,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        58,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        86,
+        55
+      ]
+    },
+    {
+      "action": "fire_v2_tactical",
+      "frame": 41,
+      "layer": "FX",
+      "local_frame": 2,
+      "origin_xy": [
+        109,
+        40
+      ],
+      "pivot_canvas_xy": [
+        63,
+        52
+      ],
+      "pivot_crop_xy": [
+        -46,
+        12
+      ],
+      "png": "Parts/Frames/fire_v2_tactical/FX_02.png",
+      "size": [
+        10,
+        9
+      ],
+      "size_px": [
+        10,
+        9
+      ],
+      "left_origin_xy": [
+        1,
+        40
+      ],
+      "left_pivot_canvas_xy": [
+        56,
+        52
+      ],
+      "muzzle_canvas_xy": [
+        108,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        58,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        86,
+        55
+      ]
+    },
+    {
+      "action": "fire_v2_tactical",
+      "frame": 42,
+      "layer": "Body",
+      "local_frame": 3,
+      "origin_xy": [
+        20,
+        13
+      ],
+      "pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "pivot_crop_xy": [
+        40,
+        105
+      ],
+      "png": "Parts/Frames/fire_v2_tactical/Body_03.png",
+      "size": [
+        66,
+        105
+      ],
+      "size_px": [
+        66,
+        105
+      ],
+      "left_origin_xy": [
+        34,
+        13
+      ],
+      "left_pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "muzzle_canvas_xy": [
+        110,
+        45
+      ],
+      "hand_front_canvas_xy": [
+        60,
+        54
+      ],
+      "hand_back_canvas_xy": [
+        88,
+        56
+      ]
+    },
+    {
+      "action": "fire_v2_tactical",
+      "frame": 42,
+      "layer": "BackArm",
+      "local_frame": 3,
+      "origin_xy": [
+        65,
+        49
+      ],
+      "pivot_canvas_xy": [
+        72,
+        56
+      ],
+      "pivot_crop_xy": [
+        7,
+        7
+      ],
+      "png": "Parts/Frames/fire_v2_tactical/BackArm_03.png",
+      "size": [
+        31,
+        25
+      ],
+      "size_px": [
+        31,
+        25
+      ],
+      "left_origin_xy": [
+        24,
+        49
+      ],
+      "left_pivot_canvas_xy": [
+        47,
+        56
+      ],
+      "muzzle_canvas_xy": [
+        110,
+        45
+      ],
+      "hand_front_canvas_xy": [
+        60,
+        54
+      ],
+      "hand_back_canvas_xy": [
+        88,
+        56
+      ]
+    },
+    {
+      "action": "fire_v2_tactical",
+      "frame": 42,
+      "layer": "Weapon",
+      "local_frame": 3,
+      "origin_xy": [
+        33,
+        41
+      ],
+      "pivot_canvas_xy": [
+        65,
+        53
+      ],
+      "pivot_crop_xy": [
+        32,
+        12
+      ],
+      "png": "Parts/Frames/fire_v2_tactical/Weapon_03.png",
+      "size": [
+        78,
+        17
+      ],
+      "size_px": [
+        78,
+        17
+      ],
+      "left_origin_xy": [
+        9,
+        41
+      ],
+      "left_pivot_canvas_xy": [
+        54,
+        53
+      ],
+      "muzzle_canvas_xy": [
+        110,
+        45
+      ],
+      "hand_front_canvas_xy": [
+        60,
+        54
+      ],
+      "hand_back_canvas_xy": [
+        88,
+        56
+      ]
+    },
+    {
+      "action": "fire_v2_tactical",
+      "frame": 42,
+      "layer": "FrontArm",
+      "local_frame": 3,
+      "origin_xy": [
+        19,
+        49
+      ],
+      "pivot_canvas_xy": [
+        29,
+        56
+      ],
+      "pivot_crop_xy": [
+        10,
+        7
+      ],
+      "png": "Parts/Frames/fire_v2_tactical/FrontArm_03.png",
+      "size": [
+        45,
+        29
+      ],
+      "size_px": [
+        45,
+        29
+      ],
+      "left_origin_xy": [
+        56,
+        49
+      ],
+      "left_pivot_canvas_xy": [
+        90,
+        56
+      ],
+      "muzzle_canvas_xy": [
+        110,
+        45
+      ],
+      "hand_front_canvas_xy": [
+        60,
+        54
+      ],
+      "hand_back_canvas_xy": [
+        88,
+        56
+      ]
+    },
+    {
+      "action": "fire_v2_tactical",
+      "frame": 43,
+      "layer": "Body",
+      "local_frame": 4,
+      "origin_xy": [
+        20,
+        12
+      ],
+      "pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "pivot_crop_xy": [
+        40,
+        106
+      ],
+      "png": "Parts/Frames/fire_v2_tactical/Body_04.png",
+      "size": [
+        67,
+        106
+      ],
+      "size_px": [
+        67,
+        106
+      ],
+      "left_origin_xy": [
+        33,
+        12
+      ],
+      "left_pivot_canvas_xy": [
+        60,
+        118
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        55
+      ]
+    },
+    {
+      "action": "fire_v2_tactical",
+      "frame": 43,
+      "layer": "BackArm",
+      "local_frame": 4,
+      "origin_xy": [
+        66,
+        48
+      ],
+      "pivot_canvas_xy": [
+        73,
+        55
+      ],
+      "pivot_crop_xy": [
+        7,
+        7
+      ],
+      "png": "Parts/Frames/fire_v2_tactical/BackArm_04.png",
+      "size": [
+        31,
+        25
+      ],
+      "size_px": [
+        31,
+        25
+      ],
+      "left_origin_xy": [
+        23,
+        48
+      ],
+      "left_pivot_canvas_xy": [
+        46,
+        55
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        55
+      ]
+    },
+    {
+      "action": "fire_v2_tactical",
+      "frame": 43,
+      "layer": "Weapon",
+      "local_frame": 4,
+      "origin_xy": [
+        34,
+        40
+      ],
+      "pivot_canvas_xy": [
+        66,
+        52
+      ],
+      "pivot_crop_xy": [
+        32,
+        12
+      ],
+      "png": "Parts/Frames/fire_v2_tactical/Weapon_04.png",
+      "size": [
+        78,
+        17
+      ],
+      "size_px": [
+        78,
+        17
+      ],
+      "left_origin_xy": [
+        8,
+        40
+      ],
+      "left_pivot_canvas_xy": [
+        53,
+        52
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        55
+      ]
+    },
+    {
+      "action": "fire_v2_tactical",
+      "frame": 43,
+      "layer": "FrontArm",
+      "local_frame": 4,
+      "origin_xy": [
+        20,
+        48
+      ],
+      "pivot_canvas_xy": [
+        30,
+        55
+      ],
+      "pivot_crop_xy": [
+        10,
+        7
+      ],
+      "png": "Parts/Frames/fire_v2_tactical/FrontArm_04.png",
+      "size": [
+        45,
+        29
+      ],
+      "size_px": [
+        45,
+        29
+      ],
+      "left_origin_xy": [
+        55,
+        48
+      ],
+      "left_pivot_canvas_xy": [
+        89,
+        55
+      ],
+      "muzzle_canvas_xy": [
+        111,
+        44
+      ],
+      "hand_front_canvas_xy": [
+        61,
+        53
+      ],
+      "hand_back_canvas_xy": [
+        89,
+        55
+      ]
+    }
+  ],
+  "root_pivot": [
+    60,
+    118
+  ]
+}

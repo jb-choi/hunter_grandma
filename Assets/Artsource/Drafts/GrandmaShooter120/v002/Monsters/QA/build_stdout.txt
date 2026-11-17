@@ -1,0 +1,4 @@
+Built z01_normal: 28 poses, 5 clips, 3 material/FX layers.
+Built z02_large: 28 poses, 5 clips, 3 material/FX layers.
+Built z03_human: 28 poses, 5 clips, 3 material/FX layers.
+Built all 3 human-form slime characters: 15 clips / 84 frames.

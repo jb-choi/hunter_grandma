@@ -1,0 +1,1 @@
+{"frame19": null, "frames": 27, "layers": ["Body", "BackArm", "Weapon", "FrontArm", "Ammo", "Pickup", "FX"], "tags": [{"from": 1, "name": "Idle", "to": 27}, {"from": 5, "name": "Walk", "to": 27}, {"from": 11, "name": "Reload", "to": 27}, {"from": 17, "name": "Aim", "to": 27}, {"from": 20, "name": "Fire", "to": 27}, {"from": 24, "name": "Collect", "to": 27}]}

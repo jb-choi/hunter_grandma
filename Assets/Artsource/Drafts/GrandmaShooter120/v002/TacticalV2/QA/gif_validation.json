@@ -1,0 +1,180 @@
+{
+  "gifs": [
+    {
+      "path": "TacticalV2\\Export\\Gifs\\fire_v2_tactical.gif",
+      "passed": true,
+      "canvas": [
+        120,
+        120
+      ],
+      "durations_ms": [
+        100,
+        70,
+        100,
+        150
+      ],
+      "frames": 4
+    },
+    {
+      "path": "TacticalV2\\Export\\Gifs\\reload_v2_tactical.gif",
+      "passed": true,
+      "canvas": [
+        120,
+        120
+      ],
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "frames": 6
+    },
+    {
+      "path": "TacticalV2\\Export\\Gifs\\walk_v2_tactical.gif",
+      "passed": true,
+      "canvas": [
+        120,
+        120
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "frames": 6
+    },
+    {
+      "path": "TacticalV2\\Previews\\fire_v2_tactical_3x.gif",
+      "passed": true,
+      "canvas": [
+        360,
+        360
+      ],
+      "durations_ms": [
+        100,
+        70,
+        100,
+        150
+      ],
+      "frames": 4
+    },
+    {
+      "path": "TacticalV2\\Previews\\fire_v2_tactical_comparison_3x.gif",
+      "passed": true,
+      "canvas": [
+        720,
+        360
+      ],
+      "durations_ms": [
+        100,
+        70,
+        100,
+        150
+      ],
+      "frames": 4
+    },
+    {
+      "path": "TacticalV2\\Previews\\reload_v2_tactical_3x.gif",
+      "passed": true,
+      "canvas": [
+        360,
+        360
+      ],
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "frames": 6
+    },
+    {
+      "path": "TacticalV2\\Previews\\reload_v2_tactical_comparison_3x.gif",
+      "passed": true,
+      "canvas": [
+        720,
+        360
+      ],
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "frames": 6
+    },
+    {
+      "path": "TacticalV2\\Previews\\tactical_v2_set_3x.gif",
+      "passed": true,
+      "canvas": [
+        360,
+        360
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        100,
+        70,
+        100,
+        150
+      ],
+      "frames": 16
+    },
+    {
+      "path": "TacticalV2\\Previews\\walk_v2_tactical_3x.gif",
+      "passed": true,
+      "canvas": [
+        360,
+        360
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "frames": 6
+    },
+    {
+      "path": "TacticalV2\\Previews\\walk_v2_tactical_comparison_3x.gif",
+      "passed": true,
+      "canvas": [
+        720,
+        360
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "frames": 6
+    }
+  ],
+  "passed": true,
+  "date": "2026-11-02"
+}

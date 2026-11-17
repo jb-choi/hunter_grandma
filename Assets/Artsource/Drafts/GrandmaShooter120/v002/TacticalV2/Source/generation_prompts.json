@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-02",
+  "method": "Built-in ImageGen body layers, independent native shotgun/arms/Ammo/FX assembly",
+  "user_request": "보폭이 더 좁고 발 끝으로 걷는 느낌. 장전 모션과 fire도 v2 구분.",
+  "assets": [
+    {
+      "name": "Walk",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Use case: precise-object-edit. Asset type: BODY-ONLY animation sprite atlas for the SAME Sundeok grandma v2 tactical stance. Input1 is the armless body design/identity EDIT reference. Input2 shows the ready gun and arms for posture CONTEXT ONLY; input3 shows existing reload/fire gesture context. Preserve the elderly short stocky Korean woman's face/glasses/curly gray perm, mustard diamond-quilted padded jacket, plum floral trousers, wine slip-on shoes/pale soles and warm clean pixel-art proportions. Preserve the slight10-15degree forward torso inclination, chin tucked, low controlled bent-knee tactical posture. BOTH ARMS/HANDS and all guns/ammo/effects MUST BE ABSENT from output; restore a complete jacket torso under the missing arms for independent arm layers. The legs/feet must now form a MUCH NARROWER stance than reference: keep shoes directly UNDER the pelvis, both feet within a total horizontal span about35-45 logical pixels on a120px canvas, foot centers about15-22px apart. NO leg stretched far forward/back, no wide lunge, no running stride. Quiet FOREFOOT/BALL-OF-FOOT weight, heels gently RAISED2-4 logical pixels, toes touch floor, bent knees cushion the motion; not ballerina pointe shoes or upright exaggerated prancing. Existing wine flat shoes, clear toe-down/heel-up angle and toe contact. Same right-facing side/three-quarter view, same body scale/head/torso location in every cell, silhouette about106px tall, max1px head bob, wide transparent margins, all hair and entire shoes inside each cell. Crisp stepped pixel art around26 opaque colors, dark plum contours, large coherent clusters, no blur/gradients/noisy dither. Genuine transparent background and limb/cell gaps; no ground/shadow/grid/labels/text, no weapons, arms or props. PRIMARY REQUEST: revise tactical walking into VERY SHORT STEPS ON THE TOES with a tightly controlled upper body. EXACT SIX sequential poses in3COLUMNS x2ROWS, row-major. F1front/near toe contacts just half a shoe ahead of back foot, both heels lifted; F2weight transfers over front toes, back toes release, feet stay close; F3rear/far foot passes beneath pelvis a few pixels forward, near forefoot supports; F4opposite toe contacts only half a shoe ahead, both heels still raised; F5opposite weight transfer; F6near foot passes beneath pelvis back toF1. Actual alternating near/far legs, small advances only, both shoes remain under hips throughout. The key difference is NARROW short-step forefoot gait, not the previous big stride. Keep torso leaned and steady in all six; do not merely rotate or mirror one copied leg.",
+      "output": "Source/walk_v2_tiptoe_body_initial.png",
+      "references": [
+        "Source/body_reference_4x.png",
+        "Source/ready_reference_4x.png",
+        "Source/reload_fire_reference_2x.png"
+      ],
+      "status": "Superseded by toe correction and alpha extraction"
+    },
+    {
+      "name": "Reload",
+      "frames": 6,
+      "grid": [
+        3,
+        2
+      ],
+      "prompt": "Use case: precise-object-edit. Asset type: BODY-ONLY animation sprite atlas for the SAME Sundeok grandma v2 tactical stance. Input1 is the armless body design/identity EDIT reference. Input2 shows the ready gun and arms for posture CONTEXT ONLY; input3 shows existing reload/fire gesture context. Preserve the elderly short stocky Korean woman's face/glasses/curly gray perm, mustard diamond-quilted padded jacket, plum floral trousers, wine slip-on shoes/pale soles and warm clean pixel-art proportions. Preserve the slight10-15degree forward torso inclination, chin tucked, low controlled bent-knee tactical posture. BOTH ARMS/HANDS and all guns/ammo/effects MUST BE ABSENT from output; restore a complete jacket torso under the missing arms for independent arm layers. The legs/feet must now form a MUCH NARROWER stance than reference: keep shoes directly UNDER the pelvis, both feet within a total horizontal span about35-45 logical pixels on a120px canvas, foot centers about15-22px apart. NO leg stretched far forward/back, no wide lunge, no running stride. Quiet FOREFOOT/BALL-OF-FOOT weight, heels gently RAISED2-4 logical pixels, toes touch floor, bent knees cushion the motion; not ballerina pointe shoes or upright exaggerated prancing. Existing wine flat shoes, clear toe-down/heel-up angle and toe contact. Same right-facing side/three-quarter view, same body scale/head/torso location in every cell, silhouette about106px tall, max1px head bob, wide transparent margins, all hair and entire shoes inside each cell. Crisp stepped pixel art around26 opaque colors, dark plum contours, large coherent clusters, no blur/gradients/noisy dither. Genuine transparent background and limb/cell gaps; no ground/shadow/grid/labels/text, no weapons, arms or props. PRIMARY REQUEST: SIX stationary TACTICAL RELOAD body poses, EXACT3COLUMNS x2ROWS. Maintain exactly the same very narrow bent-knee stance and forefoot support throughout; feet are planted, no walking or stepping/lunging. The independently added arms will load the shouldered shotgun close to chest/face. F1ready forward-lean brace; F2knees soften1px while chin dips toward loading port; F3slightly deeper controlled weight shift1px, torso still forward; F4hold that compact reload brace, eyes focused downward; F5return1px toward ready; F6ready matchingF1. Keep shoulder/head nearly fixed, pose variation subtle but genuinely drawn cloth/neck/knee changes. Both arms/hands/gun/ammo absent; complete jacket restored, no loading prop in body layer. Avoid large body sway or wide stance.",
+      "output": "Source/reload_v2_body.png",
+      "references": [
+        "Source/body_reference_4x.png",
+        "Source/ready_reference_4x.png",
+        "Source/reload_fire_reference_2x.png"
+      ],
+      "status": "Generated study only; final reload reuses selected narrow forefoot body with native 0-2px torso compression and original reload hands/shell"
+    },
+    {
+      "name": "Fire",
+      "frames": 4,
+      "grid": [
+        2,
+        2
+      ],
+      "prompt": "Use case: precise-object-edit. Asset type: BODY-ONLY animation sprite atlas for the SAME Sundeok grandma v2 tactical stance. Input1 is the armless body design/identity EDIT reference. Input2 shows the ready gun and arms for posture CONTEXT ONLY; input3 shows existing reload/fire gesture context. Preserve the elderly short stocky Korean woman's face/glasses/curly gray perm, mustard diamond-quilted padded jacket, plum floral trousers, wine slip-on shoes/pale soles and warm clean pixel-art proportions. Preserve the slight10-15degree forward torso inclination, chin tucked, low controlled bent-knee tactical posture. BOTH ARMS/HANDS and all guns/ammo/effects MUST BE ABSENT from output; restore a complete jacket torso under the missing arms for independent arm layers. The legs/feet must now form a MUCH NARROWER stance than reference: keep shoes directly UNDER the pelvis, both feet within a total horizontal span about35-45 logical pixels on a120px canvas, foot centers about15-22px apart. NO leg stretched far forward/back, no wide lunge, no running stride. Quiet FOREFOOT/BALL-OF-FOOT weight, heels gently RAISED2-4 logical pixels, toes touch floor, bent knees cushion the motion; not ballerina pointe shoes or upright exaggerated prancing. Existing wine flat shoes, clear toe-down/heel-up angle and toe contact. Same right-facing side/three-quarter view, same body scale/head/torso location in every cell, silhouette about106px tall, max1px head bob, wide transparent margins, all hair and entire shoes inside each cell. Crisp stepped pixel art around26 opaque colors, dark plum contours, large coherent clusters, no blur/gradients/noisy dither. Genuine transparent background and limb/cell gaps; no ground/shadow/grid/labels/text, no weapons, arms or props. PRIMARY REQUEST: FOUR controlled TACTICAL FIRING/RECOIL body poses, EXACT2COLUMNS x2ROWS, row-major. The independent gun/arms will stay shouldered. F1steady ready forward lean and narrow feet; F2short recoil absorption through shoulders/torso, only2-3 logical pixels backward compression, knees soften, chin still down, optional natural blink; F3return toward forward brace1px; F4ready again matchingF1. Feet stay close and fixed; weight stays over forefeet, heel may lightly settle1px for recoil then lift again. No huge backward lean, dramatic body rotation, big step, arms/hands/gun/flash in body layer. Preserve full elderly body and outfit in all4 poses; this is compact recoil absorbed by legs and trunk.",
+      "output": "Source/fire_v2_body.png",
+      "references": [
+        "Source/body_reference_4x.png",
+        "Source/ready_reference_4x.png",
+        "Source/reload_fire_reference_2x.png"
+      ],
+      "status": "Generated study only; final fire reuses selected narrow forefoot body with native compact torso recoil and Aim assembly"
+    },
+    {
+      "name": "WalkToeCorrection",
+      "prompt": "Use case: precise-object-edit. Edit the provided6-frame3columns x2rows armless Sundeok body atlas. Keep EXACT canvas size and all6 cell positions. Keep the head/face/gray curls, forward-lean torso, complete mustard jacket, colors/style/character scale EXACTLY as supplied. Change ONLY the lower legs/feet to make the gait clearly VERY SHORT QUIET TIPTOE/FOREFOOT walking. The current reference is still too wide and the support/front shoe looks too flat: bring both feet much closer directly under the hips, reducing the total horizontal footprint span by ANOTHER25-30percent. Each frame should have foot centers only about one shoe-length apart, a very narrow compact stance. On the support/front foot, the TOE/BALL touches the floor while the HEEL is VISIBLY RAISED with a CLEAR TRANSPARENT AIR GAP underneath the back half of the sole, around3-5 logical pixels at120px character scale. Tilt the entire existing wine shoe toe-down/heel-up about15-25degrees. Do not redraw it as a flat planted horizontal sole or pointy ballet shoe. The back/swing foot also has heel lifted, toes tucked downward, and stays close to the other ankle; bent knees cushion the small steps. Six genuine alternating near/far steps: front toe touch, weight shift, rear toe passing under hips, opposite toe touch, opposite transfer, other toe passing; close and controlled all the way through. No long reaching leg, no wide lunge, no exaggerated high-knee skipping. Head and torso unchanged and steady; clear wine slip-on shoes/pale soles, loose plum floral pants unchanged except small ankle/knee bends needed. Both arms/hands/weapon still absent. Full bodies wholly inside6cells, no overlap/crop. Maintain genuine transparent alpha incl gaps between shoes and underneath raised heels. No added shadow/ground/glow/grid/text. Crisp warm pixel-art clusters, no smooth airbrush. The result must look like careful forefoot/tiptoe steps rather than ordinary heel-to-toe walking.",
+      "output": "Source/walk_v2_tiptoe_body_pre_extraction.png",
+      "references": [
+        "Source/walk_v2_tiptoe_body_initial.png"
+      ],
+      "status": "Pose refinement; alpha repaired in next tool edit"
+    },
+    {
+      "name": "WalkAlphaExtraction",
+      "prompt": "Use case: background-extraction. Edit target: the attached six-pose grandmother body sprite atlas. Remove ONLY the dark purple/black background and all surrounding haze/glow. Return a PNG with genuine zero-alpha empty background and opaque character pixels. Preserve the six characters exactly, in the same 3-column by 2-row grid, with the same expressions, forward lean, golden yellow quilted vest, floral pants, raised heels, small alternating toe steps and red shoes. Preserve all poses, all outlines and every character detail, including dark clothing and hair. No new shadows, no gradients, no color backdrop, no checkerboard drawn into the image. This is an alpha cutout for an editable game sprite; empty corners and all space between figures must have alpha=0.",
+      "output": "Source/walk_v2_tiptoe_body.png",
+      "references": [
+        "Source/walk_v2_tiptoe_body_pre_extraction.png"
+      ],
+      "status": "Selected final body atlas"
+    }
+  ],
+  "calls": 5,
+  "final_method": "Selected ImageGen forefoot walk body atlas; Aseprite nearest sampling/palette registration. Reload/Fire: same body stance plus native upper-body compression/recoil; reuse authored reload hands/shell, Aim arms/shotgun and Fire2 flash. Reload/Fire body generation studies are unused."
+}
